@@ -30,7 +30,7 @@
             {
                 "name": "Starlight Frontier",
                 "uniques": [
-                    "[+1 Happiness] in cities with a [Orbital Launcher]"
+                    "[+1 Happiness] from every [Orbital Launcher]"
                 ], "requires": ["Orbital Homesteading"],
                 "row": 2, "column": 3
             },

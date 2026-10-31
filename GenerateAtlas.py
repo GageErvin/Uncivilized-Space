@@ -152,14 +152,24 @@ def pack_ora_to_atlas(
     if atlas_entry_name.startswith('Images/'):
         atlas_entry_name = atlas_entry_name[len('Images/'):]
 
-    # Ensure atlas keys match expected Unciv format (e.g. TileSets/.../Tiles/...)
-    atlas_content.append(atlas_entry_name)
-    atlas_content.append('  rotate: false')
-    atlas_content.append(f"  xy: {item['atlas_x']}, {item['atlas_y']}")
-    atlas_content.append(f'  size: {w}, {h}')
-    atlas_content.append(f'  orig: {w}, {h}')
-    atlas_content.append('  offset: 0, 0')
-    atlas_content.append('  index: -1')
+    # Helper function to append entry block
+    def append_atlas_entry(entry_name):
+      atlas_content.append(entry_name)
+      atlas_content.append('  rotate: false')
+      atlas_content.append(f"  xy: {item['atlas_x']}, {item['atlas_y']}")
+      atlas_content.append(f'  size: {w}, {h}')
+      atlas_content.append(f'  orig: {w}, {h}')
+      atlas_content.append('  offset: 0, 0')
+      atlas_content.append('  index: -1')
+
+    # 1. Primary atlas entry
+    append_atlas_entry(atlas_entry_name)
+
+    # 2. Secondary atlas entry for Improvements (doubles as its own icon)
+    if 'Improvements/' in atlas_entry_name:
+        secondary_icon_name = atlas_entry_name.replace('Improvements/', 'ImprovementIcons/', 1)
+        append_atlas_entry(secondary_icon_name)
+
 
   with open(output_atlas, 'w', encoding='utf-8') as f:
     f.write('\n'.join(atlas_content))

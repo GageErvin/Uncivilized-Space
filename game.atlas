@@ -17,6 +17,13 @@ TileSets/UncivilizedSpace/Improvements/Solar Reflector
   orig: 72, 72
   offset: 0, 0
   index: -1
+TileSets/UncivilizedSpace/ImprovementIcons/Solar Reflector
+  rotate: false
+  xy: 304, 2
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
 TileSets/UncivilizedSpace/Units/Annihilation Dreadnaught
   rotate: false
   xy: 378, 2
@@ -39,6 +46,13 @@ TileSets/UncivilizedSpace/Units/Astraforming Swarm
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Improvements/Orbital Ship Yard
+  rotate: false
+  xy: 614, 2
+  size: 72, 67
+  orig: 72, 67
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/ImprovementIcons/Orbital Ship Yard
   rotate: false
   xy: 614, 2
   size: 72, 67
@@ -248,6 +262,13 @@ TileSets/UncivilizedSpace/Improvements/Deep Space Radar Array
   orig: 72, 62
   offset: 0, 0
   index: -1
+TileSets/UncivilizedSpace/ImprovementIcons/Deep Space Radar Array
+  rotate: false
+  xy: 749, 171
+  size: 72, 62
+  orig: 72, 62
+  offset: 0, 0
+  index: -1
 TileSets/UncivilizedSpace/Units/Survey Vessel
   rotate: false
   xy: 823, 171
@@ -290,6 +311,13 @@ TileSets/UncivilizedSpace/Improvements/Magnetic Acceleration Relay
   orig: 72, 53
   offset: 0, 0
   index: -1
+TileSets/UncivilizedSpace/ImprovementIcons/Magnetic Acceleration Relay
+  rotate: false
+  xy: 1192, 171
+  size: 72, 53
+  orig: 72, 53
+  offset: 0, 0
+  index: -1
 TileSets/UncivilizedSpace/Units/Generational Settler
   rotate: false
   xy: 1266, 171
@@ -325,7 +353,21 @@ TileSets/UncivilizedSpace/Improvements/0-G Lab
   orig: 71, 49
   offset: 0, 0
   index: -1
+TileSets/UncivilizedSpace/ImprovementIcons/0-G Lab
+  rotate: false
+  xy: 1569, 171
+  size: 71, 49
+  orig: 71, 49
+  offset: 0, 0
+  index: -1
 TileSets/UncivilizedSpace/Improvements/Particulate Collection Array
+  rotate: false
+  xy: 1642, 171
+  size: 72, 46
+  orig: 72, 46
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/ImprovementIcons/Particulate Collection Array
   rotate: false
   xy: 1642, 171
   size: 72, 46

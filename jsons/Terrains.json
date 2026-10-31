@@ -219,8 +219,7 @@
     ],
     "uniques": [
       "Doesn't generate naturally"
-    ],
-    "canFoundCity": false
+    ]
   },
   {
     "name": "Moderate Flux Space",
@@ -236,8 +235,7 @@
     ],
     "uniques": [
       "Doesn't generate naturally"
-    ],
-    "canFoundCity": false
+    ]
   },
   {
     "name": "Low Flux Space",
@@ -252,8 +250,7 @@
     ],
     "uniques": [
       "Always Fertility [14] for Map Generation"
-    ],
-    "canFoundCity": false
+    ]
   },
   {
     "name": "Zero Flux Space",
@@ -266,9 +263,8 @@
       0
     ],
     "uniques": [
-      "Always Fertility [20] for Map Generation"
-    ],
-    "canFoundCity": false
+      "Always Fertility [30] for Map Generation"
+    ]
   },
   {
     "name": "Cragolith Moon",
@@ -446,7 +442,6 @@
       "Occurs in chains at high elevations",
       "Neighboring tiles will convert to [Moderate Flux Space]",
       "Always Fertility [6] for Map Generation"
-    ],
-    "canFoundCity": false
+    ]
   }
 ]
