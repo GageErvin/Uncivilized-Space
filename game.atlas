@@ -10,14 +10,14 @@ preview
   orig: 300, 167
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Improvements/Solar Reflector
+TileSets/UncivilizedSpace/Tiles/Solar Reflector
   rotate: false
   xy: 304, 2
   size: 72, 72
   orig: 72, 72
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/ImprovementIcons/Solar Reflector
+ImprovementIcons/Solar Reflector
   rotate: false
   xy: 304, 2
   size: 72, 72
@@ -45,14 +45,14 @@ TileSets/UncivilizedSpace/Units/Astraforming Swarm
   orig: 72, 68
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Improvements/Orbital Ship Yard
+TileSets/UncivilizedSpace/Tiles/Orbital Ship Yard
   rotate: false
   xy: 614, 2
   size: 72, 67
   orig: 72, 67
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/ImprovementIcons/Orbital Ship Yard
+ImprovementIcons/Orbital Ship Yard
   rotate: false
   xy: 614, 2
   size: 72, 67
@@ -255,14 +255,14 @@ TileSets/UncivilizedSpace/Units/EM Destroyer
   orig: 79, 64
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Improvements/Deep Space Radar Array
+TileSets/UncivilizedSpace/Tiles/Deep Space Radar Array
   rotate: false
   xy: 749, 171
   size: 72, 62
   orig: 72, 62
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/ImprovementIcons/Deep Space Radar Array
+ImprovementIcons/Deep Space Radar Array
   rotate: false
   xy: 749, 171
   size: 72, 62
@@ -304,14 +304,14 @@ TileSets/UncivilizedSpace/Units/Laser Frigate
   orig: 72, 55
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Improvements/Magnetic Acceleration Relay
+TileSets/UncivilizedSpace/Tiles/Magnetic Acceleration Relay
   rotate: false
   xy: 1192, 171
   size: 72, 53
   orig: 72, 53
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/ImprovementIcons/Magnetic Acceleration Relay
+ImprovementIcons/Magnetic Acceleration Relay
   rotate: false
   xy: 1192, 171
   size: 72, 53
@@ -346,28 +346,28 @@ TileSets/UncivilizedSpace/Units/Laser Corvette
   orig: 72, 50
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Improvements/0-G Lab
+TileSets/UncivilizedSpace/Tiles/0-G Lab
   rotate: false
   xy: 1569, 171
   size: 71, 49
   orig: 71, 49
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/ImprovementIcons/0-G Lab
+ImprovementIcons/0-G Lab
   rotate: false
   xy: 1569, 171
   size: 71, 49
   orig: 71, 49
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Improvements/Particulate Collection Array
+TileSets/UncivilizedSpace/Tiles/Particulate Collection Array
   rotate: false
   xy: 1642, 171
   size: 72, 46
   orig: 72, 46
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/ImprovementIcons/Particulate Collection Array
+ImprovementIcons/Particulate Collection Array
   rotate: false
   xy: 1642, 171
   size: 72, 46

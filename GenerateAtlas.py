@@ -6,6 +6,7 @@
 
 import io
 import os
+import re
 import xml.etree.ElementTree as ET
 import zipfile
 from PIL import Image
@@ -79,6 +80,14 @@ def pack_ora_to_atlas(
       for item in standalone_images:
           # Keep original name for standalone disk file path
           out_filepath = f"{item['name']}.png"
+
+          # Redirect Improvement tile png files to tiles/ instead of Improvements/ (case-insensitive)
+          out_filepath = re.sub(
+              r'TileSets/UncivilizedSpace/[Ii]mprovements/',
+              'TileSets/UncivilizedSpace/Tiles/',
+              out_filepath
+          )
+
           dirname = os.path.dirname(out_filepath)
           if dirname:
               os.makedirs(dirname, exist_ok=True)
@@ -148,12 +157,22 @@ def pack_ora_to_atlas(
   for item in packed_items:
     w, h = item['img'].size
     
-    atlas_entry_name = item['name']
-    if atlas_entry_name.startswith('Images/'):
-        atlas_entry_name = atlas_entry_name[len('Images/'):]
+    raw_name = item['name']
+    if raw_name.startswith('Images/'):
+        raw_name = raw_name[len('Images/'):]
+
+    # Check if it's an improvement layer
+    is_improvement = bool(re.search(r'[Ii]mprovements/', raw_name))
+
+    # Primary atlas entry name: update Improvements/ to tiles/
+    primary_entry_name = re.sub(r'[Ii]mprovements/', 'Tiles/', raw_name)
 
     # Helper function to append entry block
     def append_atlas_entry(entry_name):
+      # Clean entry name if it contains ImprovementIcons/ to remove any leading path prefixes
+      if 'ImprovementIcons/' in entry_name:
+        entry_name = re.sub(r'^.*?(ImprovementIcons/.*)', r'\1', entry_name)
+
       atlas_content.append(entry_name)
       atlas_content.append('  rotate: false')
       atlas_content.append(f"  xy: {item['atlas_x']}, {item['atlas_y']}")
@@ -162,12 +181,12 @@ def pack_ora_to_atlas(
       atlas_content.append('  offset: 0, 0')
       atlas_content.append('  index: -1')
 
-    # 1. Primary atlas entry
-    append_atlas_entry(atlas_entry_name)
+    # 1. Primary atlas entry (now uses tiles/)
+    append_atlas_entry(primary_entry_name)
 
     # 2. Secondary atlas entry for Improvements (doubles as its own icon)
-    if 'Improvements/' in atlas_entry_name:
-        secondary_icon_name = atlas_entry_name.replace('Improvements/', 'ImprovementIcons/', 1)
+    if is_improvement:
+        secondary_icon_name = re.sub(r'[Ii]mprovements/', 'ImprovementIcons/', raw_name, count=1)
         append_atlas_entry(secondary_icon_name)
 
 
