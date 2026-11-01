@@ -6,6 +6,13 @@
         "movement": 2,
         "uniques": [
             "Founds a new city <by consuming this unit> <in [Terrestrial Planet] tiles>",
+            "Founds a new city <by consuming this unit> <in [Ringed Terrestrial Planet] tiles>",
+            "Founds a new city <by consuming this unit> <in [Gas Giant] tiles>",
+            "Founds a new city <by consuming this unit> <in [Ringed Gas Giant] tiles>",
+            "Founds a new city <by consuming this unit> <in [Ice Giant] tiles>",
+            "Founds a new city <by consuming this unit> <in [Ringed Ice Giant] tiles>",
+            "Founds a new city <by consuming this unit> <in [Cryolith Moon] tiles>",
+            "Founds a new city <by consuming this unit> <in [Cragolith Moon] tiles>",
             "Requires at least [2] population",
             "All tiles cost 1 movement",
 			"Excess Food converted to Production when under construction",
@@ -20,6 +27,14 @@
         "movement": 3,
         "requiredTech": "Cryogenics",
         "uniques": [
+            "Founds a new city <by consuming this unit> <in [Terrestrial Planet] tiles>",
+            "Founds a new city <by consuming this unit> <in [Ringed Terrestrial Planet] tiles>",
+            "Founds a new city <by consuming this unit> <in [Gas Giant] tiles>",
+            "Founds a new city <by consuming this unit> <in [Ringed Gas Giant] tiles>",
+            "Founds a new city <by consuming this unit> <in [Ice Giant] tiles>",
+            "Founds a new city <by consuming this unit> <in [Ringed Ice Giant] tiles>",
+            "Founds a new city <by consuming this unit> <in [Cryolith Moon] tiles>",
+            "Founds a new city <by consuming this unit> <in [Cragolith Moon] tiles>",
             "Founds a new city <by consuming this unit>",
             "All tiles cost 1 movement",
             "May travel on Water tiles without embarking"
@@ -32,6 +47,14 @@
         "movement": 5,
         "requiredTech": "Artificial Super Intelligence",
         "uniques": [
+            "Founds a new city <by consuming this unit> <in [Terrestrial Planet] tiles>",
+            "Founds a new city <by consuming this unit> <in [Ringed Terrestrial Planet] tiles>",
+            "Founds a new city <by consuming this unit> <in [Gas Giant] tiles>",
+            "Founds a new city <by consuming this unit> <in [Ringed Gas Giant] tiles>",
+            "Founds a new city <by consuming this unit> <in [Ice Giant] tiles>",
+            "Founds a new city <by consuming this unit> <in [Ringed Ice Giant] tiles>",
+            "Founds a new city <by consuming this unit> <in [Cryolith Moon] tiles>",
+            "Founds a new city <by consuming this unit> <in [Cragolith Moon] tiles>",
             "Founds a new city <by consuming this unit>",
             "All tiles cost 1 movement",
             "May travel on Water tiles without embarking"

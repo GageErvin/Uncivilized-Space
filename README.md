@@ -43,7 +43,7 @@ nations text and images
 
 unciv doesn't support per-terrain city graphics (only per era)
 - leave them out OR make orbital launcher req a body as an improvement and do 'space station' cities...
-- 'unbuildable' and 'canbuildcity' don't actually constrain city building
+- 'unbuildable' and 'canbuildcity' don't actually constrain city building.. currently constrained by unit conditions.. consider per-civ variants and limits on what planets are useable
 - constrained 'canfoundcity' in terrains
   - ringed gas giants are an exception but I could perhaps overlap.. T.T
   - since it didn't seem to be affecting map gen much
