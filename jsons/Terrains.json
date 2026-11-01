@@ -235,8 +235,8 @@
       80,
       80,
       80
-    ],
-    "canFoundCity": false
+    ]
+    //"canFoundCity": false
   },
   {
     "name": "High Flux Space",
@@ -252,8 +252,8 @@
       60,
       60,
       60
-    ],
-    "canFoundCity": false
+    ]
+    //"canFoundCity": false
   },
   {
     "name": "Moderate Flux Space",
@@ -269,8 +269,8 @@
       40,
       40,
       40
-    ],
-    "canFoundCity": false
+    ]
+    //"canFoundCity": false
   },
   {
     "name": "Low Flux Space",
@@ -285,8 +285,8 @@
       20,
       20,
       20
-    ],
-    "canFoundCity": false
+    ]
+    //"canFoundCity": false
   },
   {
     "name": "Zero Flux Space",
@@ -300,8 +300,8 @@
       0,
       0,
       0
-    ],
-    "canFoundCity": false
+    ]
+    //"canFoundCity": false
   },
   {
     "name": "Cragolith Moon",
