@@ -15,7 +15,7 @@
   {
     "name": "M4IV Star",  // add to all stars? "Must be adjacent to [6] [Water] tiles"  -- would be odd for generator bc of high->low elevation rate .. could change high flux to land and make planets+low water...
     "type": "Land",
-    "impassable": true,
+    //"impassable": true,
     "unbuildable": true,
     "overrideStats": true,
     "RGB": [
@@ -34,7 +34,7 @@
   {
     "name": "M5IV Star",
     "type": "Land",
-    "impassable": true,
+    //"impassable": true,
     "unbuildable": true,
     "overrideStats": true,
     "RGB": [
@@ -53,7 +53,7 @@
   {
     "name": "M4VI Star",
     "type": "Land",
-    "impassable": true,
+    //"impassable": true,
     "unbuildable": true,
     "overrideStats": true,
     "RGB": [
@@ -72,7 +72,7 @@
   {
     "name": "M5VI Star",
     "type": "Land",
-    "impassable": true,
+    //"impassable": true,
     "unbuildable": true,
     "overrideStats": true,
     "RGB": [
@@ -91,7 +91,7 @@
   {
     "name": "M3V Star",
     "type": "Land",
-    "impassable": true,
+    //"impassable": true,
     "unbuildable": true,
     "overrideStats": true,
     "RGB": [
@@ -110,7 +110,7 @@
   {
     "name": "M4V Star",
     "type": "Land",
-    "impassable": true,
+    //"impassable": true,
     "unbuildable": true,
     "overrideStats": true,
     "RGB": [
@@ -129,7 +129,7 @@
   {
     "name": "M5V Star",
     "type": "Land",
-    "impassable": true,
+    //"impassable": true,
     "unbuildable": true,
     "overrideStats": true,
     "RGB": [
@@ -148,7 +148,7 @@
   {
     "name": "M6V Star",
     "type": "Land",
-    "impassable": true,
+    //"impassable": true,
     "unbuildable": true,
     "overrideStats": true,
     "RGB": [
@@ -167,7 +167,7 @@
   {
     "name": "M7V Star",
     "type": "Land",
-    "impassable": true,
+    //"impassable": true,
     "unbuildable": true,
     "overrideStats": true,
     "RGB": [
@@ -186,7 +186,7 @@
   {
     "name": "G2VII Star",
     "type": "Land",
-    "impassable": true,
+    //"impassable": true,
     "unbuildable": true,
     "overrideStats": true,
     "RGB": [
@@ -205,7 +205,7 @@
   {
     "name": "K7V Star",
     "type": "Land",
-    "impassable": true,
+    //"impassable": true,
     "unbuildable": true,
     "overrideStats": true,
     "RGB": [
