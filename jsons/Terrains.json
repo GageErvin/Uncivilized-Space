@@ -8,7 +8,8 @@
   // "Becomes ['space+1'] when adjacent to ['space+2']" (and +2,+3 and +3,+4) ?
 
   // - rarity first fix of getting planets back
-  // After removing "impassable""unbuildable""overrideStats" from stars, they gen, but only the k7v renders
+  // After removing "impassable""unbuildable""overrideStats" from stars, they gen, "Rough terrain","Units ending their turn on this terrain take [50] damage", also went...
+  // since the star has to be in the distance given the relative sizes anyhow (and that's still not enough) let it be
 
   // unciv doesn't support per-terrain city graphics (only per era)
   // - leave them out OR constrain 'canFoundCity' to only hard bodies OR make orbital launcher req a body as an improvement and do 'space station' cities...
@@ -32,8 +33,6 @@
       1
     ],
     "uniques": [
-      //"Rough terrain",
-      //"Units ending their turn on this terrain take [50] damage",
       "Neighboring tiles will convert to [High Flux Space]",
       "Always Fertility [1] for Map Generation"
     ],
@@ -55,8 +54,6 @@
       1
     ],
     "uniques": [
-      //"Rough terrain",
-      //"Units ending their turn on this terrain take [50] damage",
       "Neighboring tiles will convert to [High Flux Space]",
       "Always Fertility [1] for Map Generation"
     ],
@@ -78,8 +75,6 @@
       1
     ],
     "uniques": [
-      //"Rough terrain",
-      //"Units ending their turn on this terrain take [50] damage",
       "Neighboring tiles will convert to [Moderate Flux Space]",
       "Always Fertility [1] for Map Generation"
     ],
@@ -101,8 +96,6 @@
       1
     ],
     "uniques": [
-      //"Rough terrain",
-      //"Units ending their turn on this terrain take [50] damage",
       "Neighboring tiles will convert to [Moderate Flux Space]",
       "Always Fertility [1] for Map Generation"
     ],
@@ -124,8 +117,6 @@
       0
     ],
     "uniques": [
-      //"Rough terrain",
-      //"Units ending their turn on this terrain take [50] damage",
       "Neighboring tiles will convert to [Low Flux Space]",
       "Always Fertility [1] for Map Generation"
     ],
@@ -147,8 +138,6 @@
       0
     ],
     "uniques": [
-      //"Rough terrain",
-      //"Units ending their turn on this terrain take [50] damage",
       "Neighboring tiles will convert to [Low Flux Space]",
       "Always Fertility [1] for Map Generation"
     ],
@@ -170,8 +159,6 @@
       0
     ],
     "uniques": [
-      //"Rough terrain",
-      //"Units ending their turn on this terrain take [50] damage",
       "Neighboring tiles will convert to [Low Flux Space]",
       "Always Fertility [1] for Map Generation"
     ],
@@ -193,8 +180,6 @@
       0
     ],
     "uniques": [
-      //"Rough terrain",
-      //"Units ending their turn on this terrain take [50] damage",
       "Neighboring tiles will convert to [Low Flux Space]",
       "Always Fertility [1] for Map Generation"
     ],
@@ -216,8 +201,6 @@
       0
     ],
     "uniques": [
-      //"Rough terrain",
-      //"Units ending their turn on this terrain take [50] damage",
       "Neighboring tiles will convert to [Low Flux Space]",
       "Always Fertility [1] for Map Generation"
     ],
@@ -239,8 +222,6 @@
       0
     ],
     "uniques": [
-      //"Rough terrain",
-      //"Units ending their turn on this terrain take [50] damage",
       "Neighboring tiles will convert to [Extreme Flux Space]",
       "Always Fertility [1] for Map Generation"
     ],
@@ -262,8 +243,6 @@
       0
     ],
     "uniques": [
-      //"Rough terrain",
-      //"Units ending their turn on this terrain take [50] damage",
       "Neighboring tiles will convert to [High Flux Space]",
       "Always Fertility [1] for Map Generation"
     ],
@@ -515,7 +494,6 @@
       30
     ],
     "uniques": [
-      //"Rough terrain",
       "Occurs in chains at high elevations",
       "Neighboring tiles will convert to [Moderate Flux Space]",
       "Always Fertility [6] for Map Generation"
