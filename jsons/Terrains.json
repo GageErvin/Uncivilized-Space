@@ -8,6 +8,11 @@
     "impassable": true,
     "unbuildable": true,
     "overrideStats": true,
+    "RGB": [
+      102,
+      128,
+      1
+    ],
     "uniques": [
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
@@ -22,6 +27,11 @@
     "impassable": true,
     "unbuildable": true,
     "overrideStats": true,
+    "RGB": [
+      76,
+      128,
+      1
+    ],
     "uniques": [
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
@@ -36,6 +46,11 @@
     "impassable": true,
     "unbuildable": true,
     "overrideStats": true,
+    "RGB": [
+      102,
+      64,
+      1
+    ],
     "uniques": [
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
@@ -51,6 +66,11 @@
     "impassable": true,
     "unbuildable": true,
     "overrideStats": true,
+    "RGB": [
+      76,
+      64,
+      1
+    ],
     "uniques": [
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
@@ -66,6 +86,11 @@
     "impassable": true,
     "unbuildable": true,
     "overrideStats": true,
+    "RGB": [
+      128,
+      1,
+      0
+    ],
     "uniques": [
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
@@ -81,6 +106,11 @@
     "impassable": true,
     "unbuildable": true,
     "overrideStats": true,
+    "RGB": [
+      102,
+      1,
+      0
+    ],
     "uniques": [
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
@@ -96,6 +126,11 @@
     "impassable": true,
     "unbuildable": true,
     "overrideStats": true,
+    "RGB": [
+      76,
+      1,
+      0
+    ],
     "uniques": [
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
@@ -111,6 +146,11 @@
     "impassable": true,
     "unbuildable": true,
     "overrideStats": true,
+    "RGB": [
+      51,
+      1,
+      0
+    ],
     "uniques": [
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
@@ -126,6 +166,11 @@
     "impassable": true,
     "unbuildable": true,
     "overrideStats": true,
+    "RGB": [
+      25,
+      1,
+      0
+    ],
     "uniques": [
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
@@ -141,6 +186,11 @@
     "impassable": true,
     "unbuildable": true,
     "overrideStats": true,
+    "RGB": [
+      102,
+      102,
+      0
+    ],
     "uniques": [
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
@@ -156,6 +206,11 @@
     "impassable": true,
     "unbuildable": true,
     "overrideStats": true,
+    "RGB": [
+      230,
+      160,
+      0
+    ],
     "uniques": [
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
@@ -175,6 +230,11 @@
     "uniques": [
       "Doesn't generate naturally"
     ],
+    "RGB": [
+      0,
+      0,
+      0
+    ],
     "canFoundCity": false
   },
   {
@@ -186,7 +246,13 @@
     "movementCost": 2,
     "uniques": [
       "Doesn't generate naturally"
-    ]
+    ],
+    "RGB": [
+      0,
+      0,
+      0
+    ],
+    "canFoundCity": false
   },
   {
     "name": "Moderate Flux Space",
@@ -196,8 +262,14 @@
     "gold": 2,
     "movementCost": 1,
     "uniques": [
-      "Always Fertility [30] for Map Generation"
-    ]
+      "Always Fertility [5] for Map Generation"
+    ],
+    "RGB": [
+      0,
+      0,
+      0
+    ],
+    "canFoundCity": false
   },
   {
     "name": "Low Flux Space",
@@ -206,8 +278,14 @@
     "production": 1,
     "movementCost": 1,
     "uniques": [
-      "Always Fertility [60] for Map Generation"
-    ]
+      "Always Fertility [10] for Map Generation"
+    ],
+    "RGB": [
+      0,
+      0,
+      0
+    ],
+    "canFoundCity": false
   },
   {
     "name": "Zero Flux Space",
@@ -215,8 +293,14 @@
     "food": 0,
     "movementCost": 1,
     "uniques": [
-      "Always Fertility [200] for Map Generation"
-    ]
+      "Always Fertility [15] for Map Generation"
+    ],
+    "RGB": [
+      0,
+      0,
+      0
+    ],
+    "canFoundCity": false
   },
   {
     "name": "Cragolith Moon",
@@ -225,6 +309,11 @@
     "production": 1,
     "movementCost": 1,
     "defenseBonus": -1,
+    "RGB": [
+      0,
+      0,
+      255
+    ],
     "uniques": [
       "Blocks line-of-sight from tiles at same elevation",
       // "Must be adjacent to [1] [* Planet] tiles",  todo: a version (plus img) for each planet type (can't have terrain type here -- must be actual terrain)
@@ -239,6 +328,11 @@
     "production": 0,
     "movementCost": 1,
     "defenseBonus": -1,
+    "RGB": [
+      0,
+      0,
+      255
+    ],
     "uniques": [
       "Blocks line-of-sight from tiles at same elevation",
       // "Must be adjacent to [1] [* Planet] tiles",  todo: a version (plus img) for each planet type (can't have terrain type here -- must be actual terrain)
@@ -254,6 +348,11 @@
 		"happiness": 2,
     "movementCost": 2,
     "defenseBonus": -2,
+    "RGB": [
+      0,
+      100,
+      255
+    ],
     // Atmo reduces Sight from planet 
     "uniques": [
       "[-2] Sight",
@@ -270,6 +369,11 @@
     "movementCost": 3,
 		"happiness": 2,
     "defenseBonus": -1,
+    "RGB": [
+      0,
+      150,
+      255
+    ],
     "uniques": [
       // Atmo reduces Sight from planet 
       "[-3] Sight",
@@ -288,6 +392,11 @@
     "production": 3,
     "movementCost": 1,
     "defenseBonus": -1,
+    "RGB": [
+      0,
+      255,
+      0
+    ],
     "uniques": [
       // Atmo reduces Sight from planet
       "[-3] Sight",
@@ -304,6 +413,11 @@
     "production": 4,
     "movementCost": 2,
     "defenseBonus": 0,
+    "RGB": [
+      0,
+      240,
+      25
+    ],
     "uniques": [
       // Atmo reduces Sight from planet
       "[-4] Sight",
@@ -322,6 +436,11 @@
     "production": 2,
     "movementCost": 2,
     "defenseBonus": -2,
+    "RGB": [
+      0,
+      0,
+      255
+    ],
     "uniques": [
       // Atmo reduces Sight from planet
       "[-2] Sight",
@@ -337,6 +456,11 @@
     "production": 3,
     "movementCost": 3,
     "defenseBonus": -1,
+    "RGB": [
+      0,
+      0,
+      255
+    ],
     "uniques": [
       // Atmo reduces Sight from planet
       "[-3] Sight",
@@ -352,6 +476,11 @@
     "movementCost": 2,
     "science": 1,
     "food": 1,
+    "RGB": [
+      120,
+      80,
+      30
+    ],
     "uniques": [
       "Rough terrain",
       "Occurs in chains at high elevations",
