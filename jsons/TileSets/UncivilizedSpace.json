@@ -1,6 +1,6 @@
 {
     "useColorAsBaseTerrain": false,
-	"fogOfWarColor": {"r": 0.15, "g": 0.15, "b": 0.18, "a": 0.1},
+	"fogOfWarColor": {"r": 1.0, "g": 0.15, "b": 0.18, "a": 1.0},
     "unexploredTileColor": {"r":0.18,"g":0.19,"b":0.2,"a":1},
 	"tileScale": 1//1.05
 }
