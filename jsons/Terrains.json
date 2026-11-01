@@ -10,6 +10,9 @@
   // - rarity first fix of getting planets back
   // After removing "impassable""unbuildable""overrideStats" from stars, they gen, but only the k7v renders
 
+  // unciv doesn't support per-terrain city graphics (only per era)
+  // - leave them out OR constrain 'canFoundCity' to only hard bodies OR make orbital launcher req a body as an improvement and do 'space station' cities...
+
   // all units "Ignores terrain cost" // makes 'rough terrain' in terrains useless but needs must bc of rivers
   // also in some units: 'remove if all space is water after getting map gen right -- makes planets a bit more defensible'
 
