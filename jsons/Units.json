@@ -15,6 +15,7 @@
             "Founds a new city <by consuming this unit>",
             "Requires at least [2] population",
             "All tiles cost 1 movement",
+            "Ignores terrain cost",
 			"Excess Food converted to Production when under construction",
             "May travel on Water tiles without embarking"
         ],
@@ -29,6 +30,7 @@
         "uniques": [
             "Founds a new city <by consuming this unit>",
             "All tiles cost 1 movement",
+            "Ignores terrain cost",
             "May travel on Water tiles without embarking"
         ]
     },
@@ -40,6 +42,7 @@
         "requiredTech": "Artificial Super Intelligence",
         "uniques": [
             "Founds a new city <by consuming this unit>",
+            "Ignores terrain cost",
             "May travel on Water tiles without embarking"
         ]
     },
@@ -51,6 +54,7 @@
         "uniques": [
             "Can build [Land] improvements on tiles",
             "Can build [Water] improvements on tiles",
+            "Ignores terrain cost",
             "May travel on Water tiles without embarking"
         ]
     },
@@ -77,6 +81,7 @@
         "obsoleteWith": "Micro Particulate Shielding",
         "uniques": [
             "May travel on Water tiles without embarking",
+            "Ignores terrain cost",
             "Eliminates combat penalty for attacking over a river",
             "Eliminates combat penalty for attacking across a coast" // remove if all space is water after getting map gen right -- makes planets a bit more defensible
         ]
@@ -94,6 +99,7 @@
         "obsoleteWith": "Athermal Lens",
         "uniques": [
             "[1] additional attacks per turn",
+            "Ignores terrain cost",
             "May heal outside of friendly territory",
             "May travel on Water tiles without embarking",
             "Eliminates combat penalty for attacking over a river",
@@ -116,6 +122,7 @@
             "[+1] Sight",
             "May heal outside of friendly territory",
             "May travel on Water tiles without embarking",
+            "Ignores terrain cost",
             "Eliminates combat penalty for attacking over a river",
             "Eliminates combat penalty for attacking across a coast" // remove if all space is water after getting map gen right -- makes planets a bit more defensible
         ]
@@ -138,6 +145,7 @@
             "All tiles cost 1 movement",
             "May heal outside of friendly territory",
             "May travel on Water tiles without embarking",
+            "Ignores terrain cost",
             "Eliminates combat penalty for attacking over a river",
             "Eliminates combat penalty for attacking across a coast" // remove if all space is water after getting map gen right -- makes planets a bit more defensible
         ],
@@ -160,6 +168,7 @@
             "May heal outside of friendly territory",
             "May travel on Water tiles without embarking",
             "Eliminates combat penalty for attacking over a river",
+            "Ignores terrain cost",
             "Eliminates combat penalty for attacking across a coast" // remove if all space is water after getting map gen right -- makes planets a bit more defensible
         ],
         "obsoleteWith": "Graviton Manipulation"
@@ -181,6 +190,7 @@
             "[+2] Sight",
             "May heal outside of friendly territory",
             "May travel on Water tiles without embarking",
+            "Ignores terrain cost",
             "Eliminates combat penalty for attacking over a river",
             "Eliminates combat penalty for attacking across a coast" // remove if all space is water after getting map gen right -- makes planets a bit more defensible
         ]
@@ -199,6 +209,7 @@
             "May heal outside of friendly territory",
             "[1] additional attacks per turn",
             "May travel on Water tiles without embarking",
+            "Ignores terrain cost",
             "Eliminates combat penalty for attacking over a river",
             "Eliminates combat penalty for attacking across a coast" // remove if all space is water after getting map gen right -- makes planets a bit more defensible
         ]
@@ -221,6 +232,7 @@
             "Self-destructs when attacking",
             "Blast radius [1]",
             "May travel on Water tiles without embarking",
+            "Ignores terrain cost",
             "Eliminates combat penalty for attacking over a river",
             "Eliminates combat penalty for attacking across a coast"
         ]
@@ -242,6 +254,7 @@
             "Self-destructs when attacking",
             "Blast radius [1]",
             "May travel on Water tiles without embarking",
+            "Ignores terrain cost",
             "Eliminates combat penalty for attacking over a river",
             "Eliminates combat penalty for attacking across a coast"
         ]
@@ -263,6 +276,7 @@
             "Blast radius [2]",
             "May travel on Water tiles without embarking",
             "Eliminates combat penalty for attacking over a river",
+            "Ignores terrain cost",
             "Eliminates combat penalty for attacking across a coast"
         ]
     },
@@ -285,6 +299,7 @@
             "Cannot attack",
             "May travel on Water tiles without embarking",
             "Eliminates combat penalty for attacking over a river",
+            "Ignores terrain cost",
             "Eliminates combat penalty for attacking across a coast" // remove if all space is water after getting map gen right -- makes planets a bit more defensible
         ],
         "obsoleteWith": "Laser Propulsion"
@@ -311,6 +326,7 @@
             "Cannot attack",
             "May travel on Water tiles without embarking",
             "Eliminates combat penalty for attacking over a river",
+            "Ignores terrain cost",
             "Eliminates combat penalty for attacking across a coast" // remove if all space is water after getting map gen right -- makes planets a bit more defensible
         ]
     },
@@ -333,6 +349,7 @@
             "Can carry [7] [Missile] units",
             "Cannot attack",
             "May travel on Water tiles without embarking",
+            "Ignores terrain cost",
             "Eliminates combat penalty for attacking over a river",
             "Eliminates combat penalty for attacking across a coast" // remove if all space is water after getting map gen right -- makes planets a bit more defensible
         ],
@@ -356,7 +373,8 @@
             "All tiles cost 1 movement",
             "May travel on Water tiles without embarking",
             "Eliminates combat penalty for attacking over a river",
-            "Eliminates combat penalty for attacking across a coast"
+            "Eliminates combat penalty for attacking across a coast",
+            "Ignores terrain cost"
         ]
     },
     {
@@ -378,7 +396,8 @@
             "No damage penalty for wounded units",
             "May travel on Water tiles without embarking",
             "Eliminates combat penalty for attacking over a river",
-            "Eliminates combat penalty for attacking across a coast"
+            "Eliminates combat penalty for attacking across a coast",
+            "Ignores terrain cost" // makes 'rough terrain' in terrains useless but needs must bc of rivers
         ]
     }/*,
     {

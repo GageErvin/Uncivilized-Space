@@ -2,6 +2,10 @@
   // "A region is formed with at least [85]% ['space'] tiles, with priority [10]" ?? 
   // "Becomes ['space+1'] when adjacent to ['space+2']" (and +2,+3 and +3,+4) ?
 
+
+// all units "Ignores terrain cost" // makes 'rough terrain' in terrains useless but needs must bc of rivers
+// also in some units: 'remove if all space is water after getting map gen right -- makes planets a bit more defensible'
+
   {
     "name": "M4IV Star",  // add to all stars? "Must be adjacent to [6] [Water] tiles"  -- would be odd for generator bc of high->low elevation rate .. could change high flux to land and make planets+low water...
     "type": "Land",
@@ -17,9 +21,10 @@
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
       "Neighboring tiles will convert to [High Flux Space]",
-      "Always Fertility [1] for Map Generation",
-      "Rare feature"
-    ]
+      "Always Fertility [1] for Map Generation"
+      //"Rare feature"
+    ],
+    "canFoundCity": false
   },
   {
     "name": "M5IV Star",
@@ -36,12 +41,13 @@
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
       "Neighboring tiles will convert to [High Flux Space]",
-      "Always Fertility [1] for Map Generation",
-      "Rare feature"
-    ]
+      "Always Fertility [1] for Map Generation"
+      //"Rare feature"
+    ],
+    "canFoundCity": false
   },
   {
-    "name": "M4VI Star" ,
+    "name": "M4VI Star",
     "type": "Land",
     "impassable": true,
     "unbuildable": true,
@@ -55,13 +61,13 @@
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
       "Neighboring tiles will convert to [Moderate Flux Space]",
-      "Always Fertility [1] for Map Generation",
-      "Rare feature"
+      "Always Fertility [1] for Map Generation"
+      //"Rare feature"
     ],
     "canFoundCity": false
   },
   {
-    "name": "M5VI Star" ,
+    "name": "M5VI Star",
     "type": "Land",
     "impassable": true,
     "unbuildable": true,
@@ -75,13 +81,13 @@
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
       "Neighboring tiles will convert to [Moderate Flux Space]",
-      "Always Fertility [1] for Map Generation",
-      "Rare feature"
+      "Always Fertility [1] for Map Generation"
+      //"Rare feature"
     ],
     "canFoundCity": false
   },
   {
-    "name": "M3V Star" ,
+    "name": "M3V Star",
     "type": "Land",
     "impassable": true,
     "unbuildable": true,
@@ -95,13 +101,13 @@
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
       "Neighboring tiles will convert to [Low Flux Space]",
-      "Always Fertility [1] for Map Generation",
-      "Rare feature"
+      "Always Fertility [1] for Map Generation"
+      //"Rare feature"
     ],
     "canFoundCity": false
   },
   {
-    "name": "M4V Star" ,
+    "name": "M4V Star",
     "type": "Land",
     "impassable": true,
     "unbuildable": true,
@@ -115,13 +121,13 @@
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
       "Neighboring tiles will convert to [Low Flux Space]",
-      "Always Fertility [1] for Map Generation",
-      "Rare feature"
+      "Always Fertility [1] for Map Generation"
+      //"Rare feature"
     ],
     "canFoundCity": false
   },
   {
-    "name": "M5V Star" ,
+    "name": "M5V Star",
     "type": "Land",
     "impassable": true,
     "unbuildable": true,
@@ -135,13 +141,13 @@
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
       "Neighboring tiles will convert to [Low Flux Space]",
-      "Always Fertility [1] for Map Generation",
-      "Rare feature"
+      "Always Fertility [1] for Map Generation"
+      //"Rare feature"
     ],
     "canFoundCity": false
   },
   {
-    "name": "M6V Star" ,
+    "name": "M6V Star",
     "type": "Land",
     "impassable": true,
     "unbuildable": true,
@@ -155,13 +161,13 @@
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
       "Neighboring tiles will convert to [Low Flux Space]",
-      "Always Fertility [1] for Map Generation",
-      "Rare feature"
+      "Always Fertility [1] for Map Generation"
+      //"Rare feature"
     ],
     "canFoundCity": false
   },
   {
-    "name": "M7V Star" ,
+    "name": "M7V Star",
     "type": "Land",
     "impassable": true,
     "unbuildable": true,
@@ -175,13 +181,13 @@
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
       "Neighboring tiles will convert to [Low Flux Space]",
-      "Always Fertility [1] for Map Generation",
-      "Rare feature"
+      "Always Fertility [1] for Map Generation"
+      //"Rare feature"
     ],
     "canFoundCity": false
   },
   {
-    "name": "G2VII Star" ,
+    "name": "G2VII Star",
     "type": "Land",
     "impassable": true,
     "unbuildable": true,
@@ -195,13 +201,13 @@
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
       "Neighboring tiles will convert to [Extreme Flux Space]",
-      "Always Fertility [1] for Map Generation",
-      "Rare feature"
+      "Always Fertility [1] for Map Generation"
+      //"Rare feature"
     ],
     "canFoundCity": false
   },
   {
-    "name": "K7V Star" ,
+    "name": "K7V Star",
     "type": "Land",
     "impassable": true,
     "unbuildable": true,
@@ -215,8 +221,8 @@
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
       "Neighboring tiles will convert to [High Flux Space]",
-      "Always Fertility [1] for Map Generation",
-      "Rare feature"
+      "Always Fertility [1] for Map Generation"
+      //"Rare feature"
     ],
     "canFoundCity": false
   },
@@ -317,8 +323,8 @@
     "uniques": [
       "Blocks line-of-sight from tiles at same elevation",
       // "Must be adjacent to [1] [* Planet] tiles",  todo: a version (plus img) for each planet type (can't have terrain type here -- must be actual terrain)
-      "Always Fertility [6] for Map Generation",
-      "Rare feature"
+      "Always Fertility [6] for Map Generation"
+      //"Rare feature"
     ]
   },
   {
@@ -336,8 +342,8 @@
     "uniques": [
       "Blocks line-of-sight from tiles at same elevation",
       // "Must be adjacent to [1] [* Planet] tiles",  todo: a version (plus img) for each planet type (can't have terrain type here -- must be actual terrain)
-      "Always Fertility [6] for Map Generation",
-      "Rare feature"
+      "Always Fertility [6] for Map Generation"
+      //"Rare feature"
     ]
   },
   {
@@ -357,8 +363,8 @@
     "uniques": [
       "[-2] Sight",
       "Blocks line-of-sight from tiles at same elevation",
-      "Always Fertility [1] for Map Generation",
-      "Rare feature"
+      "Always Fertility [1] for Map Generation"
+      //"Rare feature"
     ]
   },
   {
@@ -381,8 +387,8 @@
       // Graphic depends on relative position; I don't think there is support for enforcing directions in relative placement
       "Doesn't generate naturally",
       "Neighboring tiles will convert to [Low Flux Space]",
-      "Always Fertility [1] for Map Generation",
-      "Rare feature"
+      "Always Fertility [1] for Map Generation"
+      //"Rare feature"
     ]
   },
   {
@@ -402,8 +408,8 @@
       "[-3] Sight",
       "Blocks line-of-sight from tiles at same elevation",
       "Neighboring tiles will convert to [Low Flux Space]",
-      "Always Fertility [1] for Map Generation",
-      "Rare feature"
+      "Always Fertility [1] for Map Generation"
+      //"Rare feature"
     ]
   },
   {
@@ -425,8 +431,8 @@
       // Graphic depends on relative position; I don't think there is support for enforcing directions in relative placement
       "Doesn't generate naturally",
       "Neighboring tiles will convert to [Low Flux Space]",
-      "Always Fertility [1] for Map Generation",
-      "Rare feature"
+      "Always Fertility [1] for Map Generation"
+      //"Rare feature"
     ]
   },
   {
@@ -445,8 +451,8 @@
       // Atmo reduces Sight from planet
       "[-2] Sight",
       "Blocks line-of-sight from tiles at same elevation",
-      "Always Fertility [1] for Map Generation",
-      "Rare feature"
+      "Always Fertility [1] for Map Generation"
+      //"Rare feature"
     ]
   },
   {
@@ -466,8 +472,8 @@
       "[-3] Sight",
       "Blocks line-of-sight from tiles at same elevation",
       "Neighboring tiles will convert to [Low Flux Space]",
-      "Always Fertility [1] for Map Generation",
-      "Rare feature"
+      "Always Fertility [1] for Map Generation"
+      //"Rare feature"
     ]
   },
   {
