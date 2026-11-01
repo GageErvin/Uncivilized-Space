@@ -223,7 +223,7 @@
   },
   {
     "name": "Extreme Flux Space",
-    "type": "Water",
+    "type": "Land", //"Water",
     "food": 0,
     "production": 2,
     "science": 2,
@@ -240,7 +240,7 @@
   },
   {
     "name": "High Flux Space",
-    "type": "Water",
+    "type": "Land", //"Water",
     "food": 1,
     "production": 1,
     "science": 1,
@@ -257,7 +257,7 @@
   },
   {
     "name": "Moderate Flux Space",
-    "type": "Water",
+    "type": "Land", //"Water",
     "food": 1,
     "production": 1,
     "gold": 2,
@@ -457,7 +457,7 @@
   },
   {
     "name": "Nebula",
-    "type": "Water",
+    "type": "Land", //"Water",
     "movementCost": 2,
     "science": 1,
     "food": 1,
