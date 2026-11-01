@@ -45,7 +45,7 @@
       "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
       "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]"
     ],
-    "canFoundCity": false
+    "unbuildable": true
   },
   {
     "name": "M5IV Star",
@@ -80,7 +80,7 @@
       "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
       "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]"
     ],
-    "canFoundCity": false
+    "unbuildable": true
   },
   {
     "name": "M4VI Star",
@@ -115,7 +115,7 @@
       "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
       "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]"
     ],
-    "canFoundCity": false
+    "unbuildable": true
   },
   {
     "name": "M5VI Star",
@@ -150,7 +150,7 @@
       "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
       "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]"
     ],
-    "canFoundCity": false
+    "unbuildable": true
   },
   {
     "name": "M3V Star",
@@ -185,7 +185,7 @@
       "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
       "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]"
     ],
-    "canFoundCity": false
+    "unbuildable": true
   },
   {
     "name": "M4V Star",
@@ -220,7 +220,7 @@
       "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
       "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]"
     ],
-    "canFoundCity": false
+    "unbuildable": true
   },
   {
     "name": "M5V Star",
@@ -255,7 +255,7 @@
       "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
       "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]"
     ],
-    "canFoundCity": false
+    "unbuildable": true
   },
   {
     "name": "M6V Star",
@@ -290,7 +290,7 @@
       "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
       "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]"
     ],
-    "canFoundCity": false
+    "unbuildable": true
   },
   {
     "name": "M7V Star",
@@ -325,7 +325,7 @@
       "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
       "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]"
     ],
-    "canFoundCity": false
+    "unbuildable": true
   },
   {
     "name": "G2VII Star",
@@ -360,7 +360,7 @@
       "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
       "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]"
     ],
-    "canFoundCity": false
+    "unbuildable": true
   },
   {
     "name": "K7V Star",
@@ -395,8 +395,7 @@
       "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
       "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]"
     ],
-    "canFoundCity": false
-  },
+    "unbuildable": true
   {
     "name": "Extreme Flux Space",
     "type": "Land",
@@ -429,7 +428,7 @@
       80,
       80
     ],
-    "canFoundCity": false
+    "unbuildable": true
   },
   {
     "name": "High Flux Space",
@@ -463,7 +462,7 @@
       60,
       60
     ],
-    "canFoundCity": false
+    "unbuildable": true
   },
   {
     "name": "Moderate Flux Space",
@@ -498,7 +497,7 @@
       40,
       40
     ],
-    "canFoundCity": false
+    "unbuildable": true
   },
   {
     "name": "Low Flux Space",
@@ -533,7 +532,7 @@
       20,
       20
     ],
-    "canFoundCity": false
+    "unbuildable": true
   },
   {
     "name": "Zero Flux Space",
@@ -568,7 +567,7 @@
       5,
       5
     ],
-    "canFoundCity": false
+    "unbuildable": true
   },
   {
     "name": "Cragolith Moon",
@@ -730,7 +729,7 @@
       "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
       "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]"
     ],
-    "canFoundCity": false
+    "unbuildable": true
   },
   {
     "name": "Ringed Gas Giant",
@@ -860,6 +859,6 @@
       "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
       "Becomes [High Flux Space] when adjacent to [K7V Star]"
     ],
-    "canFoundCity": false
+    "unbuildable": true
   }
 ]
