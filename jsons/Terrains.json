@@ -396,6 +396,7 @@
       "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]"
     ],
     "unbuildable": true
+  },
   {
     "name": "Extreme Flux Space",
     "type": "Land",
