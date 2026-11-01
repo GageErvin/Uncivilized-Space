@@ -8,7 +8,6 @@
             "Founds a new city <by consuming this unit>",
             "Requires at least [2] population",
             "All tiles cost 1 movement",
-            "Ignores terrain cost",
 			"Excess Food converted to Production when under construction",
             "May travel on Water tiles without embarking"
         ],
@@ -23,7 +22,6 @@
         "uniques": [
             "Founds a new city <by consuming this unit>",
             "All tiles cost 1 movement",
-            "Ignores terrain cost",
             "May travel on Water tiles without embarking"
         ]
     },
@@ -35,7 +33,7 @@
         "requiredTech": "Artificial Super Intelligence",
         "uniques": [
             "Founds a new city <by consuming this unit>",
-            "Ignores terrain cost",
+            "All tiles cost 1 movement",
             "May travel on Water tiles without embarking"
         ]
     },
