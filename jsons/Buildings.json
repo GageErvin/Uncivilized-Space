@@ -8,8 +8,10 @@
 		"production": 1,
 		"gold": 1,
 		"cost": 0,
+		"isNationalWonder": true,
 		"uniques": [
-			"Irremovable"
+			"Irremovable",
+			"Indicates the capital city"
 		]
 	},
 	{

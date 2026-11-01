@@ -82,11 +82,11 @@ def pack_ora_to_atlas(
           out_filepath = f"{item['name']}.png"
 
           # Redirect Improvement tile png files to tiles/ instead of Improvements/ (case-insensitive)
-          out_filepath = re.sub(
-              r'TileSets/UncivilizedSpace/[Ii]mprovements/',
-              'TileSets/UncivilizedSpace/Tiles/',
-              out_filepath
-          )
+          # out_filepath = re.sub(
+          #     r'TileSets/UncivilizedSpace/[Ii]mprovements/',
+          #     'TileSets/UncivilizedSpace/Tiles/',
+          #     out_filepath
+          # )
 
           dirname = os.path.dirname(out_filepath)
           if dirname:
@@ -165,7 +165,7 @@ def pack_ora_to_atlas(
     is_improvement = bool(re.search(r'[Ii]mprovements/', raw_name))
 
     # Primary atlas entry name: update Improvements/ to tiles/
-    primary_entry_name = re.sub(r'[Ii]mprovements/', 'Tiles/', raw_name)
+    primary_entry_name = raw_name # re.sub(r'[Ii]mprovements/', 'Tiles/', raw_name)
 
     # Helper function to append entry block
     def append_atlas_entry(entry_name):
