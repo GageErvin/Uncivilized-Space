@@ -1,16 +1,16 @@
 [
 	{
-    "name": "Spire",
-    "isDefaultBuilding": true,
-    "happiness": 4,
-    "science": 1,
-    "culture": 1,
-    "production": 1,
-    "gold": 1,
-    "cost": 0,
-    "uniques": [
-        "Indestructible"
-    ]
+		"name": "Spire",
+		"isDefaultBuilding": true,
+		"happiness": 4,
+		"science": 1,
+		"culture": 1,
+		"production": 1,
+		"gold": 1,
+		"cost": 0,
+		"uniques": [
+			"Irremovable"
+		]
 	},
 	{
 		"name": "Expert Research System",
@@ -72,7 +72,6 @@
 			// "Must be on [Cragolith Moon]"
 		]
 	},
-
 	// TODO: these shouldn't all replace expert research system (common buildings should be used by at least 2 natinos)
 	// per-nation
 	{

@@ -5,7 +5,7 @@
         "cost": 200,
         "movement": 2,
         "uniques": [
-            "Founds a new city <by consuming this unit> <in [terrestrial planet] tiles>",
+            "Founds a new city <by consuming this unit> <in [Terrestrial Planet] tiles>",
             "Requires at least [2] population",
             "All tiles cost 1 movement",
 			"Excess Food converted to Production when under construction",
