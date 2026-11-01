@@ -10,8 +10,6 @@
   //   - all units "Ignores terrain cost" // makes 'rough terrain' in terrains useless but needs must bc of rivers
   //   - also in some units: 'remove if all space is water after getting map gen right -- makes planets a bit more defensible'
 
-  // TODO: try 'unbuildable'
-
   {
     "name": "M4IV Star",
     "type": "Land",
@@ -44,8 +42,7 @@
       "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]",
       "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
       "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]"
-    ],
-    "unbuildable": true
+    ]
   },
   {
     "name": "M5IV Star",
@@ -79,8 +76,7 @@
       "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]",
       "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
       "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]"
-    ],
-    "unbuildable": true
+    ]
   },
   {
     "name": "M4VI Star",
@@ -114,8 +110,7 @@
       "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]",
       "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
       "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]"
-    ],
-    "unbuildable": true
+    ]
   },
   {
     "name": "M5VI Star",
@@ -149,8 +144,7 @@
       "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]",
       "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
       "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]"
-    ],
-    "unbuildable": true
+    ]
   },
   {
     "name": "M3V Star",
@@ -184,8 +178,7 @@
       "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]",
       "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
       "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]"
-    ],
-    "unbuildable": true
+    ]
   },
   {
     "name": "M4V Star",
@@ -219,8 +212,7 @@
       "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]",
       "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
       "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]"
-    ],
-    "unbuildable": true
+    ]
   },
   {
     "name": "M5V Star",
@@ -254,8 +246,7 @@
       "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]",
       "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
       "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]"
-    ],
-    "unbuildable": true
+    ]
   },
   {
     "name": "M6V Star",
@@ -289,8 +280,7 @@
       "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]",
       "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
       "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]"
-    ],
-    "unbuildable": true
+    ]
   },
   {
     "name": "M7V Star",
@@ -324,8 +314,7 @@
       "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]",
       "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
       "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]"
-    ],
-    "unbuildable": true
+    ]
   },
   {
     "name": "G2VII Star",
@@ -359,8 +348,7 @@
       "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]",
       "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
       "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]"
-    ],
-    "unbuildable": true
+    ]
   },
   {
     "name": "K7V Star",
@@ -394,8 +382,7 @@
       "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]",
       "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
       "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]"
-    ],
-    "unbuildable": true
+    ]
   },
   {
     "name": "Extreme Flux Space",
@@ -428,8 +415,7 @@
       80,
       80,
       80
-    ],
-    "unbuildable": true
+    ]
   },
   {
     "name": "High Flux Space",
@@ -462,8 +448,7 @@
       60,
       60,
       60
-    ],
-    "unbuildable": true
+    ]
   },
   {
     "name": "Moderate Flux Space",
@@ -497,8 +482,7 @@
       40,
       40,
       40
-    ],
-    "unbuildable": true
+    ]
   },
   {
     "name": "Low Flux Space",
@@ -532,8 +516,7 @@
       20,
       20,
       20
-    ],
-    "unbuildable": true
+    ]
   },
   {
     "name": "Zero Flux Space",
@@ -567,8 +550,7 @@
       5,
       5,
       5
-    ],
-    "unbuildable": true
+    ]
   },
   {
     "name": "Cragolith Moon",
@@ -595,7 +577,6 @@
       "Becomes [Low Flux Space] when adjacent to [M7V Star]",
       "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
       "Becomes [High Flux Space] when adjacent to [K7V Star]"
-      // "Must be adjacent to [1] [* Planet] tiles",  todo: a version (plus img) for each planet type (can't have terrain type here -- must be actual terrain)
     ]
   },
   {
@@ -623,7 +604,6 @@
       "Becomes [Low Flux Space] when adjacent to [M7V Star]",
       "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
       "Becomes [High Flux Space] when adjacent to [K7V Star]"
-      // "Must be adjacent to [1] [* Planet] tiles",  todo: a version (plus img) for each planet type (can't have terrain type here -- must be actual terrain)
     ]
   },
   {
@@ -729,8 +709,7 @@
       "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]",
       "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
       "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]"
-    ],
-    "unbuildable": true
+    ]
   },
   {
     "name": "Ringed Gas Giant",
@@ -859,7 +838,6 @@
       "Becomes [Low Flux Space] when adjacent to [M7V Star]",
       "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
       "Becomes [High Flux Space] when adjacent to [K7V Star]"
-    ],
-    "unbuildable": true
+    ]
   }
 ]

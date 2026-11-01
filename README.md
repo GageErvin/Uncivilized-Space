@@ -30,6 +30,8 @@ Diverse luxuries and wonders
 - 
 Nations
 - diversify all forms.  ex: 'Macroform S-3'  (S-3 would be a sci-fi esc designation for where this form was discovered.)
+Add and constrain some moon variants to be actual moons, then reduce probability of all variants
+- "Must be adjacent to [1] [* Planet] tiles",
 
 ## TODO
 
@@ -40,7 +42,8 @@ TODO in 'terrains.json' 'Techs.json' 'Units.json' 'Buildings.json'
 nations text and images
 
 unciv doesn't support per-terrain city graphics (only per era)
-- leave them out OR constrain 'canFoundCity' to only hard bodies OR make orbital launcher req a body as an improvement and do 'space station' cities...
+- leave them out OR make orbital launcher req a body as an improvement and do 'space station' cities...
+- 'unbuildable' and 'canbuildcity' don't actually constrain city building
 - constrained 'canfoundcity' in terrains
   - ringed gas giants are an exception but I could perhaps overlap.. T.T
   - since it didn't seem to be affecting map gen much
