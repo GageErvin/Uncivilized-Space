@@ -1,12 +1,12 @@
 [
+  // fix high density planets
+  // - check canFoundCity
+  // - setting low flux as water might work somewhat
+  // - with all land, fertility is basically ignored; otherwise, the engine still prioritizes stats
+
   // "A region is formed with at least [85]% ['space'] tiles, with priority [10]" ?? 
   // "Becomes ['space+1'] when adjacent to ['space+2']" (and +2,+3 and +3,+4) ?
 
-  // imgs prly worked with what -- d433951?
-  // check canFoundCity
-  // may not have needed water thing?
-  // - audiovis first fix of imgs
-  // - water ?? fix of high density planets
   // - rarity first fix of getting planets back
   // After removing "impassable""unbuildable""overrideStats" from stars, they gen, but only the k7v renders
 
