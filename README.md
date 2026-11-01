@@ -24,7 +24,10 @@ Terrains
 - Asteroid belts
 - rocky planet and ringed rocky planet
 - variants of each moon and planet according to type rarity
-- low-flux variants to planet surroundings and diversify 'water' content {ultra-low-1, ultra-low-2, ..}
+- low-flux variants to planet surroundings and diversify 'water' content {ultra-low-1, ultra-low-2, ..
+Diverse luxuries and wonders
+- black hole
+- 
 Nations
 - diversify all forms.  ex: 'Macroform S-3'  (S-3 would be a sci-fi esc designation for where this form was discovered.)
 
