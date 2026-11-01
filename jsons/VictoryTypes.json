@@ -5,14 +5,5 @@
         "milestones": [
             "Destroy all players"
         ]
-    }/*
-    {
-        "name": "Scientific",
-        "victoryString": "By networking a Type-II Dyson Assembly across the sector, your civilization ascends to transcendent digital omniscience!",
-        "milestones": [
-            "Research [Graviton Manipulation]",
-            "Construct [3] Sector Core Node buildings",
-            "Launch and dock [3] [Survey Vessel] units to [Sector Core Node] buildings"
-        ]
-    }*/
+    }
 ]

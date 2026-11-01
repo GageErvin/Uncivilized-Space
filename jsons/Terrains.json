@@ -1,37 +1,23 @@
 [
-  // fix high density planets
-  // - check canFoundCity
+  // # NOTE:
+  // To fix high density planets
   // - setting low flux as water might work somewhat
   // - with all land, fertility is basically ignored; otherwise, the engine still prioritizes stats
+  // - rare tiles don't show up at all
+  // - After removing "impassable""unbuildable""overrideStats" from stars, they gen, "Rough terrain","Units ending their turn on this terrain take [50] damage", also went...
+  //   - since the star has to be in the distance given the relative sizes anyhow (and that's still not enough) let it be
+  // - eventually used zero flux for water and conversion sequences for everything else
+  //   - all units "Ignores terrain cost" // makes 'rough terrain' in terrains useless but needs must bc of rivers
+  //   - also in some units: 'remove if all space is water after getting map gen right -- makes planets a bit more defensible'
 
-  // "A region is formed with at least [85]% ['space'] tiles, with priority [10]" ?? 
-  // "Becomes ['space+1'] when adjacent to ['space+2']" (and +2,+3 and +3,+4) ?
-
-  // - rarity first fix of getting planets back
-  // After removing "impassable""unbuildable""overrideStats" from stars, they gen, "Rough terrain","Units ending their turn on this terrain take [50] damage", also went...
-  // since the star has to be in the distance given the relative sizes anyhow (and that's still not enough) let it be
-
-  // improvement icons are showing up but not the images... may need the 'tile+improvement' image variants...
-
-  // unciv doesn't support per-terrain city graphics (only per era)
-  // - leave them out OR constrain 'canFoundCity' to only hard bodies OR make orbital launcher req a body as an improvement and do 'space station' cities...
-  // - for now, constrained 'canfoundcity' (ringed gas giants are an exception but I could perhaps overlap.. T.T ) -- since it didn't seem to be affecting map gen much
-  //   - doesn't seem to have worked.. still building in nebulas..
-
-  // all units "Ignores terrain cost" // makes 'rough terrain' in terrains useless but needs must bc of rivers
-  // also in some units: 'remove if all space is water after getting map gen right -- makes planets a bit more defensible'
-
-  // add rocky planet and ringed rocky planet
-
-  // if water && overwrite work much, consider adding more low-flux variants to planet surroundings and diversify 'water' content {ultra-low-1, ultra-low-2, ..}
+  // TODO: try 'unbuildable'
 
   {
-    "name": "M4IV Star",  // add to all stars? "Must be adjacent to [6] [Water] tiles"  -- would be odd for generator bc of high->low elevation rate .. could change high flux to land and make planets+low water...
+    "name": "M4IV Star",
     "type": "Land",
     "food": 0,
     "production": 2,
     "science": 2,
-    //"movementCost": 3,
     "RGB": [
       102,
       128,
@@ -67,7 +53,6 @@
     "food": 0,
     "production": 2,
     "science": 2,
-    //"movementCost": 3,
     "RGB": [
       76,
       128,
@@ -103,7 +88,6 @@
     "food": 0,
     "production": 2,
     "science": 2,
-    //"movementCost": 3,
     "RGB": [
       102,
       64,
@@ -139,7 +123,6 @@
     "food": 0,
     "production": 2,
     "science": 2,
-    //"movementCost": 3,
     "RGB": [
       76,
       64,
@@ -175,7 +158,6 @@
     "food": 0,
     "production": 2,
     "science": 2,
-    //"movementCost": 3,
     "RGB": [
       128,
       1,
@@ -211,7 +193,6 @@
     "food": 0,
     "production": 2,
     "science": 2,
-    //"movementCost": 3,
     "RGB": [
       102,
       1,
@@ -247,7 +228,6 @@
     "food": 0,
     "production": 2,
     "science": 2,
-    //"movementCost": 3,
     "RGB": [
       76,
       1,
@@ -283,7 +263,6 @@
     "food": 0,
     "production": 2,
     "science": 2,
-    //"movementCost": 3,
     "RGB": [
       51,
       1,
@@ -319,7 +298,6 @@
     "food": 0,
     "production": 2,
     "science": 2,
-    //"movementCost": 3,
     "RGB": [
       25,
       1,
@@ -355,7 +333,6 @@
     "food": 0,
     "production": 2,
     "science": 2,
-    //"movementCost": 3,
     "RGB": [
       102,
       102,
@@ -391,7 +368,6 @@
     "food": 0,
     "production": 2,
     "science": 2,
-    //"movementCost": 3,
     "RGB": [
       230,
       160,
@@ -427,7 +403,6 @@
     "food": 0,
     "production": 2,
     "science": 2,
-    //"movementCost": 3,
     "uniques": [
       "Becomes [High Flux Space] when adjacent to [M4IV Star]",
       "Becomes [High Flux Space] when adjacent to [M5IV Star]",
@@ -462,7 +437,6 @@
     "food": 1,
     "production": 1,
     "science": 1,
-    //"movementCost": 2,
     "uniques": [
       "Becomes [High Flux Space] when adjacent to [M4IV Star]",
       "Becomes [High Flux Space] when adjacent to [M5IV Star]",
@@ -497,7 +471,6 @@
     "food": 1,
     "production": 1,
     "gold": 2,
-    //"movementCost": 1,
     "uniques": [
       "Becomes [High Flux Space] when adjacent to [M4IV Star]",
       "Becomes [High Flux Space] when adjacent to [M5IV Star]",
@@ -518,7 +491,7 @@
       "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]",
       "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
       "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]",
-      "Becomes [High Flux Space] when adjacent to [Extreme Flux Space]" // +
+      "Becomes [High Flux Space] when adjacent to [Extreme Flux Space]"
     ],
     "RGB": [
       40,
@@ -532,7 +505,6 @@
     "type": "Land",
     "food": 1,
     "production": 1,
-    //"movementCost": 1,
     "uniques": [
       "Becomes [High Flux Space] when adjacent to [M4IV Star]",
       "Becomes [High Flux Space] when adjacent to [M5IV Star]",
@@ -553,8 +525,8 @@
       "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]",
       "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
       "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]",
-      "Becomes [High Flux Space] when adjacent to [Extreme Flux Space]", // +
-      "Becomes [Moderate Flux Space] when adjacent to [High Flux Space]" // +
+      "Becomes [High Flux Space] when adjacent to [Extreme Flux Space]",
+      "Becomes [Moderate Flux Space] when adjacent to [High Flux Space]"
     ],
     "RGB": [
       20,
@@ -567,7 +539,6 @@
     "name": "Zero Flux Space",
     "type": "Water",
     "food": 0,
-    //"movementCost": 1,
     "uniques": [
       "Becomes [High Flux Space] when adjacent to [M4IV Star]",
       "Becomes [High Flux Space] when adjacent to [M5IV Star]",
@@ -588,9 +559,9 @@
       "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]",
       "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
       "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]",
-      "Becomes [High Flux Space] when adjacent to [Extreme Flux Space]", // +
-      "Becomes [Moderate Flux Space] when adjacent to [High Flux Space]", // +
-      "Becomes [Low Flux Space] when adjacent to [Moderate Flux Space]" // +
+      "Becomes [High Flux Space] when adjacent to [Extreme Flux Space]",
+      "Becomes [Moderate Flux Space] when adjacent to [High Flux Space]",
+      "Becomes [Low Flux Space] when adjacent to [Moderate Flux Space]"
     ],
     "RGB": [
       5,
@@ -605,7 +576,6 @@
     "food": 0,
     "production": 1,
     "culture": 1,
-    //"movementCost": 1,
     "defenseBonus": -1,
     "RGB": [
       0,
@@ -634,7 +604,6 @@
     "food": 1,
     "culture": 1,
     "production": 0,
-    //"movementCost": 1,
     "defenseBonus": -1,
     "RGB": [
       0,
@@ -653,7 +622,7 @@
       "Becomes [Low Flux Space] when adjacent to [M6V Star]",
       "Becomes [Low Flux Space] when adjacent to [M7V Star]",
       "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
-      "Becomes [High Flux Space] when adjacent to [K7V Star]",
+      "Becomes [High Flux Space] when adjacent to [K7V Star]"
       // "Must be adjacent to [1] [* Planet] tiles",  todo: a version (plus img) for each planet type (can't have terrain type here -- must be actual terrain)
     ]
   },
@@ -664,7 +633,6 @@
     "culture": 1,
     "production": 2,
 		"happiness": 2,
-    //"movementCost": 2,
     "defenseBonus": -2,
     "RGB": [
       0,
@@ -699,7 +667,6 @@
     "food": 2,
     "culture": 2,
     "production": 4,
-    //"movementCost": 3,
 		"happiness": 2,
     "defenseBonus": -1,
     "RGB": [
@@ -735,7 +702,6 @@
     "type": "Land",
     "food": 2,
     "production": 3,
-    //"movementCost": 1,
     "defenseBonus": -1,
     "RGB": [
       0,
@@ -772,7 +738,6 @@
     "food": 2,
     "culture": 1,
     "production": 4,
-    //"movementCost": 2,
     "defenseBonus": 0,
     "RGB": [
       0,
@@ -807,7 +772,6 @@
     "type": "Land",
     "food": 2,
     "production": 2,
-    //"movementCost": 2,
     "defenseBonus": -2,
     "RGB": [
       0,
@@ -842,7 +806,6 @@
     "food": 1,
     "culture": 1,
     "production": 3,
-    //"movementCost": 3,
     "defenseBonus": -1,
     "RGB": [
       0,
@@ -875,7 +838,6 @@
   {
     "name": "Nebula",
     "type": "Land",
-    //"movementCost": 2,
     "science": 1,
     "food": 1,
     "RGB": [

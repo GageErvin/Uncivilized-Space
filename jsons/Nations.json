@@ -6,8 +6,6 @@
 },
 
 // Playable Nations
-
-// Todo: diversify all forms.  ex: 'Macroform S-3'  (S-3 would be a sci-fi esc designation for where this form was discovered.)
 {
 	"name": "Macroforms",
 	"adjective": ["Macroform"],

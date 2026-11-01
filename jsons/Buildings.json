@@ -26,6 +26,7 @@
 		"production": 1,
 		"cost": 60,
 		"uniques": [
+			// TODO: figure out 'or' -- maybe a different launcher for each?  might be more balanced w/just support for specific tbh
 			// "Must be on [Terrestrial Planet] OR a [Ringed Terrestrial Planet] OR a [Ice Giant] OR a [Ringed Ice Giant]"
 		]
 	},
@@ -57,24 +58,9 @@
 			// "Must be on [Cryolith Moon]",
 			// "Must be on [Cragolith Moon]"
 		]
-	},/*
-	{
-		"name": "Sector Core Node",
-		"science": 10,
-		"production": 5,
-		"infrastructure": 2,
-		"cost": 800,
-		"requiredTech": "Graviton Manipulation",
-		"uniques": [
-			"Must be on [Terrestrial Planet]"
-		],
-		"civilopediaText": [
-			{
-				"text": "A massive quantum computational anchor required to coordinate sector-wide ascension, or stream high-definition reality across the quadrant without buffering (the engineers weren't very clear). Limited to three per empire to ensure we still have some water for the people."
-			}
-		]
-	},*/
+	},
 
+	// TODO: these shouldn't all replace expert research system (common buildings should be used by at least 2 natinos)
 	// per-nation
 	{
 		"name": "Accretion Foundry",
