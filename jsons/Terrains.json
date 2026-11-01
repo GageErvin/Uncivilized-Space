@@ -14,6 +14,7 @@
   // unciv doesn't support per-terrain city graphics (only per era)
   // - leave them out OR constrain 'canFoundCity' to only hard bodies OR make orbital launcher req a body as an improvement and do 'space station' cities...
   // - for now, constrained 'canfoundcity' (ringed gas giants are an exception but I could perhaps overlap.. T.T ) -- since it didn't seem to be affecting map gen much
+  //   - doesn't seem to have worked.. still building in nebulas..
 
   // all units "Ignores terrain cost" // makes 'rough terrain' in terrains useless but needs must bc of rivers
   // also in some units: 'remove if all space is water after getting map gen right -- makes planets a bit more defensible'
@@ -303,6 +304,7 @@
     "type": "Land",
     "food": 0,
     "production": 1,
+    "culture": 1,
     //"movementCost": 1,
     "defenseBonus": -1,
     "RGB": [
@@ -320,6 +322,7 @@
     "name": "Cryolith Moon",
     "type": "Land",
     "food": 1,
+    "culture": 1,
     "production": 0,
     //"movementCost": 1,
     "defenseBonus": -1,
@@ -338,7 +341,8 @@
     "name": "Terrestrial Planet",
     "type": "Land",
     "food": 4,
-    "production": 3,
+    "culture": 1,
+    "production": 2,
 		"happiness": 2,
     //"movementCost": 2,
     "defenseBonus": -2,
@@ -356,7 +360,8 @@
   {
     "name": "Ringed Terrestrial Planet",
     "type": "Land",
-    "food": 4,
+    "food": 2,
+    "culture": 2,
     "production": 4,
     //"movementCost": 3,
 		"happiness": 2,
@@ -398,6 +403,7 @@
     "name": "Ringed Gas Giant",
     "type": "Land",
     "food": 2,
+    "culture": 1,
     "production": 4,
     //"movementCost": 2,
     "defenseBonus": 0,
@@ -417,7 +423,7 @@
   {
     "name": "Ice Giant",
     "type": "Land",
-    "food": 1,
+    "food": 2,
     "production": 2,
     //"movementCost": 2,
     "defenseBonus": -2,
@@ -436,6 +442,7 @@
     "name": "Ringed Ice Giant",
     "type": "Land",
     "food": 1,
+    "culture": 1,
     "production": 3,
     //"movementCost": 3,
     "defenseBonus": -1,
