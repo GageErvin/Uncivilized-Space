@@ -1,5 +1,18 @@
 [
 	{
+    "name": "Spire",
+    "isDefaultBuilding": true,
+    "happiness": 4,
+    "science": 1,
+    "culture": 1,
+    "production": 1,
+    "gold": 1,
+    "cost": 0,
+    "uniques": [
+        "Indestructible"
+    ]
+	},
+	{
 		"name": "Expert Research System",
 		"science": 2,
 		"production": -1,
