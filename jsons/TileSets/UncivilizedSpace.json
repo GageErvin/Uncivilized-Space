@@ -1,5 +1,5 @@
 {
     "useColorAsBaseTerrain": false,
     "unexploredTileColor": {"r":0.18,"g":0.19,"b":0.2,"a":1},
-	"tileScale": 1.05
+	"tileScale": 1//1.05
 }
