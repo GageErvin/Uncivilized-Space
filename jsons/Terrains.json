@@ -14,18 +14,22 @@
 
   {
     "name": "M4IV Star",  // add to all stars? "Must be adjacent to [6] [Water] tiles"  -- would be odd for generator bc of high->low elevation rate .. could change high flux to land and make planets+low water...
-    "type": "Land",
+    "type": "Water",
     //"impassable": true,
-    "unbuildable": true,
-    "overrideStats": true,
+    //"unbuildable": true,
+    //"overrideStats": true,
+    "food": 0,
+    "production": 2,
+    "science": 2,
+    //"movementCost": 3,
     "RGB": [
       102,
       128,
       1
     ],
     "uniques": [
-      "Rough terrain",
-      "Units ending their turn on this terrain take [50] damage",
+      //"Rough terrain",
+      //"Units ending their turn on this terrain take [50] damage",
       "Neighboring tiles will convert to [High Flux Space]",
       "Always Fertility [1] for Map Generation"
     ],
@@ -33,18 +37,22 @@
   },
   {
     "name": "M5IV Star",
-    "type": "Land",
+    "type": "Water",
     //"impassable": true,
-    "unbuildable": true,
-    "overrideStats": true,
+    //"unbuildable": true,
+    //"overrideStats": true,
+    "food": 0,
+    "production": 2,
+    "science": 2,
+    //"movementCost": 3,
     "RGB": [
       76,
       128,
       1
     ],
     "uniques": [
-      "Rough terrain",
-      "Units ending their turn on this terrain take [50] damage",
+      //"Rough terrain",
+      //"Units ending their turn on this terrain take [50] damage",
       "Neighboring tiles will convert to [High Flux Space]",
       "Always Fertility [1] for Map Generation"
     ],
@@ -52,18 +60,22 @@
   },
   {
     "name": "M4VI Star",
-    "type": "Land",
+    "type": "Water",
     //"impassable": true,
-    "unbuildable": true,
-    "overrideStats": true,
+    //"unbuildable": true,
+    //"overrideStats": true,
+    "food": 0,
+    "production": 2,
+    "science": 2,
+    //"movementCost": 3,
     "RGB": [
       102,
       64,
       1
     ],
     "uniques": [
-      "Rough terrain",
-      "Units ending their turn on this terrain take [50] damage",
+      //"Rough terrain",
+      //"Units ending their turn on this terrain take [50] damage",
       "Neighboring tiles will convert to [Moderate Flux Space]",
       "Always Fertility [1] for Map Generation"
     ],
@@ -71,18 +83,22 @@
   },
   {
     "name": "M5VI Star",
-    "type": "Land",
+    "type": "Water",
     //"impassable": true,
-    "unbuildable": true,
-    "overrideStats": true,
+    //"unbuildable": true,
+    //"overrideStats": true,
+    "food": 0,
+    "production": 2,
+    "science": 2,
+    //"movementCost": 3,
     "RGB": [
       76,
       64,
       1
     ],
     "uniques": [
-      "Rough terrain",
-      "Units ending their turn on this terrain take [50] damage",
+      //"Rough terrain",
+      //"Units ending their turn on this terrain take [50] damage",
       "Neighboring tiles will convert to [Moderate Flux Space]",
       "Always Fertility [1] for Map Generation"
     ],
@@ -90,18 +106,22 @@
   },
   {
     "name": "M3V Star",
-    "type": "Land",
+    "type": "Water",
     //"impassable": true,
-    "unbuildable": true,
-    "overrideStats": true,
+    //"unbuildable": true,
+    //"overrideStats": true,
+    "food": 0,
+    "production": 2,
+    "science": 2,
+    //"movementCost": 3,
     "RGB": [
       128,
       1,
       0
     ],
     "uniques": [
-      "Rough terrain",
-      "Units ending their turn on this terrain take [50] damage",
+      //"Rough terrain",
+      //"Units ending their turn on this terrain take [50] damage",
       "Neighboring tiles will convert to [Low Flux Space]",
       "Always Fertility [1] for Map Generation"
     ],
@@ -109,18 +129,22 @@
   },
   {
     "name": "M4V Star",
-    "type": "Land",
+    "type": "Water",
     //"impassable": true,
-    "unbuildable": true,
-    "overrideStats": true,
+    //"unbuildable": true,
+    //"overrideStats": true,
+    "food": 0,
+    "production": 2,
+    "science": 2,
+    //"movementCost": 3,
     "RGB": [
       102,
       1,
       0
     ],
     "uniques": [
-      "Rough terrain",
-      "Units ending their turn on this terrain take [50] damage",
+      //"Rough terrain",
+      //"Units ending their turn on this terrain take [50] damage",
       "Neighboring tiles will convert to [Low Flux Space]",
       "Always Fertility [1] for Map Generation"
     ],
@@ -128,18 +152,22 @@
   },
   {
     "name": "M5V Star",
-    "type": "Land",
+    "type": "Water",
     //"impassable": true,
-    "unbuildable": true,
-    "overrideStats": true,
+    //"unbuildable": true,
+    //"overrideStats": true,
+    "food": 0,
+    "production": 2,
+    "science": 2,
+    //"movementCost": 3,
     "RGB": [
       76,
       1,
       0
     ],
     "uniques": [
-      "Rough terrain",
-      "Units ending their turn on this terrain take [50] damage",
+      //"Rough terrain",
+      //"Units ending their turn on this terrain take [50] damage",
       "Neighboring tiles will convert to [Low Flux Space]",
       "Always Fertility [1] for Map Generation"
     ],
@@ -147,18 +175,22 @@
   },
   {
     "name": "M6V Star",
-    "type": "Land",
+    "type": "Water",
     //"impassable": true,
-    "unbuildable": true,
-    "overrideStats": true,
+    //"unbuildable": true,
+    //"overrideStats": true,
+    "food": 0,
+    "production": 2,
+    "science": 2,
+    //"movementCost": 3,
     "RGB": [
       51,
       1,
       0
     ],
     "uniques": [
-      "Rough terrain",
-      "Units ending their turn on this terrain take [50] damage",
+      //"Rough terrain",
+      //"Units ending their turn on this terrain take [50] damage",
       "Neighboring tiles will convert to [Low Flux Space]",
       "Always Fertility [1] for Map Generation"
     ],
@@ -166,18 +198,22 @@
   },
   {
     "name": "M7V Star",
-    "type": "Land",
+    "type": "Water",
     //"impassable": true,
-    "unbuildable": true,
-    "overrideStats": true,
+    //"unbuildable": true,
+    //"overrideStats": true,
+    "food": 0,
+    "production": 2,
+    "science": 2,
+    //"movementCost": 3,
     "RGB": [
       25,
       1,
       0
     ],
     "uniques": [
-      "Rough terrain",
-      "Units ending their turn on this terrain take [50] damage",
+      //"Rough terrain",
+      //"Units ending their turn on this terrain take [50] damage",
       "Neighboring tiles will convert to [Low Flux Space]",
       "Always Fertility [1] for Map Generation"
     ],
@@ -185,18 +221,22 @@
   },
   {
     "name": "G2VII Star",
-    "type": "Land",
+    "type": "Water",
     //"impassable": true,
-    "unbuildable": true,
-    "overrideStats": true,
+    //"unbuildable": true,
+    //"overrideStats": true,
+    "food": 0,
+    "production": 2,
+    "science": 2,
+    //"movementCost": 3,
     "RGB": [
       102,
       102,
       0
     ],
     "uniques": [
-      "Rough terrain",
-      "Units ending their turn on this terrain take [50] damage",
+      //"Rough terrain",
+      //"Units ending their turn on this terrain take [50] damage",
       "Neighboring tiles will convert to [Extreme Flux Space]",
       "Always Fertility [1] for Map Generation"
     ],
@@ -204,18 +244,22 @@
   },
   {
     "name": "K7V Star",
-    "type": "Land",
+    "type": "Water",
     //"impassable": true,
-    "unbuildable": true,
-    "overrideStats": true,
+    //"unbuildable": true,
+    //"overrideStats": true,
+    "food": 0,
+    "production": 2,
+    "science": 2,
+    //"movementCost": 3,
     "RGB": [
       230,
       160,
       0
     ],
     "uniques": [
-      "Rough terrain",
-      "Units ending their turn on this terrain take [50] damage",
+      //"Rough terrain",
+      //"Units ending their turn on this terrain take [50] damage",
       "Neighboring tiles will convert to [High Flux Space]",
       "Always Fertility [1] for Map Generation"
     ],
@@ -223,11 +267,11 @@
   },
   {
     "name": "Extreme Flux Space",
-    "type": "Land", //"Water",
+    "type": "Water", //"Water",
     "food": 0,
     "production": 2,
     "science": 2,
-    "movementCost": 3,
+    //"movementCost": 3,
     "uniques": [
       "Doesn't generate naturally"
     ],
@@ -240,11 +284,11 @@
   },
   {
     "name": "High Flux Space",
-    "type": "Land", //"Water",
+    "type": "Water", //"Water",
     "food": 1,
     "production": 1,
     "science": 1,
-    "movementCost": 2,
+    //"movementCost": 2,
     "uniques": [
       "Doesn't generate naturally"
     ],
@@ -257,11 +301,11 @@
   },
   {
     "name": "Moderate Flux Space",
-    "type": "Land", //"Water",
+    "type": "Water", //"Water",
     "food": 1,
     "production": 1,
     "gold": 2,
-    "movementCost": 1,
+    //"movementCost": 1,
     "uniques": [
       "Always Fertility [10] for Map Generation"
     ],
@@ -274,10 +318,10 @@
   },
   {
     "name": "Low Flux Space",
-    "type": "Land", // Water?
+    "type": "Water", // Water?
     "food": 1,
     "production": 1,
-    "movementCost": 1,
+    //"movementCost": 1,
     "uniques": [
       "Always Fertility [20] for Map Generation"
     ],
@@ -290,9 +334,9 @@
   },
   {
     "name": "Zero Flux Space",
-    "type": "Land", // Water?
+    "type": "Water", // Water?
     "food": 0,
-    "movementCost": 1,
+    //"movementCost": 1,
     "uniques": [
       "Always Fertility [35] for Map Generation"
     ],
@@ -305,10 +349,10 @@
   },
   {
     "name": "Cragolith Moon",
-    "type": "Land",
+    "type": "Water",
     "food": 0,
     "production": 1,
-    "movementCost": 1,
+    //"movementCost": 1,
     "defenseBonus": -1,
     "RGB": [
       0,
@@ -323,10 +367,10 @@
   },
   {
     "name": "Cryolith Moon",
-    "type": "Land",
+    "type": "Water",
     "food": 1,
     "production": 0,
-    "movementCost": 1,
+    //"movementCost": 1,
     "defenseBonus": -1,
     "RGB": [
       0,
@@ -341,11 +385,11 @@
   },
   {
     "name": "Terrestrial Planet",
-    "type": "Land",
+    "type": "Water",
     "food": 4,
     "production": 3,
 		"happiness": 2,
-    "movementCost": 2,
+    //"movementCost": 2,
     "defenseBonus": -2,
     "RGB": [
       0,
@@ -360,10 +404,10 @@
   },
   {
     "name": "Ringed Terrestrial Planet",
-    "type": "Land",
+    "type": "Water",
     "food": 4,
     "production": 4,
-    "movementCost": 3,
+    //"movementCost": 3,
 		"happiness": 2,
     "defenseBonus": -1,
     "RGB": [
@@ -381,10 +425,10 @@
   },
   {
     "name": "Gas Giant",
-    "type": "Land",
+    "type": "Water",
     "food": 2,
     "production": 3,
-    "movementCost": 1,
+    //"movementCost": 1,
     "defenseBonus": -1,
     "RGB": [
       0,
@@ -400,10 +444,10 @@
   },
   {
     "name": "Ringed Gas Giant",
-    "type": "Land",
+    "type": "Water",
     "food": 2,
     "production": 4,
-    "movementCost": 2,
+    //"movementCost": 2,
     "defenseBonus": 0,
     "RGB": [
       0,
@@ -420,10 +464,10 @@
   },
   {
     "name": "Ice Giant",
-    "type": "Land",
+    "type": "Water",
     "food": 1,
     "production": 2,
-    "movementCost": 2,
+    //"movementCost": 2,
     "defenseBonus": -2,
     "RGB": [
       0,
@@ -438,10 +482,10 @@
   },
   {
     "name": "Ringed Ice Giant",
-    "type": "Land",
+    "type": "Water",
     "food": 1,
     "production": 3,
-    "movementCost": 3,
+    //"movementCost": 3,
     "defenseBonus": -1,
     "RGB": [
       0,
@@ -457,8 +501,8 @@
   },
   {
     "name": "Nebula",
-    "type": "Land", //"Water",
-    "movementCost": 2,
+    "type": "Water", //"Water",
+    //"movementCost": 2,
     "science": 1,
     "food": 1,
     "RGB": [
@@ -467,7 +511,7 @@
       30
     ],
     "uniques": [
-      "Rough terrain",
+      //"Rough terrain",
       "Occurs in chains at high elevations",
       "Neighboring tiles will convert to [Moderate Flux Space]",
       "Always Fertility [6] for Map Generation"
