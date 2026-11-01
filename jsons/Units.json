@@ -66,6 +66,7 @@
         "cost": 20,
         "uniques": [
             "[+1] Sight",
+            "Ignores terrain cost",
             "May travel on Water tiles without embarking"
         ]
     },
