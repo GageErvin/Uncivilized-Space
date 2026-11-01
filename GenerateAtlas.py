@@ -11,7 +11,6 @@ import xml.etree.ElementTree as ET
 import zipfile
 from PIL import Image
 
-
 def pack_ora_to_atlas(
     ora_path='AllAssets.ora',
     output_image='game.png',
@@ -54,13 +53,22 @@ def pack_ora_to_atlas(
         if name.lower().startswith('background'):
           continue
 
-        # 1. Replace 'Terrains' with 'Tiles' in the layer name
-        name = name.replace('Terrains', 'Tiles')
-
         try:
           # Extract the layer's PNG data directly from the zip archive
           img_data = z.read(src)
           img = Image.open(io.BytesIO(img_data)).convert('RGBA')
+
+          if bool(re.search(r'[Tt]errains/', name)):
+              name = name.replace('Terrains', 'Tiles')
+
+              offset_w, offset_h = 4, 4
+              crop_w, crop_h = 64, 56
+              img = img.crop((
+                  offset_w,
+                  offset_h,
+                  offset_w + crop_w,
+                  offset_h + crop_h
+              ))
 
           layer_obj = {'name': name, 'img': img}
 
@@ -78,16 +86,7 @@ def pack_ora_to_atlas(
   if standalone_images:
       print(f"Exporting {len(standalone_images)} standalone image(s)...")
       for item in standalone_images:
-          # Keep original name for standalone disk file path
           out_filepath = f"{item['name']}.png"
-
-          # Redirect Improvement tile png files to tiles/ instead of Improvements/ (case-insensitive)
-          # out_filepath = re.sub(
-          #     r'TileSets/UncivilizedSpace/[Ii]mprovements/',
-          #     'TileSets/UncivilizedSpace/Tiles/',
-          #     out_filepath
-          # )
-
           dirname = os.path.dirname(out_filepath)
           if dirname:
               os.makedirs(dirname, exist_ok=True)
@@ -164,12 +163,10 @@ def pack_ora_to_atlas(
     # Check if it's an improvement layer
     is_improvement = bool(re.search(r'[Ii]mprovements/', raw_name))
 
-    # Primary atlas entry name: update Improvements/ to tiles/
-    primary_entry_name = raw_name # re.sub(r'[Ii]mprovements/', 'Tiles/', raw_name)
+    primary_entry_name = raw_name
 
     # Helper function to append entry block
     def append_atlas_entry(entry_name):
-      # Clean entry name if it contains ImprovementIcons/ to remove any leading path prefixes
       if 'ImprovementIcons/' in entry_name:
         entry_name = re.sub(r'^.*?(ImprovementIcons/.*)', r'\1', entry_name)
 
@@ -181,14 +178,13 @@ def pack_ora_to_atlas(
       atlas_content.append('  offset: 0, 0')
       atlas_content.append('  index: -1')
 
-    # 1. Primary atlas entry (now uses tiles/)
+    # 1. Primary atlas entry
     append_atlas_entry(primary_entry_name)
 
     # 2. Secondary atlas entry for Improvements (doubles as its own icon)
     if is_improvement:
         secondary_icon_name = re.sub(r'[Ii]mprovements/', 'ImprovementIcons/', raw_name, count=1)
         append_atlas_entry(secondary_icon_name)
-
 
   with open(output_atlas, 'w', encoding='utf-8') as f:
     f.write('\n'.join(atlas_content))

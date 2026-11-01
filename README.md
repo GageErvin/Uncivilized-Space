@@ -36,8 +36,9 @@ Add and constrain some moon variants to be actual moons, then reduce probability
 ## TODO
 
 improvement icons are showing up but not the images... may need the 'tile+improvement' image variants...
+river
 
-TODO in 'terrains.json' 'Techs.json' 'Units.json' 'Buildings.json'
+TODO in 'Techs.json' 'Units.json' 'Buildings.json'
 
 nations text and images
 
