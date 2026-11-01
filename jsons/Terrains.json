@@ -13,6 +13,7 @@
 
   // unciv doesn't support per-terrain city graphics (only per era)
   // - leave them out OR constrain 'canFoundCity' to only hard bodies OR make orbital launcher req a body as an improvement and do 'space station' cities...
+  // - for now, constrained 'canfoundcity' (ringed gas giants are an exception but I could perhaps overlap.. T.T ) -- since it didn't seem to be affecting map gen much
 
   // all units "Ignores terrain cost" // makes 'rough terrain' in terrains useless but needs must bc of rivers
   // also in some units: 'remove if all space is water after getting map gen right -- makes planets a bit more defensible'
@@ -229,8 +230,8 @@
       80,
       80,
       80
-    ]
-    //"canFoundCity": false
+    ],
+    "canFoundCity": false
   },
   {
     "name": "High Flux Space",
@@ -246,8 +247,8 @@
       60,
       60,
       60
-    ]
-    //"canFoundCity": false
+    ],
+    "canFoundCity": false
   },
   {
     "name": "Moderate Flux Space",
@@ -263,8 +264,8 @@
       40,
       40,
       40
-    ]
-    //"canFoundCity": false
+    ],
+    "canFoundCity": false
   },
   {
     "name": "Low Flux Space",
@@ -279,8 +280,8 @@
       20,
       20,
       20
-    ]
-    //"canFoundCity": false
+    ],
+    "canFoundCity": false
   },
   {
     "name": "Zero Flux Space",
@@ -294,8 +295,8 @@
       0,
       0,
       0
-    ]
-    //"canFoundCity": false
+    ],
+    "canFoundCity": false
   },
   {
     "name": "Cragolith Moon",
@@ -390,7 +391,8 @@
       "Blocks line-of-sight from tiles at same elevation",
       "Neighboring tiles will convert to [Low Flux Space]",
       "Always Fertility [1] for Map Generation"
-    ]
+    ],
+    "canFoundCity": false
   },
   {
     "name": "Ringed Gas Giant",
@@ -464,6 +466,7 @@
       "Occurs in chains at high elevations",
       "Neighboring tiles will convert to [Moderate Flux Space]",
       "Always Fertility [6] for Map Generation"
-    ]
+    ],
+    "canFoundCity": false
   }
 ]
