@@ -18,7 +18,7 @@
   },
   {
     "name": "M5IV Star",
-    "type": "Elevated",
+    "type": "Land",
     "impassable": true,
     "unbuildable": true,
     "overrideStats": true,
@@ -32,7 +32,7 @@
   },
   {
     "name": "M4VI Star" ,
-    "type": "Elevated",
+    "type": "Land",
     "impassable": true,
     "unbuildable": true,
     "overrideStats": true,
@@ -47,7 +47,7 @@
   },
   {
     "name": "M5VI Star" ,
-    "type": "Elevated",
+    "type": "Land",
     "impassable": true,
     "unbuildable": true,
     "overrideStats": true,
@@ -62,7 +62,7 @@
   },
   {
     "name": "M3V Star" ,
-    "type": "Elevated",
+    "type": "Land",
     "impassable": true,
     "unbuildable": true,
     "overrideStats": true,
@@ -77,7 +77,7 @@
   },
   {
     "name": "M4V Star" ,
-    "type": "Elevated",
+    "type": "Land",
     "impassable": true,
     "unbuildable": true,
     "overrideStats": true,
@@ -92,7 +92,7 @@
   },
   {
     "name": "M5V Star" ,
-    "type": "Elevated",
+    "type": "Land",
     "impassable": true,
     "unbuildable": true,
     "overrideStats": true,
@@ -107,7 +107,7 @@
   },
   {
     "name": "M6V Star" ,
-    "type": "Elevated",
+    "type": "Land",
     "impassable": true,
     "unbuildable": true,
     "overrideStats": true,
@@ -122,7 +122,7 @@
   },
   {
     "name": "M7V Star" ,
-    "type": "Elevated",
+    "type": "Land",
     "impassable": true,
     "unbuildable": true,
     "overrideStats": true,
@@ -137,7 +137,7 @@
   },
   {
     "name": "G2VII Star" ,
-    "type": "Elevated",
+    "type": "Land",
     "impassable": true,
     "unbuildable": true,
     "overrideStats": true,
@@ -152,7 +152,7 @@
   },
   {
     "name": "K7V Star" ,
-    "type": "Elevated",
+    "type": "Land",
     "impassable": true,
     "unbuildable": true,
     "overrideStats": true,
