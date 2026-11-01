@@ -14,7 +14,7 @@
 
   {
     "name": "M4IV Star",  // add to all stars? "Must be adjacent to [6] [Water] tiles"  -- would be odd for generator bc of high->low elevation rate .. could change high flux to land and make planets+low water...
-    "type": "Water",
+    "type": "Land",
     //"impassable": true,
     //"unbuildable": true,
     //"overrideStats": true,
@@ -37,7 +37,7 @@
   },
   {
     "name": "M5IV Star",
-    "type": "Water",
+    "type": "Land",
     //"impassable": true,
     //"unbuildable": true,
     //"overrideStats": true,
@@ -60,7 +60,7 @@
   },
   {
     "name": "M4VI Star",
-    "type": "Water",
+    "type": "Land",
     //"impassable": true,
     //"unbuildable": true,
     //"overrideStats": true,
@@ -83,7 +83,7 @@
   },
   {
     "name": "M5VI Star",
-    "type": "Water",
+    "type": "Land",
     //"impassable": true,
     //"unbuildable": true,
     //"overrideStats": true,
@@ -106,7 +106,7 @@
   },
   {
     "name": "M3V Star",
-    "type": "Water",
+    "type": "Land",
     //"impassable": true,
     //"unbuildable": true,
     //"overrideStats": true,
@@ -129,7 +129,7 @@
   },
   {
     "name": "M4V Star",
-    "type": "Water",
+    "type": "Land",
     //"impassable": true,
     //"unbuildable": true,
     //"overrideStats": true,
@@ -152,7 +152,7 @@
   },
   {
     "name": "M5V Star",
-    "type": "Water",
+    "type": "Land",
     //"impassable": true,
     //"unbuildable": true,
     //"overrideStats": true,
@@ -175,7 +175,7 @@
   },
   {
     "name": "M6V Star",
-    "type": "Water",
+    "type": "Land",
     //"impassable": true,
     //"unbuildable": true,
     //"overrideStats": true,
@@ -198,7 +198,7 @@
   },
   {
     "name": "M7V Star",
-    "type": "Water",
+    "type": "Land",
     //"impassable": true,
     //"unbuildable": true,
     //"overrideStats": true,
@@ -221,7 +221,7 @@
   },
   {
     "name": "G2VII Star",
-    "type": "Water",
+    "type": "Land",
     //"impassable": true,
     //"unbuildable": true,
     //"overrideStats": true,
@@ -244,7 +244,7 @@
   },
   {
     "name": "K7V Star",
-    "type": "Water",
+    "type": "Land",
     //"impassable": true,
     //"unbuildable": true,
     //"overrideStats": true,
@@ -267,7 +267,7 @@
   },
   {
     "name": "Extreme Flux Space",
-    "type": "Water", //"Water",
+    "type": "Land", //"Water",
     "food": 0,
     "production": 2,
     "science": 2,
@@ -284,7 +284,7 @@
   },
   {
     "name": "High Flux Space",
-    "type": "Water", //"Water",
+    "type": "Land", //"Water",
     "food": 1,
     "production": 1,
     "science": 1,
@@ -301,7 +301,7 @@
   },
   {
     "name": "Moderate Flux Space",
-    "type": "Water", //"Water",
+    "type": "Land", //"Water",
     "food": 1,
     "production": 1,
     "gold": 2,
@@ -318,7 +318,7 @@
   },
   {
     "name": "Low Flux Space",
-    "type": "Water", // Water?
+    "type": "Land", // Water?
     "food": 1,
     "production": 1,
     //"movementCost": 1,
@@ -334,7 +334,7 @@
   },
   {
     "name": "Zero Flux Space",
-    "type": "Water", // Water?
+    "type": "Land", // Water?
     "food": 0,
     //"movementCost": 1,
     "uniques": [
@@ -349,7 +349,7 @@
   },
   {
     "name": "Cragolith Moon",
-    "type": "Water",
+    "type": "Land",
     "food": 0,
     "production": 1,
     //"movementCost": 1,
@@ -367,7 +367,7 @@
   },
   {
     "name": "Cryolith Moon",
-    "type": "Water",
+    "type": "Land",
     "food": 1,
     "production": 0,
     //"movementCost": 1,
@@ -385,7 +385,7 @@
   },
   {
     "name": "Terrestrial Planet",
-    "type": "Water",
+    "type": "Land",
     "food": 4,
     "production": 3,
 		"happiness": 2,
@@ -404,7 +404,7 @@
   },
   {
     "name": "Ringed Terrestrial Planet",
-    "type": "Water",
+    "type": "Land",
     "food": 4,
     "production": 4,
     //"movementCost": 3,
@@ -425,7 +425,7 @@
   },
   {
     "name": "Gas Giant",
-    "type": "Water",
+    "type": "Land",
     "food": 2,
     "production": 3,
     //"movementCost": 1,
@@ -444,7 +444,7 @@
   },
   {
     "name": "Ringed Gas Giant",
-    "type": "Water",
+    "type": "Land",
     "food": 2,
     "production": 4,
     //"movementCost": 2,
@@ -464,7 +464,7 @@
   },
   {
     "name": "Ice Giant",
-    "type": "Water",
+    "type": "Land",
     "food": 1,
     "production": 2,
     //"movementCost": 2,
@@ -482,7 +482,7 @@
   },
   {
     "name": "Ringed Ice Giant",
-    "type": "Water",
+    "type": "Land",
     "food": 1,
     "production": 3,
     //"movementCost": 3,
@@ -501,7 +501,7 @@
   },
   {
     "name": "Nebula",
-    "type": "Water", //"Water",
+    "type": "Land", //"Water",
     //"movementCost": 2,
     "science": 1,
     "food": 1,
