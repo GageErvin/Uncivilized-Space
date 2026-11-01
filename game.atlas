@@ -80,56 +80,56 @@ TileSets/UncivilizedSpace/Units/Data Archivist
   orig: 72, 66
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Tiles/M4 IV Star
+TileSets/UncivilizedSpace/Tiles/M4IV Star
   rotate: false
   xy: 917, 2
   size: 72, 64
   orig: 72, 64
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Tiles/M5 IV Star
+TileSets/UncivilizedSpace/Tiles/M5IV Star
   rotate: false
   xy: 991, 2
   size: 72, 64
   orig: 72, 64
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Tiles/M4 VI Star
+TileSets/UncivilizedSpace/Tiles/M4VI Star
   rotate: false
   xy: 1065, 2
   size: 72, 64
   orig: 72, 64
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Tiles/M5 VI Star
+TileSets/UncivilizedSpace/Tiles/M5VI Star
   rotate: false
   xy: 1139, 2
   size: 72, 64
   orig: 72, 64
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Tiles/M3 V Star
+TileSets/UncivilizedSpace/Tiles/M3V Star
   rotate: false
   xy: 1213, 2
   size: 72, 64
   orig: 72, 64
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Tiles/M4 V Star
+TileSets/UncivilizedSpace/Tiles/M4V Star
   rotate: false
   xy: 1287, 2
   size: 72, 64
   orig: 72, 64
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Tiles/M5 V Star
+TileSets/UncivilizedSpace/Tiles/M5V Star
   rotate: false
   xy: 1361, 2
   size: 72, 64
   orig: 72, 64
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Tiles/M6 V Star
+TileSets/UncivilizedSpace/Tiles/M6V Star
   rotate: false
   xy: 1435, 2
   size: 72, 64
@@ -143,7 +143,7 @@ TileSets/UncivilizedSpace/Tiles/M7V Star
   orig: 72, 64
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Tiles/G2 VII Star
+TileSets/UncivilizedSpace/Tiles/G2VII Star
   rotate: false
   xy: 1583, 2
   size: 72, 64
