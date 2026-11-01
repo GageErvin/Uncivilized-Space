@@ -40,42 +40,21 @@
 		"infrastructure": 1,
 		"production": 1,
 		"cost": 60,
-		"uniques": [
-			// TODO: figure out 'or' -- maybe a different launcher for each?  might be more balanced w/just support for specific tbh
-			// "Must be on [Terrestrial Planet] OR a [Ringed Terrestrial Planet] OR a [Ice Giant] OR a [Ringed Ice Giant]"
-		]
+		"requiredTech": "Orbital Swarming"
 	},
 	{
 		"name": "Climate Control",
 		"food": 2,
 		"happiness": 2,
 		"cost": 100,
-		"uniques": [
-			// "Must be on [Ice Giant]",
-			// "Must be on [Ringed Ice Giant]",
-			// "Must be on [Gas Giant]",
-			// "Must be on [Ringed Gas Giant]"
-		],
 		"requiredTech": "Expert Systems"
 	},
 	{
 		"name": "Terraforming",
 		"food": 2,
 		"happiness": 2,
-		"cost": 200,
-		"uniques": [
-			// "Must be on [Terrestrial Planet]",
-			// "Must be on [Ringed Terrestrial Planet]",
-			// "Must be on [Ice Giant]",
-			// "Must be on [Ringed Ice Giant]",
-			// "Must be on [Gas Giant]",
-			// "Must be on [Ringed Gas Giant]",
-			// "Must be on [Cryolith Moon]",
-			// "Must be on [Cragolith Moon]"
-		]
+		"cost": 200
 	},
-	// TODO: these shouldn't all replace expert research system (common buildings should be used by at least 2 natinos)
-	// per-nation
 	{
 		"name": "Accretion Foundry",
 		"replaces": "Expert Research System",

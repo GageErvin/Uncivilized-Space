@@ -82,7 +82,6 @@
 		"wonderCost": 250,
 		"techs": [
 			{
-				// TODO: doesn't seem to gate anything at all -- not in unit uniques/other techs/etc
 				"name": "Orbital Swarming",
 				"prerequisites": [
 					"Expert Systems",

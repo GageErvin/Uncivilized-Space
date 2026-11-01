@@ -81,6 +81,7 @@
     "name": "Solar Reflector",
     "production": 1,
     "turnsToBuild": 7,
+    "requiredTech": "Orbital Swarming",
     "uniques": [
       "[2] Sight"
     ],

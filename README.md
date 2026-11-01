@@ -38,7 +38,9 @@ Add and constrain some moon variants to be actual moons, then reduce probability
 improvement icons are showing up but not the images... may need the 'tile+improvement' image variants...
 river
 
-TODO in 'Techs.json' 'Units.json' 'Buildings.json'
+buildings shouldn't replace expert research system for every civ (common buildings should be used by at least 2 natinos).. repurpose some and add more!
+
+Regular missile dmg simulated loss of fuel but needed tweaking... should be different per missile "[This Unit] takes [3] damage upon turn end"
 
 nations text and images
 
