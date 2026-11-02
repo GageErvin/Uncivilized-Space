@@ -5,6 +5,7 @@
         "cost": 200,
         "movement": 2,
         "uniques": [
+			"[+1] movement <in [Magnetic Acceleration Relay] tiles>",
             "Founds a new city <by consuming this unit> <in [Terrestrial Planet] tiles>",
             "Founds a new city <by consuming this unit> <in [Ringed Terrestrial Planet] tiles>",
             "Founds a new city <by consuming this unit> <in [Gas Giant] tiles>",
