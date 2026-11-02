@@ -35,6 +35,12 @@ Add and constrain some moon variants to be actual moons, then reduce probability
 
 ## TODO
 
+images for barbs' terrains & location limits
+desirable for start location for nations ; more decoration tiles
+multi-tile constructables
+- unit (front must be adjacent to rear ; on completion transforms; rear transforms)
+- structure (dyson sphere -- surounding pieces must be adjacent to each other; center piece too; when adjacent, extra stats )
+
 culture from activities but not for cities
 
 improvement icons are showing up but not the images... may need the 'tile+improvement' image variants...

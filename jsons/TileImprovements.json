@@ -46,28 +46,28 @@
       "Unbuildable"
     ]
   },
-  {
-    "name": "Repair",
-    "turnsToBuild": 2,
-    "uniques": [
-      "Unbuildable",
-      "Excluded from map editor"
-    ],
-    "shortcutKey": "E",
-    "civilopediaText": [
-      {
-        "text": "Repairs a pillaged Improvement or Route"
-      }
-    ]
-  },
-  {
-    "name": "Remove Road",
-    "turnsToBuild": 2,
-    "uniques": [
-      "Can be built outside your borders",
-      "Excluded from map editor"
-    ]
-  },
+  //{
+  //  "name": "Repair",
+  //  "turnsToBuild": 2,
+  //  "uniques": [
+  //    "Unbuildable",
+  //    "Excluded from map editor"
+  //  ],
+  //  "shortcutKey": "E",
+  //  "civilopediaText": [
+  //    {
+  //      "text": "Repairs a pillaged Improvement or Route"
+  //    }
+  //  ]
+  //},
+  //{
+  //  "name": "Remove Road",
+  //  "turnsToBuild": 2,
+  //  "uniques": [
+  //    "Can be built outside your borders",
+  //    "Excluded from map editor"
+  //  ]
+  //},
   {
     "name": "Cancel improvement order",
     "uniques": [
@@ -78,7 +78,6 @@
   },
   {
     "name": "Magnetic Acceleration Relay",
-    "infrastructure": 1,
     "turnsToBuild": 2,
     "uniques": [
       "Can be built outside your borders",
@@ -99,9 +98,7 @@
   {
     "name": "0-G Lab",
     "turnsToBuild": 4,
-    "uniques": [
-      "[2] Sight"
-    ],
+    "uniques": [],
     "science": 2,
     "terrainsCanBeBuiltOn": [
       "Zero Flux Space",
@@ -112,11 +109,8 @@
   {
     "name": "Orbital Ship Yard",
     "production": 3,
-    "infrastructure": 1,
     "turnsToBuild": 7,
-    "uniques": [
-      "[2] Sight"
-    ],
+    "uniques": [],
     "techRequired": "Zero-G Fabrication",
     "terrainsCanBeBuiltOn": [
       "Zero Flux Space",
@@ -129,9 +123,7 @@
     "production": 1,
     "turnsToBuild": 7,
     "requiredTech": "Orbital Swarming",
-    "uniques": [
-      "[2] Sight"
-    ],
+    "uniques": [],
     "terrainsCanBeBuiltOn": [
       "Zero Flux Space",
       "Low Flux Space",
@@ -140,22 +132,27 @@
   },
   {
     "name": "Particulate Collection Array",
-    "production": 3,
-    "turnsToBuild": 7,
-    "uniques": [
-      "[4] Sight"
-    ],
+    "production": 1,
+    "turnsToBuild": 2,
     "techRequired": "Pre-Tracting Ionization",
     "terrainsCanBeBuiltOn": [
       "Moderate Flux Space"
     ]
   },
   {
-    "name": "Deep Space Radar Array",
-    "infrastructure": 3,
+    "name": "Residual",
+    "turnsToBuild": 1,
+    "comment": "May be removed-a leftover after building a unit"
+  },
+  {
+    "name": "Deep Space Radar Array Scaffold",
     "turnsToBuild": 6,
+    "RGB": [24, 29, 24],
     "uniques": [
-      "[9] Sight"
+      "Unbuildable",
+      // todo: unit -> "[9] Sight" "[-2] Movement"
+      "Spawns a [Deep Space Radar Array] <upon completion>",
+      "Replaced by [Residual] <upon completion>" // or removed
     ],
     "terrainsCanBeBuiltOn": [
       "Zero Flux Space",
