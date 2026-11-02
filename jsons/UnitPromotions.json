@@ -1,24 +1,92 @@
 [
-	// {
-	// 	"name": "1",
-	// 	"prerequisites": [],
-	// 	"uniques": [
-	// 		"[+10]% Strength <when fighting in [Space] tiles>"
-	// 	]
-	// },
-	// {
-	// 	"name": "",
-	// 	"prerequisites": [],
-	// 	"uniques": [
-	// 		"Ignores terrain movement costs"
-	// 	]
-	// },
-	// {
-	// 	"name": "",
-	// 	"prerequisites": ["1"],
-	// 	"uniques": [
-	// 		"[+1] Sight range",
-	// 		"[+1] Movement"
-	// 	]
-	// }
+	{
+		"name": "Ablative Armor Maintenance",
+		"prerequisites": [],
+		"uniques": [
+			"[+15]% Strength <when defending>",
+			"May heal outside of friendly territory"
+		],
+		"civilopediaText": [
+			{
+				"text": "Found the manual in the back of the cargo bay. Turns out you're not supposed to scrape it off with a rusty putty knife. Who knew?"
+			}
+		]
+	},
+	{
+		"name": "Point Defense Routine Tweaks",
+		"prerequisites": [],
+		"uniques": [
+			"[+25]% Strength <when fighting against [Missile] units>"
+		],
+		"civilopediaText": [
+			{
+				"text": "A quick script patch pushed to the turret subroutines, and suddenly incoming ordnance doesn't bypass the interceptors quite so casually."
+			}
+		]
+	},
+	{
+		"name": "Advanced Script Patching",
+		"prerequisites": ["Point Defense Routine Tweaks"],
+		"uniques": [
+			"[+1] additional attacks per turn",
+			"[+15]% Strength <when fighting against [Drone] units>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Why stop at tweaking point defense when you can write a custom regex parser to swat autonomous drones out of the vacuum like digital mosquitoes?"
+			}
+		]
+	},
+	{
+		"name": "Meteoropathy",
+		"prerequisites": [],
+		"uniques": [
+			"[+10]% Strength <when fighting in [Nebula] tiles>",
+			"[+1] Sight range"
+		],
+		"civilopediaText": [
+			{
+				"text": "Achieving peak combat efficiency only when cosmic static hurts everyone's artificial joints and meteorological sensors."
+			}
+		]
+	},
+	{
+		"name": "Relativistic Coordination",
+		"prerequisites": [],
+		"uniques": [
+			"[+1] Movement",
+			"[+10]% Strength <when attacking>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Optimal relativistic coordination. Only matters from the right perspective; from the enemy's perspective, you hit them five minutes ago."
+			}
+		]
+	},
+	{
+		"name": "Performing Crew",
+		"prerequisites": [],
+		"uniques": [
+			"[-10]% Strength",
+			"[+100]% Experience gained"
+		],
+		"civilopediaText": [
+			{
+				"text": "Thought they'd know how to work together before launching in a $42 trillion flagship? Wrong! They are currently holding an emergency seminar on synergy while under heavy fire."
+			}
+		]
+	},
+	{
+		"name": "Synergy Achieved",
+		"prerequisites": ["Performing Crew"],
+		"uniques": [
+			"[+20]% Strength",
+			"All adjacent units heal [3] HP when healing"
+		],
+		"civilopediaText": [
+			{
+				"text": "After surviving three near-death experiences, a hull breach, and a bitter mutiny over breakroom coffee blend preferences, the crew finally achieved peak corporate synergy."
+			}
+		]
+	}
 ]

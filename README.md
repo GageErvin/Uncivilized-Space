@@ -5,7 +5,6 @@ Balanced for a huge map; must enable 'permanent audio-visual mod' and select til
 ## Ideas
 
 Ruins
-Many carefully gated promotions
 Science victory
 Great people?  'Citadel' could be an orbital fortress type thing
 Events, Quests, more Policy trees {then culture buildings and improvements}
@@ -13,6 +12,7 @@ Buildings & Improvements
 - diversify with new leveraging stats or resources into one-another 
 - diversify with new per-nation variants (ea nation should have many unique; each base should be used by at least 2)
 units
+- many carefully gated promotions
 - diverse uniques nearly as a rule rather than exception
 - scout promotions: cheaper, faster, more vision, slightly buffer
 - command ships 

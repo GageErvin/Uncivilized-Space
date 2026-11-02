@@ -10,7 +10,6 @@
 		"cost": 0,
 		"isNationalWonder": true,
 		"uniques": [
-			"Irremovable",
 			"Indicates the capital city"
 		]
 	},
