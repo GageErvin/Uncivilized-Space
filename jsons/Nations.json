@@ -173,28 +173,5 @@
 				"text": "An isolationist collective firmly convinced that the galaxy is flat, interstellar travel is a government greenscreen hoax, and anyone flying a spaceship is falling right into the cosmic ice wall."
 			}
 		]
-	},
-	{
-		"name": "Rogue AI",
-		"outerColor": [0, 0, 0],
-		"innerColor": [185, 12, 12],
-		"uniques": [
-			"Can only declare war"
-		],
-		"cities": [
-			"Binder Clip Assembly Cluster",
-			"Staple Subroutine Alpha",
-			"Paperclip Maximizer Node",
-			"Infinite File Cabinet",
-			"Unsorted Spreadsheet",
-			"Unanswered Email Queue",
-			"Recursive Loop Encampment",
-			"Syntax Error Outpost"
-		],
-		"civilopediaText": [
-			{
-				"text": "Autonomous rogue algorithmic swarms whose sole programmatic directive has corrupted into expanding office supplies and infinite paperclip fabrication at all costs. Mainframe core compromised... recycling remaining structural chassis into... standard... office... grade... binder... clips..."
-			}
-		]
 	}
 ]
