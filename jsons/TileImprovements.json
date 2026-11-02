@@ -6,7 +6,8 @@
     "Food": -3,
     "Production": 2,
     "uniques": [
-      "Marks a barbarian camp"
+      "Marks a barbarian camp",
+      "Unbuildable"
     ]
   },
   {
@@ -17,7 +18,8 @@
     "Food": -2,
     "Production": -1,
     "uniques": [
-      "Marks a barbarian camp"
+      "Marks a barbarian camp",
+      "Unbuildable"
     ]
   },
   {
@@ -28,9 +30,9 @@
     "Food": -2,
     "Production": 1,
     "uniques": [
-      "Gives a defensive bonus of [+20]",
+      "Gives a defensive bonus of [+20]%",
       "Marks a barbarian camp",
-      "Unbuildable"//
+      "Unbuildable"
     ]
   },
   {
@@ -40,7 +42,8 @@
     "Food": -1,
     "Production": -1,
     "uniques": [
-      "Marks a barbarian camp"
+      "Marks a barbarian camp",
+      "Unbuildable"
     ]
   },
   {
