@@ -14,9 +14,9 @@
     "name": "Paperclip Ecumenopolis",
     "type": "Land",
     "RGB": [255,0,0],
+    "Food": -3,
+    "Production": 2,
     "uniques": [
-      "[-3] Food",
-      "[+2] Production",
       "Marks a barbarian camp"
     ]
   },
