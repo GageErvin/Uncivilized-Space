@@ -5,7 +5,7 @@
         "cost": 200,
         "movement": 2,
         "uniques": [
-			"[+1] movement <in [Magnetic Acceleration Relay] tiles>",
+			"[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "Founds a new city <by consuming this unit> <in [Terrestrial Planet] tiles>",
             "Founds a new city <by consuming this unit> <in [Ringed Terrestrial Planet] tiles>",
             "Founds a new city <by consuming this unit> <in [Gas Giant] tiles>",
@@ -28,6 +28,7 @@
         "movement": 3,
         "requiredTech": "Cryogenics",
         "uniques": [
+			"[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "Founds a new city <by consuming this unit> <in [Terrestrial Planet] tiles>",
             "Founds a new city <by consuming this unit> <in [Ringed Terrestrial Planet] tiles>",
             "Founds a new city <by consuming this unit> <in [Gas Giant] tiles>",
@@ -48,6 +49,7 @@
         "movement": 5,
         "requiredTech": "Artificial Super Intelligence",
         "uniques": [
+			"[+2] Movement <in [Magnetic Acceleration Relay] tiles>",
             "Founds a new city <by consuming this unit> <in [Terrestrial Planet] tiles>",
             "Founds a new city <by consuming this unit> <in [Ringed Terrestrial Planet] tiles>",
             "Founds a new city <by consuming this unit> <in [Gas Giant] tiles>",
@@ -67,6 +69,7 @@
         "cost": 30,
         "movement": 4,
         "uniques": [
+			"[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "Can build [Land] improvements on tiles",
             "Can build [Water] improvements on tiles",
             "Ignores terrain cost",
@@ -80,6 +83,7 @@
         "combatStrength": 5,
         "cost": 20,
         "uniques": [
+			"[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+1] Sight",
             "Ignores terrain cost",
             "May travel on Water tiles without embarking"
@@ -96,6 +100,7 @@
         "upgradesTo": "Laser Corvette",
         "obsoleteWith": "Micro Particulate Shielding",
         "uniques": [
+			"[+2] Movement <in [Magnetic Acceleration Relay] tiles>",
             "May travel on Water tiles without embarking",
             "Ignores terrain cost",
             "Eliminates combat penalty for attacking over a river",
@@ -114,6 +119,7 @@
         "upgradesTo": "Laser Frigate",
         "obsoleteWith": "Athermal Lens",
         "uniques": [
+			"[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[1] additional attacks per turn",
             "Ignores terrain cost",
             "May heal outside of friendly territory",
@@ -135,6 +141,7 @@
         "requiredResource": "Exotic Optomaterial",
         "requiredResourceCost": 1,
         "uniques": [
+			"[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+1] Sight",
             "May heal outside of friendly territory",
             "May travel on Water tiles without embarking",
@@ -156,6 +163,7 @@
         "requiredResourceCost": 1,
         "requiredTech": "High Efficiency Fusion",
         "uniques": [
+			"[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+1] Sight",
             "Double movement in [Nebula]",
             "All tiles cost 1 movement",
@@ -180,6 +188,7 @@
         "requiredResourceCost": 1,
         "requiredTech": "Directed Plasma",
         "uniques": [
+			"[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+2] Sight",
             "May heal outside of friendly territory",
             "May travel on Water tiles without embarking",
@@ -203,6 +212,7 @@
         "requiredTech": "Exotic Matter Condenser",
         "obsoleteWith": "Graviton Manipulation",
         "uniques": [
+			"[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+2] Sight",
             "May heal outside of friendly territory",
             "May travel on Water tiles without embarking",
@@ -221,6 +231,7 @@
         "cost": 650,
         "requiredTech": "Graviton Manipulation",
         "uniques": [
+			"[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+4] Sight",
             "May heal outside of friendly territory",
             "[1] additional attacks per turn",
@@ -301,6 +312,7 @@
         "requiredTech": "Expert Systems",
         "upgradesTo": "Missile Cradle",
         "uniques": [
+			"[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+6] Sight",
             "May heal outside of friendly territory",
             "No damage penalty for wounded units",
@@ -327,6 +339,7 @@
         "requiredTech": "Laser Propulsion",
         "upgradesTo": "Strategic Cradle",
         "uniques": [
+			"[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+8] Sight",
             "May heal outside of friendly territory",
             "No damage penalty for wounded units",
@@ -351,6 +364,7 @@
         "requiredTech": "Strange Battery",
         "upgradesTo": "Cannonade Vessel",
         "uniques": [
+			"[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+10] Sight",
             "May heal outside of friendly territory",
             "No damage penalty for wounded units",
@@ -378,6 +392,7 @@
         "requiredTech": "C-Fractional Thrust",
         "upgradesTo": "Warship",
         "uniques": [
+			"[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+3] Sight",
             "May heal outside of friendly territory",
             "Ranged attacks may be performed over obstacles",
@@ -401,6 +416,7 @@
         "requiredResourceCount": 1,
         "requiredTech": "C-Fractional Thrust",
         "uniques": [
+			"[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+4] Sight",
             "May heal outside of friendly territory",
             "Ranged attacks may be performed over obstacles",
