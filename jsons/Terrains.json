@@ -9,52 +9,6 @@
   // - eventually used zero flux for water and conversion sequences for everything else
   //   - all units "Ignores terrain cost" // makes 'rough terrain' in terrains useless but needs must bc of rivers
   //   - also in some units: 'remove if all space is water after getting map gen right -- makes planets a bit more defensible'
-
-  {
-    "name": "Paperclip Ecumenopolis",
-    "type": "Land",
-    "RGB": [255,0,0],
-    "Food": -3,
-    "Production": 2,
-    "uniques": [
-      "Marks a barbarian camp"
-    ]
-  },
-  {
-    "name": "Matrix Simulation Pods",
-    "type": "Land",
-    "RGB": [255,0,0],
-    "Science": 2,
-    "Food": -2,
-    "Production": -1,
-    "uniques": [
-      "Marks a barbarian camp"
-    ]
-  },
-  {
-    "name": "Skynet Command Bunker",
-    "type": "Land",
-    "RGB": [255,0,0],
-    "Science": 1,
-    "Food": -2,
-    "Production": 1,
-    "uniques": [
-      "Units defending in this tile get a [+25]% Strength bonus",
-      "Marks a barbarian camp"
-    ]
-  },
-  {
-    "name": "Over-Caregiver Enclave",
-    "type": "Land",
-    "RGB": [255,0,0],
-    "Food": -1,
-    "Production": -1,
-    "uniques": [
-      "Provides [-1] Food",
-      "Provides [-1] Production",
-      "Marks a barbarian camp"
-    ]
-  },
   {
     "name": "M4IV Star",
     "type": "Land",
