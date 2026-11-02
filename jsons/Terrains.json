@@ -24,10 +24,10 @@
     "name": "Matrix Simulation Pods",
     "type": "Land",
     "RGB": [255,0,0],
+    "Science": 2,
+    "Food": -2,
+    "Production": -1,
     "uniques": [
-      "[+2] Science",
-      "[-2] Food",
-      "[-1] Production",
       "Marks a barbarian camp"
     ]
   },
@@ -35,10 +35,10 @@
     "name": "Skynet Command Bunker",
     "type": "Land",
     "RGB": [255,0,0],
+    "Science": 1,
+    "Food": -2,
+    "Production": 1,
     "uniques": [
-      "[+1] Production",
-      "[+1] Science",
-      "[-2] Food",
       "Units defending in this tile get a [+25]% Strength bonus",
       "Marks a barbarian camp"
     ]
@@ -47,6 +47,8 @@
     "name": "Over-Caregiver Enclave",
     "type": "Land",
     "RGB": [255,0,0],
+    "Food": -1,
+    "Production": -1,
     "uniques": [
       "Provides [-1] Food",
       "Provides [-1] Production",
@@ -600,7 +602,7 @@
     "type": "Land",
     "food": 0,
     "production": 1,
-    "culture": 1,
+    "culture": 0,
     "defenseBonus": -1,
     "RGB": [
       0,
@@ -626,7 +628,7 @@
     "name": "Cryolith Moon",
     "type": "Land",
     "food": 1,
-    "culture": 1,
+    "culture": 0,
     "production": 0,
     "defenseBonus": -1,
     "RGB": [
@@ -688,7 +690,7 @@
     "name": "Ringed Terrestrial Planet",
     "type": "Land",
     "food": 2,
-    "culture": 2,
+    "culture": 0,
     "production": 4,
 		"happiness": 2,
     "defenseBonus": -1,
@@ -758,7 +760,7 @@
     "name": "Ringed Gas Giant",
     "type": "Land",
     "food": 2,
-    "culture": 1,
+    "culture": 0,
     "production": 4,
     "defenseBonus": 0,
     "RGB": [
@@ -826,7 +828,7 @@
     "name": "Ringed Ice Giant",
     "type": "Land",
     "food": 1,
-    "culture": 1,
+    "culture": 0,
     "production": 3,
     "defenseBonus": -1,
     "RGB": [
