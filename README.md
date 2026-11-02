@@ -7,7 +7,7 @@ Balanced for a huge map; must enable 'permanent audio-visual mod' and select til
 Ruins
 Science victory
 Great people?  'Citadel' could be an orbital fortress type thing
-Events, Quests, more Policy trees {then culture buildings and improvements}
+Events, Quests, more Policy trees
 Buildings & Improvements
 - diversify with new leveraging stats or resources into one-another 
 - diversify with new per-nation variants (ea nation should have many unique; each base should be used by at least 2)
@@ -34,6 +34,8 @@ Add and constrain some moon variants to be actual moons, then reduce probability
 - "Must be adjacent to [1] [* Planet] tiles",
 
 ## TODO
+
+culture from activities but not for cities
 
 improvement icons are showing up but not the images... may need the 'tile+improvement' image variants...
 river
