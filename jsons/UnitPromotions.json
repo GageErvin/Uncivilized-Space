@@ -29,7 +29,7 @@
 		"prerequisites": ["Point Defense Routine Tweaks"],
 		"uniques": [
 			"[+1] additional attacks per turn",
-			"[+15]% Strength <when fighting against [Drone] units>"
+			"[+15]% Strength <vs [Drone] units>"
 		],
 		"civilopediaText": [
 			{
