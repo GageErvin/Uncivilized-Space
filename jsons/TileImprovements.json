@@ -35,8 +35,7 @@
     "turnsToBuild": 2,
     "uniques": [
       "Can be built outside your borders",
-      "Costs [1] [Gold] per turn",
-      "Gives [Road] movement to tiles"
+      "Costs [1] [Gold] per turn"
     ],
     "shortcutKey": "R",
     "civilopediaText": [
