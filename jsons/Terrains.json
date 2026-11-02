@@ -11,6 +11,45 @@
   //   - also in some units: 'remove if all space is water after getting map gen right -- makes planets a bit more defensible'
 
   {
+    "name": "Paperclip Ecumenopolis",
+    "RGB": [255,0,0],
+    "uniques": [
+      "[-3] Food",
+      "[+2] Production",
+      "Marks a barbarian camp"
+    ]
+  },
+  {
+    "name": "Matrix Simulation Pods",
+    "RGB": [255,0,0],
+    "uniques": [
+      "[+2] Science",
+      "[-2] Food",
+      "[-1] Production",
+      "Marks a barbarian camp"
+    ]
+  },
+  {
+    "name": "Skynet Command Bunker",
+    "RGB": [255,0,0],
+    "uniques": [
+      "[+1] Production",
+      "[+1] Science",
+      "[-2] Food",
+      "Units defending in this tile get a [+25]% Strength bonus",
+      "Marks a barbarian camp"
+    ]
+  },
+  {
+    "name": "Over-Caregiver Enclave",
+    "RGB": [255,0,0],
+    "uniques": [
+      "Provides [-1] Food",
+      "Provides [-1] Production",
+      "Marks a barbarian camp"
+    ]
+  },
+  {
     "name": "M4IV Star",
     "type": "Land",
     "food": 0,
