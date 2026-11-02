@@ -1,5 +1,49 @@
 [
   {
+    "name": "Paperclip Ecumenopolis",
+    "type": "Land",
+    "RGB": [255,0,0],
+    "Food": -3,
+    "Production": 2,
+    "uniques": [
+      "Marks a barbarian camp"
+    ]
+  },
+  {
+    "name": "Matrix Simulation Pods",
+    "type": "Land",
+    "RGB": [255,0,0],
+    "Science": 2,
+    "Food": -2,
+    "Production": -1,
+    "uniques": [
+      "Marks a barbarian camp"
+    ]
+  },
+  {
+    "name": "Skynet Command Bunker",
+    "type": "Land",
+    "RGB": [255,0,0],
+    "Science": 1,
+    "Food": -2,
+    "Production": 1,
+    "uniques": [
+      "Gives a defensive bonus of [+20]",
+      "Marks a barbarian camp",
+      "Unbuildable"//
+    ]
+  },
+  {
+    "name": "Over-Caregiver Enclave",
+    "type": "Land",
+    "RGB": [255,0,0],
+    "Food": -1,
+    "Production": -1,
+    "uniques": [
+      "Marks a barbarian camp"
+    ]
+  },
+  {
     "name": "Repair",
     "turnsToBuild": 2,
     "uniques": [
