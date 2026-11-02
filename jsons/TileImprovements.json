@@ -34,8 +34,10 @@
     "infrastructure": 1,
     "turnsToBuild": 2,
     "uniques": [
-      "[1] Sight",
-      "Can be built outside your borders"
+      "Can be built outside your borders",
+      "Removes removal speed penalties",
+      "Pay [1] [Gold] maintenance",
+      "Gives [Road] movement to tiles"
     ],
     "shortcutKey": "R",
     "civilopediaText": [
