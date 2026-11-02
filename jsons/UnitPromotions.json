@@ -42,7 +42,7 @@
 		"prerequisites": [],
 		"uniques": [
 			"[+10]% Strength <when fighting in [Nebula] tiles>",
-			"[+1] Sight range"
+			"[+1] Sight"
 		],
 		"civilopediaText": [
 			{
