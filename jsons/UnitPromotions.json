@@ -16,7 +16,7 @@
 		"name": "Point Defense Routine Tweaks",
 		"prerequisites": [],
 		"uniques": [
-			"[+25]% Strength <when fighting against [Missile] units>"
+			"[+25]% Strength <vs [Missile] units>"
 		],
 		"civilopediaText": [
 			{
