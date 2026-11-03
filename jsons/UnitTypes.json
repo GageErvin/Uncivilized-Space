@@ -20,6 +20,11 @@
         "uniques": ["Suppress warning [*cached on the unit*"]
     },
     {
+        "name": "Air",
+        "movementType": "Air",
+        "uniques": ["Unbuildable","Suppress warning [*cached on the unit*"]
+    },
+    {
         "name": "Munition",
         "movementType": "Air",
         "uniques": ["Unbuildable","Suppress warning [*cached on the unit*"]
