@@ -306,7 +306,7 @@
         "requiredTech": "Expert Systems",
         "obsoleteWith": "Micro Particulate Shielding",
         "uniques": [
-            "[This Unit] takes [30] damage <every [1] turns>",
+            "[This Unit] takes [30] damage",// <every [1] turns>",
             "Can transform to [Munition I] <when adjacent to a [Sub] unit>",
             "[-1] Sight",
             "May heal outside of friendly territory",
