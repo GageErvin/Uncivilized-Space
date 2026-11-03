@@ -141,9 +141,9 @@
       "Low Flux Space",
       "Zero Flux Space"],
     "uniques":[
-      "[+2 Gold, +1 Production] for each adjacent [Debris Field]",
-      "[+1 Production] for each adjacent [High Flux Field]",
-      "[+1 Gold, +1 Production] for each adjacent [Extreme Flux Field]"
+      "[+2 Gold, +1 Production] for each adjacent [Debris Fields]",
+      "[+1 Production] for each adjacent [High Flux Space]",
+      "[+1 Gold, +1 Production] for each adjacent [Extreme Flux Space]"
     ]
   },
   {
