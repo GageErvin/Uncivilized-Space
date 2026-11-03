@@ -5,7 +5,7 @@
 		"aiUnitCostPercent": 130,
 		"aiInflationPercent": 150,
 		"aiUnhappinessPercent": 75,
-		"playerBonusStartingUnits": ["Generational Settler"],
+		"playerBonusStartingUnits": [],
 		"barbarianSpawnDelay": 6,
 		"advancedStartPoints": 30,
         "civilopediaText": [{"text": "A universe of slippery cons, high-tech heists, and minor local friction. You'll survive by your wits and a cheeky grin."}]
@@ -16,7 +16,7 @@
 		"aiUnitCostPercent": 100,
 		"aiInflationPercent": 100,
 		"aiUnhappinessPercent": 100,
-		"playerBonusStartingUnits": ["Generational Settler"],
+		"playerBonusStartingUnits": [],
 		"barbarianSpawnDelay": 2,
 		"advancedStartPoints": 0,
         "civilopediaText": [{"text": "Tactical simulations and military academy pressures. The stakes are global, and the commanders are brilliant children."}]
@@ -27,7 +27,7 @@
 		"aiUnitCostPercent": 80,
 		"aiInflationPercent": 80,
 		"aiUnhappinessPercent": 80,
-		"playerBonusStartingUnits": ["Generational Settler", "Data Archivist"],
+		"playerBonusStartingUnits": [],
 		"barbarianSpawnDelay": 1,
 		"advancedStartPoints": 0,
         "civilopediaText": [{"text": "Vengeful AI warships waking up in a dark empire to settle an ancient, bloody score. The galaxy burned once; it's about to happen again."}]
