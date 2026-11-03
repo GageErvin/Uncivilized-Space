@@ -306,6 +306,7 @@
         "requiredTech": "Expert Systems",
         "obsoleteWith": "Micro Particulate Shielding",
         "uniques": [
+            "Can transform to [Munition I] <costing [0] [Gold]> <if adjacent to a [Sub] unit>",
             "[-1] Sight",
             "May heal outside of friendly territory",
             "No damage penalty for wounded units",
@@ -316,6 +317,18 @@
             "Ignores terrain cost <hidden from users>",
             "Eliminates combat penalty for attacking over a river <hidden from users>",
             "Eliminates combat penalty for attacking across a coast <hidden from users>"
+        ]
+    },
+    {
+        "name": "Munition I",
+        "unitType": "Civilian",
+        "movement": 2,
+        "strength": 0,
+        "cost": 0,
+        "uniques": [
+          "Is a [Air] unit",
+          "Can transform to [Missile] <costing [0] [Gold]>",
+          "Hidden from users"
         ]
     },
     {
@@ -327,6 +340,7 @@
         "requiredTech": "Micro Particulate Shielding",
         "obsoleteWith": "Laser Propulsion",
         "uniques": [
+            "Can transform to [Munition II] <costing [0] [Gold]> <if adjacent to a [Sub] unit>",
             "[-1] Sight",
             "May heal outside of friendly territory",
             "No damage penalty for wounded units",
@@ -340,6 +354,18 @@
         ]
     },
     {
+        "name": "Munition II",
+        "unitType": "Civilian",
+        "movement": 2,
+        "strength": 0,
+        "cost": 0,
+        "uniques": [
+          "Is a [Air] unit",
+          "Can transform to [Shielded Missile] <costing [0] [Gold]>",
+          "Hidden from users"
+        ]
+    },
+    {
         "name": "Laser Propelled Missile",
         "unitType": "Missile",
         "strength": 12,
@@ -347,6 +373,7 @@
         "cost": 50,
         "requiredTech": "Laser Propulsion",
         "uniques": [
+            "Can transform to [Munition III] <costing [0] [Gold]> <if adjacent to a [Sub] unit>",
             "[-1] Sight",
             "May heal outside of friendly territory",
             "No damage penalty for wounded units",
@@ -360,8 +387,20 @@
         ]
     },
     {
+        "name": "Munition III",
+        "unitType": "Civilian",
+        "movement": 2,
+        "strength": 0,
+        "cost": 0,
+        "uniques": [
+          "Is a [Air] unit",
+          "Can transform to [Laser Propelled Missile] <costing [0] [Gold]>",
+          "Hidden from users"
+        ]
+    },
+    {
         "name": "Missile Submarine",
-        "unitType": "Military",
+        "unitType": "Sub",
         "strength": 4,
         "movement": 2,
         "cost": 230,
@@ -389,7 +428,7 @@
     },
     {
         "name": "Missile Cradle",
-        "unitType": "Military",
+        "unitType": "Sub",
         "strength": 5,
         "movement": 1,
         "cost": 300,
@@ -419,7 +458,7 @@
     },
     {
         "name": "Strategic Cradle",
-        "unitType": "Military",
+        "unitType": "Sub",
         "strength": 6,
         "movement": 1,
         "cost": 400,
