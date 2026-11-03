@@ -133,6 +133,7 @@
   {
     "name": "Particulate Collection Array",
     "production": 1,
+    "gold": 1,
     "turnsToBuild": 2,
     "techRequired": "Pre-Tracting Ionization",
     "terrainsCanBeBuiltOn": [
