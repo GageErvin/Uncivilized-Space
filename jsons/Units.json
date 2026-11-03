@@ -323,7 +323,7 @@
     {
         "name": "Munition I",
         "unitType": "Munition",
-        "movement": 2,
+        "movement": 0,
         "strength": 0,
         "cost": 0,
         "uniques": [
@@ -358,7 +358,7 @@
     {
         "name": "Munition II",
         "unitType": "Munition",
-        "movement": 2,
+        "movement": 0,
         "strength": 0,
         "cost": 0,
         "uniques": [
