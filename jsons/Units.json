@@ -328,7 +328,6 @@
         "cost": 0,
         "uniques": [
           "Cannot move",
-          "Is a [Air] unit",
           "Can transform to [Missile]",
           "Hidden from users"
         ]
@@ -364,7 +363,6 @@
         "cost": 0,
         "uniques": [
           "Cannot move",
-          "Is a [Air] unit",
           "Can transform to [Shielded Missile]",
           "Hidden from users"
         ]
@@ -399,8 +397,7 @@
         "cost": 0,
         "uniques": [
           "Cannot move",
-          "Is a [Air] unit",
-          "Can transform to [Laser Propelled Missile] <costing [0] [Gold]>",
+          "Can transform to [Laser Propelled Missile]",
           "Hidden from users"
         ]
     },
