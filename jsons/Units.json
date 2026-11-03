@@ -24,9 +24,9 @@
             "Founds a new city <by consuming this unit> <in [Cryolith Moon] tiles>",
             "Founds a new city <by consuming this unit> <in [Cragolith Moon] tiles>",
             "Requires at least [2] population",
-            "All tiles cost 1 movement",
+            "All tiles cost 1 movement <hidden from users>",
             "Excess Food converted to Production when under construction",
-            "May travel on Water tiles without embarking"
+            "May travel on Water tiles without embarking <hidden from users>"
         ],
         "obsoleteWith": "Cryogenics"
     },
@@ -37,9 +37,9 @@
         "movement": 3,
         "requiredTech": "Cryogenics",
         "uniques": [
-            "[-1] Movement <in [Extreme Flux Space] tiles>",
-            "[-1] Movement <in [High Flux Space] tiles>",
-            "[-1] Movement <in [Moderate Flux Space] tiles>",
+            "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "Founds a new city <by consuming this unit> <in [Terrestrial Planet] tiles>",
             "Founds a new city <by consuming this unit> <in [Ringed Terrestrial Planet] tiles>",
@@ -49,9 +49,8 @@
             "Founds a new city <by consuming this unit> <in [Ringed Ice Giant] tiles>",
             "Founds a new city <by consuming this unit> <in [Cryolith Moon] tiles>",
             "Founds a new city <by consuming this unit> <in [Cragolith Moon] tiles>",
-            "Founds a new city <by consuming this unit>",
-            "All tiles cost 1 movement",
-            "May travel on Water tiles without embarking"
+            "All tiles cost 1 movement <hidden from users>",
+            "May travel on Water tiles without embarking <hidden from users>"
         ]
     },
     {
@@ -61,9 +60,9 @@
         "movement": 5,
         "requiredTech": "Artificial Super Intelligence",
         "uniques": [
-            "[-2] Movement <in [Extreme Flux Space] tiles>",
-            "[-2] Movement <in [High Flux Space] tiles>",
-            "[-2] Movement <in [Moderate Flux Space] tiles>",
+            "[-2] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+            "[-2] Movement <in [High Flux Space] tiles> <hidden from users>",
+            "[-2] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
             "[+2] Movement <in [Magnetic Acceleration Relay] tiles>",
             "Founds a new city <by consuming this unit> <in [Terrestrial Planet] tiles>",
             "Founds a new city <by consuming this unit> <in [Ringed Terrestrial Planet] tiles>",
@@ -73,9 +72,8 @@
             "Founds a new city <by consuming this unit> <in [Ringed Ice Giant] tiles>",
             "Founds a new city <by consuming this unit> <in [Cryolith Moon] tiles>",
             "Founds a new city <by consuming this unit> <in [Cragolith Moon] tiles>",
-            "Founds a new city <by consuming this unit>",
-            "All tiles cost 1 movement",
-            "May travel on Water tiles without embarking"
+            "All tiles cost 1 movement <hidden from users>",
+            "May travel on Water tiles without embarking <hidden from users>"
         ]
     },
     {
@@ -85,13 +83,13 @@
         "movement": 4,
         "uniques": [
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-            "[-2] Movement <in [Extreme Flux Space] tiles>",
-            "[-2] Movement <in [High Flux Space] tiles>",
-            "[-2] Movement <in [Moderate Flux Space] tiles>",
+            "[-2] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+            "[-2] Movement <in [High Flux Space] tiles> <hidden from users>",
+            "[-2] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
             "Can build [Land] improvements on tiles",
-            "Can build [Water] improvements on tiles",
-            "Ignores terrain cost",
-            "May travel on Water tiles without embarking"
+            "Can build [Water] improvements on tiles <hidden from users>",
+            "Ignores terrain cost <hidden from users>",
+            "May travel on Water tiles without embarking <hidden from users>"
         ]
     },
     {
@@ -101,16 +99,16 @@
         "combatStrength": 5,
         "cost": 20,
         "uniques": [
-            "[-1] Sight <in [Extreme Flux Space] tiles>",
-            "[-1] Sight <in [High Flux Space] tiles>",
-            "[-1] Sight <in [Moderate Flux Space] tiles>",
-            "[-1] Movement <in [Extreme Flux Space] tiles>",
-            "[-1] Movement <in [High Flux Space] tiles>",
-            "[-1] Movement <in [Moderate Flux Space] tiles>",
+            "[-1] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
+            "[-1] Sight <in [High Flux Space] tiles> <hidden from users>",
+            "[-1] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+1] Sight",
-            "Ignores terrain cost",
-            "May travel on Water tiles without embarking"
+            "Ignores terrain cost <hidden from users>",
+            "May travel on Water tiles without embarking <hidden from users>"
         ]
     },
     {
@@ -124,14 +122,14 @@
         "upgradesTo": "Laser Corvette",
         "obsoleteWith": "Micro Particulate Shielding",
         "uniques": [
-            "[-1] Movement <in [Extreme Flux Space] tiles>",
-            "[-1] Movement <in [High Flux Space] tiles>",
-            "[-1] Movement <in [Moderate Flux Space] tiles>",
+            "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
             "[+2] Movement <in [Magnetic Acceleration Relay] tiles>",
-            "May travel on Water tiles without embarking",
-            "Ignores terrain cost",
-            "Eliminates combat penalty for attacking over a river",
-            "Eliminates combat penalty for attacking across a coast"
+            "May travel on Water tiles without embarking <hidden from users>",
+            "Ignores terrain cost <hidden from users>",
+            "Eliminates combat penalty for attacking over a river <hidden from users>",
+            "Eliminates combat penalty for attacking across a coast <hidden from users>"
         ]
     },
     {
@@ -146,16 +144,16 @@
         "upgradesTo": "Laser Frigate",
         "obsoleteWith": "Athermal Lens",
         "uniques": [
-            "[-1] Movement <in [Extreme Flux Space] tiles>",
-            "[-1] Movement <in [High Flux Space] tiles>",
-            "[-1] Movement <in [Moderate Flux Space] tiles>",
+            "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[1] additional attacks per turn",
-            "Ignores terrain cost",
+            "Ignores terrain cost <hidden from users>",
             "May heal outside of friendly territory",
-            "May travel on Water tiles without embarking",
-            "Eliminates combat penalty for attacking over a river",
-            "Eliminates combat penalty for attacking across a coast"
+            "May travel on Water tiles without embarking <hidden from users>",
+            "Eliminates combat penalty for attacking over a river <hidden from users>",
+            "Eliminates combat penalty for attacking across a coast <hidden from users>"
         ]
     },
     {
@@ -171,19 +169,19 @@
         "requiredResource": "Exotic Optomaterial",
         "requiredResourceCost": 1,
         "uniques": [
-            "[-1] Sight <in [Extreme Flux Space] tiles>",
-            "[-1] Sight <in [High Flux Space] tiles>",
+            "[-1] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
+            "[-1] Sight <in [High Flux Space] tiles> <hidden from users>",
             "[-1] Sight <in [Moderate Flux Space] tiles>",
-            "[-1] Movement <in [Extreme Flux Space] tiles>",
-            "[-1] Movement <in [High Flux Space] tiles>",
-            "[-1] Movement <in [Moderate Flux Space] tiles>",
+            "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+1] Sight",
             "May heal outside of friendly territory",
-            "May travel on Water tiles without embarking",
-            "Ignores terrain cost",
-            "Eliminates combat penalty for attacking over a river",
-            "Eliminates combat penalty for attacking across a coast"
+            "May travel on Water tiles without embarking <hidden from users>",
+            "Ignores terrain cost <hidden from users>",
+            "Eliminates combat penalty for attacking over a river <hidden from users>",
+            "Eliminates combat penalty for attacking across a coast <hidden from users>"
         ]
     },
     {
@@ -199,18 +197,18 @@
         "requiredResourceCost": 1,
         "requiredTech": "High Efficiency Fusion",
         "uniques": [
-            "[-1] Sight <in [Extreme Flux Space] tiles>",
-            "[-1] Sight <in [High Flux Space] tiles>",
-            "[-1] Sight <in [Moderate Flux Space] tiles>",
+            "[-1] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
+            "[-1] Sight <in [High Flux Space] tiles> <hidden from users>",
+            "[-1] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+1] Sight",
             "Double movement in [Nebula]",
-            "All tiles cost 1 movement",
+            "All tiles cost 1 movement <hidden from users>",//
             "May heal outside of friendly territory",
-            "May travel on Water tiles without embarking",
-            "Ignores terrain cost",
-            "Eliminates combat penalty for attacking over a river",
-            "Eliminates combat penalty for attacking across a coast"
+            "May travel on Water tiles without embarking <hidden from users>",
+            "Ignores terrain cost <hidden from users>",
+            "Eliminates combat penalty for attacking over a river <hidden from users>",
+            "Eliminates combat penalty for attacking across a coast <hidden from users>"
         ],
         "obsoleteWith": "Directed Plasma"
     },
@@ -227,19 +225,19 @@
         "requiredResourceCost": 1,
         "requiredTech": "Directed Plasma",
         "uniques": [
-            "[-2] Sight <in [Extreme Flux Space] tiles>",
-            "[-2] Sight <in [High Flux Space] tiles>",
-            "[-2] Sight <in [Moderate Flux Space] tiles>",
-            "[-2] Movement <in [Extreme Flux Space] tiles>",
-            "[-2] Movement <in [High Flux Space] tiles>",
-            "[-2] Movement <in [Moderate Flux Space] tiles>",
+            "[-2] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
+            "[-2] Sight <in [High Flux Space] tiles> <hidden from users>",
+            "[-2] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
+            "[-2] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+            "[-2] Movement <in [High Flux Space] tiles> <hidden from users>",
+            "[-2] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+2] Sight",
             "May heal outside of friendly territory",
-            "May travel on Water tiles without embarking",
-            "Eliminates combat penalty for attacking over a river",
-            "Ignores terrain cost",
-            "Eliminates combat penalty for attacking across a coast"
+            "May travel on Water tiles without embarking <hidden from users>",
+            "Eliminates combat penalty for attacking over a river <hidden from users>",
+            "Ignores terrain cost <hidden from users>",
+            "Eliminates combat penalty for attacking across a coast <hidden from users>"
         ],
         "obsoleteWith": "Graviton Manipulation"
     },
@@ -257,19 +255,19 @@
         "requiredTech": "Exotic Matter Condenser",
         "obsoleteWith": "Graviton Manipulation",
         "uniques": [
-            "[-2] Sight <in [Extreme Flux Space] tiles>",
-            "[-2] Sight <in [High Flux Space] tiles>",
-            "[-2] Sight <in [Moderate Flux Space] tiles>",
-            "[-1] Movement <in [Extreme Flux Space] tiles>",
-            "[-1] Movement <in [High Flux Space] tiles>",
-            "[-1] Movement <in [Moderate Flux Space] tiles>",
+            "[-2] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
+            "[-2] Sight <in [High Flux Space] tiles> <hidden from users>",
+            "[-2] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+2] Sight",
             "May heal outside of friendly territory",
-            "May travel on Water tiles without embarking",
-            "Ignores terrain cost",
-            "Eliminates combat penalty for attacking over a river",
-            "Eliminates combat penalty for attacking across a coast"
+            "May travel on Water tiles without embarking <hidden from users>",
+            "Ignores terrain cost <hidden from users>",
+            "Eliminates combat penalty for attacking over a river <hidden from users>",
+            "Eliminates combat penalty for attacking across a coast <hidden from users>"
         ]
     },
     {
@@ -282,20 +280,20 @@
         "cost": 650,
         "requiredTech": "Graviton Manipulation",
         "uniques": [
-            "[-3] Sight <in [Extreme Flux Space] tiles>",
-            "[-3] Sight <in [High Flux Space] tiles>",
-            "[-3] Sight <in [Moderate Flux Space] tiles>",
-            "[-2] Movement <in [Extreme Flux Space] tiles>",
-            "[-2] Movement <in [High Flux Space] tiles>",
-            "[-2] Movement <in [Moderate Flux Space] tiles>",
+            "[-3] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
+            "[-3] Sight <in [High Flux Space] tiles> <hidden from users>",
+            "[-3] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
+            "[-2] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+            "[-2] Movement <in [High Flux Space] tiles> <hidden from users>",
+            "[-2] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+4] Sight",
             "May heal outside of friendly territory",
             "[1] additional attacks per turn",
-            "May travel on Water tiles without embarking",
-            "Ignores terrain cost",
-            "Eliminates combat penalty for attacking over a river",
-            "Eliminates combat penalty for attacking across a coast"
+            "May travel on Water tiles without embarking <hidden from users>",
+            "Ignores terrain cost <hidden from users>",
+            "Eliminates combat penalty for attacking over a river <hidden from users>",
+            "Eliminates combat penalty for attacking across a coast <hidden from users>"
         ]
     },
     {
@@ -313,10 +311,10 @@
             "Destroys tile improvements when attacking",
             "Self-destructs when attacking",
             "Blast radius [1]",
-            "May travel on Water tiles without embarking",
-            "Ignores terrain cost",
-            "Eliminates combat penalty for attacking over a river",
-            "Eliminates combat penalty for attacking across a coast"
+            "May travel on Water tiles without embarking <hidden from users>",
+            "Ignores terrain cost <hidden from users>",
+            "Eliminates combat penalty for attacking over a river <hidden from users>",
+            "Eliminates combat penalty for attacking across a coast <hidden from users>"
         ]
     },
     {
@@ -334,10 +332,10 @@
             "Destroys tile improvements when attacking",
             "Self-destructs when attacking",
             "Blast radius [1]",
-            "May travel on Water tiles without embarking",
-            "Ignores terrain cost",
-            "Eliminates combat penalty for attacking over a river",
-            "Eliminates combat penalty for attacking across a coast"
+            "May travel on Water tiles without embarking <hidden from users>",
+            "Ignores terrain cost <hidden from users>",
+            "Eliminates combat penalty for attacking over a river <hidden from users>",
+            "Eliminates combat penalty for attacking across a coast <hidden from users>"
         ]
     },
     {
@@ -354,10 +352,10 @@
             "Destroys tile improvements when attacking",
             "Self-destructs when attacking",
             "Blast radius [2]",
-            "May travel on Water tiles without embarking",
-            "Eliminates combat penalty for attacking over a river",
-            "Ignores terrain cost",
-            "Eliminates combat penalty for attacking across a coast"
+            "May travel on Water tiles without embarking <hidden from users>",
+            "Eliminates combat penalty for attacking over a river <hidden from users>",
+            "Ignores terrain cost <hidden from users>",
+            "Eliminates combat penalty for attacking across a coast <hidden from users>"
         ]
     },
     {
@@ -369,22 +367,22 @@
         "requiredTech": "Expert Systems",
         "upgradesTo": "Missile Cradle",
         "uniques": [
-            "[-4] Sight <in [Extreme Flux Space] tiles>",
-            "[-4] Sight <in [High Flux Space] tiles>",
-            "[-4] Sight <in [Moderate Flux Space] tiles>",
-            "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+            "[-4] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
+            "[-4] Sight <in [High Flux Space] tiles> <hidden from users>",
+            "[-4] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
+            "[+1] Movement <in [Magnetic Acceleration Relay] tiles> <hidden from users>",
             "[+6] Sight",
             "May heal outside of friendly territory",
             "No damage penalty for wounded units",
-            "All tiles cost 1 movement",
+            "All tiles cost 1 movement <hidden from users>",
             "All adjacent units heal [3] HP when healing",
             "Unit will heal every turn, even if it performs an action",
             "Can carry [4] [Missile] units",
             "Cannot attack",
-            "May travel on Water tiles without embarking",
-            "Eliminates combat penalty for attacking over a river",
-            "Ignores terrain cost",
-            "Eliminates combat penalty for attacking across a coast"
+            "May travel on Water tiles without embarking <hidden from users>",
+            "Eliminates combat penalty for attacking over a river <hidden from users>",
+            "Ignores terrain cost <hidden from users>",
+            "Eliminates combat penalty for attacking across a coast <hidden from users>"
         ],
         "obsoleteWith": "Laser Propulsion"
     },
@@ -399,9 +397,9 @@
         "requiredTech": "Laser Propulsion",
         "upgradesTo": "Strategic Cradle",
         "uniques": [
-            "[-5] Sight <in [Extreme Flux Space] tiles>",
-            "[-5] Sight <in [High Flux Space] tiles>",
-            "[-5] Sight <in [Moderate Flux Space] tiles>",
+            "[-5] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
+            "[-5] Sight <in [High Flux Space] tiles> <hidden from users>",
+            "[-5] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+8] Sight",
             "May heal outside of friendly territory",
@@ -412,10 +410,10 @@
             "Unit will heal every turn, even if it performs an action",
             "Can carry [5] [Missile] units",
             "Cannot attack",
-            "May travel on Water tiles without embarking",
-            "Eliminates combat penalty for attacking over a river",
-            "Ignores terrain cost",
-            "Eliminates combat penalty for attacking across a coast"
+            "May travel on Water tiles without embarking <hidden from users>",
+            "Eliminates combat penalty for attacking over a river <hidden from users>",
+            "Ignores terrain cost <hidden from users>",
+            "Eliminates combat penalty for attacking across a coast <hidden from users>"
         ]
     },
     {
@@ -427,9 +425,9 @@
         "requiredTech": "Strange Battery",
         "upgradesTo": "Cannonade Vessel",
         "uniques": [
-            "[-6] Sight <in [Extreme Flux Space] tiles>",
-            "[-6] Sight <in [High Flux Space] tiles>",
-            "[-6] Sight <in [Moderate Flux Space] tiles>",
+            "[-6] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
+            "[-6] Sight <in [High Flux Space] tiles> <hidden from users>",
+            "[-6] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+10] Sight",
             "May heal outside of friendly territory",
@@ -440,10 +438,10 @@
             "Unit will heal every turn, even if it performs an action",
             "Can carry [7] [Missile] units",
             "Cannot attack",
-            "May travel on Water tiles without embarking",
-            "Ignores terrain cost",
-            "Eliminates combat penalty for attacking over a river",
-            "Eliminates combat penalty for attacking across a coast"
+            "May travel on Water tiles without embarking <hidden from users>",
+            "Ignores terrain cost <hidden from users>",
+            "Eliminates combat penalty for attacking over a river <hidden from users>",
+            "Eliminates combat penalty for attacking across a coast <hidden from users>"
         ],
         "obsoleteWith": "C-Fractional Thrust"
     },
@@ -458,19 +456,19 @@
         "requiredTech": "C-Fractional Thrust",
         "upgradesTo": "Warship",
         "uniques": [
-            "[-3] Sight <in [Extreme Flux Space] tiles>",
-            "[-3] Sight <in [High Flux Space] tiles>",
-            "[-3] Sight <in [Moderate Flux Space] tiles>",
+            "[-3] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
+            "[-3] Sight <in [High Flux Space] tiles> <hidden from users>",
+            "[-3] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+3] Sight",
             "May heal outside of friendly territory",
             "Ranged attacks may be performed over obstacles",
             "No damage penalty for wounded units",
-            "All tiles cost 1 movement",
-            "May travel on Water tiles without embarking",
-            "Eliminates combat penalty for attacking over a river",
-            "Eliminates combat penalty for attacking across a coast",
-            "Ignores terrain cost"
+            "All tiles cost 1 movement <hidden from users>",
+            "May travel on Water tiles without embarking <hidden from users>",
+            "Eliminates combat penalty for attacking over a river <hidden from users>",
+            "Eliminates combat penalty for attacking across a coast <hidden from users>",
+            "Ignores terrain cost <hidden from users>"
         ]
     },
     {
@@ -485,22 +483,22 @@
         "requiredResourceCount": 1,
         "requiredTech": "C-Fractional Thrust",
         "uniques": [
-            "[-3] Sight <in [Extreme Flux Space] tiles>",
-            "[-3] Sight <in [High Flux Space] tiles>",
-            "[-3] Sight <in [Moderate Flux Space] tiles>",
-            "[-2] Movement <in [Extreme Flux Space] tiles>",
-            "[-2] Movement <in [High Flux Space] tiles>",
-            "[-2] Movement <in [Moderate Flux Space] tiles>",
+            "[-3] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
+            "[-3] Sight <in [High Flux Space] tiles> <hidden from users>",
+            "[-3] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
+            "[-2] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+            "[-2] Movement <in [High Flux Space] tiles> <hidden from users>",
+            "[-2] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+4] Sight",
             "May heal outside of friendly territory",
             "Ranged attacks may be performed over obstacles",
             "[1] additional attacks per turn",
             "No damage penalty for wounded units",
-            "May travel on Water tiles without embarking",
-            "Eliminates combat penalty for attacking over a river",
-            "Eliminates combat penalty for attacking across a coast",
-            "Ignores terrain cost"
+            "May travel on Water tiles without embarking <hidden from users>",
+            "Eliminates combat penalty for attacking over a river <hidden from users>",
+            "Eliminates combat penalty for attacking across a coast <hidden from users>",
+            "Ignores terrain cost <hidden from users>"
         ]
     }
 ]
