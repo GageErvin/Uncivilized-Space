@@ -137,7 +137,12 @@
     "turnsToBuild": 2,
     "techRequired": "Pre-Tracting Ionization",
     "terrainsCanBeBuiltOn": [
-      "Moderate Flux Space"
+      "Moderate Flux Space",
+      "Low Flux Space",
+      "Zero Flux Space",
+      "[+2 Gold, +1 Production] for each adjacent [Debris Field]",
+      "[+1 Production] for each adjacent [High Flux Field]",
+      "[+1 Gold, +1 Production] for each adjacent [Extreme Flux Field]"
     ]
   },
   {
