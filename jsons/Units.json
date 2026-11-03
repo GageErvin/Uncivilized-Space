@@ -323,7 +323,7 @@
     },
     {
         "name": "Munition I",
-        "unitType": "Air",
+        "unitType": "Munition",
         "movement": 0,
         "strength": 0,
         "cost": 0,
