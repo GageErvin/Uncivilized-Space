@@ -13,8 +13,11 @@
     "name": "Debris Fields",
     "type": "Land",
     "RGB": [90,90,90],
+    "Impassible": true,
     "uniques": [
-      "Impassible"
+      "Occurs in chains at high elevations",
+      "Has an elevation of [3] for visibility calculations",
+      "Blocks line-of-sight from tiles at same elevation"
     ]
   },
   {
