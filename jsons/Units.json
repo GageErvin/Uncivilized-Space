@@ -324,8 +324,8 @@
     {
         "name": "Munition I",
         "unitType": "Air",
-        "movement": 1,
-        "strength": 1,
+        "movement": 0,
+        "strength": 0,
         "cost": 0,
         "uniques": [
           "Can transform to [Missile]",
