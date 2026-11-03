@@ -15,8 +15,13 @@
         "uniques": []
     },
     {
-        "name": "Military",
+        "name": "Missile",
         "movementType": "Land",
+        "uniques": []
+    },
+    {
+        "name": "Munition",
+        "movementType": "Air",
         "uniques": []
     },
     {
