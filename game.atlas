@@ -87,14 +87,7 @@ TileSets/UncivilizedSpace/Units/EM Destroyer
   orig: 79, 64
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Improvements/Deep Space Radar Array
-  rotate: false
-  xy: 998, 2
-  size: 72, 62
-  orig: 72, 62
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Deep Space Radar Array
+TileSets/UncivilizedSpace/Units/Deep Space Radar Array
   rotate: false
   xy: 998, 2
   size: 72, 62
@@ -584,72 +577,65 @@ TileSets/UncivilizedSpace/Units/Shielded Missile
   orig: 43, 29
   offset: 0, 0
   index: -1
-StatIcons/Production
+StatIcons/Science
   rotate: false
   xy: 976, 229
   size: 27, 28
   orig: 27, 28
   offset: 0, 0
   index: -1
-StatIcons/Science
-  rotate: false
-  xy: 1005, 229
-  size: 27, 28
-  orig: 27, 28
-  offset: 0, 0
-  index: -1
 ResourceIcons/Antimatter
   rotate: false
-  xy: 1034, 229
+  xy: 1005, 229
   size: 22, 28
   orig: 22, 28
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Units/Missile
   rotate: false
-  xy: 1058, 229
+  xy: 1029, 229
   size: 44, 28
   orig: 44, 28
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Units/Laser Propelled Missile
   rotate: false
-  xy: 1104, 229
+  xy: 1075, 229
   size: 44, 28
   orig: 44, 28
   offset: 0, 0
   index: -1
 StatIcons/Gold
   rotate: false
-  xy: 1150, 229
+  xy: 1121, 229
   size: 28, 26
   orig: 28, 26
   offset: 0, 0
   index: -1
 StatIcons/Culture
   rotate: false
-  xy: 1180, 229
+  xy: 1151, 229
   size: 36, 26
   orig: 36, 26
   offset: 0, 0
   index: -1
 StatIcons/Food
   rotate: false
-  xy: 1218, 229
+  xy: 1189, 229
   size: 21, 24
   orig: 21, 24
   offset: 0, 0
   index: -1
 ResourceIcons/Exotic Optomaterial
   rotate: false
-  xy: 1241, 229
+  xy: 1212, 229
   size: 22, 20
   orig: 22, 20
   offset: 0, 0
   index: -1
 ResourceIcons/Uranium
   rotate: false
-  xy: 1265, 229
+  xy: 1236, 229
   size: 22, 20
   orig: 22, 20
   offset: 0, 0

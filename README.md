@@ -35,21 +35,26 @@ Add and constrain some moon variants to be actual moons, then reduce probability
 
 ## TODO
 
-barbs don't spawn and ai not clever about finding settlement spots.. space stations.  income inadequate for crazy land prices.. reduce and add buildings.  culture from discovery of..  image for radar?  image for city at least.  .. couldn't load missiles in tub.
+Couldn't load missiles in tub.
+Improvement icons are showing up but not the images... may need the 'tile+improvement' image variants...
+Image for radar woumb.
+Image for 'Debris Fields'
 
-images for barbs' terrains & location limits
-desirable for start location for nations ; more decoration tiles
-multi-tile constructables
+Barbs don't spawn and ai not clever about finding settlement spots.. space stations.
+Income inadequate for crazy land prices.. Reduce and add buildings.
+Culture from discovery of new tiles.
+
+Multi-tile constructables
 - unit (front must be adjacent to rear ; on completion transforms; rear transforms)
 - structure (dyson sphere -- surounding pieces must be adjacent to each other; center piece too; when adjacent, extra stats )
 
-improvement icons are showing up but not the images... may need the 'tile+improvement' image variants...
+Buildings shouldn't replace expert research system for every civ (common buildings should be used by at least 2 natinos).. repurpose some and add more!
 
-buildings shouldn't replace expert research system for every civ (common buildings should be used by at least 2 natinos).. repurpose some and add more!
+Regular missile dmg simulated loss of fuel but needed tweaking... currently not actually applying.
 
-Regular missile dmg simulated loss of fuel but needed tweaking... should be different per missile "[This Unit] takes [3] damage upon turn end"
+Images for barbs' terrains & location limits, desirable for start location for nations ; more decoration tiles
 
-nations text and images
+Nations text and images
 
 unciv doesn't support per-terrain city graphics (only per era)
 - leave them out OR make orbital launcher req a body as an improvement and do 'space station' cities...
@@ -58,3 +63,5 @@ unciv doesn't support per-terrain city graphics (only per era)
   - ringed gas giants are an exception but I could perhaps overlap.. T.T
   - since it didn't seem to be affecting map gen much
   - but doesn't seem to have worked.. still building in nebulas and other places..
+
+Deep space radar array starts in city but intended to start on improvement.

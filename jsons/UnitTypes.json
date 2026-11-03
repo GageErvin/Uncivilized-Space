@@ -2,31 +2,87 @@
     {
         "name": "Civilian",
         "movementType": "Land",
-        "uniques": ["Suppress warning [*cached on the unit*"]
+        "uniques": [
+            "Suppress warning [*Due to performance considerations, this unique is cached on the unit, and the conditional may not always limit the unique correctly.*",
+            "Ignores terrain cost <hidden from users>",
+            "May travel on Water tiles without embarking <hidden from users>"
+        ]
+    },
+    {
+        "name": "Settler",
+        "movementType": "Land",
+        "uniques": [
+            "Founds a new city <by consuming this unit> <in [Terrestrial Planet] tiles>",
+            "Founds a new city <by consuming this unit> <in [Ringed Terrestrial Planet] tiles>",
+            "Founds a new city <by consuming this unit> <in [Gas Giant] tiles>",
+            "Founds a new city <by consuming this unit> <in [Ringed Gas Giant] tiles>",
+            "Founds a new city <by consuming this unit> <in [Ice Giant] tiles>",
+            "Founds a new city <by consuming this unit> <in [Ringed Ice Giant] tiles>",
+            "Founds a new city <by consuming this unit> <in [Cryolith Moon] tiles>",
+            "Founds a new city <by consuming this unit> <in [Cragolith Moon] tiles>",
+            "May travel on Water tiles without embarking <hidden from users>"
+            // "Ignores terrain cost <hidden from users>"
+        ]
     },
     {
         "name": "Drone",
         "movementType": "Land",
-        "uniques": ["Suppress warning [*cached on the unit*"]
+        "uniques": [
+            "Suppress warning [*Due to performance considerations, this unique is cached on the unit, and the conditional may not always limit the unique correctly.*",
+            "May travel on Water tiles without embarking <hidden from users>",
+            "Ignores terrain cost <hidden from users>",
+            "Eliminates combat penalty for attacking over a river <hidden from users>",
+            "Eliminates combat penalty for attacking across a coast <hidden from users>"
+        ]
     },
     {
         "name": "Military",
         "movementType": "Land",
-        "uniques": ["Suppress warning [*cached on the unit*"]
+        "uniques": [
+            "Suppress warning [*Due to performance considerations, this unique is cached on the unit, and the conditional may not always limit the unique correctly.*",
+            "May travel on Water tiles without embarking <hidden from users>",
+            "Ignores terrain cost <hidden from users>",
+            "Eliminates combat penalty for attacking over a river <hidden from users>",
+            "Eliminates combat penalty for attacking across a coast <hidden from users>",
+            "May heal outside of friendly territory"
+        ]
     },
     {
         "name": "Missile",
         "movementType": "Land",
-        "uniques": ["Suppress warning [*cached on the unit*"]
+        "uniques": [
+            "Suppress warning [*Due to performance considerations, this unique is cached on the unit, and the conditional may not always limit the unique correctly.*",
+            "May travel on Water tiles without embarking <hidden from users>",
+            "Ignores terrain cost <hidden from users>",
+            "Eliminates combat penalty for attacking over a river <hidden from users>",
+            "Eliminates combat penalty for attacking across a coast <hidden from users>",
+            "Hidden from users",
+            "No damage penalty for wounded units",
+            "Destroys tile improvements when attacking",
+            "Self-destructs when attacking",
+            "[-1] Sight",
+            "[This Unit] gains the [Burning] status for [100] turn(s)"
+        ]
     },
     {
         "name": "Air",
         "movementType": "Air",
-        "uniques": ["Unbuildable","Suppress warning [*cached on the unit*"]
+        "uniques": [
+            "Unbuildable",
+            "Suppress warning [*Due to performance considerations, this unique is cached on the unit, and the conditional may not always limit the unique correctly.*"
+        ]
     },
     {
         "name": "Sub",
         "movementType": "Land",
-        "uniques": ["Suppress warning [*cached on the unit*"]
+        "uniques": [
+            "Suppress warning [*Due to performance considerations, this unique is cached on the unit, and the conditional may not always limit the unique correctly.*",
+            "May travel on Water tiles without embarking <hidden from users>",
+            "Ignores terrain cost <hidden from users>",
+            "Eliminates combat penalty for attacking over a river <hidden from users>",
+            "Eliminates combat penalty for attacking across a coast <hidden from users>",
+            "May heal outside of friendly territory",
+            "Cannot attack"
+        ]
     }
 ]
