@@ -4,7 +4,7 @@
     "uniques": [
       "[This Unit] takes [30] damage <every [1] turns>",
       "Hidden from users"
-    ]
+    ], "unitTypes": ["Missile"]
   },
 	{
 		"name": "Ablative Armor Maintenance",
@@ -17,7 +17,7 @@
 			{
 				"text": "Found the manual in the back of the cargo bay. Turns out you're not supposed to scrape it off with a rusty putty knife. Who knew?"
 			}
-		]
+		], "unitTypes": ["Military", "Sub"]
 	},
 	{
 		"name": "Point Defense Routine Tweaks",
@@ -29,7 +29,7 @@
 			{
 				"text": "A quick script patch pushed to the turret subroutines, and suddenly incoming ordnance doesn't bypass the interceptors quite so casually."
 			}
-		]
+		], "unitTypes": ["Drone", "Military", "Sub"]
 	},
 	{
 		"name": "Advanced Script Patching",
@@ -42,7 +42,7 @@
 			{
 				"text": "Why stop at tweaking point defense when you can write a custom regex parser to swat autonomous drones out of the vacuum like digital mosquitoes?"
 			}
-		]
+		], "unitTypes": ["Drone"]
 	},
 	{
 		"name": "Meteoropathy",
@@ -55,7 +55,7 @@
 			{
 				"text": "Achieving peak combat efficiency only when cosmic static hurts everyone's artificial joints and meteorological sensors."
 			}
-		]
+		], "unitTypes": ["Military", "Sub"]
 	},
 	{
 		"name": "Relativistic Coordination",
@@ -68,7 +68,7 @@
 			{
 				"text": "Optimal relativistic coordination. Only matters from the right perspective; from the enemy's perspective, you hit them five minutes ago."
 			}
-		]
+		], "unitTypes": ["Military", "Drone", "Sub"]
 	},
 	{
 		"name": "Performing Crew",
@@ -81,7 +81,7 @@
 			{
 				"text": "Thought they'd know how to work together before launching in a $42 trillion flagship? Wrong! They are currently holding an emergency seminar on synergy while under heavy fire."
 			}
-		]
+		], "unitTypes": ["Military", "Sub"]
 	},
 	{
 		"name": "Synergy Achieved",
@@ -94,6 +94,6 @@
 			{
 				"text": "After surviving three near-death experiences, a hull breach, and a bitter mutiny over breakroom coffee blend preferences, the crew finally achieved peak corporate synergy."
 			}
-		]
+		], "unitTypes": ["Military", "Sub"]
 	}
 ]
