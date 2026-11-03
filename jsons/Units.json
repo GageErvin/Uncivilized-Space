@@ -306,8 +306,7 @@
         "requiredTech": "Expert Systems",
         "obsoleteWith": "Micro Particulate Shielding",
         "uniques": [
-            //"[This Unit] takes [30] damage",// <every [1] turns>",
-            "[This Unit] gains the [Burning] status for [100] turn(s)",//
+            "[This Unit] gains the [Burning] status for [100] turn(s)",
             "Can transform to [Munition I] <when adjacent to a [Sub] unit>",
             "[-1] Sight",
             "May heal outside of friendly territory",
@@ -323,7 +322,7 @@
     },
     {
         "name": "Munition I",
-        "unitType": "Munition",
+        "unitType": "Air",
         "movement": 0,
         "strength": 0,
         "cost": 0,
@@ -341,7 +340,7 @@
         "requiredTech": "Micro Particulate Shielding",
         "obsoleteWith": "Laser Propulsion",
         "uniques": [
-            "[This Unit] takes [50] damage <every [1] turns>",
+            "[This Unit] gains the [Burning] status for [100] turn(s)",
             "Can transform to [Munition II] <when adjacent to a [Sub] unit>",
             "[-1] Sight",
             "May heal outside of friendly territory",
@@ -357,12 +356,11 @@
     },
     {
         "name": "Munition II",
-        "unitType": "Munition",
+        "unitType": "Air",
         "movement": 0,
         "strength": 0,
         "cost": 0,
         "uniques": [
-          "Cannot move",
           "Can transform to [Shielded Missile]",
           "Hidden from users"
         ]
@@ -375,7 +373,7 @@
         "cost": 50,
         "requiredTech": "Laser Propulsion",
         "uniques": [
-            "[This Unit] takes [30] damage <every [1] turns>",
+            "[This Unit] gains the [Burning] status for [100] turn(s)",
             "Can transform to [Munition III] <when adjacent to a [Sub] unit>",
             "[-1] Sight",
             "May heal outside of friendly territory",
@@ -391,12 +389,11 @@
     },
     {
         "name": "Munition III",
-        "unitType": "Munition",
+        "unitType": "Air",
         "movement": 0,
         "strength": 0,
         "cost": 0,
         "uniques": [
-          "Cannot move",
           "Can transform to [Laser Propelled Missile]",
           "Hidden from users"
         ]
@@ -418,8 +415,7 @@
             "May heal outside of friendly territory",
             "No damage penalty for wounded units",
             "All tiles cost 1 movement <hidden from users>",
-            "Can carry [1] [Air] units",//
-            "Can carry [4] extra [Munition] units",//
+            "Can carry [4] [Air] units",
             "Cannot attack",
             "May travel on Water tiles without embarking <hidden from users>",
             "Eliminates combat penalty for attacking over a river <hidden from users>",
@@ -448,7 +444,7 @@
             "No damage penalty for wounded units",
             "Can move after attacking",
             "All tiles cost 1 movement",
-            "Can carry [5] [Munition] units",
+            "Can carry [5] [Air] units",
             "Cannot attack",
             "May travel on Water tiles without embarking <hidden from users>",
             "Eliminates combat penalty for attacking over a river <hidden from users>",
@@ -474,7 +470,7 @@
             "No damage penalty for wounded units",
             "Can move after attacking",
             "All tiles cost 1 movement",
-            "Can carry [7] [Munition] units",
+            "Can carry [7] [Air] units",
             "Cannot attack",
             "May travel on Water tiles without embarking <hidden from users>",
             "Ignores terrain cost <hidden from users>",
