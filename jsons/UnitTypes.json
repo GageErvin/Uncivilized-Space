@@ -25,11 +25,6 @@
         "uniques": ["Unbuildable","Suppress warning [*cached on the unit*"]
     },
     {
-        "name": "Munition",
-        "movementType": "Air",
-        "uniques": ["Unbuildable","Suppress warning [*cached on the unit*"]
-    },
-    {
         "name": "Sub",
         "movementType": "Land",
         "uniques": ["Suppress warning [*cached on the unit*"]
