@@ -139,7 +139,8 @@
     "terrainsCanBeBuiltOn": [
       "Moderate Flux Space",
       "Low Flux Space",
-      "Zero Flux Space",
+      "Zero Flux Space"],
+    "uniques":[
       "[+2 Gold, +1 Production] for each adjacent [Debris Field]",
       "[+1 Production] for each adjacent [High Flux Field]",
       "[+1 Gold, +1 Production] for each adjacent [Extreme Flux Field]"
