@@ -1,4 +1,11 @@
 [
+  {
+    "name": "Burning",
+    "uniques": [
+      "[This Unit] takes [30] damage <every [1] turns>",
+      "Hidden from users"
+    ]
+  },
 	{
 		"name": "Ablative Armor Maintenance",
 		"prerequisites": [],
