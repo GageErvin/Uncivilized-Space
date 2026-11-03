@@ -322,7 +322,7 @@
     },
     {
         "name": "Munition I",
-        "unitType": "Civilian",
+        "unitType": "Munition",
         "movement": 2,
         "strength": 0,
         "cost": 0,
@@ -357,7 +357,7 @@
     },
     {
         "name": "Munition II",
-        "unitType": "Civilian",
+        "unitType": "Munition",
         "movement": 2,
         "strength": 0,
         "cost": 0,
@@ -391,7 +391,7 @@
     },
     {
         "name": "Munition III",
-        "unitType": "Civilian",
+        "unitType": "Munition",
         "movement": 0,
         "strength": 0,
         "cost": 0,
