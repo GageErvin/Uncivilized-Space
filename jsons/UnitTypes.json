@@ -2,31 +2,31 @@
     {
         "name": "Civilian",
         "movementType": "Land",
-        "uniques": []
+        "uniques": ["Suppress warning [*cached on the unit*]"]
     },
     {
         "name": "Drone",
         "movementType": "Land",
-        "uniques": []
+        "uniques": ["Suppress warning [*cached on the unit*]"]
     },
     {
         "name": "Military",
         "movementType": "Land",
-        "uniques": []
+        "uniques": ["Suppress warning [*cached on the unit*]"]
     },
     {
         "name": "Missile",
         "movementType": "Land",
-        "uniques": []
+        "uniques": ["Suppress warning [*cached on the unit*]"]
     },
     {
         "name": "Munition",
         "movementType": "Air",
-        "uniques": ["Unbuildable"]
+        "uniques": ["Unbuildable","Suppress warning [*cached on the unit*]"]
     },
     {
         "name": "Sub",
         "movementType": "Land",
-        "uniques": []
+        "uniques": ["Suppress warning [*cached on the unit*]"]
     }
 ]
