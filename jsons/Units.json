@@ -306,6 +306,7 @@
         "requiredTech": "Expert Systems",
         "obsoleteWith": "Micro Particulate Shielding",
         "uniques": [
+            "[This Unit] takes [3] damage <every [1] turns>",
             "Can transform to [Munition I] <costing [0] [Gold]> <if adjacent to a [Sub] unit>",
             "[-1] Sight",
             "May heal outside of friendly territory",
