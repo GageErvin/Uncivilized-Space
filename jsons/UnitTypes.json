@@ -22,7 +22,7 @@
     {
         "name": "Munition",
         "movementType": "Air",
-        "uniques": []
+        "uniques": ["Unbuildable"]
     },
     {
         "name": "Sub",
