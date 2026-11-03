@@ -18,5 +18,10 @@
         "name": "Military",
         "movementType": "Land",
         "uniques": []
+    },
+    {
+        "name": "Sub",
+        "movementType": "Land",
+        "uniques": []
     }
 ]
