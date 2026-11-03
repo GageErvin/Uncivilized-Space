@@ -306,8 +306,8 @@
         "requiredTech": "Expert Systems",
         "obsoleteWith": "Micro Particulate Shielding",
         "uniques": [
-            "[This Unit] takes [3] damage <every [1] turns>",
-            "Can transform to [Munition I] <costing [0] [Gold]> <if adjacent to a [Sub] unit>",
+            "[This Unit] takes [30] damage <every [1] turns>",
+            "Can transform to [Munition I] <when adjacent to a [Sub] unit>",
             "[-1] Sight",
             "May heal outside of friendly territory",
             "No damage penalty for wounded units",
@@ -327,8 +327,9 @@
         "strength": 0,
         "cost": 0,
         "uniques": [
+          "Cannot move",
           "Is a [Air] unit",
-          "Can transform to [Missile] <costing [0] [Gold]>",
+          "Can transform to [Missile]",
           "Hidden from users"
         ]
     },
@@ -341,7 +342,8 @@
         "requiredTech": "Micro Particulate Shielding",
         "obsoleteWith": "Laser Propulsion",
         "uniques": [
-            "Can transform to [Munition II] <costing [0] [Gold]> <if adjacent to a [Sub] unit>",
+            "[This Unit] takes [50] damage <every [1] turns>",
+            "Can transform to [Munition II] <when adjacent to a [Sub] unit>",
             "[-1] Sight",
             "May heal outside of friendly territory",
             "No damage penalty for wounded units",
@@ -361,8 +363,9 @@
         "strength": 0,
         "cost": 0,
         "uniques": [
+          "Cannot move",
           "Is a [Air] unit",
-          "Can transform to [Shielded Missile] <costing [0] [Gold]>",
+          "Can transform to [Shielded Missile]",
           "Hidden from users"
         ]
     },
@@ -374,7 +377,8 @@
         "cost": 50,
         "requiredTech": "Laser Propulsion",
         "uniques": [
-            "Can transform to [Munition III] <costing [0] [Gold]> <if adjacent to a [Sub] unit>",
+            "[This Unit] takes [30] damage <every [1] turns>",
+            "Can transform to [Munition III] <when adjacent to a [Sub] unit>",
             "[-1] Sight",
             "May heal outside of friendly territory",
             "No damage penalty for wounded units",
@@ -390,10 +394,11 @@
     {
         "name": "Munition III",
         "unitType": "Civilian",
-        "movement": 2,
+        "movement": 0,
         "strength": 0,
         "cost": 0,
         "uniques": [
+          "Cannot move",
           "Is a [Air] unit",
           "Can transform to [Laser Propelled Missile] <costing [0] [Gold]>",
           "Hidden from users"
