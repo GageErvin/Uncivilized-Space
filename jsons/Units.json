@@ -306,7 +306,8 @@
         "requiredTech": "Expert Systems",
         "obsoleteWith": "Micro Particulate Shielding",
         "uniques": [
-            "[This Unit] takes [30] damage",// <every [1] turns>",
+            //"[This Unit] takes [30] damage",// <every [1] turns>",
+            "[This Unit] gains the [Burning] status for [100] turn(s)",//
             "Can transform to [Munition I] <when adjacent to a [Sub] unit>",
             "[-1] Sight",
             "May heal outside of friendly territory",
@@ -418,8 +419,8 @@
             "May heal outside of friendly territory",
             "No damage penalty for wounded units",
             "All tiles cost 1 movement <hidden from users>",
-            "Can carry [1] [Air] units",
-            "Can carry [4] extra [Munition] units",
+            "Can carry [1] [Air] units",//
+            "Can carry [4] extra [Munition] units",//
             "Cannot attack",
             "May travel on Water tiles without embarking <hidden from users>",
             "Eliminates combat penalty for attacking over a river <hidden from users>",
