@@ -2,10 +2,11 @@
     {
         "name": "Deep Space Radar Array",
         "unitType": "Drone",
-        "movement": -2,
+        "movement": 0,
         "uniques": [
             "[7] Sight",
-            "Unbuildable"
+            "Unbuildable",
+            "Cannot move"
         ]
     },
     {
