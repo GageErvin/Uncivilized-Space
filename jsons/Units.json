@@ -323,12 +323,11 @@
     },
     {
         "name": "Munition I",
-        "unitType": "Munition",
-        "movement": 0,
-        "strength": 0,
+        "unitType": "Air",
+        "movement": 1,
+        "strength": 1,
         "cost": 0,
         "uniques": [
-          "Cannot move",
           "Can transform to [Missile]",
           "Hidden from users"
         ]
