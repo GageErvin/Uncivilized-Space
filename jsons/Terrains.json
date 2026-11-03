@@ -12,10 +12,12 @@
   {
     "name": "Debris Fields",
     "type": "Land",
-    "RGB": [90,90,90],
+    "RGB": [90,90,60],
     "Impassible": true,
+    "gold": 1,
+    "production": 1,
     "uniques": [
-      //"Occurs in chains at high elevations",
+      //"Occurs in chains at high elevations", < breaks other needed gen behaviors
       "Has an elevation of [3] for visibility calculations",
       "Blocks line-of-sight from tiles at same elevation"
     ]
