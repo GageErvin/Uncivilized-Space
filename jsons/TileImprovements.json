@@ -140,19 +140,11 @@
     ]
   },
   {
-    "name": "Residual",
-    "turnsToBuild": 1,
-    "comment": "May be removed-a leftover after building a unit"
-  },
-  {
-    "name": "Deep Space Radar Array Scaffold",
+    "name": "Deep Space Radar Array Woumb",
     "turnsToBuild": 6,
     "RGB": [24, 29, 24],
     "uniques": [
-      "Unbuildable",
-      // todo: unit -> "[9] Sight" "[-2] Movement"
-      "Spawns a [Deep Space Radar Array] <upon completion>",
-      "Replaced by [Residual] <upon completion>" // or removed
+      "Free [Deep Space Radar Array] appears"
     ],
     "terrainsCanBeBuiltOn": [
       "Zero Flux Space",
