@@ -4,8 +4,8 @@
 		"isDefaultBuilding": true,
 		"happiness": 4,
 		"science": 1,
-		"production": 1,
-		"gold": 1,
+		"production": 2,
+		"gold": 2,
 		"cost": 0,
 		"isNationalWonder": true,
 		"uniques": [
