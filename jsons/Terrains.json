@@ -9,7 +9,7 @@
   // - eventually used zero flux for water and conversion sequences for everything else
   //   - all units "Ignores terrain cost" // makes 'rough terrain' in terrains useless but needs must bc of rivers
   //   - also in some units: 'remove if all space is water after getting map gen right -- makes planets a bit more defensible'
-  {
+  /"{
     "name": "Debris Fields",
     "type": "Land",
     "RGB": [90,90,90],
@@ -19,7 +19,7 @@
       "Has an elevation of [3] for visibility calculations",
       "Blocks line-of-sight from tiles at same elevation"
     ]
-  },
+  },*/
   {
     "name": "M4IV Star",
     "type": "Land",
