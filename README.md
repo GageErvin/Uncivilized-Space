@@ -35,16 +35,15 @@ Add and constrain some moon variants to be actual moons, then reduce probability
 
 ## TODO
 
+barbs don't spawn and ai not clever about finding settlement spots.. space stations.  income inadequate for crazy land prices.. reduce and add buildings.  culture from discovery of..  image for radar?  image for city at least.  .. couldn't load missiles in tub.
+
 images for barbs' terrains & location limits
 desirable for start location for nations ; more decoration tiles
 multi-tile constructables
 - unit (front must be adjacent to rear ; on completion transforms; rear transforms)
 - structure (dyson sphere -- surounding pieces must be adjacent to each other; center piece too; when adjacent, extra stats )
 
-culture from activities but not for cities
-
 improvement icons are showing up but not the images... may need the 'tile+improvement' image variants...
-river
 
 buildings shouldn't replace expert research system for every civ (common buildings should be used by at least 2 natinos).. repurpose some and add more!
 
