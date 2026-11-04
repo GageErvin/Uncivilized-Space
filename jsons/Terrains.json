@@ -522,8 +522,6 @@
   {
     "name": "Low Flux Space II",
     "type": "Water",
-    "food": 1,
-    "production": 1,
     "uniques": [
       "Coastal Water"
     ],
@@ -536,7 +534,6 @@
   {
     "name": "Zero Flux Space",
     "type": "Water",
-    "food": 0,
     "uniques": [
     ],
     "RGB": [
