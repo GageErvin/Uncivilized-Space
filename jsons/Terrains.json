@@ -520,26 +520,37 @@
     ]
   },
   {
-    "name": "Low Flux Space II",
-    "type": "Water",
-    "uniques": [
-      "Coastal Water"
-    ],
-    "RGB": [
-      20,
-      20,
-      20
-    ]
-  },
-  {
     "name": "Zero Flux Space",
     "type": "Water",
     "uniques": [
+      "Coastal Water",
+      "Becomes [High Flux Space] when adjacent to [M4IV Star]",
+      "Becomes [High Flux Space] when adjacent to [M5IV Star]",
+      "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
+      "Becomes [Moderate Flux Space] when adjacent to [M5VI Star]",
+      "Becomes [Low Flux Space] when adjacent to [M3V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M4V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M5V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M6V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M7V Star]",
+      "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
+      "Becomes [High Flux Space] when adjacent to [K7V Star]",
+      "Becomes [Low Flux Space] when adjacent to [Cryolith Moon]",
+      "Becomes [Low Flux Space] when adjacent to [Cragolith Moon]",
+      "Becomes [Low Flux Space] when adjacent to [Terrestrial Planet]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Terrestrial Planet]",
+      "Becomes [Low Flux Space] when adjacent to [Ice Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]",
+      "Becomes [High Flux Space] when adjacent to [Extreme Flux Space]",
+      "Becomes [Moderate Flux Space] when adjacent to [High Flux Space]",
+      "Becomes [Low Flux Space] when adjacent to [Moderate Flux Space]"
     ],
     "RGB": [
-      5,
-      5,
-      5
+      15,
+      15,
+      15
     ]
   },
   {
