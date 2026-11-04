@@ -18,6 +18,7 @@
         "unciv-mod-wip"
     ],
     "uniques": [
+        "Suppress warning [*Due to performance considerations, this unique is cached on the unit, and the conditional may not always limit the unique correctly.*]",
         "Disable religion",
         "Suppress warning [*may cause translation problems*]"
     ]
