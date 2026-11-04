@@ -90,7 +90,7 @@
     },
     {
         "name": "Data Archivist",
-        "unitType": "Civilian",
+        "unitType": "Scout",
         "movement": 3,
         "combatStrength": 5,
         "cost": 20,
