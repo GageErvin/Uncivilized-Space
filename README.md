@@ -40,10 +40,11 @@ Improvement images don't show
 Image for radar woumb
 Image for 'Debris Fields'
 
-Barbs don't spawn and ai not clever about finding settlement spots.. space stations.
+Computer opponents struggle to place multiple settlements.  barbarians won't spawn (nor city states so I haven't tried as much).  allow settlement of all tiles for AI Player and use space stations for cities?
+
 Income inadequate for crazy land prices.. Reduce and add buildings.
-Culture from discovery of new tiles.
-A means for subs to get XP
+Culture from discovery of new tiles?
+A means for subs to get XP.
 
 Multi-tile constructables
 - unit (front must be adjacent to rear ; on completion transforms; rear transforms)
