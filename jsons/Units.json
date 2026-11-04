@@ -247,6 +247,8 @@
         "movement": 5,
         "strength": 0,
         "cost": 40,
+        "requiredTech": "Expert Systems",
+        "obsoleteWith": "Micro Particulate Shielding",
         "uniques": [
           "Can transform to [Missile]"
         ]
@@ -270,6 +272,8 @@
         "movement": 5,
         "strength": 0,
         "cost": 50,
+        "requiredTech": "Micro Particulate Shielding",
+        "obsoleteWith": "Laser Propulsion",
         "uniques": [
           "Can transform to [Shielded Missile]"
         ]
@@ -292,6 +296,7 @@
         "movement": 5,
         "strength": 0,
         "cost": 50,
+        "requiredTech": "Laser Propulsion",
         "uniques": [
           "Can transform to [Laser Propelled Missile]"
         ]
