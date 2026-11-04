@@ -1,9 +1,6 @@
 [
   {
     "name": "Paperclip Ecumenopolis",
-    "RGB": [255,0,0],
-    "Food": -3,
-    "Production": 2,
     "civilopediaText": [{"text":"Surrender your resources to be rendered into paperclips!"}]
     "uniques": [
       "Marks a barbarian camp",
@@ -25,10 +22,6 @@
   },
   {
     "name": "Matrix Simulation Pods",
-    "RGB": [255,0,0],
-    "Science": 2,
-    "Food": -2,
-    "Production": -1,
     "uniques": [
       "Marks a barbarian camp",
       "Unbuildable", "Unpillagable", "Excluded from map editor"
@@ -46,36 +39,17 @@
   },
   {
     "name": "Skynet Command Bunker",
-    "type": "Land",
-    "RGB": [255,0,0],
-    "Science": 1,
-    "Food": -2,
-    "Production": 1,
     "uniques": [
       "Gives a defensive bonus of [+20]%",
       "Marks a barbarian camp",
       "Unbuildable"
     ],
     "terrainsCanBeBuiltOn": [
-      "Land",
-      "Ringed Terrestrial Planet",
-      "Terrestrial Planet",
-      "Gas Giant",
-      "Ringed Gas Giant",
-      "Ice Giant",
-      "Ringed Ice Giant",
-      "Cragolith Moon",
-      "Cryolith Moon",
-      "Nebula",
-      "Debris Fields"
+      "Land"
     ]
   },
   {
     "name": "Over-Caregiver Enclave",
-    "type": "Land",
-    "RGB": [255,0,0],
-    "Food": -1,
-    "Production": -1,
     "uniques": [
       "Marks a barbarian camp",
       "Unbuildable"
