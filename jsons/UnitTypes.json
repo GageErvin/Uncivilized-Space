@@ -60,10 +60,7 @@
             "Self-destructs when attacking",
             "[-1] Sight",
             "Unbuildable",
-            "[This Unit] takes [30] damage <every [1] turns>",
-            "[This Unit] takes [30] damage <every [2] turns>",
-            "[This Unit] takes [30] damage <upon turn start>",
-            //"[This Unit] gains the [Burning] status for [100] turn(s)"
+            "[This Unit] takes [30] damage <upon turn start>"
         ]
     },
     {
