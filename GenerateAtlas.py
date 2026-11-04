@@ -60,9 +60,6 @@ def pack_ora_to_atlas(
 
           if bool(re.search(r'[Tt]errains/', name)):
               name = name.replace('Terrains', 'Tiles')
-          if bool(re.search(r'[Ii]mprovements/', name)):
-              # Move from Improvements/ to Tiles/ and append 'T' to the name
-              name_b = re.sub(r'[Ii]mprovements/', 'Tiles/', name) + 'T'
 
               offset_w, offset_h = 4, 4
               crop_w, crop_h = 64, 56
@@ -72,6 +69,9 @@ def pack_ora_to_atlas(
                   offset_w + crop_w,
                   offset_h + crop_h
               ))
+          if bool(re.search(r'[Ii]mprovements/', name)):
+              # Move from Improvements/ to Tiles/ and append 'T' to the name
+              name_b = re.sub(r'[Ii]mprovements/', 'Tiles/', name) + 'T'
 
               layer_obj = {'name': name_b, 'img': img}
               standalone_images.append(layer_obj)
