@@ -56,11 +56,11 @@
             "Ignores terrain cost <hidden from users>",
             "Eliminates combat penalty for attacking over a river <hidden from users>",
             "Eliminates combat penalty for attacking across a coast <hidden from users>",
-            "Hidden from users",
             "No damage penalty for wounded units",
             "Destroys tile improvements when attacking",
             "Self-destructs when attacking",
             "[-1] Sight",
+            "Unbuildable",
             "[This Unit] gains the [Burning] status for [100] turn(s)"
         ]
     },
@@ -70,7 +70,6 @@
         "uniques": [
             "Aircraft",
             "Cannot attack",
-            "Unbuildable",
             "Suppress warning [*Due to performance considerations, this unique is cached on the unit, and the conditional may not always limit the unique correctly.*"
         ]
     },
