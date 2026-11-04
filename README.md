@@ -35,14 +35,14 @@ Add and constrain some moon variants to be actual moons, then reduce probability
 
 ## TODO
 
-Couldn't load missiles in tub.
-Improvement icons are showing up but not the images... may need the 'tile+improvement' image variants...
-Image for radar woumb.
+Improvement images don't show
+Image for radar woumb
 Image for 'Debris Fields'
 
 Barbs don't spawn and ai not clever about finding settlement spots.. space stations.
 Income inadequate for crazy land prices.. Reduce and add buildings.
 Culture from discovery of new tiles.
+A means for subs to get XP
 
 Multi-tile constructables
 - unit (front must be adjacent to rear ; on completion transforms; rear transforms)
