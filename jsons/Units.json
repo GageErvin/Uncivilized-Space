@@ -244,7 +244,7 @@
     {
         "name": "Munition I - Missile",
         "unitType": "Air",
-        "movement": 0,
+        "movement": 2,
         "strength": 0,
         "cost": 40,
         "uniques": [
@@ -268,7 +268,7 @@
     {
         "name": "Munition II - Shielded Missile",
         "unitType": "Air",
-        "movement": 0,
+        "movement": 2,
         "strength": 0,
         "cost": 50,
         "uniques": [
@@ -291,7 +291,7 @@
     {
         "name": "Munition III - Laser Propelled Missile",
         "unitType": "Air",
-        "movement": 0,
+        "movement": 2,
         "strength": 0,
         "cost": 50,
         "uniques": [
