@@ -16,6 +16,16 @@
         ]
     },
     {
+        "name": "Scout",
+        "movementType": "Land",
+        "uniques": [
+            "May travel on Water tiles without embarking <hidden from users>",
+            "Ignores terrain cost <hidden from users>",
+            "Eliminates combat penalty for attacking over a river <hidden from users>",
+            "Eliminates combat penalty for attacking across a coast <hidden from users>"
+        ]
+    },
+    {
         "name": "Drone",
         "movementType": "Land",
         "uniques": [
