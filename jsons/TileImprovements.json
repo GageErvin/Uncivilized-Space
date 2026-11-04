@@ -8,6 +8,18 @@
     "uniques": [
       "Marks a barbarian camp",
       "Unbuildable"
+    ],
+    "terrainsCanBeBuiltOn": [
+      "Ringed Terrestrial Planet",
+      "Terrestrial Planet",
+      "Gas Giant",
+      "Ringed Gas Giant",
+      "Ice Giant",
+      "Ringed Ice Giant",
+      "Cragolith Moon",
+      "Cryolith Moon",
+      "Nebula",
+      "Debris Fields"
     ]
   },
   {
@@ -20,6 +32,16 @@
     "uniques": [
       "Marks a barbarian camp",
       "Unbuildable"
+    ],
+    "terrainsCanBeBuiltOn": [
+      "Ringed Terrestrial Planet",
+      "Terrestrial Planet",
+      "Gas Giant",
+      "Ringed Gas Giant",
+      "Ice Giant",
+      "Ringed Ice Giant",
+      "Cragolith Moon",
+      "Cryolith Moon"
     ]
   },
   {
@@ -33,6 +55,18 @@
       "Gives a defensive bonus of [+20]%",
       "Marks a barbarian camp",
       "Unbuildable"
+    ],
+    "terrainsCanBeBuiltOn": [
+      "Ringed Terrestrial Planet",
+      "Terrestrial Planet",
+      "Gas Giant",
+      "Ringed Gas Giant",
+      "Ice Giant",
+      "Ringed Ice Giant",
+      "Cragolith Moon",
+      "Cryolith Moon",
+      "Nebula",
+      "Debris Fields"
     ]
   },
   {
@@ -44,6 +78,11 @@
     "uniques": [
       "Marks a barbarian camp",
       "Unbuildable"
+    ],
+    "terrainsCanBeBuiltOn": [
+      "Ringed Terrestrial Planet",
+      "Terrestrial Planet",
+      "Ringed Ice Giant"
     ]
   },
   {
