@@ -250,7 +250,7 @@
         "requiredTech": "Expert Systems",
         "obsoleteWith": "Micro Particulate Shielding",
         "uniques": [
-          "Can transform to [Missile]"
+          "Can transform to [Missile] <for [0] movement>"
         ]
     },
     {
@@ -275,7 +275,7 @@
         "requiredTech": "Micro Particulate Shielding",
         "obsoleteWith": "Laser Propulsion",
         "uniques": [
-          "Can transform to [Shielded Missile]"
+          "Can transform to [Shielded Missile] <for [0] movement>"
         ]
     },
     {
@@ -298,7 +298,7 @@
         "cost": 50,
         "requiredTech": "Laser Propulsion",
         "uniques": [
-          "Can transform to [Laser Propelled Missile]"
+          "Can transform to [Laser Propelled Missile] <for [0] movement>"
         ]
     },
     {
