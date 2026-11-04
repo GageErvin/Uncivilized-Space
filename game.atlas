@@ -1,5 +1,5 @@
 game.png
-size: 2048, 299
+size: 2048, 338
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
@@ -45,203 +45,203 @@ TileSets/UncivilizedSpace/Units/Data Archivist
   orig: 72, 66
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Terrains/M4IV Star
+TileSets/UncivilizedSpace/Tiles/M4IV Star
   rotate: false
   xy: 694, 2
   size: 72, 64
   orig: 72, 64
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Terrains/M5IV Star
+TileSets/UncivilizedSpace/Tiles/M5IV Star
   rotate: false
   xy: 768, 2
   size: 72, 64
   orig: 72, 64
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Terrains/M4VI Star
+TileSets/UncivilizedSpace/Tiles/M4VI Star
   rotate: false
   xy: 842, 2
   size: 72, 64
   orig: 72, 64
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Terrains/M5VI Star
+TileSets/UncivilizedSpace/Tiles/M5VI Star
   rotate: false
   xy: 916, 2
   size: 72, 64
   orig: 72, 64
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Terrains/M3V Star
+TileSets/UncivilizedSpace/Tiles/M3V Star
   rotate: false
   xy: 990, 2
   size: 72, 64
   orig: 72, 64
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Terrains/M4V Star
+TileSets/UncivilizedSpace/Tiles/M4V Star
   rotate: false
   xy: 1064, 2
   size: 72, 64
   orig: 72, 64
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Terrains/M5V Star
+TileSets/UncivilizedSpace/Tiles/M5V Star
   rotate: false
   xy: 1138, 2
   size: 72, 64
   orig: 72, 64
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Terrains/M6V Star
+TileSets/UncivilizedSpace/Tiles/M6V Star
   rotate: false
   xy: 1212, 2
   size: 72, 64
   orig: 72, 64
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Terrains/M7V Star
+TileSets/UncivilizedSpace/Tiles/M7V Star
   rotate: false
   xy: 1286, 2
   size: 72, 64
   orig: 72, 64
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Terrains/G2VII Star
+TileSets/UncivilizedSpace/Tiles/G2VII Star
   rotate: false
   xy: 1360, 2
   size: 72, 64
   orig: 72, 64
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Terrains/K7V Star
+TileSets/UncivilizedSpace/Tiles/K7V Star
   rotate: false
   xy: 1434, 2
   size: 72, 64
   orig: 72, 64
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Terrains/Cryolith Moon
+TileSets/UncivilizedSpace/Tiles/Cryolith Moon
   rotate: false
   xy: 1508, 2
   size: 72, 64
   orig: 72, 64
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Terrains/Terrestrial Planet
+TileSets/UncivilizedSpace/Tiles/Terrestrial Planet
   rotate: false
   xy: 1582, 2
   size: 72, 64
   orig: 72, 64
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Terrains/Ringed Terrestrial Planet
+TileSets/UncivilizedSpace/Tiles/Ringed Terrestrial Planet
   rotate: false
   xy: 1656, 2
   size: 72, 64
   orig: 72, 64
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Terrains/Gas Giant
+TileSets/UncivilizedSpace/Tiles/Gas Giant
   rotate: false
   xy: 1730, 2
   size: 72, 64
   orig: 72, 64
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Terrains/Ringed Gas Giant
+TileSets/UncivilizedSpace/Tiles/Ringed Gas Giant
   rotate: false
   xy: 1804, 2
   size: 72, 64
   orig: 72, 64
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Terrains/Ice Giant
+TileSets/UncivilizedSpace/Tiles/Ice Giant
   rotate: false
   xy: 1878, 2
   size: 72, 64
   orig: 72, 64
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Terrains/Ringed Ice Giant
+TileSets/UncivilizedSpace/Tiles/Ringed Ice Giant
   rotate: false
   xy: 1952, 2
   size: 72, 64
   orig: 72, 64
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Terrains/Cragolith Moon
+TileSets/UncivilizedSpace/Tiles/Cragolith Moon
   rotate: false
   xy: 2, 176
   size: 72, 64
   orig: 72, 64
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Terrains/River-BottomRight
+TileSets/UncivilizedSpace/Tiles/River-BottomRight
   rotate: false
   xy: 76, 176
   size: 72, 64
   orig: 72, 64
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Terrains/River-BottomLeft
+TileSets/UncivilizedSpace/Tiles/River-BottomLeft
   rotate: false
   xy: 150, 176
   size: 72, 64
   orig: 72, 64
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Terrains/River-Bottom
+TileSets/UncivilizedSpace/Tiles/River-Bottom
   rotate: false
   xy: 224, 176
   size: 72, 64
   orig: 72, 64
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Terrains/Zero Flux Space
+TileSets/UncivilizedSpace/Tiles/Zero Flux Space
   rotate: false
   xy: 298, 176
   size: 72, 64
   orig: 72, 64
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Terrains/Low Flux Space
+TileSets/UncivilizedSpace/Tiles/Low Flux Space
   rotate: false
   xy: 372, 176
   size: 72, 64
   orig: 72, 64
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Terrains/Debris Fields
+TileSets/UncivilizedSpace/Tiles/Debris Fields
   rotate: false
   xy: 446, 176
   size: 72, 64
   orig: 72, 64
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Terrains/Moderate Flux Space
+TileSets/UncivilizedSpace/Tiles/Moderate Flux Space
   rotate: false
   xy: 520, 176
   size: 72, 64
   orig: 72, 64
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Terrains/High Flux Space
+TileSets/UncivilizedSpace/Tiles/High Flux Space
   rotate: false
   xy: 594, 176
   size: 72, 64
   orig: 72, 64
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Terrains/Extreme Flux Space
+TileSets/UncivilizedSpace/Tiles/Extreme Flux Space
   rotate: false
   xy: 668, 176
   size: 72, 64
   orig: 72, 64
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Terrains/Nebula
+TileSets/UncivilizedSpace/Tiles/Nebula
   rotate: false
   xy: 742, 176
   size: 72, 64
@@ -283,457 +283,541 @@ ImprovementIcons/Orbital Ship Yard
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Tiles/Particulate Collection ArrayT
+TileSets/UncivilizedSpace/Improvements/Orbital Ship Yard
   rotate: false
   xy: 1096, 176
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Tiles/Particulate Collection ArrayT
+  rotate: false
+  xy: 1162, 176
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 ImprovementIcons/Particulate Collection Array
   rotate: false
-  xy: 1096, 176
+  xy: 1162, 176
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Improvements/Particulate Collection Array
+  rotate: false
+  xy: 1228, 176
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/Solar ReflectorT
   rotate: false
-  xy: 1162, 176
+  xy: 1294, 176
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 ImprovementIcons/Solar Reflector
   rotate: false
-  xy: 1162, 176
+  xy: 1294, 176
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Improvements/Solar Reflector
+  rotate: false
+  xy: 1360, 176
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/0-G LabT
   rotate: false
-  xy: 1228, 176
+  xy: 1426, 176
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 ImprovementIcons/0-G Lab
   rotate: false
-  xy: 1228, 176
+  xy: 1426, 176
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Improvements/0-G Lab
+  rotate: false
+  xy: 1492, 176
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/Magnetic Acceleration RelayT
   rotate: false
-  xy: 1294, 176
+  xy: 1558, 176
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 ImprovementIcons/Magnetic Acceleration Relay
   rotate: false
-  xy: 1294, 176
+  xy: 1558, 176
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Improvements/Magnetic Acceleration Relay
+  rotate: false
+  xy: 1624, 176
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Units/Warship
   rotate: false
-  xy: 1360, 176
+  xy: 1690, 176
   size: 86, 56
   orig: 86, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/Deep Space Radar Array WoumbT
   rotate: false
-  xy: 1448, 176
+  xy: 1778, 176
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 ImprovementIcons/Deep Space Radar Array Woumb
   rotate: false
-  xy: 1448, 176
+  xy: 1778, 176
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Improvements/Deep Space Radar Array Woumb
+  rotate: false
+  xy: 1844, 176
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/CityAnywhereT
   rotate: false
-  xy: 1514, 176
+  xy: 1910, 176
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 ImprovementIcons/CityAnywhere
   rotate: false
-  xy: 1514, 176
+  xy: 1910, 176
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Improvements/CityAnywhere
+  rotate: false
+  xy: 1976, 176
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/CityT
   rotate: false
-  xy: 1580, 176
+  xy: 2, 242
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 ImprovementIcons/City
   rotate: false
-  xy: 1580, 176
+  xy: 2, 242
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Improvements/City
+  rotate: false
+  xy: 68, 242
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/Paperclip EcumenopolisT
   rotate: false
-  xy: 1646, 176
+  xy: 134, 242
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 ImprovementIcons/Paperclip Ecumenopolis
   rotate: false
-  xy: 1646, 176
+  xy: 134, 242
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Improvements/Paperclip Ecumenopolis
+  rotate: false
+  xy: 200, 242
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 images/TileSets/UncivilizedSpace/Tiles/Skynet Command BunkerT
   rotate: false
-  xy: 1712, 176
+  xy: 266, 242
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 ImprovementIcons/Skynet Command Bunker
   rotate: false
-  xy: 1712, 176
+  xy: 266, 242
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+images/TileSets/UncivilizedSpace/Improvements/Skynet Command Bunker
+  rotate: false
+  xy: 332, 242
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 images/TileSets/UncivilizedSpace/Tiles/Matrix Simulation PodsT
   rotate: false
-  xy: 1778, 176
+  xy: 398, 242
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 ImprovementIcons/Matrix Simulation Pods
   rotate: false
-  xy: 1778, 176
+  xy: 398, 242
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+images/TileSets/UncivilizedSpace/Improvements/Matrix Simulation Pods
+  rotate: false
+  xy: 464, 242
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 images/TileSets/UncivilizedSpace/Tiles/Over-Caregiver EnclaveT
   rotate: false
-  xy: 1844, 176
+  xy: 530, 242
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 ImprovementIcons/Over-Caregiver Enclave
   rotate: false
-  xy: 1844, 176
+  xy: 530, 242
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+images/TileSets/UncivilizedSpace/Improvements/Over-Caregiver Enclave
+  rotate: false
+  xy: 596, 242
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Units/Missile Cradle
   rotate: false
-  xy: 1910, 176
+  xy: 662, 242
   size: 72, 55
   orig: 72, 55
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Units/Strategic Cradle
   rotate: false
-  xy: 2, 242
+  xy: 736, 242
   size: 72, 55
   orig: 72, 55
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Units/Laser Frigate
   rotate: false
-  xy: 76, 242
+  xy: 810, 242
   size: 72, 55
   orig: 72, 55
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Units/Generational Settler
   rotate: false
-  xy: 150, 242
+  xy: 884, 242
   size: 72, 52
   orig: 72, 52
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Units/Warp Dreadnaught
   rotate: false
-  xy: 224, 242
+  xy: 958, 242
   size: 79, 52
   orig: 79, 52
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Units/Cryosleep Settler
   rotate: false
-  xy: 305, 242
+  xy: 1039, 242
   size: 72, 51
   orig: 72, 51
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Units/Laser Corvette
   rotate: false
-  xy: 379, 242
+  xy: 1113, 242
   size: 72, 50
   orig: 72, 50
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Units/Missile Submarine
   rotate: false
-  xy: 453, 242
+  xy: 1187, 242
   size: 72, 45
   orig: 72, 45
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Units/Cannonade Vessel
   rotate: false
-  xy: 527, 242
+  xy: 1261, 242
   size: 72, 45
   orig: 72, 45
   offset: 0, 0
   index: -1
 UnitIcons/Warp Dreadnaught
   rotate: false
-  xy: 601, 242
+  xy: 1335, 242
   size: 40, 43
   orig: 40, 43
   offset: 0, 0
   index: -1
 UnitIcons/Cryosleep Settler
   rotate: false
-  xy: 643, 242
+  xy: 1377, 242
   size: 40, 41
   orig: 40, 41
   offset: 0, 0
   index: -1
 UnitIcons/SurveyVessel
   rotate: false
-  xy: 685, 242
+  xy: 1419, 242
   size: 40, 41
   orig: 40, 41
   offset: 0, 0
   index: -1
 UnitIcons/Data Archivist
   rotate: false
-  xy: 727, 242
+  xy: 1461, 242
   size: 40, 41
   orig: 40, 41
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/CityStates/Flat-Universe Society
   rotate: false
-  xy: 769, 242
+  xy: 1503, 242
   size: 44, 41
   orig: 44, 41
   offset: 0, 0
   index: -1
 UnitIcons/Generational Settler
   rotate: false
-  xy: 815, 242
+  xy: 1549, 242
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
   index: -1
 UnitIcons/Incubation Settler
   rotate: false
-  xy: 857, 242
+  xy: 1591, 242
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
   index: -1
 UnitIcons/Astraforming Swarm
   rotate: false
-  xy: 899, 242
+  xy: 1633, 242
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
   index: -1
 UnitIcons/Annihilation Dreadnaught
   rotate: false
-  xy: 941, 242
+  xy: 1675, 242
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Units/Laser Drone
   rotate: false
-  xy: 983, 242
+  xy: 1717, 242
   size: 58, 40
   orig: 58, 40
   offset: 0, 0
   index: -1
 UnitIcons/Laser Corvette
   rotate: false
-  xy: 1043, 242
+  xy: 1777, 242
   size: 40, 39
   orig: 40, 39
   offset: 0, 0
   index: -1
 UnitIcons/Neutron Destroyer
   rotate: false
-  xy: 1085, 242
+  xy: 1819, 242
   size: 40, 39
   orig: 40, 39
   offset: 0, 0
   index: -1
 UnitIcons/Laser Drone
   rotate: false
-  xy: 1127, 242
+  xy: 1861, 242
   size: 40, 38
   orig: 40, 38
   offset: 0, 0
   index: -1
 UnitIcons/EM Destroyer
   rotate: false
-  xy: 1169, 242
+  xy: 1903, 242
   size: 40, 37
   orig: 40, 37
   offset: 0, 0
   index: -1
 UnitIcons/Strategic Cradle
   rotate: false
-  xy: 1211, 242
+  xy: 1945, 242
   size: 40, 37
   orig: 40, 37
   offset: 0, 0
   index: -1
 UnitIcons/Warship
   rotate: false
-  xy: 1253, 242
+  xy: 1987, 242
   size: 40, 37
   orig: 40, 37
   offset: 0, 0
   index: -1
 UnitIcons/Laser Frigate
   rotate: false
-  xy: 1295, 242
+  xy: 2, 300
   size: 40, 36
   orig: 40, 36
   offset: 0, 0
   index: -1
 UnitIcons/Shielded Missile
   rotate: false
-  xy: 1337, 242
+  xy: 44, 300
   size: 40, 36
   orig: 40, 36
   offset: 0, 0
   index: -1
 UnitIcons/Missile Cradle
   rotate: false
-  xy: 1379, 242
+  xy: 86, 300
   size: 40, 36
   orig: 40, 36
   offset: 0, 0
   index: -1
 UnitIcons/Missile
   rotate: false
-  xy: 1421, 242
+  xy: 128, 300
   size: 40, 35
   orig: 40, 35
   offset: 0, 0
   index: -1
 UnitIcons/Laser Propelled Missile
   rotate: false
-  xy: 1463, 242
+  xy: 170, 300
   size: 40, 35
   orig: 40, 35
   offset: 0, 0
   index: -1
 UnitIcons/Missile Submarine
   rotate: false
-  xy: 1505, 242
+  xy: 212, 300
   size: 40, 35
   orig: 40, 35
   offset: 0, 0
   index: -1
 UnitIcons/Cannonade Vessel
   rotate: false
-  xy: 1547, 242
+  xy: 254, 300
   size: 40, 35
   orig: 40, 35
   offset: 0, 0
   index: -1
 StatIcons/Happiness
   rotate: false
-  xy: 1589, 242
+  xy: 296, 300
   size: 27, 29
   orig: 27, 29
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Units/Shielded Missile
   rotate: false
-  xy: 1618, 242
+  xy: 325, 300
   size: 43, 29
   orig: 43, 29
   offset: 0, 0
   index: -1
 StatIcons/Science
   rotate: false
-  xy: 1663, 242
+  xy: 370, 300
   size: 27, 28
   orig: 27, 28
   offset: 0, 0
   index: -1
 ResourceIcons/Antimatter
   rotate: false
-  xy: 1692, 242
+  xy: 399, 300
   size: 22, 28
   orig: 22, 28
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Units/Missile
   rotate: false
-  xy: 1716, 242
+  xy: 423, 300
   size: 44, 28
   orig: 44, 28
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Units/Laser Propelled Missile
   rotate: false
-  xy: 1762, 242
+  xy: 469, 300
   size: 44, 28
   orig: 44, 28
   offset: 0, 0
   index: -1
 StatIcons/Culture
   rotate: false
-  xy: 1808, 242
+  xy: 515, 300
   size: 36, 26
   orig: 36, 26
   offset: 0, 0
   index: -1
 StatIcons/Food
   rotate: false
-  xy: 1846, 242
+  xy: 553, 300
   size: 21, 24
   orig: 21, 24
   offset: 0, 0
   index: -1
 ResourceIcons/Exotic Optomaterial
   rotate: false
-  xy: 1869, 242
+  xy: 576, 300
   size: 22, 20
   orig: 22, 20
   offset: 0, 0
   index: -1
 ResourceIcons/Uranium
   rotate: false
-  xy: 1893, 242
+  xy: 600, 300
   size: 22, 20
   orig: 22, 20
   offset: 0, 0
