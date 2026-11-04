@@ -12,9 +12,6 @@
 		"adjective": [
 			"Macroform"
 		],
-		"startBias": [
-			"Terrestrial Planet"
-		],
 		"outerColor": [
 			171,
 			76,
@@ -28,6 +25,7 @@
 		"preferredVictoryType": "Domination",
 		"uniqueName": "Massive Semi-Carbon Semi-Silicon Forms",
 		"uniques": [
+			"Start bias [Terrestrial Planet] <for [AI player] Civilizations>",
 			"[+13]% [Production] [in all cities]",
 			"[-40]% Production when constructing [Civilian] units [in all cities]"
 		],
@@ -50,9 +48,6 @@
 		"adjective": [
 			"Silicoform"
 		],
-		"startBias": [
-			"Cragolith Moon"
-		],
 		"outerColor": [
 			0,
 			143,
@@ -66,6 +61,7 @@
 		"preferredVictoryType": "Domination",
 		"uniqueName": "Sharp Crystalline Wit",
 		"uniques": [
+			"Start bias [Ringed Terrestrial Planet] <for [AI player] Civilizations>",
 			"[+15]% [Science] [in all cities]",
 			"[+1 Science] from [Cragolith Moon] tiles [in all cities]"
 		],
@@ -88,9 +84,6 @@
 		"adjective": [
 			"Carbonform"
 		],
-		"startBias": [
-			"Terrestrial Planet"
-		],
 		"outerColor": [
 			36,
 			138,
@@ -104,6 +97,7 @@
 		"preferredVictoryType": "Domination",
 		"uniqueName": "Rapid Cellular Division",
 		"uniques": [
+			"Start bias [Ringed Gas Giant] <for [AI player] Civilizations>",
 			"[+14]% growth [in all cities]"
 		],
 		"cities": [
