@@ -310,7 +310,7 @@
             "[-4] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles> <hidden from users>",
             "[+6] Sight",
-            "Can carry [4] [Air] units"
+            "Can carry [4] [Aircraft] units"
         ],
         "obsoleteWith": "Laser Propulsion"
     },
@@ -331,7 +331,7 @@
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+8] Sight",
             "Can move after attacking",
-            "Can carry [5] [Air] units"
+            "Can carry [5] [Aircraft] units"
         ]
     },
     {
@@ -349,7 +349,7 @@
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+10] Sight",
             "Can move after attacking",
-            "Can carry [7] [Air] units"
+            "Can carry [7] [Aircraft] units"
         ],
         "obsoleteWith": "C-Fractional Thrust"
     },
