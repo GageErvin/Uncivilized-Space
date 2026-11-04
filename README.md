@@ -35,6 +35,7 @@ Add and constrain some moon variants to be actual moons, then reduce probability
 
 ## TODO
 
+lighten 0
 Improvement images don't show
 Image for radar woumb
 Image for 'Debris Fields'
