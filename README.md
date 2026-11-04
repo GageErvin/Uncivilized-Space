@@ -48,7 +48,3 @@ Multi-tile constructables (images)
 - structure (dyson sphere -- surounding pieces must be adjacent to each other; center piece too; when adjacent, extra stats )
 
 Buildings shouldn't replace expert research system for every civ (common buildings should be used by at least 2 natinos).. repurpose some and add more!
-
-Nations text and images
-
-hook up new city and city-state images
