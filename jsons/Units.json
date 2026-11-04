@@ -17,7 +17,16 @@
         "uniques": [
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "Requires at least [2] population",
-            "Excess Food converted to Production when under construction"
+            "Excess Food converted to Production when under construction",
+            "Founds a new city <by consuming this unit> <in [Terrestrial Planet] tiles>",
+            "Founds a new city <by consuming this unit> <in [Ringed Terrestrial Planet] tiles>",
+            "Founds a new city <by consuming this unit> <in [Gas Giant] tiles>",
+            "Founds a new city <by consuming this unit> <in [Ringed Gas Giant] tiles>",
+            "Founds a new city <by consuming this unit> <in [Ice Giant] tiles>",
+            "Founds a new city <by consuming this unit> <in [Ringed Ice Giant] tiles>",
+            "Founds a new city <by consuming this unit> <in [Cryolith Moon] tiles>",
+            "Founds a new city <by consuming this unit> <in [Cragolith Moon] tiles>",
+            "May travel on Water tiles without embarking <hidden from users>"
         ],
         "obsoleteWith": "Cryogenics"
     },
@@ -31,7 +40,16 @@
             "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
             "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
             "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
-            "[+1] Movement <in [Magnetic Acceleration Relay] tiles>"
+            "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+            "Founds a new city <by consuming this unit> <in [Terrestrial Planet] tiles>",
+            "Founds a new city <by consuming this unit> <in [Ringed Terrestrial Planet] tiles>",
+            "Founds a new city <by consuming this unit> <in [Gas Giant] tiles>",
+            "Founds a new city <by consuming this unit> <in [Ringed Gas Giant] tiles>",
+            "Founds a new city <by consuming this unit> <in [Ice Giant] tiles>",
+            "Founds a new city <by consuming this unit> <in [Ringed Ice Giant] tiles>",
+            "Founds a new city <by consuming this unit> <in [Cryolith Moon] tiles>",
+            "Founds a new city <by consuming this unit> <in [Cragolith Moon] tiles>",
+            "May travel on Water tiles without embarking <hidden from users>"
         ]
     },
     {
@@ -44,7 +62,16 @@
             "[-2] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
             "[-2] Movement <in [High Flux Space] tiles> <hidden from users>",
             "[-2] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
-            "[+2] Movement <in [Magnetic Acceleration Relay] tiles>"
+            "[+2] Movement <in [Magnetic Acceleration Relay] tiles>",
+            "Founds a new city <by consuming this unit> <in [Terrestrial Planet] tiles>",
+            "Founds a new city <by consuming this unit> <in [Ringed Terrestrial Planet] tiles>",
+            "Founds a new city <by consuming this unit> <in [Gas Giant] tiles>",
+            "Founds a new city <by consuming this unit> <in [Ringed Gas Giant] tiles>",
+            "Founds a new city <by consuming this unit> <in [Ice Giant] tiles>",
+            "Founds a new city <by consuming this unit> <in [Ringed Ice Giant] tiles>",
+            "Founds a new city <by consuming this unit> <in [Cryolith Moon] tiles>",
+            "Founds a new city <by consuming this unit> <in [Cragolith Moon] tiles>",
+            "May travel on Water tiles without embarking <hidden from users>"
         ]
     },
     {
