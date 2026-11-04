@@ -60,6 +60,7 @@
             "Self-destructs when attacking",
             "[-1] Sight",
             "Unbuildable",
+            "[+200]% Strength <when attacking>",
             "[This Unit] takes [30] damage <upon turn start>"
         ]
     },
