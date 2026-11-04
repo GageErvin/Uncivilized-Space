@@ -237,7 +237,7 @@
         "requiredTech": "Expert Systems",
         "obsoleteWith": "Micro Particulate Shielding",
         "uniques": [
-            "Can transform to [Munition I - Missile] <when adjacent to a [Sub] unit>",
+            //"Can transform to [Munition I - Missile] <when adjacent to a [Sub] unit>",
             "Blast radius [1]"
         ]
     },
@@ -260,7 +260,7 @@
         "requiredTech": "Micro Particulate Shielding",
         "obsoleteWith": "Laser Propulsion",
         "uniques": [
-            "Can transform to [Munition II - Shielded Missile] <when adjacent to a [Sub] unit>",
+            //"Can transform to [Munition II - Shielded Missile] <when adjacent to a [Sub] unit>",
             "Blast radius [1]"
         ]
     },
@@ -282,7 +282,7 @@
         "cost": 50,
         "requiredTech": "Laser Propulsion",
         "uniques": [
-            "Can transform to [Munition III - Laser Propelled Missile] <when adjacent to a [Sub] unit>",
+            //"Can transform to [Munition III - Laser Propelled Missile] <when adjacent to a [Sub] unit>",
             "Blast radius [2]"
         ]
     },
