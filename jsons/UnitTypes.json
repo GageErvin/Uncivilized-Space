@@ -21,7 +21,6 @@
             "Founds a new city <by consuming this unit> <in [Cryolith Moon] tiles>",
             "Founds a new city <by consuming this unit> <in [Cragolith Moon] tiles>",
             "May travel on Water tiles without embarking <hidden from users>"
-            // "Ignores terrain cost <hidden from users>"
         ]
     },
     {
@@ -61,7 +60,10 @@
             "Self-destructs when attacking",
             "[-1] Sight",
             "Unbuildable",
-            "[This Unit] gains the [Burning] status for [100] turn(s)"
+            "[This Unit] takes [30] damage <every [1] turns>",
+            "[This Unit] takes [30] damage <every [2] turns>",
+            "[This Unit] takes [30] damage <upon turn start>",
+            //"[This Unit] gains the [Burning] status for [100] turn(s)"
         ]
     },
     {
