@@ -10,7 +10,7 @@ preview
   orig: 300, 167
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Improvements/Solar Reflector
+TileSets/UncivilizedSpace/Tiles/Solar Reflector
   rotate: false
   xy: 304, 2
   size: 72, 72
@@ -325,7 +325,7 @@ TileSets/UncivilizedSpace/Units/Laser Frigate
   orig: 72, 55
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Improvements/Magnetic Acceleration Relay
+TileSets/UncivilizedSpace/Tiles/Magnetic Acceleration Relay
   rotate: false
   xy: 1302, 171
   size: 72, 53
@@ -367,7 +367,7 @@ TileSets/UncivilizedSpace/Units/Laser Corvette
   orig: 72, 50
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Improvements/0-G Lab
+TileSets/UncivilizedSpace/Tiles/0-G Lab
   rotate: false
   xy: 1679, 171
   size: 71, 49
