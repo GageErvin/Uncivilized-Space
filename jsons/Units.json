@@ -89,11 +89,12 @@
         ]
     },
     {
-        "name": "Scout", //"Data Archivist",
+        "name": "Data Archivist",
         "unitType": "Scout",
         "movement": 3,
         "combatStrength": 5,
         "cost": 20,
+        "replaces": "Scout",
         "uniques": [
             "[-1] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
             "[-1] Sight <in [High Flux Space] tiles> <hidden from users>",
@@ -102,7 +103,8 @@
             "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
             "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-            "[+1] Sight"
+            "[+1] Sight",
+            "Never appears as a Barbarian unit"
         ]
     },
     {
