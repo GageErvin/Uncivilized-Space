@@ -1,13 +1,13 @@
 [
   {
     "name": "Paperclip Ecumenopolis",
-    "type": "Land",
     "RGB": [255,0,0],
     "Food": -3,
     "Production": 2,
+    "civilopediaText": [{"text":"Surrender your resources to be rendered into paperclips!"}]
     "uniques": [
       "Marks a barbarian camp",
-      "Unbuildable"
+      "Unbuildable", "Unpillagable", "Excluded from map editor"
     ],
     "terrainsCanBeBuiltOn": [
       "Ringed Terrestrial Planet",
@@ -19,19 +19,19 @@
       "Cragolith Moon",
       "Cryolith Moon",
       "Nebula",
-      "Debris Fields"
+      "Debris Fields",
+      "Land"
     ]
   },
   {
     "name": "Matrix Simulation Pods",
-    "type": "Land",
     "RGB": [255,0,0],
     "Science": 2,
     "Food": -2,
     "Production": -1,
     "uniques": [
       "Marks a barbarian camp",
-      "Unbuildable"
+      "Unbuildable", "Unpillagable", "Excluded from map editor"
     ],
     "terrainsCanBeBuiltOn": [
       "Ringed Terrestrial Planet",
@@ -57,6 +57,7 @@
       "Unbuildable"
     ],
     "terrainsCanBeBuiltOn": [
+      "Land",
       "Ringed Terrestrial Planet",
       "Terrestrial Planet",
       "Gas Giant",
