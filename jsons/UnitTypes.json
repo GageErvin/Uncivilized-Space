@@ -3,7 +3,6 @@
         "name": "Civilian",
         "movementType": "Land",
         "uniques": [
-            "Suppress warning [*Due to performance considerations, this unique is cached on the unit, and the conditional may not always limit the unique correctly.*]",
             "Ignores terrain cost <hidden from users>",
             "May travel on Water tiles without embarking <hidden from users>"
         ]
@@ -11,9 +10,7 @@
     {
         "name": "Settler",
         "movementType": "Land",
-        "uniques": [
-            "Suppress warning [*Due to performance considerations, this unique is cached on the unit, and the conditional may not always limit the unique correctly.*]"
-        ]
+        "uniques": []
     },
     {
         "name": "Scout",
@@ -29,7 +26,6 @@
         "name": "Drone",
         "movementType": "Land",
         "uniques": [
-            "Suppress warning [*Due to performance considerations, this unique is cached on the unit, and the conditional may not always limit the unique correctly.*]",
             "May travel on Water tiles without embarking <hidden from users>",
             "Ignores terrain cost <hidden from users>",
             "Eliminates combat penalty for attacking over a river <hidden from users>",
@@ -40,7 +36,6 @@
         "name": "Military",
         "movementType": "Land",
         "uniques": [
-            "Suppress warning [*Due to performance considerations, this unique is cached on the unit, and the conditional may not always limit the unique correctly.*]",
             "May travel on Water tiles without embarking <hidden from users>",
             "Ignores terrain cost <hidden from users>",
             "Eliminates combat penalty for attacking over a river <hidden from users>",
@@ -52,7 +47,6 @@
         "name": "Missile",
         "movementType": "Land",
         "uniques": [
-            "Suppress warning [*Due to performance considerations, this unique is cached on the unit, and the conditional may not always limit the unique correctly.*]",
             "May travel on Water tiles without embarking <hidden from users>",
             "Ignores terrain cost <hidden from users>",
             "Eliminates combat penalty for attacking over a river <hidden from users>",
@@ -71,15 +65,13 @@
         "movementType": "Air",
         "uniques": [
             "Aircraft",
-            "Cannot attack",
-            "Suppress warning [*Due to performance considerations, this unique is cached on the unit, and the conditional may not always limit the unique correctly.*]"
+            "Cannot attack"
         ]
     },
     {
         "name": "Sub",
         "movementType": "Land",
         "uniques": [
-            "Suppress warning [*Due to performance considerations, this unique is cached on the unit, and the conditional may not always limit the unique correctly.*]",
             "May travel on Water tiles without embarking <hidden from users>",
             "Ignores terrain cost <hidden from users>",
             "Eliminates combat penalty for attacking over a river <hidden from users>",
