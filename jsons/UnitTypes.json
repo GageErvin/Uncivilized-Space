@@ -12,15 +12,6 @@
         "name": "Settler",
         "movementType": "Land",
         "uniques": [
-            "Founds a new city <by consuming this unit> <in [Terrestrial Planet] tiles>",
-            "Founds a new city <by consuming this unit> <in [Ringed Terrestrial Planet] tiles>",
-            "Founds a new city <by consuming this unit> <in [Gas Giant] tiles>",
-            "Founds a new city <by consuming this unit> <in [Ringed Gas Giant] tiles>",
-            "Founds a new city <by consuming this unit> <in [Ice Giant] tiles>",
-            "Founds a new city <by consuming this unit> <in [Ringed Ice Giant] tiles>",
-            "Founds a new city <by consuming this unit> <in [Cryolith Moon] tiles>",
-            "Founds a new city <by consuming this unit> <in [Cragolith Moon] tiles>",
-            "May travel on Water tiles without embarking <hidden from users>"
         ]
     },
     {
