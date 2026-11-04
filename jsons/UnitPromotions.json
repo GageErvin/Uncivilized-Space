@@ -1,10 +1,4 @@
 [
-  {
-    "name": "Burning",
-    "uniques": [
-      "hidden from users"
-    ], "unitTypes": ["Missile"]
-  },
 	{
 		"name": "Ablative Armor Maintenance",
 		"prerequisites": [],
