@@ -34,7 +34,7 @@
       1
     ],
     "uniques": [
-      "Neighboring tiles will convert to [High Flux Space]",
+      "Rare feature",
       "Becomes [High Flux Space] when adjacent to [M4IV Star]",
       "Becomes [High Flux Space] when adjacent to [M5IV Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
@@ -68,7 +68,7 @@
       1
     ],
     "uniques": [
-      "Neighboring tiles will convert to [High Flux Space]",
+      "Rare feature",
       "Becomes [High Flux Space] when adjacent to [M4IV Star]",
       "Becomes [High Flux Space] when adjacent to [M5IV Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
@@ -102,7 +102,7 @@
       1
     ],
     "uniques": [
-      "Neighboring tiles will convert to [Moderate Flux Space]",
+      "Rare feature",
       "Becomes [High Flux Space] when adjacent to [M4IV Star]",
       "Becomes [High Flux Space] when adjacent to [M5IV Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
@@ -136,7 +136,7 @@
       1
     ],
     "uniques": [
-      "Neighboring tiles will convert to [Moderate Flux Space]",
+      "Rare feature",
       "Becomes [High Flux Space] when adjacent to [M4IV Star]",
       "Becomes [High Flux Space] when adjacent to [M5IV Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
@@ -170,7 +170,7 @@
       0
     ],
     "uniques": [
-      "Neighboring tiles will convert to [Low Flux Space]",
+      "Rare feature",
       "Becomes [High Flux Space] when adjacent to [M4IV Star]",
       "Becomes [High Flux Space] when adjacent to [M5IV Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
@@ -204,7 +204,7 @@
       0
     ],
     "uniques": [
-      "Neighboring tiles will convert to [Low Flux Space]",
+      "Rare feature",
       "Becomes [High Flux Space] when adjacent to [M4IV Star]",
       "Becomes [High Flux Space] when adjacent to [M5IV Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
@@ -238,7 +238,7 @@
       0
     ],
     "uniques": [
-      "Neighboring tiles will convert to [Low Flux Space]",
+      "Rare feature",
       "Becomes [High Flux Space] when adjacent to [M4IV Star]",
       "Becomes [High Flux Space] when adjacent to [M5IV Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
@@ -272,7 +272,7 @@
       0
     ],
     "uniques": [
-      "Neighboring tiles will convert to [Low Flux Space]",
+      "Rare feature",
       "Becomes [High Flux Space] when adjacent to [M4IV Star]",
       "Becomes [High Flux Space] when adjacent to [M5IV Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
@@ -306,7 +306,7 @@
       0
     ],
     "uniques": [
-      "Neighboring tiles will convert to [Low Flux Space]",
+      "Rare feature",
       "Becomes [High Flux Space] when adjacent to [M4IV Star]",
       "Becomes [High Flux Space] when adjacent to [M5IV Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
@@ -340,7 +340,7 @@
       0
     ],
     "uniques": [
-      "Neighboring tiles will convert to [Extreme Flux Space]",
+      "Rare feature",
       "Becomes [High Flux Space] when adjacent to [M4IV Star]",
       "Becomes [High Flux Space] when adjacent to [M5IV Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
@@ -374,7 +374,7 @@
       0
     ],
     "uniques": [
-      "Neighboring tiles will convert to [High Flux Space]",
+      "Rare feature",
       "Becomes [High Flux Space] when adjacent to [M4IV Star]",
       "Becomes [High Flux Space] when adjacent to [M5IV Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
@@ -647,11 +647,7 @@
       "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
       "Becomes [High Flux Space] when adjacent to [K7V Star]",
       "Becomes [Low Flux Space] when adjacent to [Terrestrial Planet]",
-      "Becomes [Low Flux Space] when adjacent to [Ringed Terrestrial Planet]",
-      "Becomes [Low Flux Space] when adjacent to [Ice Giant]",
-      "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]",
-      "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
-      "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]"
+      "Becomes [Low Flux Space] when adjacent to [Ringed Terrestrial Planet]"
     ]
   },
   {
@@ -684,11 +680,7 @@
       "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
       "Becomes [High Flux Space] when adjacent to [K7V Star]",
       "Becomes [Low Flux Space] when adjacent to [Terrestrial Planet]",
-      "Becomes [Low Flux Space] when adjacent to [Ringed Terrestrial Planet]",
-      "Becomes [Low Flux Space] when adjacent to [Ice Giant]",
-      "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]",
-      "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
-      "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]"
+      "Becomes [Low Flux Space] when adjacent to [Ringed Terrestrial Planet]"
     ]
   },
   {
@@ -717,10 +709,6 @@
       "Becomes [Low Flux Space] when adjacent to [M7V Star]",
       "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
       "Becomes [High Flux Space] when adjacent to [K7V Star]",
-      "Becomes [Low Flux Space] when adjacent to [Terrestrial Planet]",
-      "Becomes [Low Flux Space] when adjacent to [Ringed Terrestrial Planet]",
-      "Becomes [Low Flux Space] when adjacent to [Ice Giant]",
-      "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]",
       "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
       "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]"
     ]
@@ -753,10 +741,6 @@
       "Becomes [Low Flux Space] when adjacent to [M7V Star]",
       "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
       "Becomes [High Flux Space] when adjacent to [K7V Star]",
-      "Becomes [Low Flux Space] when adjacent to [Terrestrial Planet]",
-      "Becomes [Low Flux Space] when adjacent to [Ringed Terrestrial Planet]",
-      "Becomes [Low Flux Space] when adjacent to [Ice Giant]",
-      "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]",
       "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
       "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]"
     ]
@@ -787,12 +771,8 @@
       "Becomes [Low Flux Space] when adjacent to [M7V Star]",
       "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
       "Becomes [High Flux Space] when adjacent to [K7V Star]",
-      "Becomes [Low Flux Space] when adjacent to [Terrestrial Planet]",
-      "Becomes [Low Flux Space] when adjacent to [Ringed Terrestrial Planet]",
       "Becomes [Low Flux Space] when adjacent to [Ice Giant]",
-      "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]",
-      "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
-      "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]"
+      "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]"
     ]
   },
   {
@@ -824,12 +804,8 @@
       "Becomes [Low Flux Space] when adjacent to [M7V Star]",
       "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
       "Becomes [High Flux Space] when adjacent to [K7V Star]",
-      "Becomes [Low Flux Space] when adjacent to [Terrestrial Planet]",
-      "Becomes [Low Flux Space] when adjacent to [Ringed Terrestrial Planet]",
       "Becomes [Low Flux Space] when adjacent to [Ice Giant]",
-      "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]",
-      "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
-      "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]"
+      "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]"
     ]
   },
   {
