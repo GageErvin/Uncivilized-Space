@@ -58,8 +58,9 @@ def pack_ora_to_atlas(
           img_data = z.read(src)
           img = Image.open(io.BytesIO(img_data)).convert('RGBA')
 
-          if bool(re.search(r'[Tt]errains/', name)):
-              name = name.replace('Terrains', 'Tiles')
+          if bool(re.search(r'[Ii]mprovements/', name)):
+              # Move from Improvements/ to Tiles/ and append 'T' to the name
+              name = re.sub(r'[Ii]mprovements/', 'Tiles/', name) + 'T'
 
               offset_w, offset_h = 4, 4
               crop_w, crop_h = 64, 56
@@ -72,7 +73,6 @@ def pack_ora_to_atlas(
 
           layer_obj = {'name': name, 'img': img}
 
-          # 2. Add 'Images/' layers to BOTH standalone_images and atlas_layers
           if name == 'Images' or name.startswith('Images/') or name == "preview":
             standalone_images.append(layer_obj)
             atlas_layers.append(layer_obj)
@@ -160,16 +160,13 @@ def pack_ora_to_atlas(
     if raw_name.startswith('Images/'):
         raw_name = raw_name[len('Images/'):]
 
-    # Check if it's an improvement layer
-    is_improvement = bool(re.search(r'[Ii]mprovements/', raw_name))
+    # Check if it's an improvement layer (now under Tiles/ with a trailing 'T')
+    is_improvement = bool(re.search(r'[Tt]iles/.*T$', raw_name))
 
     primary_entry_name = raw_name
 
     # Helper function to append entry block
     def append_atlas_entry(entry_name):
-      if 'ImprovementIcons/' in entry_name:
-        entry_name = re.sub(r'^.*?(ImprovementIcons/.*)', r'\1', entry_name)
-
       atlas_content.append(entry_name)
       atlas_content.append('  rotate: false')
       atlas_content.append(f"  xy: {item['atlas_x']}, {item['atlas_y']}")
@@ -181,9 +178,11 @@ def pack_ora_to_atlas(
     # 1. Primary atlas entry
     append_atlas_entry(primary_entry_name)
 
-    # 2. Secondary atlas entry for Improvements (doubles as its own icon)
+    # 2. Secondary atlas entry for Improvements (maps to ImprovementIcons/)
     if is_improvement:
-        secondary_icon_name = re.sub(r'[Ii]mprovements/', 'ImprovementIcons/', raw_name, count=1)
+        # Strip off the trailing 'T' and switch Tiles/ to ImprovementIcons/
+        base_improvement_name = raw_name[:-1] if raw_name.endswith('T') else raw_name
+        secondary_icon_name = re.sub(r'^.*?[Tt]iles/', 'ImprovementIcons/', base_improvement_name)
         append_atlas_entry(secondary_icon_name)
 
   with open(output_atlas, 'w', encoding='utf-8') as f:

@@ -1,7 +1,7 @@
 [
   {
     "name": "Barbarian encampment", //"Paperclip Ecumenopolis",
-    "civilopediaText": [{"text":"Surrender your resources to be rendered into paperclips!"}]
+    "civilopediaText": [{"text":"Surrender your resources to be rendered into paperclips!"}],
     "uniques": [
       "Marks a barbarian camp",
       "Unbuildable", "Unpillagable", "Excluded from map editor"

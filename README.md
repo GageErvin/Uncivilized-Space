@@ -35,35 +35,20 @@ Add and constrain some moon variants to be actual moons, then reduce probability
 
 ## TODO
 
-lighten 0
 Improvement images don't show
-Image for radar woumb
-Image for 'Debris Fields'
 
-Computer opponents struggle to place multiple settlements.  barbarians won't spawn (nor city states so I haven't tried as much).  allow settlement of all tiles for AI Player and use space stations for cities?
+Computer opponents struggle to place multiple settlements.  barbarians won't spawn (many current variants) (nor city states tho I haven't tried as much - prly need citystatetypes.json).  allow settlement of all tiles for [AI Player] and use space stations for cities?
 
 Income inadequate for crazy land prices.. Reduce and add buildings.
-Culture from discovery of new tiles?
-A means for subs to get XP.
+Culture from discovery of new tiles -- wonderous decorative tiles (image)
+A means for subs to get XP -- couldn't find a way to make it happen when missiles explode or get carried places.. perhaps they can have a set of dedicated promotions and starting xp from a building for a 1-option customization?
 
-Multi-tile constructables
+Multi-tile constructables (images)
 - unit (front must be adjacent to rear ; on completion transforms; rear transforms)
 - structure (dyson sphere -- surounding pieces must be adjacent to each other; center piece too; when adjacent, extra stats )
 
 Buildings shouldn't replace expert research system for every civ (common buildings should be used by at least 2 natinos).. repurpose some and add more!
 
-Regular missile dmg simulated loss of fuel but needed tweaking... currently not actually applying.
-
-Images for barbs' terrains & location limits, desirable for start location for nations ; more decoration tiles
-
 Nations text and images
 
-unciv doesn't support per-terrain city graphics (only per era)
-- leave them out OR make orbital launcher req a body as an improvement and do 'space station' cities...
-- 'unbuildable' and 'canbuildcity' don't actually constrain city building.. currently constrained by unit conditions.. consider per-civ variants and limits on what planets are useable
-- constrained 'canfoundcity' in terrains
-  - ringed gas giants are an exception but I could perhaps overlap.. T.T
-  - since it didn't seem to be affecting map gen much
-  - but doesn't seem to have worked.. still building in nebulas and other places..
-
-Deep space radar array starts in city but intended to start on improvement.
+hook up new city and city-state images
