@@ -89,7 +89,7 @@
         ]
     },
     {
-        "name": "Data Archivist",
+        "name": "Scout", //"Data Archivist",
         "unitType": "Scout",
         "movement": 3,
         "combatStrength": 5,
