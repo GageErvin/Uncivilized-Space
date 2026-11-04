@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Aggregation XII",
+    "production": 8,
+    "food": 6,
+    "gold": 4,
+    "science": 5,
+    "culture": 5,
+    "happiness": 5,
+    "faith": 0,
+    "military": 7,
+    "aggressive": 7,
+    "declareWar": 5,
+    "commerce": 7,
+    "diplomacy": 4,
+    "loyal": 6,
+    "expansion": 6,
+    "denounceWillingness": 5,
+    "priorities": {
+      "Expansionism": 2,
+      "Cybernetics": 1
+    }
+  },
+  {
+    "name": "Blue Shard",
+    "production": 5,
+    "food": 3,
+    "gold": 5,
+    "science": 8,
+    "culture": 6,
+    "happiness": 6,
+    "faith": 0,
+    "military": 6,
+    "aggressive": 6,
+    "declareWar": 5,
+    "commerce": 6,
+    "diplomacy": 6,
+    "loyal": 5,
+    "expansion": 6,
+    "denounceWillingness": 3,
+    "priorities": {
+      "Expansionism": 1,
+      "Cybernetics": 2
+    }
+  },
+  {
+    "name": "Leroy Jenkins",
+    "production": 6,
+    "food": 5,
+    "gold": 6,
+    "science": 5,
+    "culture": 4,
+    "happiness": 7,
+    "faith": 0,
+    "military": 6,
+    "aggressive": 6,
+    "declareWar": 5,
+    "commerce": 7,
+    "diplomacy": 7,
+    "loyal": 4,
+    "expansion": 6,
+    "denounceWillingness": 8,
+    "priorities": {
+      "Expansionism": 1,
+      "Cybernetics": 2
+    }
+  },
+  {
+    "name": "Sparks Wain",
+    "production": 5,
+    "food": 5,
+    "gold": 3,
+    "science": 6,
+    "culture": 4,
+    "happiness": 5,
+    "faith": 0,
+    "military": 7,
+    "aggressive": 7,
+    "declareWar": 6,
+    "commerce": 5,
+    "diplomacy": 5,
+    "loyal": 4,
+    "expansion": 7,
+    "denounceWillingness": 4,
+    "priorities": {
+      "Expansionism": 2,
+      "Cybernetics": 1
+    }
+  }
+]

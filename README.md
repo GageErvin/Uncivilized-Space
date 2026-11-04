@@ -37,7 +37,7 @@ Add and constrain some moon variants to be actual moons, then reduce probability
 
 Improvement images don't show
 
-Computer opponents struggle to place multiple settlements.  barbarians won't spawn (many current variants) (nor city states tho I haven't tried as much - prly need citystatetypes.json).  allow settlement of all tiles for [AI Player] and use space stations for cities?
+Computer opponents struggle to place multiple settlements.  barbarians won't spawn (many current variants).  allow settlement of all tiles for [AI Player] and use space stations for cities?
 
 Income inadequate for crazy land prices.. Reduce and add buildings.
 Culture from discovery of new tiles -- wonderous decorative tiles (image)

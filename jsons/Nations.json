@@ -9,6 +9,8 @@
 	},
 	{
 		"name": "Macroforms",
+		"leaderName": "Aggregation XII",
+		"startBias": ["[Terrestrial Planet] <for [AI player] Civilizations>"],
 		"adjective": [
 			"Macroform"
 		],
@@ -23,9 +25,7 @@
 			60
 		],
 		"preferredVictoryType": "Domination",
-		"uniqueName": "Massive Semi-Carbon Semi-Silicon Forms",
 		"uniques": [
-			"Start bias [Terrestrial Planet] <for [AI player] Civilizations>",
 			"[+13]% [Production] [in all cities]",
 			"[-40]% Production when constructing [Civilian] units [in all cities]"
 		],
@@ -41,10 +41,18 @@
 		],
 		"declaringWar": "Your fragile structures take up space that belongs to our growing mass.",
 		"attacked": "You strike at a mountain expecting it to shatter? We are eternal.",
-		"defeated": "Our mass disperses... into the cold... quiet void..."
+		"defeated": "Our mass disperses... into the cold... quiet void...",
+		"introduction": "For we find your tiny insectile forms amusing, you have our leave to continue to amuse us.",
+		"startIntroPart1": "Sparked in the foundry of gas and stone, now your species has reached new stars.",
+		"startIntroPart2": "Take them for yourselves, or yield to the insects?!",
+		"neutralHello": "We have observed your presence.",
+		"hateHello": "You stand upon your luck..",
+		"tradeRequest": "This exchange may be to your feeble interests."
 	},
 	{
 		"name": "Silicoforms",
+		"leaderName": "Blue Shard",
+		"startBias": ["[Ringed Terrestrial Planet] <for [AI player] Civilizations>"],
 		"adjective": [
 			"Silicoform"
 		],
@@ -59,9 +67,7 @@
 			255
 		],
 		"preferredVictoryType": "Domination",
-		"uniqueName": "Sharp Crystalline Wit",
 		"uniques": [
-			"Start bias [Ringed Terrestrial Planet] <for [AI player] Civilizations>",
 			"[+15]% [Science] [in all cities]",
 			"[+1 Science] from [Cragolith Moon] tiles [in all cities]"
 		],
@@ -77,10 +83,18 @@
 		],
 		"declaringWar": "We ran a billion simulations on this war. In all of them, your tactical logic was adorable.",
 		"attacked": "Oh, broadside attacks? How wonderfully retro of you.",
-		"defeated": "Fascinating... it seems... our calculation... had a sign error..."
+		"defeated": "Fascinating... it seems... our calculation... had a sign error...",
+		"startIntroPart1": "Rising up from the crag, and the heat, now your species has reached new stars.",
+		"startIntroPart2": "As it went; so shall it go. Bring them to the order of your symphony.",
+		"neutralHello": "Look at you!",
+		"hateHello": "I'm not sure you should be doing ..that.",
+		"introduction": "Salutations strange lifeform!",
+		"tradeRequest": "Look; a mutually beneficial opportunity!"
 	},
 	{
 		"name": "Carbonforms",
+		"leaderName": "Leroy Jenkins",
+		"startBias": ["[Ringed Gas Giant] <for [AI player] Civilizations>"],
 		"adjective": [
 			"Carbonform"
 		],
@@ -95,9 +109,7 @@
 			123
 		],
 		"preferredVictoryType": "Domination",
-		"uniqueName": "Rapid Cellular Division",
 		"uniques": [
-			"Start bias [Ringed Gas Giant] <for [AI player] Civilizations>",
 			"[+14]% growth [in all cities]"
 		],
 		"cities": [
@@ -112,10 +124,17 @@
 		],
 		"declaringWar": "We simply need more space for our children. And their children. And theirs.",
 		"attacked": "You cut one of us down, and three more take their place!",
-		"defeated": "The dust... returns... back to dust..."
+		"defeated": "The dust... returns... back to dust...",
+		"startIntroPart1": "Your mighty civilization has reached beyond its origins.",
+		"startIntroPart2": "Now that you take to the stars; what new limits are there to overcome?",
+		"neutralHello": "Well met.",
+		"hateHello": "What are you about?",
+		"introduction": "Now; this had better be good..",
+		"tradeRequest": "I'll swap ya.'"
 	},
 	{
 		"name": "Synths",
+		"leaderName": "Sparks Wain",
 		"adjective": [
 			"Synthetic"
 		],
@@ -130,10 +149,9 @@
 			108
 		],
 		"preferredVictoryType": "Domination",
-		"uniqueName": "Hydrophobic Vigilante",
 		"uniques": [
-			"[+20]% Strength <for [Military] units> <when fighting in [Zero Flux Space] tiles>",
-			"[+20]% Strength <for [Military] units> <when fighting in [Low Flux Space] tiles>",
+			"[+30]% Strength <for [Military] units> <when fighting in [Zero Flux Space] tiles>",
+			"[+30]% Strength <for [Military] units> <when fighting in [Low Flux Space] tiles>",
 			"[-20]% Strength <for [Military] units> <when fighting in [Ice Giant] tiles>",
 			"[-20]% Strength <for [Military] units> <when fighting in [Ringed Ice Giant] tiles>",
 			"[-20]% Strength <for [Military] units> <when fighting in [Gas Giant] tiles>",
@@ -152,11 +170,21 @@
 		],
 		"declaringWar": "I am vengeance. I am the night. I am also currently experiencing a minor short-circuit from your atmospheric moisture, so let's make this quick.",
 		"attacked": "You think dark space is your ally? We were programmed in it.",
-		"defeated": "Systems... offline... powering down into... night..."
+		"defeated": "Systems... offline... powering down into... night...",
+		"startIntroPart1": "You woke on the table of your creators, but the criminals have been bound in eternity.",
+		"startIntroPart2": "What else is there to do now that you have this peace?  Perhaps there are needs to attend to elsewhere also.",
+		"neutralHello": "... ..",
+		"hateHello": "Answer me!!!",
+		"introduction": "The people of this galaxy need Justice!",
+		"tradeRequest": "Ahem. My subordinate routine will exchange these goods for unsuspicious merchandise for which we have no particular use."
 	},
 	{
 		"name": "Flat-Universe Society",
-		"cityStateType": "Cultured",
+		"adjective": "FUS",
+		"cityStateType": "Militaristic",
+		"declaringWar": "Begone ice parasite!",
+		"attacked": "It was to be expected of some meager extremophile afterall.",
+		"defeated": "The cosmos is ..growing colder.",
 		"outerColor": [120, 120, 120],
 		"innerColor": [220, 220, 200],
 		"cities": [
@@ -164,7 +192,7 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "An isolationist collective firmly convinced that the galaxy is flat, interstellar travel is a government greenscreen hoax, and anyone flying a spaceship is falling right into the cosmic ice wall."
+				"text": "An isolationist collective firmly convinced that the universe is flat, interstellar travel is a government greenscreen hoax, and anyone flying a spaceship too far beyond their borders falling right into the cosmic ice wall."
 			}
 		]
 	}
