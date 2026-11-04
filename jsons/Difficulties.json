@@ -1,34 +1,34 @@
 [
 	{
 		"name": "Steel Rat",
-		"aiBuildingCostPercent": 130,
-		"aiUnitCostPercent": 130,
-		"aiInflationPercent": 150,
+		"aiBuildingCostPercent": 90,
+		"aiUnitCostPercent": 90,
+		"aiInflationPercent": 90,
 		"aiUnhappinessPercent": 75,
 		"playerBonusStartingUnits": [],
-		"barbarianSpawnDelay": 6,
+		"barbarianSpawnDelay": 10,
 		"advancedStartPoints": 30,
         "civilopediaText": [{"text": "A universe of slippery cons, high-tech heists, and minor local friction. You'll survive by your wits and a cheeky grin."}]
 	},
 	{
 		"name": "Ender's Game",
-		"aiBuildingCostPercent": 100,
-		"aiUnitCostPercent": 100,
-		"aiInflationPercent": 100,
-		"aiUnhappinessPercent": 100,
-		"playerBonusStartingUnits": [],
-		"barbarianSpawnDelay": 2,
-		"advancedStartPoints": 0,
-        "civilopediaText": [{"text": "Tactical simulations and military academy pressures. The stakes are global, and the commanders are brilliant children."}]
-	},
-	{
-		"name": "The Last Angel",
 		"aiBuildingCostPercent": 80,
 		"aiUnitCostPercent": 80,
 		"aiInflationPercent": 80,
 		"aiUnhappinessPercent": 80,
 		"playerBonusStartingUnits": [],
-		"barbarianSpawnDelay": 1,
+		"barbarianSpawnDelay": 8,
+		"advancedStartPoints": 0,
+        "civilopediaText": [{"text": "Tactical simulations and military academy pressures. The stakes are global, and the commanders are brilliant children."}]
+	},
+	{
+		"name": "The Last Angel",
+		"aiBuildingCostPercent": 60,
+		"aiUnitCostPercent": 60,
+		"aiInflationPercent": 60,
+		"aiUnhappinessPercent": 60,
+		"playerBonusStartingUnits": [],
+		"barbarianSpawnDelay": 8,
 		"advancedStartPoints": 0,
         "civilopediaText": [{"text": "Vengeful AI warships waking up in a dark empire to settle an ancient, bloody score. The galaxy burned once; it's about to happen again."}]
 	}
