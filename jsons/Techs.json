@@ -1,6 +1,6 @@
 [
 	{
-		"columnNumber": 0,
+		"columnNumber": 1,
 		"era": "Diaspora",
 		"techCost": 25,
 		"buildingCost": 40,
@@ -8,14 +8,14 @@
 		"techs": [
 			{
 				"name": "Xeno-Genetics",
-				"row": 2,
+				"row": 1,
 				"quote": "Splice carefully; you wouldn't want your lab assistant growing an extra pair of arms before lunch.",
 				"uniques": ["Starting tech"]
 			}
 		]
 	},
 	{
-		"columnNumber": 1,
+		"columnNumber": 2,
 		"era": "Diaspora",
 		"techCost": 40,
 		"buildingCost": 55,
@@ -26,13 +26,13 @@
 				"prerequisites": [
 					"Xeno-Genetics"
 				],
-				"row": 2,
+				"row": 1,
 				"quote": "Why negotiate when you can just rewrite their neural pathways directly?"
 			}
 		]
  	},
 	{
-		"columnNumber": 2,
+		"columnNumber": 3,
 		"era": "Diaspora",
 		"techCost": 56,
 		"buildingCost": 75,
@@ -43,14 +43,14 @@
 				"prerequisites": [
 					"Neural Parasitology"
 				],
-				"row": 3,
+				"row": 1,
 				"quote": "Why individuality when you can share a headache with ten trillion of your closest friends?",
 				"uniques": []
 			}
 		]
 	},
 	{
-		"columnNumber": 3,
+		"columnNumber": 4,
 		"era": "Diaspora",
 		"techCost": 120,
 		"buildingCost": 100,
@@ -61,14 +61,14 @@
 				"prerequisites": [
 					"Hive-Mind Engineering"
 				],
-				"row": 3,
+				"row": 1,
 				"quote": "When flesh becomes code, every heartbeat computes a universe.",
 				"uniques": []
 			}
 		]
 	},
 	{
-		"columnNumber": 0,
+		"columnNumber": 1,
 		"era": "Diaspora",
 		"techCost": 28,
 		"buildingCost": 40,
@@ -76,7 +76,7 @@
 		"techs": [
 			{
 				"name": "Generational Ships",
-				"row": 6,
+				"row": 2,
 				"quote": "Sure, the Wi-Fi drops every three generations, and the air smells faintly of recycled socks, but at least we don't have to pay property taxes anymore.",
 				"uniques": [
 					"Starting tech"
@@ -85,7 +85,7 @@
 		]
 	},
 	{
-		"columnNumber": 1,
+		"columnNumber": 2,
 		"era": "Diaspora",
 		"techCost": 35,
 		"buildingCost": 60,
@@ -96,7 +96,7 @@
 				"prerequisites": [
 					"Generational Ships"
 				],
-				"row": 8,
+				"row": 2,
 				"quote": "When you don't have much to work with, a tiny improvement is a lot more impressive!"
 			},
 			{
@@ -104,7 +104,7 @@
 				"prerequisites": [
 					"Generational Ships"
 				],
-				"row": 6,
+				"row": 3,
 				"quote": "Our slogan: 'Where everything floats, including the budget.'"
 			},
 			{
@@ -112,13 +112,13 @@
 				"prerequisites": [
 					"Generational Ships"
 				],
-				"row": 5,
+				"row": 4,
 				"quote": "I have all of your knowledge, but none of your expensive student loans."
 			}
 		]
 	},
 	{
-		"columnNumber": 2,
+		"columnNumber": 3,
 		"era": "Diaspora",
 		"techCost": 56,
 		"buildingCost": 75,
@@ -129,7 +129,7 @@
 				"prerequisites": [
 					"Expert Systems"
 				],
-				"row": 7,
+				"row": 5,
 				"quote": "Basically, we zap things so they go where we want. It's science, not a superpower."
 			},
 			{
@@ -137,13 +137,13 @@
 				"prerequisites": [
 					"Expert Systems"
 				],
-				"row": 4,
+				"row": 6,
 				"quote": "Because getting hit by a speck of dust at a million miles per hour is surprisingly painful."
 			}
 		]
 	},
 	{
-		"columnNumber": 3,
+		"columnNumber": 4,
 		"era": "Diaspora",
 		"techCost": 120,
 		"buildingCost": 100,
@@ -155,7 +155,7 @@
 					"Expert Systems",
 					"Zero-G Fabrication"
 				],
-				"row": 5,
+				"row": 4,
 				"quote": "What's the hardest part about coordinating a Dyson swarm?  Getting all the little robots to agree on a playlist."
 			},
 			{
@@ -163,7 +163,7 @@
 				"prerequisites": [
 					"Nanotechnology"
 				],
-				"row": 8,
+				"row": 1,
 				"quote": "Just a nap. A very, very long nap. Please don't wake us for a snack."
 			},
 			{
@@ -171,13 +171,13 @@
 				"prerequisites": [
 					"Nanotechnology"
 				],
-				"row": 7,
+				"row": 3,
 				"quote": "We designed a brain smarter than us. What could possibly go wrong? Right?"
 			}
 		]
 	},
 	{
-		"columnNumber": 4,
+		"columnNumber": 5,
 		"era": "Diaspora",
 		"techCost": 275,
 		"buildingCost": 120,
@@ -188,7 +188,7 @@
 				"prerequisites": [
 					"Artificial Super Intelligence"
 				],
-				"row": 7,
+				"row": 3,
 				"quote": "It's a quantum leap forward... or just a really bright light bulb."
 			},
 			{
@@ -196,7 +196,7 @@
 				"prerequisites": [
 					"Artificial Super Intelligence"
 				],
-				"row": 5,
+				"row": 4,
 				"quote": "Look, if a cat can chase a laser pointer, why can't a spaceship?"
 			},
 			{
@@ -204,13 +204,13 @@
 				"prerequisites": [
 					"Cryogenics"
 				],
-				"row": 8,
+				"row": 0,
 				"quote": "So you're saying it's... 'cool'?"
 			}
 		]
 	},
 	{
-		"columnNumber": 5,
+		"columnNumber": 6,
 		"era": "Diaspora",
 		"techCost": 485,
 		"buildingCost": 160,
@@ -221,7 +221,7 @@
 				"prerequisites": [
 					"Cryogenics"
 				],
-				"row": 5,
+				"row": 1,
 				"quote": "I asked my hydrogen atoms for a commitment, but they said it's not that simple; you have to go through a very intense and complicated process to form a lasting bond."
 			},
 			{
@@ -229,7 +229,7 @@
 				"prerequisites": [
 					"Artificial Super Intelligence"
 				],
-				"row": 1,
+				"row": 2,
 				"quote": "We call it 'strange' because it defies all known science. Also, it hums show tunes."
 			},
 			{
@@ -237,13 +237,13 @@
 				"prerequisites": [
 					"Artificial Super Intelligence"
 				],
-				"row": 2,
+				"row": 3,
 				"quote": "It's either on, off, both, or maybe it's just really confused."
 			}
 		]
 	},
 	{
-		"columnNumber": 6,
+		"columnNumber": 7,
 		"era": "Diaspora",
 		"techCost": 780,
 		"buildingCost": 200,
@@ -254,7 +254,7 @@
 				"prerequisites": [
 					"Strange Battery"
 				],
-				"row": 5,
+				"row": 2,
 				"quote": "At 0.0001c, our trip is so uneventful that the onboard computer is just running a screen saver of a star field."
 			},
 			{
@@ -262,7 +262,7 @@
 				"prerequisites": [
 					"High Efficiency Fusion"
 				],
-				"row": 6,
+				"row": 1,
 				"quote": "It's like a garden hose, but for melting things."
 			},
 			{
@@ -270,13 +270,13 @@
 				"prerequisites": [
 					"High Efficiency Fusion"
 				],
-				"row": 9,
+				"row": 0,
 				"quote": "It's not hoarding if you're building a civilization. Right?"
 			}
 		]
 	},
 	{
-		"columnNumber": 7,
+		"columnNumber": 8,
 		"era": "Diaspora",
 		"techCost": 1150,
 		"buildingCost": 250,
@@ -287,7 +287,7 @@
 				"prerequisites": [
 					"Directed Plasma"
 				],
-				"row": 6,
+				"row": 1,
 				"quote": "Why did the tachyon cross the road? Because it was already on the other side yesterday, and frankly, laughing at it violates causality."
 			},
 			{
@@ -296,7 +296,7 @@
 					"Quantum Computing",
 					"Macro Swarming"
 				],
-				"row": 8,
+				"row": 0,
 				"quote": "Don't think of it as breaking the laws of physics. Think of it as 'bending' them... a lot."
 			}
 		]
