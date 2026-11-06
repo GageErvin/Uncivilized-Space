@@ -14,7 +14,7 @@
 			},
 			{
 				"name": "Generational Ships",
-				"row": 4,
+				"row": 5,
 				"quote": "Sure, the Wi-Fi drops every three generations, and the air smells faintly of recycled socks, but at least we don't have to pay property taxes anymore.",
 				"uniques": [
 					"Starting tech"
@@ -42,7 +42,7 @@
 				"prerequisites": [
 					"Generational Ships"
 				],
-				"row": 5,
+				"row": 6,
 				"quote": "When you don't have much to work with, a tiny improvement is a lot more impressive!"
 			},
 			{
@@ -50,7 +50,7 @@
 				"prerequisites": [
 					"Generational Ships"
 				],
-				"row": 3,
+				"row": 4,
 				"quote": "Our slogan: 'Where everything floats, including the budget.'"
 			},
 			{
@@ -58,7 +58,7 @@
 				"prerequisites": [
 					"Generational Ships"
 				],
-				"row": 4,
+				"row": 5,
 				"quote": "I have all of your knowledge, but none of your expensive student loans."
 			}
 		]
@@ -119,7 +119,7 @@
 					"Expert Systems",
 					"Zero-G Fabrication"
 				],
-				"row": 4,
+				"row": 5,
 				"quote": "What's the hardest part about coordinating a Dyson swarm?  Getting all the little robots to agree on a playlist."
 			},
 			{
@@ -127,7 +127,7 @@
 				"prerequisites": [
 					"Nanotechnology"
 				],
-				"row": 5,
+				"row": 6,
 				"quote": "Just a nap. A very, very long nap. Please don't wake us for a snack."
 			},
 			{
@@ -135,7 +135,7 @@
 				"prerequisites": [
 					"Nanotechnology"
 				],
-				"row": 6,
+				"row": 7,
 				"quote": "We designed a brain smarter than us. What could possibly go wrong? Right?"
 			}
 		]
@@ -152,7 +152,7 @@
 				"prerequisites": [
 					"Artificial Super Intelligence"
 				],
-				"row": 7,
+				"row": 9,
 				"quote": "It's a quantum leap forward... or just a really bright light bulb."
 			},
 			{
@@ -160,7 +160,7 @@
 				"prerequisites": [
 					"Artificial Super Intelligence"
 				],
-				"row": 6,
+				"row": 8,
 				"quote": "Look, if a cat can chase a laser pointer, why can't a spaceship?"
 			},
 			{
@@ -168,7 +168,7 @@
 				"prerequisites": [
 					"Cryogenics"
 				],
-				"row": 5,
+				"row": 3,
 				"quote": "So you're saying it's... 'cool'?"
 			}
 		]
@@ -193,7 +193,7 @@
 				"prerequisites": [
 					"Artificial Super Intelligence"
 				],
-				"row": 10,
+				"row": 8,
 				"quote": "We call it 'strange' because it defies all known science. Also, it hums show tunes."
 			},
 			{
@@ -201,7 +201,7 @@
 				"prerequisites": [
 					"Artificial Super Intelligence"
 				],
-				"row": 9,
+				"row": 7,
 				"quote": "It's either on, off, both, or maybe it's just really confused."
 			}
 		]
@@ -218,7 +218,7 @@
 				"prerequisites": [
 					"Strange Battery"
 				],
-				"row": 10,
+				"row": 8,
 				"quote": "At 0.0001c, our trip is so uneventful that the onboard computer is just running a screen saver of a star field."
 			},
 			{
@@ -260,7 +260,7 @@
 					"Quantum Computing",
 					"Macro Swarming"
 				],
-				"row": 7,
+				"row": 6,
 				"quote": "Don't think of it as breaking the laws of physics. Think of it as 'bending' them... a lot."
 			}
 		]
