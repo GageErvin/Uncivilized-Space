@@ -52,7 +52,7 @@
     },
     {
         "name": "Incubation Settler",
-        "unitType": "Settler",
+        "unitType": "Civilian",
         "cost": 100,
         "movement": 5,
         "requiredTech": "Artificial Super Intelligence",
