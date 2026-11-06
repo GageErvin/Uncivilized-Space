@@ -38,7 +38,6 @@
             "Ignores terrain cost <hidden from users>",
             "Eliminates combat penalty for attacking over a river <hidden from users>",
             "Eliminates combat penalty for attacking across a coast <hidden from users>",
-            "May heal outside of friendly territory",
             "Gain [2] [Culture]"
         ]
     },
@@ -75,7 +74,6 @@
             "Ignores terrain cost <hidden from users>",
             "Eliminates combat penalty for attacking over a river <hidden from users>",
             "Eliminates combat penalty for attacking across a coast <hidden from users>",
-            "May heal outside of friendly territory",
             "Cannot attack",
             "Gain [2] [Culture]"
         ]
