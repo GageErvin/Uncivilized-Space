@@ -94,7 +94,7 @@
 		"prerequisites": [],
 		"uniques": [
 			"[+20]% Strength <when attacking>",
-			"Heals [5] additional HP when healing"
+			"No damage penalty for wounded units"
 		],
 		"civilopediaText": [
 			{
