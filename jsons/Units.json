@@ -439,7 +439,8 @@
             "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
             "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
             "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
-            "[+1] Movement <in [Magnetic Acceleration Relay] tiles>"
+            "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+            "[10] HP when healing"
         ],
         "civilopediaText": [
             {
@@ -451,8 +452,8 @@
         "name": "Symbiote Stalker",
         "unitType": "Bio-Unit",
         "strength": 12,
-        "rangedStrength": 14,
-        "range": 2,
+        "rangedStrength": 12,
+        "range": 1,
         "movement": 3,
         "cost": 180,
         "requiredTech": "Neural Parasitology",
@@ -462,7 +463,7 @@
             "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
             "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-            "Heals [10] additional HP when healing"
+            "[20] HP when healing"
         ],
         "civilopediaText": [
             {
@@ -475,7 +476,7 @@
         "unitType": "Bio-Unit",
         "strength": 22,
         "rangedStrength": 22,
-        "range": 3,
+        "range": 2,
         "movement": 3,
         "cost": 420,
         "requiredTech": "Hive-Mind Engineering",
@@ -490,7 +491,8 @@
             "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
             "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-            "[+2] Sight"
+            "[+2] Sight",
+            "[30] HP when healing"
         ],
         "civilopediaText": [
             {
@@ -503,7 +505,7 @@
         "unitType": "Bio-Unit",
         "strength": 28,
         "rangedStrength": 28,
-        "range": 3,
+        "range": 2,
         "movement": 3,
         "cost": 580,
         "requiredTech": "Bio-Singularity",
@@ -518,7 +520,7 @@
             "[-2] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+3] Sight",
-            "Heals [15] additional HP when healing"
+            "[40] HP when healing"
         ],
         "civilopediaText": [
             {
