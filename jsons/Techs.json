@@ -1,8 +1,8 @@
 [
 	{
-		"columnNumber": 2,
+		"columnNumber": 1,
 		"era": "Diaspora",
-		"techCost": 25,
+		"techCost": 28,
 		"buildingCost": 40,
 		"wonderCost": 185,
 		"techs": [
@@ -11,69 +11,7 @@
 				"row": 1,
 				"quote": "Splice carefully; you wouldn't want your lab assistant growing an extra pair of arms before lunch.",
 				"uniques": ["Starting tech"]
-			}
-		]
-	},
-	{
-		"columnNumber": 3,
-		"era": "Diaspora",
-		"techCost": 40,
-		"buildingCost": 55,
-		"wonderCost": 185,
-		"techs": [
-			{
-				"name": "Neural Parasitology",
-				"prerequisites": [
-					"Xeno-Genetics"
-				],
-				"row": 1,
-				"quote": "Why negotiate when you can just rewrite their neural pathways directly?"
-			}
-		]
- 	},
-	{
-		"columnNumber": 4,
-		"era": "Diaspora",
-		"techCost": 56,
-		"buildingCost": 75,
-		"wonderCost": 185,
-		"techs": [
-			{
-				"name": "Hive-Mind Engineering",
-				"prerequisites": [
-					"Neural Parasitology"
-				],
-				"row": 1,
-				"quote": "Why individuality when you can share a headache with ten trillion of your closest friends?",
-				"uniques": []
-			}
-		]
-	},
-	{
-		"columnNumber": 5,
-		"era": "Diaspora",
-		"techCost": 120,
-		"buildingCost": 100,
-		"wonderCost": 250,
-		"techs": [
-			{
-				"name": "Bio-Singularity",
-				"prerequisites": [
-					"Hive-Mind Engineering"
-				],
-				"row": 1,
-				"quote": "When flesh becomes code, every heartbeat computes a universe.",
-				"uniques": []
-			}
-		]
-	},
-	{
-		"columnNumber": 1,
-		"era": "Diaspora",
-		"techCost": 28,
-		"buildingCost": 40,
-		"wonderCost": 185,
-		"techs": [
+			},
 			{
 				"name": "Generational Ships",
 				"row": 4,
@@ -91,6 +29,14 @@
 		"buildingCost": 60,
 		"wonderCost": 185,
 		"techs": [
+			{
+				"name": "Neural Parasitology",
+				"prerequisites": [
+					"Xeno-Genetics"
+				],
+				"row": 1,
+				"quote": "Why negotiate when you can just rewrite their neural pathways directly?"
+			},
 			{
 				"name": "Nanotechnology",
 				"prerequisites": [
@@ -125,6 +71,15 @@
 		"wonderCost": 185,
 		"techs": [
 			{
+				"name": "Hive-Mind Engineering",
+				"prerequisites": [
+					"Neural Parasitology"
+				],
+				"row": 1,
+				"quote": "Why individuality when you can share a headache with ten trillion of your closest friends?",
+				"uniques": []
+			},
+			{
 				"name": "Pre-Tracting Ionization",
 				"prerequisites": [
 					"Expert Systems"
@@ -149,6 +104,15 @@
 		"buildingCost": 100,
 		"wonderCost": 250,
 		"techs": [
+			{
+				"name": "Bio-Singularity",
+				"prerequisites": [
+					"Hive-Mind Engineering"
+				],
+				"row": 1,
+				"quote": "When flesh becomes code, every heartbeat computes a universe.",
+				"uniques": []
+			},
 			{
 				"name": "Orbital Swarming",
 				"prerequisites": [
