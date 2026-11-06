@@ -6,7 +6,7 @@
             "Macroforms",
             "Synths"
         ],
-        "uniques": [],
+        "uniques": ["Only available <after discovering [Nanotechnology]>"],
         "policies": [
             {
                 "name": "Orbital Homesteading",
@@ -50,8 +50,7 @@
                 ], "requires": ["Starlight Frontier", "Resource Surveying"],
                 "row": 3, "column": 2
             }
-        ],
-        "requires": "Nanotechnology"
+        ]
     },
     {
         "name": "Cybernetics",
@@ -60,7 +59,7 @@
             "Silicoforms",
             "Carbonforms"
         ],
-        "uniques": [],
+        "uniques": ["Only available <after discovering [Xeno-Genetics]>"],
         "policies": [
             {
                 "name": "Algorithmic Efficiency",
@@ -98,8 +97,7 @@
                 ], "requires": ["Automated Refineries", "Quantum Logic Networks"],
                 "row": 3, "column": 2
             }
-        ],
-        "requires": "Xeno-Genetics"
+        ]
     },
     {
         "name": "Technocracy",
@@ -108,7 +106,7 @@
             "Silicoforms",
             "Synths"
         ],
-        "uniques": [],
+        "uniques": ["Only available <after discovering [Expert Systems]>"],
         "policies": [
             {
                 "name": "Data Integration",
@@ -146,8 +144,7 @@
                 ], "requires": ["Synthetic Synthesis", "Singularity Grid"],
                 "row": 3, "column": 2
             }
-        ],
-        "requires": "Expert Systems"
+        ]
     },
     {
         "name": "Bio-Ascendancy",
@@ -155,7 +152,7 @@
         "prioritizingCivs": [
             "Carbonforms"
         ],
-        "uniques": [],
+        "uniques": ["Only available <after discovering [Xeno-Genetics]>"],
         "policies": [
             {
                 "name": "Chimeric Adaptation",
@@ -193,7 +190,6 @@
                 ], "requires": ["Rapid Gestation", "Neural Webbing"],
                 "row": 3, "column": 2
             }
-        ],
-        "requires": "Xeno-Genetics"
+        ]
     }
 ]
