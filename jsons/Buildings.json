@@ -93,7 +93,7 @@
 		"science": 2,
 		"cost": 120,
 		"requiredTech": "Nanotechnology",
-		"uniques": ["[+10]% Science [in this city]"]
+		"uniques": ["[+18]% [Science] [in this city]"]
 	},
 	{
 		"name": "Nanotech Mint",
@@ -101,7 +101,7 @@
 		"cost": 120,
 		"requiredTech": "Nanotechnology",
 		"uniques": [
-			"[+10]% Gold [in this city]"
+			"[+18]% [Gold] [in this city]"
 		]
 	},
 	{
