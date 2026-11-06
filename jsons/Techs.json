@@ -50,7 +50,7 @@
 				"prerequisites": [
 					"Generational Ships"
 				],
-				"row": 4,
+				"row": 2,
 				"quote": "Our slogan: 'Where everything floats, including the budget.'"
 			},
 			{
@@ -84,7 +84,7 @@
 				"prerequisites": [
 					"Expert Systems"
 				],
-				"row": 3,
+				"row": 4,
 				"quote": "Basically, we zap things so they go where we want. It's science, not a superpower."
 			},
 			{
@@ -92,7 +92,7 @@
 				"prerequisites": [
 					"Expert Systems"
 				],
-				"row": 2,
+				"row": 3,
 				"quote": "Because getting hit by a speck of dust at a million miles per hour is surprisingly painful."
 			}
 		]
@@ -119,7 +119,7 @@
 					"Expert Systems",
 					"Zero-G Fabrication"
 				],
-				"row": 5,
+				"row": 2,
 				"quote": "What's the hardest part about coordinating a Dyson swarm?  Getting all the little robots to agree on a playlist."
 			},
 			{
@@ -193,7 +193,7 @@
 				"prerequisites": [
 					"Artificial Super Intelligence"
 				],
-				"row": 8,
+				"row": 7,
 				"quote": "We call it 'strange' because it defies all known science. Also, it hums show tunes."
 			},
 			{
@@ -201,7 +201,7 @@
 				"prerequisites": [
 					"Artificial Super Intelligence"
 				],
-				"row": 7,
+				"row": 6,
 				"quote": "It's either on, off, both, or maybe it's just really confused."
 			}
 		]
