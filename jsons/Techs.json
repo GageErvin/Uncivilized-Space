@@ -1,6 +1,6 @@
 [
 	{
-		"columnNumber": 1,
+		"columnNumber": 2,
 		"era": "Diaspora",
 		"techCost": 25,
 		"buildingCost": 40,
@@ -15,7 +15,7 @@
 		]
 	},
 	{
-		"columnNumber": 2,
+		"columnNumber": 3,
 		"era": "Diaspora",
 		"techCost": 40,
 		"buildingCost": 55,
@@ -32,7 +32,7 @@
 		]
  	},
 	{
-		"columnNumber": 3,
+		"columnNumber": 4,
 		"era": "Diaspora",
 		"techCost": 56,
 		"buildingCost": 75,
@@ -50,7 +50,7 @@
 		]
 	},
 	{
-		"columnNumber": 4,
+		"columnNumber": 5,
 		"era": "Diaspora",
 		"techCost": 120,
 		"buildingCost": 100,
@@ -76,7 +76,7 @@
 		"techs": [
 			{
 				"name": "Generational Ships",
-				"row": 2,
+				"row": 4,
 				"quote": "Sure, the Wi-Fi drops every three generations, and the air smells faintly of recycled socks, but at least we don't have to pay property taxes anymore.",
 				"uniques": [
 					"Starting tech"
@@ -96,7 +96,7 @@
 				"prerequisites": [
 					"Generational Ships"
 				],
-				"row": 2,
+				"row": 5,
 				"quote": "When you don't have much to work with, a tiny improvement is a lot more impressive!"
 			},
 			{
@@ -129,7 +129,7 @@
 				"prerequisites": [
 					"Expert Systems"
 				],
-				"row": 5,
+				"row": 3,
 				"quote": "Basically, we zap things so they go where we want. It's science, not a superpower."
 			},
 			{
@@ -137,7 +137,7 @@
 				"prerequisites": [
 					"Expert Systems"
 				],
-				"row": 6,
+				"row": 2,
 				"quote": "Because getting hit by a speck of dust at a million miles per hour is surprisingly painful."
 			}
 		]
@@ -163,7 +163,7 @@
 				"prerequisites": [
 					"Nanotechnology"
 				],
-				"row": 1,
+				"row": 5,
 				"quote": "Just a nap. A very, very long nap. Please don't wake us for a snack."
 			},
 			{
@@ -171,7 +171,7 @@
 				"prerequisites": [
 					"Nanotechnology"
 				],
-				"row": 3,
+				"row": 6,
 				"quote": "We designed a brain smarter than us. What could possibly go wrong? Right?"
 			}
 		]
@@ -188,7 +188,7 @@
 				"prerequisites": [
 					"Artificial Super Intelligence"
 				],
-				"row": 3,
+				"row": 7,
 				"quote": "It's a quantum leap forward... or just a really bright light bulb."
 			},
 			{
@@ -196,7 +196,7 @@
 				"prerequisites": [
 					"Artificial Super Intelligence"
 				],
-				"row": 4,
+				"row": 6,
 				"quote": "Look, if a cat can chase a laser pointer, why can't a spaceship?"
 			},
 			{
@@ -204,7 +204,7 @@
 				"prerequisites": [
 					"Cryogenics"
 				],
-				"row": 0,
+				"row": 5,
 				"quote": "So you're saying it's... 'cool'?"
 			}
 		]
@@ -221,7 +221,7 @@
 				"prerequisites": [
 					"Cryogenics"
 				],
-				"row": 1,
+				"row": 4,
 				"quote": "I asked my hydrogen atoms for a commitment, but they said it's not that simple; you have to go through a very intense and complicated process to form a lasting bond."
 			},
 			{
@@ -229,7 +229,7 @@
 				"prerequisites": [
 					"Artificial Super Intelligence"
 				],
-				"row": 2,
+				"row": 10,
 				"quote": "We call it 'strange' because it defies all known science. Also, it hums show tunes."
 			},
 			{
@@ -237,7 +237,7 @@
 				"prerequisites": [
 					"Artificial Super Intelligence"
 				],
-				"row": 3,
+				"row": 9,
 				"quote": "It's either on, off, both, or maybe it's just really confused."
 			}
 		]
@@ -254,7 +254,7 @@
 				"prerequisites": [
 					"Strange Battery"
 				],
-				"row": 2,
+				"row": 10,
 				"quote": "At 0.0001c, our trip is so uneventful that the onboard computer is just running a screen saver of a star field."
 			},
 			{
@@ -262,7 +262,7 @@
 				"prerequisites": [
 					"High Efficiency Fusion"
 				],
-				"row": 1,
+				"row": 3,
 				"quote": "It's like a garden hose, but for melting things."
 			},
 			{
@@ -270,7 +270,7 @@
 				"prerequisites": [
 					"High Efficiency Fusion"
 				],
-				"row": 0,
+				"row": 5,
 				"quote": "It's not hoarding if you're building a civilization. Right?"
 			}
 		]
@@ -287,7 +287,7 @@
 				"prerequisites": [
 					"Directed Plasma"
 				],
-				"row": 1,
+				"row": 3,
 				"quote": "Why did the tachyon cross the road? Because it was already on the other side yesterday, and frankly, laughing at it violates causality."
 			},
 			{
@@ -296,7 +296,7 @@
 					"Quantum Computing",
 					"Macro Swarming"
 				],
-				"row": 0,
+				"row": 7,
 				"quote": "Don't think of it as breaking the laws of physics. Think of it as 'bending' them... a lot."
 			}
 		]
