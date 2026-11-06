@@ -4,13 +4,9 @@
         "movementType": "Land",
         "uniques": [
             "Ignores terrain cost <hidden from users>",
-            "May travel on Water tiles without embarking <hidden from users>"
+            "May travel on Water tiles without embarking <hidden from users>",
+            "Gain [3] [Culture]"
         ]
-    },
-    {
-        "name": "Settler",
-        "movementType": "Land",
-        "uniques": []
     },
     {
         "name": "Scout",
@@ -19,7 +15,8 @@
             "May travel on Water tiles without embarking <hidden from users>",
             "Ignores terrain cost <hidden from users>",
             "Eliminates combat penalty for attacking over a river <hidden from users>",
-            "Eliminates combat penalty for attacking across a coast <hidden from users>"
+            "Eliminates combat penalty for attacking across a coast <hidden from users>",
+            "Gain [2] [Culture]"
         ]
     },
     {
@@ -29,7 +26,8 @@
             "May travel on Water tiles without embarking <hidden from users>",
             "Ignores terrain cost <hidden from users>",
             "Eliminates combat penalty for attacking over a river <hidden from users>",
-            "Eliminates combat penalty for attacking across a coast <hidden from users>"
+            "Eliminates combat penalty for attacking across a coast <hidden from users>",
+            "Gain [1] [Culture]"
         ]
     },
     {
@@ -40,7 +38,8 @@
             "Ignores terrain cost <hidden from users>",
             "Eliminates combat penalty for attacking over a river <hidden from users>",
             "Eliminates combat penalty for attacking across a coast <hidden from users>",
-            "May heal outside of friendly territory"
+            "May heal outside of friendly territory",
+            "Gain [2] [Culture]"
         ]
     },
     {
@@ -77,7 +76,20 @@
             "Eliminates combat penalty for attacking over a river <hidden from users>",
             "Eliminates combat penalty for attacking across a coast <hidden from users>",
             "May heal outside of friendly territory",
-            "Cannot attack"
+            "Cannot attack",
+            "Gain [2] [Culture]"
+        ]
+    },
+    {
+        "name": "Bio-Unit",
+        "movementType": "Land",
+        "uniques": [
+            "May travel on Water tiles without embarking <hidden from users>",
+            "Ignores terrain cost <hidden from users>",
+            "Eliminates combat penalty for attacking over a river <hidden from users>",
+            "Eliminates combat penalty for attacking across a coast <hidden from users>",
+            "May heal outside of friendly territory",
+            "Gain [3] [Culture]"
         ]
     }
 ]

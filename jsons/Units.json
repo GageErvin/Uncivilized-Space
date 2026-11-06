@@ -11,7 +11,7 @@
     },
     {
         "name": "Generational Settler",
-        "unitType": "Settler",
+        "unitType": "Civilian",
         "cost": 200,
         "movement": 2,
         "uniques": [
@@ -25,8 +25,7 @@
             "Founds a new city <by consuming this unit> <in [Ice Giant] tiles>",
             "Founds a new city <by consuming this unit> <in [Ringed Ice Giant] tiles>",
             "Founds a new city <by consuming this unit> <in [Cryolith Moon] tiles>",
-            "Founds a new city <by consuming this unit> <in [Cragolith Moon] tiles>",
-            "May travel on Water tiles without embarking <hidden from users>"
+            "Founds a new city <by consuming this unit> <in [Cragolith Moon] tiles>"
         ],
         "obsoleteWith": "Cryogenics"
     },
@@ -48,8 +47,7 @@
             "Founds a new city <by consuming this unit> <in [Ice Giant] tiles>",
             "Founds a new city <by consuming this unit> <in [Ringed Ice Giant] tiles>",
             "Founds a new city <by consuming this unit> <in [Cryolith Moon] tiles>",
-            "Founds a new city <by consuming this unit> <in [Cragolith Moon] tiles>",
-            "May travel on Water tiles without embarking <hidden from users>"
+            "Founds a new city <by consuming this unit> <in [Cragolith Moon] tiles>"
         ]
     },
     {
@@ -70,14 +68,13 @@
             "Founds a new city <by consuming this unit> <in [Ice Giant] tiles>",
             "Founds a new city <by consuming this unit> <in [Ringed Ice Giant] tiles>",
             "Founds a new city <by consuming this unit> <in [Cryolith Moon] tiles>",
-            "Founds a new city <by consuming this unit> <in [Cragolith Moon] tiles>",
-            "May travel on Water tiles without embarking <hidden from users>"
+            "Founds a new city <by consuming this unit> <in [Cragolith Moon] tiles>"
         ]
     },
     {
         "name": "Astraforming Swarm",
         "unitType": "Civilian",
-        "cost": 30,
+        "cost": 60,
         "movement": 4,
         "uniques": [
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
@@ -139,6 +136,7 @@
             "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
             "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+            "[+25]% Strength <vs [Laser Drone] units>",
             "[1] additional attacks per turn"
         ]
     },
@@ -265,7 +263,6 @@
         "requiredTech": "Expert Systems",
         "obsoleteWith": "Micro Particulate Shielding",
         "uniques": [
-            //"Can transform to [Munition I - Missile] <when adjacent to a [Sub] unit>",
             "Blast radius [1]"
         ]
     },
@@ -290,7 +287,6 @@
         "requiredTech": "Micro Particulate Shielding",
         "obsoleteWith": "Laser Propulsion",
         "uniques": [
-            //"Can transform to [Munition II - Shielded Missile] <when adjacent to a [Sub] unit>",
             "Blast radius [1]"
         ]
     },
@@ -314,7 +310,6 @@
         "cost": 50,
         "requiredTech": "Laser Propulsion",
         "uniques": [
-            //"Can transform to [Munition III - Laser Propelled Missile] <when adjacent to a [Sub] unit>",
             "Blast radius [2]"
         ]
     },
@@ -429,6 +424,106 @@
             "Ranged attacks may be performed over obstacles <hidden from users>",
             "[1] additional attacks per turn",
             "No damage penalty for wounded units"
+        ]
+    },
+    {
+        "name": "Spore Swarm",
+        "unitType": "Bio-Unit",
+        "strength": 7,
+        "movement": 3,
+        "cost": 60,
+        "requiredTech": "Xeno-Genetics",
+        "upgradesTo": "Symbiote Stalker",
+        "obsoleteWith": "Neural Parasitology",
+        "uniques": [
+            "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
+            "[+1] Movement <in [Magnetic Acceleration Relay] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Engineered microbial clouds capable of consuming unshielded hull plating and clogging enemy heat exchangers."
+            }
+        ]
+    },
+    {
+        "name": "Symbiote Stalker",
+        "unitType": "Bio-Unit",
+        "strength": 12,
+        "rangedStrength": 14,
+        "range": 2,
+        "movement": 3,
+        "cost": 180,
+        "requiredTech": "Neural Parasitology",
+        "upgradesTo": "Apex Bio-Titan",
+        "uniques": [
+            "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
+            "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+            "Heals [10] additional HP when healing"
+        ],
+        "civilopediaText": [
+            {
+                "text": "A chimeric organism fused directly with neural interface strands, tracking targets through shared sensory ganglia."
+            }
+        ]
+    },
+    {
+        "name": "Apex Bio-Titan",
+        "unitType": "Bio-Unit",
+        "strength": 22,
+        "rangedStrength": 22,
+        "range": 3,
+        "movement": 3,
+        "cost": 420,
+        "requiredTech": "Hive-Mind Engineering",
+        "requiredResource": "Uranium",
+        "requiredResourceCost": 1,
+        "upgradesTo": "Bio-Dreadnaught",
+        "uniques": [
+            "[-2] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
+            "[-2] Sight <in [High Flux Space] tiles> <hidden from users>",
+            "[-2] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
+            "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+            "[+2] Sight"
+        ],
+        "civilopediaText": [
+            {
+                "text": "A colossal engineered leviathan capable of surviving hard vacuum conditions via thick chitinous plating and internal fusion-bioreactors."
+            }
+        ]
+    },
+    {
+        "name": "Bio-Dreadnaught",
+        "unitType": "Bio-Unit",
+        "strength": 28,
+        "rangedStrength": 28,
+        "range": 3,
+        "movement": 3,
+        "cost": 580,
+        "requiredTech": "Bio-Singularity",
+        "requiredResource": "Antimatter",
+        "requiredResourceCost": 1,
+        "uniques": [
+            "[-3] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
+            "[-3] Sight <in [High Flux Space] tiles> <hidden from users>",
+            "[-3] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
+            "[-2] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+            "[-2] Movement <in [High Flux Space] tiles> <hidden from users>",
+            "[-2] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
+            "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+            "[+3] Sight",
+            "Heals [15] additional HP when healing"
+        ],
+        "civilopediaText": [
+            {
+                "text": "A supreme organic dreadnaught grown in zero-flux nurseries, housing localized singularity cores within its visceral chambers."
+            }
         ]
     }
 ]

@@ -70,7 +70,7 @@
   },
   {
     "name": "Magnetic Acceleration Relay",
-    "turnsToBuild": 2,
+    "turnsToBuild": 4,
     "uniques": [
       "Can be built outside your borders",
       "Costs [1] [Gold] per turn"
@@ -89,7 +89,7 @@
   },
   {
     "name": "0-G Lab",
-    "turnsToBuild": 4,
+    "turnsToBuild": 8,
     "uniques": [],
     "science": 2,
     "terrainsCanBeBuiltOn": [
@@ -101,7 +101,7 @@
   {
     "name": "Orbital Ship Yard",
     "production": 3,
-    "turnsToBuild": 7,
+    "turnsToBuild": 14,
     "uniques": [],
     "techRequired": "Zero-G Fabrication",
     "terrainsCanBeBuiltOn": [
@@ -126,7 +126,7 @@
     "name": "Particulate Collection Array",
     "production": 1,
     "gold": 1,
-    "turnsToBuild": 2,
+    "turnsToBuild": 4,
     "techRequired": "Pre-Tracting Ionization",
     "terrainsCanBeBuiltOn": [
       "Moderate Flux Space",
@@ -140,7 +140,7 @@
   },
   {
     "name": "Deep Space Radar Array Woumb",
-    "turnsToBuild": 6,
+    "turnsToBuild": 12,
     "RGB": [24, 29, 24],
     "uniques": [
       "Free [Deep Space Radar Array] appears"

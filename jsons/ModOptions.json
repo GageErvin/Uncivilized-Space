@@ -1,5 +1,6 @@
 {
     "tileset": "UncivilizedSpace",
+    "unitset": "UncivilizedSpace",
     "name": "Uncivilized-Space",
     "isBaseRuleset": true,
     "modUrl": "https://github.com/GageWilliamErvin/Uncivilized-Space",

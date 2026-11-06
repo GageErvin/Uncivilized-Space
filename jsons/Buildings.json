@@ -13,6 +13,54 @@
 		]
 	},
 	{
+		"name": "Bio-Synthesizer Lab",
+		"science": 2,
+		"food": 2,
+		"cost": 80,
+		"requiredTech": "Xeno-Genetics",
+		"civilopediaText": [
+			{
+				"text": "A specialized laboratory utilizing bio technology to splice organic strains and boost research efficiency."
+			}
+		]
+	},
+	{
+		"name": "Cloning Hatchery",
+		"food": 4,
+		"happiness": -1,
+		"cost": 150,
+		"requiredBuilding": "Bio-Synthesizer Lab",
+		"requiredTech": "Neural Parasitology"
+	},
+	{
+		"name": "Bio-Forge Complex",
+		"science": 3,
+		"food": 3,
+		"production": 2,
+		"cost": 210,
+		"requiredBuilding": "Cloning Hatchery",
+		"requiredTech": "Hive-Mind Engineering",
+		"civilopediaText": [
+			{
+				"text": "Industrial-scale bio-factories that synthesize structural chitin and organic machinery directly from nutrient slurry."
+			}
+		]
+	},
+	{
+		"name": "Living Cradle Spire",
+		"science": 4,
+		"food": 4,
+		"happiness": 2,
+		"cost": 350,
+		"requiredBuilding": "Bio-Forge Complex",
+		"requiredTech": "Bio-Singularity",
+		"civilopediaText": [
+			{
+				"text": "A sentient planetary spire acting as the central nervous node for an entire organic civilization."
+			}
+		]
+	},
+	{
 		"name": "Expert Research System",
 		"science": 2,
 		"production": -1,
@@ -39,6 +87,22 @@
 		"production": 1,
 		"cost": 60,
 		"requiredTech": "Orbital Swarming"
+	},
+	{
+		"name": "Nanotech Data Node",
+		"science": 2,
+		"cost": 120,
+		"requiredTech": "Nanotechnology",
+		"uniques": ["[+10]% Science [in this city]"]
+	},
+	{
+		"name": "Nanotech Mint",
+		"gold": 2,
+		"cost": 120,
+		"requiredTech": "Nanotechnology",
+		"uniques": [
+			"[+10]% Gold [in this city]"
+		]
 	},
 	{
 		"name": "Climate Control",

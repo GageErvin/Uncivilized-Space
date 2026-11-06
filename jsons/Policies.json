@@ -50,7 +50,8 @@
                 ], "requires": ["Starlight Frontier", "Resource Surveying"],
                 "row": 3, "column": 2
             }
-        ]
+        ],
+        "requires": "Nanotechnology"
     },
     {
         "name": "Cybernetics",
@@ -97,6 +98,102 @@
                 ], "requires": ["Automated Refineries", "Quantum Logic Networks"],
                 "row": 3, "column": 2
             }
-        ]
+        ],
+        "requires": "Xeno-Genetics"
+    },
+    {
+        "name": "Technocracy",
+        "era": "Diaspora",
+        "prioritizingCivs": [
+            "Silicoforms",
+            "Synths"
+        ],
+        "uniques": [],
+        "policies": [
+            {
+                "name": "Data Integration",
+                "uniques": [
+                    "[+2 Science] from all [Expert Research System] buildings"
+                ],
+                "row": 1, "column": 1
+            },
+            {
+                "name": "Automated Logistics",
+                "uniques": [
+                    "[+15]% [Science] [in all cities]"
+                ],
+                "row": 1, "column": 3
+            },
+            {
+                "name": "Synthetic Synthesis",
+                "uniques": [
+                    "[+2 Production] from all [Photon Computing] buildings"
+                ], "requires": ["Data Integration"],
+                "row": 2, "column": 1
+            },
+            {
+                "name": "Singularity Grid",
+                "uniques": [
+                    "[+3 Science] from all [Quantum Computing] buildings"
+                ], "requires": ["Automated Logistics"],
+                "row": 2, "column": 3
+            },
+            {
+                "name": "Technocracy Complete",
+                "uniques": [
+                    "Free Technology",
+                    "[+10]% [Science] [in all cities]"
+                ], "requires": ["Synthetic Synthesis", "Singularity Grid"],
+                "row": 3, "column": 2
+            }
+        ],
+        "requires": "Expert Systems"
+    },
+    {
+        "name": "Bio-Ascendancy",
+        "era": "Diaspora",
+        "prioritizingCivs": [
+            "Carbonforms"
+        ],
+        "uniques": [],
+        "policies": [
+            {
+                "name": "Chimeric Adaptation",
+                "uniques": [
+                    "[+2 Food] from all [Bio-Synthesizer Lab] buildings"
+                ],
+                "row": 1, "column": 1
+            },
+            {
+                "name": "Hive Symbiosis",
+                "uniques": [
+                    "[+1 Happiness] from every [Cloning Hatchery]"
+                ],
+                "row": 1, "column": 3
+            },
+            {
+                "name": "Rapid Gestation",
+                "uniques": [
+                    "[+15]% growth [in all cities]"
+                ], "requires": ["Chimeric Adaptation"],
+                "row": 2, "column": 1
+            },
+            {
+                "name": "Neural Webbing",
+                "uniques": [
+                    "[+2 Culture] from all [Bio-Synthesizer Lab] buildings"
+                ], "requires": ["Hive Symbiosis"],
+                "row": 2, "column": 3
+            },
+            {
+                "name": "Bio-Ascendancy Complete",
+                "uniques": [
+                    "[-50]% Unhappiness from [Population] [in all cities]",
+                    "Free Technology"
+                ], "requires": ["Rapid Gestation", "Neural Webbing"],
+                "row": 3, "column": 2
+            }
+        ],
+        "requires": "Xeno-Genetics"
     }
 ]

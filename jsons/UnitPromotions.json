@@ -88,5 +88,33 @@
 				"text": "After surviving three near-death experiences, a hull breach, and a bitter mutiny over breakroom coffee blend preferences, the crew finally achieved peak corporate synergy."
 			}
 		], "unitTypes": ["Military", "Sub"]
+	},
+	{
+		"name": "Symbiotic Neural Link",
+		"prerequisites": [],
+		"uniques": [
+			"[+20]% Strength <when attacking>",
+			"Heals [5] additional HP when healing"
+		],
+		"civilopediaText": [
+			{
+				"text": "Direct neural feedback loops link the organism's nervous system directly to the hive cluster, maximizing aggressive output and cellular repair rates."
+			}
+		], 
+		"unitTypes": ["Bio-Unit"]
+	},
+	{
+		"name": "Vascular Overclock",
+		"prerequisites": ["Symbiotic Neural Link"],
+		"uniques": [
+			"[+1] Movement",
+			"[+10]% Strength <when fighting in [Zero Flux Space] tiles>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Pressurizing the internal vascular chambers allows the organism to sprint across zero-flux vacuums with astonishing velocity."
+			}
+		], 
+		"unitTypes": ["Bio-Unit"]
 	}
 ]
