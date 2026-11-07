@@ -164,7 +164,7 @@
 		"requiredTech": "Quantum Computing",
 		"requiredBuilding": "Photon Computing",
 		"uniques": [
-			"Provides [1] [Exotic Optomaterial] per turn",
+			"[1] [Exotic Optomaterial]",
 			"[+10]% [Production] when constructing [Sub] and [Military] units <in this city>"
 		],
 		"civilopediaText": [
