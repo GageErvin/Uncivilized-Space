@@ -148,7 +148,7 @@
 		"requiredBuilding": "Orbital Launcher",
 		"uniques": [
 			"Can carry [1] extra [Munition] units",
-			"[-15]% maintenance cost <for [Munition] units> <in this city>"
+			"[-15]% maintenance costs <for [Munition] units> <in this city>"
 		],
 		"civilopediaText": [
 			{
