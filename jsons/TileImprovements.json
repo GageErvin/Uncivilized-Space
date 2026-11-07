@@ -163,12 +163,12 @@
   {
     "name": "Flux Resonance Array",
     "turnsToBuild": 6,
+    "science": 2,
     "requiredTech": "High Efficiency Fusion",
     "terrainsCanBeBuiltOn": ["High Flux Space", "Extreme Flux Space"],
     "uniques": [
-      "[+2] [Science] from this tile",
-      "[+1] [Production] for each adjacent [High Flux Space] tile",
-      "[+2] [Production] for each adjacent [Extreme Flux Space] tile",
+      "[+1 Production] from each adjacent [High Flux Space]",
+      "[+2 Production] from each adjacent [Extreme Flux Space]",
       "Pillaged by enemy units"
     ],
     "civilopediaText": [
@@ -180,11 +180,12 @@
   {
     "name": "Debris Scavenging Dock",
     "turnsToBuild": 5,
+    "gold": 2,
+    "production": 1,
     "requiredTech": "Pre-Tracting Ionization",
     "terrainsCanBeBuiltOn": ["Debris Fields"],
     "uniques": [
-      "[+2] [Gold] and [+1] [Production] from this tile",
-      "[+1] [Science] for each adjacent [Debris Fields] tile",
+      "[+1 Science] from each adjacent [Debris Fields]",
       "Pillaged by enemy units"
     ],
     "civilopediaText": [
@@ -196,11 +197,11 @@
   {
     "name": "Cryo-Condenser Basin",
     "turnsToBuild": 7,
+    "food": 3,
+    "production": -1,
     "requiredTech": "Cryogenics",
     "terrainsCanBeBuiltOn": ["Cryolith Moon", "Ice Giant"],
     "uniques": [
-      "[+3] [Food] from this tile",
-      "[-1] [Production] from this tile",
       "Provides [1] [Exotic Optomaterial] per turn when built on [Cryolith Moon]",
       "Pillaged by enemy units"
     ],
