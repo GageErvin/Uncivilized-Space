@@ -7,16 +7,6 @@
       "Unbuildable", "Unpillagable", "Excluded from map editor"
     ],
     "terrainsCanBeBuiltOn": [
-      "Ringed Terrestrial Planet",
-      "Terrestrial Planet",
-      "Gas Giant",
-      "Ringed Gas Giant",
-      "Ice Giant",
-      "Ringed Ice Giant",
-      "Cragolith Moon",
-      "Cryolith Moon",
-      "Nebula",
-      "Debris Fields",
       "Land"
     ]
   },
