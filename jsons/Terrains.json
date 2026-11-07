@@ -621,14 +621,27 @@
     ],
     "uniques": [
       "Considered [Desirable] when determining start locations",
-      "[-2] Sight",
-      "Blocks line-of-sight from tiles at same elevation",
+      "[-1] Sight",
       "Becomes [High Flux Space] when adjacent to [M4IV Star]",
       "Becomes [High Flux Space] when adjacent to [M5IV Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M5VI Star]",
+      "Becomes [Low Flux Space] when adjacent to [M3V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M4V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M5V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M6V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M7V Star]",
       "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
-      "Becomes [High Flux Space] when adjacent to [K7V Star]"
+      "Becomes [High Flux Space] when adjacent to [K7V Star]",
+      "Becomes [Low Flux Space] when adjacent to [Cryolith Moon]",
+      "Becomes [Low Flux Space] when adjacent to [Cragolith Moon]",
+      "Becomes [Low Flux Space] when adjacent to [Terrestrial Planet]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Terrestrial Planet]",
+      "Becomes [Low Flux Space] when adjacent to [Ice Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]",
+      "Becomes [High Flux Space] when adjacent to [Extreme Flux Space]"
     ]
   },
   {
@@ -645,14 +658,27 @@
     ],
     "uniques": [
       "Considered [Desirable] when determining start locations",
-      "[-2] Sight",
-      "Blocks line-of-sight from tiles at same elevation",
+      "[-1] Sight",
       "Becomes [High Flux Space] when adjacent to [M4IV Star]",
       "Becomes [High Flux Space] when adjacent to [M5IV Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M5VI Star]",
+      "Becomes [Low Flux Space] when adjacent to [M3V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M4V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M5V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M6V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M7V Star]",
       "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
-      "Becomes [High Flux Space] when adjacent to [K7V Star]"
+      "Becomes [High Flux Space] when adjacent to [K7V Star]",
+      "Becomes [Low Flux Space] when adjacent to [Cryolith Moon]",
+      "Becomes [Low Flux Space] when adjacent to [Cragolith Moon]",
+      "Becomes [Low Flux Space] when adjacent to [Terrestrial Planet]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Terrestrial Planet]",
+      "Becomes [Low Flux Space] when adjacent to [Ice Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]",
+      "Becomes [High Flux Space] when adjacent to [Extreme Flux Space]"
     ]
   },
   {
@@ -670,13 +696,26 @@
     "uniques": [
       "Considered [Desirable] when determining start locations",
       "[-2] Sight",
-      "Blocks line-of-sight from tiles at same elevation",
       "Becomes [High Flux Space] when adjacent to [M4IV Star]",
       "Becomes [High Flux Space] when adjacent to [M5IV Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M5VI Star]",
+      "Becomes [Low Flux Space] when adjacent to [M3V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M4V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M5V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M6V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M7V Star]",
       "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
-      "Becomes [High Flux Space] when adjacent to [K7V Star]"
+      "Becomes [High Flux Space] when adjacent to [K7V Star]",
+      "Becomes [Low Flux Space] when adjacent to [Cryolith Moon]",
+      "Becomes [Low Flux Space] when adjacent to [Cragolith Moon]",
+      "Becomes [Low Flux Space] when adjacent to [Terrestrial Planet]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Terrestrial Planet]",
+      "Becomes [Low Flux Space] when adjacent to [Ice Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]",
+      "Becomes [High Flux Space] when adjacent to [Extreme Flux Space]"
     ]
   },
   {
@@ -699,8 +738,22 @@
       "Becomes [High Flux Space] when adjacent to [M5IV Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M5VI Star]",
+      "Becomes [Low Flux Space] when adjacent to [M3V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M4V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M5V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M6V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M7V Star]",
       "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
-      "Becomes [High Flux Space] when adjacent to [K7V Star]"
+      "Becomes [High Flux Space] when adjacent to [K7V Star]",
+      "Becomes [Low Flux Space] when adjacent to [Cryolith Moon]",
+      "Becomes [Low Flux Space] when adjacent to [Cragolith Moon]",
+      "Becomes [Low Flux Space] when adjacent to [Terrestrial Planet]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Terrestrial Planet]",
+      "Becomes [Low Flux Space] when adjacent to [Ice Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]",
+      "Becomes [High Flux Space] when adjacent to [Extreme Flux Space]"
     ]
   },
   {
@@ -718,13 +771,26 @@
     "uniques": [
       "Considered [Desirable] when determining start locations",
       "[-2] Sight",
-      "Blocks line-of-sight from tiles at same elevation",
       "Becomes [High Flux Space] when adjacent to [M4IV Star]",
       "Becomes [High Flux Space] when adjacent to [M5IV Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M5VI Star]",
+      "Becomes [Low Flux Space] when adjacent to [M3V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M4V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M5V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M6V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M7V Star]",
       "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
-      "Becomes [High Flux Space] when adjacent to [K7V Star]"
+      "Becomes [High Flux Space] when adjacent to [K7V Star]",
+      "Becomes [Low Flux Space] when adjacent to [Cryolith Moon]",
+      "Becomes [Low Flux Space] when adjacent to [Cragolith Moon]",
+      "Becomes [Low Flux Space] when adjacent to [Terrestrial Planet]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Terrestrial Planet]",
+      "Becomes [Low Flux Space] when adjacent to [Ice Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]",
+      "Becomes [High Flux Space] when adjacent to [Extreme Flux Space]"
     ]
   },
   {
@@ -748,8 +814,22 @@
       "Becomes [High Flux Space] when adjacent to [M5IV Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M5VI Star]",
+      "Becomes [Low Flux Space] when adjacent to [M3V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M4V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M5V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M6V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M7V Star]",
       "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
-      "Becomes [High Flux Space] when adjacent to [K7V Star]"
+      "Becomes [High Flux Space] when adjacent to [K7V Star]",
+      "Becomes [Low Flux Space] when adjacent to [Cryolith Moon]",
+      "Becomes [Low Flux Space] when adjacent to [Cragolith Moon]",
+      "Becomes [Low Flux Space] when adjacent to [Terrestrial Planet]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Terrestrial Planet]",
+      "Becomes [Low Flux Space] when adjacent to [Ice Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]",
+      "Becomes [High Flux Space] when adjacent to [Extreme Flux Space]"
     ]
   },
   {
@@ -772,8 +852,22 @@
       "Becomes [High Flux Space] when adjacent to [M5IV Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M5VI Star]",
+      "Becomes [Low Flux Space] when adjacent to [M3V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M4V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M5V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M6V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M7V Star]",
       "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
-      "Becomes [High Flux Space] when adjacent to [K7V Star]"
+      "Becomes [High Flux Space] when adjacent to [K7V Star]",
+      "Becomes [Low Flux Space] when adjacent to [Cryolith Moon]",
+      "Becomes [Low Flux Space] when adjacent to [Cragolith Moon]",
+      "Becomes [Low Flux Space] when adjacent to [Terrestrial Planet]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Terrestrial Planet]",
+      "Becomes [Low Flux Space] when adjacent to [Ice Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]",
+      "Becomes [High Flux Space] when adjacent to [Extreme Flux Space]"
     ]
   },
   {
@@ -796,8 +890,22 @@
       "Becomes [High Flux Space] when adjacent to [M5IV Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M5VI Star]",
+      "Becomes [Low Flux Space] when adjacent to [M3V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M4V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M5V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M6V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M7V Star]",
       "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
-      "Becomes [High Flux Space] when adjacent to [K7V Star]"
+      "Becomes [High Flux Space] when adjacent to [K7V Star]",
+      "Becomes [Low Flux Space] when adjacent to [Cryolith Moon]",
+      "Becomes [Low Flux Space] when adjacent to [Cragolith Moon]",
+      "Becomes [Low Flux Space] when adjacent to [Terrestrial Planet]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Terrestrial Planet]",
+      "Becomes [Low Flux Space] when adjacent to [Ice Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]",
+      "Becomes [High Flux Space] when adjacent to [Extreme Flux Space]"
     ]
   },
   {
@@ -814,14 +922,27 @@
     ],
     "uniques": [
       "Considered [Desirable] when determining start locations",
-      "[-2] Sight",
       "Blocks line-of-sight from tiles at same elevation",
       "Becomes [High Flux Space] when adjacent to [M4IV Star]",
       "Becomes [High Flux Space] when adjacent to [M5IV Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M5VI Star]",
+      "Becomes [Low Flux Space] when adjacent to [M3V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M4V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M5V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M6V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M7V Star]",
       "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
-      "Becomes [High Flux Space] when adjacent to [K7V Star]"
+      "Becomes [High Flux Space] when adjacent to [K7V Star]",
+      "Becomes [Low Flux Space] when adjacent to [Cryolith Moon]",
+      "Becomes [Low Flux Space] when adjacent to [Cragolith Moon]",
+      "Becomes [Low Flux Space] when adjacent to [Terrestrial Planet]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Terrestrial Planet]",
+      "Becomes [Low Flux Space] when adjacent to [Ice Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]",
+      "Becomes [High Flux Space] when adjacent to [Extreme Flux Space]"
     ]
   },
   {
@@ -838,14 +959,27 @@
     ],
     "uniques": [
       "Considered [Desirable] when determining start locations",
-      "[-2] Sight",
-      "Blocks line-of-sight from tiles at same elevation",
+      "[-1] Sight",
       "Becomes [High Flux Space] when adjacent to [M4IV Star]",
       "Becomes [High Flux Space] when adjacent to [M5IV Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M5VI Star]",
+      "Becomes [Low Flux Space] when adjacent to [M3V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M4V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M5V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M6V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M7V Star]",
       "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
-      "Becomes [High Flux Space] when adjacent to [K7V Star]"
+      "Becomes [High Flux Space] when adjacent to [K7V Star]",
+      "Becomes [Low Flux Space] when adjacent to [Cryolith Moon]",
+      "Becomes [Low Flux Space] when adjacent to [Cragolith Moon]",
+      "Becomes [Low Flux Space] when adjacent to [Terrestrial Planet]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Terrestrial Planet]",
+      "Becomes [Low Flux Space] when adjacent to [Ice Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]",
+      "Becomes [High Flux Space] when adjacent to [Extreme Flux Space]"
     ]
   },
   {
@@ -868,8 +1002,22 @@
       "Becomes [High Flux Space] when adjacent to [M5IV Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M5VI Star]",
+      "Becomes [Low Flux Space] when adjacent to [M3V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M4V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M5V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M6V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M7V Star]",
       "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
-      "Becomes [High Flux Space] when adjacent to [K7V Star]"
+      "Becomes [High Flux Space] when adjacent to [K7V Star]",
+      "Becomes [Low Flux Space] when adjacent to [Cryolith Moon]",
+      "Becomes [Low Flux Space] when adjacent to [Cragolith Moon]",
+      "Becomes [Low Flux Space] when adjacent to [Terrestrial Planet]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Terrestrial Planet]",
+      "Becomes [Low Flux Space] when adjacent to [Ice Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]",
+      "Becomes [High Flux Space] when adjacent to [Extreme Flux Space]"
     ]
   },
   {
@@ -893,8 +1041,22 @@
       "Becomes [High Flux Space] when adjacent to [M5IV Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M5VI Star]",
+      "Becomes [Low Flux Space] when adjacent to [M3V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M4V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M5V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M6V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M7V Star]",
       "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
-      "Becomes [High Flux Space] when adjacent to [K7V Star]"
+      "Becomes [High Flux Space] when adjacent to [K7V Star]",
+      "Becomes [Low Flux Space] when adjacent to [Cryolith Moon]",
+      "Becomes [Low Flux Space] when adjacent to [Cragolith Moon]",
+      "Becomes [Low Flux Space] when adjacent to [Terrestrial Planet]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Terrestrial Planet]",
+      "Becomes [Low Flux Space] when adjacent to [Ice Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]",
+      "Becomes [High Flux Space] when adjacent to [Extreme Flux Space]"
     ]
   },
   {
@@ -918,8 +1080,22 @@
       "Becomes [High Flux Space] when adjacent to [M5IV Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M5VI Star]",
+      "Becomes [Low Flux Space] when adjacent to [M3V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M4V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M5V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M6V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M7V Star]",
       "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
-      "Becomes [High Flux Space] when adjacent to [K7V Star]"
+      "Becomes [High Flux Space] when adjacent to [K7V Star]",
+      "Becomes [Low Flux Space] when adjacent to [Cryolith Moon]",
+      "Becomes [Low Flux Space] when adjacent to [Cragolith Moon]",
+      "Becomes [Low Flux Space] when adjacent to [Terrestrial Planet]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Terrestrial Planet]",
+      "Becomes [Low Flux Space] when adjacent to [Ice Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]",
+      "Becomes [High Flux Space] when adjacent to [Extreme Flux Space]"
     ]
   },
   {
@@ -940,8 +1116,22 @@
       "Becomes [High Flux Space] when adjacent to [M5IV Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M5VI Star]",
+      "Becomes [Low Flux Space] when adjacent to [M3V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M4V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M5V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M6V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M7V Star]",
       "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
-      "Becomes [High Flux Space] when adjacent to [K7V Star]"
+      "Becomes [High Flux Space] when adjacent to [K7V Star]",
+      "Becomes [Low Flux Space] when adjacent to [Cryolith Moon]",
+      "Becomes [Low Flux Space] when adjacent to [Cragolith Moon]",
+      "Becomes [Low Flux Space] when adjacent to [Terrestrial Planet]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Terrestrial Planet]",
+      "Becomes [Low Flux Space] when adjacent to [Ice Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]",
+      "Becomes [High Flux Space] when adjacent to [Extreme Flux Space]"
     ]
   },
   {
@@ -959,13 +1149,26 @@
     "uniques": [
       "[-4] Sight",
       "Considered [Desirable] when determining start locations",
-      "Blocks line-of-sight from tiles at same elevation",
       "Becomes [High Flux Space] when adjacent to [M4IV Star]",
       "Becomes [High Flux Space] when adjacent to [M5IV Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M5VI Star]",
+      "Becomes [Low Flux Space] when adjacent to [M3V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M4V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M5V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M6V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M7V Star]",
       "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
-      "Becomes [High Flux Space] when adjacent to [K7V Star]"
+      "Becomes [High Flux Space] when adjacent to [K7V Star]",
+      "Becomes [Low Flux Space] when adjacent to [Cryolith Moon]",
+      "Becomes [Low Flux Space] when adjacent to [Cragolith Moon]",
+      "Becomes [Low Flux Space] when adjacent to [Terrestrial Planet]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Terrestrial Planet]",
+      "Becomes [Low Flux Space] when adjacent to [Ice Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]",
+      "Becomes [High Flux Space] when adjacent to [Extreme Flux Space]"
     ]
   },
   {
@@ -981,14 +1184,26 @@
       255
     ],
     "uniques": [
-      "[-2] Sight",
-      "Blocks line-of-sight from tiles at same elevation",
       "Becomes [High Flux Space] when adjacent to [M4IV Star]",
       "Becomes [High Flux Space] when adjacent to [M5IV Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M5VI Star]",
+      "Becomes [Low Flux Space] when adjacent to [M3V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M4V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M5V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M6V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M7V Star]",
       "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
-      "Becomes [High Flux Space] when adjacent to [K7V Star]"
+      "Becomes [High Flux Space] when adjacent to [K7V Star]",
+      "Becomes [Low Flux Space] when adjacent to [Cryolith Moon]",
+      "Becomes [Low Flux Space] when adjacent to [Cragolith Moon]",
+      "Becomes [Low Flux Space] when adjacent to [Terrestrial Planet]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Terrestrial Planet]",
+      "Becomes [Low Flux Space] when adjacent to [Ice Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]",
+      "Becomes [High Flux Space] when adjacent to [Extreme Flux Space]"
     ]
   },
   {
@@ -1005,15 +1220,29 @@
       255
     ],
     "uniques": [
-      "[-3] Sight",
+      "[-1] Sight",
       "Considered [Desirable] when determining start locations",
       "Blocks line-of-sight from tiles at same elevation",
       "Becomes [High Flux Space] when adjacent to [M4IV Star]",
       "Becomes [High Flux Space] when adjacent to [M5IV Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M5VI Star]",
+      "Becomes [Low Flux Space] when adjacent to [M3V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M4V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M5V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M6V Star]",
+      "Becomes [Low Flux Space] when adjacent to [M7V Star]",
       "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
-      "Becomes [High Flux Space] when adjacent to [K7V Star]"
+      "Becomes [High Flux Space] when adjacent to [K7V Star]",
+      "Becomes [Low Flux Space] when adjacent to [Cryolith Moon]",
+      "Becomes [Low Flux Space] when adjacent to [Cragolith Moon]",
+      "Becomes [Low Flux Space] when adjacent to [Terrestrial Planet]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Terrestrial Planet]",
+      "Becomes [Low Flux Space] when adjacent to [Ice Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
+      "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]",
+      "Becomes [High Flux Space] when adjacent to [Extreme Flux Space]"
     ]
   },
   {
