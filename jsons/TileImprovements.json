@@ -1,7 +1,7 @@
 [
   {
     "name": "Barbarian encampment", //"Paperclip Ecumenopolis",
-    "civilopediaText": [{"text":"Surrender your resources to be rendered into paperclips!"}],
+    "civilopediaText":[{"text":"An illicit encampment of nomadic scrap-pirates processing stolen asteroid ores and contraband."}],
     "uniques": [
       "Marks a barbarian camp",
       "Unbuildable", "Unpillagable", "Excluded from map editor"
@@ -159,5 +159,55 @@
         "civilopediaText": [
 			{"text":"Marks the center of a city"}
 		]
-	}
+	},
+  {
+    "name": "Flux Resonance Array",
+    "turnsToBuild": 6,
+    "requiredTech": "High Efficiency Fusion",
+    "terrainsCanBeBuiltOn": ["High Flux Space", "Extreme Flux Space"],
+    "uniques": [
+      "[+2] [Science] from this tile",
+      "[+1] [Production] for each adjacent [High Flux Space] tile",
+      "[+2] [Production] for each adjacent [Extreme Flux Space] tile",
+      "Pillaged by enemy units"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A heavily insulated collector grid anchored near volatile stellar anomalies, converting raw ambient energy flux into stable industrial and research feeds."
+      }
+    ]
+  },
+  {
+    "name": "Debris Scavenging Dock",
+    "turnsToBuild": 5,
+    "requiredTech": "Pre-Tracting Ionization",
+    "terrainsCanBeBuiltOn": ["Debris Fields"],
+    "uniques": [
+      "[+2] [Gold] and [+1] [Production] from this tile",
+      "[+1] [Science] for each adjacent [Debris Fields] tile",
+      "Pillaged by enemy units"
+    ],
+    "civilopediaText": [
+      {
+        "text": "An automated processing station that grapples, melts, and refycles derelict starship hulls, orbital wreckage, and random debris into high-grade alloy components."
+      }
+    ]
+  },
+  {
+    "name": "Cryo-Condenser Basin",
+    "turnsToBuild": 7,
+    "requiredTech": "Cryogenics",
+    "terrainsCanBeBuiltOn": ["Cryolith Moon", "Ice Giant"],
+    "uniques": [
+      "[+3] [Food] from this tile",
+      "[-1] [Production] from this tile",
+      "Provides [1] [Exotic Optomaterial] per turn when built on [Cryolith Moon]",
+      "Pillaged by enemy units"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Deep-freeze extraction platforms designed to synthesize volatile dietary supplements.  (・_・;)"
+      }
+    ]
+  }
 ]

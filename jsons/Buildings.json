@@ -93,7 +93,10 @@
 		"science": 2,
 		"cost": 120,
 		"requiredTech": "Nanotechnology",
-		"uniques": ["[+18]% [Science] [in this city]"]
+		"uniques": [
+			"[+8]% [Science] [in this city]",
+			"[+10]% [Science] <when adjacent to [Nebula] tiles>"
+		]
 	},
 	{
 		"name": "Nanotech Mint",
@@ -101,7 +104,8 @@
 		"cost": 120,
 		"requiredTech": "Nanotechnology",
 		"uniques": [
-			"[+18]% [Gold] [in this city]"
+			"[+8]% [Gold] [in this city]",
+			"[+10]% [Gold] <when adjacent to [Magnetic Acceleration Relay] tiles>"
 		]
 	},
 	{
@@ -109,7 +113,8 @@
 		"food": 2,
 		"happiness": 2,
 		"cost": 100,
-		"requiredTech": "Expert Systems"
+		"requiredTech": "Expert Systems",
+		"uniques": ["[+1] movement <in this city>"]
 	},
 	{
 		"name": "Terraforming",
@@ -118,11 +123,79 @@
 		"cost": 200
 	},
 	{
-		"name": "Accretion Foundry",
-		"replaces": "Expert Research System",
+		"name": "Flux Condenser Spire",
+		"science": 3,
 		"production": 2,
-		"science": 1,
+		"gold": -1,
+		"cost": 160,
+		"requiredTech": "High Efficiency Fusion",
+		"requiredBuilding": "Expert Research System",
+		"uniques": [
+			"[+1] [Production] from all adjacent [High Flux Space] tiles",
+			"[+2] [Science] from all adjacent [Extreme Flux Space] tiles"
+		],
+		"civilopediaText": [
+			{
+				"text": "A specialized metropolitan spire that harnesses raw ambient radiation from hazardous flux zones to power heavy industrial synthesis."
+			}
+		]
+	},
+	{
+		"name": "Munitions Rerun Array",
+		"production": 3,
+		"cost": 140,
+		"requiredTech": "Directed Plasma",
+		"requiredBuilding": "Orbital Launcher",
+		"uniques": [
+			"[+1] local [Munition] capacity",
+			"-[15]% [Gold] maintenance cost for garrisoned [Munition] units <in this city>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Automated deployment gantry networks that streamline missile unpacking, propellant servicing, and carrier reloading protocols."
+			}
+		]
+	},
+	{
+		"name": "Sub-Quantum Logistics Hub",
+		"gold": 4,
+		"science": 2,
+		"cost": 220,
+		"requiredTech": "Quantum Computing",
+		"requiredBuilding": "Photon Computing",
+		"uniques": [
+			"Provides [1] [Exotic Optomaterial] per turn",
+			"[+10]% [Production] when constructing [Sub] and [Military] units <in this city>"
+		],
+		"civilopediaText": [
+			{
+				"text": "A subterranean logistics nexus tracking fleet movements, supply lines, and rare stellar material distributions across local coordinates."
+			}
+		]
+	},
+	{
+		"name": "Zero-G Hydroponics Ring",
+		"food": 4,
+		"happiness": 1,
+		"cost": 130,
+		"requiredTech": "Zero-G Fabrication",
+		"uniques": [
+			"Excess Food converted to Production when under construction"
+		],
+		"civilopediaText": [
+			{
+				"text": "A rotating orbital ring dedicated to high-yield agricultural cultivation in free-fall, feeding sprawling urban centers."
+			}
+		]
+	},
+	{
+		"name": "Accretion Foundry",
+		"replaces": "Climate Control",
+		"production": 2,
+		"science": 2,
+		"happiness": 1,
 		"cost": 80,
+		"uniques": ["[+1] movement <in this city>"],
 		"requiredTech": "Expert Systems",
 		"uniqueTo": "Macroforms",
 		"civilopediaText": [
@@ -146,9 +219,9 @@
 	},
 	{
 		"name": "Bio-Vat Core",
-		"replaces": "Expert Research System",
-		"science": 2,
-		"food": 2,
+		"replaces": "Bio-Synthesizer Lab",
+		"science": 3,
+		"food": 4,
 		"cost": 90,
 		"requiredTech": "Expert Systems",
 		"uniqueTo": "Carbonforms",

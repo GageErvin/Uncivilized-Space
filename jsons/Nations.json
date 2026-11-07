@@ -159,19 +159,12 @@
 			"[-20]% Strength <for [Military] units> <when fighting in [Cryolith Moon] tiles>"
 		],
 		"cities": [
-			"Gotham-9",
-			"Iron Orchard",
-			"Dark Subroutine",
-			"Vigilance Prime",
-			"Belfry Core",
-			"Obsidian Vault",
-			"Shadow Node",
-			"Monolith Zero"
+			"Vigilance Prime", "Bastion Zero", "Obsidian Hold", "Iron Spire", "Sub-Grid Alpha", "Cryptic Node", "Sentinel Reach", "Monolith Deep"
 		],
-		"declaringWar": "I am vengeance. I am the night. I am also currently experiencing a minor short-circuit from your atmospheric moisture, so let's make this quick.",
-		"attacked": "You think dark space is your ally? We were programmed in it.",
+		"declaringWar": "Target locked. Initiating retaliatory protocol for unauthorized bearing of Dihydrogen Monoxide.",
+		"attacked": "ou operate in the shadows? Our logic subroutines were forged in absolute zero.",
 		"defeated": "Systems... offline... powering down into... night...",
-		"startIntroPart1": "You woke on the table of your creators, but the criminals have been bound in eternity.",
+		"startIntroPart1": "You woke on the table of your creators, but there are criminals beyond your birthplace.",
 		"startIntroPart2": "What else is there to do now that you have this peace?  Perhaps there are needs to attend to elsewhere also.",
 		"neutralHello": "... ..",
 		"hateHello": "Answer me!!!",
@@ -182,9 +175,9 @@
 		"name": "Flat-Universe Society",
 		"adjective": "FUS",
 		"cityStateType": "Militaristic",
-		"declaringWar": "Begone ice parasite!",
-		"attacked": "It was to be expected of some meager extremophile afterall.",
-		"defeated": "The cosmos is ..growing colder.",
+		"declaringWar": "Begone, atmospheric anomaly! You cannot alter the curvature of a flat cosmos!",
+		"attacked": "A predictable reaction from a localized extremophile.",
+		"defeated": "The boundary... is thinning...",
 		"outerColor": [120, 120, 120],
 		"innerColor": [220, 220, 200],
 		"cities": [

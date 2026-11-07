@@ -56,6 +56,11 @@
             "Unbuildable",
             "[+200]% Strength <when attacking>",
             "[This Unit] takes [30] damage <upon turn start>"
+        ],
+        "civilopediaText": [
+            {
+            "text": "Compact tactical ordinance. When deployed from carrier hulls, they take damage over time, simulating strict operational fuel constraints and demanding active tactical positioning compared to standard units."
+            }
         ]
     },
     {
@@ -64,6 +69,11 @@
         "uniques": [
             "Aircraft",
             "Cannot attack"
+        ],
+        "civilopediaText": [
+            {
+            "text": "Compact tactical ordinance. When deployed from carrier hulls, they take damage over time, simulating strict operational fuel constraints and demanding active tactical positioning compared to standard units."
+            }
         ]
     },
     {
@@ -76,6 +86,11 @@
             "Eliminates combat penalty for attacking across a coast <hidden from users>",
             "Cannot attack",
             "Gain [2] [Culture]"
+        ],
+        "civilopediaText": [
+            {
+            "text": "A specialized capital platform designed to house, service, and launch tactical munitions. Unpacking missiles directly into active sectors introduces dynamic supply line considerations, as munitions must account for simulated fuel depletion during transit."
+            }
         ]
     },
     {
