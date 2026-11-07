@@ -202,8 +202,6 @@
     "requiredTech": "Cryogenics",
     "terrainsCanBeBuiltOn": ["Cryolith Moon", "Ice Giant"],
     "uniques": [
-      "Provides [1] [Exotic Optomaterial] per turn when built on [Cryolith Moon]",
-      "Pillaged by enemy units"
     ],
     "civilopediaText": [
       {
