@@ -591,6 +591,7 @@
     ],
     "uniques": [
       "Blocks line-of-sight from tiles at same elevation",
+      "Rare feature"
       //"Becomes [High Flux Space] when adjacent to [M4IV Star]",
       //"Becomes [High Flux Space] when adjacent to [M5IV Star]",
       //"Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
@@ -620,7 +621,8 @@
     ],
     "uniques": [
       //1 mv if adjacent to planet
-      "Blocks line-of-sight from tiles at same elevation",
+      "Rare feature",
+      "Blocks line-of-sight from tiles at same elevation"
       //"Becomes [High Flux Space] when adjacent to [M4IV Star]",
       //"Becomes [High Flux Space] when adjacent to [M5IV Star]",
       //"Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
