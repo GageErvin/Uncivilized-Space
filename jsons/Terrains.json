@@ -591,17 +591,17 @@
     ],
     "uniques": [
       "Blocks line-of-sight from tiles at same elevation",
-      "Becomes [High Flux Space] when adjacent to [M4IV Star]",
-      "Becomes [High Flux Space] when adjacent to [M5IV Star]",
-      "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
-      "Becomes [Moderate Flux Space] when adjacent to [M5VI Star]",
-      "Becomes [Low Flux Space] when adjacent to [M3V Star]",
-      "Becomes [Low Flux Space] when adjacent to [M4V Star]",
-      "Becomes [Low Flux Space] when adjacent to [M5V Star]",
-      "Becomes [Low Flux Space] when adjacent to [M6V Star]",
-      "Becomes [Low Flux Space] when adjacent to [M7V Star]",
-      "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
-      "Becomes [High Flux Space] when adjacent to [K7V Star]"
+      //"Becomes [High Flux Space] when adjacent to [M4IV Star]",
+      //"Becomes [High Flux Space] when adjacent to [M5IV Star]",
+      //"Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
+      //"Becomes [Moderate Flux Space] when adjacent to [M5VI Star]",
+      //"Becomes [Low Flux Space] when adjacent to [M3V Star]",
+      //"Becomes [Low Flux Space] when adjacent to [M4V Star]",
+      //"Becomes [Low Flux Space] when adjacent to [M5V Star]",
+      //"Becomes [Low Flux Space] when adjacent to [M6V Star]",
+      //"Becomes [Low Flux Space] when adjacent to [M7V Star]",
+      //"Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
+      //"Becomes [High Flux Space] when adjacent to [K7V Star]"
     ]
   },
   {
@@ -619,18 +619,19 @@
       255
     ],
     "uniques": [
+      //1 mv if adjacent to planet
       "Blocks line-of-sight from tiles at same elevation",
-      "Becomes [High Flux Space] when adjacent to [M4IV Star]",
-      "Becomes [High Flux Space] when adjacent to [M5IV Star]",
-      "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
-      "Becomes [Moderate Flux Space] when adjacent to [M5VI Star]",
-      "Becomes [Low Flux Space] when adjacent to [M3V Star]",
-      "Becomes [Low Flux Space] when adjacent to [M4V Star]",
-      "Becomes [Low Flux Space] when adjacent to [M5V Star]",
-      "Becomes [Low Flux Space] when adjacent to [M6V Star]",
-      "Becomes [Low Flux Space] when adjacent to [M7V Star]",
-      "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
-      "Becomes [High Flux Space] when adjacent to [K7V Star]"
+      //"Becomes [High Flux Space] when adjacent to [M4IV Star]",
+      //"Becomes [High Flux Space] when adjacent to [M5IV Star]",
+      //"Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
+      //"Becomes [Moderate Flux Space] when adjacent to [M5VI Star]",
+      //"Becomes [Low Flux Space] when adjacent to [M3V Star]",
+      //"Becomes [Low Flux Space] when adjacent to [M4V Star]",
+      //"Becomes [Low Flux Space] when adjacent to [M5V Star]",
+      //"Becomes [Low Flux Space] when adjacent to [M6V Star]",
+      //"Becomes [Low Flux Space] when adjacent to [M7V Star]",
+      //"Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
+      //"Becomes [High Flux Space] when adjacent to [K7V Star]"
     ]
   },
   {
