@@ -167,9 +167,8 @@
     "requiredTech": "High Efficiency Fusion",
     "terrainsCanBeBuiltOn": ["High Flux Space", "Extreme Flux Space"],
     "uniques": [
-      "[+1 Production] from each adjacent [High Flux Space]",
-      "[+2 Production] from each adjacent [Extreme Flux Space]",
-      "Pillaged by enemy units"
+      "[+1 Production] for each adjacent [High Flux Space]",
+      "[+2 Production] for each adjacent [Extreme Flux Space]"
     ],
     "civilopediaText": [
       {
@@ -185,8 +184,7 @@
     "requiredTech": "Pre-Tracting Ionization",
     "terrainsCanBeBuiltOn": ["Debris Fields"],
     "uniques": [
-      "[+1 Science] from each adjacent [Debris Fields]",
-      "Pillaged by enemy units"
+      "[+1 Science] for each adjacent [Debris Fields]"
     ],
     "civilopediaText": [
       {
