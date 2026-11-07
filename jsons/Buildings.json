@@ -147,8 +147,8 @@
 		"requiredTech": "Directed Plasma",
 		"requiredBuilding": "Orbital Launcher",
 		"uniques": [
-			"[+1] local [Munition] capacity",
-			"-[15]% [Gold] maintenance cost for garrisoned [Munition] units <in this city>"
+			"Can carry [1] extra [Munition] units",
+			"-[15]% maintenance cost <for [Munition] units> <in this city>"
 		],
 		"civilopediaText": [
 			{
@@ -164,7 +164,7 @@
 		"requiredTech": "Quantum Computing",
 		"requiredBuilding": "Photon Computing",
 		"uniques": [
-			"[1] [Exotic Optomaterial]",
+			"[+1] [Exotic Optomaterial]",
 			"[+10]% [Production] when constructing [Sub] and [Military] units <in this city>"
 		],
 		"civilopediaText": [
