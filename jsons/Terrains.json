@@ -608,10 +608,250 @@
     ]
   },
   {
+    "name": "Blue Marble",
+    "type": "Land",
+    "food": 4,
+    "production": 2,
+    "happiness": 2,
+    "defenseBonus": -2,
+    "RGB": [
+      0,
+      0,
+      255
+    ],
+    "uniques": [
+      "Considered [Desirable] when determining start locations",
+      "[-2] Sight",
+      "Blocks line-of-sight from tiles at same elevation",
+      "Becomes [High Flux Space] when adjacent to [M4IV Star]",
+      "Becomes [High Flux Space] when adjacent to [M5IV Star]",
+      "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
+      "Becomes [Moderate Flux Space] when adjacent to [M5VI Star]",
+      "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
+      "Becomes [High Flux Space] when adjacent to [K7V Star]"
+    ]
+  },
+  {
+    "name": "Blue World",
+    "type": "Land",
+    "food": 4,
+    "production": 2,
+    "happiness": 2,
+    "defenseBonus": -2,
+    "RGB": [
+      0,
+      0,
+      255
+    ],
+    "uniques": [
+      "Considered [Desirable] when determining start locations",
+      "[-2] Sight",
+      "Blocks line-of-sight from tiles at same elevation",
+      "Becomes [High Flux Space] when adjacent to [M4IV Star]",
+      "Becomes [High Flux Space] when adjacent to [M5IV Star]",
+      "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
+      "Becomes [Moderate Flux Space] when adjacent to [M5VI Star]",
+      "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
+      "Becomes [High Flux Space] when adjacent to [K7V Star]"
+    ]
+  },
+  {
+    "name": "Dull-Green Marble",
+    "type": "Land",
+    "food": 4,
+    "production": 2,
+    "happiness": 2,
+    "defenseBonus": -2,
+    "RGB": [
+      0,
+      100,
+      0
+    ],
+    "uniques": [
+      "Considered [Desirable] when determining start locations",
+      "[-2] Sight",
+      "Blocks line-of-sight from tiles at same elevation",
+      "Becomes [High Flux Space] when adjacent to [M4IV Star]",
+      "Becomes [High Flux Space] when adjacent to [M5IV Star]",
+      "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
+      "Becomes [Moderate Flux Space] when adjacent to [M5VI Star]",
+      "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
+      "Becomes [High Flux Space] when adjacent to [K7V Star]"
+    ]
+  },
+  {
+    "name": "Fuzzy-Blue Gas",
+    "type": "Land",
+    "food": 4,
+    "production": 2,
+    "happiness": 2,
+    "defenseBonus": -2,
+    "RGB": [
+      80,
+      100,
+      250
+    ],
+    "uniques": [
+      "Considered [Desirable] when determining start locations",
+      "[-2] Sight",
+      "Blocks line-of-sight from tiles at same elevation",
+      "Becomes [High Flux Space] when adjacent to [M4IV Star]",
+      "Becomes [High Flux Space] when adjacent to [M5IV Star]",
+      "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
+      "Becomes [Moderate Flux Space] when adjacent to [M5VI Star]",
+      "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
+      "Becomes [High Flux Space] when adjacent to [K7V Star]"
+    ]
+  },
+  {
+    "name": "Fuzzy-Green Gas",
+    "type": "Land",
+    "food": 4,
+    "production": 2,
+    "happiness": 2,
+    "defenseBonus": -2,
+    "RGB": [
+      0,
+      255,
+      100
+    ],
+    "uniques": [
+      "Considered [Desirable] when determining start locations",
+      "[-2] Sight",
+      "Blocks line-of-sight from tiles at same elevation",
+      "Becomes [High Flux Space] when adjacent to [M4IV Star]",
+      "Becomes [High Flux Space] when adjacent to [M5IV Star]",
+      "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
+      "Becomes [Moderate Flux Space] when adjacent to [M5VI Star]",
+      "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
+      "Becomes [High Flux Space] when adjacent to [K7V Star]"
+    ]
+  },
+  {
+    "name": "Light-Orange Marble",
+    "type": "Land",
+    "food": 2,
+    "production": 3,
+    "gold": 2,
+    "happiness": 2,
+    "defenseBonus": -2,
+    "RGB": [
+      100,
+      100,
+      65
+    ],
+    "uniques": [
+      "Considered [Desirable] when determining start locations",
+      "[-2] Sight",
+      "Blocks line-of-sight from tiles at same elevation",
+      "Becomes [High Flux Space] when adjacent to [M4IV Star]",
+      "Becomes [High Flux Space] when adjacent to [M5IV Star]",
+      "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
+      "Becomes [Moderate Flux Space] when adjacent to [M5VI Star]",
+      "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
+      "Becomes [High Flux Space] when adjacent to [K7V Star]"
+    ]
+  },
+  {
+    "name": "Orange Marble",
+    "type": "Land",
+    "food": 3,
+    "production": 3,
+    "happiness": 2,
+    "defenseBonus": -2,
+    "RGB": [
+      100,
+      100,
+      25
+    ],
+    "uniques": [
+      "Considered [Desirable] when determining start locations",
+      "[-2] Sight",
+      "Blocks line-of-sight from tiles at same elevation",
+      "Becomes [High Flux Space] when adjacent to [M4IV Star]",
+      "Becomes [High Flux Space] when adjacent to [M5IV Star]",
+      "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
+      "Becomes [Moderate Flux Space] when adjacent to [M5VI Star]",
+      "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
+      "Becomes [High Flux Space] when adjacent to [K7V Star]"
+    ]
+  },
+  {
+    "name": "Orange-Black Marble",
+    "type": "Land",
+    "food": 2,
+    "production": 3,
+    "happiness": 3,
+    "defenseBonus": -2,
+    "RGB": [
+      0,
+      100,
+      255
+    ],
+    "uniques": [
+      "Considered [Desirable] when determining start locations",
+      "[-2] Sight",
+      "Blocks line-of-sight from tiles at same elevation",
+      "Becomes [High Flux Space] when adjacent to [M4IV Star]",
+      "Becomes [High Flux Space] when adjacent to [M5IV Star]",
+      "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
+      "Becomes [Moderate Flux Space] when adjacent to [M5VI Star]",
+      "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
+      "Becomes [High Flux Space] when adjacent to [K7V Star]"
+    ]
+  },
+  {
+    "name": "Silver-Grey Marble",
+    "type": "Land",
+    "food": 2,
+    "production": 2,
+    "happiness": 2,
+    "defenseBonus": -2,
+    "RGB": [
+      100,
+      100,
+      111
+    ],
+    "uniques": [
+      "Considered [Desirable] when determining start locations",
+      "[-2] Sight",
+      "Blocks line-of-sight from tiles at same elevation",
+      "Becomes [High Flux Space] when adjacent to [M4IV Star]",
+      "Becomes [High Flux Space] when adjacent to [M5IV Star]",
+      "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
+      "Becomes [Moderate Flux Space] when adjacent to [M5VI Star]",
+      "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
+      "Becomes [High Flux Space] when adjacent to [K7V Star]"
+    ]
+  },
+  {
+    "name": "Stony Marble",
+    "type": "Land",
+    "food": 2,
+    "production": 2,
+    "happiness": 1,
+    "defenseBonus": -2,
+    "RGB": [
+      100,
+      100,
+      111
+    ],
+    "uniques": [
+      "Considered [Desirable] when determining start locations",
+      "[-2] Sight",
+      "Blocks line-of-sight from tiles at same elevation",
+      "Becomes [High Flux Space] when adjacent to [M4IV Star]",
+      "Becomes [High Flux Space] when adjacent to [M5IV Star]",
+      "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
+      "Becomes [Moderate Flux Space] when adjacent to [M5VI Star]",
+      "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
+      "Becomes [High Flux Space] when adjacent to [K7V Star]"
+    ]
+  },
+  {
     "name": "Terrestrial Planet",
     "type": "Land",
     "food": 4,
-    "culture": 1,
     "production": 2,
     "happiness": 2,
     "defenseBonus": -2,
@@ -638,6 +878,31 @@
     "food": 2,
     "culture": 0,
     "production": 4,
+    "happiness": 2,
+    "defenseBonus": -1,
+    "RGB": [
+      0,
+      150,
+      255
+    ],
+    "uniques": [
+      "[-3] Sight",
+      "Considered [Desirable] when determining start locations",
+      "Blocks line-of-sight from tiles at same elevation",
+      "Becomes [High Flux Space] when adjacent to [M4IV Star]",
+      "Becomes [High Flux Space] when adjacent to [M5IV Star]",
+      "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
+      "Becomes [Moderate Flux Space] when adjacent to [M5VI Star]",
+      "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
+      "Becomes [High Flux Space] when adjacent to [K7V Star]"
+    ]
+  },
+  {
+    "name": "Yellow-Green-Blue Marble",
+    "type": "Land",
+    "food": 3,
+    "culture": 0,
+    "production": 3,
     "happiness": 2,
     "defenseBonus": -1,
     "RGB": [
