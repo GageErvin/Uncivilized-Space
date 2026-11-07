@@ -556,7 +556,7 @@
   {
     "name": "Cragolith Moon",
     "type": "TerrainFeature",
-    "occursOn": ["Land", "Water"],
+    "occursOn": ["Blue Marble", "Blue World", "Dull-Green Marble", "Fuzzy-Blue Gas", "Fuzzy-Green Gas", "Light-Orange Marble", "Orange Marble", "Orange-Black Marble", "Silver-Grey Marble", "Stony Marble", "Yellow-Green-Blue Marble", "Gas Giant", "Ringed Gas Giant", "Ice Giant", "Ringed Ice Giant", "Terrestrial Planet", "Ringed Terrestrial Planet", "Zero Flux Space", "Low Flux Space", "Moderate Flux Space", "High Flux Space", "Extreme Flux Space"],
     "food": 0,
     "production": 1,
     "culture": 0,
@@ -584,7 +584,7 @@
   {
     "name": "Cryolith Moon",
     "type": "TerrainFeature",
-    "occursOn": ["Land", "Water"],
+    "occursOn": ["Blue Marble", "Blue World", "Dull-Green Marble", "Fuzzy-Blue Gas", "Fuzzy-Green Gas", "Light-Orange Marble", "Orange Marble", "Orange-Black Marble", "Silver-Grey Marble", "Stony Marble", "Yellow-Green-Blue Marble", "Gas Giant", "Ringed Gas Giant", "Ice Giant", "Ringed Ice Giant", "Terrestrial Planet", "Ringed Terrestrial Planet", "Zero Flux Space", "Low Flux Space", "Moderate Flux Space", "High Flux Space", "Extreme Flux Space"],
     "food": 1,
     "culture": 0,
     "production": 0,
