@@ -3,21 +3,19 @@
     "unitset": "UncivilizedSpace",
     "name": "Uncivilized-Space",
     "isBaseRuleset": true,
-    "modUrl": "https://github.com/GageWilliamErvin/Uncivilized-Space",
-    "defaultBranch": "main",
-    "author": "CE",
     "constants": {
         "maxXPfromBarbarians": 150,
         "cityStrengthBase": 6,
         "cityStrengthPerPop": 0.2,
         "cityStrengthFromTechsMultiplier": 8,
-        "cityStrengthFromTechsExponent": 1.4
+        "cityStrengthFromTechsExponent": 1.4,
+        "baseCityBombardRange": 4,
+        "cityAirUnitCapacity": 2,
+        "maxLakeSize": 0,
+        "riverCountMultiplier": 0,
+        "minRiverLength": 0,
+        "maxRiverLength": 0
     },
-    "topics": [
-        "unciv-mod",
-        "unciv-mod-rulesets",
-        "unciv-mod-wip"
-    ],
     "uniques": [
         "Suppress warning [*Due to performance considerations, this unique is cached on the unit, and the conditional may not always limit the unique correctly.*]",
         "Disable religion",
