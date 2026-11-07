@@ -555,7 +555,8 @@
   },
   {
     "name": "Cragolith Moon",
-    "type": "Land",
+    "type": "TerrainFeature",
+    "occursOn": "Land",
     "food": 0,
     "production": 1,
     "culture": 0,
@@ -582,7 +583,8 @@
   },
   {
     "name": "Cryolith Moon",
-    "type": "Land",
+    "type": "TerrainFeature",
+    "occursOn": "Land",
     "food": 1,
     "culture": 0,
     "production": 0,
