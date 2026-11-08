@@ -193,7 +193,8 @@
             "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+25]% Strength <vs [Laser Drone] units>",
-            "[1] additional attacks per turn"
+            "[1] additional attacks per turn",
+            "Can carry [1] [Stored Breach Pod] units"
         ]
     },
     {
@@ -216,7 +217,8 @@
             "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
             "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-            "[+1] Sight"
+            "[+1] Sight",
+            "Can carry [1] [Stored Breach Pod] units"
         ]
     },
     {
@@ -237,7 +239,8 @@
             "[-1] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+1] Sight",
-            "Double movement in [Nebula]"
+            "Double movement in [Nebula]",
+            "Can carry [1] [Stored Breach Pod] units"
         ],
         "obsoleteWith": "Directed Plasma"
     },
@@ -261,7 +264,8 @@
             "[-2] Movement <in [High Flux Space] tiles> <hidden from users>",
             "[-2] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-            "[+2] Sight"
+            "[+2] Sight",
+            "Can carry [1] [Stored Breach Pod] units"
         ],
         "obsoleteWith": "Graviton Manipulation"
     },
@@ -286,7 +290,8 @@
             "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
             "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-            "[+2] Sight"
+            "[+2] Sight",
+            "Can carry [1] [Stored Breach Pod] units"
         ]
     },
     {
@@ -307,7 +312,8 @@
             "[-2] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+4] Sight",
-            "[1] additional attacks per turn"
+            "[1] additional attacks per turn",
+            "Can carry [1] [Stored Breach Pod] units"
         ]
     },
     {
@@ -499,7 +505,8 @@
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+3] Sight",
             "Ranged attacks may be performed over obstacles <hidden from users>",
-            "No damage penalty for wounded units"
+            "No damage penalty for wounded units",
+            "Can carry [1] [Stored Breach Pod] units"
         ]
     },
     {
@@ -524,7 +531,8 @@
             "[+4] Sight",
             "Ranged attacks may be performed over obstacles <hidden from users>",
             "[1] additional attacks per turn",
-            "No damage penalty for wounded units"
+            "No damage penalty for wounded units",
+            "Can carry [1] [Stored Breach Pod] units"
         ]
     },
     {
@@ -564,7 +572,8 @@
             "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
             "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-            "[20] HP when healing"
+            "[20] HP when healing",
+            "Can carry [1] [Stored Breach Pod] units"
         ],
         "civilopediaText": [
             {
@@ -593,7 +602,8 @@
             "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+2] Sight",
-            "[30] HP when healing"
+            "[30] HP when healing",
+            "Can carry [1] [Stored Breach Pod] units"
         ],
         "civilopediaText": [
             {
@@ -621,7 +631,8 @@
             "[-2] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+3] Sight",
-            "[40] HP when healing"
+            "[40] HP when healing",
+            "Can carry [1] [Stored Breach Pod] units"
         ],
         "civilopediaText": [
             {
