@@ -46,7 +46,6 @@
     ],
     "terrainsCanBeBuiltOn": [
       "Ringed Terrestrial Planet",
-      "Terrestrial Planet",
       "Ringed Ice Giant"
     ]
   },
