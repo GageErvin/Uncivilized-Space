@@ -90,6 +90,14 @@
         ]
     },
     {
+        "name": "Stored Breach Pod",
+        "movementType": "Air",
+        "uniques": [
+            "Aircraft",
+            "Cannot attack"
+        ]
+    },
+    {
         "name": "Munition",
         "movementType": "Air",
         "uniques": [
