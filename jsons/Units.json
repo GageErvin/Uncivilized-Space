@@ -19,7 +19,7 @@
             "Requires at least [2] population",
             "Excess Food converted to Production when under construction",
             "Founds a new city <by consuming this unit> <in [Ringed Terrestrial Planet] tiles>",
-            "Founds a new city <by consuming this unit> <in [any] tiles> <for [AI Player] Civilizations>"
+            "Founds a new city <by consuming this unit> <in [All] tiles> <for [AI player] Civilizations>"
         ],
         "obsoleteWith": "Cryogenics"
     },
@@ -35,7 +35,7 @@
             "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "Founds a new city <by consuming this unit> <in [Ringed Terrestrial Planet] tiles>",
-            "Founds a new city <by consuming this unit> <in [any] tiles> <for [AI Player] Civilizations>"
+            "Founds a new city <by consuming this unit> <in [All] tiles> <for [AI player] Civilizations>"
         ]
     },
     {
@@ -50,7 +50,7 @@
             "[-2] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
             "[+2] Movement <in [Magnetic Acceleration Relay] tiles>",
             "Founds a new city <by consuming this unit> <in [Ringed Terrestrial Planet] tiles>",
-            "Founds a new city <by consuming this unit> <in [any] tiles> <for [AI Player] Civilizations>"
+            "Founds a new city <by consuming this unit> <in [All] tiles> <for [AI player] Civilizations>"
         ]
     },
     {
