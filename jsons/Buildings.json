@@ -2,7 +2,7 @@
 	{
 		"name": "Spire",
 		"isDefaultBuilding": true,
-		"happiness": 4,
+		"happiness": 2,
 		"science": 1,
 		"production": 2,
 		"gold": 2,
@@ -14,8 +14,8 @@
 	},
 	{
 		"name": "Bio-Synthesizer Lab",
-		"science": 2,
-		"food": 2,
+		"science": 1,
+		"food": 1,
 		"cost": 80,
 		"requiredTech": "Xeno-Genetics",
 		"civilopediaText": [
@@ -26,17 +26,14 @@
 	},
 	{
 		"name": "Cloning Hatchery",
-		"food": 4,
-		"happiness": -1,
+		"production": 2,
 		"cost": 150,
 		"requiredBuilding": "Bio-Synthesizer Lab",
 		"requiredTech": "Neural Parasitology"
 	},
 	{
 		"name": "Bio-Forge Complex",
-		"science": 3,
-		"food": 3,
-		"production": 2,
+		"food": 5,
 		"cost": 210,
 		"requiredBuilding": "Cloning Hatchery",
 		"requiredTech": "Hive-Mind Engineering",
@@ -48,9 +45,9 @@
 	},
 	{
 		"name": "Living Cradle Spire",
-		"science": 4,
-		"food": 4,
-		"happiness": 2,
+		"science": 2,
+		"production": 2,
+		"happiness": 4,
 		"cost": 350,
 		"requiredBuilding": "Bio-Forge Complex",
 		"requiredTech": "Bio-Singularity",
@@ -61,31 +58,38 @@
 		]
 	},
 	{
+		"name": "Weapons Cache",
+		"cost": 100,
+		"requiredTech": "Expert Systems",
+		"uniques": [
+			"Can carry [3] extra [Munition] units",
+		]
+	},
+	{
 		"name": "Expert Research System",
-		"science": 2,
+		"science": 3,
 		"production": -1,
-		"cost": 90,
+		"cost": 120,
 		"requiredTech": "Expert Systems"
 	},
 	{
 		"name": "Photon Computing",
-		"science": 2,
-		"cost": 180,
+		"science": 3,
+		"cost": 160,
 		"requiredBuilding": "Expert Research System",
 		"requiredTech": "Photon Computing"
 	},
 	{
 		"name": "Quantum Computing",
-		"science": 3,
-		"cost": 180,
+		"science": 5,
+		"cost": 320,
 		"requiredBuilding": "Expert Research System",
 		"requiredTech": "Quantum Computing"
 	},
 	{
 		"name": "Orbital Launcher",
-		"infrastructure": 1,
-		"production": 1,
-		"cost": 60,
+		"production": 3,
+		"cost": 90,
 		"requiredTech": "Orbital Swarming"
 	},
 	{
@@ -118,8 +122,9 @@
 	},
 	{
 		"name": "Terraforming",
-		"food": 2,
-		"happiness": 2,
+		"food": 4,
+		"happiness": 3,
+		"requiredTech": "Hive-Mind Engineering",
 		"cost": 200
 	},
 	{
@@ -147,8 +152,8 @@
 		"requiredTech": "Directed Plasma",
 		"requiredBuilding": "Orbital Launcher",
 		"uniques": [
-			"Can carry [1] extra [Munition] units",
-			"[-15]% maintenance costs <for [Munition] units> <in this city>"
+			"Can carry [3] extra [Munition] units",
+			"[-35]% maintenance costs <for [Munition] units> <in this city>"
 		],
 		"civilopediaText": [
 			{
