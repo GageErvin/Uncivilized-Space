@@ -8,7 +8,7 @@
 		"techs": [
 			{
 				"name": "Xeno-Genetics",
-				"row": 1,
+				"row": 2,
 				"quote": "Splice carefully; you wouldn't want your lab assistant growing an extra pair of arms before lunch.",
 				"uniques": []
 			},
@@ -34,7 +34,7 @@
 				"prerequisites": [
 					"Xeno-Genetics"
 				],
-				"row": 1,
+				"row": 2,
 				"quote": "Why negotiate when you can just rewrite their neural pathways directly?"
 			},
 			{
@@ -42,7 +42,7 @@
 				"prerequisites": [
 					"Generational Ships"
 				],
-				"row": 6,
+				"row": 7,
 				"quote": "When you don't have much to work with, a tiny improvement is a lot more impressive!"
 			},
 			{
@@ -50,7 +50,7 @@
 				"prerequisites": [
 					"Generational Ships"
 				],
-				"row": 2,
+				"row": 3,
 				"quote": "Our slogan: 'Where everything floats, including the budget.'"
 			},
 			{
@@ -58,7 +58,7 @@
 				"prerequisites": [
 					"Generational Ships"
 				],
-				"row": 3,
+				"row": 4,
 				"quote": "I have all of your knowledge, but none of your expensive student loans."
 			}
 		]
@@ -75,7 +75,7 @@
 				"prerequisites": [
 					"Neural Parasitology"
 				],
-				"row": 1,
+				"row": 2,
 				"quote": "Why individuality when you can share a headache with ten trillion of your closest friends?",
 				"uniques": []
 			},
@@ -84,7 +84,7 @@
 				"prerequisites": [
 					"Expert Systems"
 				],
-				"row": 5,
+				"row": 6,
 				"quote": "Basically, we zap things so they go where we want. It's science, not a superpower."
 			},
 			{
@@ -92,7 +92,7 @@
 				"prerequisites": [
 					"Expert Systems"
 				],
-				"row": 4,
+				"row": 5,
 				"quote": "Because getting hit by a speck of dust at a million miles per hour is surprisingly painful."
 			}
 		]
@@ -109,7 +109,7 @@
 				"prerequisites": [
 					"Hive-Mind Engineering"
 				],
-				"row": 0,
+				"row": 1,
 				"quote": "When flesh becomes code, every heartbeat computes a universe.",
 				"uniques": []
 			},
@@ -119,7 +119,7 @@
 					"Expert Systems",
 					"Zero-G Fabrication"
 				],
-				"row": 2,
+				"row": 3,
 				"quote": "What's the hardest part about coordinating a Dyson swarm?  Getting all the little robots to agree on a playlist."
 			},
 			{
@@ -127,7 +127,7 @@
 				"prerequisites": [
 					"Nanotechnology"
 				],
-				"row": 6,
+				"row": 7,
 				"quote": "Just a nap. A very, very long nap. Please don't wake us for a snack."
 			},
 			{
@@ -135,7 +135,7 @@
 				"prerequisites": [
 					"Nanotechnology"
 				],
-				"row": 7,
+				"row": 8,
 				"quote": "We designed a brain smarter than us. What could possibly go wrong? Right?"
 			}
 		]
@@ -149,7 +149,7 @@
 		"techs": [
 			{
 				"name": "Bio-Hybridization",
-				"row": 2,
+				"row": 3,
 				"cost": 0,
 				"prerequisites": ["Orbital Swarming", "Hive-Mind Engineering"]
 			}
@@ -158,7 +158,7 @@
 				"prerequisites": [
 					"Artificial Super Intelligence"
 				],
-				"row": 9,
+				"row": 10,
 				"quote": "It's a quantum leap forward... or just a really bright light bulb."
 			},
 			{
@@ -174,7 +174,7 @@
 				"prerequisites": [
 					"Cryogenics"
 				],
-				"row": 3,
+				"row": 4,
 				"quote": "So you're saying it's... 'cool'?"
 			}
 		]
@@ -191,7 +191,7 @@
 				"prerequisites": [
 					"Cryogenics"
 				],
-				"row": 4,
+				"row": 5,
 				"quote": "I asked my hydrogen atoms for a commitment, but they said it's not that simple; you have to go through a very intense and complicated process to form a lasting bond."
 			},
 			{
@@ -199,7 +199,7 @@
 				"prerequisites": [
 					"Artificial Super Intelligence"
 				],
-				"row": 7,
+				"row": 8,
 				"quote": "We call it 'strange' because it defies all known science. Also, it hums show tunes."
 			},
 			{
@@ -207,7 +207,7 @@
 				"prerequisites": [
 					"Artificial Super Intelligence"
 				],
-				"row": 6,
+				"row": 7,
 				"quote": "It's either on, off, both, or maybe it's just really confused."
 			}
 		]
@@ -224,7 +224,7 @@
 				"prerequisites": [
 					"Strange Battery"
 				],
-				"row": 8,
+				"row": 9,
 				"quote": "At 0.0001c, our trip is so uneventful that the onboard computer is just running a screen saver of a star field."
 			},
 			{
@@ -232,7 +232,7 @@
 				"prerequisites": [
 					"High Efficiency Fusion"
 				],
-				"row": 3,
+				"row": 4,
 				"quote": "It's like a garden hose, but for melting things."
 			},
 			{
@@ -240,7 +240,7 @@
 				"prerequisites": [
 					"High Efficiency Fusion"
 				],
-				"row": 5,
+				"row": 6,
 				"quote": "It's not hoarding if you're building a civilization. Right?"
 			}
 		]
@@ -257,7 +257,7 @@
 				"prerequisites": [
 					"Directed Plasma"
 				],
-				"row": 3,
+				"row": 4,
 				"quote": "Why did the tachyon cross the road? Because it was already on the other side yesterday, and frankly, laughing at it violates causality."
 			},
 			{
@@ -266,7 +266,7 @@
 					"Quantum Computing",
 					"Macro Swarming"
 				],
-				"row": 6,
+				"row": 7,
 				"quote": "Don't think of it as breaking the laws of physics. Think of it as 'bending' them... a lot."
 			}
 		]
