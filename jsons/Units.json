@@ -126,7 +126,7 @@
         "movement": 5,
         "strength": 0,
         "cost": 50,
-        "requiredTech": "Xeno-Genetics",
+        "requiredTech": "Neural Parasitology",
         "uniques": [
             "Can transform to [Bio Breach] <for [0] movement>"
         ]
