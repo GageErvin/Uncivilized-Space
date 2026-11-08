@@ -549,7 +549,8 @@
             "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
             "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-            "[10] HP when healing"
+            "[10] HP when healing",
+            "Can carry [3] [Slug] units"
         ],
         "civilopediaText": [
             {
@@ -573,7 +574,8 @@
             "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[20] HP when healing",
-            "Can carry [1] [Stored Breach Pod] units"
+            "Can carry [1] [Stored Breach Pod] units",
+            "Can carry [5] [Slug] units"
         ],
         "civilopediaText": [
             {
@@ -603,7 +605,8 @@
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+2] Sight",
             "[30] HP when healing",
-            "Can carry [1] [Stored Breach Pod] units"
+            "Can carry [1] [Stored Breach Pod] units",
+            "Can carry [7] [Slug] units"
         ],
         "civilopediaText": [
             {
@@ -632,12 +635,33 @@
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+3] Sight",
             "[40] HP when healing",
-            "Can carry [1] [Stored Breach Pod] units"
+            "Can carry [2] [Stored Breach Pod] units",
+            "Can carry [10] [Slug] units"
         ],
         "civilopediaText": [
             {
                 "text": "A supreme organic dreadnaught grown in zero-flux nurseries, housing localized singularity cores within its visceral chambers."
             }
         ]
-    }
+    },
+    {
+        "name": "Spore Slug",
+        "unitType": "Slug",
+        "strength": 1,
+        "movement": 3,
+        "cost": 5,
+        "uniques": [
+            "May capture killed [All] units"
+        ]
+    },
+    {
+        "name": "Nano Infester",
+        "unitType": "Slug",
+        "strength": 3,
+        "movement": 7,
+        "cost": 7,
+        "uniques": [
+            "May capture killed [All] units"
+        ]
+    },
 ]
