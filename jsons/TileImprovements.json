@@ -19,7 +19,6 @@
     ],
     "terrainsCanBeBuiltOn": [
       "Ringed Terrestrial Planet",
-      "Terrestrial Planet",
       "Gas Giant",
       "Ringed Gas Giant",
       "Ice Giant",
