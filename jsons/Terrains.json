@@ -17,7 +17,6 @@
     "RGB": [90,90,60],
     "Impassible": true,
     "gold": 1,
-    "production": 1,
     "uniques": [
       "[-3] Sight",
       "Occurs in chains at high elevations",
@@ -781,8 +780,8 @@
     "type": "TerrainFeature",
     "overrideStats": false,
     "occursOn": ["Blue Marble", "Dull-Green Marble", "Fuzzy-Blue Gas", "Fuzzy-Green Gas", "Orange Marble", "Silver-Grey Marble", "Stony Marble", "Yellow-Green-Blue Marble", "Ringed Gas Giant", "Ringed Ice Giant", "Zero Flux Space", "Low Flux Space", "Moderate Flux Space", "High Flux Space", "Extreme Flux Space"],
-    "food": 4,
-    "production": 2,
+    "food": 3,
+    "production": 1,
     "happiness": 2,
     "defenseBonus": -2,
     "RGB": [
@@ -900,7 +899,7 @@
   { 
     "name": "Fuzzy-Green Gas",
     "type": "Land",
-    "food": 4,
+    "food": 3,
     "production": 2,
     "happiness": 2,
     "defenseBonus": -2,
@@ -946,8 +945,8 @@
     "type": "TerrainFeature",
     "overrideStats": false,
     "occursOn": ["Blue Marble", "Dull-Green Marble", "Fuzzy-Blue Gas", "Fuzzy-Green Gas", "Orange Marble", "Silver-Grey Marble", "Stony Marble", "Yellow-Green-Blue Marble", "Ringed Gas Giant", "Ringed Ice Giant", "Zero Flux Space", "Low Flux Space", "Moderate Flux Space", "High Flux Space", "Extreme Flux Space"],
-    "food": 2,
-    "production": 3,
+    "food": 1,
+    "production": 2,
     "gold": 2,
     "happiness": 2,
     "defenseBonus": -2,
@@ -1026,8 +1025,8 @@
     "overrideStats": false,
     "occursOn": ["Blue Marble", "Dull-Green Marble", "Fuzzy-Blue Gas", "Fuzzy-Green Gas", "Orange Marble", "Silver-Grey Marble", "Stony Marble", "Yellow-Green-Blue Marble", "Ringed Gas Giant", "Ringed Ice Giant", "Zero Flux Space", "Low Flux Space", "Moderate Flux Space", "High Flux Space", "Extreme Flux Space"],
     "food": 2,
-    "production": 3,
-    "happiness": 3,
+    "production": 2,
+    "happiness": 2,
     "defenseBonus": -2,
     "RGB": [
       0,
@@ -1148,7 +1147,7 @@
     "occursOn": ["Blue Marble", "Dull-Green Marble", "Fuzzy-Blue Gas", "Fuzzy-Green Gas", "Orange Marble", "Silver-Grey Marble", "Stony Marble", "Yellow-Green-Blue Marble", "Ringed Gas Giant", "Ringed Ice Giant", "Zero Flux Space", "Low Flux Space", "Moderate Flux Space", "High Flux Space", "Extreme Flux Space"],
     "food": 1,
     "culture": 0,
-    "production": 2,
+    "production": 1,
     "happiness": 3,
     "defenseBonus": -1,
     "RGB": [
@@ -1226,8 +1225,7 @@
     "type": "TerrainFeature",
     "overrideStats": false,
     "occursOn": ["Blue Marble", "Dull-Green Marble", "Fuzzy-Blue Gas", "Fuzzy-Green Gas", "Orange Marble", "Silver-Grey Marble", "Stony Marble", "Yellow-Green-Blue Marble", "Ringed Gas Giant", "Ringed Ice Giant", "Zero Flux Space", "Low Flux Space", "Moderate Flux Space", "High Flux Space", "Extreme Flux Space"],
-    "food": 2,
-    "production": 3,
+    "production": 2,
     "defenseBonus": -1,
     "RGB": [
       0,
@@ -1255,7 +1253,7 @@
   {
     "name": "Ringed Gas Giant",
     "type": "Land",
-    "food": 2,
+    "food": 1,
     "culture": 0,
     "production": 5,
     "defenseBonus": 0,
@@ -1294,7 +1292,7 @@
     "overrideStats": false,
     "occursOn": ["Blue Marble", "Dull-Green Marble", "Fuzzy-Blue Gas", "Fuzzy-Green Gas", "Orange Marble", "Silver-Grey Marble", "Stony Marble", "Yellow-Green-Blue Marble", "Ringed Gas Giant", "Ringed Ice Giant", "Zero Flux Space", "Low Flux Space", "Moderate Flux Space", "High Flux Space", "Extreme Flux Space"],
     "food": 2,
-    "production": 2,
+    "production": 1,
     "science": 1,
     "defenseBonus": -2,
     "RGB": [
@@ -1321,9 +1319,9 @@
   {
     "name": "Ringed Ice Giant",
     "type": "Land",
-    "food": 1,
+    "food": 2,
     "culture": 0,
-    "production": 3,
+    "production": 2,
     "science": 1,
     "defenseBonus": -1,
     "RGB": [
@@ -1362,7 +1360,6 @@
     "overrideStats": false,
     "occursOn": ["Blue Marble", "Dull-Green Marble", "Fuzzy-Blue Gas", "Fuzzy-Green Gas", "Orange Marble", "Silver-Grey Marble", "Stony Marble", "Yellow-Green-Blue Marble", "Ringed Gas Giant", "Ringed Ice Giant", "Zero Flux Space", "Low Flux Space", "Moderate Flux Space", "High Flux Space", "Extreme Flux Space"],
     "science": 1,
-    "food": 1,
     "RGB": [
       120,
       80,
