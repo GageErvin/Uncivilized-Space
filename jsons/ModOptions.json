@@ -15,7 +15,8 @@
         "riverCountMultiplier": 0,
         "minRiverLength": 0,
         "maxRiverLength": 0,
-        "minimalCityDistance": 7
+        "minimalCityDistance": 7,
+        "minimalCityDistanceOnDifferentContinents": 7
     },
     "uniques": [
         "Suppress warning [*Due to performance considerations, this unique is cached on the unit, and the conditional may not always limit the unique correctly.*]",
