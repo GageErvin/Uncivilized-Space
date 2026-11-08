@@ -1,8 +1,8 @@
 [
 	{
 		"name": "Steel Rat",
-		"unitSupplyBase": 7,
-		"unitSupplyPerCity": 2,
+		"unitSupplyBase": 10,
+		"unitSupplyPerCity": 5,
 		"buildingCostModifier": 0.85,
 		"policyCostModifier": 0.85,
 		"unhappinessModifier": 0.75,
@@ -19,8 +19,8 @@
 	},
 	{
 		"name": "Ender's Game",
-		"unitSupplyBase": 5,
-		"unitSupplyPerCity": 2,
+		"unitSupplyBase": 8,
+		"unitSupplyPerCity": 4,
 		"aiMajorCivBonusStartingUnits": ["Generational Settler", "Generational Settler"],
 		"aiUnhappinessModifier": 0.6,
 		"aisExchangeTechs": true,
@@ -34,8 +34,8 @@
 	},
 	{
 		"name": "The Last Angel",
-		"unitSupplyBase": 3,
-		"unitSupplyPerCity": 2,
+		"unitSupplyBase": 6,
+		"unitSupplyPerCity": 3,
 		"buildingCostModifier": 1.25,
 		"policyCostModifier": 1.25,
 		"unhappinessModifier": 1.25,
