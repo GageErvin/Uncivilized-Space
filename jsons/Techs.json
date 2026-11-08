@@ -148,6 +148,12 @@
 		"wonderCost": 300,
 		"techs": [
 			{
+				"name": "Bio-Hybridization",
+				"row": 2,
+				"cost": 0,
+				"prerequisites": ["Orbital Swarming", "Hive-Mind Engineering"]
+			}
+			{
 				"name": "Photon Computing",
 				"prerequisites": [
 					"Artificial Super Intelligence"
