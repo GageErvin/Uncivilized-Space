@@ -650,6 +650,7 @@
         "strength": 1,
         "movement": 3,
         "cost": 5,
+        "requiredTech": "Xeno-Genetics",
         "uniques": [
             "May capture killed [All] units"
         ]
@@ -660,6 +661,7 @@
         "strength": 3,
         "movement": 7,
         "cost": 7,
+        "requiredTech": "Bio-Hybridization",
         "uniques": [
             "May capture killed [All] units"
         ]
