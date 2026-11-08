@@ -103,6 +103,22 @@
 				],
 				"row": 5,
 				"quote": "Because getting hit by a speck of dust at a million miles per hour is surprisingly painful."
+			},
+			{
+				"name": "Cryogenics",
+				"prerequisites": [
+					"Nanotechnology"
+				],
+				"row": 7,
+				"quote": "Just a nap. A very, very long nap. Please don't wake us for a snack."
+			},
+			{
+				"name": "Artificial Super Intelligence",
+				"prerequisites": [
+					"Nanotechnology"
+				],
+				"row": 8,
+				"quote": "We designed a brain smarter than us. What could possibly go wrong? Right?"
 			}
 		]
 	},
@@ -128,31 +144,6 @@
 				"cost": 0,
 				"prerequisites": ["Orbital Swarming", "Hive-Mind Engineering"]
 			},
-			{
-				"name": "Cryogenics",
-				"prerequisites": [
-					"Nanotechnology"
-				],
-				"row": 7,
-				"quote": "Just a nap. A very, very long nap. Please don't wake us for a snack."
-			},
-			{
-				"name": "Artificial Super Intelligence",
-				"prerequisites": [
-					"Nanotechnology"
-				],
-				"row": 8,
-				"quote": "We designed a brain smarter than us. What could possibly go wrong? Right?"
-			}
-		]
-	},
-	{
-		"columnNumber": 5,
-		"era": "Diaspora",
-		"techCost": 275,
-		"buildingCost": 120,
-		"wonderCost": 300,
-		"techs": [
 			{
 				"name": "Photon Computing",
 				"prerequisites": [
@@ -204,18 +195,18 @@
 		]
 	},
 	{
-		"columnNumber": 6,
+		"columnNumber": 5,
 		"era": "Diaspora",
-		"techCost": 485,
-		"buildingCost": 160,
-		"wonderCost": 400,
+		"techCost": 275,
+		"buildingCost": 120,
+		"wonderCost": 300,
 		"techs": [
 			{
 				"name": "C-Fractional Thrust",
 				"prerequisites": [
 					"Strange Battery"
 				],
-				"row": 9,
+				"row": 8,
 				"quote": "At 0.0001c, our trip is so uneventful that the onboard computer is just running a screen saver of a star field."
 			},
 			{
@@ -223,7 +214,7 @@
 				"prerequisites": [
 					"High Efficiency Fusion"
 				],
-				"row": 4,
+				"row": 5,
 				"quote": "It's like a garden hose, but for melting things."
 			},
 			{
@@ -237,18 +228,18 @@
 		]
 	},
 	{
-		"columnNumber": 7,
+		"columnNumber": 6,
 		"era": "Diaspora",
-		"techCost": 780,
-		"buildingCost": 200,
-		"wonderCost": 500,
+		"techCost": 485,
+		"buildingCost": 160,
+		"wonderCost": 400,
 		"techs": [
 			{
 				"name": "Exotic Matter Condenser",
 				"prerequisites": [
 					"Directed Plasma"
 				],
-				"row": 4,
+				"row": 5,
 				"quote": "Why did the tachyon cross the road? Because it was already on the other side yesterday, and frankly, laughing at it violates causality."
 			},
 			{
