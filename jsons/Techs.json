@@ -50,7 +50,7 @@
 				"prerequisites": [
 					"Generational Ships"
 				],
-				"row": 3,
+				"row": 4,
 				"quote": "Our slogan: 'Where everything floats, including the budget.'"
 			},
 			{
@@ -58,7 +58,7 @@
 				"prerequisites": [
 					"Generational Ships"
 				],
-				"row": 4,
+				"row": 5,
 				"quote": "I have all of your knowledge, but none of your expensive student loans."
 			}
 		]
@@ -85,7 +85,7 @@
 					"Expert Systems",
 					"Zero-G Fabrication"
 				],
-				"row": 3,
+				"row": 4,
 				"quote": "What's the hardest part about coordinating a Dyson swarm?  Getting all the little robots to agree on a playlist."
 			},
 			{
@@ -165,7 +165,7 @@
 				"prerequisites": [
 					"Cryogenics"
 				],
-				"row": 4,
+				"row": 5,
 				"quote": "So you're saying it's... 'cool'?"
 			},
 			{
@@ -173,7 +173,7 @@
 				"prerequisites": [
 					"Cryogenics"
 				],
-				"row": 5,
+				"row": 6,
 				"quote": "I asked my hydrogen atoms for a commitment, but they said it's not that simple; you have to go through a very intense and complicated process to form a lasting bond."
 			},
 			{
