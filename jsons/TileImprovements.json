@@ -58,10 +58,12 @@
   },
   {
     "name": "Magnetic Acceleration Relay",
-    "turnsToBuild": 4,
+    "turnsToBuild": 7,
     "uniques": [
       "Can be built outside your borders",
-      "Costs [1] [Gold] per turn"
+      "Costs [1] [Gold] per turn",
+	  "Can be built just outside your borders",
+	  "Gain control over [Unowned] tiles in a [1]-tile radius"
     ],
     "shortcutKey": "R",
     "civilopediaText": [
