@@ -16,6 +16,7 @@
         "minRiverLength": 0,
         "maxRiverLength": 0,
         "minimalCityDistance": 4,
+        "cityWorkRange": 6,
         "minimalCityDistanceOnDifferentContinents": 4
     },
     "uniques": [
