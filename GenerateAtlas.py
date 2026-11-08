@@ -69,13 +69,10 @@ def pack_ora_to_atlas(
                   offset_w + crop_w,
                   offset_h + crop_h
               ))
-          if bool(re.search(r'([rR]esourceIcons|[Ii]mprovements)/', name)):
+          if bool(re.search(r'[Ii]mprovements/', name)):
               # Move from Improvements/ to Tiles/ and append 'T' to the name
-              name = re.sub(r'([rR]esourceIcons|[Ii]mprovements)/', 'Tiles/', name)
-              if bool(re.search(r'[Ii]mprovements/', name)):
-                name_b = name + 'T'
-              else:
-                name_b = name + 'R'
+              name = re.sub(r'[Ii]mprovements/', 'Tiles/', name)
+              name_b = name + 'T'
 
               layer_obj = {'name': name_b, 'img': img}
               standalone_images.append(layer_obj)
@@ -172,7 +169,6 @@ def pack_ora_to_atlas(
 
     # Check if it's an improvement layer (now under Tiles/ with a trailing 'T')
     is_improvement = bool(re.search(r'[Tt]iles/.*T$', raw_name))
-    is_resource = bool(re.search(r'[Tt]iles/.*R$', raw_name))
 
     primary_entry_name = raw_name
 
@@ -190,13 +186,10 @@ def pack_ora_to_atlas(
     append_atlas_entry(primary_entry_name)
 
     # 2. Secondary atlas entry for Improvements (maps to ImprovementIcons/)
-    if is_improvement or is_resource:
+    if is_improvement:
         # Strip off the trailing 'T' and switch Tiles/ to ImprovementIcons/
         base_improvement_name = raw_name[:-1]
-        if is_improvement:
-          secondary_icon_name = re.sub(r'^.*?[Tt]iles/', 'ImprovementIcons/', base_improvement_name)
-        else:
-          secondary_icon_name = re.sub(r'^.*?[Tt]iles/', 'ResourceIcons/', base_improvement_name)
+        secondary_icon_name = re.sub(r'^.*?[Tt]iles/', 'ImprovementIcons/', base_improvement_name)
         append_atlas_entry(secondary_icon_name)
 
   with open(output_atlas, 'w', encoding='utf-8') as f:

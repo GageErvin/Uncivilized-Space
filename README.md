@@ -6,28 +6,17 @@ Balanced for a huge map; must enable 'permanent audio-visual mod' and select til
 
 Ruins
 Science victory
-Great people?  'Citadel' could be an orbital fortress type thing
-Events, Quests, more Policy trees
-Buildings & Improvements
-- diversify with new leveraging stats or resources into one-another 
-- diversify with new per-nation variants (ea nation should have many unique; each base should be used by at least 2)
+Great people?
+Events, Quests
 units
-- many carefully gated promotions
 - diverse uniques nearly as a rule rather than exception
 - scout promotions: cheaper, faster, more vision, slightly buffer
 - command ships 
-- Immobile satellite build only civilian, provides sight
 - immobile movement orbital fortress
 Terrains
-- Meteor fields,
-- Rogue planets,
-- Asteroid belts
-- rocky planet and ringed rocky planet
-- variants of each moon and planet according to type rarity
-- low-flux variants to planet surroundings and diversify 'water' content {ultra-low-1, ultra-low-2, ..
+- moon variants
 Diverse luxuries and wonders
 - black hole
-- 
 Nations
 - diversify all forms.  ex: 'Macroform S-3'  (S-3 would be a sci-fi esc designation for where this form was discovered.)
 Add and constrain some moon variants to be actual moons, then reduce probability of all variants
@@ -35,16 +24,20 @@ Add and constrain some moon variants to be actual moons, then reduce probability
 
 ## TODO
 
-Improvement images don't show
+- terrain grab improvement? 'Citadel' could be an orbital fortress type thing .. or incr gold .. or reduce land price
+- fix no culture price bug
+  - if must add culture to cities make border growth resistant
 
-Computer opponents struggle to place multiple settlements.  barbarians won't spawn (many current variants).  allow settlement of all tiles for [AI Player] and use space stations for cities?
-
-Income inadequate for crazy land prices.. Reduce and add buildings.
-Culture from discovery of new tiles -- wonderous decorative tiles (image)
-A means for subs to get XP -- couldn't find a way to make it happen when missiles explode or get carried places.. perhaps they can have a set of dedicated promotions and starting xp from a building for a 1-option customization?
-
-Multi-tile constructables (images)
-- unit (front must be adjacent to rear ; on completion transforms; rear transforms)
-- structure (dyson sphere -- surounding pieces must be adjacent to each other; center piece too; when adjacent, extra stats )
-
-Buildings shouldn't replace expert research system for every civ (common buildings should be used by at least 2 natinos).. repurpose some and add more!
+- uncive-mod, unciv-mod-rulesets
+- unit vision but not terrain vision terrain restrictions if doable
+- barbarians won't spawn (many current variants).
+- allow settlement of all tiles for [AI Player]
+- convert feature: ice giant, ringed terrest, gas giant, orange black marbe, light orange marb, blue world, debris fields, nebula
+- culture for finding tile imprv. wonders; imgs rdy: Deep Space Eco Sphere , Stationary Eco Sphere
+- a means for subs to get XP -- couldn't find a way to make it happen when missiles explode or get carried places.. perhaps they can have a set of dedicated promotions and starting xp from a building for a 1-option customization?
+- unit imgs rdy: Bio Breach, Mech Breach ; Spore Slug, Nano Infester
+- multi-tile constructables (images)
+  - unit (front must be adjacent to rear ; on completion transforms; rear transforms)
+  - structure (dyson sphere -- surounding pieces must be adjacent to each other; center piece too; when adjacent, extra stats )
+- em decoys (images)
+  - unit convert action creates 1-turn em decoys (not sure if supported by mechanics.. maybe with statuses and on-events)

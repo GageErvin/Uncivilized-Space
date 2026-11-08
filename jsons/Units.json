@@ -116,11 +116,13 @@
         ]
     },
     {
-        "name": "Data Archivist",
+        "name": "Survey Vessel",
         "unitType": "Scout",
         "movement": 3,
-        "combatStrength": 5,
-        "cost": 20,
+        "combatStrength": 2,
+        "cost": 15,
+        "upgradesTo": "Data Archivist",
+        "obsoleteWith": "Cryogenics",
         "uniques": [
             "[-1] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
             "[-1] Sight <in [High Flux Space] tiles> <hidden from users>",
@@ -131,6 +133,24 @@
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+1] Sight",
             "Never appears as a Barbarian unit"
+        ]
+    },
+    {
+        "name": "Data Archivist",
+        "unitType": "Scout",
+        "requiredTech": "Cryogenics",
+        "movement": 5,
+        "combatStrength": 10,
+        "cost": 40,
+        "uniques": [
+            "[-1] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
+            "[-1] Sight <in [High Flux Space] tiles> <hidden from users>",
+            "[-1] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
+            "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+            "[+4] Sight"
         ]
     },
     {
@@ -284,8 +304,6 @@
             "[1] additional attacks per turn"
         ]
     },
-    // Bio Breach, Mech Breach
-    // Spore Slug, Nano Infester
     {
         "name": "Missile",
         "unitType": "Missile",
