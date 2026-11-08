@@ -80,6 +80,7 @@
             "Self-destructs when attacking",
             "[-1] Sight",
             "Unbuildable",
+            "Unable to capture cities",
             "[+200]% Strength <when attacking>",
             "[This Unit] takes [30] damage <upon turn start>"
         ],
