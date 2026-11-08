@@ -27,7 +27,7 @@
 		"terrainsCanBeFoundOn": [
 			"Ringed Ice Giant",
 			"Ice Giant",
-			"Terrestrial Planet",
+			"Blue Marble", "Dull-Green Marble", "Fuzzy-Blue Gas", "Fuzzy-Green Gas", "Light-Orange Marble", "Orange Marble", "Orange-Black Marble", "Silver-Grey Marble", "Stony Marble", "Yellow-Green-Blue Marble",
 			"Cragolith Moon"
 		],
 		"production": 1,
