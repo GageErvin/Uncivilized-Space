@@ -125,7 +125,7 @@
         "unitType": "Stored Breach Pod",
         "movement": 5,
         "strength": 0,
-        "cost": 100,
+        "cost": 50,
         "requiredTech": "Xeno-Genetics",
         "uniques": [
             "Can transform to [Bio Breach] <for [0] movement>"
@@ -136,7 +136,7 @@
         "unitType": "Drone",
         "strength": 5,
         "movement": 4,
-        "cost": 100,
+        "cost": 40,
         "uniques": [
             "No damage penalty for wounded units",
             "Self-destructs when attacking",
