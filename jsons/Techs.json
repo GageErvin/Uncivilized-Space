@@ -166,7 +166,7 @@
 				"prerequisites": [
 					"Artificial Super Intelligence"
 				],
-				"row": 8,
+				"row": 9,
 				"quote": "Look, if a cat can chase a laser pointer, why can't a spaceship?"
 			},
 			{
@@ -176,16 +176,7 @@
 				],
 				"row": 4,
 				"quote": "So you're saying it's... 'cool'?"
-			}
-		]
-	},
-	{
-		"columnNumber": 6,
-		"era": "Diaspora",
-		"techCost": 485,
-		"buildingCost": 160,
-		"wonderCost": 400,
-		"techs": [
+			},
 			{
 				"name": "High Efficiency Fusion",
 				"prerequisites": [
@@ -213,11 +204,11 @@
 		]
 	},
 	{
-		"columnNumber": 7,
+		"columnNumber": 6,
 		"era": "Diaspora",
-		"techCost": 780,
-		"buildingCost": 200,
-		"wonderCost": 500,
+		"techCost": 485,
+		"buildingCost": 160,
+		"wonderCost": 400,
 		"techs": [
 			{
 				"name": "C-Fractional Thrust",
@@ -246,11 +237,11 @@
 		]
 	},
 	{
-		"columnNumber": 8,
+		"columnNumber": 7,
 		"era": "Diaspora",
-		"techCost": 1150,
-		"buildingCost": 250,
-		"wonderCost": 625,
+		"techCost": 780,
+		"buildingCost": 200,
+		"wonderCost": 500,
 		"techs": [
 			{
 				"name": "Exotic Matter Condenser",
