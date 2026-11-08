@@ -11,13 +11,17 @@
   //   - also in some units: 'remove if all space is water after getting map gen right -- makes planets a bit more defensible'
   {
     "name": "Debris Fields",
-    "type": "Land",
+    "type": "TerrainFeature",
+    "overrideStats": false,
+    "occursOn": ["Blue Marble", "Dull-Green Marble", "Fuzzy-Blue Gas", "Fuzzy-Green Gas", "Orange Marble", "Silver-Grey Marble", "Stony Marble", "Yellow-Green-Blue Marble", "Ringed Gas Giant", "Ringed Ice Giant", "Zero Flux Space", "Low Flux Space", "Moderate Flux Space", "High Flux Space"],
     "RGB": [90,90,60],
     "Impassible": true,
     "gold": 1,
     "production": 1,
     "uniques": [
       "[-3] Sight",
+      "Occurs in chains at high elevations",
+      "Rare feature",
       "Blocks line-of-sight from tiles at same elevation"
     ]
   },
@@ -562,7 +566,7 @@
     "name": "Cragolith Moon",
     "type": "TerrainFeature",
     "overrideStats": false,
-    "occursOn": ["Blue Marble", "Blue World", "Dull-Green Marble", "Fuzzy-Blue Gas", "Fuzzy-Green Gas", "Light-Orange Marble", "Orange Marble", "Orange-Black Marble", "Silver-Grey Marble", "Stony Marble", "Yellow-Green-Blue Marble", "Gas Giant", "Ringed Gas Giant", "Ice Giant", "Ringed Ice Giant", "Ringed Terrestrial Planet", "Zero Flux Space", "Low Flux Space", "Moderate Flux Space", "High Flux Space", "Extreme Flux Space"],
+    "occursOn": ["Blue Marble", "Dull-Green Marble", "Fuzzy-Blue Gas", "Fuzzy-Green Gas", "Orange Marble", "Silver-Grey Marble", "Stony Marble", "Yellow-Green-Blue Marble", "Ringed Gas Giant", "Ringed Ice Giant", "Zero Flux Space", "Low Flux Space", "Moderate Flux Space", "High Flux Space", "Extreme Flux Space"],
     "food": 0,
     "production": 1,
     "culture": 0,
@@ -587,7 +591,7 @@
     "name": "Cryolith Moon",
     "type": "TerrainFeature",
     "overrideStats": false,
-    "occursOn": ["Blue Marble", "Blue World", "Dull-Green Marble", "Fuzzy-Blue Gas", "Fuzzy-Green Gas", "Light-Orange Marble", "Orange Marble", "Orange-Black Marble", "Silver-Grey Marble", "Stony Marble", "Yellow-Green-Blue Marble", "Gas Giant", "Ringed Gas Giant", "Ice Giant", "Ringed Ice Giant", "Ringed Terrestrial Planet", "Zero Flux Space", "Low Flux Space", "Moderate Flux Space", "High Flux Space", "Extreme Flux Space"],
+    "occursOn": ["Blue Marble", "Dull-Green Marble", "Fuzzy-Blue Gas", "Fuzzy-Green Gas", "Orange Marble", "Silver-Grey Marble", "Stony Marble", "Yellow-Green-Blue Marble", "Ringed Gas Giant", "Ringed Ice Giant", "Zero Flux Space", "Low Flux Space", "Moderate Flux Space", "High Flux Space", "Extreme Flux Space"],
     "food": 1,
     "culture": 0,
     "production": 0,
@@ -608,7 +612,7 @@
       "Becomes [High Flux Space] when adjacent to [K7V Star]"
     ]
   },
-  {
+  { 
     "name": "Blue Marble",
     "type": "Land",
     "food": 4,
@@ -623,6 +627,14 @@
     "uniques": [
       "Considered [Desirable] when determining start locations",
       "[-1] Sight",
+      "Becomes [Moderate Flux Space] when adjacent to [Yellow-Green-Blue Marble]",
+      "Becomes [Moderate Flux Space] when adjacent to [Stony Marble]",
+      "Becomes [Moderate Flux Space] when adjacent to [Silver-Grey Marble]",
+      "Becomes [Moderate Flux Space] when adjacent to [Orange Marble]",
+      "Becomes [Moderate Flux Space] when adjacent to [Fuzzy-Green Gas]",
+      "Becomes [Moderate Flux Space] when adjacent to [Fuzzy-Blue Gas]",
+      "Becomes [Moderate Flux Space] when adjacent to [Dull-Green Marble]",
+      "Becomes [Moderate Flux Space] when adjacent to [Blue Marble]",
       "Becomes [High Flux Space] when adjacent to [M4IV Star]",
       "Becomes [High Flux Space] when adjacent to [M5IV Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
@@ -646,7 +658,9 @@
   },
   {
     "name": "Blue World",
-    "type": "Land",
+    "type": "TerrainFeature",
+    "overrideStats": false,
+    "occursOn": ["Blue Marble", "Dull-Green Marble", "Fuzzy-Blue Gas", "Fuzzy-Green Gas", "Orange Marble", "Silver-Grey Marble", "Stony Marble", "Yellow-Green-Blue Marble", "Ringed Gas Giant", "Ringed Ice Giant", "Zero Flux Space", "Low Flux Space", "Moderate Flux Space", "High Flux Space", "Extreme Flux Space"],
     "food": 4,
     "production": 2,
     "happiness": 2,
@@ -658,6 +672,7 @@
     ],
     "uniques": [
       "Considered [Desirable] when determining start locations",
+      "Rare feature",
       "[-1] Sight",
       "Becomes [High Flux Space] when adjacent to [M4IV Star]",
       "Becomes [High Flux Space] when adjacent to [M5IV Star]",
@@ -670,13 +685,6 @@
       "Becomes [Low Flux Space] when adjacent to [M7V Star]",
       "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
       "Becomes [High Flux Space] when adjacent to [K7V Star]",
-      "Becomes [Low Flux Space] when adjacent to [Cryolith Moon]",
-      "Becomes [Low Flux Space] when adjacent to [Cragolith Moon]",
-      "Becomes [Low Flux Space] when adjacent to [Ringed Terrestrial Planet]",
-      "Becomes [Low Flux Space] when adjacent to [Ice Giant]",
-      "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]",
-      "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
-      "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]",
       "Becomes [High Flux Space] when adjacent to [Extreme Flux Space]"
     ]
   },
@@ -695,6 +703,14 @@
     "uniques": [
       "Considered [Desirable] when determining start locations",
       "[-2] Sight",
+      "Becomes [Moderate Flux Space] when adjacent to [Yellow-Green-Blue Marble]",
+      "Becomes [Moderate Flux Space] when adjacent to [Stony Marble]",
+      "Becomes [Moderate Flux Space] when adjacent to [Silver-Grey Marble]",
+      "Becomes [Moderate Flux Space] when adjacent to [Orange Marble]",
+      "Becomes [Moderate Flux Space] when adjacent to [Fuzzy-Green Gas]",
+      "Becomes [Moderate Flux Space] when adjacent to [Fuzzy-Blue Gas]",
+      "Becomes [Moderate Flux Space] when adjacent to [Dull-Green Marble]",
+      "Becomes [Moderate Flux Space] when adjacent to [Blue Marble]",
       "Becomes [High Flux Space] when adjacent to [M4IV Star]",
       "Becomes [High Flux Space] when adjacent to [M5IV Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
@@ -716,7 +732,7 @@
       "Becomes [High Flux Space] when adjacent to [Extreme Flux Space]"
     ]
   },
-  {
+  { 
     "name": "Fuzzy-Blue Gas",
     "type": "Land",
     "food": 4,
@@ -732,6 +748,14 @@
       "Considered [Desirable] when determining start locations",
       "[-2] Sight",
       "Blocks line-of-sight from tiles at same elevation",
+      "Becomes [Moderate Flux Space] when adjacent to [Yellow-Green-Blue Marble]",
+      "Becomes [Moderate Flux Space] when adjacent to [Stony Marble]",
+      "Becomes [Moderate Flux Space] when adjacent to [Silver-Grey Marble]",
+      "Becomes [Moderate Flux Space] when adjacent to [Orange Marble]",
+      "Becomes [Moderate Flux Space] when adjacent to [Fuzzy-Green Gas]",
+      "Becomes [Moderate Flux Space] when adjacent to [Fuzzy-Blue Gas]",
+      "Becomes [Moderate Flux Space] when adjacent to [Dull-Green Marble]",
+      "Becomes [Moderate Flux Space] when adjacent to [Blue Marble]",
       "Becomes [High Flux Space] when adjacent to [M4IV Star]",
       "Becomes [High Flux Space] when adjacent to [M5IV Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
@@ -753,7 +777,7 @@
       "Becomes [High Flux Space] when adjacent to [Extreme Flux Space]"
     ]
   },
-  {
+  { 
     "name": "Fuzzy-Green Gas",
     "type": "Land",
     "food": 4,
@@ -768,6 +792,14 @@
     "uniques": [
       "Considered [Desirable] when determining start locations",
       "[-2] Sight",
+      "Becomes [Moderate Flux Space] when adjacent to [Yellow-Green-Blue Marble]",
+      "Becomes [Moderate Flux Space] when adjacent to [Stony Marble]",
+      "Becomes [Moderate Flux Space] when adjacent to [Silver-Grey Marble]",
+      "Becomes [Moderate Flux Space] when adjacent to [Orange Marble]",
+      "Becomes [Moderate Flux Space] when adjacent to [Fuzzy-Green Gas]",
+      "Becomes [Moderate Flux Space] when adjacent to [Fuzzy-Blue Gas]",
+      "Becomes [Moderate Flux Space] when adjacent to [Dull-Green Marble]",
+      "Becomes [Moderate Flux Space] when adjacent to [Blue Marble]",
       "Becomes [High Flux Space] when adjacent to [M4IV Star]",
       "Becomes [High Flux Space] when adjacent to [M5IV Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
@@ -791,7 +823,9 @@
   },
   {
     "name": "Light-Orange Marble",
-    "type": "Land",
+    "type": "TerrainFeature",
+    "overrideStats": false,
+    "occursOn": ["Blue Marble", "Dull-Green Marble", "Fuzzy-Blue Gas", "Fuzzy-Green Gas", "Orange Marble", "Silver-Grey Marble", "Stony Marble", "Yellow-Green-Blue Marble", "Ringed Gas Giant", "Ringed Ice Giant", "Zero Flux Space", "Low Flux Space", "Moderate Flux Space", "High Flux Space", "Extreme Flux Space"],
     "food": 2,
     "production": 3,
     "gold": 2,
@@ -804,6 +838,7 @@
     ],
     "uniques": [
       "Considered [Desirable] when determining start locations",
+      "Rare feature",
       "[-2] Sight",
       "Blocks line-of-sight from tiles at same elevation",
       "Becomes [High Flux Space] when adjacent to [M4IV Star]",
@@ -817,13 +852,6 @@
       "Becomes [Low Flux Space] when adjacent to [M7V Star]",
       "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
       "Becomes [High Flux Space] when adjacent to [K7V Star]",
-      "Becomes [Low Flux Space] when adjacent to [Cryolith Moon]",
-      "Becomes [Low Flux Space] when adjacent to [Cragolith Moon]",
-      "Becomes [Low Flux Space] when adjacent to [Ringed Terrestrial Planet]",
-      "Becomes [Low Flux Space] when adjacent to [Ice Giant]",
-      "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]",
-      "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
-      "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]",
       "Becomes [High Flux Space] when adjacent to [Extreme Flux Space]"
     ]
   },
@@ -843,6 +871,14 @@
       "Considered [Desirable] when determining start locations",
       "[-2] Sight",
       "Blocks line-of-sight from tiles at same elevation",
+      "Becomes [Moderate Flux Space] when adjacent to [Yellow-Green-Blue Marble]",
+      "Becomes [Moderate Flux Space] when adjacent to [Stony Marble]",
+      "Becomes [Moderate Flux Space] when adjacent to [Silver-Grey Marble]",
+      "Becomes [Moderate Flux Space] when adjacent to [Orange Marble]",
+      "Becomes [Moderate Flux Space] when adjacent to [Fuzzy-Green Gas]",
+      "Becomes [Moderate Flux Space] when adjacent to [Fuzzy-Blue Gas]",
+      "Becomes [Moderate Flux Space] when adjacent to [Dull-Green Marble]",
+      "Becomes [Moderate Flux Space] when adjacent to [Blue Marble]",
       "Becomes [High Flux Space] when adjacent to [M4IV Star]",
       "Becomes [High Flux Space] when adjacent to [M5IV Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
@@ -866,7 +902,9 @@
   },
   {
     "name": "Orange-Black Marble",
-    "type": "Land",
+    "type": "TerrainFeature",
+    "overrideStats": false,
+    "occursOn": ["Blue Marble", "Dull-Green Marble", "Fuzzy-Blue Gas", "Fuzzy-Green Gas", "Orange Marble", "Silver-Grey Marble", "Stony Marble", "Yellow-Green-Blue Marble", "Ringed Gas Giant", "Ringed Ice Giant", "Zero Flux Space", "Low Flux Space", "Moderate Flux Space", "High Flux Space", "Extreme Flux Space"],
     "food": 2,
     "production": 3,
     "happiness": 3,
@@ -878,6 +916,7 @@
     ],
     "uniques": [
       "Considered [Desirable] when determining start locations",
+      "Rare feature",
       "[-2] Sight",
       "Blocks line-of-sight from tiles at same elevation",
       "Becomes [High Flux Space] when adjacent to [M4IV Star]",
@@ -891,17 +930,10 @@
       "Becomes [Low Flux Space] when adjacent to [M7V Star]",
       "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
       "Becomes [High Flux Space] when adjacent to [K7V Star]",
-      "Becomes [Low Flux Space] when adjacent to [Cryolith Moon]",
-      "Becomes [Low Flux Space] when adjacent to [Cragolith Moon]",
-      "Becomes [Low Flux Space] when adjacent to [Ringed Terrestrial Planet]",
-      "Becomes [Low Flux Space] when adjacent to [Ice Giant]",
-      "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]",
-      "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
-      "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]",
       "Becomes [High Flux Space] when adjacent to [Extreme Flux Space]"
     ]
   },
-  {
+  { 
     "name": "Silver-Grey Marble",
     "type": "Land",
     "food": 2,
@@ -916,6 +948,14 @@
     "uniques": [
       "Considered [Desirable] when determining start locations",
       "Blocks line-of-sight from tiles at same elevation",
+      "Becomes [Moderate Flux Space] when adjacent to [Yellow-Green-Blue Marble]",
+      "Becomes [Moderate Flux Space] when adjacent to [Stony Marble]",
+      "Becomes [Moderate Flux Space] when adjacent to [Silver-Grey Marble]",
+      "Becomes [Moderate Flux Space] when adjacent to [Orange Marble]",
+      "Becomes [Moderate Flux Space] when adjacent to [Fuzzy-Green Gas]",
+      "Becomes [Moderate Flux Space] when adjacent to [Fuzzy-Blue Gas]",
+      "Becomes [Moderate Flux Space] when adjacent to [Dull-Green Marble]",
+      "Becomes [Moderate Flux Space] when adjacent to [Blue Marble]",
       "Becomes [High Flux Space] when adjacent to [M4IV Star]",
       "Becomes [High Flux Space] when adjacent to [M5IV Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
@@ -952,6 +992,14 @@
     "uniques": [
       "Considered [Desirable] when determining start locations",
       "[-1] Sight",
+      "Becomes [Moderate Flux Space] when adjacent to [Yellow-Green-Blue Marble]",
+      "Becomes [Moderate Flux Space] when adjacent to [Stony Marble]",
+      "Becomes [Moderate Flux Space] when adjacent to [Silver-Grey Marble]",
+      "Becomes [Moderate Flux Space] when adjacent to [Orange Marble]",
+      "Becomes [Moderate Flux Space] when adjacent to [Fuzzy-Green Gas]",
+      "Becomes [Moderate Flux Space] when adjacent to [Fuzzy-Blue Gas]",
+      "Becomes [Moderate Flux Space] when adjacent to [Dull-Green Marble]",
+      "Becomes [Moderate Flux Space] when adjacent to [Blue Marble]",
       "Becomes [High Flux Space] when adjacent to [M4IV Star]",
       "Becomes [High Flux Space] when adjacent to [M5IV Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
@@ -975,11 +1023,13 @@
   },
   {
     "name": "Ringed Terrestrial Planet",
-    "type": "Land",
-    "food": 2,
+    "type": "TerrainFeature",
+    "overrideStats": false,
+    "occursOn": ["Blue Marble", "Dull-Green Marble", "Fuzzy-Blue Gas", "Fuzzy-Green Gas", "Orange Marble", "Silver-Grey Marble", "Stony Marble", "Yellow-Green-Blue Marble", "Ringed Gas Giant", "Ringed Ice Giant", "Zero Flux Space", "Low Flux Space", "Moderate Flux Space", "High Flux Space", "Extreme Flux Space"],
+    "food": 1,
     "culture": 0,
-    "production": 4,
-    "happiness": 2,
+    "production": 2,
+    "happiness": 3,
     "defenseBonus": -1,
     "RGB": [
       0,
@@ -987,6 +1037,7 @@
       255
     ],
     "uniques": [
+      "Rare feature",
       "[-3] Sight",
       "Considered [Desirable] when determining start locations",
       "Blocks line-of-sight from tiles at same elevation",
@@ -1001,17 +1052,10 @@
       "Becomes [Low Flux Space] when adjacent to [M7V Star]",
       "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
       "Becomes [High Flux Space] when adjacent to [K7V Star]",
-      "Becomes [Low Flux Space] when adjacent to [Cryolith Moon]",
-      "Becomes [Low Flux Space] when adjacent to [Cragolith Moon]",
-      "Becomes [Low Flux Space] when adjacent to [Ringed Terrestrial Planet]",
-      "Becomes [Low Flux Space] when adjacent to [Ice Giant]",
-      "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]",
-      "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
-      "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]",
       "Becomes [High Flux Space] when adjacent to [Extreme Flux Space]"
     ]
   },
-  {
+  { 
     "name": "Yellow-Green-Blue Marble",
     "type": "Land",
     "food": 3,
@@ -1028,6 +1072,14 @@
       "[-3] Sight",
       "Considered [Desirable] when determining start locations",
       "Blocks line-of-sight from tiles at same elevation",
+      "Becomes [Moderate Flux Space] when adjacent to [Yellow-Green-Blue Marble]",
+      "Becomes [Moderate Flux Space] when adjacent to [Stony Marble]",
+      "Becomes [Moderate Flux Space] when adjacent to [Silver-Grey Marble]",
+      "Becomes [Moderate Flux Space] when adjacent to [Orange Marble]",
+      "Becomes [Moderate Flux Space] when adjacent to [Fuzzy-Green Gas]",
+      "Becomes [Moderate Flux Space] when adjacent to [Fuzzy-Blue Gas]",
+      "Becomes [Moderate Flux Space] when adjacent to [Dull-Green Marble]",
+      "Becomes [Moderate Flux Space] when adjacent to [Blue Marble]",
       "Becomes [High Flux Space] when adjacent to [M4IV Star]",
       "Becomes [High Flux Space] when adjacent to [M5IV Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
@@ -1051,7 +1103,9 @@
   },
   {
     "name": "Gas Giant",
-    "type": "Land",
+    "type": "TerrainFeature",
+    "overrideStats": false,
+    "occursOn": ["Blue Marble", "Dull-Green Marble", "Fuzzy-Blue Gas", "Fuzzy-Green Gas", "Orange Marble", "Silver-Grey Marble", "Stony Marble", "Yellow-Green-Blue Marble", "Ringed Gas Giant", "Ringed Ice Giant", "Zero Flux Space", "Low Flux Space", "Moderate Flux Space", "High Flux Space", "Extreme Flux Space"],
     "food": 2,
     "production": 3,
     "defenseBonus": -1,
@@ -1061,6 +1115,7 @@
       0
     ],
     "uniques": [
+      "Rare feature",
       "[-3] Sight",
       "Blocks line-of-sight from tiles at same elevation",
       "Becomes [High Flux Space] when adjacent to [M4IV Star]",
@@ -1074,13 +1129,6 @@
       "Becomes [Low Flux Space] when adjacent to [M7V Star]",
       "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
       "Becomes [High Flux Space] when adjacent to [K7V Star]",
-      "Becomes [Low Flux Space] when adjacent to [Cryolith Moon]",
-      "Becomes [Low Flux Space] when adjacent to [Cragolith Moon]",
-      "Becomes [Low Flux Space] when adjacent to [Ringed Terrestrial Planet]",
-      "Becomes [Low Flux Space] when adjacent to [Ice Giant]",
-      "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]",
-      "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
-      "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]",
       "Becomes [High Flux Space] when adjacent to [Extreme Flux Space]"
     ]
   },
@@ -1122,7 +1170,9 @@
   },
   {
     "name": "Ice Giant",
-    "type": "Land",
+    "type": "TerrainFeature",
+    "overrideStats": false,
+    "occursOn": ["Blue Marble", "Dull-Green Marble", "Fuzzy-Blue Gas", "Fuzzy-Green Gas", "Orange Marble", "Silver-Grey Marble", "Stony Marble", "Yellow-Green-Blue Marble", "Ringed Gas Giant", "Ringed Ice Giant", "Zero Flux Space", "Low Flux Space", "Moderate Flux Space", "High Flux Space", "Extreme Flux Space"],
     "food": 2,
     "production": 2,
     "science": 1,
@@ -1133,6 +1183,7 @@
       255
     ],
     "uniques": [
+      "Rare feature",
       "Becomes [High Flux Space] when adjacent to [M4IV Star]",
       "Becomes [High Flux Space] when adjacent to [M5IV Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
@@ -1144,13 +1195,6 @@
       "Becomes [Low Flux Space] when adjacent to [M7V Star]",
       "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
       "Becomes [High Flux Space] when adjacent to [K7V Star]",
-      "Becomes [Low Flux Space] when adjacent to [Cryolith Moon]",
-      "Becomes [Low Flux Space] when adjacent to [Cragolith Moon]",
-      "Becomes [Low Flux Space] when adjacent to [Ringed Terrestrial Planet]",
-      "Becomes [Low Flux Space] when adjacent to [Ice Giant]",
-      "Becomes [Low Flux Space] when adjacent to [Ringed Ice Giant]",
-      "Becomes [Low Flux Space] when adjacent to [Gas Giant]",
-      "Becomes [Low Flux Space] when adjacent to [Ringed Gas Giant]",
       "Becomes [High Flux Space] when adjacent to [Extreme Flux Space]"
     ]
   },
@@ -1194,7 +1238,9 @@
   },
   {
     "name": "Nebula",
-    "type": "Land",
+    "type": "TerrainFeature",
+    "overrideStats": false,
+    "occursOn": ["Blue Marble", "Dull-Green Marble", "Fuzzy-Blue Gas", "Fuzzy-Green Gas", "Orange Marble", "Silver-Grey Marble", "Stony Marble", "Yellow-Green-Blue Marble", "Ringed Gas Giant", "Ringed Ice Giant", "Zero Flux Space", "Low Flux Space", "Moderate Flux Space", "High Flux Space", "Extreme Flux Space"],
     "science": 1,
     "food": 1,
     "RGB": [
@@ -1203,18 +1249,12 @@
       30
     ],
     "uniques": [
+      "Rare feature",
       "Occurs in chains at high elevations",
-      "Becomes [Cragolith Moon] when adjacent to [Ice Giant]",
-      "Becomes [Cragolith Moon] when adjacent to [Gas Giant]",
       "Becomes [High Flux Space] when adjacent to [M4IV Star]",
       "Becomes [High Flux Space] when adjacent to [M5IV Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M4VI Star]",
       "Becomes [Moderate Flux Space] when adjacent to [M5VI Star]",
-      "Becomes [Low Flux Space] when adjacent to [M3V Star]",
-      "Becomes [Low Flux Space] when adjacent to [M4V Star]",
-      "Becomes [Low Flux Space] when adjacent to [M5V Star]",
-      "Becomes [Low Flux Space] when adjacent to [M6V Star]",
-      "Becomes [Low Flux Space] when adjacent to [M7V Star]",
       "Becomes [Extreme Flux Space] when adjacent to [G2VII Star]",
       "Becomes [High Flux Space] when adjacent to [K7V Star]"
     ]

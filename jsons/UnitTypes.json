@@ -9,6 +9,32 @@
         ]
     },
     {
+        "name": "Settler",
+        "movementType": "Land",
+        "uniques": [
+            "Ignores terrain cost <hidden from users>",
+            "May travel on Water tiles without embarking <hidden from users>",
+            "Gain [3] [Culture]",
+            "Founds a new city <by consuming this unit> <in [Gas Giant] tiles>",
+            "Founds a new city <by consuming this unit> <in [Ringed Gas Giant] tiles>",
+            "Founds a new city <by consuming this unit> <in [Ice Giant] tiles>",
+            "Founds a new city <by consuming this unit> <in [Ringed Ice Giant] tiles>",
+            "Founds a new city <by consuming this unit> <in [Cryolith Moon] tiles>",
+            "Founds a new city <by consuming this unit> <in [Cragolith Moon] tiles>",
+            "Founds a new city <by consuming this unit> <in [Blue Marble] tiles>",
+            "Founds a new city <by consuming this unit> <in [Blue World] tiles>",
+            "Founds a new city <by consuming this unit> <in [Dull-Green Marble] tiles>",
+            "Founds a new city <by consuming this unit> <in [Fuzzy-Blue Gas] tiles>",
+            "Founds a new city <by consuming this unit> <in [Fuzzy-Green Gas] tiles>",
+            "Founds a new city <by consuming this unit> <in [Light-Orange Marble] tiles>",
+            "Founds a new city <by consuming this unit> <in [Orange Marble] tiles>",
+            "Founds a new city <by consuming this unit> <in [Orange-Black Marble] tiles>",
+            "Founds a new city <by consuming this unit> <in [Silver-Grey Marble] tiles>",
+            "Founds a new city <by consuming this unit> <in [Stony Marble] tiles>",
+            "Founds a new city <by consuming this unit> <in [Yellow-Green-Blue Marble] tiles>"
+        ]
+    },
+    {
         "name": "Scout",
         "movementType": "Land",
         "uniques": [
