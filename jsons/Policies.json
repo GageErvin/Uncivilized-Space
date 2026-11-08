@@ -11,12 +11,12 @@
             {
                 "name": "Orbital Homesteading",
                 "uniques": [
-                    "[+1 Food] from [Terrestrial Planet] tiles [in all cities]",
                     "[+1 Food] from [Ringed Terrestrial Planet] tiles [in all cities]",
                     "[+1 Food] from [Ice Giant] tiles [in all cities]",
                     "[+1 Food] from [Ringed Ice Giant] tiles [in all cities]",
                     "[+1 Food] from [Gas Giant] tiles [in all cities]",
-                    "[+1 Food] from [Ringed Gas Giant] tiles [in all cities]"
+                    "[+1 Food] from [Ringed Gas Giant] tiles [in all cities]",
+                    // todo "Blue Marble, Blue World", "Dull-Green Marble", "Fuzzy-Blue Gas", "Fuzzy-Green Gas", "Light-Orange Marble", "Orange Marble", "Orange-Black Marble", "Silver-Grey Marble", "Stony Marble", "Yellow-Green-Blue Marble"
                 ],
                 "row": 1, "column": 3
             },
