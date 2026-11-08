@@ -4,20 +4,19 @@
 		"resourceType": "Strategic",
 		"revealedBy": "Athermal Lens",
 		"terrainsCanBeFoundOn": [
-			"Nebula",
-			"Moderate Flux Space"
+			"Nebula"
 		],
 		"improvedBy": [
 			"Particulate Collection Array"
 		],
 		"majorDepositAmount": {
-			"sparse": 5,
-			"default": 7,
-			"abundant": 9
+			"sparse": 3,
+			"default": 5,
+			"abundant": 7
 		},
 		"minorDepositAmount": {
-			"sparse": 2,
-			"default": 3,
+			"sparse": 1,
+			"default": 2,
 			"abundant": 3
 		}
 	},
@@ -26,23 +25,22 @@
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": [
 			"Ringed Ice Giant",
-			"Ice Giant",
-			"Blue Marble", "Dull-Green Marble", "Fuzzy-Blue Gas", "Fuzzy-Green Gas", "Light-Orange Marble", "Orange Marble", "Orange-Black Marble", "Silver-Grey Marble", "Stony Marble", "Yellow-Green-Blue Marble",
+			"Orange-Black Marble", "Silver-Grey Marble", "Stony Marble",
 			"Cragolith Moon"
 		],
 		"production": 1,
 		"improvementStats": {
-			"production": 3
+			"production": 2
 		},
 		"majorDepositAmount": {
-			"sparse": 1,
-			"default": 1,
-			"abundant": 1
+			"sparse": 3,
+			"default": 5,
+			"abundant": 7
 		},
 		"minorDepositAmount": {
 			"sparse": 1,
-			"default": 1,
-			"abundant": 1
+			"default": 2,
+			"abundant": 3
 		}
 	},
 	{
