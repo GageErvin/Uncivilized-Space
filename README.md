@@ -21,12 +21,12 @@ Nations
 - diversify all forms.  ex: 'Macroform S-3'  (S-3 would be a sci-fi esc designation for where this form was discovered.)
 Add and constrain some moon variants to be actual moons, then reduce probability of all variants
 - "Must be adjacent to [1] [* Planet] tiles",
+- Resource extraction improvements needed, set up with 'improved by' .. consider also how it'll effect speed rolling out late game units.  consider also improvement tile lab synthesis as alternative to non uranium.. could be available earlier and have other use, then can remove uranium?
 
 ## TODO
 
 - balance testing
 - TileSets/UncivilizedSpace/ResourceIcons/Antimatter should probably just be ResourceIcons/Antimatter
-- Resource extraction improvements needed
 
 - unit imgs rdy: Spore Slug, Nano Infester
 - wonders; imgs rdy: Deep Space Eco Sphere , Stationary Eco Sphere
