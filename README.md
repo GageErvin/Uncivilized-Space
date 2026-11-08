@@ -29,10 +29,8 @@ Add and constrain some moon variants to be actual moons, then reduce probability
 - Resource icons broken
 - Resource extraction improvements
 
-- unit imgs rdy: Spore Slug, Nano Infester.. missiles unique not to capture cities
+- unit imgs rdy: Spore Slug, Nano Infester
 - wonders; imgs rdy: Deep Space Eco Sphere , Stationary Eco Sphere
-- em decoys (images)
-  - unit convert action creates 1-turn em decoys (not sure if supported by mechanics.. maybe with statuses and on-events)
 
 - unciv-mod, unciv-mod-rulesets
 - unit vision but not terrain vision terrain restrictions if doable
