@@ -80,6 +80,15 @@
 				"uniques": []
 			},
 			{
+				"name": "Orbital Swarming",
+				"prerequisites": [
+					"Expert Systems",
+					"Zero-G Fabrication"
+				],
+				"row": 3,
+				"quote": "What's the hardest part about coordinating a Dyson swarm?  Getting all the little robots to agree on a playlist."
+			},
+			{
 				"name": "Pre-Tracting Ionization",
 				"prerequisites": [
 					"Expert Systems"
@@ -114,13 +123,10 @@
 				"uniques": []
 			},
 			{
-				"name": "Orbital Swarming",
-				"prerequisites": [
-					"Expert Systems",
-					"Zero-G Fabrication"
-				],
+				"name": "Bio-Hybridization",
 				"row": 3,
-				"quote": "What's the hardest part about coordinating a Dyson swarm?  Getting all the little robots to agree on a playlist."
+				"cost": 0,
+				"prerequisites": ["Orbital Swarming", "Hive-Mind Engineering"]
 			},
 			{
 				"name": "Cryogenics",
@@ -147,12 +153,6 @@
 		"buildingCost": 120,
 		"wonderCost": 300,
 		"techs": [
-			{
-				"name": "Bio-Hybridization",
-				"row": 3,
-				"cost": 0,
-				"prerequisites": ["Orbital Swarming", "Hive-Mind Engineering"]
-			}
 			{
 				"name": "Photon Computing",
 				"prerequisites": [
