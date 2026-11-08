@@ -24,17 +24,18 @@ Add and constrain some moon variants to be actual moons, then reduce probability
 
 ## TODO
 
-- Missile storage building, rebalance buildings.  lots of sci options, reduce available productivity and improve with buildings
-
-- Resource icons broken
-- Resource extraction improvements
+- balance testing
+- TileSets/UncivilizedSpace/ResourceIcons/Antimatter should probably just be ResourceIcons/Antimatter
+- Resource extraction improvements needed
 
 - unit imgs rdy: Spore Slug, Nano Infester
 - wonders; imgs rdy: Deep Space Eco Sphere , Stationary Eco Sphere
 
-- unciv-mod, unciv-mod-rulesets
-- unit vision but not terrain vision terrain restrictions if doable
 - barbarians won't spawn (many current variants).
+
+- unciv-mod, unciv-mod-rulesets
+
+- unit vision but not terrain vision terrain restrictions if doable
 
 - a means for subs to get XP -- couldn't find a way to make it happen when missiles explode or get carried places.. perhaps they can have a set of dedicated promotions and starting xp from a building for a 1-option customization?
 - multi-tile constructables (images)
