@@ -9,10 +9,6 @@
 		"aiMajorCivBonusStartingUnits": ["Generational Settler"],
 		"aiUnhappinessModifier": 0.6,
 		"aisExchangeTechs": true,
-		"turnBarbariansCanEnterPlayerTiles": 0,
-		"clearBarbarianCampReward": 250
-		"barbarianBonus": 0.4,
-		"barbarianSpawnDelay": 3,
 		"baseHappiness": 10,
 		"aiDifficultyLevel": "Steel Rat",
         "civilopediaText": [{"text": "A universe of slippery cons, high-tech heists, and minor local friction. You'll survive by your wits and a cheeky grin."}]
@@ -24,10 +20,6 @@
 		"aiMajorCivBonusStartingUnits": ["Generational Settler", "Generational Settler"],
 		"aiUnhappinessModifier": 0.6,
 		"aisExchangeTechs": true,
-		"turnBarbariansCanEnterPlayerTiles": 0,
-		"clearBarbarianCampReward": 100
-		"barbarianBonus": 0.2,
-		"barbarianSpawnDelay": 2,
 		"baseHappiness": 8,
 		"aiDifficultyLevel": "Steel Rat",
         "civilopediaText": [{"text": "Tactical simulations and military academy pressures. The stakes are global, and the commanders are brilliant children."}]
@@ -42,10 +34,6 @@
 		"aiMajorCivBonusStartingUnits": ["Generational Settler", "Generational Settler", "Generational Settler"],
 		"aiUnhappinessModifier": 0.4,
 		"aisExchangeTechs": true,
-		"turnBarbariansCanEnterPlayerTiles": 0,
-		"clearBarbarianCampReward": 25
-		"barbarianBonus": 0.0,
-		"barbarianSpawnDelay": 0,
 		"baseHappiness": 6,
 		"aiDifficultyLevel": "Steel Rat",
         "civilopediaText": [{"text": "Vengeful AI warships waking up in a dark empire to settle an ancient, bloody score. The galaxy burned once; it's about to happen again."}]
