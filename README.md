@@ -23,6 +23,10 @@ Nations
 - computer only sep unit faction / focused bio horror factions (balance via no buildable settlers)
 - free sets of mutually exclusive promotions for high tier units: loadout / modification / tuning
 
+- multi-tile constructables (images)
+  - unit (front must be adjacent to rear ; on completion transforms; rear destroyed ; would need to be attached build or scaffolds as there is no way to ensure orientation)
+  - Dyson sphere (stacked build on only centered stars, ea tier provides production and one time sci, victory condition?, first complete bonus)
+
 ## TODO
 
 - balance testing
@@ -31,11 +35,9 @@ Nations
 
 - barbarians won't spawn (many current variants).
 
-- unciv-mod, unciv-mod-rulesets
+- wonder tiles to improvements
 
-- multi-tile constructables (images)
-  - unit (front must be adjacent to rear ; on completion transforms; rear transforms)
-  - structure (dyson sphere -- surounding pieces must be adjacent to each other; center piece too; when adjacent, extra stats )
+- unciv-mod, unciv-mod-rulesets
 
 ### Verify
 - subs gain xp from missile death
