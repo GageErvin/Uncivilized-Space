@@ -25,10 +25,8 @@ Nations
 ## TODO
 
 - balance testing
-- TileSets/UncivilizedSpace/ResourceIcons/Antimatter should probably just be ResourceIcons/Antimatter
 
-- unit imgs rdy: Spore Slug, Nano Infester
-- wonders; imgs rdy: Deep Space Eco Sphere , Stationary Eco Sphere
+- TileSets/UncivilizedSpace/ResourceIcons/Antimatter should probably just be ResourceIcons/Antimatter
 
 - barbarians won't spawn (many current variants).
 
@@ -40,4 +38,3 @@ Nations
 - multi-tile constructables (images)
   - unit (front must be adjacent to rear ; on completion transforms; rear transforms)
   - structure (dyson sphere -- surounding pieces must be adjacent to each other; center piece too; when adjacent, extra stats )
-
