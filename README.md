@@ -40,6 +40,7 @@ Nations
 ### Verify
 - subs gain xp from missile death
 - infestations take enemy units
+- culture works for player and computer
 
 ## Discards (Mod Limitations) 
 - em phantom units
