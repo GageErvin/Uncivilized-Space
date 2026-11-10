@@ -125,7 +125,7 @@
 	{
 		"columnNumber": 4,
 		"era": "Diaspora",
-		"techCost": 120,
+		"techCost": 170,
 		"buildingCost": 100,
 		"wonderCost": 250,
 		"techs": [
@@ -197,7 +197,7 @@
 	{
 		"columnNumber": 5,
 		"era": "Diaspora",
-		"techCost": 275,
+		"techCost": 375,
 		"buildingCost": 120,
 		"wonderCost": 300,
 		"techs": [
@@ -230,7 +230,7 @@
 	{
 		"columnNumber": 6,
 		"era": "Diaspora",
-		"techCost": 485,
+		"techCost": 785,
 		"buildingCost": 160,
 		"wonderCost": 400,
 		"techs": [
