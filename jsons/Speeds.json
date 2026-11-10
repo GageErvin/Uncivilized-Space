@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Asymptotic Orbit", // Quick (Fast-paced, high speed)
-		"techCostModifier": 1.5,
+		"techCostModifier": 2.5,
 		"goldCostModifier": 1.0,
 		"buildCostModifier": 1.0,
 		"unitCostModifier": 0.9,
@@ -21,7 +21,7 @@
 	},
 	{
 		"name": "Photon Sphere", // Standard (Balanced pacing)
-		"techCostModifier": 2.1,
+		"techCostModifier": 3.1,
 		"goldCostModifier": 1.3,
 		"buildCostModifier": 1.3,
 		"unitCostModifier": 1.2,
@@ -41,7 +41,7 @@
 	},
 	{
 		"name": "Event Horizon", // Epic (Longer, more drawn-out progression)
-		"techCostModifier": 3.3,
+		"techCostModifier": 4.3,
 		"goldCostModifier": 1.6,
 		"buildCostModifier": 1.6,
 		"unitCostModifier": 1.5,
