@@ -170,6 +170,7 @@
         "upgradesTo": "Laser Corvette",
         "obsoleteWith": "Micro Particulate Shielding",
         "uniques": [
+            "Destroys [in all cities] cities instead of capturing",
             "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
             "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
             "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
@@ -188,6 +189,7 @@
         "upgradesTo": "Laser Frigate",
         "obsoleteWith": "Athermal Lens",
         "uniques": [
+            "Destroys [in all cities] cities instead of capturing",
             "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
             "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
             "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
@@ -210,6 +212,7 @@
         "requiredResource": "Exotic Optomaterial",
         "requiredResourceCost": 1,
         "uniques": [
+            "Destroys [in all cities] cities instead of capturing",
             "[-1] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
             "[-1] Sight <in [High Flux Space] tiles> <hidden from users>",
             "[-1] Sight <in [Moderate Flux Space] tiles>",
@@ -234,6 +237,7 @@
         "requiredResourceCost": 1,
         "requiredTech": "High Efficiency Fusion",
         "uniques": [
+            "Destroys [in all cities] cities instead of capturing",
             "[-1] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
             "[-1] Sight <in [High Flux Space] tiles> <hidden from users>",
             "[-1] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
@@ -257,6 +261,7 @@
         "requiredResourceCost": 1,
         "requiredTech": "Directed Plasma",
         "uniques": [
+            "Destroys [in all cities] cities instead of capturing",
             "[-2] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
             "[-2] Sight <in [High Flux Space] tiles> <hidden from users>",
             "[-2] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
@@ -283,6 +288,7 @@
         "requiredTech": "Exotic Matter Condenser",
         "obsoleteWith": "Graviton Manipulation",
         "uniques": [
+            "Destroys [in all cities] cities instead of capturing",
             "[-2] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
             "[-2] Sight <in [High Flux Space] tiles> <hidden from users>",
             "[-2] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
@@ -304,6 +310,7 @@
         "cost": 650,
         "requiredTech": "Graviton Manipulation",
         "uniques": [
+            "Destroys [in all cities] cities instead of capturing",
             "[-3] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
             "[-3] Sight <in [High Flux Space] tiles> <hidden from users>",
             "[-3] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
@@ -499,6 +506,7 @@
         "requiredTech": "C-Fractional Thrust",
         "upgradesTo": "Warship",
         "uniques": [
+            "Destroys [in all cities] cities instead of capturing",
             "[-3] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
             "[-3] Sight <in [High Flux Space] tiles> <hidden from users>",
             "[-3] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
@@ -521,6 +529,7 @@
         "requiredResourceCount": 1,
         "requiredTech": "C-Fractional Thrust",
         "uniques": [
+            "Destroys [in all cities] cities instead of capturing",
             "[-3] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
             "[-3] Sight <in [High Flux Space] tiles> <hidden from users>",
             "[-3] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
@@ -561,10 +570,8 @@
     {
         "name": "Symbiote Stalker",
         "unitType": "Bio-Unit",
-        "strength": 12,
-        "rangedStrength": 12,
-        "range": 1,
-        "movement": 3,
+        "strength": 17,
+        "movement": 4,
         "cost": 180,
         "requiredTech": "Neural Parasitology",
         "upgradesTo": "Apex Bio-Titan",
@@ -586,10 +593,8 @@
     {
         "name": "Apex Bio-Titan",
         "unitType": "Bio-Unit",
-        "strength": 22,
-        "rangedStrength": 22,
-        "range": 2,
-        "movement": 3,
+        "strength": 28,
+        "movement": 5,
         "cost": 840,
         "requiredTech": "Hive-Mind Engineering",
         "requiredResource": "Uranium",
@@ -617,10 +622,8 @@
     {
         "name": "Bio-Dreadnaught",
         "unitType": "Bio-Unit",
-        "strength": 28,
-        "rangedStrength": 28,
-        "range": 2,
-        "movement": 3,
+        "strength": 33,
+        "movement": 5,
         "cost": 900,
         "requiredTech": "Bio-Singularity",
         "requiredResource": "Antimatter",
