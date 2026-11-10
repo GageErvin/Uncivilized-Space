@@ -451,7 +451,7 @@ TileSets/UncivilizedSpace/Tiles/City center
   orig: 54, 68
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Units/ Bio-Dreadnaught
+TileSets/UncivilizedSpace/Units/Bio-Dreadnaught
   rotate: false
   xy: 202, 442
   size: 104, 67

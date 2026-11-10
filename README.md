@@ -30,6 +30,8 @@ orbital launch creche improvement stores missiles instead of launching missiles 
 
 ## TODO
 
+remove space from bio dreadnaight in img
+
 ### pro
 - update expansionism
 - barbarians won't spawn (many current variants).
