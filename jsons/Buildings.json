@@ -195,6 +195,18 @@
 		]
 	},
 	{
+		"name": "Uranium Refinery",
+		"production": 1,
+		"uniques": ["Consumes [-1] [Uranium] <every [3] turns>"],
+		"cost": 240
+	},
+	{
+		"name": "Lens Refinery",
+		"uniques": ["Consumes [-1] [Exotic Optomaterial] <every [2] turns>"],
+		"requiredTech": "Athermal Lens",
+		"cost": 140
+	},
+	{
 		"name": "Accretion Foundry",
 		"replaces": "Climate Control",
 		"production": 2,

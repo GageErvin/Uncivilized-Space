@@ -13,7 +13,7 @@ def strip_c_style_comments(text):
 def main():
     output_filename = "out.md"
     # Add any filenames you want to skip here
-    skip_list = {"CityStateTypes.json", "Difficulties.json", "Eras.json", "Events.json", "GlobalUniques.json", "ModOptions.json", "Quests.json", "Ruins.json", "Speeds.json", "TileResources.json", "UnitTypes.json", "VictoryTypes.json"}
+    skip_list = {"CityStateTypes.json", "Events.json", "GlobalUniques.json", "ModOptions.json", "Quests.json", "Ruins.json", "TileResources.json", "VictoryTypes.json"}
     json_dir = Path("jsons")
 
     # Clear or initialize the output file

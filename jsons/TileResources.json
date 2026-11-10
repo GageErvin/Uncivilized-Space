@@ -2,50 +2,17 @@
 	{
 		"name": "Exotic Optomaterial",
 		"resourceType": "Strategic",
-		"revealedBy": "Athermal Lens",
-		"terrainsCanBeFoundOn": [
-			"Nebula"
-		],
-		"improvedBy": [
-			"Particulate Collection Array"
-		],
-		"majorDepositAmount": {
-			"sparse": 3,
-			"default": 5,
-			"abundant": 7
-		},
-		"minorDepositAmount": {
-			"sparse": 1,
-			"default": 2,
-			"abundant": 3
-		}
+		"terrainsCanBeFoundOn": []
 	},
 	{
 		"name": "Uranium",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": [
-			"Ringed Ice Giant",
-			"Orange-Black Marble", "Silver-Grey Marble", "Stony Marble",
-			"Cragolith Moon"
-		],
-		"production": 1,
-		"improvementStats": {
-			"production": 2
-		},
-		"majorDepositAmount": {
-			"sparse": 3,
-			"default": 5,
-			"abundant": 7
-		},
-		"minorDepositAmount": {
-			"sparse": 1,
-			"default": 2,
-			"abundant": 3
-		}
+		"terrainsCanBeFoundOn": []
 	},
 	{
 		"name": "Antimatter",
 		"resourceType": "Strategic",
+		"improvement": "Magnetic Anti-Matter Guide",
 		"terrainsCanBeFoundOn": [
 			"Zero Flux Space"
 		],

@@ -167,6 +167,12 @@
     ]
   },
   {
+    "name": "Magnetic Anti-Matter Guide",
+    "turnsToBuild": 10,
+    "science": 1,
+    "uniques": ["Can only be built to improve a resource"]
+  },
+  {
     "name": "Debris Scavenging Dock",
     "turnsToBuild": 5,
     "gold": 2,

@@ -8,6 +8,7 @@ Ruins
 Science victory
 Great people?
 Events, Quests
+Eras
 units
 - diverse uniques nearly as a rule rather than exception
 - scout promotions: cheaper, faster, more vision, slightly buffer
@@ -19,32 +20,29 @@ Diverse luxuries and wonders
 - black hole
 Nations
 - diversify all forms.  ex: 'Macroform S-3'  (S-3 would be a sci-fi esc designation for where this form was discovered.)
-- Resource extraction improvements needed, set up with 'improved by' .. consider also how it'll effect speed rolling out late game units.  consider also improvement tile lab synthesis as alternative to non uranium.. could be available earlier and have other use, then can remove uranium?
 - computer only sep unit faction / focused bio horror factions (balance via no buildable settlers)
-- free sets of mutually exclusive promotions for high tier units: loadout / modification / tuning
-
-- multi-tile constructables (images)
-  - unit (front must be adjacent to rear ; on completion transforms; rear destroyed ; would need to be attached build or scaffolds as there is no way to ensure orientation)
-  - Dyson sphere (stacked build on only centered stars, ea tier provides production and one time sci, victory condition?, first complete bonus)
+Free sets of mutually exclusive promotions for high tier units: loadout / modification / tuning
+multi-tile constructables (images)
+- unit (front must be adjacent to rear ; on completion transforms; rear destroyed ; would need to be attached build or scaffolds as there is no way to ensure orientation)
+- Dyson sphere (stacked build on only centered stars, ea tier provides production and one time sci, victory condition?, first complete bonus)
+Rdy img: Improvements/Stationary Eco Sphere
+orbital launch creche improvement stores missiles instead of launching missiles from cities (city ones have reduced range)
 
 ## TODO
 
-- balance testing
-
-- TileSets/UncivilizedSpace/ResourceIcons/Antimatter should probably just be ResourceIcons/Antimatter
-
+### pro
+- update expansionism
 - barbarians won't spawn (many current variants).
 
-- wonder tiles to improvements
-
+### reveal
 - unciv-mod, unciv-mod-rulesets
 
-### Verify
+### verify
 - subs gain xp from missile death
 - infestations take enemy units
 - culture works for player and computer
 
-## Discards (Mod Limitations) 
+## Discarded Ideas (Mod Limitations) 
 - em phantom units
 - infestation takeover status
 - interference limiting sight on units only
