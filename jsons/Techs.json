@@ -150,6 +150,7 @@
 					"Artificial Super Intelligence"
 				],
 				"row": 10,
+				"cost": 35,
 				"quote": "It's a quantum leap forward... or just a really bright light bulb."
 			},
 			{
@@ -158,20 +159,22 @@
 					"Artificial Super Intelligence"
 				],
 				"row": 9,
+				"cost": 35,
 				"quote": "Look, if a cat can chase a laser pointer, why can't a spaceship?"
 			},
 			{
 				"name": "Athermal Lens",
 				"prerequisites": [
-					"Cryogenics"
+					"Cryogenics", "Micro Particulate Shielding"
 				],
 				"row": 5,
+				"cost": 35,
 				"quote": "So you're saying it's... 'cool'?"
 			},
 			{
 				"name": "High Efficiency Fusion",
 				"prerequisites": [
-					"Cryogenics"
+					"Cryogenics", "Micro Particulate Shielding"
 				],
 				"row": 6,
 				"quote": "I asked my hydrogen atoms for a commitment, but they said it's not that simple; you have to go through a very intense and complicated process to form a lasting bond."
@@ -241,7 +244,16 @@
 				],
 				"row": 5,
 				"quote": "Why did the tachyon cross the road? Because it was already on the other side yesterday, and frankly, laughing at it violates causality."
-			},
+			}
+		]
+	},
+	{
+		"columnNumber": 7,
+		"era": "Diaspora",
+		"techCost": 1085,
+		"buildingCost": 160,
+		"wonderCost": 400,
+		"techs": [
 			{
 				"name": "Graviton Manipulation",
 				"prerequisites": [
