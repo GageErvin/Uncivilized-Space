@@ -29,10 +29,9 @@ Rdy img: Improvements/Stationary Eco Sphere
 
 ## TODO
 
-TileSets case sensitive for astra bio, Creche to womb unit combo
-Check which tech is more exp
-ship access in tech tree doesn't track
-?- barbarians won't spawn (many current variants).
+TileSets case sensitive for astra bio, unit needs tech dep, Creche to womb unit combo
+
+Check which tech is more science.. ship access in tech tree doesn't track
 
 ### reveal
 - unciv-mod, unciv-mod-rulesets
