@@ -58,7 +58,7 @@
   },
   {
     "name": "Magnetic Acceleration Relay",
-    "turnsToBuild": 7,
+    "turnsToBuild": 10,
     "uniques": [
       "Can be built outside your borders",
       "Costs [1] [Gold] per turn",
@@ -91,7 +91,7 @@
   {
     "name": "Orbital Ship Yard",
     "production": 3,
-    "turnsToBuild": 14,
+    "turnsToBuild": 6,
     "uniques": [],
     "techRequired": "Zero-G Fabrication",
     "terrainsCanBeBuiltOn": [
@@ -103,7 +103,7 @@
   {
     "name": "Solar Reflector",
     "production": 1,
-    "turnsToBuild": 7,
+    "turnsToBuild": 6,
     "requiredTech": "Orbital Swarming",
     "uniques": [],
     "terrainsCanBeBuiltOn": [
@@ -116,7 +116,7 @@
     "name": "Particulate Collection Array",
     "production": 1,
     "gold": 1,
-    "turnsToBuild": 4,
+    "turnsToBuild": 6,
     "techRequired": "Pre-Tracting Ionization",
     "terrainsCanBeBuiltOn": [
       "Moderate Flux Space",
@@ -130,7 +130,7 @@
   },
   {
     "name": "Deep Space Radar Array Woumb",
-    "turnsToBuild": 12,
+    "turnsToBuild": 8,
     "RGB": [24, 29, 24],
     "uniques": [
       "Free [Deep Space Radar Array] appears"
@@ -150,9 +150,17 @@
 			{"text":"Marks the center of a city"}
 		]
 	},
+	{
+		"name": "Missile Creche",
+		"terrainsCanBeBuiltOn": ["Zero Flux Space",
+      "Low Flux Space",
+      "Moderate Flux Space"],
+		"requiredTech": "Expert Systems",
+		"uniques": ["Can carry [8] [Munition] units", "[1] Movement", "Transfer Movement to [Munition]"]
+	}
   {
     "name": "Flux Resonance Array",
-    "turnsToBuild": 6,
+    "turnsToBuild": 8,
     "science": 2,
     "requiredTech": "High Efficiency Fusion",
     "terrainsCanBeBuiltOn": ["High Flux Space", "Extreme Flux Space"],
@@ -168,13 +176,13 @@
   },
   {
     "name": "Magnetic Anti-Matter Guide",
-    "turnsToBuild": 10,
+    "turnsToBuild": 8,
     "science": 1,
     "uniques": ["Can only be built to improve a resource"]
   },
   {
     "name": "Debris Scavenging Dock",
-    "turnsToBuild": 5,
+    "turnsToBuild": 8,
     "gold": 2,
     "production": 1,
     "requiredTech": "Pre-Tracting Ionization",
