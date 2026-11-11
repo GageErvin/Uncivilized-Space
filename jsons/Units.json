@@ -439,7 +439,7 @@
         "unitType": "Sub",
         "strength": 4,
         "movement": 2,
-        "cost": 230,
+        "cost": 200,
         "requiredTech": "Expert Systems",
         "upgradesTo": "Missile Cradle",
         "uniques": [
@@ -462,7 +462,7 @@
         "unitType": "Sub",
         "strength": 5,
         "movement": 1,
-        "cost": 300,
+        "cost": 250,
         "requiredResource": "Exotic Optomaterial",
         "requiredResourceCost": 1,
         "requiredTech": "Laser Propulsion",
@@ -487,7 +487,7 @@
         "unitType": "Sub",
         "strength": 6,
         "movement": 1,
-        "cost": 400,
+        "cost": 300,
         "requiredTech": "Strange Battery",
         "upgradesTo": "Cannonade Vessel",
         "uniques": [
@@ -513,7 +513,7 @@
         "rangedStrength": 13,
         "range": 11,
         "movement": 2,
-        "cost": 480,
+        "cost": 400,
         "requiredTech": "C-Fractional Thrust",
         "upgradesTo": "Warship",
         "uniques": [
@@ -525,7 +525,8 @@
             "[+3] Sight",
             "Ranged attacks may be performed over obstacles <hidden from users>",
             "No damage penalty for wounded units",
-            "Can carry [1] [Stored Breach Pod] units"
+            "Can carry [1] [Stored Breach Pod] units",
+            "Can carry [1] [Munition] units"
         ]
     },
     {
@@ -534,8 +535,8 @@
         "strength": 10,
         "rangedStrength": 18,
         "range": 11,
-        "movement": 4,
-        "cost": 700,
+        "movement": 2,
+        "cost": 480,
         "requiredResource": "Antimatter",
         "requiredResourceCount": 1,
         "requiredTech": "C-Fractional Thrust",
