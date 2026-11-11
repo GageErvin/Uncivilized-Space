@@ -188,5 +188,12 @@
 				"text": "An isolationist collective firmly convinced that the universe is flat, interstellar travel is a government greenscreen hoax, and anyone flying a spaceship too far beyond their borders falling right into the cosmic ice wall."
 			}
 		]
+	},
+	{
+      "name": "BarbariansN",
+      "isBarbarians": true,
+      "outerColor": [50, 50, 50],
+      "innerColor": [200, 200, 200]
 	}
+	
 ]
