@@ -1,13 +1,13 @@
 [
   {
-    "name": "Barbarian encampment", //"Paperclip Ecumenopolis",
+    "name": "Paperclip Ecumenopolis",
     "civilopediaText":[{"text":"An illicit encampment of nomadic scrap-pirates processing stolen asteroid ores and contraband."}],
     "uniques": [
       "Marks a barbarian camp",
       "Unbuildable", "Unpillagable", "Excluded from map editor"
     ],
     "terrainsCanBeBuiltOn": [
-      "Land"
+      "Ringed Terrestrial Planet", "Gas Giant", "Ringed Gas Giant",  "Ice Giant", "Ringed Ice Giant","Cragolith Moon", "Cryolith Moon",  "Blue Marble",  "Blue World", "Dull-Green Marble",  "Fuzzy-Blue Gas", "Fuzzy-Green Gas",  "Light-Orange Marble", "Orange Marble", "Orange-Black Marble", "Silver-Grey Marble", "Stony Marble", "Yellow-Green-Blue Marble"
     ]
   },
   {
@@ -17,13 +17,7 @@
       "Unbuildable", "Unpillagable", "Excluded from map editor"
     ],
     "terrainsCanBeBuiltOn": [
-      "Ringed Terrestrial Planet",
-      "Gas Giant",
-      "Ringed Gas Giant",
-      "Ice Giant",
-      "Ringed Ice Giant",
-      "Cragolith Moon",
-      "Cryolith Moon"
+      "Ringed Terrestrial Planet", "Gas Giant", "Ringed Gas Giant",  "Ice Giant", "Ringed Ice Giant","Cragolith Moon", "Cryolith Moon",  "Blue Marble",  "Blue World", "Dull-Green Marble",  "Fuzzy-Blue Gas", "Fuzzy-Green Gas",  "Light-Orange Marble", "Orange Marble", "Orange-Black Marble", "Silver-Grey Marble", "Stony Marble", "Yellow-Green-Blue Marble"
     ]
   },
   {
@@ -31,21 +25,20 @@
     "uniques": [
       "Gives a defensive bonus of [+20]%",
       "Marks a barbarian camp",
-      "Unbuildable"
+      "Unbuildable", "Unpillagable", "Excluded from map editor"
     ],
     "terrainsCanBeBuiltOn": [
-      "Land"
+      "Ringed Terrestrial Planet", "Gas Giant", "Ringed Gas Giant",  "Ice Giant", "Ringed Ice Giant","Cragolith Moon", "Cryolith Moon",  "Blue Marble",  "Blue World", "Dull-Green Marble",  "Fuzzy-Blue Gas", "Fuzzy-Green Gas",  "Light-Orange Marble", "Orange Marble", "Orange-Black Marble", "Silver-Grey Marble", "Stony Marble", "Yellow-Green-Blue Marble"
     ]
   },
   {
     "name": "Over-Caregiver Enclave",
     "uniques": [
       "Marks a barbarian camp",
-      "Unbuildable"
+      "Unbuildable", "Unpillagable", "Excluded from map editor"
     ],
     "terrainsCanBeBuiltOn": [
-      "Ringed Terrestrial Planet",
-      "Ringed Ice Giant"
+      "Ringed Terrestrial Planet", "Gas Giant", "Ringed Gas Giant",  "Ice Giant", "Ringed Ice Giant","Cragolith Moon", "Cryolith Moon",  "Blue Marble",  "Blue World", "Dull-Green Marble",  "Fuzzy-Blue Gas", "Fuzzy-Green Gas",  "Light-Orange Marble", "Orange Marble", "Orange-Black Marble", "Silver-Grey Marble", "Stony Marble", "Yellow-Green-Blue Marble"
     ]
   },
   {
