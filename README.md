@@ -1,6 +1,6 @@
 # Uncivilized-Space
 
-Balanced for a huge map; must enable 'permanent audio-visual mod.'
+Launch missiles, Conquer space. Enable 'permanent audio-visual mod.'
 
 ## Ideas
 
@@ -26,17 +26,13 @@ multi-tile constructables (images)
 - unit (front must be adjacent to rear ; on completion transforms; rear destroyed ; would need to be attached build or scaffolds as there is no way to ensure orientation)
 - Dyson sphere (stacked build on only centered stars, ea tier provides production and one time sci, victory condition?, first complete bonus)
 Rdy img: Improvements/Stationary Eco Sphere
-orbital launch creche improvement stores missiles instead of launching missiles from cities (city ones have reduced range)
 
 ## TODO
 
-nerf flux res
-check which tech is more exp
+TileSets case sensitive for astra bio, Creche to womb unit combo
+Check which tech is more exp
 ship access in tech tree doesn't track
-
-### pro
-- update expansionism
-- barbarians won't spawn (many current variants).
+?- barbarians won't spawn (many current variants).
 
 ### reveal
 - unciv-mod, unciv-mod-rulesets
@@ -44,7 +40,6 @@ ship access in tech tree doesn't track
 ### verify
 - subs gain xp from missile death
 - infestations take enemy units
-- culture works for player and computer
 
 ## Discarded Ideas (Mod Limitations) 
 - em phantom units
