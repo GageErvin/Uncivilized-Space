@@ -141,7 +141,7 @@
 			{
 				"name": "Bio-Hybridization",
 				"row": 3,
-				"cost": 0,
+				"cost": 1,
 				"prerequisites": ["Orbital Swarming", "Hive-Mind Engineering"]
 			},
 			{
