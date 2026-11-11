@@ -190,7 +190,7 @@
 		]
 	},
 	{
-      "name": "BarbariansN",
+      "name": "Barbarians",
       "isBarbarians": true,
       "outerColor": [50, 50, 50],
       "innerColor": [200, 200, 200]
