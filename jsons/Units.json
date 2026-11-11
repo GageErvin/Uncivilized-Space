@@ -9,6 +9,18 @@
             "Cannot move"
         ]
     },
+	{
+		"name": "Orbital Missile Creche",
+        "unitType": "Drone",
+        "movement": 0,
+		"uniques": [
+            "Can carry [8] [Munition] units",
+            "[1] Movement",
+            "Transfer Movement to [Munition]",
+            "Unbuildable",
+            "Cannot move"
+        ]
+	},
     {
         "name": "Generational Settler",
         "unitType": "Settler",
@@ -72,6 +84,7 @@
         "unitType": "Civilian",
         "cost": 35,
         "movement": 2,
+        "requiredTech": "Xeno-Genetics",
         "uniques": [
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "Can build [Land] improvements on tiles",

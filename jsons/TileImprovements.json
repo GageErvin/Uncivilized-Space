@@ -134,6 +134,20 @@
       "Moderate Flux Space"
     ]
   },
+  {
+    "name": "Orbital Missile Creche Woumb",
+    "turnsToBuild": 8,
+    "RGB": [24, 29, 24],
+    "uniques": [
+      "Free [Orbital Missile Creche] appears"
+    ],
+    "terrainsCanBeBuiltOn": [
+      "Zero Flux Space",
+      "Low Flux Space",
+      "Moderate Flux Space"
+    ],
+		"requiredTech": "Expert Systems"
+  },
 	{
 		"name": "City center",
 		"terrainsCanBeBuiltOn": ["Land"],
@@ -143,14 +157,6 @@
 			{"text":"Marks the center of a city"}
 		]
 	},
-	{
-		"name": "Missile Creche",
-		"terrainsCanBeBuiltOn": ["Zero Flux Space",
-      "Low Flux Space",
-      "Moderate Flux Space"],
-		"requiredTech": "Expert Systems",
-		"uniques": ["Can carry [8] [Munition] units", "[1] Movement", "Transfer Movement to [Munition]"]
-	}
   {
     "name": "Flux Resonance Array",
     "turnsToBuild": 8,
