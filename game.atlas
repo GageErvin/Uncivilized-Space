@@ -136,7 +136,7 @@ TileSets/UncivilizedSpace/Tiles/Antimatter
   orig: 85, 108
   offset: 0, 0
   index: -1
-Tilesets/UncivilizedSpace/Units/Astraforming Swarm-Bio
+TileSets/UncivilizedSpace/Units/Astraforming Swarm-Bio
   rotate: false
   xy: 748, 227
   size: 130, 100
