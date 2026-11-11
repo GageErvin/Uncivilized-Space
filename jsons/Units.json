@@ -4,7 +4,7 @@
         "unitType": "Drone",
         "movement": 0,
         "uniques": [
-            "[7] Sight",
+            "[10] Sight",
             "Unbuildable",
             "Cannot move"
         ]
@@ -63,6 +63,17 @@
             "[-2] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
             "[-2] Movement <in [High Flux Space] tiles> <hidden from users>",
             "[-2] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
+            "Can build [Land] improvements on tiles",
+            "Can build [Water] improvements on tiles <hidden from users>"
+        ]
+    },
+    {
+        "name": "Astraforming Swarm-Bio",
+        "unitType": "Civilian",
+        "cost": 35,
+        "movement": 2,
+        "uniques": [
+            "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "Can build [Land] improvements on tiles",
             "Can build [Water] improvements on tiles <hidden from users>"
         ]
