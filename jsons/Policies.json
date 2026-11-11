@@ -16,14 +16,24 @@
                     "[+1 Food] from [Ringed Ice Giant] tiles [in all cities]",
                     "[+1 Food] from [Gas Giant] tiles [in all cities]",
                     "[+1 Food] from [Ringed Gas Giant] tiles [in all cities]",
-                    // todo "Blue Marble, Blue World", "Dull-Green Marble", "Fuzzy-Blue Gas", "Fuzzy-Green Gas", "Light-Orange Marble", "Orange Marble", "Orange-Black Marble", "Silver-Grey Marble", "Stony Marble", "Yellow-Green-Blue Marble"
+                    "[+1 Food] from [Blue Marble] tiles [in all cities]",
+                    "[+1 Food] from [Blue World] tiles [in all cities]",
+                    "[+1 Food] from [Dull-Green Marble] tiles [in all cities]",
+                    "[+1 Food] from [Fuzzy-Blue Gas] tiles [in all cities]",
+                    "[+1 Food] from [Fuzzy-Green Gas] tiles [in all cities]",
+                    "[+1 Food] from [Light-Orange Marble] tiles [in all cities]",
+                    "[+1 Food] from [Orange Marble] tiles [in all cities]",
+                    "[+1 Food] from [Orange-Black Marble] tiles [in all cities]",
+                    "[+1 Food] from [Silver-Grey Marble] tiles [in all cities]",
+                    "[+1 Food] from [Stony Marble] tiles [in all cities]",
+                    "[+1 Food] from [Yellow-Green-Blue Marble] tiles [in all cities]"
                 ],
                 "row": 1, "column": 3
             },
             {
                 "name": "Deep Space Logistics",
                 "uniques": [
-                    "[-25]% maintenance cost for [all] buildings [in all cities]"
+                    //"[-25]% cost for [all] buildings [in all cities]"
                 ],
                 "row": 1, "column": 1
             },
@@ -36,7 +46,7 @@
             },
             {
                 "name": "Resource Surveying",
-                "uniques": [
+                "uniques": [//
                     "Reveal up to [100] [Uranium] within a [100] tile radius",
                     "Reveal up to [100] [Antimatter] within a [100] tile radius",
                     "Reveal up to [100] [Exotic Optomaterial] within a [100] tile radius"

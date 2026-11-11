@@ -30,7 +30,9 @@ orbital launch creche improvement stores missiles instead of launching missiles 
 
 ## TODO
 
-remove space from bio dreadnaight in img
+nerf flux res
+check which tech is more exp
+ship access in tech tree doesn't track
 
 ### pro
 - update expansionism
