@@ -11,6 +11,8 @@ Launch missiles, Conquer space. Enable 'permanent audio-visual mod.'
 - Eras- Free sets of mutually exclusive promotions for high tier units: loadout / modification / tuning (also images)
 - Nations
   - diversify all forms.  ex: 'Macroform S-3'  (S-3 would be a sci-fi esc designation for where this form was discovered.)
+- borders (images)
+  - double line, hard dodeca angles, inner color thinly in inner line, change nation colors to low sat outer, dark inner
 - units (images)
   - diverse uniques
   - scout promotions: more vision, slightly buffer, recall
