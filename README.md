@@ -29,12 +29,7 @@ Rdy img: Improvements/Stationary Eco Sphere
 
 ## TODO
 
-### reveal
-- unciv-mod, unciv-mod-rulesets
-
-### verify
-- subs gain xp from missile death
-- infestations take enemy units
+- subs do not gain xp from missile death
 
 ## Discarded Ideas (Mod Limitations) 
 - em phantom units
