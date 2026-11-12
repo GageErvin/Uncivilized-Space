@@ -197,7 +197,7 @@
 	{
 		"name": "Uranium Refinery",
 		"production": 1,
-		"uniques": ["Consumes [-1] [Uranium] <for every [1] [turns]>"],
+		"uniques": ["Consumes [-1] [Uranium] <upon turn end>"],//for every [1] [turns]>"],
 		"cost": 240
 	},
 	{
