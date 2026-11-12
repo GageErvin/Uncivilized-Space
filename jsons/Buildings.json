@@ -197,12 +197,12 @@
 	{
 		"name": "Uranium Refinery",
 		"production": 1,
-		"uniques": ["Consumes [-1] [Uranium] <every [1] turns>"],
+		"uniques": ["Consumes [-1] [Uranium] <for every [1] [turns]>"],
 		"cost": 240
 	},
 	{
 		"name": "Lens Refinery",
-		"uniques": ["Consumes [-1] [Exotic Optomaterial] <every [1] turns>"],
+		"uniques": ["Consumes [-1] [Exotic Optomaterial] <for every [1] [turns]>"],
 		"requiredTech": "Athermal Lens",
 		"cost": 140
 	},
