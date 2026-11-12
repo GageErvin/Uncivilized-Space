@@ -95,7 +95,7 @@
         "name": "Survey Vessel",
         "unitType": "Scout",
         "movement": 3,
-        "combatStrength": 2,
+        "combatStrength": 7,
         "cost": 15,
         "upgradesTo": "Data Archivist",
         "obsoleteWith": "Cryogenics",
