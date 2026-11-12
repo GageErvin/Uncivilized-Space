@@ -137,6 +137,7 @@
   {
     "name": "Orbital Missile Creche Woumb",
     "turnsToBuild": 8,
+	"requiredTech": "Expert Systems",
     "RGB": [24, 29, 24],
     "uniques": [
       "Free [Orbital Missile Creche] appears"
@@ -145,8 +146,7 @@
       "Zero Flux Space",
       "Low Flux Space",
       "Moderate Flux Space"
-    ],
-		"requiredTech": "Expert Systems"
+    ]
   },
 	{
 		"name": "City center",
