@@ -7,6 +7,11 @@
 		"wonderCost": 185,
 		"techs": [
 			{
+				"name": "Kaizen - 1",
+				"row": 1,
+				"uniques": ["[+1]% [Production] [in all cities] <for each time this technology has been researched>"]
+			},
+			{
 				"name": "Xeno-Genetics",
 				"row": 2,
 				"quote": "Splice carefully; you wouldn't want your lab assistant growing an extra pair of arms before lunch.",
@@ -29,6 +34,14 @@
 		"buildingCost": 60,
 		"wonderCost": 185,
 		"techs": [
+			{
+				"name": "Kaizen - 2",
+				"prerequisites": [
+					"Kaizen - 1"
+				],
+				"row": 1,
+				"uniques": ["[+1]% [Production] [in all cities] <for each time this technology has been researched>"]
+			},
 			{
 				"name": "Neural Parasitology",
 				"prerequisites": [
@@ -70,6 +83,14 @@
 		"buildingCost": 75,
 		"wonderCost": 185,
 		"techs": [
+			{
+				"name": "Kaizen - 3",
+				"prerequisites": [
+					"Kaizen - 2"
+				],
+				"row": 1,
+				"uniques": ["[+1]% [Production] [in all cities] <for each time this technology has been researched>"]
+			},
 			{
 				"name": "Hive-Mind Engineering",
 				"prerequisites": [
