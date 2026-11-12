@@ -139,7 +139,7 @@
             "Eliminates combat penalty for attacking across a coast <hidden from users>",
             "Cannot attack",
             "Gain [2] [Culture]",
-            "[This Unit] gains [7] XP <upon expen losing a [Missile] unit>"
+            "[This Unit] gains [7] XP <upon losing a [Missile] unit>"
         ],
         "civilopediaText": [
             {
