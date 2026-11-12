@@ -95,7 +95,7 @@
         "name": "Survey Vessel",
         "unitType": "Scout",
         "movement": 3,
-        "combatStrength": 7,
+        "strength": 7,
         "cost": 15,
         "upgradesTo": "Data Archivist",
         "obsoleteWith": "Cryogenics",
@@ -116,7 +116,7 @@
         "unitType": "Scout",
         "requiredTech": "Cryogenics",
         "movement": 5,
-        "combatStrength": 10,
+        "strength": 10,
         "cost": 40,
         "uniques": [
             "[-1] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
