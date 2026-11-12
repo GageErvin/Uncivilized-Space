@@ -97,7 +97,7 @@
     "name": "Solar Reflector",
     "production": 1,
     "turnsToBuild": 6,
-    "requiredTech": "Orbital Swarming",
+    "techRequired": "Orbital Swarming",
     "uniques": [],
     "terrainsCanBeBuiltOn": [
       "Zero Flux Space",
@@ -137,6 +137,7 @@
   {
     "name": "Orbital Missile Creche Woumb",
     "turnsToBuild": 8,
+	"techRequired": "Expert Systems",
     "RGB": [24, 29, 24],
     "uniques": [
       "Free [Orbital Missile Creche] appears"
@@ -145,8 +146,7 @@
       "Zero Flux Space",
       "Low Flux Space",
       "Moderate Flux Space"
-    ],
-		"requiredTech": "Expert Systems"
+    ]
   },
 	{
 		"name": "City center",
@@ -161,7 +161,7 @@
     "name": "Flux Resonance Array",
     "turnsToBuild": 8,
     "science": 2,
-    "requiredTech": "High Efficiency Fusion",
+    "techRequired": "High Efficiency Fusion",
     "terrainsCanBeBuiltOn": ["High Flux Space", "Extreme Flux Space"],
     "uniques": [
       "[+1 Production] for each adjacent [High Flux Space]",
@@ -184,7 +184,7 @@
     "turnsToBuild": 8,
     "gold": 2,
     "production": 1,
-    "requiredTech": "Pre-Tracting Ionization",
+    "techRequired": "Pre-Tracting Ionization",
     "terrainsCanBeBuiltOn": ["Debris Fields"],
     "uniques": [
       "[+1 Science] for each adjacent [Debris Fields]"
@@ -200,7 +200,7 @@
     "turnsToBuild": 7,
     "food": 3,
     "production": -1,
-    "requiredTech": "Cryogenics",
+    "techRequired": "Cryogenics",
     "terrainsCanBeBuiltOn": ["Cryolith Moon", "Ice Giant"],
     "uniques": [
     ],
