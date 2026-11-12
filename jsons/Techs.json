@@ -9,7 +9,7 @@
 			{
 				"name": "Kaizen - 1",
 				"row": 1,
-				"uniques": ["[+1]% [Production] [in all cities] <for each time this technology has been researched>"]
+				"uniques": ["[+5]% [Production] [in all cities]"]
 			},
 			{
 				"name": "Xeno-Genetics",
@@ -40,7 +40,7 @@
 					"Kaizen - 1"
 				],
 				"row": 1,
-				"uniques": ["[+1]% [Production] [in all cities] <for each time this technology has been researched>"]
+				"uniques": ["[+3]% [Production] [in all cities]"]
 			},
 			{
 				"name": "Neural Parasitology",
@@ -89,7 +89,7 @@
 					"Kaizen - 2"
 				],
 				"row": 1,
-				"uniques": ["[+1]% [Production] [in all cities] <for each time this technology has been researched>"]
+				"uniques": ["[+2]% [Production] [in all cities]"]
 			},
 			{
 				"name": "Hive-Mind Engineering",
