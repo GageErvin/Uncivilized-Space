@@ -71,7 +71,7 @@
 				"prerequisites": [
 					"Generational Ships"
 				],
-				"row": 5,
+				"row": 6,
 				"quote": "I have all of your knowledge, but none of your expensive student loans."
 			},
 			{
@@ -79,7 +79,7 @@
 				"prerequisites": [
 					"Generational Ships"
 				],
-				"row": 6,
+				"row": 5,
 				"cost": 15,
 				"quote": "It didn't take much thought, but it sure takes a lot of lives."
 			}
@@ -129,7 +129,7 @@
 			{
 				"name": "Micro Particulate Shielding",
 				"prerequisites": [
-					"Expert Systems"
+					"Engagement Boost"
 				],
 				"row": 5,
 				"quote": "Because getting hit by a speck of dust at a million miles per hour is surprisingly painful."
