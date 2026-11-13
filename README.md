@@ -40,5 +40,5 @@ Launch missiles, Conquer space. Enable 'permanent audio-visual mod.'
 - em phantom units
 - infestation takeover status
 - interference limiting sight on units only
-- Dyson sphere (ea tier provides production + one time sci, alternative science victory condition?, first complete bonus, settle?)
+- Dyson ring circling a star (ea tier provides production + one time sci, alternative science victory condition?, first complete bonus, settle?)
 - comets (tail must be away from nearest star)
