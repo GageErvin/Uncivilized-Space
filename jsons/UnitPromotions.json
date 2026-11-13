@@ -207,7 +207,7 @@
 		"prerequisites": [],
 		"uniques": [
 			"[+20]% Strength <when defending>",
-			"Unavailable <for units with [Emergency Venting Protocols]>",
+			"Unavailable <for units with [Emergency Maintenance Drones]>",
 			"Unavailable <for units with [Deceptive Signature Generator]>"
 		],
 		"unitTypes": [
@@ -242,7 +242,7 @@
 		"uniques": [
 			"[+10]% Strength",
 			"Unavailable <for units with [Ablative Baffle Plating]>",
-			"Unavailable <for units with [Emergency Venting Protocols]>"
+			"Unavailable <for units with [Emergency Maintenance Drones]>"
 		],
 		"unitTypes": [
 			"Sub"
@@ -289,7 +289,7 @@
 			"[+10]% Strength <when fighting in [Orange-Black Marble] tiles>",
 			"[+8]% Strength <when fighting in [Silver-Grey Marble] tiles>",
 			"[+8]% Strength <when fighting in [Stony Marble] tiles>",
-			"[+12]% Strength <when fighting in [Yellow-Green-Blue Marble tiles>]",
+			"[+12]% Strength <when fighting in [Yellow-Green-Blue Marble] tiles>",
 			"Unavailable <for units with [Extended Munitions Bay]>",
 			"Unavailable <for units with [Resonance Dampeners]>"
 		],
