@@ -71,7 +71,7 @@
 				"prerequisites": [
 					"Generational Ships"
 				],
-				"row": 6,
+				"row": 5,
 				"quote": "I have all of your knowledge, but none of your expensive student loans."
 			},
 			{
@@ -79,7 +79,7 @@
 				"prerequisites": [
 					"Generational Ships"
 				],
-				"row": 5,
+				"row": 6,
 				"cost": 15,
 				"quote": "It didn't take much thought, but it sure takes a lot of lives."
 			}
@@ -123,7 +123,7 @@
 				"prerequisites": [
 					"Expert Systems"
 				],
-				"row": 6,
+				"row": 5,
 				"quote": "Basically, we zap things so they go where we want. It's science, not a superpower."
 			},
 			{
@@ -131,7 +131,7 @@
 				"prerequisites": [
 					"Engagement Boost"
 				],
-				"row": 5,
+				"row": 6,
 				"quote": "Because getting hit by a speck of dust at a million miles per hour is surprisingly painful."
 			},
 			{
