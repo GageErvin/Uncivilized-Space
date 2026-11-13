@@ -12,10 +12,6 @@ Launch missiles, Conquer space. Enable 'permanent audio-visual mod.'
   - diversify all forms.  ex: 'Macroform S-3'  (S-3 would be a sci-fi esc designation for where this form was discovered.)
 - spread sublight debrisaction (confers slow status to passers in nearby tiles for 1 turn)
 
-- Terrains (images)
-  - moon variants
-- Diverse wonders (images)
-  - black hole
 - units (images)
   - non-player or 'ai' units for barbarians (stop them using others): sep / biomechanical
   - diverse uniques
@@ -25,11 +21,17 @@ Launch missiles, Conquer space. Enable 'permanent audio-visual mod.'
 - multi-tile constructables (images)
   - unit (front must be adjacent to rear ; on completion transforms; rear destroyed ; would need to be attached build or scaffolds as there is no way to ensure orientation ; Good, alternatively require front built on top of rear?)
 
+## Needs Ideas
+
+- Diverse wonders (images) ?
 - Great people?
 
 ## TODO
 
 - images for units with 'Spaceship part'
+- set icons from imgs w/generate atlas and remove manual icons (outside of policy, promotions, and sci)
+- added terrains/Black Hole , Blue Moon Molten Moon Meteor Snowball Moon
+- test and pr to add support for orrientation-support (need to req permission to push branch)
 
 ## Test
 

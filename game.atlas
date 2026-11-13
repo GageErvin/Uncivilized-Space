@@ -1,5 +1,5 @@
 game.png
-size: 2048, 788
+size: 2048, 798
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
@@ -563,842 +563,905 @@ TileSets/UncivilizedSpace/Tiles/CityStates-Flat-Universe Society
   orig: 70, 65
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Units/Laser Frigate
+TileSets/UncivilizedSpace/Blue Moon
   rotate: false
   xy: 335, 585
+  size: 72, 64
+  orig: 72, 64
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Molten Moon
+  rotate: false
+  xy: 409, 585
+  size: 72, 64
+  orig: 72, 64
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Meteor
+  rotate: false
+  xy: 483, 585
+  size: 72, 64
+  orig: 72, 64
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Snowball Moon
+  rotate: false
+  xy: 557, 585
+  size: 72, 64
+  orig: 72, 64
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Units/Laser Frigate
+  rotate: false
+  xy: 631, 585
   size: 82, 63
   orig: 82, 63
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Units/Apex Bio-Titan
   rotate: false
-  xy: 419, 585
+  xy: 715, 585
   size: 110, 62
   orig: 110, 62
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Units/Cannonade Vessel
   rotate: false
-  xy: 531, 585
+  xy: 827, 585
   size: 98, 61
   orig: 98, 61
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Units/Generational Settler
   rotate: false
-  xy: 631, 585
+  xy: 927, 585
   size: 84, 61
   orig: 84, 61
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Units/Missile Submarine
   rotate: false
-  xy: 717, 585
+  xy: 1013, 585
   size: 92, 58
   orig: 92, 58
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/Skynet Command BunkerT
   rotate: false
-  xy: 811, 585
+  xy: 1107, 585
   size: 61, 58
   orig: 61, 58
   offset: 0, 0
   index: -1
 ImprovementIcons/Skynet Command Bunker
   rotate: false
-  xy: 811, 585
+  xy: 1107, 585
   size: 61, 58
   orig: 61, 58
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/Skynet Command Bunker
   rotate: false
-  xy: 874, 585
+  xy: 1170, 585
   size: 61, 58
   orig: 61, 58
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Units/Warship
   rotate: false
-  xy: 937, 585
+  xy: 1233, 585
   size: 86, 56
   orig: 86, 56
   offset: 0, 0
   index: -1
+TileSets/UncivilizedSpace/Tiles/Black Hole
+  rotate: false
+  xy: 1321, 585
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/UncivilizedSpace/Tiles/M4IV Star
   rotate: false
-  xy: 1025, 585
+  xy: 1387, 585
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/M5IV Star
   rotate: false
-  xy: 1091, 585
+  xy: 1453, 585
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/M4VI Star
   rotate: false
-  xy: 1157, 585
+  xy: 1519, 585
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/M5VI Star
   rotate: false
-  xy: 1223, 585
+  xy: 1585, 585
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/M3V Star
   rotate: false
-  xy: 1289, 585
+  xy: 1651, 585
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/M4V Star
   rotate: false
-  xy: 1355, 585
+  xy: 1717, 585
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/M5V Star
   rotate: false
-  xy: 1421, 585
+  xy: 1783, 585
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/M6V Star
   rotate: false
-  xy: 1487, 585
+  xy: 1849, 585
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/M7V Star
   rotate: false
-  xy: 1553, 585
+  xy: 1915, 585
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/G2VII Star
   rotate: false
-  xy: 1619, 585
+  xy: 1981, 585
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/K7V Star
   rotate: false
-  xy: 1685, 585
+  xy: 2, 654
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/Cryolith Moon
   rotate: false
-  xy: 1751, 585
+  xy: 68, 654
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/Ringed Terrestrial Planet
   rotate: false
-  xy: 1817, 585
+  xy: 134, 654
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/Gas Giant
   rotate: false
-  xy: 1883, 585
+  xy: 200, 654
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/Ringed Gas Giant
   rotate: false
-  xy: 1949, 585
+  xy: 266, 654
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/Ice Giant
   rotate: false
-  xy: 2, 654
+  xy: 332, 654
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/Ringed Ice Giant
   rotate: false
-  xy: 68, 654
+  xy: 398, 654
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/Cragolith Moon
   rotate: false
-  xy: 134, 654
+  xy: 464, 654
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/Grey-Blue Marble
   rotate: false
-  xy: 200, 654
+  xy: 530, 654
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/Blue Marble
   rotate: false
-  xy: 266, 654
+  xy: 596, 654
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/Yellow-Green-Blue Marble
   rotate: false
-  xy: 332, 654
+  xy: 662, 654
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/Dull-Green Marble
   rotate: false
-  xy: 398, 654
+  xy: 728, 654
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/Fuzzy-Green Gas
   rotate: false
-  xy: 464, 654
+  xy: 794, 654
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/Blue World
   rotate: false
-  xy: 530, 654
+  xy: 860, 654
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/Fuzzy-Blue Gas
   rotate: false
-  xy: 596, 654
+  xy: 926, 654
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/Stony Marble
   rotate: false
-  xy: 662, 654
+  xy: 992, 654
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/Silver-Grey Marble
   rotate: false
-  xy: 728, 654
+  xy: 1058, 654
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/Orange Marble
   rotate: false
-  xy: 794, 654
+  xy: 1124, 654
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/Orange-Black Marble
   rotate: false
-  xy: 860, 654
+  xy: 1190, 654
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/Light-Orange Marble
   rotate: false
-  xy: 926, 654
+  xy: 1256, 654
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/Zero Flux Space
   rotate: false
-  xy: 992, 654
+  xy: 1322, 654
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/Low Flux Space
   rotate: false
-  xy: 1058, 654
+  xy: 1388, 654
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/Debris Fields
   rotate: false
-  xy: 1124, 654
+  xy: 1454, 654
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/Moderate Flux Space
   rotate: false
-  xy: 1190, 654
+  xy: 1520, 654
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/High Flux Space
   rotate: false
-  xy: 1256, 654
+  xy: 1586, 654
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/Extreme Flux Space
   rotate: false
-  xy: 1322, 654
+  xy: 1652, 654
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/Nebula
   rotate: false
-  xy: 1388, 654
+  xy: 1718, 654
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Units/Warp Dreadnaught
   rotate: false
-  xy: 1454, 654
+  xy: 1784, 654
   size: 79, 52
   orig: 79, 52
   offset: 0, 0
   index: -1
+TileSets/UncivilizedSpace/Units/Modified Dreadnaught Engine
+  rotate: false
+  xy: 1865, 654
+  size: 71, 50
+  orig: 71, 50
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Units/SL Chamber
+  rotate: false
+  xy: 1938, 654
+  size: 63, 48
+  orig: 63, 48
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Units/SL Mass Inverter
+  rotate: false
+  xy: 2, 712
+  size: 63, 48
+  orig: 63, 48
+  offset: 0, 0
+  index: -1
 UnitIcons/Warp Dreadnaught
   rotate: false
-  xy: 1535, 654
+  xy: 67, 712
   size: 40, 43
   orig: 40, 43
   offset: 0, 0
   index: -1
 PolicyIcons/Cybernetics
   rotate: false
-  xy: 1577, 654
+  xy: 109, 712
   size: 38, 42
   orig: 38, 42
   offset: 0, 0
   index: -1
+TileSets/UncivilizedSpace/Units/SL Stabilizer
+  rotate: false
+  xy: 149, 712
+  size: 73, 41
+  orig: 73, 41
+  offset: 0, 0
+  index: -1
 UnitIcons/Deep Space Radar Array
   rotate: false
-  xy: 1617, 654
+  xy: 224, 712
   size: 40, 41
   orig: 40, 41
   offset: 0, 0
   index: -1
 UnitIcons/Cryosleep Settler
   rotate: false
-  xy: 1659, 654
+  xy: 266, 712
   size: 40, 41
   orig: 40, 41
   offset: 0, 0
   index: -1
 UnitIcons/SurveyVessel
   rotate: false
-  xy: 1701, 654
+  xy: 308, 712
   size: 40, 41
   orig: 40, 41
   offset: 0, 0
   index: -1
 UnitIcons/Data Archivist
   rotate: false
-  xy: 1743, 654
+  xy: 350, 712
   size: 40, 41
   orig: 40, 41
   offset: 0, 0
   index: -1
 UnitIcons/Astraforming Swarm-Bio
   rotate: false
-  xy: 1785, 654
+  xy: 392, 712
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
   index: -1
 UnitIcons/Breach I - Bio
   rotate: false
-  xy: 1827, 654
+  xy: 434, 712
   size: 41, 40
   orig: 41, 40
   offset: 0, 0
   index: -1
 UnitIcons/Bio Breach
   rotate: false
-  xy: 1870, 654
+  xy: 477, 712
   size: 41, 40
   orig: 41, 40
   offset: 0, 0
   index: -1
 UnitIcons/Spore Slug
   rotate: false
-  xy: 1913, 654
+  xy: 520, 712
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
   index: -1
 UnitIcons/Spore Swarm
   rotate: false
-  xy: 1955, 654
+  xy: 562, 712
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
   index: -1
 UnitIcons/Nano Infester
   rotate: false
-  xy: 1997, 654
+  xy: 604, 712
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
   index: -1
 UnitIcons/Breach II - Mech
   rotate: false
-  xy: 2, 712
+  xy: 646, 712
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
   index: -1
 UnitIcons/Mech Breach
   rotate: false
-  xy: 44, 712
+  xy: 688, 712
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
   index: -1
 UnitIcons/Generational Settler
   rotate: false
-  xy: 86, 712
+  xy: 730, 712
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
   index: -1
 UnitIcons/Incubation Settler
   rotate: false
-  xy: 128, 712
+  xy: 772, 712
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
   index: -1
 UnitIcons/Astraforming Swarm
   rotate: false
-  xy: 170, 712
+  xy: 814, 712
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
   index: -1
 UnitIcons/Annihilation Dreadnaught
   rotate: false
-  xy: 212, 712
+  xy: 856, 712
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
   index: -1
 UnitIcons/Symbiote Stalker
   rotate: false
-  xy: 254, 712
+  xy: 898, 712
   size: 40, 39
   orig: 40, 39
   offset: 0, 0
   index: -1
 UnitIcons/Apex Bio-Titan
   rotate: false
-  xy: 296, 712
+  xy: 940, 712
   size: 40, 39
   orig: 40, 39
   offset: 0, 0
   index: -1
 UnitIcons/Laser Corvette
   rotate: false
-  xy: 338, 712
+  xy: 982, 712
   size: 40, 39
   orig: 40, 39
   offset: 0, 0
   index: -1
 UnitIcons/Neutron Destroyer
   rotate: false
-  xy: 380, 712
+  xy: 1024, 712
   size: 40, 39
   orig: 40, 39
   offset: 0, 0
   index: -1
 UnitIcons/Laser Drone
   rotate: false
-  xy: 422, 712
+  xy: 1066, 712
   size: 40, 38
   orig: 40, 38
   offset: 0, 0
   index: -1
 PolicyIcons/Expansionism
   rotate: false
-  xy: 464, 712
+  xy: 1108, 712
   size: 35, 37
   orig: 35, 37
   offset: 0, 0
   index: -1
 PolicyIcons/Technocracy
   rotate: false
-  xy: 501, 712
+  xy: 1145, 712
   size: 39, 37
   orig: 39, 37
   offset: 0, 0
   index: -1
 PolicyIcons/Bio-Ascendency
   rotate: false
-  xy: 542, 712
+  xy: 1186, 712
   size: 36, 37
   orig: 36, 37
   offset: 0, 0
   index: -1
 PromotionIcons/Advanced Script Patching
   rotate: false
-  xy: 580, 712
+  xy: 1224, 712
   size: 36, 37
   orig: 36, 37
   offset: 0, 0
   index: -1
 PolicyIcons/Hive Symbiosis
   rotate: false
-  xy: 618, 712
+  xy: 1262, 712
   size: 38, 37
   orig: 38, 37
   offset: 0, 0
   index: -1
 UnitIcons/EM Destroyer
   rotate: false
-  xy: 658, 712
+  xy: 1302, 712
   size: 40, 37
   orig: 40, 37
   offset: 0, 0
   index: -1
 UnitIcons/Strategic Cradle
   rotate: false
-  xy: 700, 712
+  xy: 1344, 712
   size: 40, 37
   orig: 40, 37
   offset: 0, 0
   index: -1
 UnitIcons/Warship
   rotate: false
-  xy: 742, 712
+  xy: 1386, 712
   size: 40, 37
   orig: 40, 37
   offset: 0, 0
   index: -1
 PolicyIcons/Rapid Gestation
   rotate: false
-  xy: 784, 712
+  xy: 1428, 712
   size: 36, 36
   orig: 36, 36
   offset: 0, 0
   index: -1
 UnitIcons/Bio-Dreadnaught
   rotate: false
-  xy: 822, 712
+  xy: 1466, 712
   size: 62, 36
   orig: 62, 36
   offset: 0, 0
   index: -1
 UnitIcons/Laser Frigate
   rotate: false
-  xy: 886, 712
+  xy: 1530, 712
   size: 40, 36
   orig: 40, 36
   offset: 0, 0
   index: -1
 UnitIcons/Munition II - Shielded Missile
   rotate: false
-  xy: 928, 712
+  xy: 1572, 712
   size: 40, 36
   orig: 40, 36
   offset: 0, 0
   index: -1
 UnitIcons/Shielded Missile
   rotate: false
-  xy: 970, 712
+  xy: 1614, 712
   size: 40, 36
   orig: 40, 36
   offset: 0, 0
   index: -1
 UnitIcons/Missile Cradle
   rotate: false
-  xy: 1012, 712
+  xy: 1656, 712
   size: 40, 36
   orig: 40, 36
   offset: 0, 0
   index: -1
 PromotionIcons/Meteoropathy
   rotate: false
-  xy: 1054, 712
+  xy: 1698, 712
   size: 35, 35
   orig: 35, 35
   offset: 0, 0
   index: -1
 PolicyIcons/Cybernetics Complete
   rotate: false
-  xy: 1091, 712
+  xy: 1735, 712
   size: 38, 35
   orig: 38, 35
   offset: 0, 0
   index: -1
 UnitIcons/Munition I - Missile
   rotate: false
-  xy: 1131, 712
+  xy: 1775, 712
   size: 40, 35
   orig: 40, 35
   offset: 0, 0
   index: -1
 UnitIcons/Missile
   rotate: false
-  xy: 1173, 712
+  xy: 1817, 712
   size: 40, 35
   orig: 40, 35
   offset: 0, 0
   index: -1
 UnitIcons/Munition III - Laser Propelled Missile
   rotate: false
-  xy: 1215, 712
+  xy: 1859, 712
   size: 40, 35
   orig: 40, 35
   offset: 0, 0
   index: -1
 UnitIcons/Laser Propelled Missile
   rotate: false
-  xy: 1257, 712
+  xy: 1901, 712
   size: 40, 35
   orig: 40, 35
   offset: 0, 0
   index: -1
 UnitIcons/Missile Submarine
   rotate: false
-  xy: 1299, 712
+  xy: 1943, 712
   size: 40, 35
   orig: 40, 35
   offset: 0, 0
   index: -1
 UnitIcons/Cannonade Vessel
   rotate: false
-  xy: 1341, 712
+  xy: 1985, 712
   size: 40, 35
   orig: 40, 35
   offset: 0, 0
   index: -1
 PolicyIcons/Neural Webbing
   rotate: false
-  xy: 1383, 712
+  xy: 2, 762
   size: 34, 34
   orig: 34, 34
   offset: 0, 0
   index: -1
 PolicyIcons/Symbiotic Neural Link
   rotate: false
-  xy: 1419, 712
+  xy: 38, 762
   size: 35, 34
   orig: 35, 34
   offset: 0, 0
   index: -1
 PolicyIcons/Bio-Ascendency Complete
   rotate: false
-  xy: 1456, 712
+  xy: 75, 762
   size: 36, 34
   orig: 36, 34
   offset: 0, 0
   index: -1
 PolicyIcons/Orbital Homesteading
   rotate: false
-  xy: 1494, 712
+  xy: 113, 762
   size: 35, 34
   orig: 35, 34
   offset: 0, 0
   index: -1
 PolicyIcons/Neural Interfaces
   rotate: false
-  xy: 1531, 712
+  xy: 150, 762
   size: 33, 33
   orig: 33, 33
   offset: 0, 0
   index: -1
 PolicyIcons/Automated Refineries
   rotate: false
-  xy: 1566, 712
+  xy: 185, 762
   size: 33, 32
   orig: 33, 32
   offset: 0, 0
   index: -1
 PolicyIcons/Data Integration
   rotate: false
-  xy: 1601, 712
+  xy: 220, 762
   size: 36, 32
   orig: 36, 32
   offset: 0, 0
   index: -1
 PromotionIcons/Point Defense Routine Tweaks
   rotate: false
-  xy: 1639, 712
+  xy: 258, 762
   size: 35, 32
   orig: 35, 32
   offset: 0, 0
   index: -1
 PromotionIcons/Vascular Overclock
   rotate: false
-  xy: 1676, 712
+  xy: 295, 762
   size: 34, 32
   orig: 34, 32
   offset: 0, 0
   index: -1
 PromotionIcons/Ablative Armor Maintenance
   rotate: false
-  xy: 1712, 712
+  xy: 331, 762
   size: 34, 32
   orig: 34, 32
   offset: 0, 0
   index: -1
 PolicyIcons/Algorithmic Efficiency
   rotate: false
-  xy: 1748, 712
+  xy: 367, 762
   size: 35, 32
   orig: 35, 32
   offset: 0, 0
   index: -1
 PolicyIcons/Automated Logistics
   rotate: false
-  xy: 1785, 712
+  xy: 404, 762
   size: 35, 32
   orig: 35, 32
   offset: 0, 0
   index: -1
 PolicyIcons/Expansionism Complete
   rotate: false
-  xy: 1822, 712
+  xy: 441, 762
   size: 35, 32
   orig: 35, 32
   offset: 0, 0
   index: -1
 PolicyIcons/Singularity Grid
   rotate: false
-  xy: 1859, 712
+  xy: 478, 762
   size: 36, 32
   orig: 36, 32
   offset: 0, 0
   index: -1
 PolicyIcons/Technocracy Complete
   rotate: false
-  xy: 1897, 712
+  xy: 516, 762
   size: 33, 32
   orig: 33, 32
   offset: 0, 0
   index: -1
 PolicyIcons/Quantum Logic Networks
   rotate: false
-  xy: 1932, 712
+  xy: 551, 762
   size: 34, 32
   orig: 34, 32
   offset: 0, 0
   index: -1
 PromotionIcons/PerformingCrew
   rotate: false
-  xy: 1968, 712
+  xy: 587, 762
   size: 34, 32
   orig: 34, 32
   offset: 0, 0
   index: -1
 PromotionIcons/Relativistic Coordination
   rotate: false
-  xy: 2004, 712
+  xy: 623, 762
   size: 36, 32
   orig: 36, 32
   offset: 0, 0
   index: -1
 PromotionIcons/Synergy Achieved
   rotate: false
-  xy: 2, 754
+  xy: 661, 762
   size: 33, 32
   orig: 33, 32
   offset: 0, 0
   index: -1
 PolicyIcons/Chimeric Adaptation
   rotate: false
-  xy: 37, 754
+  xy: 696, 762
   size: 36, 31
   orig: 36, 31
   offset: 0, 0
   index: -1
 PolicyIcons/Resource Surveying
   rotate: false
-  xy: 75, 754
+  xy: 734, 762
   size: 34, 31
   orig: 34, 31
   offset: 0, 0
   index: -1
 PolicyIcons/Synthetic Synthesis
   rotate: false
-  xy: 111, 754
+  xy: 770, 762
   size: 35, 31
   orig: 35, 31
   offset: 0, 0
   index: -1
 PolicyIcons/Starlight Frontier
   rotate: false
-  xy: 148, 754
+  xy: 807, 762
   size: 33, 30
   orig: 33, 30
   offset: 0, 0
   index: -1
 StatIcons/Happiness
   rotate: false
-  xy: 183, 754
+  xy: 842, 762
   size: 27, 29
   orig: 27, 29
   offset: 0, 0
   index: -1
 StatIcons/Science
   rotate: false
-  xy: 212, 754
+  xy: 871, 762
   size: 27, 28
   orig: 27, 28
   offset: 0, 0
   index: -1
 ResourceIcons/Antimatter
   rotate: false
-  xy: 241, 754
+  xy: 900, 762
   size: 22, 28
   orig: 22, 28
   offset: 0, 0
   index: -1
 StatIcons/Culture
   rotate: false
-  xy: 265, 754
+  xy: 924, 762
   size: 36, 26
   orig: 36, 26
   offset: 0, 0
   index: -1
 StatIcons/Food
   rotate: false
-  xy: 303, 754
+  xy: 962, 762
   size: 21, 24
   orig: 21, 24
   offset: 0, 0
