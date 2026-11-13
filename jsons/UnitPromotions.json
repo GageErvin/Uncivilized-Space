@@ -10,7 +10,10 @@
 			{
 				"text": "Found the manual in the back of the cargo bay. Turns out you're not supposed to scrape it off with a rusty putty knife. Who knew?"
 			}
-		], "unitTypes": ["Military", "Sub"]
+		],
+		"unitTypes": [
+			"Military"
+		]
 	},
 	{
 		"name": "Point Defense Routine Tweaks",
@@ -22,11 +25,17 @@
 			{
 				"text": "A quick script patch pushed to the turret subroutines, and suddenly incoming ordnance doesn't bypass the interceptors quite so casually."
 			}
-		], "unitTypes": ["Drone", "Military", "Sub"]
+		],
+		"unitTypes": [
+			"Drone",
+			"Military"
+		]
 	},
 	{
 		"name": "Advanced Script Patching",
-		"prerequisites": ["Point Defense Routine Tweaks"],
+		"prerequisites": [
+			"Point Defense Routine Tweaks"
+		],
 		"uniques": [
 			"[+1] additional attacks per turn",
 			"[+15]% Strength <vs [Drone] units>"
@@ -35,7 +44,10 @@
 			{
 				"text": "Why stop at tweaking point defense when you can write a custom regex parser to swat autonomous drones out of the vacuum like digital mosquitoes?"
 			}
-		], "unitTypes": ["Drone"]
+		],
+		"unitTypes": [
+			"Drone"
+		]
 	},
 	{
 		"name": "Meteoropathy",
@@ -48,7 +60,10 @@
 			{
 				"text": "Achieving peak combat efficiency only when cosmic static hurts everyone's artificial joints and meteorological sensors."
 			}
-		], "unitTypes": ["Military", "Sub"]
+		],
+		"unitTypes": [
+			"Military"
+		]
 	},
 	{
 		"name": "Relativistic Coordination",
@@ -61,7 +76,11 @@
 			{
 				"text": "Optimal relativistic coordination. Only matters from the right perspective; from the enemy's perspective, you hit them five minutes ago."
 			}
-		], "unitTypes": ["Military", "Drone", "Sub"]
+		],
+		"unitTypes": [
+			"Military",
+			"Drone"
+		]
 	},
 	{
 		"name": "Performing Crew",
@@ -74,11 +93,16 @@
 			{
 				"text": "Thought they'd know how to work together before launching in a $42 trillion flagship? Wrong! They are currently holding an emergency seminar on synergy while under heavy fire."
 			}
-		], "unitTypes": ["Military", "Sub"]
+		],
+		"unitTypes": [
+			"Military"
+		]
 	},
 	{
 		"name": "Synergy Achieved",
-		"prerequisites": ["Performing Crew"],
+		"prerequisites": [
+			"Performing Crew"
+		],
 		"uniques": [
 			"[+20]% Strength",
 			"All adjacent units heal [3] HP when healing"
@@ -87,7 +111,10 @@
 			{
 				"text": "After surviving three near-death experiences, a hull breach, and a bitter mutiny over breakroom coffee blend preferences, the crew finally achieved peak corporate synergy."
 			}
-		], "unitTypes": ["Military", "Sub"]
+		],
+		"unitTypes": [
+			"Military"
+		]
 	},
 	{
 		"name": "Symbiotic Neural Link",
@@ -100,12 +127,16 @@
 			{
 				"text": "Direct neural feedback loops link the organism's nervous system directly to the hive cluster, maximizing aggressive output and cellular repair rates."
 			}
-		], 
-		"unitTypes": ["Bio-Unit"]
+		],
+		"unitTypes": [
+			"Bio-Unit"
+		]
 	},
 	{
 		"name": "Vascular Overclock",
-		"prerequisites": ["Symbiotic Neural Link"],
+		"prerequisites": [
+			"Symbiotic Neural Link"
+		],
 		"uniques": [
 			"[+1] Movement",
 			"[+10]% Strength <when fighting in [Zero Flux Space] tiles>"
@@ -114,7 +145,178 @@
 			{
 				"text": "Pressurizing the internal vascular chambers allows the organism to sprint across zero-flux vacuums with astonishing velocity."
 			}
-		], 
-		"unitTypes": ["Bio-Unit"]
+		],
+		"unitTypes": [
+			"Bio-Unit"
+		]
+	},
+	{
+		"name": "Sub-Tactical Guidance Array",
+		"prerequisites": [],
+		"uniques": [
+			"[+15]% Strength <vs [Bio-Unit] units>",
+			"Unavailable <for units with [Sub-Surface Diffusion Matrix]>",
+			"Unavailable <for units with [Autonomous Deep Recon]>"
+		],
+		"unitTypes": [
+			"Sub"
+		],
+		"civilopediaText": [
+			{
+				"text": "Enhanced offensive fire-control packages calibrated to interrupt aggressive incursions."
+			}
+		]
+	},
+	{
+		"name": "Sub-Surface Diffusion Matrix",
+		"prerequisites": [],
+		"uniques": [
+			"[+15]% Strength <vs [Military] units>",
+			"Unavailable <for units with [Sub-Tactical Guidance Array]>",
+			"Unavailable <for units with [Autonomous Deep Recon]>"
+		],
+		"unitTypes": [
+			"Sub"
+		],
+		"civilopediaText": [
+			{
+				"text": "Specialized subroutines optimized to spread hostile capital ship weapons."
+			}
+		]
+	},
+	{
+		"name": "Autonomous Deep Recon",
+		"prerequisites": [],
+		"uniques": [
+			"[+2] Sight",
+			"[+2] Movement",
+			"Unavailable <for units with [Sub-Tactical Guidance Array]>",
+			"Unavailable <for units with [Sub-Surface Diffusion Matrix]>"
+		],
+		"unitTypes": [
+			"Sub"
+		],
+		"civilopediaText": [
+			{
+				"text": "Long-range sensor sweeps and upgraded propulsion for vanguard exploration."
+			}
+		]
+	},
+	{
+		"name": "Ablative Baffle Plating",
+		"prerequisites": [],
+		"uniques": [
+			"[+20]% Strength <when defending>",
+			"Unavailable <for units with [Emergency Venting Protocols]>",
+			"Unavailable <for units with [Deceptive Signature Generator]>"
+		],
+		"unitTypes": [
+			"Sub"
+		],
+		"civilopediaText": [
+			{
+				"text": "Sacrificial outer hull layers designed to absorb incoming kinetic impacts."
+			}
+		]
+	},
+	{
+		"name": "Emergency Maintenance Drones",
+		"prerequisites": [],
+		"uniques": [
+			"May heal outside of friendly territory",
+			"Unavailable <for units with [Ablative Baffle Plating]>",
+			"Unavailable <for units with [Deceptive Signature Generator]>"
+		],
+		"unitTypes": [
+			"Sub"
+		],
+		"civilopediaText": [
+			{
+				"text": "Automated damage control teams capable of field repairs in deep space."
+			}
+		]
+	},
+	{
+		"name": "Deceptive Signature Generator",
+		"prerequisites": [],
+		"uniques": [
+			"[+10]% Strength",
+			"Unavailable <for units with [Ablative Baffle Plating]>",
+			"Unavailable <for units with [Emergency Venting Protocols]>"
+		],
+		"unitTypes": [
+			"Sub"
+		],
+		"civilopediaText": [
+			{
+				"text": "Projects false sensor ghosts to confuse enemy targeting computers."
+			}
+		]
+	},
+	{
+		"name": "Extended Munitions Bay",
+		"prerequisites": [],
+		"uniques": [
+			"Can carry [1] extra [Stored Breach Pod] units",
+			"Can carry [2] extra [Munition] units",
+			"Can carry [10] extra [Slug] units",
+			"Unavailable <for units with [Optimized Loading Gantries]>",
+			"Unavailable <for units with [Resonance Dampeners]>"
+		],
+		"unitTypes": [
+			"Sub"
+		],
+		"civilopediaText": [
+			{
+				"text": "Reconfigured internal cargo spaces to house supplementary strike craft."
+			}
+		]
+	},
+	{
+		"name": "Optimized Loading Gantries",
+		"prerequisites": [],
+		"uniques": [
+			"[+12]% Strength <when fighting in [Ringed Terrestrial Planet] tiles>",
+			"[+10]% Strength <when fighting in [Ringed Ice Giant] tiles>",
+			"[+15]% Strength <when fighting in [Gas Giant] tiles>",
+			"[+12]% Strength <when fighting in [Blue Marble] tiles>",
+			"[+12]% Strength <when fighting in [Blue World] tiles>",
+			"[+12]% Strength <when fighting in [Dull-Green Marble] tiles>",
+			"[+15]% Strength <when fighting in [Fuzzy-Blue Gas] tiles>",
+			"[+15]% Strength <when fighting in [Fuzzy-Green Gas] tiles>",
+			"[+12]% Strength <when fighting in [Light-Orange Marble] tiles>",
+			"[+10]% Strength <when fighting in [Orange Marble] tiles>",
+			"[+10]% Strength <when fighting in [Orange-Black Marble] tiles>",
+			"[+8]% Strength <when fighting in [Silver-Grey Marble] tiles>",
+			"[+8]% Strength <when fighting in [Stony Marble] tiles>",
+			"[+12]% Strength <when fighting in [Yellow-Green-Blue Marble tiles>]",
+			"Unavailable <for units with [Extended Munitions Bay]>",
+			"Unavailable <for units with [Resonance Dampeners]>"
+		],
+		"unitTypes": [
+			"Sub"
+		],
+		"civilopediaText": [
+			{
+				"text": "Automated ordnance handling systems that handle atmospheric conditions."
+			}
+		]
+	},
+	{
+		"name": "Resonance Dampeners",
+		"prerequisites": [],
+		"uniques": [
+			"[+10]% Strength <when fighting in [Zero Flux Space] tiles>",
+			"Unavailable <for units with [Extended Munitions Bay]>",
+			"Unavailable <for units with [Optimized Loading Gantries]>"
+		],
+		"unitTypes": [
+			"Sub"
+		],
+		"civilopediaText": [
+			{
+				"text": "Specialized insulation shielding the vessel from ambient stellar anomalies."
+			}
+		]
 	}
 ]

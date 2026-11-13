@@ -9,18 +9,18 @@
             "Cannot move"
         ]
     },
-	{
-		"name": "Orbital Missile Creche",
+    {
+        "name": "Orbital Missile Creche",
         "unitType": "Drone",
         "movement": 0,
-		"uniques": [
+        "uniques": [
             "Can carry [8] [Munition] units",
             "[1] Movement",
             "Transfer Movement to [Munition]",
             "Unbuildable",
             "Cannot move"
         ]
-	},
+    },
     {
         "name": "Generational Settler",
         "unitType": "Settler",
@@ -692,6 +692,62 @@
         "requiredTech": "Bio-Hybridization",
         "uniques": [
             "May capture killed [All] units"
+        ]
+    },
+    {
+        "name": "Modified Dreadnaught Engine",
+        "unitType": "Civilian",
+        "cost": 750,
+        "movement": 2,
+        "requiredTech": "Graviton Manipulation",
+        "uniques": [
+            "Spaceship part",
+            "Cannot be purchased",
+            "Uncapturable",
+            "Can be added to [The Spaceship] in the Capital",
+            "Limited to [2] per Civilization"
+        ]
+    },
+    {
+        "name": "SL Chamber",
+        "unitType": "Civilian",
+        "cost": 500,
+        "movement": 2,
+        "requiredTech": "Graviton Manipulation",
+        "uniques": [
+            "Spaceship part",
+            "Cannot be purchased",
+            "Uncapturable",
+            "Can be added to [The Spaceship] in the Capital",
+            "Limited to [1] per Civilization"
+        ]
+    },
+    {
+        "name": "SL Stabilizer",
+        "unitType": "Civilian",
+        "cost": 600,
+        "movement": 2,
+        "requiredTech": "Graviton Manipulation",
+        "uniques": [
+            "Spaceship part",
+            "Cannot be purchased",
+            "Uncapturable",
+            "Can be added to [The Spaceship] in the Capital",
+            "Limited to [3] per Civilization"
+        ]
+    },
+    {
+        "name": "SL Mass Inverter",
+        "unitType": "Civilian",
+        "cost": 850,
+        "movement": 2,
+        "requiredTech": "Graviton Manipulation",
+        "uniques": [
+            "Spaceship part",
+            "Cannot be purchased",
+            "Uncapturable",
+            "Can be added to [The Spaceship] in the Capital",
+            "Limited to [3] per Civilization"
         ]
     }
 ]

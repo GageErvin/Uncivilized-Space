@@ -118,7 +118,9 @@
 		"happiness": 2,
 		"cost": 100,
 		"requiredTech": "Expert Systems",
-		"uniques": ["[+1] Movement <in this city>"]
+		"uniques": [
+			"[+1] Movement <in this city>"
+		]
 	},
 	{
 		"name": "Terraforming",
@@ -197,12 +199,16 @@
 	{
 		"name": "Uranium Refinery",
 		"production": 1,
-		"uniques": ["Consumes [-1] [Uranium] <upon turn end>"],//for every [1] [turns]>"],
+		"uniques": [
+			"Consumes [-1] [Uranium] <upon turn end>"
+		],
 		"cost": 240
 	},
 	{
 		"name": "Lens Refinery",
-		"uniques": ["Consumes [-1] [Exotic Optomaterial] <for every [1] [turns]>"],
+		"uniques": [
+			"Consumes [-1] [Exotic Optomaterial] <upon turn end>"
+		],
 		"requiredTech": "Athermal Lens",
 		"cost": 140
 	},
@@ -213,7 +219,9 @@
 		"science": 2,
 		"happiness": 1,
 		"cost": 80,
-		"uniques": ["[+1] Movement <in this city>"],
+		"uniques": [
+			"[+1] Movement <in this city>"
+		],
 		"requiredTech": "Expert Systems",
 		"uniqueTo": "Macroforms",
 		"civilopediaText": [
@@ -261,6 +269,29 @@
 			{
 				"text": "Encrypted sub-processors operating entirely within zero-flux shadows."
 			}
+		]
+	},
+	{
+		"name": "Interstellar Initiative",
+		"cost": 1000,
+		"isNationalWonder": true,
+		"requiredTech": "Graviton Manipulation",
+		"uniques": [
+			"Enables building [Spaceship part] units",
+			"Only available <when [Scientific] Victory is enabled>",
+			"Triggers the following global alert: [Another civilization is trying to get out of here! Don't let them be the first to soil new lands..]"
+		],
+		"quote": "The galaxy is full of conflict; let's get out of here!"
+	},
+	{
+		"name": "Orbital Lift",
+		"cost": 300,
+		"maintenance": 3,
+		"requiredTech": "Graviton Manipulation",
+		"requiredBuilding": "Orbital Ship Yard",
+		"uniques": [
+			"[+50]% Production when constructing [Spaceship part] units [in this city]",
+			"Only available <when [Scientific] Victory is enabled>"
 		]
 	}
 ]
