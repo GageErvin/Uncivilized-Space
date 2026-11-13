@@ -11,6 +11,7 @@ import xml.etree.ElementTree as ET
 import zipfile
 from PIL import Image
 
+
 def pack_ora_to_atlas(
     ora_path='AllAssets.ora',
     output_image='game.png',
@@ -59,28 +60,25 @@ def pack_ora_to_atlas(
           img = Image.open(io.BytesIO(img_data)).convert('RGBA')
 
           if bool(re.search(r'[Tt]errains/', name)):
-              name = name.replace('Terrains', 'Tiles')
+            name = name.replace('Terrains', 'Tiles')
 
-              offset_w, offset_h = 4, 4
-              crop_w, crop_h = 64, 56
-              img = img.crop((
-                  offset_w,
-                  offset_h,
-                  offset_w + crop_w,
-                  offset_h + crop_h
-              ))
+            offset_w, offset_h = 4, 4
+            crop_w, crop_h = 64, 56
+            img = img.crop(
+                (offset_w, offset_h, offset_w + crop_w, offset_h + crop_h)
+            )
           if bool(re.search(r'[Ii]mprovements/', name)):
-              # Move from Improvements/ to Tiles/ and append 'T' to the name
-              name = re.sub(r'[Ii]mprovements/', 'Tiles/', name)
-              name_b = name + 'T'
+            # Move from Improvements/ to Tiles/ and append 'T' to the name
+            name = re.sub(r'[Ii]mprovements/', 'Tiles/', name)
+            name_b = name + 'T'
 
-              layer_obj = {'name': name_b, 'img': img}
-              standalone_images.append(layer_obj)
-              atlas_layers.append(layer_obj)
+            layer_obj = {'name': name_b, 'img': img}
+            standalone_images.append(layer_obj)
+            atlas_layers.append(layer_obj)
 
           layer_obj = {'name': name, 'img': img}
 
-          if name == 'Images' or name.startswith('Images/') or name == "preview":
+          if name == 'Images' or name.startswith('Images/') or name == 'preview':
             standalone_images.append(layer_obj)
             atlas_layers.append(layer_obj)
           else:
@@ -91,14 +89,14 @@ def pack_ora_to_atlas(
 
   # Save standalone file using exact layer name path
   if standalone_images:
-      print(f"Exporting {len(standalone_images)} standalone image(s)...")
-      for item in standalone_images:
-          out_filepath = f"{item['name']}.png"
-          dirname = os.path.dirname(out_filepath)
-          if dirname:
-              os.makedirs(dirname, exist_ok=True)
-          item['img'].save(out_filepath, 'PNG')
-          print(f"  Saved: {out_filepath}")
+    print(f'Exporting {len(standalone_images)} standalone image(s)...')
+    for item in standalone_images:
+      out_filepath = f"{item['name']}.png"
+      dirname = os.path.dirname(out_filepath)
+      if dirname:
+        os.makedirs(dirname, exist_ok=True)
+      item['img'].save(out_filepath, 'PNG')
+      print(f'  Saved: {out_filepath}')
 
   if not atlas_layers:
     print('No layers found for atlas packing.')
@@ -152,6 +150,15 @@ def pack_ora_to_atlas(
   atlas_img.save(output_image, 'PNG')
   print(f'Saved atlas image to {output_image}')
 
+  # Normalize all packed entry names first so we can check for existing icons
+  existing_entries = set()
+  for item in packed_items:
+    raw_name = item['name']
+    if raw_name.startswith('Images/'):
+      raw_name = raw_name[len('Images/') :]
+    item['normalized_name'] = raw_name
+    existing_entries.add(raw_name)
+
   # Generate the .atlas text file content matching LibGDX specifications
   atlas_content = []
   atlas_content.append(output_image)
@@ -162,15 +169,7 @@ def pack_ora_to_atlas(
 
   for item in packed_items:
     w, h = item['img'].size
-    
-    raw_name = item['name']
-    if raw_name.startswith('Images/'):
-        raw_name = raw_name[len('Images/'):]
-
-    # Check if it's an improvement layer (now under Tiles/ with a trailing 'T')
-    is_improvement = bool(re.search(r'[Tt]iles/.*T$', raw_name))
-
-    primary_entry_name = raw_name
+    primary_entry_name = item['normalized_name']
 
     # Helper function to append entry block
     def append_atlas_entry(entry_name):
@@ -186,11 +185,22 @@ def pack_ora_to_atlas(
     append_atlas_entry(primary_entry_name)
 
     # 2. Secondary atlas entry for Improvements (maps to ImprovementIcons/)
+    is_improvement = bool(re.search(r'[Tt]iles/.*T$', primary_entry_name))
     if is_improvement:
-        # Strip off the trailing 'T' and switch Tiles/ to ImprovementIcons/
-        base_improvement_name = raw_name[:-1]
-        secondary_icon_name = re.sub(r'^.*?[Tt]iles/', 'ImprovementIcons/', base_improvement_name)
-        append_atlas_entry(secondary_icon_name)
+      # Strip off the trailing 'T' and switch Tiles/ to ImprovementIcons/
+      base_improvement_name = primary_entry_name[:-1]
+      secondary_icon_name = re.sub(
+          r'^.*?[Tt]iles/', 'ImprovementIcons/', base_improvement_name
+      )
+      append_atlas_entry(secondary_icon_name)
+
+    # 3. Secondary atlas entry for Units missing a dedicated UnitIcons/ entry
+    if re.match(r'^[Uu]nits/', primary_entry_name):
+      fallback_icon_name = re.sub(
+          r'^[Uu]nits/', 'UnitIcons/', primary_entry_name
+      )
+      if fallback_icon_name not in existing_entries:
+        append_atlas_entry(fallback_icon_name)
 
   with open(output_atlas, 'w', encoding='utf-8') as f:
     f.write('\n'.join(atlas_content))

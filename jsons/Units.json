@@ -234,7 +234,7 @@
         "upgradesTo": "EM Destroyer",
         "requiredTech": "Athermal Lens",
         "requiredResource": "Exotic Optomaterial",
-        "requiredResourceCost": 1,
+        "requiredResourceCost": 5,
         "uniques": [
             "Destroys [in all cities] cities instead of capturing",
             "[-1] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
@@ -252,13 +252,11 @@
         "name": "EM Destroyer",
         "unitType": "Military",
         "strength": 14,
-        "rangedStrength": 18,
-        "range": 3,
-        "movement": 2,
-        "cost": 380,
+        "rangedStrength": 20,
+        "range": 5,
+        "movement": 3,
+        "cost": 400,
         "upgradesTo": "Neutron Destroyer",
-        "requiredResource": "Uranium",
-        "requiredResourceCost": 1,
         "requiredTech": "High Efficiency Fusion",
         "uniques": [
             "Destroys [in all cities] cities instead of capturing",
@@ -277,24 +275,24 @@
         "unitType": "Military",
         "strength": 18,
         "rangedStrength": 20,
-        "range": 3,
+        "range": 4,
         "movement": 4,
         "cost": 460,
         "upgradesTo": "Annihilation Dreadnaught",
         "requiredResource": "Uranium",
-        "requiredResourceCost": 1,
+        "requiredResourceCost": 5,
         "requiredTech": "Directed Plasma",
         "uniques": [
             "Destroys [in all cities] cities instead of capturing",
-            "[-2] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
-            "[-2] Sight <in [High Flux Space] tiles> <hidden from users>",
-            "[-2] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
-            "[-2] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
-            "[-2] Movement <in [High Flux Space] tiles> <hidden from users>",
-            "[-2] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
+            "[-1] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
+            "[-1] Sight <in [High Flux Space] tiles> <hidden from users>",
+            "[-1] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+2] Sight",
-            "Can carry [1] [Stored Breach Pod] units"
+            "Can carry [2] [Stored Breach Pod] units"
         ],
         "obsoleteWith": "Graviton Manipulation"
     },
@@ -321,7 +319,7 @@
             "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+2] Sight",
-            "Can carry [1] [Stored Breach Pod] units"
+            "Can carry [3] [Stored Breach Pod] units"
         ]
     },
     {
@@ -434,7 +432,7 @@
     {
         "name": "Munition III - Laser Propelled Missile",
         "unitType": "Munition",
-        "movement": 5,
+        "movement": 7,
         "strength": 0,
         "cost": 50,
         "requiredTech": "Laser Propulsion",
@@ -477,7 +475,7 @@
         "movement": 1,
         "cost": 250,
         "requiredResource": "Exotic Optomaterial",
-        "requiredResourceCost": 1,
+        "requiredResourceCost": 5,
         "requiredTech": "Laser Propulsion",
         "upgradesTo": "Strategic Cradle",
         "uniques": [
@@ -623,7 +621,7 @@
         "cost": 840,
         "requiredTech": "Hive-Mind Engineering",
         "requiredResource": "Uranium",
-        "requiredResourceCost": 1,
+        "requiredResourceCost": 10,
         "upgradesTo": "Bio-Dreadnaught",
         "uniques": [
             "[-2] Sight <in [Extreme Flux Space] tiles> <hidden from users>",

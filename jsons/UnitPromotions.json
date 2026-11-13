@@ -318,5 +318,41 @@
 				"text": "Specialized insulation shielding the vessel from ambient stellar anomalies."
 			}
 		]
+	},
+	{
+		"name": "Long-Range Telemetry",
+		"prerequisites": [],
+		"uniques": [
+			"[+2] Sight",
+			"[+10]% Strength <when fighting in [Low Flux Space] tiles>",
+			"[+10]% Strength <when fighting in [Zero Flux Space] tiles>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Upgraded sensor arrays allow scouts to peer deeper into cosmic interference zones without burning out their optical receivers."
+			}
+		],
+		"unitTypes": [
+			"Scout"
+		]
+	},
+	{
+		"name": "Sub-Space Mapping",
+		"prerequisites": [
+			"Long-Range Telemetry"
+		],
+		"uniques": [
+			"[+2] Movement",
+			"[+10]% Strength <when fighting in [High Flux Space] tiles>",
+			"[+10]% Strength <when fighting in [Extreme Flux Space] tiles>"
+		],
+		"civilopediaText": [
+			{
+				"text": "By routing navigational heuristics through local interference eddies, scouts can plot pathways that bypass standard velocity restrictions."
+			}
+		],
+		"unitTypes": [
+			"Scout"
+		]
 	}
 ]

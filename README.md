@@ -17,6 +17,7 @@ Launch missiles, Conquer space. Enable 'permanent audio-visual mod.'
 - Diverse wonders (images)
   - black hole
 - units (images)
+  - non-player or 'ai' units for barbarians (stop them using others): sep / biomechanical
   - diverse uniques
   - scout promotions: more vision, slightly buffer, recall
   - immobile orbital fortress: -2 mv when not adjacent to city, "[+20]% Strength bonus for [Friendly] units within [1] tiles", must set up to ranged attack, "All adjacent units heal [3] HP when healing",
@@ -30,9 +31,10 @@ Launch missiles, Conquer space. Enable 'permanent audio-visual mod.'
 ## TODO
 
 - images for units with 'Spaceship part'
+- free starting sub only promos don't work
+- expert systems should enable fewer..
 
 ## Test
-- free starting sub only promos
 
 - notification on spaceship part enablement building
 

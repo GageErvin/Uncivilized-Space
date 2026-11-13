@@ -1,23 +1,65 @@
 [
   {
     "name": "Paperclip Ecumenopolis",
-    "civilopediaText":[{"text":"An illicit encampment of nomadic scrap-pirates processing stolen asteroid ores and contraband."}],
+    "civilopediaText": [
+      {
+        "text": "An illicit encampment of nomadic scrap-pirates processing stolen asteroid ores and contraband."
+      }
+    ],
     "uniques": [
       "Marks a barbarian camp",
-      "Unbuildable", "Unpillagable", "Excluded from map editor"
+      "Unbuildable",
+      "Unpillagable",
+      "Excluded from map editor"
     ],
     "terrainsCanBeBuiltOn": [
-      "Ringed Terrestrial Planet", "Gas Giant", "Ringed Gas Giant",  "Ice Giant", "Ringed Ice Giant","Cragolith Moon", "Cryolith Moon",  "Blue Marble",  "Blue World", "Dull-Green Marble",  "Fuzzy-Blue Gas", "Fuzzy-Green Gas",  "Light-Orange Marble", "Orange Marble", "Orange-Black Marble", "Silver-Grey Marble", "Stony Marble", "Yellow-Green-Blue Marble"
+      "Ringed Terrestrial Planet",
+      "Gas Giant",
+      "Ringed Gas Giant",
+      "Ice Giant",
+      "Ringed Ice Giant",
+      "Cragolith Moon",
+      "Cryolith Moon",
+      "Blue Marble",
+      "Blue World",
+      "Dull-Green Marble",
+      "Fuzzy-Blue Gas",
+      "Fuzzy-Green Gas",
+      "Light-Orange Marble",
+      "Orange Marble",
+      "Orange-Black Marble",
+      "Silver-Grey Marble",
+      "Stony Marble",
+      "Yellow-Green-Blue Marble"
     ]
   },
   {
     "name": "Matrix Simulation Pods",
     "uniques": [
       "Marks a barbarian camp",
-      "Unbuildable", "Unpillagable", "Excluded from map editor"
+      "Unbuildable",
+      "Unpillagable",
+      "Excluded from map editor"
     ],
     "terrainsCanBeBuiltOn": [
-      "Ringed Terrestrial Planet", "Gas Giant", "Ringed Gas Giant",  "Ice Giant", "Ringed Ice Giant","Cragolith Moon", "Cryolith Moon",  "Blue Marble",  "Blue World", "Dull-Green Marble",  "Fuzzy-Blue Gas", "Fuzzy-Green Gas",  "Light-Orange Marble", "Orange Marble", "Orange-Black Marble", "Silver-Grey Marble", "Stony Marble", "Yellow-Green-Blue Marble"
+      "Ringed Terrestrial Planet",
+      "Gas Giant",
+      "Ringed Gas Giant",
+      "Ice Giant",
+      "Ringed Ice Giant",
+      "Cragolith Moon",
+      "Cryolith Moon",
+      "Blue Marble",
+      "Blue World",
+      "Dull-Green Marble",
+      "Fuzzy-Blue Gas",
+      "Fuzzy-Green Gas",
+      "Light-Orange Marble",
+      "Orange Marble",
+      "Orange-Black Marble",
+      "Silver-Grey Marble",
+      "Stony Marble",
+      "Yellow-Green-Blue Marble"
     ]
   },
   {
@@ -25,20 +67,58 @@
     "uniques": [
       "Gives a defensive bonus of [+20]%",
       "Marks a barbarian camp",
-      "Unbuildable", "Unpillagable", "Excluded from map editor"
+      "Unbuildable",
+      "Unpillagable",
+      "Excluded from map editor"
     ],
     "terrainsCanBeBuiltOn": [
-      "Ringed Terrestrial Planet", "Gas Giant", "Ringed Gas Giant",  "Ice Giant", "Ringed Ice Giant","Cragolith Moon", "Cryolith Moon",  "Blue Marble",  "Blue World", "Dull-Green Marble",  "Fuzzy-Blue Gas", "Fuzzy-Green Gas",  "Light-Orange Marble", "Orange Marble", "Orange-Black Marble", "Silver-Grey Marble", "Stony Marble", "Yellow-Green-Blue Marble"
+      "Ringed Terrestrial Planet",
+      "Gas Giant",
+      "Ringed Gas Giant",
+      "Ice Giant",
+      "Ringed Ice Giant",
+      "Cragolith Moon",
+      "Cryolith Moon",
+      "Blue Marble",
+      "Blue World",
+      "Dull-Green Marble",
+      "Fuzzy-Blue Gas",
+      "Fuzzy-Green Gas",
+      "Light-Orange Marble",
+      "Orange Marble",
+      "Orange-Black Marble",
+      "Silver-Grey Marble",
+      "Stony Marble",
+      "Yellow-Green-Blue Marble"
     ]
   },
   {
     "name": "Over-Caregiver Enclave",
     "uniques": [
       "Marks a barbarian camp",
-      "Unbuildable", "Unpillagable", "Excluded from map editor"
+      "Unbuildable",
+      "Unpillagable",
+      "Excluded from map editor"
     ],
     "terrainsCanBeBuiltOn": [
-      "Ringed Terrestrial Planet", "Gas Giant", "Ringed Gas Giant",  "Ice Giant", "Ringed Ice Giant","Cragolith Moon", "Cryolith Moon",  "Blue Marble",  "Blue World", "Dull-Green Marble",  "Fuzzy-Blue Gas", "Fuzzy-Green Gas",  "Light-Orange Marble", "Orange Marble", "Orange-Black Marble", "Silver-Grey Marble", "Stony Marble", "Yellow-Green-Blue Marble"
+      "Ringed Terrestrial Planet",
+      "Gas Giant",
+      "Ringed Gas Giant",
+      "Ice Giant",
+      "Ringed Ice Giant",
+      "Cragolith Moon",
+      "Cryolith Moon",
+      "Blue Marble",
+      "Blue World",
+      "Dull-Green Marble",
+      "Fuzzy-Blue Gas",
+      "Fuzzy-Green Gas",
+      "Light-Orange Marble",
+      "Orange Marble",
+      "Orange-Black Marble",
+      "Silver-Grey Marble",
+      "Stony Marble",
+      "Yellow-Green-Blue Marble"
     ]
   },
   {
@@ -55,8 +135,8 @@
     "uniques": [
       "Can be built outside your borders",
       "Costs [1] [Gold] per turn",
-	  "Can be built just outside your borders",
-	  "Gain control over [Unowned] tiles in a [1]-tile radius"
+      "Can be built just outside your borders",
+      "Gain control over [Unowned] tiles in a [1]-tile radius"
     ],
     "shortcutKey": "R",
     "civilopediaText": [
@@ -114,8 +194,9 @@
     "terrainsCanBeBuiltOn": [
       "Moderate Flux Space",
       "Low Flux Space",
-      "Zero Flux Space"],
-    "uniques":[
+      "Zero Flux Space"
+    ],
+    "uniques": [
       "[+2 Gold, +1 Production] for each adjacent [Debris Fields]",
       "[+1 Production] for each adjacent [High Flux Space]",
       "[+1 Gold, +1 Production] for each adjacent [Extreme Flux Space]"
@@ -124,7 +205,11 @@
   {
     "name": "Deep Space Radar Array Woumb",
     "turnsToBuild": 8,
-    "RGB": [24, 29, 24],
+    "RGB": [
+      24,
+      29,
+      24
+    ],
     "uniques": [
       "Free [Deep Space Radar Array] appears"
     ],
@@ -137,8 +222,12 @@
   {
     "name": "Orbital Missile Creche Woumb",
     "turnsToBuild": 8,
-	"techRequired": "Expert Systems",
-    "RGB": [24, 29, 24],
+    "techRequired": "Expert Systems",
+    "RGB": [
+      24,
+      29,
+      24
+    ],
     "uniques": [
       "Free [Orbital Missile Creche] appears"
     ],
@@ -148,21 +237,33 @@
       "Moderate Flux Space"
     ]
   },
-	{
-		"name": "City center",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Ensures a minimum tile yield of [+2 Food, +3 Production]",
-            "Unpillagable", "Irremovable", "Unbuildable", "Excluded from map editor"],
-        "civilopediaText": [
-			{"text":"Marks the center of a city"}
-		]
-	},
+  {
+    "name": "City center",
+    "terrainsCanBeBuiltOn": [
+      "Land"
+    ],
+    "uniques": [
+      "Ensures a minimum tile yield of [+2 Food, +3 Production]",
+      "Unpillagable",
+      "Irremovable",
+      "Unbuildable",
+      "Excluded from map editor"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Marks the center of a city"
+      }
+    ]
+  },
   {
     "name": "Flux Resonance Array",
     "turnsToBuild": 8,
     "science": 2,
     "techRequired": "High Efficiency Fusion",
-    "terrainsCanBeBuiltOn": ["High Flux Space", "Extreme Flux Space"],
+    "terrainsCanBeBuiltOn": [
+      "High Flux Space",
+      "Extreme Flux Space"
+    ],
     "uniques": [
       "[+1 Production] for each adjacent [High Flux Space]",
       "[+2 Production] for each adjacent [Extreme Flux Space]"
@@ -177,7 +278,9 @@
     "name": "Magnetic Anti-Matter Guide",
     "turnsToBuild": 8,
     "science": 1,
-    "uniques": ["Can only be built to improve a resource"]
+    "uniques": [
+      "Can only be built to improve a resource"
+    ]
   },
   {
     "name": "Debris Scavenging Dock",
@@ -185,7 +288,9 @@
     "gold": 2,
     "production": 1,
     "techRequired": "Pre-Tracting Ionization",
-    "terrainsCanBeBuiltOn": ["Debris Fields"],
+    "terrainsCanBeBuiltOn": [
+      "Debris Fields"
+    ],
     "uniques": [
       "[+1 Science] for each adjacent [Debris Fields]"
     ],
@@ -201,9 +306,11 @@
     "food": 3,
     "production": -1,
     "techRequired": "Cryogenics",
-    "terrainsCanBeBuiltOn": ["Cryolith Moon", "Ice Giant"],
-    "uniques": [
+    "terrainsCanBeBuiltOn": [
+      "Cryolith Moon",
+      "Ice Giant"
     ],
+    "uniques": [],
     "civilopediaText": [
       {
         "text": "Deep-freeze extraction platforms designed to synthesize volatile dietary supplements.  (・_・;)"
