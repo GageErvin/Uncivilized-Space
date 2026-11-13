@@ -288,7 +288,7 @@
 		"cost": 300,
 		"maintenance": 3,
 		"requiredTech": "Graviton Manipulation",
-		"requiredBuilding": "Orbital Ship Yard",
+		"requiredBuilding": "Orbital Launcher",
 		"uniques": [
 			"[+50]% Production when constructing [Spaceship part] units [in this city]",
 			"Only available <when [Scientific] Victory is enabled>"
