@@ -23,8 +23,7 @@ Launch missiles, Conquer space. Enable 'permanent audio-visual mod.'
   - immobile orbital fortress: -2 mv when not adjacent to city, "[+20]% Strength bonus for [Friendly] units within [1] tiles", must set up to ranged attack, "All adjacent units heal [3] HP when healing",
 - Diverse luxuries (images)
 - multi-tile constructables (images)
-  - unit (front must be adjacent to rear ; on completion transforms; rear destroyed ; would need to be attached build or scaffolds as there is no way to ensure orientation)
-  - Dyson sphere (stacked build on only centered stars, ea tier provides production and one time sci, victory condition?, first complete bonus)
+  - unit (front must be adjacent to rear ; on completion transforms; rear destroyed ; would need to be attached build or scaffolds as there is no way to ensure orientation ; Good, alternatively require front built on top of rear?)
 
 - Great people?
 
@@ -41,3 +40,5 @@ Launch missiles, Conquer space. Enable 'permanent audio-visual mod.'
 - em phantom units
 - infestation takeover status
 - interference limiting sight on units only
+- Dyson sphere (ea tier provides production + one time sci, alternative science victory condition?, first complete bonus, settle?)
+- comets (tail must be away from nearest star)
