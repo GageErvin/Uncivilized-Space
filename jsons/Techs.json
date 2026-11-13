@@ -160,11 +160,19 @@
 		"wonderCost": 250,
 		"techs": [
 			{
+				"name": "Kaizen - 4",
+				"prerequisites": [
+					"Kaizen - 3"
+				],
+				"row": 1,
+				"uniques": ["Comment [+1% Production in all cities each time this is researched]", "Can be continually researched"]
+			},
+			{
 				"name": "Bio-Singularity",
 				"prerequisites": [
 					"Hive-Mind Engineering"
 				],
-				"row": 1,
+				"row": 2,
 				"quote": "When flesh becomes code, every heartbeat computes a universe.",
 				"uniques": []
 			},
