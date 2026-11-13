@@ -186,9 +186,10 @@
 			{
 				"name": "Laser Propulsion",
 				"prerequisites": [
-					"Artificial Super Intelligence"
+					"Artificial Super Intelligence",
+					"Micro Particulate Shielding"
 				],
-				"row": 9,
+				"row": 7,
 				"cost": 35,
 				"quote": "Look, if a cat can chase a laser pointer, why can't a spaceship?"
 			},
@@ -214,7 +215,7 @@
 				"prerequisites": [
 					"Artificial Super Intelligence"
 				],
-				"row": 8,
+				"row": 9,
 				"quote": "We call it 'strange' because it defies all known science. Also, it hums show tunes."
 			},
 			{
@@ -222,7 +223,7 @@
 				"prerequisites": [
 					"Artificial Super Intelligence"
 				],
-				"row": 7,
+				"row": 8,
 				"quote": "It's either on, off, both, or maybe it's just really confused."
 			}
 		]
@@ -239,7 +240,7 @@
 				"prerequisites": [
 					"Strange Battery"
 				],
-				"row": 8,
+				"row": 9,
 				"quote": "At 0.0001c, our trip is so uneventful that the onboard computer is just running a screen saver of a star field."
 			},
 			{
