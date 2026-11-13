@@ -10,10 +10,10 @@
         "name": "Scientific",
         "victoryScreenHeader": "This Galaxy is full of conflict; let's get out of here!",
         "milestones": [
-            "Have at least [2] [Modified Dreadnaught Engine]",
-            "Have at least [SL Chamber]",
-            "Have at least [3] [SL Stabilizer]",
-            "Have at least [3] [SL Mass Inverter]"
+            "Have at least [2] [[Modified Dreadnaught Engine] Units]",
+            "Have at least [1] [[SL Chamber] Units]",
+            "Have at least [3] [[SL Stabilizer] Units]",
+            "Have at least [3] [[SL Mass Inverter] Units]"
         ],
         "victoryString": "You have achieved victory through mastery of Science! You have conquered the galactic limit and launched your people toward a new stellar dawn!",
         "defeatString": "You have been defeated. Another civilization reached beyond the stars before you."
