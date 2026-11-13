@@ -15,7 +15,6 @@ Launch missiles, Conquer space. Enable 'permanent audio-visual mod.'
 - units (images)
   - non-player or 'ai' units for barbarians (stop them using others): sep / biomechanical
   - diverse uniques
-  - scout promotions: more vision, slightly buffer, recall
   - immobile orbital fortress: -2 mv when not adjacent to city, "[+20]% Strength bonus for [Friendly] units within [1] tiles", must set up to ranged attack, "All adjacent units heal [3] HP when healing",
 - Diverse luxuries (images)
 - multi-tile constructables (images)
@@ -28,9 +27,7 @@ Launch missiles, Conquer space. Enable 'permanent audio-visual mod.'
 
 ## TODO
 
-- images for units with 'Spaceship part'
 - set icons from imgs w/generate atlas and remove manual icons (outside of policy, promotions, and sci)
-- added terrains/Black Hole , Blue Moon Molten Moon Meteor Snowball Moon
 - test and pr to add support for orrientation-support (need to req permission to push branch)
 
 ## Test
