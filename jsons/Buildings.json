@@ -60,7 +60,7 @@
 	{
 		"name": "Weapons Cache",
 		"cost": 100,
-		"requiredTech": "Expert Systems",
+		"requiredTech": "Engagement Boost",
 		"uniques": [
 			"Can carry [3] extra [Munition] units"
 		]
