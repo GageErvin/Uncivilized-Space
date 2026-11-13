@@ -351,7 +351,6 @@
         "strength": 6,
         "movement": 4,
         "cost": 20,
-        "requiredTech": "Expert Systems",
         "obsoleteWith": "Micro Particulate Shielding",
         "uniques": [
             "Blast radius [1]"
@@ -368,7 +367,7 @@
         "movement": 5,
         "strength": 0,
         "cost": 20,
-        "requiredTech": "Expert Systems",
+        "requiredTech": "Engagement Boost",
         "obsoleteWith": "Micro Particulate Shielding",
         "uniques": [
             "Can transform to [Missile] <for [0] movement>"
@@ -385,7 +384,6 @@
         "strength": 9,
         "movement": 5,
         "cost": 25,
-        "requiredTech": "Micro Particulate Shielding",
         "obsoleteWith": "Laser Propulsion",
         "uniques": [
             "Blast radius [1]"
@@ -419,7 +417,6 @@
         "strength": 12,
         "movement": 7,
         "cost": 35,
-        "requiredTech": "Laser Propulsion",
         "uniques": [
             "Blast radius [2]"
         ],
@@ -451,7 +448,7 @@
         "strength": 4,
         "movement": 2,
         "cost": 200,
-        "requiredTech": "Expert Systems",
+        "requiredTech": "Engagement Boost",
         "upgradesTo": "Missile Cradle",
         "uniques": [
             "[-4] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
