@@ -140,7 +140,7 @@
             "Cannot attack",
             "Gain [2] [Culture]",
             //"[This Unit] gains [7] XP <upon losing a [Missile] unit>",
-            "[This Unit] gains [60] XP"
+            "[This Unit] gains [60] XP <upon turn start> <once>"
         ],
         "civilopediaText": [
             {
