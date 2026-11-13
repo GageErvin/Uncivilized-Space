@@ -31,12 +31,11 @@ Launch missiles, Conquer space. Enable 'permanent audio-visual mod.'
 ## TODO
 
 - images for units with 'Spaceship part'
-- free starting sub only promos don't work
-- expert systems should enable fewer..
 
 ## Test
 
 - notification on spaceship part enablement building
+- Kaizen - 4
 
 ## Discarded Ideas (Mod Limitations) 
 - em phantom units
