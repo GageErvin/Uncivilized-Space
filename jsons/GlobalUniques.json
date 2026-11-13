@@ -5,6 +5,7 @@
         "[-99]% growth [in all cities] <when below [-10] [Happiness]>",
         "[-50]% [Production] [in all cities] <when below [-10] [Happiness]>",
         "[-33]% Strength <for [All] units> <when below [-10] [Happiness]>",
-        "Rebel units may spawn <when below [-20] [Happiness]>"
+        "Rebel units may spawn <when below [-20] [Happiness]>",
+        "[+1]% [Production] [in all cities] <for [999] turns> <upon discovering [Kaizen 4] technology>"
     ]
 }
