@@ -277,7 +277,7 @@
 		"isNationalWonder": true,
 		"requiredTech": "Graviton Manipulation",
 		"uniques": [
-			"Enables building [Spaceship part] units",
+			"Enables construction of Spaceship parts",
 			"Only available <when [Scientific] Victory is enabled>",
 			"Triggers the following global alert: [Another civilization is trying to get out of here! Don't let them be the first to soil new lands..]"
 		],
@@ -288,7 +288,7 @@
 		"cost": 300,
 		"maintenance": 3,
 		"requiredTech": "Graviton Manipulation",
-		"requiredBuilding": "Orbital Ship Yard",
+		"requiredBuilding": "Orbital Launcher",
 		"uniques": [
 			"[+50]% Production when constructing [Spaceship part] units [in this city]",
 			"Only available <when [Scientific] Victory is enabled>"
