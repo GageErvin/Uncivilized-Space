@@ -547,7 +547,7 @@
         "uniques": [
             "[1] additional attacks per turn"
         ]
-    },
+    },/* needs paperclip Nation.. no way to limit relative to other barbarians
     {
         "name": "Weaponized Mobile Paperclip Conversion Factory-Ship",
         "unitType": "Drone",
@@ -559,7 +559,7 @@
             "[3] additional attacks per turn",
             "Can only be built in [Paperclip Ecumenopolis] cities"
         ]
-    },
+    },*/
     {
         "name": "Missile",
         "unitType": "Missile",
