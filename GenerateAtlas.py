@@ -3,7 +3,6 @@
 # python3 -m venv venv
 # 2 source venv/bin/activate
 # 3 python3 GenerateAtlas.py
-
 import io
 import os
 import re
@@ -23,8 +22,7 @@ def pack_ora_to_atlas(
     return
 
   print(f"Reading layers from '{ora_path}'...")
-  atlas_layers = []
-  standalone_images = []
+  layers_meta = []
 
   # OpenRaster (.ora) files are ZIP archives containing stack.xml and layer images
   with zipfile.ZipFile(ora_path, 'r') as z:
@@ -59,49 +57,107 @@ def pack_ora_to_atlas(
           img_data = z.read(src)
           img = Image.open(io.BytesIO(img_data)).convert('RGBA')
 
-          if bool(re.search(r'[Tt]errains/', name)):
-            name = re.sub(r'[Tt]errains/', 'Tiles/', name)
+          # Default metadata state
+          standalone_name = name
+          atlas_names = [name]
+          save_standalone = False
+          is_improvement = False
+          is_unit = False
 
+          # 1. Process Terrains -> Map to Tiles/ with standard crop
+          if bool(re.search(r'[Tt]errains/', name)):
+            clean_name = re.sub(r'[Tt]errains/', 'Tiles/', name)
             offset_w, offset_h = 4, 4
             crop_w, crop_h = 64, 56
             img = img.crop(
                 (offset_w, offset_h, offset_w + crop_w, offset_h + crop_h)
             )
+            standalone_name = clean_name
+            atlas_names = [clean_name]
+
+          # 2. Process Improvements -> Map to Tiles/ (clean standalone name without 'T')
           elif bool(re.search(r'[Ii]mprovements/', name)):
-            # Move from Improvements/ to Tiles/ and append 'T' to the name
-            name = re.sub(r'[Ii]mprovements/', 'Tiles/', name) + 'T'
-            standalone_images.append({'name': name, 'img': img})
+            clean_name = re.sub(r'[Ii]mprovements/', 'Tiles/', name)
+            standalone_name = clean_name
+            atlas_names = [clean_name]
+            save_standalone = True
+            is_improvement = True
 
-          layer_obj = {'name': name, 'img': img}
+          # 3. Process Units
+          elif bool(re.search(r'[Uu]nits/', name)):
+            is_unit = True
 
-          if name == 'Images' or name.startswith('Images/') or name == 'preview':
-            standalone_images.append(layer_obj)
-            atlas_layers.append(layer_obj)
-          else:
-            atlas_layers.append(layer_obj)
+          # 4. Process standalone Images/ or preview
+          elif name == 'Images' or name.startswith('Images/') or name == 'preview':
+            standalone_name = name
+            atlas_names = [name]
+            save_standalone = True
+
+          # Build structured metadata object for this layer
+          layer_obj = {
+              'original_name': name,
+              'img': img,
+              'standalone_name': standalone_name,
+              'atlas_names': atlas_names,
+              'save_standalone': save_standalone,
+              'is_improvement': is_improvement,
+              'is_unit': is_unit,
+          }
+          layers_meta.append(layer_obj)
 
         except Exception as e:
           print(f"Warning: Could not load layer '{name}' from '{src}': {e}")
 
-  # Save standalone file using exact layer name path
-  if standalone_images:
-    print(f'Exporting {len(standalone_images)} standalone image(s)...')
-    for item in standalone_images:
-      out_filepath = f"{item['name']}.png"
+  if not layers_meta:
+    print('No layers found for processing.')
+    return
+
+  # Step 1: Normalize and collect all existing entry names across layers to check for custom icons
+  existing_entries = set()
+  for item in layers_meta:
+    for aname in item['atlas_names']:
+      norm = aname[len('Images/')] if aname.startswith('Images/') else aname
+      existing_entries.add(norm)
+
+  # Step 2: Automatically attach fallback icon entries if dedicated ones don't already exist
+  for item in layers_meta:
+    primary_name = item['atlas_names'][0]
+    norm_primary = (
+        primary_name[len('Images/')]
+        if primary_name.startswith('Images/')
+        else primary_name
+    )
+
+    if item['is_improvement']:
+      fallback_icon = re.sub(
+          r'^(?:.*?/)?[Tt]iles/', 'ImprovementIcons/', norm_primary
+      )
+      if fallback_icon not in existing_entries:
+        item['atlas_names'].append(fallback_icon)
+        existing_entries.add(fallback_icon)
+
+    elif item['is_unit']:
+      fallback_icon = re.sub(
+          r'^(?:.*?/)?[Uu]nits/', 'UnitIcons/', norm_primary
+      )
+      if fallback_icon not in existing_entries:
+        item['atlas_names'].append(fallback_icon)
+        existing_entries.add(fallback_icon)
+
+  # Step 3: Save standalone files using clean filenames (free of postfixes)
+  standalone_items = [item for item in layers_meta if item['save_standalone']]
+  if standalone_items:
+    print(f'Exporting {len(standalone_items)} standalone image(s)...')
+    for item in standalone_items:
+      out_filepath = f"{item['standalone_name']}.png"
       dirname = os.path.dirname(out_filepath)
       if dirname:
         os.makedirs(dirname, exist_ok=True)
       item['img'].save(out_filepath, 'PNG')
       print(f'  Saved: {out_filepath}')
 
-  if not atlas_layers:
-    print('No layers found for atlas packing.')
-    return
-
-  print(f'Found {len(atlas_layers)} layer(s) for atlas. Packing...')
-
-  # Sort layers by height descending for optimal shelf packing
-  atlas_layers.sort(key=lambda x: x['img'].height, reverse=True)
+  # Step 4: Sort layers by height descending for optimal shelf packing in the atlas
+  layers_meta.sort(key=lambda x: x['img'].height, reverse=True)
 
   max_width = 2048
   padding = 2
@@ -112,7 +168,7 @@ def pack_ora_to_atlas(
 
   packed_items = []
 
-  for item in atlas_layers:
+  for item in layers_meta:
     w, h = item['img'].size
 
     # Wrap to next row if image exceeds max width
@@ -136,26 +192,17 @@ def pack_ora_to_atlas(
   atlas_width = max_width
   print(f'Atlas dimensions: {atlas_width}x{atlas_height}')
 
-  # Create the final atlas sprite sheet image
+  # Create final atlas sprite sheet image
   atlas_img = Image.new('RGBA', (atlas_width, atlas_height), (0, 0, 0, 0))
 
   for item in packed_items:
     atlas_img.paste(item['img'], (item['atlas_x'], item['atlas_y']))
 
-  # Save output PNG
+  # Save output PNG atlas sheet
   atlas_img.save(output_image, 'PNG')
   print(f'Saved atlas image to {output_image}')
 
-  # Normalize all packed entry names first so we can check for existing icons
-  existing_entries = set()
-  for item in packed_items:
-    raw_name = item['name']
-    if raw_name.startswith('Images/'):
-      raw_name = raw_name[len('Images/') :]
-    item['normalized_name'] = raw_name
-    existing_entries.add(raw_name)
-
-  # Generate the .atlas text file content matching LibGDX specifications
+  # Step 5: Generate LibGDX .atlas descriptor content
   atlas_content = []
   atlas_content.append(output_image)
   atlas_content.append(f'size: {atlas_width}, {atlas_height}')
@@ -165,10 +212,11 @@ def pack_ora_to_atlas(
 
   for item in packed_items:
     w, h = item['img'].size
-    primary_entry_name = item['normalized_name']
+    # Register all atlas names associated with this item using its packed coordinates
+    for entry_name in item['atlas_names']:
+      if entry_name.startswith('Images/'):
+        entry_name = entry_name[len('Images/') :]
 
-    # Helper function to append entry block
-    def append_atlas_entry(entry_name):
       atlas_content.append(entry_name)
       atlas_content.append('  rotate: false')
       atlas_content.append(f"  xy: {item['atlas_x']}, {item['atlas_y']}")
@@ -176,27 +224,6 @@ def pack_ora_to_atlas(
       atlas_content.append(f'  orig: {w}, {h}')
       atlas_content.append('  offset: 0, 0')
       atlas_content.append('  index: -1')
-
-    # 1. Primary atlas entry
-    append_atlas_entry(primary_entry_name)
-
-    # 2. Fallback atlas entry for Improvement tiles missing a dedicated ImprovementIcons/ entry
-    if re.match(r'^(?:.*?/)?[Tt]iles/.+T$', primary_entry_name):
-      # Strip trailing 'T' and map Tiles/ -> ImprovementIcons/
-      base_name = primary_entry_name[:-1]
-      fallback_improvement_icon = re.sub(
-          r'^(?:.*?/)?[Tt]iles/', 'ImprovementIcons/', base_name
-      )
-      if fallback_improvement_icon not in existing_entries:
-        append_atlas_entry(fallback_improvement_icon)
-
-    # 3. Fallback atlas entry for Units missing a dedicated UnitIcons/ entry
-    if re.match(r'^(?:.*?/)?[Uu]nits/.+$', primary_entry_name):
-      fallback_unit_icon = re.sub(
-          r'^(?:.*?/)?[Uu]nits/', 'UnitIcons/', primary_entry_name
-      )
-      if fallback_unit_icon not in existing_entries:
-        append_atlas_entry(fallback_unit_icon)
 
   with open(output_atlas, 'w', encoding='utf-8') as f:
     f.write('\n'.join(atlas_content))
