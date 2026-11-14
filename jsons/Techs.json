@@ -184,7 +184,7 @@
 			},
 			{
 				"name": "Fluid-State Machinery",
-				"row": 3,
+				"row": 4,
 				"prerequisites": ["Orbital Swarming", "Pre-Tracting Ionization"]
 			},
 			{
