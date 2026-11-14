@@ -58,6 +58,7 @@
         "movementType": "Land",
         "uniques": [
             "Unbuildable <for [Barbarian] Civilizations> <hidden from users>",
+            "Unbuildable <for [Spore Borne Parasite] Civilizations> <hidden from users>",
             "Triggers a [Unit Defeated Grief] event <upon being defeated>",
             "Unbuildable <for [Spore Borne Parasite] Civilizations> <hidden from users>",
             "May travel on Water tiles without embarking <hidden from users>",
@@ -128,6 +129,7 @@
             "Self-destructs when attacking",
             "[-1] Sight",
             "Unbuildable",
+            "Unable to pillage tiles",
             "Unable to capture cities",
             "[+200]% Strength <when attacking>",
             "[This Unit] takes [30] damage <upon turn start>"
@@ -173,7 +175,8 @@
             "Eliminates combat penalty for attacking over a river <hidden from users>",
             "Eliminates combat penalty for attacking across a coast <hidden from users>",
             "Self-destructs when attacking",
-            "Unable to capture cities"
+            "Unable to capture cities",
+            "Unable to pillage tiles"
         ],
         "civilopediaText": [
             {
