@@ -115,6 +115,7 @@
         "name": "Data Archivist",
         "unitType": "Scout",
         "requiredTech": "Cryogenics",
+        "upgradesTo": "EM Warfare Command Vessel",
         "movement": 5,
         "strength": 10,
         "cost": 40,
@@ -127,6 +128,51 @@
             "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+4] Sight"
+        ]
+    },
+    {
+        "name": "EM Warfare Command Vessel",
+        "unitType": "Command Ship",
+        "upgradesTo": "Mobile EM Warfare and Command Citadel",
+        "requiredTech": "",
+        "movement": 5,
+        "strength": 12,
+        "cost": 65,
+        "uniques": [
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+            "[+15]% Strength bonus for [Sub] units within [2] tiles",
+            "[+8]% Strength bonus for [Missile] units within [8] tiles",
+            "[-1] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
+            "[-1] Sight <in [High Flux Space] tiles> <hidden from users>",
+            "[-1] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
+            "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+            "[+5] Sight",
+            "Can see invisible [Stealth Drone] units"
+        ]
+    },
+    {
+        "name": "Mobile EM Warfare and Command Citadel",
+        "unitType": "Command Ship",
+        "requiredTech": "",
+        "movement": 6,
+        "strength": 14,
+        "cost": 100,
+        "uniques": [
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+            "[+15]% Strength bonus for [Sub] units within [2] tiles",
+            "[+12]% Strength bonus for [Missile] units within [10] tiles",
+            "[-1] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
+            "[-1] Sight <in [High Flux Space] tiles> <hidden from users>",
+            "[-1] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
+            "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+            "[+6] Sight",
+            "Can see invisible [Stealth Drone] units"
         ]
     },
     {
@@ -184,6 +230,52 @@
         ]
     },
     {
+        "name": "Stealth I",
+        "unitType": "Stealth Drone",
+        "strength": 8,
+        "movement": 3,
+        "cost": 80,
+        "upgradesTo": "Stealth II",
+        "obsoleteWith": "Micro Particulate Shielding",
+        "uniques": [
+            "Invisible to non-adjacent units",
+            "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
+            "[+2] Movement <in [Magnetic Acceleration Relay] tiles>"
+        ]
+    },
+    {
+        "name": "Stealth II",
+        "unitType": "Stealth Drone",
+        "strength": 10,
+        "movement": 4,
+        "cost": 80,
+        "upgradesTo": "Stealth III",
+        "obsoleteWith": "Micro Particulate Shielding",
+        "uniques": [
+            "Invisible to non-adjacent units",
+            "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
+            "[+2] Movement <in [Magnetic Acceleration Relay] tiles>"
+        ]
+    },
+    {
+        "name": "Stealth III",
+        "unitType": "Stealth Drone",
+        "strength": 12,
+        "movement": 5,
+        "cost": 80,
+        "uniques": [
+            "Invisible to non-adjacent units",
+            "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
+            "[+2] Movement <in [Magnetic Acceleration Relay] tiles>"
+        ]
+    },
+    {
         "name": "Laser Drone",
         "unitType": "Drone",
         "strength": 8,
@@ -191,7 +283,7 @@
         "range": 3,
         "movement": 3,
         "cost": 80,
-        "upgradesTo": "Laser Corvette",
+        "upgradesTo": "Armored Drone",
         "obsoleteWith": "Micro Particulate Shielding",
         "uniques": [
             "Destroys [in all cities] cities instead of capturing",
@@ -199,6 +291,60 @@
             "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
             "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
             "[+2] Movement <in [Magnetic Acceleration Relay] tiles>"
+        ]
+    },
+    {
+        "name": "Armored Drone",
+        "unitType": "Drone",
+        "strength": 10,
+        "rangedStrength": 8,
+        "range": 3,
+        "movement": 3,
+        "cost": 85,
+        "upgradesTo": "Expert Drone",
+        "obsoleteWith": "Micro Particulate Shielding",
+        "uniques": [
+            "Destroys [in all cities] cities instead of capturing",
+            "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
+            "[+2] Movement <in [Magnetic Acceleration Relay] tiles>"
+        ]
+    },
+    {
+        "name": "Expert Drone",
+        "unitType": "Thinking Drone",
+        "strength": 10,
+        "rangedStrength": 10,
+        "range": 4,
+        "movement": 3,
+        "cost": 85,
+        "upgradesTo": "AI Drone",
+        "obsoleteWith": "Micro Particulate Shielding",
+        "uniques": [
+            "Destroys [in all cities] cities instead of capturing",
+            "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
+            "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+            "[+1] Sight"
+        ]
+    },
+    {
+        "name": "AI Drone",
+        "unitType": "Thinking Drone",
+        "strength": 10,
+        "rangedStrength": 14,
+        "range": 4,
+        "movement": 4,
+        "cost": 90,
+        "uniques": [
+            "Destroys [in all cities] cities instead of capturing",
+            "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
+            "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+            "[+1] Sight"
         ]
     },
     {
