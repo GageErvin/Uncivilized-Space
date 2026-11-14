@@ -3,6 +3,8 @@
 # python3 -m venv venv
 # 2 source venv/bin/activate
 # 3 python3 GenerateAtlas.py
+
+
 import io
 import os
 import re
@@ -64,7 +66,7 @@ def pack_ora_to_atlas(
           is_improvement = False
           is_unit = False
 
-          # 1. Process Terrains -> Map to Tiles/ with standard crop
+          # 1. Process Terrains -> Map to Tiles/ with standard crop and standalone export
           if bool(re.search(r'[Tt]errains/', name)):
             clean_name = re.sub(r'[Tt]errains/', 'Tiles/', name)
             offset_w, offset_h = 4, 4
@@ -74,8 +76,9 @@ def pack_ora_to_atlas(
             )
             standalone_name = clean_name
             atlas_names = [clean_name]
+            save_standalone = True
 
-          # 2. Process Improvements -> Map to Tiles/ (clean standalone name without 'T')
+          # 2. Process Improvements -> Map to Tiles/ (clean standalone name without 'T', but 'T' in atlas)
           elif bool(re.search(r'[Ii]mprovements/', name)):
             clean_name = re.sub(r'[Ii]mprovements/', 'Tiles/', name)
             standalone_name = clean_name
@@ -83,8 +86,11 @@ def pack_ora_to_atlas(
             save_standalone = True
             is_improvement = True
 
-          # 3. Process Units
+          # 3. Process Units -> Standalone export enabled
           elif bool(re.search(r'[Uu]nits/', name)):
+            standalone_name = name
+            atlas_names = [name]
+            save_standalone = True
             is_unit = True
 
           # 4. Process standalone Images/ or preview
