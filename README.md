@@ -27,7 +27,6 @@ Launch missiles, Conquer space. Enable 'permanent audio-visual mod.'
 
 ## TODO
 
-- set icons from imgs w/generate atlas and remove manual icons (outside of policy, promotions, and sci)
 - test and pr to add support for orrientation-support (need to req permission to push branch)
 
 ## Test
