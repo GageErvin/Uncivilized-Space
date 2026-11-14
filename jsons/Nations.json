@@ -214,6 +214,9 @@
 		],
 		"preferredVictoryType": "Domination",
 		"uniques": [
+			"[70] Unit Supply",
+            "[30] Unit Supply per city",
+			"[500] units cost no maintenance"
 		],
 		"cities": [
 		],
