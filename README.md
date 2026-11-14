@@ -29,8 +29,6 @@ Launch missiles, Conquer space. Enable 'permanent audio-visual mod.'
 - Interdiction mines 
 - Spore Borne Parasite, smaller invisible units, nation, theft behavior, specialized starting
 - test and pr to add support for orrientation-support (need to req permission to push branch)
-- missiles and slugs: Unable to capture cities, Unable to pillage tiles
-- promos for late drones and command ships
 
 ## Test
 
