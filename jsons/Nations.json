@@ -194,6 +194,35 @@
       "isBarbarians": true,
       "outerColor": [50, 50, 50],
       "innerColor": [200, 200, 200]
+	},
+	{
+		"name": "Spore-Borne Parasite",
+		"leaderName": "whim",
+		"startBias": [],
+		"adjective": [
+			"Parasite"
+		],
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			240,
+			60,
+			60
+		],
+		"preferredVictoryType": "Domination",
+		"uniques": [
+		],
+		"cities": [
+		],
+		"declaringWar": "At last, we come to you.",
+		"attacked": "...",
+		"defeated": "...",
+		"introduction": "Your senses will be ours soon.",
+		"neutralHello": "...",
+		"hateHello": "...",
+		"tradeRequest": "..."
 	}
-	
 ]
