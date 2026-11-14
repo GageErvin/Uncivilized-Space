@@ -698,7 +698,6 @@
       "Rare feature",
       "Units ending their turn on this terrain take [70] damage"
     ],
-    "turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
   },
