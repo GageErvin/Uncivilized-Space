@@ -27,6 +27,7 @@ Launch missiles, Conquer space. Enable 'permanent audio-visual mod.'
 
 ## TODO
 
+- added (las/zer drone) ai drone, armored drone, em warfare command vessel, ethereal spore mother, expert drone, incandescent corvette, incandescent destroyer, incandescent frigate, mobile em warfare and command citadel, stealth I II III, weaponized mobile paperclip conversion factory-ship
 - test and pr to add support for orrientation-support (need to req permission to push branch)
 
 ## Test
