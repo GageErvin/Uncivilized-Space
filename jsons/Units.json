@@ -80,6 +80,20 @@
         ]
     },
     {
+        "name": "Ethereal Spore Mother",
+        "unitType": "Spore",
+        "cost": 20,
+        "movement": 4,
+        "strength": 1,
+        "uniqueTo":"Spore Borne Parasite",// add Unbuildable <for [this] Civilizations> to other types.. "Uncapturable"
+        "uniques": [
+            "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+            "Can build [Land] improvements on tiles",
+            "Can build [Water] improvements on tiles <hidden from users>"
+        ]
+    },
+    {
         "name": "Astraforming Swarm-Bio",
         "unitType": "Civilian",
         "cost": 35,
@@ -284,7 +298,7 @@
         "movement": 3,
         "cost": 80,
         "upgradesTo": "Armored Drone",
-        "obsoleteWith": "Micro Particulate Shielding",
+        "obsoleteWith": "Expert Systems",
         "uniques": [
             "Destroys [in all cities] cities instead of capturing",
             "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
@@ -296,13 +310,13 @@
     {
         "name": "Armored Drone",
         "unitType": "Drone",
-        "strength": 10,
+        "strength": 12,
         "rangedStrength": 8,
         "range": 3,
-        "movement": 3,
-        "cost": 85,
+        "movement": 2,
+        "cost": 95,
         "upgradesTo": "Expert Drone",
-        "obsoleteWith": "Micro Particulate Shielding",
+        "obsoleteWith": "Expert Systems",
         "uniques": [
             "Destroys [in all cities] cities instead of capturing",
             "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
@@ -318,9 +332,10 @@
         "rangedStrength": 10,
         "range": 4,
         "movement": 3,
-        "cost": 85,
+        "cost": 95,
         "upgradesTo": "AI Drone",
-        "obsoleteWith": "Micro Particulate Shielding",
+        "requiredTech": "Expert Systems",
+        "obsoleteWith": "",
         "uniques": [
             "Destroys [in all cities] cities instead of capturing",
             "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
@@ -337,7 +352,8 @@
         "rangedStrength": 14,
         "range": 4,
         "movement": 4,
-        "cost": 90,
+        "cost": 95,
+        "requiredTech":"Artificial Super Intelligence",
         "uniques": [
             "Destroys [in all cities] cities instead of capturing",
             "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
