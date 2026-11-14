@@ -509,7 +509,7 @@
             "Can carry [1] [Stored Breach Pod] units"
         ]
     },
-    {
+    { // Visible to all civilizations
         "name": "Incandescent Corvette",
         "unitType": "Military",
         "strength": 14,
@@ -523,7 +523,7 @@
             "[-1] Sight"
         ]
     },
-    {
+    { // Visible to all civilizations
         "name": "Incandescent Frigate",
         "unitType": "Military",
         "strength": 18,
@@ -537,7 +537,7 @@
             "[-1] Sight"
         ]
     },
-    {
+    { // Visible to all civilizations
         "name": "Incandescent Destroyer",
         "unitType": "Military",
         "strength": 24,
