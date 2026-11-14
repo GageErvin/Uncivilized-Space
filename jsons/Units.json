@@ -492,6 +492,56 @@
         ]
     },
     {
+        "name": "Incandescent Corvette",
+        "unitType": "Military",
+        "strength": 14,
+        "movement": 4,
+        "cost": 230,
+        "requiredTech": "",
+        "upgradesTo": "Incandescent Frigate",
+        "obsoleteWith": "",
+        "uniques": [
+            "[1] additional attacks per turn",
+            "[-1] Sight"
+        ]
+    },
+    {
+        "name": "Incandescent Frigate",
+        "unitType": "Military",
+        "strength": 18,
+        "movement": 5,
+        "cost": 230,
+        "requiredTech": "",
+        "upgradesTo": "Incandescent Destroyer",
+        "obsoleteWith": "",
+        "uniques": [
+            "[1] additional attacks per turn",
+            "[-1] Sight"
+        ]
+    },
+    {
+        "name": "Incandescent Destroyer",
+        "unitType": "Military",
+        "strength": 24,
+        "movement": 5,
+        "cost": 230,
+        "requiredTech": "",
+        "uniques": [
+            "[1] additional attacks per turn"
+        ]
+    },
+    {
+        "name": "Weaponized Mobile Paperclip Conversion Factory-Ship",
+        "unitType": "Drone",
+        "strength": 14,
+        "movement": 3,
+        "cost": 300,
+        "requiredTech": "",
+        "uniques": [
+            "[3] additional attacks per turn"
+        ]
+    },
+    {
         "name": "Missile",
         "unitType": "Missile",
         "strength": 6,
