@@ -80,6 +80,18 @@
         ]
     },
     {
+        "name": "Spore",
+        "unitType": "Spore",
+        "cost": 1,
+        "movement": 2,
+        "strength": 1,
+        "uniqueTo":"Spore Borne Parasite",
+        "uniques": [
+            "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+            "[-1] Movement <in [High Flux Space] tiles> <hidden from users>"
+        ]
+    },
+    {
         "name": "Ethereal Spore Mother",
         "unitType": "Spore",
         "cost": 20,
