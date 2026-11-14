@@ -227,6 +227,13 @@ TileSets/UncivilizedSpace/Tiles/Antimatter
   orig: 85, 108
   offset: 0, 0
   index: -1
+ResourceIcons/Antimatter
+  rotate: false
+  xy: 1167, 227
+  size: 85, 108
+  orig: 85, 108
+  offset: 0, 0
+  index: -1
 TileSets/UncivilizedSpace/Tiles/Magnetic Acceleration Relay
   rotate: false
   xy: 1254, 227
