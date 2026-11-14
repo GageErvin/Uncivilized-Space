@@ -229,7 +229,8 @@
             "Eliminates combat penalty for attacking over a river <hidden from users>",
             "Eliminates combat penalty for attacking across a coast <hidden from users>",
             "May heal outside of friendly territory",
-            "Gain [3] [Culture]"
+            "Gain [3] [Culture]",
+            "May capture killed [all] units"
         ]
     }
 ]
