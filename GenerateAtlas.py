@@ -4,7 +4,6 @@
 # 2 source venv/bin/activate
 # 3 python3 GenerateAtlas.py
 
-
 import io
 import os
 import re
@@ -63,11 +62,15 @@ def pack_ora_to_atlas(
           standalone_name = name
           atlas_names = [name]
           save_standalone = False
-          is_improvement = False
-          is_unit = False
+          fallback_icon = None
+
+          # Normalize path without leading 'Images/' for accurate category matching
+          norm_layer = (
+              name[len('Images/') :] if name.startswith('Images/') else name
+          )
 
           # 1. Process Terrains -> Map to Tiles/ with standard crop and standalone export
-          if bool(re.search(r'[Tt]errains/', name)):
+          if re.search(r'(?:^|/)[Tt]errains/', norm_layer):
             clean_name = re.sub(r'[Tt]errains/', 'Tiles/', name)
             offset_w, offset_h = 4, 4
             crop_w, crop_h = 64, 56
@@ -78,22 +81,41 @@ def pack_ora_to_atlas(
             atlas_names = [clean_name]
             save_standalone = True
 
-          # 2. Process Improvements -> Map to Tiles/ (clean standalone name without 'T', but 'T' in atlas)
-          elif bool(re.search(r'[Ii]mprovements/', name)):
+            asset_name = re.split(r'(?:^|/)[Tt]errains/', norm_layer, maxsplit=1)[-1]
+            fallback_icon = f'TerrainIcons/{asset_name}'
+
+          # 2. Process Improvements -> Map to Tiles/ and prepare ImprovementIcons/ fallback
+          elif re.search(r'(?:^|/)[Ii]mprovements/', norm_layer):
             clean_name = re.sub(r'[Ii]mprovements/', 'Tiles/', name)
             standalone_name = clean_name
             atlas_names = [clean_name]
             save_standalone = True
-            is_improvement = True
 
-          # 3. Process Units -> Standalone export enabled
-          elif bool(re.search(r'[Uu]nits/', name)):
+            asset_name = re.split(r'(?:^|/)[Ii]mprovements/', norm_layer, maxsplit=1)[-1]
+            fallback_icon = f'ImprovementIcons/{asset_name}'
+
+          # 3. Process Resources -> Map to Tiles/ (if applicable) and prepare ResourceIcons/ fallback
+          elif re.search(r'(?:^|/)(?:[Tt]ile)?[Rr]esources/', norm_layer):
+            clean_name = re.sub(r'(?:[Tt]ile)?[Rr]esources/', 'Tiles/', name)
+            standalone_name = clean_name
+            atlas_names = [clean_name]
+            save_standalone = True
+
+            asset_name = re.split(
+                r'(?:^|/)(?:[Tt]ile)?[Rr]esources/', norm_layer, maxsplit=1
+            )[-1]
+            fallback_icon = f'ResourceIcons/{asset_name}'
+
+          # 4. Process Units -> Standalone export enabled and prepare UnitIcons/ fallback
+          elif re.search(r'(?:^|/)[Uu]nits/', norm_layer):
             standalone_name = name
             atlas_names = [name]
             save_standalone = True
-            is_unit = True
 
-          # 4. Process standalone Images/ or preview
+            asset_name = re.split(r'(?:^|/)[Uu]nits/', norm_layer, maxsplit=1)[-1]
+            fallback_icon = f'UnitIcons/{asset_name}'
+
+          # 5. Process other standalone Images/ or preview
           elif name == 'Images' or name.startswith('Images/') or name == 'preview':
             standalone_name = name
             atlas_names = [name]
@@ -106,8 +128,7 @@ def pack_ora_to_atlas(
               'standalone_name': standalone_name,
               'atlas_names': atlas_names,
               'save_standalone': save_standalone,
-              'is_improvement': is_improvement,
-              'is_unit': is_unit,
+              'fallback_icon': fallback_icon,
           }
           layers_meta.append(layer_obj)
 
@@ -122,33 +143,15 @@ def pack_ora_to_atlas(
   existing_entries = set()
   for item in layers_meta:
     for aname in item['atlas_names']:
-      norm = aname[len('Images/')] if aname.startswith('Images/') else aname
+      norm = aname[len('Images/') :] if aname.startswith('Images/') else aname
       existing_entries.add(norm)
 
   # Step 2: Automatically attach fallback icon entries if dedicated ones don't already exist
   for item in layers_meta:
-    primary_name = item['atlas_names'][0]
-    norm_primary = (
-        primary_name[len('Images/')]
-        if primary_name.startswith('Images/')
-        else primary_name
-    )
-
-    if item['is_improvement']:
-      fallback_icon = re.sub(
-          r'^(?:.*?/)?[Tt]iles/', 'ImprovementIcons/', norm_primary
-      )
-      if fallback_icon not in existing_entries:
-        item['atlas_names'].append(fallback_icon)
-        existing_entries.add(fallback_icon)
-
-    elif item['is_unit']:
-      fallback_icon = re.sub(
-          r'^(?:.*?/)?[Uu]nits/', 'UnitIcons/', norm_primary
-      )
-      if fallback_icon not in existing_entries:
-        item['atlas_names'].append(fallback_icon)
-        existing_entries.add(fallback_icon)
+    fallback_icon = item['fallback_icon']
+    if fallback_icon and fallback_icon not in existing_entries:
+      item['atlas_names'].append(fallback_icon)
+      existing_entries.add(fallback_icon)
 
   # Step 3: Save standalone files using clean filenames (free of postfixes)
   standalone_items = [item for item in layers_meta if item['save_standalone']]
