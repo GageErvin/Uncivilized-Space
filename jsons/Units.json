@@ -148,7 +148,7 @@
         "name": "EM Warfare Command Vessel",
         "unitType": "Command Ship",
         "upgradesTo": "Mobile EM Warfare and Command Citadel",
-        "requiredTech": "",
+        "requiredTech": "Quantum Computing",
         "movement": 5,
         "strength": 12,
         "cost": 65,
@@ -170,7 +170,7 @@
     {
         "name": "Mobile EM Warfare and Command Citadel",
         "unitType": "Command Ship",
-        "requiredTech": "",
+        "requiredTech": "SL Ping",
         "movement": 6,
         "strength": 14,
         "cost": 100,
@@ -250,7 +250,7 @@
         "movement": 3,
         "cost": 80,
         "upgradesTo": "Stealth II",
-        "obsoleteWith": "Micro Particulate Shielding",
+        "obsoleteWith": "Cryogenics",
         "uniques": [
             "Invisible to non-adjacent units",
             "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
@@ -266,7 +266,8 @@
         "movement": 4,
         "cost": 80,
         "upgradesTo": "Stealth III",
-        "obsoleteWith": "Micro Particulate Shielding",
+        "requiredTech": "Cryogenics",
+        "obsoleteWith": "Photon Computing",
         "uniques": [
             "Invisible to non-adjacent units",
             "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
@@ -281,6 +282,7 @@
         "strength": 12,
         "movement": 5,
         "cost": 80,
+        "requiredTech": "Photon Computing",
         "uniques": [
             "Invisible to non-adjacent units",
             "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
