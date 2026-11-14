@@ -515,9 +515,9 @@
         "strength": 14,
         "movement": 4,
         "cost": 230,
-        "requiredTech": "",
-        "upgradesTo": "Incandescent Frigate",
-        "obsoleteWith": "",
+        "requiredTech": "Fluid-State Machinery",
+        //"upgradesTo": "Incandescent Frigate",
+        //"obsoleteWith": "",
         "uniques": [
             "[1] additional attacks per turn",
             "[-1] Sight"
@@ -528,10 +528,10 @@
         "unitType": "Military",
         "strength": 18,
         "movement": 5,
-        "cost": 230,
-        "requiredTech": "",
-        "upgradesTo": "Incandescent Destroyer",
-        "obsoleteWith": "",
+        "cost": 330,//
+        "requiredTech": "Fluid-State Machinery",
+        //"upgradesTo": "Incandescent Destroyer",
+        //"obsoleteWith": "",
         "uniques": [
             "[1] additional attacks per turn",
             "[-1] Sight"
@@ -542,8 +542,8 @@
         "unitType": "Military",
         "strength": 24,
         "movement": 5,
-        "cost": 230,
-        "requiredTech": "",
+        "cost": 430,//
+        "requiredTech": "Fluid-State Machinery",
         "uniques": [
             "[1] additional attacks per turn"
         ]
@@ -554,7 +554,7 @@
         "strength": 14,
         "movement": 3,
         "cost": 300,
-        "requiredTech": "",
+        "requiredTech": "Kaizen - 2",
         "uniques": [
             "[3] additional attacks per turn"
         ]
