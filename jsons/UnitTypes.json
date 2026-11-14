@@ -3,6 +3,8 @@
         "name": "Civilian",
         "movementType": "Land",
         "uniques": [
+            "Triggers a [Unit Defeated Grief] event <upon being defeated>",
+            "Unbuildable <for [Spore Borne Parasite] Civilizations> <hidden from users>",
             "Ignores terrain cost <hidden from users>",
             "May travel on Water tiles without embarking <hidden from users>",
             "Gain [3] [Culture]"
@@ -12,9 +14,11 @@
         "name": "Settler",
         "movementType": "Land",
         "uniques": [
+            "Triggers a [Unit Defeated Grief] event <upon being defeated>",
+            "Unbuildable <for [Spore Borne Parasite] Civilizations> <hidden from users>",
             "Ignores terrain cost <hidden from users>",
             "May travel on Water tiles without embarking <hidden from users>",
-            "Gain [3] [Culture]",
+            "Gain [5] [Culture]",
             "Founds a new city <by consuming this unit> <in [Gas Giant] tiles>",
             "Founds a new city <by consuming this unit> <in [Ringed Gas Giant] tiles>",
             "Founds a new city <by consuming this unit> <in [Ice Giant] tiles>",
@@ -38,17 +42,20 @@
         "name": "Scout",
         "movementType": "Land",
         "uniques": [
+            "Triggers a [Unit Defeated Grief] event <upon being defeated>",
+            "Unbuildable <for [Spore Borne Parasite] Civilizations> <hidden from users>",
             "May travel on Water tiles without embarking <hidden from users>",
             "Ignores terrain cost <hidden from users>",
             "Eliminates combat penalty for attacking over a river <hidden from users>",
             "Eliminates combat penalty for attacking across a coast <hidden from users>",
-            "Gain [2] [Culture]"
+            "Gain [3] [Culture]"
         ]
     },
     {
         "name": "Drone",
         "movementType": "Land",
         "uniques": [
+            "Unbuildable <for [Spore Borne Parasite] Civilizations> <hidden from users>",
             "May travel on Water tiles without embarking <hidden from users>",
             "Ignores terrain cost <hidden from users>",
             "Eliminates combat penalty for attacking over a river <hidden from users>",
@@ -60,6 +67,8 @@
         "name": "Military",
         "movementType": "Land",
         "uniques": [
+            "Triggers a [Unit Defeated Grief] event <upon being defeated>",
+            "Unbuildable <for [Spore Borne Parasite] Civilizations> <hidden from users>",
             "May travel on Water tiles without embarking <hidden from users>",
             "Ignores terrain cost <hidden from users>",
             "Eliminates combat penalty for attacking over a river <hidden from users>",
@@ -94,6 +103,7 @@
         "name": "Stored Breach Pod",
         "movementType": "Air",
         "uniques": [
+            "Unbuildable <for [Spore Borne Parasite] Civilizations> <hidden from users>",
             "Aircraft",
             "Cannot attack"
         ]
@@ -102,6 +112,7 @@
         "name": "Munition",
         "movementType": "Air",
         "uniques": [
+            "Unbuildable <for [Spore Borne Parasite] Civilizations> <hidden from users>",
             "Aircraft",
             "Cannot attack"
         ],
@@ -115,6 +126,7 @@
         "name": "Slug",
         "movementType": "Air",
         "uniques": [
+            "Unbuildable <for [Spore Borne Parasite] Civilizations> <hidden from users>",
             "Aircraft",
             "May travel on Water tiles without embarking <hidden from users>",
             "Ignores terrain cost <hidden from users>",
@@ -133,6 +145,8 @@
         "name": "Sub",
         "movementType": "Land",
         "uniques": [
+            "Triggers a [Unit Defeated Grief] event <upon being defeated>",
+            "Unbuildable <for [Spore Borne Parasite] Civilizations> <hidden from users>",
             "May travel on Water tiles without embarking <hidden from users>",
             "Ignores terrain cost <hidden from users>",
             "Eliminates combat penalty for attacking over a river <hidden from users>",
@@ -150,6 +164,19 @@
     },
     {
         "name": "Bio-Unit",
+        "movementType": "Land",
+        "uniques": [
+            "Unbuildable <for [Spore Borne Parasite] Civilizations> <hidden from users>",
+            "May travel on Water tiles without embarking <hidden from users>",
+            "Ignores terrain cost <hidden from users>",
+            "Eliminates combat penalty for attacking over a river <hidden from users>",
+            "Eliminates combat penalty for attacking across a coast <hidden from users>",
+            "May heal outside of friendly territory",
+            "Gain [3] [Culture]"
+        ]
+    },
+    {
+        "name": "Spore",
         "movementType": "Land",
         "uniques": [
             "May travel on Water tiles without embarking <hidden from users>",
