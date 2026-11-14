@@ -60,21 +60,17 @@ def pack_ora_to_atlas(
           img = Image.open(io.BytesIO(img_data)).convert('RGBA')
 
           if bool(re.search(r'[Tt]errains/', name)):
-            name = name.replace('Terrains', 'Tiles')
+            name = re.sub(r'[Tt]errains/', 'Tiles/', name)
 
             offset_w, offset_h = 4, 4
             crop_w, crop_h = 64, 56
             img = img.crop(
                 (offset_w, offset_h, offset_w + crop_w, offset_h + crop_h)
             )
-          if bool(re.search(r'[Ii]mprovements/', name)):
+          elif bool(re.search(r'[Ii]mprovements/', name)):
             # Move from Improvements/ to Tiles/ and append 'T' to the name
-            name = re.sub(r'[Ii]mprovements/', 'Tiles/', name)
-            name_b = name + 'T'
-
-            layer_obj = {'name': name_b, 'img': img}
-            standalone_images.append(layer_obj)
-            atlas_layers.append(layer_obj)
+            name = re.sub(r'[Ii]mprovements/', 'Tiles/', name) + 'T'
+            standalone_images.append({'name': name, 'img': img})
 
           layer_obj = {'name': name, 'img': img}
 
@@ -184,23 +180,23 @@ def pack_ora_to_atlas(
     # 1. Primary atlas entry
     append_atlas_entry(primary_entry_name)
 
-    # 2. Secondary atlas entry for Improvements (maps to ImprovementIcons/)
-    is_improvement = bool(re.search(r'[Tt]iles/.*T$', primary_entry_name))
-    if is_improvement:
-      # Strip off the trailing 'T' and switch Tiles/ to ImprovementIcons/
-      base_improvement_name = primary_entry_name[:-1]
-      secondary_icon_name = re.sub(
-          r'^.*?[Tt]iles/', 'ImprovementIcons/', base_improvement_name
+    # 2. Fallback atlas entry for Improvement tiles missing a dedicated ImprovementIcons/ entry
+    if re.match(r'^(?:.*?/)?[Tt]iles/.+T$', primary_entry_name):
+      # Strip trailing 'T' and map Tiles/ -> ImprovementIcons/
+      base_name = primary_entry_name[:-1]
+      fallback_improvement_icon = re.sub(
+          r'^(?:.*?/)?[Tt]iles/', 'ImprovementIcons/', base_name
       )
-      append_atlas_entry(secondary_icon_name)
+      if fallback_improvement_icon not in existing_entries:
+        append_atlas_entry(fallback_improvement_icon)
 
-    # 3. Secondary atlas entry for Units missing a dedicated UnitIcons/ entry
-    if re.match(r'^[Uu]nits/', primary_entry_name):
-      fallback_icon_name = re.sub(
-          r'^[Uu]nits/', 'UnitIcons/', primary_entry_name
+    # 3. Fallback atlas entry for Units missing a dedicated UnitIcons/ entry
+    if re.match(r'^(?:.*?/)?[Uu]nits/.+$', primary_entry_name):
+      fallback_unit_icon = re.sub(
+          r'^(?:.*?/)?[Uu]nits/', 'UnitIcons/', primary_entry_name
       )
-      if fallback_icon_name not in existing_entries:
-        append_atlas_entry(fallback_icon_name)
+      if fallback_unit_icon not in existing_entries:
+        append_atlas_entry(fallback_unit_icon)
 
   with open(output_atlas, 'w', encoding='utf-8') as f:
     f.write('\n'.join(atlas_content))
