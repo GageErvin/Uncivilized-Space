@@ -183,6 +183,11 @@
 				"prerequisites": ["Orbital Swarming", "Hive-Mind Engineering"]
 			},
 			{
+				"name": "Fluid-State Machinery",
+				"row": 3,
+				"prerequisites": ["Orbital Swarming", "Pre-Tracting Ionization"]
+			},
+			{
 				"name": "Photon Computing",
 				"prerequisites": [
 					"Artificial Super Intelligence"
