@@ -293,5 +293,14 @@
 			"[+50]% Production when constructing [Spaceship part] units [in this city]",
 			"Only available <when [Scientific] Victory is enabled>"
 		]
+	},
+	{
+	"name": "Spore Biomass Conversion",
+	"cost": 1,
+	"uniques": [
+		"Unbuildable",
+		"Converts% of production to [Gold]",
+		"Only available <for [Spore-Borne Parasite]>"
+	]
 	}
 ]
