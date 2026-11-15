@@ -603,8 +603,7 @@
         "uniqueTo": "Galactic Paperclip Initiative",
         "requiredTech": "Kaizen - 2",
         "uniques": [
-            "[3] additional attacks per turn",
-            "Can only be built in [Paperclip Ecumenopolis] cities"
+            "[3] additional attacks per turn"
         ]
     },
     {
