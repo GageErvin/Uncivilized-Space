@@ -298,8 +298,7 @@
 	"name": "Spore Biomass Conversion",
 	"cost": 1,
 	"uniques": [
-		"Unbuildable",
-		"Converts [50]% of production to [Gold]",
+		"Enables conversion of city production to [Gold]",
 		"Only available <for [Spore-Borne Parasite] Civilizations>"
 	]
 	}
