@@ -10,6 +10,7 @@
 	{
 		"name": "Macroforms",
 		"leaderName": "Aggregation XII",
+		"personality": "Aggregation XII",
 		"startBias": ["[Terrestrial Planet] <for [AI player] Civilizations>"],
 		"adjective": [
 			"Macroform"
@@ -52,6 +53,7 @@
 	{
 		"name": "Silicoforms",
 		"leaderName": "Blue Shard",
+		"personality": "Blue Shard",
 		"startBias": ["[Ringed Terrestrial Planet] <for [AI player] Civilizations>"],
 		"adjective": [
 			"Silicoform"
@@ -94,6 +96,7 @@
 	{
 		"name": "Carbonforms",
 		"leaderName": "Leroy Jenkins",
+		"personality": "Leroy Jenkins",
 		"startBias": ["[Ringed Gas Giant] <for [AI player] Civilizations>"],
 		"adjective": [
 			"Carbonform"
@@ -135,6 +138,7 @@
 	{
 		"name": "Synths",
 		"leaderName": "Sparks Wain",
+		"personality": "Sparks Wain",
 		"adjective": [
 			"Synthetic"
 		],
@@ -198,6 +202,7 @@
 	{
 		"name": "Spore-Borne Parasite",
 		"leaderName": "Whim",
+		"leaderName": "personality",
 		"startBias": [],
 		"adjective": [
 			"Parasite"
@@ -237,6 +242,7 @@
 	{
 		"name": "Galactic Paperclip Initiative",
 		"leaderName": "Labor Optimizer",
+		"personality": "Labor Optimizer",
 		"startBias": [],
 		"Comment": "Computer-Only Civilization",
 		"uniques": [
