@@ -222,6 +222,7 @@
         "name": "Spore",
         "movementType": "Land",
         "uniques": [
+            "Invisible to non-adjacent units",
             "Uncapturable",
             "May travel on Water tiles without embarking <hidden from users>",
             "Ignores terrain cost <hidden from users>",
