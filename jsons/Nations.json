@@ -218,7 +218,8 @@
             "[30] Unit Supply per city",
 			"[500] units cost no maintenance",
 			"[-100]% Unhappiness from [Population] [in all cities]",
-            "[+1000 Happiness]"
+            "[+1000 Happiness]",
+			"[+250]% Production when constructing [Spore] units"
 		],
 		"cities": [ "Seed"
 		],
