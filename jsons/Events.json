@@ -5,7 +5,7 @@
         "choices": [
             {
                 "text": "Mourn the fallen",
-                "uniques": ["[-1] Happiness <for [4] turns>"]
+                "uniques": ["[-1 Happiness] <for [4] turns>"]
             }
         ]
     }
