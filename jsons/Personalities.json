@@ -107,6 +107,7 @@
     "priorities": {
       "Expansionism": 2,
       "Cybernetics": 1
-    }
+    },
+    "uniques":["[+2000]% weight to [Melee] for AI decisions"]
   }
 ]
