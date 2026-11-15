@@ -6,7 +6,8 @@
         "uniques": [
             "[10] Sight",
             "Unbuildable",
-            "Cannot move"
+            "Cannot move",
+            "Can see invisible [Stealth Drone] units"
         ]
     },
     {
@@ -328,8 +329,8 @@
     {
         "name": "Laser Drone",
         "unitType": "Drone",
-        "strength": 8,
-        "rangedStrength": 8,
+        "strength": 4,
+        "rangedStrength": 4,
         "range": 3,
         "movement": 3,
         "cost": 80,
@@ -346,14 +347,15 @@
     {
         "name": "Armored Drone",
         "unitType": "Drone",
-        "strength": 12,
-        "rangedStrength": 8,
+        "strength": 4,
+        "rangedStrength": 4,
         "range": 3,
         "movement": 2,
         "cost": 95,
         "upgradesTo": "Expert Drone",
         "obsoleteWith": "Expert Systems",
         "uniques": [
+            "[+50]% Strength <when defending>",
             "Destroys [in all cities] cities instead of capturing",
             "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
             "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
@@ -364,15 +366,16 @@
     {
         "name": "Expert Drone",
         "unitType": "Thinking Drone",
-        "strength": 10,
-        "rangedStrength": 10,
+        "strength": 4,
+        "rangedStrength": 5,
         "range": 4,
         "movement": 3,
-        "cost": 95,
+        "cost": 115,
         "upgradesTo": "AI Drone",
         "requiredTech": "Expert Systems",
         "obsoleteWith": "",
         "uniques": [
+            "[+70]% Strength <when defending>",
             "Destroys [in all cities] cities instead of capturing",
             "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
             "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
@@ -384,13 +387,14 @@
     {
         "name": "AI Drone",
         "unitType": "Thinking Drone",
-        "strength": 10,
-        "rangedStrength": 14,
+        "strength": 4,
+        "rangedStrength": 6,
         "range": 4,
         "movement": 4,
-        "cost": 95,
+        "cost": 125,
         "requiredTech":"Artificial Super Intelligence",
         "uniques": [
+            "[+90]% Strength <when defending>",
             "Destroys [in all cities] cities instead of capturing",
             "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
             "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
@@ -402,7 +406,7 @@
     {
         "name": "Laser Corvette",
         "unitType": "Military",
-        "strength": 8,
+        "strength": 6,
         "rangedStrength": 8,
         "range": 3,
         "movement": 3,
@@ -416,7 +420,6 @@
             "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
             "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-            "[+25]% Strength <vs [Laser Drone] units>",
             "[1] additional attacks per turn",
             "Can carry [1] [Stored Breach Pod] units"
         ]
@@ -432,6 +435,7 @@
         "upgradesTo": "EM Destroyer",
         "requiredTech": "Athermal Lens",
         "requiredResource": "Exotic Optomaterial",
+        "requiredResourceCost": 1,
         "requiredResourceCost": 5,
         "uniques": [
             "Destroys [in all cities] cities instead of capturing",
@@ -456,6 +460,8 @@
         "cost": 400,
         "upgradesTo": "Neutron Destroyer",
         "requiredTech": "High Efficiency Fusion",
+        "requiredResource": "Exotic Optomaterial",
+        "requiredResourceCost": 1,
         "uniques": [
             "Destroys [in all cities] cities instead of capturing",
             "[-1] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
@@ -500,7 +506,7 @@
         "strength": 25,
         "rangedStrength": 25,
         "range": 3,
-        "movement": 3,
+        "movement": 4,
         "cost": 540,
         "upgradesTo": "Warp Dreadnaught",
         "requiredResource": "Antimatter",
@@ -526,7 +532,7 @@
         "strength": 25,
         "rangedStrength": 25,
         "range": 3,
-        "movement": 4,
+        "movement": 5,
         "cost": 650,
         "requiredTech": "Graviton Manipulation",
         "uniques": [
@@ -549,6 +555,8 @@
         "strength": 14,
         "movement": 4,
         "cost": 230,
+        "requiredResource": "Uranium",
+        "requiredResourceCost": 1,
         "requiredTech": "Fluid-State Machinery",
         //"upgradesTo": "Incandescent Frigate",
         //"obsoleteWith": "",
@@ -563,6 +571,8 @@
         "strength": 18,
         "movement": 5,
         "cost": 330,//
+        "requiredResource": "Uranium",
+        "requiredResourceCost": 2,
         "requiredTech": "Fluid-State Machinery",
         //"upgradesTo": "Incandescent Destroyer",
         //"obsoleteWith": "",
@@ -576,6 +586,8 @@
         "unitType": "Military",
         "strength": 24,
         "movement": 5,
+        "requiredResource": "Uranium",
+        "requiredResourceCost": 4,
         "cost": 430,//
         "requiredTech": "Fluid-State Machinery",
         "uniques": [
@@ -694,7 +706,7 @@
     {
         "name": "Missile Submarine",
         "unitType": "Sub",
-        "strength": 4,
+        "strength": 6,
         "movement": 2,
         "cost": 200,
         "requiredTech": "Engagement Boost",
@@ -717,7 +729,7 @@
     {
         "name": "Missile Cradle",
         "unitType": "Sub",
-        "strength": 5,
+        "strength": 7,
         "movement": 1,
         "cost": 250,
         "requiredResource": "Exotic Optomaterial",
@@ -742,7 +754,7 @@
     {
         "name": "Strategic Cradle",
         "unitType": "Sub",
-        "strength": 6,
+        "strength": 8,
         "movement": 1,
         "cost": 300,
         "requiredTech": "Strange Battery",
@@ -864,7 +876,7 @@
         "unitType": "Bio-Unit",
         "strength": 28,
         "movement": 5,
-        "cost": 840,
+        "cost": 640,
         "requiredTech": "Hive-Mind Engineering",
         "requiredResource": "Uranium",
         "requiredResourceCost": 10,
@@ -893,7 +905,7 @@
         "unitType": "Bio-Unit",
         "strength": 33,
         "movement": 5,
-        "cost": 900,
+        "cost": 700,
         "requiredTech": "Bio-Singularity",
         "requiredResource": "Antimatter",
         "requiredResourceCost": 1,
