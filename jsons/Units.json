@@ -82,9 +82,9 @@
     {
         "name": "Spore",
         "unitType": "Spore",
-        "cost": 1,
+        "cost": 5,
         "movement": 2,
-        "strength": 1,
+        "strength": 2,
         "uniqueTo":"Spore-Borne Parasite",
         "uniques": [
             "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
@@ -92,11 +92,32 @@
         ]
     },
     {
-        "name": "Ethereal Spore Mother",
+        "name": "Spore II",
+        "unitType": "Spore",
+        "cost": 20,
+        "movement": 3,
+        "strength": 4,
+        "requiredTech": "Neural Parasitology",
+        "uniqueTo":"Spore-Borne Parasite",
+        "uniques": [
+            "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>"
+        ]
+    },
+    {
+        "name": "Spore III",
         "unitType": "Spore",
         "cost": 20,
         "movement": 4,
-        "strength": 1,
+        "strength": 6,
+        "requiredTech": "Hive-Mind Engineering",
+        "uniqueTo":"Spore-Borne Parasite",
+    },
+    {
+        "name": "Ethereal Spore Mother",
+        "unitType": "Spore",
+        "cost": 60,
+        "movement": 4,
+        "strength": 2,
         "uniqueTo":"Spore-Borne Parasite",
         "replaces": "Survey Vessel",
         "uniques": [
