@@ -299,8 +299,8 @@
 	"cost": 1,
 	"uniques": [
 		"Unbuildable",
-		"Converts% of production to [Gold]",
-		"Only available <for [Spore-Borne Parasite]>"
+		"Converts [50]% of production to [Gold]",
+		"Only available <for [Spore-Borne Parasite] Civilizations>"
 	]
 	}
 ]
