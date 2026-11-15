@@ -593,19 +593,20 @@
         "uniques": [
             "[1] additional attacks per turn"
         ]
-    },/* needs paperclip Nation.. no way to limit relative to other barbarians
+    },
     {
         "name": "Weaponized Mobile Paperclip Conversion Factory-Ship",
         "unitType": "Drone",
         "strength": 14,
         "movement": 3,
         "cost": 300,
+        "uniqueTo": "Galactic Paperclip Initiative",
         "requiredTech": "Kaizen - 2",
         "uniques": [
             "[3] additional attacks per turn",
             "Can only be built in [Paperclip Ecumenopolis] cities"
         ]
-    },*/
+    },
     {
         "name": "Missile",
         "unitType": "Missile",
