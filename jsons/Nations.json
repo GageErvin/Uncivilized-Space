@@ -216,9 +216,11 @@
 		"uniques": [
 			"[70] Unit Supply",
             "[30] Unit Supply per city",
-			"[500] units cost no maintenance"
+			"[500] units cost no maintenance",
+			"[-100]% Unhappiness from [Population] [in all cities]",
+            "[+1000] Happiness"
 		],
-		"cities": [ "S0"
+		"cities": [ "Seed"
 		],
 		"declaringWar": "At last, we come to you.",
 		"attacked": "...",
