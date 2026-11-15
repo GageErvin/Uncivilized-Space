@@ -27,7 +27,7 @@ Launch missiles, Conquer space. Enable 'permanent audio-visual mod.'
 
 - spread sublight debris action (confers slow status to passers in nearby tiles for 1 turn) [unitTriggerTarget] loses [positiveAmount] movement
 - Interdiction mines 
-- Spore Borne Parasite, smaller invisible units, nation, theft behavior, specialized starting
+- paperclip resource & trade
 - test and pr to add support for orrientation-support (need to req permission to push branch)
 
 ## Test
