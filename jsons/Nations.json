@@ -212,8 +212,10 @@
 			60,
 			60
 		],
+		"Comment": "Computer-Only Civilization",
 		"preferredVictoryType": "Domination",
 		"uniques": [
+			"Comment [Computer-Only Civilization]",
 			"Triggers a [Computer Only Warning] event <upon turn start> <when number of [turns] is equal to [0]> <for [Human player] Civilizations>",
 			"[70] Unit Supply",
             "[30] Unit Supply per city",
@@ -236,7 +238,9 @@
 		"name": "Galactic Paperclip Initiative",
 		"leaderName": "Labor Optimizer",
 		"startBias": [],
+		"Comment": "Computer-Only Civilization",
 		"uniques": [
+			"Comment [Computer-Only Civilization]",
 			"Triggers a [Computer Only Warning] event <upon turn start> <when number of [turns] is equal to [0]> <for [Human player] Civilizations>"
 		],
 		"adjective": [
