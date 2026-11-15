@@ -108,6 +108,29 @@
       "Expansionism": 2,
       "Cybernetics": 1
     },
-    "uniques":["[+2000]% weight to [Melee] for AI decisions"]
+    "uniques":["[+2000]% weight to [Spore] for AI decisions"]
+  },
+  {
+    "name": "Labor Optimizer",
+    "production": 120,
+    "food": 2,
+    "gold": 2,
+    "science": 0,
+    "culture": 0,
+    "happiness": 0,
+    "faith": 0,
+    "military": 120,
+    "aggressive": 120,
+    "declareWar": 120,
+    "commerce": 0,
+    "diplomacy": 0,
+    "loyal": 0,
+    "expansion": 120,
+    "denounceWillingness": 120,
+    "priorities": {
+      "Expansionism": 2,
+      "Cybernetics": 1
+    },
+    "uniques":["[+100]% weight to [Weaponized Mobile Paperclip Conversion Factory-Ship] for AI decisions"]
   }
 ]
