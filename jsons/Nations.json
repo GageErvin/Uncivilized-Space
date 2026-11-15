@@ -214,7 +214,7 @@
 		],
 		"preferredVictoryType": "Domination",
 		"uniques": [
-			"Triggers a [AI Only Warning] event <upon turn start> <when number of [Turns] is equal to [0]> <for [Human player]>",
+			"Triggers a [Computer Only Warning] event <upon turn start> <when number of [turns] is equal to [0]> <for [Human player]> Civilizations",
 			"[70] Unit Supply",
             "[30] Unit Supply per city",
 			"[500] units cost no maintenance",
@@ -237,7 +237,7 @@
 		"leaderName": "Labor Optimizer",
 		"startBias": [],
 		"uniques": [
-			"Triggers a [AI Only Warning] event <upon turn start> <when number of [Turns] is equal to [0]> <for [Human player]>"
+			"Triggers a [Computer Only Warning] event <upon turn start> <when number of [turns] is equal to [0]> <for [Human player]> Civilizations"
 		],
 		"adjective": [
 			"Rogue AI"
