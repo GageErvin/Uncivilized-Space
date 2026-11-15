@@ -216,7 +216,7 @@
 		"preferredVictoryType": "Domination",
 		"uniques": [
 			"Comment [Computer-Only Civilization]",
-			"Triggers a [Computer Only Warning] event <upon turn start> <when number of [turns] is equal to [0]> <for [Human player] Civilizations>",
+			"Triggers a [Computer Only Warning] event <when number of [turns] is equal to [0]>",
 			"[70] Unit Supply",
             "[30] Unit Supply per city",
 			"[500] units cost no maintenance",
@@ -241,7 +241,7 @@
 		"Comment": "Computer-Only Civilization",
 		"uniques": [
 			"Comment [Computer-Only Civilization]",
-			"Triggers a [Computer Only Warning] event <upon turn start> <when number of [turns] is equal to [0]> <for [Human player] Civilizations>"
+			"Triggers a [Computer Only Warning] event <upon turn start>"
 		],
 		"adjective": [
 			"Rogue AI"
