@@ -219,7 +219,7 @@
 			"[500] units cost no maintenance",
 			"[-100]% Unhappiness from [Population] [in all cities]",
             "[+1000 Happiness]",
-			"[+250]% Production when constructing [Spore] units"
+			"[+250]% Production when constructing [Spore] units [in all cities]"
 		],
 		"cities": [ "Seed"
 		],
