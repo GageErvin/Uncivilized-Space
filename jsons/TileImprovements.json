@@ -100,8 +100,6 @@
     "turnsToBuild": 10,
     "uniques": [
       //"Can be built outside your borders",
-      "Network Infrastructure",
-      "Must be adjacent to [1] [Network Infrastructure] tiles",
       "Costs [1] [Gold] per turn",
       "Can be built just outside your borders",
       "Gain control over [Unowned] tiles in a [1]-tile radius"
@@ -133,7 +131,7 @@
     "name": "Orbital Ship Yard",
     "production": 3,
     "turnsToBuild": 6,
-    "uniques": ["Network Infrastructure"],
+    "uniques": [],
     "techRequired": "Zero-G Fabrication",
     "terrainsCanBeBuiltOn": [
       "Zero Flux Space",
@@ -146,7 +144,7 @@
     "production": 1,
     "turnsToBuild": 6,
     "techRequired": "Orbital Swarming",
-    "uniques": ["Network Infrastructure"],
+    "uniques": [],
     "terrainsCanBeBuiltOn": [
       "Zero Flux Space",
       "Low Flux Space",
@@ -165,7 +163,6 @@
       "Zero Flux Space"
     ],
     "uniques": [
-      "Network Infrastructure",
       "[+2 Gold, +1 Production] for each adjacent [Debris Fields]",
       "[+1 Production] for each adjacent [High Flux Space]",
       "[+1 Gold, +1 Production] for each adjacent [Extreme Flux Space]"
@@ -180,7 +177,6 @@
       24
     ],
     "uniques": [
-      "Network Infrastructure",
       "Free [Deep Space Radar Array] appears"
     ],
     "terrainsCanBeBuiltOn": [
@@ -199,7 +195,6 @@
       24
     ],
     "uniques": [
-      "Network Infrastructure",
       "Free [Orbital Missile Creche] appears"
     ],
     "terrainsCanBeBuiltOn": [
@@ -214,7 +209,6 @@
       "Land"
     ],
     "uniques": [
-      "Network Infrastructure",
       "Ensures a minimum tile yield of [+2 Food, +3 Production]",
       "Unpillagable",
       "Irremovable",
@@ -237,7 +231,6 @@
       "Extreme Flux Space"
     ],
     "uniques": [
-      "Network Infrastructure",
       "[+1 Production] for each adjacent [High Flux Space]",
       "[+2 Production] for each adjacent [Extreme Flux Space]"
     ],
@@ -252,7 +245,6 @@
     "turnsToBuild": 8,
     "science": 1,
     "uniques": [
-      "Network Infrastructure",
       "Can only be built to improve a resource"
     ]
   },
@@ -266,7 +258,6 @@
       "Debris Fields"
     ],
     "uniques": [
-      "Network Infrastructure",
       "[+1 Science] for each adjacent [Debris Fields]"
     ],
     "civilopediaText": [
@@ -285,7 +276,7 @@
       "Cryolith Moon",
       "Ice Giant"
     ],
-    "uniques": ["Network Infrastructure"],
+    "uniques": [],
     "civilopediaText": [
       {
         "text": "Deep-freeze extraction platforms designed to synthesize volatile dietary supplements.  (・_・;)"
