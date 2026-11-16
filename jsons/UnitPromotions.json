@@ -27,7 +27,7 @@
 			}
 		],
 		"unitTypes": [
-			"Drone",
+			"Drone", "Thinking Drone", "Stealth Drone",
 			"Military"
 		]
 	},
@@ -46,7 +46,32 @@
 			}
 		],
 		"unitTypes": [
-			"Drone"
+			"Drone", "Thinking Drone", "Stealth Drone",
+		]
+	},
+	{
+		"name": "Intuitive Targeting",
+		"prerequisites": [
+			"Advanced Script Patching"
+		],
+		"uniques": [
+			"[+1] Range",
+			"[+1] Sight"
+		],
+		"unitTypes": [
+			"Thinking Drone"
+		]
+	},
+	{
+		"name": "Experimental Scythe Beam Qualification",
+		"prerequisites": [
+		],
+		"uniques": [
+			"[+1] Range",
+			"[+20]% Strength"
+		],
+		"unitTypes": [
+			"Stealth Drone"
 		]
 	},
 	{
@@ -79,7 +104,7 @@
 		],
 		"unitTypes": [
 			"Military",
-			"Drone"
+			"Drone",  "Thinking Drone", "Stealth Drone",
 		]
 	},
 	{
@@ -333,13 +358,12 @@
 			}
 		],
 		"unitTypes": [
-			"Scout"
+			"Scout", "Command Ship"
 		]
 	},
 	{
 		"name": "Sub-Space Mapping",
 		"prerequisites": [
-			"Long-Range Telemetry"
 		],
 		"uniques": [
 			"[+2] Movement",
@@ -352,7 +376,32 @@
 			}
 		],
 		"unitTypes": [
-			"Scout"
+			"Scout", "Command Ship"
+		]
+	},
+	{
+		"name": "Experimental Cryogenic Reservoir",
+		"prerequisites": [
+			"Long-Range Telemetry"
+		],
+		"uniques": [
+			"[+18]% Strength <when defending>"
+		],
+		"unitTypes": [
+			"Command Ship"
+		]
+	},
+	{
+		"name": "Constructive Eddie Planning",
+		"prerequisites": [
+			"Sub-Space Mapping"
+		],
+		"uniques": [
+			"[+25]% Strength <vs [Missile] units>",
+			"[+15]% Strength <vs [Slug] units>",
+		],
+		"unitTypes": [
+			"Command Ship"
 		]
 	}
 ]

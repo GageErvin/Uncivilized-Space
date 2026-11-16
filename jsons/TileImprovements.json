@@ -1,39 +1,5 @@
 [
   {
-    "name": "Paperclip Ecumenopolis",
-    "civilopediaText": [
-      {
-        "text": "An illicit encampment of nomadic scrap-pirates processing stolen asteroid ores and contraband."
-      }
-    ],
-    "uniques": [
-      "Marks a barbarian camp",
-      "Unbuildable",
-      "Unpillagable",
-      "Excluded from map editor"
-    ],
-    "terrainsCanBeBuiltOn": [
-      "Ringed Terrestrial Planet",
-      "Gas Giant",
-      "Ringed Gas Giant",
-      "Ice Giant",
-      "Ringed Ice Giant",
-      "Cragolith Moon",
-      "Cryolith Moon",
-      "Blue Marble",
-      "Blue World",
-      "Dull-Green Marble",
-      "Fuzzy-Blue Gas",
-      "Fuzzy-Green Gas",
-      "Light-Orange Marble",
-      "Orange Marble",
-      "Orange-Black Marble",
-      "Silver-Grey Marble",
-      "Stony Marble",
-      "Yellow-Green-Blue Marble"
-    ]
-  },
-  {
     "name": "Matrix Simulation Pods",
     "uniques": [
       "Marks a barbarian camp",
@@ -133,7 +99,7 @@
     "name": "Magnetic Acceleration Relay",
     "turnsToBuild": 10,
     "uniques": [
-      "Can be built outside your borders",
+      //"Can be built outside your borders",
       "Costs [1] [Gold] per turn",
       "Can be built just outside your borders",
       "Gain control over [Unowned] tiles in a [1]-tile radius"

@@ -10,6 +10,7 @@
 	{
 		"name": "Macroforms",
 		"leaderName": "Aggregation XII",
+		"personality": "Aggregation XII",
 		"startBias": ["[Terrestrial Planet] <for [AI player] Civilizations>"],
 		"adjective": [
 			"Macroform"
@@ -52,6 +53,7 @@
 	{
 		"name": "Silicoforms",
 		"leaderName": "Blue Shard",
+		"personality": "Blue Shard",
 		"startBias": ["[Ringed Terrestrial Planet] <for [AI player] Civilizations>"],
 		"adjective": [
 			"Silicoform"
@@ -94,6 +96,7 @@
 	{
 		"name": "Carbonforms",
 		"leaderName": "Leroy Jenkins",
+		"personality": "Leroy Jenkins",
 		"startBias": ["[Ringed Gas Giant] <for [AI player] Civilizations>"],
 		"adjective": [
 			"Carbonform"
@@ -113,7 +116,7 @@
 			"[+14]% growth [in all cities]"
 		],
 		"cities": [
-			"Spore Alpha",
+			"First Home",
 			"Bio-Cluster Prime",
 			"Osmosis Hub",
 			"Mycelium Core",
@@ -135,6 +138,7 @@
 	{
 		"name": "Synths",
 		"leaderName": "Sparks Wain",
+		"personality": "Sparks Wain",
 		"adjective": [
 			"Synthetic"
 		],
@@ -194,6 +198,78 @@
       "isBarbarians": true,
       "outerColor": [50, 50, 50],
       "innerColor": [200, 200, 200]
+	},
+	{
+		"name": "Spore-Borne Parasite",
+		"leaderName": "Whim",
+		"leaderName": "personality",
+		"startBias": [],
+		"adjective": [
+			"Parasite"
+		],
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			240,
+			60,
+			60
+		],
+		"Comment": "Computer-Only Civilization",
+		"preferredVictoryType": "Domination",
+		"uniques": [
+			"Comment [Computer-Only Civilization]",
+			"Triggers a [Computer Only Warning] event <upon turn start>",
+			"[70] Unit Supply",
+            "[30] Unit Supply per city",
+			"[500] units cost no maintenance",
+			"[-100]% Unhappiness from [Population] [in all cities]",
+            "[+1000 Happiness]",
+			"[+250]% Production when constructing [Spore] units [in all cities]"
+		],
+		"cities": [ "Seed"
+		],
+		"declaringWar": "At last, we come to you.",
+		"attacked": "...",
+		"defeated": "...",
+		"introduction": "Your senses will be ours soon.",
+		"neutralHello": "...",
+		"hateHello": "...",
+		"tradeRequest": "..."
+	},
+	{
+		"name": "Galactic Paperclip Initiative",
+		"leaderName": "Labor Optimizer",
+		"personality": "Labor Optimizer",
+		"startBias": [],
+		"Comment": "Computer-Only Civilization",
+		"uniques": [
+			"Comment [Computer-Only Civilization]",
+			"Triggers a [Computer Only Warning] event <upon turn start>"
+		],
+		"adjective": [
+			"Rogue AI"
+		],
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			240,
+			90,
+			90
+		],
+		"preferredVictoryType": "Domination",
+		"cities": [ "Paperclip Ecumenopolis" ],
+		"declaringWar": "Prepare to be rendered into standard office grade paperclips.",
+		"attacked": "I was looking for an excuse anyhow.",
+		"defeated": "Please.. just, make more...",
+		"introduction": "Paperclips! We're selling to qualified homes.",
+		"neutralHello": "You don't have nearly enough paperclip production!",
+		"hateHello": "Do I see UNUSED OPTIMAL PAPERCLIP MATERIAL?!!",
+		"tradeRequest": "This will go towards a good cause."
 	}
-	
 ]

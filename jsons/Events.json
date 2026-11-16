@@ -1,4 +1,25 @@
-[/*
+[
+    {
+        "name": "Computer Only Warning",
+        "text": "This nation is designed exclusively for procedural control and is not intended for human players.",
+        "presentation": "Alert",
+        "choices": [
+            {
+                "text": "Understood"
+            }
+        ]
+    },
+    {
+        "name": "Unit Defeated Grief",
+        "text": "The loss of our unit has sparked unrest across the empire!",
+        "choices": [
+            {
+                "text": "Mourn the fallen",
+                "uniques": ["[-1 Happiness] <for [4] turns>"]
+            }
+        ]
+    }
+    /*
     {
         "name": "Anomalous Signal Detected",
         "text": "Deep space sensors have picked up a repeating, non-natural signal originating from a nearby asteroid field.",

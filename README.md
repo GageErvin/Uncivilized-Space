@@ -10,10 +10,8 @@ Launch missiles, Conquer space. Enable 'permanent audio-visual mod.'
 - Eras- Free sets of mutually exclusive promotions for high tier units: loadout / modification / tuning (also images)
 - Nations
   - diversify all forms.  ex: 'Macroform S-3'  (S-3 would be a sci-fi esc designation for where this form was discovered.)
-- spread sublight debrisaction (confers slow status to passers in nearby tiles for 1 turn)
 
 - units (images)
-  - non-player or 'ai' units for barbarians (stop them using others): sep / biomechanical
   - diverse uniques
   - immobile orbital fortress: -2 mv when not adjacent to city, "[+20]% Strength bonus for [Friendly] units within [1] tiles", must set up to ranged attack, "All adjacent units heal [3] HP when healing",
 - Diverse luxuries (images)
@@ -27,11 +25,14 @@ Launch missiles, Conquer space. Enable 'permanent audio-visual mod.'
 
 ## TODO
 
+- spread sublight debris action (confers slow status to passers in nearby tiles for 1 turn) [unitTriggerTarget] loses [positiveAmount] movement
+- Interdiction mines 
+- paperclip resource & trade
 - test and pr to add support for orrientation-support (need to req permission to push branch)
 
 ## Test
 
-- notification on spaceship part enablement building
+- notification on enabling spaceship parts
 - Kaizen - 4
 
 ## Discarded Ideas (Mod Limitations) 
