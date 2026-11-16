@@ -99,7 +99,8 @@
     "name": "Magnetic Acceleration Relay",
     "turnsToBuild": 10,
     "uniques": [
-      "Can be built outside your borders",
+      //"Can be built outside your borders",
+      "Must be adjacent to [1] [Network Infrastructure] tiles",
       "Costs [1] [Gold] per turn",
       "Can be built just outside your borders",
       "Gain control over [Unowned] tiles in a [1]-tile radius"
