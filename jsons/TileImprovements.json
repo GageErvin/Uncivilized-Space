@@ -180,10 +180,10 @@
       24
     ],
     "uniques": [
+      "Network Infrastructure",
       "Free [Deep Space Radar Array] appears"
     ],
     "terrainsCanBeBuiltOn": [
-      "Network Infrastructure",
       "Zero Flux Space",
       "Low Flux Space",
       "Moderate Flux Space"
@@ -263,10 +263,10 @@
     "production": 1,
     "techRequired": "Pre-Tracting Ionization",
     "terrainsCanBeBuiltOn": [
-      "Network Infrastructure",
       "Debris Fields"
     ],
     "uniques": [
+      "Network Infrastructure",
       "[+1 Science] for each adjacent [Debris Fields]"
     ],
     "civilopediaText": [
