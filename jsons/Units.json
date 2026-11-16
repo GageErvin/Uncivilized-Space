@@ -73,12 +73,40 @@
         "cost": 60,
         "movement": 4,
         "uniques": [
+            "Can transform to [Screenforming Swarm]",
+            "Can transform to [Repairforming Swarm]",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[-2] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
             "[-2] Movement <in [High Flux Space] tiles> <hidden from users>",
             "[-2] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
             "Can build [Land] improvements on tiles",
             "Can build [Water] improvements on tiles <hidden from users>"
+        ]
+    },
+    {
+        "name": "Screenforming Swarm",
+        "unitType": "Civilian",
+        "cost": 60,
+        "movement": 0,
+        "uniques": [
+            "[+85]% Strength bonus for [Any] units within [0] tiles <when defending>",
+            "Unbuildable",
+            "Can transform to [Repairforming Swarm]",
+            "Can transform to [Astraforming Swarm]",
+            "Cannot move"
+        ]
+    },
+    {
+        "name": "Repairforming Swarm",
+        "unitType": "Civilian",
+        "cost": 60,
+        "movement": 0,
+        "uniques": [
+            "All adjacent units heal [30] HP when healing",
+            "Unbuildable",
+            "Can transform to [Astraforming Swarm]",
+            "Can transform to [Screenforming Swarm]",
+            "Cannot move"
         ]
     },
     {
