@@ -29,6 +29,10 @@ Launch missiles, Conquer space. Enable 'permanent audio-visual mod.'
 - Interdiction mines 
 - paperclip resource & trade
 - test and pr to add support for orrientation-support (need to req permission to push branch)
+- Hints and reduce difficulty a bit, shrink astra
+- Bump culture, balance culture, unlimited promotion for all, bio forming upgrade, minor slug and missile for endgame, alt to Kaizen 4
+- status for: Moderate might reduce sight, mv.  High likely impairs.  Extreme likely hobbles, other by features or populated base terrains
+- review tech, promotion, policy names
 
 ## Test
 
