@@ -33,6 +33,7 @@ Launch missiles, Conquer space. Enable 'permanent audio-visual mod.'
 - Bump culture, balance culture, unlimited promotion for all, bio forming upgrade, minor slug and missile for endgame, alt to Kaizen 4
 - status for: Moderate might reduce sight, mv.  High likely impairs.  Extreme likely hobbles, other by features or populated base terrains
 - review tech, promotion, policy names
+- swarm variants dates by promotion or unique, gated by tech, signal forming (buff flaming, debuff nearby foes)
 
 ## Test
 
