@@ -92,7 +92,7 @@
         "strength":1,
         "uniques": [
             "Can never attack",
-            "[+85]% Strength bonus for [Any] units within [0] tiles <when defending>",
+            "[+85]% Strength bonus for [All] units within [0] tiles <when defending>",
             "Unbuildable",
             "Can transform to [Repairforming Swarm]",
             "Can transform to [Astraforming Swarm]",
