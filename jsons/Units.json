@@ -194,7 +194,7 @@
         "unitType": "Scout",
         "requiredTech": "Cryogenics",
         "obsoleteWith": "Quantum Computing",
-        "upgradesTo": "EM Warfare Command Vessel",
+        "upgradesTo": "EM Warfare and Command Vessel",
         "movement": 5,
         "strength": 10,
         "cost": 40,
