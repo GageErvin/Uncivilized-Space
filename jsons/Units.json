@@ -49,7 +49,8 @@
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "Founds a new city <by consuming this unit> <in [Ringed Terrestrial Planet] tiles>",
             "Founds a new city <by consuming this unit> <in [All] tiles> <for [AI player] Civilizations>"
-        ]
+        ],
+        "obsoleteWith": "Artificial Super Intelligence"
     },
     {
         "name": "Incubation Settler",
@@ -164,6 +165,7 @@
         "name": "Data Archivist",
         "unitType": "Scout",
         "requiredTech": "Cryogenics",
+        "obsoleteWith": "Quantum Computing",
         "upgradesTo": "EM Warfare Command Vessel",
         "movement": 5,
         "strength": 10,
@@ -184,6 +186,7 @@
         "unitType": "Command Ship",
         "upgradesTo": "Mobile EM Warfare and Command Citadel",
         "requiredTech": "Quantum Computing",
+        "obsoleteWith": "SL Ping",
         "movement": 5,
         "strength": 12,
         "cost": 65,
@@ -373,7 +376,7 @@
         "cost": 115,
         "upgradesTo": "AI Drone",
         "requiredTech": "Expert Systems",
-        "obsoleteWith": "",
+        "obsoleteWith": "Artificial Super Intelligence",
         "uniques": [
             "[+70]% Strength <when defending>",
             "Destroys [in all cities] cities instead of capturing",
@@ -433,6 +436,7 @@
         "movement": 3,
         "cost": 300,
         "upgradesTo": "EM Destroyer",
+        "obsoleteWith": "High Efficiency Fusion",
         "requiredTech": "Athermal Lens",
         "requiredResource": "Exotic Optomaterial",
         "requiredResourceCost": 1,
@@ -459,6 +463,7 @@
         "movement": 3,
         "cost": 400,
         "upgradesTo": "Neutron Destroyer",
+        "obsoleteWith": "Directed Plasma",
         "requiredTech": "High Efficiency Fusion",
         "requiredResource": "Exotic Optomaterial",
         "requiredResourceCost": 1,
@@ -486,6 +491,7 @@
         "requiredResource": "Uranium",
         "requiredResourceCost": 5,
         "requiredTech": "Directed Plasma",
+        "obsoleteWith": "Exotic Matter Condenser",
         "uniques": [
             "Destroys [in all cities] cities instead of capturing",
             "[-1] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
@@ -758,7 +764,6 @@
         "movement": 1,
         "cost": 300,
         "requiredTech": "Strange Battery",
-        "upgradesTo": "Cannonade Vessel",
         "uniques": [
             "[-6] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
             "[-6] Sight <in [High Flux Space] tiles> <hidden from users>",
@@ -934,6 +939,7 @@
         "strength": 1,
         "movement": 3,
         "cost": 5,
+        "obsoleteWith": "Bio-Hybridization",
         "requiredTech": "Xeno-Genetics",
         "uniques": [
             "May capture killed [All] units"
