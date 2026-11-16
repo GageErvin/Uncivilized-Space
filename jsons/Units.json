@@ -180,7 +180,7 @@
         ]
     },
     {
-        "name": "EM Warfare Command Vessel",
+        "name": "EM Warfare and Command Vessel",
         "unitType": "Command Ship",
         "upgradesTo": "Mobile EM Warfare and Command Citadel",
         "requiredTech": "Quantum Computing",
