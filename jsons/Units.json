@@ -70,9 +70,11 @@
     {
         "name": "Astraforming Swarm",
         "unitType": "Civilian",
-        "cost": 60,
+        "cost": 85,
+        "strength":1,
         "movement": 4,
         "uniques": [
+            "Can never attack",
             "Can transform to [Screenforming Swarm]",
             "Can transform to [Repairforming Swarm]",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
@@ -86,9 +88,10 @@
     {
         "name": "Screenforming Swarm",
         "unitType": "Civilian",
-        "cost": 60,
         "movement": 0,
+        "strength":1,
         "uniques": [
+            "Can never attack",
             "[+85]% Strength bonus for [Any] units within [0] tiles <when defending>",
             "Unbuildable",
             "Can transform to [Repairforming Swarm]",
@@ -99,9 +102,10 @@
     {
         "name": "Repairforming Swarm",
         "unitType": "Civilian",
-        "cost": 60,
         "movement": 0,
+        "strength":1,
         "uniques": [
+            "Can never attack",
             "All adjacent units heal [30] HP when healing",
             "Unbuildable",
             "Can transform to [Astraforming Swarm]",
