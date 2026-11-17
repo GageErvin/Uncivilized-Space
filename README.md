@@ -25,15 +25,18 @@ Launch missiles, Conquer space. Enable 'permanent audio-visual mod.'
 
 ## TODO
 
-- spread sublight debris action (confers slow status to passers in nearby tiles for 1 turn) [unitTriggerTarget] loses [positiveAmount] movement
-- Interdiction mines 
+- spread sublight debris (instant improvement when not having cooldown promotion <not on improvement>, Remove [improvementFilter] improvements from this tile <>)
 - paperclip resource & trade
-- test and pr to add support for orrientation-support (need to req permission to push branch)
-- Hints and reduce difficulty a bit, shrink astra
+- test and pr to add support for orrientation-support (need to move branch to fork)
+- lite difficulty setting
 - Bump culture, balance culture, unlimited promotion for all, bio forming upgrade, minor slug and missile for endgame, alt to Kaizen 4
-- status for: Moderate might reduce sight, mv.  High likely impairs.  Extreme likely hobbles, other by features or populated base terrains
+- signal forming (buff flaming, debuff nearby foes)
+
+- tile hints: Moderate might reduce sight, mv.  High likely impairs.  Extreme likely hobbles, other by features or populated base terrains
+- shrink astra
 - review tech, promotion, policy names
-- swarm variants dates by promotion or unique, gated by tech, signal forming (buff flaming, debuff nearby foes)
+- swarm variants dates by promotion or unique, gated by tech
+- special borders
 
 ## Test
 
