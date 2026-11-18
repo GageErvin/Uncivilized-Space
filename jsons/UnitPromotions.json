@@ -63,6 +63,26 @@
 		]
 	},
 	{
+  "name": "Recursive Threat Loop",
+  "prerequisites": [
+    "Advanced Script Patching"
+  ],
+  "uniques": [
+    "[+25]% Strength <when defending>",
+    "Unavailable <for units with [Intuitive Targeting]>"
+  ],
+  "civilopediaText": [
+    {
+      "text": "Rerouting target telemetry through an infinite diagnostic loop, sacrificing raw offensive punch for localized evasion matrices and defensive resilience."
+    }
+  ],
+  "unitTypes": [
+    "Thinking Drone",
+    "Drone",
+    "Stealth Drone"
+  ]
+	},
+	{
 		"name": "Experimental Scythe Beam Qualification",
 		"prerequisites": [
 		],
@@ -78,7 +98,7 @@
 		"name": "Meteoropathy",
 		"prerequisites": [],
 		"uniques": [
-			"[+10]% Strength <when fighting in [Nebula] tiles>",
+			"[+30]% Strength <when fighting in [Nebula] tiles>",
 			"[+1] Sight"
 		],
 		"civilopediaText": [
@@ -108,7 +128,7 @@
 		]
 	},
 	{
-		"name": "Performing Crew",
+		"name": "Ad-Hoc Crew Drills",
 		"prerequisites": [],
 		"uniques": [
 			"[-10]% Strength",
@@ -298,7 +318,7 @@
 		]
 	},
 	{
-		"name": "Optimized Loading Gantries",
+		"name": "Atmospheric Calibration",
 		"prerequisites": [],
 		"uniques": [
 			"[+12]% Strength <when fighting in [Ringed Terrestrial Planet] tiles>",
