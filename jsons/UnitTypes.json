@@ -8,7 +8,7 @@
             "Unbuildable <for [Spore-Borne Parasite] Civilizations> <hidden from users>",
             "Ignores terrain cost <hidden from users>",
             "May travel on Water tiles without embarking <hidden from users>",
-            "Gain [3] [Culture]"
+            "Gain [6] [Culture]"
         ]
     },
     {
@@ -20,7 +20,7 @@
             "Unbuildable <for [Spore-Borne Parasite] Civilizations> <hidden from users>",
             "Ignores terrain cost <hidden from users>",
             "May travel on Water tiles without embarking <hidden from users>",
-            "Gain [5] [Culture]",
+            "Gain [10] [Culture]",
             "Founds a new city <by consuming this unit> <in [Gas Giant] tiles>",
             "Founds a new city <by consuming this unit> <in [Ringed Gas Giant] tiles>",
             "Founds a new city <by consuming this unit> <in [Ice Giant] tiles>",
@@ -50,7 +50,7 @@
             "Ignores terrain cost <hidden from users>",
             "Eliminates combat penalty for attacking over a river <hidden from users>",
             "Eliminates combat penalty for attacking across a coast <hidden from users>",
-            "Gain [3] [Culture]"
+            "Gain [7] [Culture]"
         ]
     },
     {
@@ -64,7 +64,7 @@
             "Ignores terrain cost <hidden from users>",
             "Eliminates combat penalty for attacking over a river <hidden from users>",
             "Eliminates combat penalty for attacking across a coast <hidden from users>",
-            "Gain [4] [Culture]"
+            "Gain [5] [Culture]"
         ]
     },
     {
@@ -98,7 +98,8 @@
             "May travel on Water tiles without embarking <hidden from users>",
             "Ignores terrain cost <hidden from users>",
             "Eliminates combat penalty for attacking over a river <hidden from users>",
-            "Eliminates combat penalty for attacking across a coast <hidden from users>"
+            "Eliminates combat penalty for attacking across a coast <hidden from users>",
+            "Gain [2] [Culture]"
         ]
     },
     {
@@ -112,7 +113,7 @@
             "Ignores terrain cost <hidden from users>",
             "Eliminates combat penalty for attacking over a river <hidden from users>",
             "Eliminates combat penalty for attacking across a coast <hidden from users>",
-            "Gain [2] [Culture]"
+            "Gain [4] [Culture]"
         ]
     },
     {
@@ -195,7 +196,7 @@
             "Eliminates combat penalty for attacking over a river <hidden from users>",
             "Eliminates combat penalty for attacking across a coast <hidden from users>",
             "Cannot attack",
-            "Gain [2] [Culture]",
+            "Gain [5] [Culture]",
             //"[This Unit] gains [7] XP <upon losing a [Missile] unit>",
             "[This Unit] gains [60] XP"// <upon turn start> <once>"
         ],
@@ -229,7 +230,7 @@
             "Eliminates combat penalty for attacking over a river <hidden from users>",
             "Eliminates combat penalty for attacking across a coast <hidden from users>",
             "May heal outside of friendly territory",
-            "Gain [3] [Culture]",
+            "Gain [5] [Culture]",
             "May capture killed [all] units"
         ]
     }
