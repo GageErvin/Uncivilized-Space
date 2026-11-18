@@ -4,19 +4,16 @@ Launch missiles, Conquer space. Enable 'permanent audio-visual mod.'
 
 ## Ideas
 
-- Ruins (images)
-  - Rdy img: Improvements/Stationary Eco Sphere
 - Events, Quests
-- Eras- Free sets of mutually exclusive promotions for high tier units: loadout / modification / tuning (also images)
+- Eras
 - Nations
   - diversify all forms.  ex: 'Macroform S-3'  (S-3 would be a sci-fi esc designation for where this form was discovered.)
-
-- units (images)
-  - diverse uniques
-  - immobile orbital fortress: -2 mv when not adjacent to city, "[+20]% Strength bonus for [Friendly] units within [1] tiles", must set up to ranged attack, "All adjacent units heal [3] HP when healing",
-- Diverse luxuries (images)
-- multi-tile constructables (images)
-  - unit (front must be adjacent to rear ; on completion transforms; rear destroyed ; would need to be attached build or scaffolds as there is no way to ensure orientation ; Good, alternatively require front built on top of rear?)
+- paperclip resource & trade
+- (images)
+  - Ruins
+  - diverse unique units
+  - Diverse luxuries
+- test and open pr to add support for orrientation-support (need to move branch to fork)
 
 ## Needs Ideas
 
@@ -25,18 +22,19 @@ Launch missiles, Conquer space. Enable 'permanent audio-visual mod.'
 
 ## TODO
 
-- spread sublight debris (instant improvement when not having cooldown promotion <not on improvement>, Remove [improvementFilter] improvements from this tile <>)
-- paperclip resource & trade
-- test and pr to add support for orrientation-support (need to move branch to fork)
-- lite difficulty setting
-- Bump culture, balance culture, unlimited promotion for all, bio forming upgrade, minor slug and missile for endgame, alt to Kaizen 4
-- signal forming (buff flaming, debuff nearby foes)
+- Added special borders
+- Added Combatforming Swarm-Bio, Signalforming Swarm
+  - swarm variants gated by promotion unique, or tech
 
-- tile hints: Moderate might reduce sight, mv.  High likely impairs.  Extreme likely hobbles, other by features or populated base terrains
-- shrink astra
+- Bump culture, balance culture, unlimited promotion for all, minor slug and missile for endgame, alt to Kaizen 4
+- lite difficulty setting
 - review tech, promotion, policy names
-- swarm variants dates by promotion or unique, gated by tech
-- special borders
+
+- multi-tile constructables (images)
+  - Added Units/Orbital Fortress: -2 mv when not adjacent to city, "[+20]% Strength bonus for [Friendly] units within [1] tiles", must set up to ranged attack, "All adjacent units heal [3] HP when healing",
+  - Added Units/Dyson Ring (ea tier provides production + one time sci, alternative science victory condition?, first complete bonus, settle? , confers vic?)
+- Free sets of mutually exclusive promotions for high tier units: loadout / modification / tuning (also images)
+  - spread sublight debris (instant improvement when not having cooldown promotion <not on improvement>, Remove [improvementFilter] improvements from this tile <>)
 
 ## Test
 
@@ -47,5 +45,5 @@ Launch missiles, Conquer space. Enable 'permanent audio-visual mod.'
 - em phantom units
 - infestation takeover status
 - interference limiting sight on units only
-- Dyson ring circling a star (ea tier provides production + one time sci, alternative science victory condition?, first complete bonus, settle?)
+- Dyson ring circling a star 
 - comets (tail must be away from nearest star)
