@@ -146,7 +146,7 @@
 	{
 		"name": "Synergy Achieved",
 		"prerequisites": [
-			"Performing Crew"
+			"Ad-Hoc Crew Drills"
 		],
 		"uniques": [
 			"[+20]% Strength",
@@ -305,7 +305,7 @@
 			"Can carry [1] extra [Stored Breach Pod] units",
 			"Can carry [2] extra [Munition] units",
 			"Can carry [10] extra [Slug] units",
-			"Unavailable <for units with [Optimized Loading Gantries]>",
+			"Unavailable <for units with [Atmospheric Calibration]>",
 			"Unavailable <for units with [Resonance Dampeners]>"
 		],
 		"unitTypes": [
@@ -353,7 +353,7 @@
 		"uniques": [
 			"[+10]% Strength <when fighting in [Zero Flux Space] tiles>",
 			"Unavailable <for units with [Extended Munitions Bay]>",
-			"Unavailable <for units with [Optimized Loading Gantries]>"
+			"Unavailable <for units with [Atmospheric Calibration]>"
 		],
 		"unitTypes": [
 			"Sub"
