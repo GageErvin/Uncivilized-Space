@@ -131,6 +131,7 @@
         "strength": 2,
         "uniqueTo":"Spore-Borne Parasite",
         "uniques": [
+            "[+200]% Strength <when attacking>",
             "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
             "[-1] Movement <in [High Flux Space] tiles> <hidden from users>"
         ]
@@ -144,6 +145,7 @@
         "requiredTech": "Neural Parasitology",
         "uniqueTo":"Spore-Borne Parasite",
         "uniques": [
+            "[+200]% Strength <when attacking>",
             "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>"
         ]
     },
@@ -152,7 +154,10 @@
         "unitType": "Spore",
         "cost": 20,
         "movement": 4,
-        "strength": 6,
+        "strength": 4,
+        "uniques": [
+            "[+400]% Strength <when attacking>"
+        ]
         "requiredTech": "Hive-Mind Engineering",
         "uniqueTo":"Spore-Borne Parasite",
     },
