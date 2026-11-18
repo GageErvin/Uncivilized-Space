@@ -72,9 +72,9 @@
         "cost": 85,
         "movement": 4,
         "uniques": [
-            "Can transform to [Screenforming Swarm]",
-            "Can transform to [Repairforming Swarm]",
-            "Can transform to [Signalforming Swarm]",
+            "Can transform to [Screenforming Swarm] <after discovering [Engagement Boost]>",
+            "Can transform to [Repairforming Swarm] <after discovering [Zero-G Fabrication]>",
+            "Can transform to [Signalforming Swarm] <after discovering [Artificial Super Intelligence]>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[-2] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
             "[-2] Movement <in [High Flux Space] tiles> <hidden from users>",
@@ -90,9 +90,9 @@
         "uniques": [
             "[+85]% Strength bonus for [All] units within [0] tiles <when defending>",
             "Unbuildable",
-            "Can transform to [Repairforming Swarm]",
+            "Can transform to [Repairforming Swarm] <after discovering [Zero-G Fabrication]>",
+            "Can transform to [Signalforming Swarm] <after discovering [Artificial Super Intelligence]>",
             "Can transform to [Astraforming Swarm]",
-            "Can transform to [Signalforming Swarm]",
             "Cannot move"
         ]
     },
@@ -104,8 +104,8 @@
             "All adjacent units heal [30] HP when healing",
             "Unbuildable",
             "Can transform to [Astraforming Swarm]",
-            "Can transform to [Screenforming Swarm]",
-            "Can transform to [Signalforming Swarm]",
+            "Can transform to [Screenforming Swarm] <after discovering [Engagement Boost]>",
+            "Can transform to [Signalforming Swarm] <after discovering [Artificial Super Intelligence]>",
             "Cannot move"
         ]
     },
@@ -118,8 +118,8 @@
             "Can see invisible [Stealth Drone] units",
             "Unbuildable",
             "Can transform to [Astraforming Swarm]",
-            "Can transform to [Screenforming Swarm]",
-            "Can transform to [Repairforming Swarm]",
+            "Can transform to [Screenforming Swarm] <after discovering [Engagement Boost]>",
+            "Can transform to [Repairforming Swarm] <after discovering [Zero-G Fabrication]>",
             "Cannot move"
         ]
     },
@@ -178,6 +178,7 @@
         "movement": 2,
         "requiredTech": "Xeno-Genetics",
         "uniques": [
+            "Can transform to [Combatforming Swarm-Bio] <after adopting [Bio-Ascendancy]>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "Can build [Land] improvements on tiles",
             "Can build [Water] improvements on tiles <hidden from users>"
@@ -189,6 +190,7 @@
         "movement": 3,
         "strength": 8,
         "uniques": [
+            "Can transform to [Astraforming Swarm-Bio]",
             "Unbuildable",
             "[20] HP when healing",
             "[+1] Sight",
