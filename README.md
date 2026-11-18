@@ -24,13 +24,11 @@ Launch missiles, Conquer space. Enable 'permanent audio-visual mod.'
 
 - Added special borders- white and fix pix match
 - rename warship
+- Slug img
 
-- swarm variants gated by promotion unique, or tech
-- Bump culture
-- minor slug and missile for endgame units
 - alt continuous to Kaizen 4
 - lite difficulty setting
-- special promotions for Canon vessel like sub, instead of high ranged long range dmg, slugs get a unique which increase their range and damage when used by these vessels
+- special promotions for Canon vessel like sub
 
 - multi-tile constructables (images)
   - Added Units/Orbital Fortress: -2 mv when not adjacent to city, "[+20]% Strength bonus for [Friendly] units within [1] tiles", must set up to ranged attack, "All adjacent units heal [3] HP when healing",
