@@ -26,8 +26,6 @@ Launch missiles, Conquer space. Enable 'permanent audio-visual mod.'
 - rename warship
 - Slug img
 
-- alt continuous to Kaizen 4
-- lite difficulty setting
 - special promotions for Canon vessel like sub
 
 - multi-tile constructables (images)
