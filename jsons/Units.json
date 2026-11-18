@@ -74,6 +74,7 @@
         "uniques": [
             "Can transform to [Screenforming Swarm]",
             "Can transform to [Repairforming Swarm]",
+            "Can transform to [Signalforming Swarm]",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[-2] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
             "[-2] Movement <in [High Flux Space] tiles> <hidden from users>",
@@ -91,6 +92,7 @@
             "Unbuildable",
             "Can transform to [Repairforming Swarm]",
             "Can transform to [Astraforming Swarm]",
+            "Can transform to [Signalforming Swarm]",
             "Cannot move"
         ]
     },
@@ -103,6 +105,21 @@
             "Unbuildable",
             "Can transform to [Astraforming Swarm]",
             "Can transform to [Screenforming Swarm]",
+            "Can transform to [Signalforming Swarm]",
+            "Cannot move"
+        ]
+    },
+    {
+        "name": "Signalforming Swarm",
+        "unitType": "Civilian",
+        "movement": 0,
+        "uniques": [
+            "[+5] Sight",
+            "Can see invisible [Stealth Drone] units",
+            "Unbuildable",
+            "Can transform to [Astraforming Swarm]",
+            "Can transform to [Screenforming Swarm]",
+            "Can transform to [Repairforming Swarm]",
             "Cannot move"
         ]
     },
@@ -161,6 +178,20 @@
         "movement": 2,
         "requiredTech": "Xeno-Genetics",
         "uniques": [
+            "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+            "Can build [Land] improvements on tiles",
+            "Can build [Water] improvements on tiles <hidden from users>"
+        ]
+    },
+    {
+        "name": "Combatforming Swarm-Bio",
+        "unitType": "Civilian",
+        "movement": 3,
+        "strength": 8,
+        "uniques": [
+            "Unbuildable",
+            "[20] HP when healing",
+            "[+1] Sight",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "Can build [Land] improvements on tiles",
             "Can build [Water] improvements on tiles <hidden from users>"
@@ -302,6 +333,7 @@
         "name": "Stealth I",
         "unitType": "Stealth Drone",
         "strength": 8,
+        "rangedStrength": 8,
         "movement": 3,
         "cost": 80,
         "upgradesTo": "Stealth II",
@@ -317,6 +349,7 @@
         "name": "Stealth II",
         "unitType": "Stealth Drone",
         "strength": 10,
+        "rangedStrength": 10,
         "movement": 4,
         "cost": 80,
         "upgradesTo": "Stealth III",
@@ -333,6 +366,7 @@
         "name": "Stealth III",
         "unitType": "Stealth Drone",
         "strength": 12,
+        "rangedStrength": 12,
         "movement": 5,
         "cost": 80,
         "requiredTech": "Photon Computing",
