@@ -449,7 +449,8 @@
             "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
             "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-            "[+1] Sight"
+            "[+1] Sight",
+            "Can carry [2] [Slug] units"
         ]
     },
     {
@@ -469,7 +470,7 @@
             "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[1] additional attacks per turn",
-            "Can carry [1] [Stored Breach Pod] units"
+            "Can carry [2] [Slug] units"
         ]
     },
     {
@@ -494,7 +495,7 @@
             "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+1] Sight",
-            "Can carry [1] [Stored Breach Pod] units"
+            "Can carry [1] [Munition] units"
         ]
     },
     {
@@ -542,7 +543,9 @@
             "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+2] Sight",
-            "Can carry [2] [Stored Breach Pod] units"
+            "Can carry [1] extra [Stored Breach Pod] units",
+            "Can carry [1] [Munition] units",
+            "Can carry [2] extra [Slug] units"
         ],
         "obsoleteWith": "Graviton Manipulation"
     },
@@ -568,7 +571,9 @@
             "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+2] Sight",
-            "Can carry [3] [Stored Breach Pod] units"
+            "Can carry [1] extra [Stored Breach Pod] units",
+            "Can carry [2] [Munition] units",
+            "Can carry [3] extra [Slug] units"
         ]
     },
     {
@@ -591,7 +596,9 @@
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+4] Sight",
             "[1] additional attacks per turn",
-            "Can carry [1] [Stored Breach Pod] units"
+            "Can carry [1] [Stored Breach Pod] units",
+            "Can carry [1] [Munition] units",
+            "Can carry [2] extra [Slug] units"
         ]
     },
     { // Visible to all civilizations
@@ -636,7 +643,8 @@
         "cost": 430,//
         "requiredTech": "Fluid-State Machinery",
         "uniques": [
-            "[1] additional attacks per turn"
+            "[1] additional attacks per turn",
+            "Can carry [5] [Slug] units"
         ]
     },
     {
@@ -648,7 +656,8 @@
         "uniqueTo": "Galactic Paperclip Initiative",
         "requiredTech": "Kaizen - 2",
         "uniques": [
-            "[3] additional attacks per turn"
+            "[3] additional attacks per turn",
+            "Can carry [1] [Munition] units"
         ]
     },
     {
@@ -762,7 +771,9 @@
             "[-2] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles> <hidden from users>",
             "[+6] Sight",
-            "Can carry [4] [Aircraft] units"
+            "Can carry [3] [Munition] units",
+            "Can carry [1] extra [Stored Breach Pod] units",
+            "Can carry [2] extra [Slug] units"
         ],
         "obsoleteWith": "Laser Propulsion",
         "civilopediaText": [
@@ -788,7 +799,9 @@
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+8] Sight",
             "Can move after attacking",
-            "Can carry [5] [Aircraft] units"
+            "Can carry [4] [Munition] units",
+            "Can carry [2] extra [Stored Breach Pod] units",
+            "Can carry [4] extra [Slug] units"
         ],
         "civilopediaText": [
             {
@@ -809,7 +822,9 @@
             "[-4] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+10] Sight",
-            "Can carry [7] [Aircraft] units"
+            "Can carry [5] [Munition] units",
+            "Can carry [2] extra [Stored Breach Pod] units",
+            "Can carry [7] extra [Slug] units"
         ],
         "obsoleteWith": "C-Fractional Thrust",
         "civilopediaText": [
@@ -822,8 +837,8 @@
         "name": "Cannonade Vessel",
         "unitType": "Military",
         "strength": 7,
-        "rangedStrength": 13,
-        "range": 11,
+        "rangedStrength": 17,
+        "range": 4,
         "movement": 2,
         "cost": 400,
         "requiredTech": "C-Fractional Thrust",
@@ -838,15 +853,16 @@
             "Ranged attacks may be performed over obstacles <hidden from users>",
             "No damage penalty for wounded units",
             "Can carry [1] [Stored Breach Pod] units",
-            "Can carry [1] [Munition] units"
+            "Can carry [2] [Munition] units",
+            "Can carry [6] [Slug] units"
         ]
     },
     {
         "name": "Warship",
         "unitType": "Military",
         "strength": 10,
-        "rangedStrength": 18,
-        "range": 11,
+        "rangedStrength": 20,
+        "range": 4,
         "movement": 2,
         "cost": 480,
         "requiredResource": "Antimatter",
@@ -863,9 +879,9 @@
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+4] Sight",
             "Ranged attacks may be performed over obstacles <hidden from users>",
-            "[1] additional attacks per turn",
             "No damage penalty for wounded units",
-            "Can carry [1] [Stored Breach Pod] units"
+            "Can carry [1] [Stored Breach Pod] units",
+            "Can carry [18] [Slug] units"
         ]
     },
     {
@@ -969,26 +985,48 @@
         ]
     },
     {
+        "name": "Slug",
+        "unitType": "Slug",
+        "strength": 3,
+        "movement": 3,
+        "cost": 5,
+        "obsoleteWith": "Bio-Hybridization",
+        "uniques": [
+            "[+4] Movement <when carried by [Cannonade Vessel] units>",
+            "[+500]% Strength <when carried by [Cannonade Vessel] units>",
+            "[+3] Movement <when carried by [Cannonade Vessel] units>",
+            "[+480]% Strength <when carried by [Cannonade Vessel] units>"
+        ]
+    },
+    {
         "name": "Spore Slug",
         "unitType": "Slug",
-        "strength": 1,
+        "strength": 3,
         "movement": 3,
         "cost": 5,
         "obsoleteWith": "Bio-Hybridization",
         "requiredTech": "Xeno-Genetics",
         "uniques": [
-            "May capture killed [All] units"
+            "May capture killed [All] units",
+            "[+4] Movement <when carried by [Cannonade Vessel] units>",
+            "[+500]% Strength <when carried by [Cannonade Vessel] units>",
+            "[+3] Movement <when carried by [Cannonade Vessel] units>",
+            "[+480]% Strength <when carried by [Cannonade Vessel] units>"
         ]
     },
     {
         "name": "Nano Infester",
         "unitType": "Slug",
-        "strength": 3,
+        "strength": 5,
         "movement": 7,
         "cost": 7,
         "requiredTech": "Bio-Hybridization",
         "uniques": [
-            "May capture killed [All] units"
+            "May capture killed [All] units",
+            "[+4] Movement <when carried by [Cannonade Vessel] units>",
+            "[+500]% Strength <when carried by [Cannonade Vessel] units>",
+            "[+3] Movement <when carried by [Cannonade Vessel] units>",
+            "[+480]% Strength <when carried by [Cannonade Vessel] units>"
         ]
     },
     {
