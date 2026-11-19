@@ -1452,154 +1452,154 @@ UnitIcons/Stealth III
   orig: 106, 49
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Units/Cannonade Vessel
+TileSets/UncivilizedSpace/Borders/ConvexOuter
   rotate: false
   xy: 536, 596
+  size: 100, 48
+  orig: 100, 48
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Borders/ConcaveConvexOuter
+  rotate: false
+  xy: 638, 596
+  size: 100, 48
+  orig: 100, 48
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Units/Cannonade Vessel
+  rotate: false
+  xy: 740, 596
   size: 132, 48
   orig: 132, 48
   offset: 0, 0
   index: -1
 UnitIcons/Cannonade Vessel
   rotate: false
-  xy: 536, 596
+  xy: 740, 596
   size: 132, 48
   orig: 132, 48
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Units/SL Chamber
   rotate: false
-  xy: 670, 596
+  xy: 874, 596
   size: 63, 48
   orig: 63, 48
   offset: 0, 0
   index: -1
 UnitIcons/SL Chamber
   rotate: false
-  xy: 670, 596
+  xy: 874, 596
   size: 63, 48
   orig: 63, 48
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Units/SL Mass Inverter
   rotate: false
-  xy: 735, 596
+  xy: 939, 596
   size: 63, 48
   orig: 63, 48
   offset: 0, 0
   index: -1
 UnitIcons/SL Mass Inverter
   rotate: false
-  xy: 735, 596
+  xy: 939, 596
   size: 63, 48
   orig: 63, 48
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Units/Combatforming Swarm-Bio
   rotate: false
-  xy: 800, 596
+  xy: 1004, 596
   size: 175, 48
   orig: 175, 48
   offset: 0, 0
   index: -1
 UnitIcons/Combatforming Swarm-Bio
   rotate: false
-  xy: 800, 596
+  xy: 1004, 596
   size: 175, 48
   orig: 175, 48
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Units/Astraforming Swarm-Bio
   rotate: false
-  xy: 977, 596
+  xy: 1181, 596
   size: 174, 47
   orig: 174, 47
   offset: 0, 0
   index: -1
 UnitIcons/Astraforming Swarm-Bio
   rotate: false
-  xy: 977, 596
+  xy: 1181, 596
   size: 174, 47
   orig: 174, 47
   offset: 0, 0
   index: -1
+TileSets/UncivilizedSpace/Borders/ConcaveOuter
+  rotate: false
+  xy: 1357, 596
+  size: 100, 46
+  orig: 100, 46
+  offset: 0, 0
+  index: -1
 TileSets/UncivilizedSpace/Units/Expert Drone
   rotate: false
-  xy: 1153, 596
+  xy: 1459, 596
   size: 58, 46
   orig: 58, 46
   offset: 0, 0
   index: -1
 UnitIcons/Expert Drone
   rotate: false
-  xy: 1153, 596
+  xy: 1459, 596
   size: 58, 46
   orig: 58, 46
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Units/Stealth II
   rotate: false
-  xy: 1213, 596
+  xy: 1519, 596
   size: 80, 45
   orig: 80, 45
   offset: 0, 0
   index: -1
 UnitIcons/Stealth II
   rotate: false
-  xy: 1213, 596
+  xy: 1519, 596
   size: 80, 45
   orig: 80, 45
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Borders/ConvexConcaveInner
   rotate: false
-  xy: 1295, 596
+  xy: 1601, 596
   size: 100, 43
   orig: 100, 43
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Borders/ConvexConcaveOuter
   rotate: false
-  xy: 1397, 596
+  xy: 1703, 596
   size: 100, 43
   orig: 100, 43
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Borders/ConvexInner
   rotate: false
-  xy: 1499, 596
-  size: 100, 43
-  orig: 100, 43
-  offset: 0, 0
-  index: -1
-TileSets/UncivilizedSpace/Borders/ConvexOuter
-  rotate: false
-  xy: 1601, 596
+  xy: 1805, 596
   size: 100, 43
   orig: 100, 43
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Borders/ConcaveConvexInner
   rotate: false
-  xy: 1703, 596
-  size: 100, 43
-  orig: 100, 43
-  offset: 0, 0
-  index: -1
-TileSets/UncivilizedSpace/Borders/ConcaveConvexOuter
-  rotate: false
-  xy: 1805, 596
-  size: 100, 43
-  orig: 100, 43
-  offset: 0, 0
-  index: -1
-TileSets/UncivilizedSpace/Borders/ConcaveInner
-  rotate: false
   xy: 1907, 596
   size: 100, 43
   orig: 100, 43
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Borders/ConcaveOuter
+TileSets/UncivilizedSpace/Borders/ConcaveInner
   rotate: false
   xy: 2, 654
   size: 100, 43
