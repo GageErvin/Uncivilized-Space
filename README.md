@@ -22,17 +22,17 @@ Launch missiles, Conquer space. Enable 'permanent audio-visual mod.'
 
 ## TODO
 
-- Added special borders
-- Added Combatforming Swarm-Bio, Signalforming Swarm
-  - swarm variants gated by promotion unique, or tech
+- Added special borders- white and fix pix match
+- rename warship
+- Slug img
 
-- Bump culture, balance culture, unlimited promotion for all, minor slug and missile for endgame, alt to Kaizen 4
-- lite difficulty setting
-- review tech, promotion, policy names
+- boost flanking and sight near signal
+- special promotions for Canon vessel like sub
 
 - multi-tile constructables (images)
   - Added Units/Orbital Fortress: -2 mv when not adjacent to city, "[+20]% Strength bonus for [Friendly] units within [1] tiles", must set up to ranged attack, "All adjacent units heal [3] HP when healing",
   - Added Units/Dyson Ring (ea tier provides production + one time sci, alternative science victory condition?, first complete bonus, settle? , confers vic?)
+
 - Free sets of mutually exclusive promotions for high tier units: loadout / modification / tuning (also images)
   - spread sublight debris (instant improvement when not having cooldown promotion <not on improvement>, Remove [improvementFilter] improvements from this tile <>)
 
