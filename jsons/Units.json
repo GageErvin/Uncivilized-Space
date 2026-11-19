@@ -851,7 +851,7 @@
         "movement": 2,
         "cost": 400,
         "requiredTech": "C-Fractional Thrust",
-        "upgradesTo": "Warship",
+        "upgradesTo": "Broadside Hull",
         "uniques": [
             "Destroys [in all cities] cities instead of capturing",
             "[-3] Sight <in [Extreme Flux Space] tiles> <hidden from users>",

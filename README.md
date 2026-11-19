@@ -22,12 +22,7 @@ Launch missiles, Conquer space. Enable 'permanent audio-visual mod.'
 
 ## TODO
 
-- Added special borders- white and fix pix match
-- rename warship
 - Slug img
-
-- boost flanking and sight near signal
-- special promotions for Canon vessel like sub
 
 - multi-tile constructables (images)
   - Added Units/Orbital Fortress: -2 mv when not adjacent to city, "[+20]% Strength bonus for [Friendly] units within [1] tiles", must set up to ranged attack, "All adjacent units heal [3] HP when healing",
