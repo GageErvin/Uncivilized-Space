@@ -867,7 +867,7 @@
         ]
     },
     {
-        "name": "Warship",
+        "name": "Broadside Hull",
         "unitType": "Artillery",
         "strength": 10,
         "rangedStrength": 20,
