@@ -844,7 +844,7 @@
     },
     {
         "name": "Cannonade Vessel",
-        "unitType": "Military",
+        "unitType": "Artillery",
         "strength": 7,
         "rangedStrength": 17,
         "range": 4,
@@ -868,7 +868,7 @@
     },
     {
         "name": "Warship",
-        "unitType": "Military",
+        "unitType": "Artillery",
         "strength": 10,
         "rangedStrength": 20,
         "range": 4,
