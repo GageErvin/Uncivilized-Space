@@ -9,7 +9,8 @@
 		"cost": 0,
 		"isNationalWonder": true,
 		"uniques": [
-			"Indicates the capital city"
+			"Indicates the capital city",
+            "Can carry [3] extra [Slug] units"
 		]
 	},
 	{
