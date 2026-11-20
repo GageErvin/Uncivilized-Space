@@ -999,6 +999,7 @@
         "unitType": "Slug",
         "strength": 3,
         "range": 3,
+        "rangedStrength": 3,
         "movement": 1,
         "cost": 5,
         "obsoleteWith": "Bio-Hybridization",
@@ -1013,6 +1014,7 @@
         "name": "Spore Slug",
         "unitType": "Slug",
         "strength": 3,
+        "rangedStrength": 3,
         "range": 3,
         "movement": 1,
         "cost": 5,
@@ -1029,6 +1031,7 @@
     {
         "name": "Nano Infester",
         "unitType": "Slug",
+        "rangedStrength": 5,
         "strength": 5,
         "movement": 1,
         "range": 7,
