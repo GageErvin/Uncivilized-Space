@@ -142,8 +142,7 @@
   {
     "name": "Solar Reflector",
     "production": 1,
-    "turnsToBuild": 6,
-    "techRequired": "Orbital Swarming",
+    "turnsToBuild": 4,
     "uniques": [],
     "terrainsCanBeBuiltOn": [
       "Zero Flux Space",
@@ -213,7 +212,8 @@
       "Unpillagable",
       "Irremovable",
       "Unbuildable",
-      "Excluded from map editor"
+      "Excluded from map editor",
+      "Can carry [3] extra [Slug] units"
     ],
     "civilopediaText": [
       {
