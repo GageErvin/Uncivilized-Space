@@ -290,6 +290,7 @@
         "movement": 3,
         "cost": 100,
         "uniques": [
+            "Self-destructs when attacking",
             "No damage penalty for wounded units",
             "[+200]% Strength <when attacking>",
             "[This Unit] takes [100] damage <upon turn start>",
@@ -301,7 +302,7 @@
     {
         "name": "Breach I - Bio",
         "unitType": "Stored Breach Pod",
-        "movement": 5,
+        "movement": 3,
         "strength": 0,
         "cost": 50,
         "requiredTech": "Neural Parasitology",
@@ -329,7 +330,7 @@
     {
         "name": "Breach II - Mech",
         "unitType": "Stored Breach Pod",
-        "movement": 5,
+        "movement": 4,
         "strength": 0,
         "cost": 100,
         "requiredTech": "Expert Systems",
@@ -867,7 +868,7 @@
         ]
     },
     {
-        "name": "Warship",
+        "name": "Broadside Hull",
         "unitType": "Artillery",
         "strength": 10,
         "rangedStrength": 20,
@@ -997,13 +998,15 @@
         "name": "Slug",
         "unitType": "Slug",
         "strength": 3,
-        "movement": 3,
+        "range": 3,
+        "rangedStrength": 3,
+        "movement": 1,
         "cost": 5,
         "obsoleteWith": "Bio-Hybridization",
         "uniques": [
-            "[+4] Movement <when carried by [Cannonade Vessel] units>",
-            "[+500]% Strength <when carried by [Cannonade Vessel] units>",
-            "[+3] Movement <when carried by [Cannonade Vessel] units>",
+            "[+4] Range <when carried by [Broadside Hull] units>",
+            "[+500]% Strength <when carried by [Broadside Hull] units>",
+            "[+3] Range <when carried by [Cannonade Vessel] units>",
             "[+480]% Strength <when carried by [Cannonade Vessel] units>"
         ]
     },
@@ -1011,30 +1014,34 @@
         "name": "Swarm Slug",
         "unitType": "Slug",
         "strength": 3,
-        "movement": 3,
+        "rangedStrength": 3,
+        "range": 3,
+        "movement": 1,
         "cost": 5,
         "obsoleteWith": "Bio-Hybridization",
         "requiredTech": "Xeno-Genetics",
         "uniques": [
             "May capture killed [All] units",
-            "[+4] Movement <when carried by [Cannonade Vessel] units>",
-            "[+500]% Strength <when carried by [Cannonade Vessel] units>",
-            "[+3] Movement <when carried by [Cannonade Vessel] units>",
+            "[+4] Range <when carried by [Broadside Hull] units>",
+            "[+500]% Strength <when carried by [Broadside Hull] units>",
+            "[+3] Range <when carried by [Cannonade Vessel] units>",
             "[+480]% Strength <when carried by [Cannonade Vessel] units>"
         ]
     },
     {
         "name": "Nano Infester",
         "unitType": "Slug",
+        "rangedStrength": 5,
         "strength": 5,
-        "movement": 7,
+        "movement": 1,
+        "range": 7,
         "cost": 7,
         "requiredTech": "Bio-Hybridization",
         "uniques": [
             "May capture killed [All] units",
-            "[+4] Movement <when carried by [Cannonade Vessel] units>",
-            "[+500]% Strength <when carried by [Cannonade Vessel] units>",
-            "[+3] Movement <when carried by [Cannonade Vessel] units>",
+            "[+4] Range <when carried by [Broadside Hull] units>",
+            "[+500]% Strength <when carried by [Broadside Hull] units>",
+            "[+3] Range <when carried by [Cannonade Vessel] units>",
             "[+480]% Strength <when carried by [Cannonade Vessel] units>"
         ]
     },

@@ -183,7 +183,7 @@
         "movementType": "Air",
         "uniques": [
             "Unbuildable <for [Spore-Borne Parasite] Civilizations> <hidden from users>",
-            //"Aircraft",
+            "Aircraft",
             "May travel on Water tiles without embarking <hidden from users>",
             "Ignores terrain cost <hidden from users>",
             "Eliminates combat penalty for attacking over a river <hidden from users>",
