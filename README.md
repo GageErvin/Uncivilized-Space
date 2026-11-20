@@ -22,7 +22,9 @@ Launch missiles, Conquer space. Enable 'permanent audio-visual mod.'
 
 ## TODO
 
-- Slug img
+- Rogue computer factions should be more aggressive
+- cheaper solar reflector
+- more late game feature improvements
 
 - multi-tile constructables (images)
   - Added Units/Orbital Fortress: -2 mv when not adjacent to city, "[+20]% Strength bonus for [Friendly] units within [1] tiles", must set up to ranged attack, "All adjacent units heal [3] HP when healing",
