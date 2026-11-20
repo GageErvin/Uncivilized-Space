@@ -142,8 +142,7 @@
   {
     "name": "Solar Reflector",
     "production": 1,
-    "turnsToBuild": 6,
-    "techRequired": "Orbital Swarming",
+    "turnsToBuild": 4,
     "uniques": [],
     "terrainsCanBeBuiltOn": [
       "Zero Flux Space",
