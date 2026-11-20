@@ -72,8 +72,9 @@
         "cost": 85,
         "movement": 4,
         "uniques": [
-            "Can transform to [Screenforming Swarm]",
-            "Can transform to [Repairforming Swarm]",
+            "Can transform to [Screenforming Swarm] <after discovering [Engagement Boost]>",
+            "Can transform to [Repairforming Swarm] <after discovering [Zero-G Fabrication]>",
+            "Can transform to [Signalforming Swarm] <after discovering [Artificial Super Intelligence]>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[-2] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
             "[-2] Movement <in [High Flux Space] tiles> <hidden from users>",
@@ -89,7 +90,8 @@
         "uniques": [
             "[+85]% Strength bonus for [All] units within [0] tiles <when defending>",
             "Unbuildable",
-            "Can transform to [Repairforming Swarm]",
+            "Can transform to [Repairforming Swarm] <after discovering [Zero-G Fabrication]>",
+            "Can transform to [Signalforming Swarm] <after discovering [Artificial Super Intelligence]>",
             "Can transform to [Astraforming Swarm]",
             "Cannot move"
         ]
@@ -102,7 +104,23 @@
             "All adjacent units heal [30] HP when healing",
             "Unbuildable",
             "Can transform to [Astraforming Swarm]",
-            "Can transform to [Screenforming Swarm]",
+            "Can transform to [Screenforming Swarm] <after discovering [Engagement Boost]>",
+            "Can transform to [Signalforming Swarm] <after discovering [Artificial Super Intelligence]>",
+            "Cannot move"
+        ]
+    },
+    {
+        "name": "Signalforming Swarm",
+        "unitType": "Civilian",
+        "movement": 0,
+        "uniques": [
+            "[+15]% Strength bonus for [All] units within [0] tiles <when attacking>",
+            "Can see invisible [Stealth Drone] units",
+            "[+3] Sight",
+            "Unbuildable",
+            "Can transform to [Astraforming Swarm]",
+            "Can transform to [Screenforming Swarm] <after discovering [Engagement Boost]>",
+            "Can transform to [Repairforming Swarm] <after discovering [Zero-G Fabrication]>",
             "Cannot move"
         ]
     },
@@ -114,6 +132,7 @@
         "strength": 2,
         "uniqueTo":"Spore-Borne Parasite",
         "uniques": [
+            "[+200]% Strength <when attacking>",
             "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
             "[-1] Movement <in [High Flux Space] tiles> <hidden from users>"
         ]
@@ -127,6 +146,7 @@
         "requiredTech": "Neural Parasitology",
         "uniqueTo":"Spore-Borne Parasite",
         "uniques": [
+            "[+200]% Strength <when attacking>",
             "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>"
         ]
     },
@@ -135,7 +155,10 @@
         "unitType": "Spore",
         "cost": 20,
         "movement": 4,
-        "strength": 6,
+        "strength": 4,
+        "uniques": [
+            "[+400]% Strength <when attacking>"
+        ]
         "requiredTech": "Hive-Mind Engineering",
         "uniqueTo":"Spore-Borne Parasite",
     },
@@ -161,6 +184,22 @@
         "movement": 2,
         "requiredTech": "Xeno-Genetics",
         "uniques": [
+            "Can transform to [Combatforming Swarm-Bio] <after adopting [Bio-Ascendancy]>",
+            "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+            "Can build [Land] improvements on tiles",
+            "Can build [Water] improvements on tiles <hidden from users>"
+        ]
+    },
+    {
+        "name": "Combatforming Swarm-Bio",
+        "unitType": "Civilian",
+        "movement": 3,
+        "strength": 8,
+        "uniques": [
+            "Can transform to [Astraforming Swarm-Bio]",
+            "Unbuildable",
+            "[20] HP when healing",
+            "[+1] Sight",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "Can build [Land] improvements on tiles",
             "Can build [Water] improvements on tiles <hidden from users>"
@@ -251,6 +290,7 @@
         "movement": 3,
         "cost": 100,
         "uniques": [
+            "Self-destructs when attacking",
             "No damage penalty for wounded units",
             "[+200]% Strength <when attacking>",
             "[This Unit] takes [100] damage <upon turn start>",
@@ -262,7 +302,7 @@
     {
         "name": "Breach I - Bio",
         "unitType": "Stored Breach Pod",
-        "movement": 5,
+        "movement": 3,
         "strength": 0,
         "cost": 50,
         "requiredTech": "Neural Parasitology",
@@ -290,7 +330,7 @@
     {
         "name": "Breach II - Mech",
         "unitType": "Stored Breach Pod",
-        "movement": 5,
+        "movement": 4,
         "strength": 0,
         "cost": 100,
         "requiredTech": "Expert Systems",
@@ -302,6 +342,8 @@
         "name": "Stealth I",
         "unitType": "Stealth Drone",
         "strength": 8,
+        "rangedStrength": 8,
+        "range": 0,
         "movement": 3,
         "cost": 80,
         "upgradesTo": "Stealth II",
@@ -317,6 +359,8 @@
         "name": "Stealth II",
         "unitType": "Stealth Drone",
         "strength": 10,
+        "rangedStrength": 10,
+        "range": 0,
         "movement": 4,
         "cost": 80,
         "upgradesTo": "Stealth III",
@@ -333,6 +377,8 @@
         "name": "Stealth III",
         "unitType": "Stealth Drone",
         "strength": 12,
+        "rangedStrength": 12,
+        "range": 0,
         "movement": 5,
         "cost": 80,
         "requiredTech": "Photon Computing",
@@ -413,7 +459,8 @@
             "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
             "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-            "[+1] Sight"
+            "[+1] Sight",
+            "Can carry [2] [Slug] units"
         ]
     },
     {
@@ -433,7 +480,7 @@
             "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[1] additional attacks per turn",
-            "Can carry [1] [Stored Breach Pod] units"
+            "Can carry [2] [Slug] units"
         ]
     },
     {
@@ -458,7 +505,7 @@
             "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+1] Sight",
-            "Can carry [1] [Stored Breach Pod] units"
+            "Can carry [1] [Munition] units"
         ]
     },
     {
@@ -506,7 +553,9 @@
             "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+2] Sight",
-            "Can carry [2] [Stored Breach Pod] units"
+            "Can carry [1] extra [Stored Breach Pod] units",
+            "Can carry [1] [Munition] units",
+            "Can carry [2] extra [Slug] units"
         ],
         "obsoleteWith": "Graviton Manipulation"
     },
@@ -532,7 +581,9 @@
             "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+2] Sight",
-            "Can carry [3] [Stored Breach Pod] units"
+            "Can carry [1] extra [Stored Breach Pod] units",
+            "Can carry [2] [Munition] units",
+            "Can carry [3] extra [Slug] units"
         ]
     },
     {
@@ -555,7 +606,9 @@
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+4] Sight",
             "[1] additional attacks per turn",
-            "Can carry [1] [Stored Breach Pod] units"
+            "Can carry [1] [Stored Breach Pod] units",
+            "Can carry [1] [Munition] units",
+            "Can carry [2] extra [Slug] units"
         ]
     },
     { // Visible to all civilizations
@@ -600,7 +653,8 @@
         "cost": 430,//
         "requiredTech": "Fluid-State Machinery",
         "uniques": [
-            "[1] additional attacks per turn"
+            "[1] additional attacks per turn",
+            "Can carry [5] [Slug] units"
         ]
     },
     {
@@ -612,7 +666,8 @@
         "uniqueTo": "Galactic Paperclip Initiative",
         "requiredTech": "Kaizen - 2",
         "uniques": [
-            "[3] additional attacks per turn"
+            "[3] additional attacks per turn",
+            "Can carry [1] [Munition] units"
         ]
     },
     {
@@ -726,7 +781,9 @@
             "[-2] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles> <hidden from users>",
             "[+6] Sight",
-            "Can carry [4] [Aircraft] units"
+            "Can carry [3] [Munition] units",
+            "Can carry [1] extra [Stored Breach Pod] units",
+            "Can carry [2] extra [Slug] units"
         ],
         "obsoleteWith": "Laser Propulsion",
         "civilopediaText": [
@@ -752,7 +809,9 @@
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+8] Sight",
             "Can move after attacking",
-            "Can carry [5] [Aircraft] units"
+            "Can carry [4] [Munition] units",
+            "Can carry [2] extra [Stored Breach Pod] units",
+            "Can carry [4] extra [Slug] units"
         ],
         "civilopediaText": [
             {
@@ -773,7 +832,9 @@
             "[-4] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+10] Sight",
-            "Can carry [7] [Aircraft] units"
+            "Can carry [5] [Munition] units",
+            "Can carry [2] extra [Stored Breach Pod] units",
+            "Can carry [7] extra [Slug] units"
         ],
         "obsoleteWith": "C-Fractional Thrust",
         "civilopediaText": [
@@ -784,14 +845,14 @@
     },
     {
         "name": "Cannonade Vessel",
-        "unitType": "Military",
+        "unitType": "Artillery",
         "strength": 7,
-        "rangedStrength": 13,
-        "range": 11,
+        "rangedStrength": 17,
+        "range": 4,
         "movement": 2,
         "cost": 400,
         "requiredTech": "C-Fractional Thrust",
-        "upgradesTo": "Warship",
+        "upgradesTo": "Broadside Hull",
         "uniques": [
             "Destroys [in all cities] cities instead of capturing",
             "[-3] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
@@ -802,15 +863,16 @@
             "Ranged attacks may be performed over obstacles <hidden from users>",
             "No damage penalty for wounded units",
             "Can carry [1] [Stored Breach Pod] units",
-            "Can carry [1] [Munition] units"
+            "Can carry [2] [Munition] units",
+            "Can carry [6] [Slug] units"
         ]
     },
     {
-        "name": "Warship",
-        "unitType": "Military",
+        "name": "Broadside Hull",
+        "unitType": "Artillery",
         "strength": 10,
-        "rangedStrength": 18,
-        "range": 11,
+        "rangedStrength": 20,
+        "range": 4,
         "movement": 2,
         "cost": 480,
         "requiredResource": "Antimatter",
@@ -827,13 +889,13 @@
             "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
             "[+4] Sight",
             "Ranged attacks may be performed over obstacles <hidden from users>",
-            "[1] additional attacks per turn",
             "No damage penalty for wounded units",
-            "Can carry [1] [Stored Breach Pod] units"
+            "Can carry [1] [Stored Breach Pod] units",
+            "Can carry [18] [Slug] units"
         ]
     },
     {
-        "name": "Spore Swarm",
+        "name": "Swarm Kilde",
         "unitType": "Bio-Unit",
         "strength": 7,
         "movement": 3,
@@ -933,26 +995,54 @@
         ]
     },
     {
+        "name": "Slug",
+        "unitType": "Slug",
+        "strength": 3,
+        "range": 3,
+        "rangedStrength": 3,
+        "movement": 1,
+        "cost": 5,
+        "obsoleteWith": "Bio-Hybridization",
+        "uniques": [
+            "[+4] Range <when carried by [Broadside Hull] units>",
+            "[+500]% Strength <when carried by [Broadside Hull] units>",
+            "[+3] Range <when carried by [Cannonade Vessel] units>",
+            "[+480]% Strength <when carried by [Cannonade Vessel] units>"
+        ]
+    },
+    {
         "name": "Spore Slug",
         "unitType": "Slug",
-        "strength": 1,
-        "movement": 3,
+        "strength": 3,
+        "rangedStrength": 3,
+        "range": 3,
+        "movement": 1,
         "cost": 5,
         "obsoleteWith": "Bio-Hybridization",
         "requiredTech": "Xeno-Genetics",
         "uniques": [
-            "May capture killed [All] units"
+            "May capture killed [All] units",
+            "[+4] Range <when carried by [Broadside Hull] units>",
+            "[+500]% Strength <when carried by [Broadside Hull] units>",
+            "[+3] Range <when carried by [Cannonade Vessel] units>",
+            "[+480]% Strength <when carried by [Cannonade Vessel] units>"
         ]
     },
     {
         "name": "Nano Infester",
         "unitType": "Slug",
-        "strength": 3,
-        "movement": 7,
+        "rangedStrength": 5,
+        "strength": 5,
+        "movement": 1,
+        "range": 7,
         "cost": 7,
         "requiredTech": "Bio-Hybridization",
         "uniques": [
-            "May capture killed [All] units"
+            "May capture killed [All] units",
+            "[+4] Range <when carried by [Broadside Hull] units>",
+            "[+500]% Strength <when carried by [Broadside Hull] units>",
+            "[+3] Range <when carried by [Cannonade Vessel] units>",
+            "[+480]% Strength <when carried by [Cannonade Vessel] units>"
         ]
     },
     {

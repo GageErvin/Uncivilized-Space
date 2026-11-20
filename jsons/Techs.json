@@ -18,6 +18,11 @@
 				"uniques": []
 			},
 			{
+				"name": "Refactoring - 1",
+				"row": 3,
+				"uniques": ["[+3]% [Science] [in all cities]"]
+			},
+			{
 				"name": "Generational Ships",
 				"row": 5,
 				"quote": "Sure, the Wi-Fi drops every three generations, and the air smells faintly of recycled socks, but at least we don't have to pay property taxes anymore.",
@@ -49,6 +54,14 @@
 				],
 				"row": 2,
 				"quote": "Why negotiate when you can just rewrite their neural pathways directly?"
+			},
+			{
+				"name": "Refactoring - 2",
+				"row": 3,
+				"prerequisites": [
+					"Refactoring - 1"
+				],
+				"uniques": ["[+3]% [Science] [in all cities]"]
 			},
 			{
 				"name": "Nanotechnology",
@@ -108,6 +121,14 @@
 				"row": 2,
 				"quote": "Why individuality when you can share a headache with ten trillion of your closest friends?",
 				"uniques": []
+			},
+			{
+				"name": "Refactoring - 3",
+				"row": 3,
+				"prerequisites": [
+					"Refactoring - 2"
+				],
+				"uniques": ["[+3]% [Science] [in all cities]"]
 			},
 			{
 				"name": "Orbital Swarming",

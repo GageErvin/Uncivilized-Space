@@ -1,5 +1,19 @@
 [
 	{
+    "name": "Culture",
+    "unitSupplyBase": 14,
+    "unitSupplyPerCity": 7,
+    "buildingCostModifier": 0.7,
+    "policyCostModifier": 0.7,
+    "unhappinessModifier": 0.5,
+    "aiMajorCivBonusStartingUnits": ["Generational Settler"],
+    "aiUnhappinessModifier": 0.9,
+    "aisExchangeTechs": false,
+    "baseHappiness": 20,
+    "aiDifficultyLevel": "Steel Rat",
+    "civilopediaText": [{"text": "Post-scarcity luxury, hyper-advanced benevolent AI, and endless leisure. The universe bends over backwards to keep you comfortable."}]
+	},
+	{
 		"name": "Steel Rat",
 		"unitSupplyBase": 10,
 		"unitSupplyPerCity": 5,

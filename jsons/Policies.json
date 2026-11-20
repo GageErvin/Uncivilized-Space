@@ -110,7 +110,7 @@
         ]
     },
     {
-        "name": "Technocracy",
+        "name": "Data-Driven Governance",
         "era": "Diaspora",
         "prioritizingCivs": [
             "Silicoforms",
@@ -147,7 +147,7 @@
                 "row": 2, "column": 3
             },
             {
-                "name": "Technocracy Complete",
+                "name": "Data-Driven Governance Complete",
                 "uniques": [
                     "Free Technology",
                     "[+10]% [Science] [in all cities]"

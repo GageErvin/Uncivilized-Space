@@ -63,6 +63,26 @@
 		]
 	},
 	{
+  "name": "Recursive Threat Loop",
+  "prerequisites": [
+    "Advanced Script Patching"
+  ],
+  "uniques": [
+    "[+25]% Strength <when defending>",
+    "Unavailable <for units with [Intuitive Targeting]>"
+  ],
+  "civilopediaText": [
+    {
+      "text": "Rerouting target telemetry through an infinite diagnostic loop, sacrificing raw offensive punch for localized evasion matrices and defensive resilience."
+    }
+  ],
+  "unitTypes": [
+    "Thinking Drone",
+    "Drone",
+    "Stealth Drone"
+  ]
+	},
+	{
 		"name": "Experimental Scythe Beam Qualification",
 		"prerequisites": [
 		],
@@ -78,7 +98,7 @@
 		"name": "Meteoropathy",
 		"prerequisites": [],
 		"uniques": [
-			"[+10]% Strength <when fighting in [Nebula] tiles>",
+			"[+30]% Strength <when fighting in [Nebula] tiles>",
 			"[+1] Sight"
 		],
 		"civilopediaText": [
@@ -108,7 +128,7 @@
 		]
 	},
 	{
-		"name": "Performing Crew",
+		"name": "Ad-Hoc Crew Drills",
 		"prerequisites": [],
 		"uniques": [
 			"[-10]% Strength",
@@ -126,7 +146,7 @@
 	{
 		"name": "Synergy Achieved",
 		"prerequisites": [
-			"Performing Crew"
+			"Ad-Hoc Crew Drills"
 		],
 		"uniques": [
 			"[+20]% Strength",
@@ -285,7 +305,7 @@
 			"Can carry [1] extra [Stored Breach Pod] units",
 			"Can carry [2] extra [Munition] units",
 			"Can carry [10] extra [Slug] units",
-			"Unavailable <for units with [Optimized Loading Gantries]>",
+			"Unavailable <for units with [Atmospheric Calibration]>",
 			"Unavailable <for units with [Resonance Dampeners]>"
 		],
 		"unitTypes": [
@@ -298,7 +318,7 @@
 		]
 	},
 	{
-		"name": "Optimized Loading Gantries",
+		"name": "Atmospheric Calibration",
 		"prerequisites": [],
 		"uniques": [
 			"[+12]% Strength <when fighting in [Ringed Terrestrial Planet] tiles>",
@@ -333,7 +353,7 @@
 		"uniques": [
 			"[+10]% Strength <when fighting in [Zero Flux Space] tiles>",
 			"Unavailable <for units with [Extended Munitions Bay]>",
-			"Unavailable <for units with [Optimized Loading Gantries]>"
+			"Unavailable <for units with [Atmospheric Calibration]>"
 		],
 		"unitTypes": [
 			"Sub"
@@ -403,5 +423,166 @@
 		"unitTypes": [
 			"Command Ship"
 		]
-	}
+	},
+  {
+    "name": "Mag-Feed Magazine Rack",
+    "prerequisites": [],
+    "uniques": [
+      "Can carry [10] extra [Slug] units",
+      "Unavailable <for units with [Ablative Hull Lining]>",
+      "Unavailable <for units with [Long-Baseline Sensors]>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Compact magnetic rails pack extra slugs into spare hull bays without shifting the center of mass."
+      }
+    ],
+    "unitTypes": [
+      "Artillery"
+    ]
+  },
+  {
+    "name": "Expanded Slug Locker",
+    "prerequisites": [
+      "Mag-Feed Magazine Rack"
+    ],
+    "uniques": [
+      "Can carry [15] extra [Slug] units",
+      "Unavailable <for units with [Quick-Swap Breeches]>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Strips out non-essential deck space to store an absurd reserve of slugs for prolonged bombardments."
+      }
+    ],
+    "unitTypes": [
+      "Artillery"
+    ]
+  },
+  {
+    "name": "Quick-Swap Breeches",
+    "prerequisites": [
+      "Mag-Feed Magazine Rack"
+    ],
+    "uniques": [
+      "[+1] Movement",
+      "Unavailable <for units with [Expanded Slug Locker]>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Streamlined loading gear lets the vessel reposition more nimbly between firing stances."
+      }
+    ],
+    "unitTypes": [
+      "Artillery"
+    ]
+  },
+  {
+    "name": "Ablative Hull Lining",
+    "prerequisites": [],
+    "uniques": [
+      "[+15]% Strength <when defending>",
+      "Unavailable <for units with [Mag-Feed Magazine Rack]>",
+      "Unavailable <for units with [Long-Baseline Sensors]>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Sacrificial outer armor helps the artillery hull weather counter-battery fire while lining up shots."
+      }
+    ],
+    "unitTypes": [
+      "Artillery"
+    ]
+  },
+  {
+    "name": "Field Repair Drones",
+    "prerequisites": [
+      "Ablative Hull Lining"
+    ],
+    "uniques": [
+      "May heal outside of friendly territory",
+      "Unavailable <for units with [Drills Under Fire]>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Autonomous repair bots patch hull breaches on the fly so the ship doesn't have to retreat to friendly space."
+      }
+    ],
+    "unitTypes": [
+      "Artillery"
+    ]
+  },
+  {
+    "name": "Drills Under Fire",
+    "prerequisites": [
+      "Ablative Hull Lining"
+    ],
+    "uniques": [
+      "No damage penalty for wounded units",
+      "Unavailable <for units with [Field Repair Drones]>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Battle-hardened crews keep drills sharp even after taking hits, accelerating promotion cycles."
+      }
+    ],
+    "unitTypes": [
+      "Artillery"
+    ]
+  },
+  {
+    "name": "Long-Baseline Sensors",
+    "prerequisites": [],
+    "uniques": [
+      "[+1] Sight",
+      "Unavailable <for units with [Mag-Feed Magazine Rack]>",
+      "Unavailable <for units with [Ablative Hull Lining]>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Wide-spaced optical and telemetry arrays spot targets earlier across open space."
+      }
+    ],
+    "unitTypes": [
+      "Artillery"
+    ]
+  },
+  {
+    "name": "Eddy Thruster Routing",
+    "prerequisites": [
+      "Long-Baseline Sensors"
+    ],
+    "uniques": [
+      "[+1] Movement",
+      "[+1] Sight",
+      "Unavailable <for units with [Deep-Space Holdfast]>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Pairs wider sensor sweeps with thruster tuning to relocate and re-acquire targets faster."
+      }
+    ],
+    "unitTypes": [
+      "Artillery"
+    ]
+  },
+  {
+    "name": "Deep-Space Holdfast",
+    "prerequisites": [
+      "Long-Baseline Sensors"
+    ],
+    "uniques": [
+      "[+20]% Strength <when defending>",
+      "[+10]% Strength <when fighting in [Zero Flux Space] tiles>",
+      "Unavailable <for units with [Eddy Thruster Routing]>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Locks stabilization thrusters and defensive plating steady in open space to ride out incoming fire."
+      }
+    ],
+    "unitTypes": [
+      "Artillery"
+    ]
+  }
 ]
