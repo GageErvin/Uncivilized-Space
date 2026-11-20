@@ -22,11 +22,9 @@ Launch missiles, Conquer space. Enable 'permanent audio-visual mod.'
 
 ## TODO
 
-- Slug img
-
 - multi-tile constructables (images)
-  - Added Units/Orbital Fortress: -2 mv when not adjacent to city, "[+20]% Strength bonus for [Friendly] units within [1] tiles", must set up to ranged attack, "All adjacent units heal [3] HP when healing",
-  - Added Units/Dyson Ring (ea tier provides production + one time sci, alternative science victory condition?, first complete bonus, settle? , confers vic?)
+  - Added Units/Orbital Fortress: -2 mv when not adjacent to city, "[+20]% Strength bonus for [Friendly] units within [1] tiles", must set up to ranged attack, "All adjacent units heal [3] HP when healing",  odded woumb 1 and woumb 2
+  - Added Improvements/Dyson Ring (ea tier provides production + one time sci, alternative science victory condition?, first complete bonus, settle? , confers vic?), added Dyson Ring Part 1,2,3
 
 - Free sets of mutually exclusive promotions for high tier units: loadout / modification / tuning (also images)
   - spread sublight debris (instant improvement when not having cooldown promotion <not on improvement>, Remove [improvementFilter] improvements from this tile <>)

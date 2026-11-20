@@ -1008,7 +1008,7 @@
         ]
     },
     {
-        "name": "Spore Slug",
+        "name": "Swarm Slug",
         "unitType": "Slug",
         "strength": 3,
         "movement": 3,
