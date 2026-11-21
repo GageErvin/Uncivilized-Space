@@ -207,7 +207,7 @@
 		]
 	},
 	{
-		"name": "Deep Space Radar Array Woumb",
+		"name": "Deep Space Radar Array Womb",
 		"turnsToBuild": 8,
 		"RGB": [
 			71,
@@ -224,7 +224,7 @@
 		]
 	},
 	{
-		"name": "Orbital Missile Creche Woumb",
+		"name": "Orbital Missile Creche Womb",
 		"turnsToBuild": 8,
 		"techRequired": "Expert Systems",
 		"RGB": [
@@ -242,7 +242,7 @@
 		]
 	},
 	{
-		"name": "Orbital Fortress Woumb 1",
+		"name": "Orbital Fortress Womb 1",
 		"turnsToBuild": 6,
 		"techRequired": "Orbital Swarming",
 		"terrainsCanBeBuiltOn": [
@@ -252,11 +252,11 @@
 		]
 	},
 	{
-		"name": "Orbital Fortress Woumb 2",
+		"name": "Orbital Fortress Womb 2",
 		"turnsToBuild": 6,
 		"uniques": [
 			"Free [Orbital Fortress] appears",
-			"Must be next to [Orbital Fortress Woumb 1]"
+			"Must be next to [Orbital Fortress Womb 1]"
 		],
 		"terrainsCanBeBuiltOn": [
 			"Zero Flux Space",
