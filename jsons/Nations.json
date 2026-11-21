@@ -116,14 +116,14 @@
 			"[+14]% growth [in all cities]"
 		],
 		"cities": [
-			"First Home",
-			"Bio-Cluster Prime",
-			"Osmosis Hub",
-			"Mycelium Core",
-			"Genome Spire",
-			"Protoplast",
-			"Mitosis Node",
-			"Cellular Haven"
+			"Lush",
+			"Big City",
+			"Sea Wish",
+			"Sediment",
+			"Ark Home",
+			"Cold Place",
+			"Fair Weather",
+			"My Haven"
 		],
 		"declaringWar": "We simply need more space for our children. And their children. And theirs.",
 		"attacked": "You cut one of us down, and three more take their place!",
@@ -214,8 +214,8 @@
 		],
 		"innerColor": [
 			240,
-			60,
-			60
+			50,
+			240,
 		],
 		"Comment": "Computer-Only Civilization",
 		"preferredVictoryType": "Domination",
@@ -258,7 +258,7 @@
 			0
 		],
 		"innerColor": [
-			240,
+			90,
 			90,
 			90
 		],
