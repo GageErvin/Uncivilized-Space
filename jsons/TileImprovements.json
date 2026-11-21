@@ -255,8 +255,7 @@
       "Unpillagable",
       "Adjacent enemy units ending their turn take [30] damage",
       "Gives a defensive bonus of [+15]%",
-      "Costs [3] [Gold] per turn when in your territory",
-      "Can see invisible [Stealth Drone] units"
+      "Costs [3] [Gold] per turn when in your territory"
     ]
   },
   {
@@ -273,8 +272,7 @@
       "Unpillagable",
       "Adjacent enemy units ending their turn take [45] damage",
       "Gives a defensive bonus of [+30]%",
-      "Costs [6] [Gold] per turn when in your territory",
-      "Can see invisible [Stealth Drone] units"
+      "Costs [6] [Gold] per turn when in your territory"
     ]
   },
   {
@@ -291,8 +289,7 @@
       "[21] Sight",
       "Unpillagable",
       "Adjacent enemy units ending their turn take [60] damage",
-      "Gives a defensive bonus of [+45]%",
-      "Can see invisible [Stealth Drone] units"
+      "Gives a defensive bonus of [+45]%"
     ]
   },
   {
