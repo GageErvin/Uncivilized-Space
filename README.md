@@ -26,6 +26,8 @@ Launch missiles, Conquer space. Enable 'permanent audio-visual mod.'
 - wombs for orbital fortress 1/2
 - Rogue computer factions should be more aggressive
 - spread sublight debris (instant improvement when not having cooldown promotion <not on improvement>, Remove [improvementFilter] improvements from this tile <>)
+- Increase ring border by 14%
+- For Creche and fortress mitigate movement
 
 ## Test
 

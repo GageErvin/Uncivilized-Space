@@ -13,10 +13,11 @@
     {
         "name": "Orbital Missile Creche",
         "unitType": "Drone",
-        "movement": 0,
+        "movement": 1,
+        "strength": 3,
         "uniques": [
             "Can carry [4] [Munition] units",
-            "Unbuildable",
+            "Unbuildable"
             //"Cannot move"
         ]
     },
@@ -24,10 +25,10 @@
         "name": "Orbital Fortress",
         "unitType": "Military",
         "movement": 1,
-        "strength": 10,
+        "strength": 7,
         "uniques": [
             "[+125]% Strength bonus for [All] units within [1] tiles <when defending>",
-            "Can carry [8] [Slug] units",
+            "Can carry [4] [Slug] units",
             "Unbuildable"
             //"Cannot move <in tiles adjacent to [City center] tiles>"
         ]
@@ -859,7 +860,7 @@
         "strength": 7,
         "rangedStrength": 17,
         "range": 4,
-        "movement": 2,
+        "movement": 4,
         "cost": 400,
         "requiredTech": "C-Fractional Thrust",
         "upgradesTo": "Broadside Hull",
@@ -901,7 +902,7 @@
             "Ranged attacks may be performed over obstacles <hidden from users>",
             "No damage penalty for wounded units",
             "Can carry [1] [Stored Breach Pod] units",
-            "Can carry [18] [Slug] units"
+            "Can carry [10] [Slug] units"
         ]
     },
     {
@@ -996,7 +997,7 @@
             "[+3] Sight",
             "[40] HP when healing",
             "Can carry [2] [Stored Breach Pod] units",
-            "Can carry [10] [Slug] units"
+            "Can carry [6] [Slug] units"
         ],
         "civilopediaText": [
             {
