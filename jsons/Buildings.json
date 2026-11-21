@@ -14,6 +14,12 @@
 		]
 	},
 	{
+		"name": "Courthouse",
+		"cost": 100,
+		"uniques": ["Removes extra unhappiness from annexed cities",
+			"Can only be built <in [Annexed] cities>"]
+	},
+	{
 		"name": "Bio-Synthesizer Lab",
 		"science": 1,
 		"food": 1,
