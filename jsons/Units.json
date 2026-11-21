@@ -24,6 +24,7 @@
         "name": "Orbital Fortress",
         "unitType": "Military",
         "movement": 1,
+        "strength": 10,
         "uniques": [
             "[+125]% Strength bonus for [All] units within [1] tiles <when defending>",
             "Can carry [8] [Slug] units",
