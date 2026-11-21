@@ -13,11 +13,11 @@
     {
         "name": "Orbital Missile Creche",
         "unitType": "Drone",
-        "movement": 0,
+        "movement": 1,
         "uniques": [
             "Can carry [4] [Munition] units",
             "Unbuildable",
-            //"Cannot move"
+            "Cannot move"
         ]
     },
     {
