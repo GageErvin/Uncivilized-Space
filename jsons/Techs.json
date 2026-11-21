@@ -45,6 +45,7 @@
 					"Kaizen - 1"
 				],
 				"row": 1,
+				"cost": 50,
 				"uniques": ["[+3]% [Production] [in all cities]"]
 			},
 			{
@@ -58,6 +59,7 @@
 			{
 				"name": "Refactoring - 2",
 				"row": 3,
+				"cost": 50,
 				"prerequisites": [
 					"Refactoring - 1"
 				],
@@ -111,6 +113,7 @@
 					"Kaizen - 2"
 				],
 				"row": 1,
+				"cost": 100,
 				"uniques": ["[+2]% [Production] [in all cities]"]
 			},
 			{
@@ -125,6 +128,7 @@
 			{
 				"name": "Refactoring - 3",
 				"row": 3,
+				"cost": 100,
 				"prerequisites": [
 					"Refactoring - 2"
 				],
@@ -287,6 +291,7 @@
 			},
 			{
 				"name": "Macro Swarming",
+				"cost": 100,
 				"prerequisites": [
 					"High Efficiency Fusion"
 				],
@@ -324,7 +329,7 @@
 	{
 		"columnNumber": 7,
 		"era": "Diaspora",
-		"techCost": 1085,
+		"techCost": 1285,
 		"buildingCost": 160,
 		"wonderCost": 400,
 		"techs": [
