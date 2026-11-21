@@ -1016,7 +1016,8 @@
             "[+4] Range <when carried by [Broadside Hull] units>",
             "[+500]% Strength <when carried by [Broadside Hull] units>",
             "[+3] Range <when carried by [Cannonade Vessel] units>",
-            "[+480]% Strength <when carried by [Cannonade Vessel] units>"
+            "[+480]% Strength <when carried by [Cannonade Vessel] units>",
+            "[+300]% Strength <when carried by [Orbital Fortress] units>"
         ]
     },
     {
@@ -1034,7 +1035,8 @@
             "[+4] Range <when carried by [Broadside Hull] units>",
             "[+500]% Strength <when carried by [Broadside Hull] units>",
             "[+3] Range <when carried by [Cannonade Vessel] units>",
-            "[+480]% Strength <when carried by [Cannonade Vessel] units>"
+            "[+480]% Strength <when carried by [Cannonade Vessel] units>",
+            "[+300]% Strength <when carried by [Orbital Fortress] units>"
         ]
     },
     {
@@ -1051,7 +1053,8 @@
             "[+4] Range <when carried by [Broadside Hull] units>",
             "[+500]% Strength <when carried by [Broadside Hull] units>",
             "[+3] Range <when carried by [Cannonade Vessel] units>",
-            "[+480]% Strength <when carried by [Cannonade Vessel] units>"
+            "[+480]% Strength <when carried by [Cannonade Vessel] units>",
+            "[+300]% Strength <when carried by [Orbital Fortress] units>"
         ]
     },
     {
