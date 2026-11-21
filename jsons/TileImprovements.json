@@ -255,7 +255,7 @@
 		"name": "Orbital Fortress Woumb 2",
 		"turnsToBuild": 6,
 		"uniques": [
-			"Free [Orbital Fortress] appears <after which this unit is consumed>",
+			"Free [Orbital Fortress] appears",
 			"Must be next to [Orbital Fortress Woumb 1]"
 		],
 		"terrainsCanBeBuiltOn": [
