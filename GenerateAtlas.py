@@ -5,6 +5,7 @@
 # 3 python3 GenerateAtlas.py
 
 import io
+import json
 import os
 import re
 import xml.etree.ElementTree as ET
@@ -12,10 +13,133 @@ import zipfile
 from PIL import Image
 
 
+def get_representative_rgb(img: Image.Image) -> list[int]:
+  """Computes the alpha-weighted average [R, G, B] of non-transparent pixels."""
+  rgba = img.convert('RGBA')
+  r_sum = g_sum = b_sum = alpha_sum = 0
+
+  for r, g, b, a in rgba.getdata():
+    # Ignore fully or mostly transparent pixels (anti-aliased edges/background)
+    if a > 16:
+      r_sum += r * a
+      g_sum += g * a
+      b_sum += b * a
+      alpha_sum += a
+
+  if alpha_sum == 0:
+    return [128, 128, 128]
+
+  return [
+      round(r_sum / alpha_sum),
+      round(g_sum / alpha_sum),
+      round(b_sum / alpha_sum),
+  ]
+
+
+def normalize_key(name: str) -> str:
+  """Normalizes asset/JSON names so 'Trading-Post' matches 'Trading Post'."""
+  # Strip file extensions if any, lowercase, and unify separators
+  base = os.path.splitext(os.path.basename(name))[0]
+  return re.sub(r'[-_\s]+', ' ', base).strip().lower()
+
+
+def load_relaxed_json(filepath: str):
+  """Loads standard JSON as well as Unciv JSON containing //, /* */ comments or trailing commas."""
+  with open(filepath, 'r', encoding='utf-8') as f:
+    text = f.read()
+
+  # Remove /* ... */ and // ... comments while preserving strings
+  pattern = re.compile(
+      r'("(?:\\.|[^"\\])*")|(/\*[\s\S]*?\*/|//[^\r\n]*)',
+      re.MULTILINE,
+  )
+  cleaned = pattern.sub(
+      lambda m: m.group(1) if m.group(1) is not None else '', text
+  )
+  # Remove trailing commas before closing ] or }
+  cleaned = re.sub(r',\s*([\]}])', r'\1', cleaned)
+  return json.loads(cleaned)
+
+
+def update_json_rgb_values(
+    jsons_dir: str,
+    terrain_colors: dict[str, list[int]],
+    improvement_colors: dict[str, list[int]],
+):
+  """Scans ./jsons for terrain and tile improvement definitions and updates their RGB field."""
+  if not os.path.isdir(jsons_dir):
+    print(f"Note: Directory '{jsons_dir}' not found. Skipping JSON RGB updates.")
+    return
+
+  if not terrain_colors and not improvement_colors:
+    print('No terrain or improvement colors extracted to update in JSONs.')
+    return
+
+  print(f"Scanning '{jsons_dir}' to update Terrain and Tile Improvement RGB values...")
+
+  for root_dir, _, files in os.walk(jsons_dir):
+    for filename in files:
+      if not filename.lower().endswith('.json'):
+        continue
+
+      filepath = os.path.join(root_dir, filename)
+      lower_name = filename.lower()
+
+      # Determine which color dictionary applies based on filename or structure
+      is_terrain_file = 'terrain' in lower_name
+      is_improvement_file = 'improvement' in lower_name
+
+      try:
+        data = load_relaxed_json(filepath)
+      except Exception as e:
+        print(f"  Warning: Could not parse '{filepath}': {e}")
+        continue
+
+      # Unciv terrain/improvement JSONs are top-level lists of dicts
+      if not isinstance(data, list):
+        continue
+
+      modified = False
+      updated_names = []
+
+      for entry in data:
+        if not isinstance(entry, dict) or 'name' not in entry:
+          continue
+
+        norm_entry_name = normalize_key(entry['name'])
+        matched_rgb = None
+
+        # Check specific file category first, otherwise check both
+        if is_terrain_file and norm_entry_name in terrain_colors:
+          matched_rgb = terrain_colors[norm_entry_name]
+        elif is_improvement_file and norm_entry_name in improvement_colors:
+          matched_rgb = improvement_colors[norm_entry_name]
+        elif not is_terrain_file and not is_improvement_file:
+          if norm_entry_name in terrain_colors:
+            matched_rgb = terrain_colors[norm_entry_name]
+          elif norm_entry_name in improvement_colors:
+            matched_rgb = improvement_colors[norm_entry_name]
+
+        if matched_rgb is not None:
+          if entry.get('RGB') != matched_rgb:
+            entry['RGB'] = matched_rgb
+            modified = True
+            updated_names.append(f"{entry['name']} -> {matched_rgb}")
+
+      if modified:
+        with open(filepath, 'w', encoding='utf-8') as f:
+          json.dump(data, f, indent='  ', ensure_ascii=False)
+          f.write('\n')
+        print(f'  Updated {filepath}:')
+        for item_log in updated_names:
+          print(f'    - {item_log}')
+
+
 def pack_ora_to_atlas(
     ora_path='AllAssets.ora',
     output_image='game.png',
     output_atlas='game.atlas',
+    jsons_dir='./jsons',
 ):
   if not os.path.exists(ora_path):
     print(f"Error: '{ora_path}' not found in the current directory.")
@@ -24,6 +148,8 @@ def pack_ora_to_atlas(
 
   print(f"Reading layers from '{ora_path}'...")
   layers_meta = []
+  terrain_colors: dict[str, list[int]] = {}
+  improvement_colors: dict[str, list[int]] = {}
 
   # OpenRaster (.ora) files are ZIP archives containing stack.xml and layer images
   with zipfile.ZipFile(ora_path, 'r') as z:
@@ -81,8 +207,13 @@ def pack_ora_to_atlas(
             atlas_names = [clean_name]
             save_standalone = True
 
-            asset_name = re.split(r'(?:^|/)[Tt]errains/', norm_layer, maxsplit=1)[-1]
+            asset_name = re.split(
+                r'(?:^|/)[Tt]errains/', norm_layer, maxsplit=1
+            )[-1]
             fallback_icon = f'TerrainIcons/{asset_name}'
+            terrain_colors[normalize_key(asset_name)] = get_representative_rgb(
+                img
+            )
 
           # 2. Process Improvements -> Map to Tiles/ and prepare ImprovementIcons/ fallback
           elif re.search(r'(?:^|/)[Ii]mprovements/', norm_layer):
@@ -91,8 +222,13 @@ def pack_ora_to_atlas(
             atlas_names = [clean_name]
             save_standalone = True
 
-            asset_name = re.split(r'(?:^|/)[Ii]mprovements/', norm_layer, maxsplit=1)[-1]
+            asset_name = re.split(
+                r'(?:^|/)[Ii]mprovements/', norm_layer, maxsplit=1
+            )[-1]
             fallback_icon = f'ImprovementIcons/{asset_name}'
+            improvement_colors[normalize_key(asset_name)] = (
+                get_representative_rgb(img)
+            )
 
           # 3. Process Resources -> Map to Tiles/ (if applicable) and prepare ResourceIcons/ fallback
           elif re.search(r'(?:^|/)(?:[Tt]ile)?[Rr]esources/', norm_layer):
@@ -112,11 +248,17 @@ def pack_ora_to_atlas(
             atlas_names = [name]
             save_standalone = True
 
-            asset_name = re.split(r'(?:^|/)[Uu]nits/', norm_layer, maxsplit=1)[-1]
+            asset_name = re.split(r'(?:^|/)[Uu]nits/', norm_layer, maxsplit=1)[
+                -1
+            ]
             fallback_icon = f'UnitIcons/{asset_name}'
 
           # 5. Process other standalone Images/ or preview
-          elif name == 'Images' or name.startswith('Images/') or name == 'preview':
+          elif (
+              name == 'Images'
+              or name.startswith('Images/')
+              or name == 'preview'
+          ):
             standalone_name = name
             atlas_names = [name]
             save_standalone = True
@@ -238,6 +380,10 @@ def pack_ora_to_atlas(
     f.write('\n'.join(atlas_content))
 
   print(f'Saved atlas descriptor to {output_atlas}')
+
+  # Step 6: Update RGB values in ./jsons for Terrains and Tile Improvements
+  update_json_rgb_values(jsons_dir, terrain_colors, improvement_colors)
+
   print('Done!')
 
 

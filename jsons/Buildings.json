@@ -9,8 +9,15 @@
 		"cost": 0,
 		"isNationalWonder": true,
 		"uniques": [
-			"Indicates the capital city"
+			"Indicates the capital city",
+            "Can carry [3] extra [Slug] units"
 		]
+	},
+	{
+		"name": "Courthouse",
+		"cost": 100,
+		"uniques": ["Removes extra unhappiness from annexed cities",
+			"Can only be built <in [Annexed] cities>"]
 	},
 	{
 		"name": "Bio-Synthesizer Lab",
@@ -57,14 +64,14 @@
 			}
 		]
 	},
-	{
+	/*{
 		"name": "Weapons Cache",
 		"cost": 100,
 		"requiredTech": "Engagement Boost",
 		"uniques": [
 			"Can carry [3] extra [Munition] units"
 		]
-	},
+	},*/
 	{
 		"name": "Expert Research System",
 		"science": 3,
@@ -146,7 +153,7 @@
 				"text": "A specialized metropolitan spire that harnesses raw ambient radiation from hazardous flux zones to power heavy industrial synthesis."
 			}
 		]
-	},
+	},/*
 	{
 		"name": "Munitions Rerun Array",
 		"production": 3,
@@ -162,7 +169,7 @@
 				"text": "Automated deployment gantry networks that streamline missile unpacking, propellant servicing, and carrier reloading protocols."
 			}
 		]
-	},
+	},*/
 	{
 		"name": "Sub-Quantum Logistics Hub",
 		"gold": 4,

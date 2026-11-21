@@ -18,6 +18,11 @@
 				"uniques": []
 			},
 			{
+				"name": "Refactoring - 1",
+				"row": 3,
+				"uniques": ["[+3]% [Science] [in all cities]"]
+			},
+			{
 				"name": "Generational Ships",
 				"row": 5,
 				"quote": "Sure, the Wi-Fi drops every three generations, and the air smells faintly of recycled socks, but at least we don't have to pay property taxes anymore.",
@@ -40,6 +45,7 @@
 					"Kaizen - 1"
 				],
 				"row": 1,
+				"cost": 50,
 				"uniques": ["[+3]% [Production] [in all cities]"]
 			},
 			{
@@ -49,6 +55,15 @@
 				],
 				"row": 2,
 				"quote": "Why negotiate when you can just rewrite their neural pathways directly?"
+			},
+			{
+				"name": "Refactoring - 2",
+				"row": 3,
+				"cost": 50,
+				"prerequisites": [
+					"Refactoring - 1"
+				],
+				"uniques": ["[+3]% [Science] [in all cities]"]
 			},
 			{
 				"name": "Nanotechnology",
@@ -98,6 +113,7 @@
 					"Kaizen - 2"
 				],
 				"row": 1,
+				"cost": 100,
 				"uniques": ["[+2]% [Production] [in all cities]"]
 			},
 			{
@@ -108,6 +124,15 @@
 				"row": 2,
 				"quote": "Why individuality when you can share a headache with ten trillion of your closest friends?",
 				"uniques": []
+			},
+			{
+				"name": "Refactoring - 3",
+				"row": 3,
+				"cost": 100,
+				"prerequisites": [
+					"Refactoring - 2"
+				],
+				"uniques": ["[+3]% [Science] [in all cities]"]
 			},
 			{
 				"name": "Orbital Swarming",
@@ -266,6 +291,7 @@
 			},
 			{
 				"name": "Macro Swarming",
+				"cost": 100,
 				"prerequisites": [
 					"High Efficiency Fusion"
 				],
@@ -303,7 +329,7 @@
 	{
 		"columnNumber": 7,
 		"era": "Diaspora",
-		"techCost": 1085,
+		"techCost": 1285,
 		"buildingCost": 160,
 		"wonderCost": 400,
 		"techs": [
