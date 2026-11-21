@@ -223,9 +223,10 @@
     "name": "Dyson Ring Part 2",
     "turnsToBuild": 10,
     "techRequired": "Refactoring - 2",
-    //"terrainsCanBeBuiltOn": [
+    "terrainsCanBeBuiltOn": [
+      "Land", "Water"
     //  "M4IV Star","M5IV Star","M4VI Star","M5VI Star","M3V Star","M4V Star","M5V Star","M6V Star","M7V Star","G2VII Star","K7V Star"
-    //],
+    ],
     //"replaces": "Dyson Ring Part 1",
     "uniques": [
       "Can only be built on [Dyson Ring Part 1] tiles",
