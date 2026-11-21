@@ -204,6 +204,7 @@
   {
     "name": "Orbital Fortress Woumb 1",
     "turnsToBuild": 6,
+    "techRequired": "Orbital Swarming",
     "terrainsCanBeBuiltOn": [
       "Zero Flux Space",
       "Low Flux Space",
