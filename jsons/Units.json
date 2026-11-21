@@ -28,7 +28,7 @@
             "[+125]% Strength bonus for [All] units within [1] tiles <when defending>",
             "Can carry [8] [Slug] units",
             "Unbuildable",
-            "Cannot move <in tiles not adjacent to [City center] tiles>"
+            "Cannot move <in tiles adjacent to [City center] tiles>"
         ]
     },
     {
