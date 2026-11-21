@@ -72,6 +72,20 @@
         ]
     },
     {
+        "name": "Station",
+        "movementType": "Land",
+        "uniques": [
+            "Unbuildable <for [Spore-Borne Parasite] Civilizations> <hidden from users>",
+            "May travel on Water tiles without embarking <hidden from users>",
+            "Ignores terrain cost <hidden from users>",
+            "Eliminates combat penalty for attacking over a river <hidden from users>",
+            "Eliminates combat penalty for attacking across a coast <hidden from users>",
+            "Gain [5] [Culture]",
+            "Unbuildable",
+            "[This Unit] takes [30] damage <upon turn start> <in tiles not adjacent to [City center] tiles>"
+        ]
+    },
+    {
         "name": "Drone",
         "movementType": "Land",
         "uniques": [
@@ -82,7 +96,7 @@
             "Eliminates combat penalty for attacking across a coast <hidden from users>",
             "Gain [1] [Culture]"
         ]
-    }, 
+    },
     {
         "name": "Stealth Drone",
         "movementType": "Land",
@@ -164,7 +178,6 @@
         "uniques": [
             "Unbuildable <for [Barbarians] Civilizations> <hidden from users>",
             "Unbuildable <for [Spore-Borne Parasite] Civilizations> <hidden from users>",
-            //"Aircraft",
             "Cannot attack"
         ]
     },
@@ -173,7 +186,6 @@
         "movementType": "Air",
         "uniques": [
             "Unbuildable <for [Spore-Borne Parasite] Civilizations> <hidden from users>",
-            //"Aircraft",
             "Cannot attack"
         ],
         "civilopediaText": [
@@ -187,7 +199,6 @@
         "movementType": "Air",
         "uniques": [
             "Unbuildable <for [Spore-Borne Parasite] Civilizations> <hidden from users>",
-            "Aircraft",
             "May travel on Water tiles without embarking <hidden from users>",
             "Ignores terrain cost <hidden from users>",
             "Eliminates combat penalty for attacking over a river <hidden from users>",
@@ -215,8 +226,7 @@
             "Eliminates combat penalty for attacking across a coast <hidden from users>",
             "Cannot attack",
             "Gain [5] [Culture]",
-            //"[This Unit] gains [7] XP <upon losing a [Missile] unit>",
-            "[This Unit] gains [60] XP"// <upon turn start> <once>"
+            "[This Unit] gains [60] XP"
         ],
         "civilopediaText": [
             {

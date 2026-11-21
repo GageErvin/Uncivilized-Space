@@ -1,1118 +1,1112 @@
 [
-    {
-        "name": "Deep Space Radar Array",
-        "unitType": "Drone",
-        "movement": 0,
-        "uniques": [
-            "[10] Sight",
-            "Unbuildable",
-            "Cannot move",
-            "Can see invisible [Stealth Drone] units"
-        ]
-    },
-    {
-        "name": "Orbital Missile Creche",
-        "unitType": "Drone",
-        "movement": 1,
-        "strength": 3,
-        "uniques": [
-            "Can carry [4] [Munition] units",
-            "Unbuildable"
-            //"Cannot move"
-        ]
-    },
-    {
-        "name": "Orbital Fortress",
-        "unitType": "Military",
-        "movement": 1,
-        "strength": 7,
-        "uniques": [
-            "[+125]% Strength bonus for [All] units within [1] tiles <when defending>",
-            "Can carry [4] [Slug] units",
-            "Unbuildable"
-            //"Cannot move <in tiles adjacent to [City center] tiles>"
-        ]
-    },
-    {
-        "name": "Generational Settler",
-        "unitType": "Settler",
-        "cost": 200,
-        "movement": 2,
-        "uniques": [
-            "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-            "Requires at least [2] population",
-            "Excess Food converted to Production when under construction",
-            "Founds a new city <by consuming this unit> <in [Ringed Terrestrial Planet] tiles>",
-            "Founds a new city <by consuming this unit> <in [All] tiles> <for [AI player] Civilizations>"
-        ],
-        "obsoleteWith": "Cryogenics"
-    },
-    {
-        "name": "Cryosleep Settler",
-        "unitType": "Settler",
-        "cost": 140,
-        "movement": 3,
-        "requiredTech": "Cryogenics",
-        "uniques": [
-            "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
-            "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
-            "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-            "Founds a new city <by consuming this unit> <in [Ringed Terrestrial Planet] tiles>",
-            "Founds a new city <by consuming this unit> <in [All] tiles> <for [AI player] Civilizations>"
-        ],
-        "obsoleteWith": "Artificial Super Intelligence"
-    },
-    {
-        "name": "Incubation Settler",
-        "unitType": "Settler",
-        "cost": 100,
-        "movement": 5,
-        "requiredTech": "Artificial Super Intelligence",
-        "uniques": [
-            "[-2] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
-            "[-2] Movement <in [High Flux Space] tiles> <hidden from users>",
-            "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
-            "[+2] Movement <in [Magnetic Acceleration Relay] tiles>",
-            "Founds a new city <by consuming this unit> <in [Ringed Terrestrial Planet] tiles>",
-            "Founds a new city <by consuming this unit> <in [All] tiles> <for [AI player] Civilizations>"
-        ]
-    },
-    {
-        "name": "Astraforming Swarm",
-        "unitType": "Civilian",
-        "cost": 85,
-        "movement": 4,
-        "uniques": [
-            "Can transform to [Screenforming Swarm] <after discovering [Engagement Boost]>",
-            "Can transform to [Repairforming Swarm] <after discovering [Zero-G Fabrication]>",
-            "Can transform to [Signalforming Swarm] <after discovering [Artificial Super Intelligence]>",
-            "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-            "[-2] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
-            "[-2] Movement <in [High Flux Space] tiles> <hidden from users>",
-            "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
-            "Can build [Land] improvements on tiles",
-            "Can build [Water] improvements on tiles <hidden from users>"
-        ]
-    },
-    {
-        "name": "Screenforming Swarm",
-        "unitType": "Civilian",
-        "movement": 0,
-        "uniques": [
-            "[+85]% Strength bonus for [All] units within [0] tiles <when defending>",
-            "Unbuildable",
-            "Can transform to [Repairforming Swarm] <after discovering [Zero-G Fabrication]>",
-            "Can transform to [Signalforming Swarm] <after discovering [Artificial Super Intelligence]>",
-            "Can transform to [Astraforming Swarm]",
-            "Cannot move"
-        ]
-    },
-    {
-        "name": "Repairforming Swarm",
-        "unitType": "Civilian",
-        "movement": 0,
-        "uniques": [
-            "All adjacent units heal [30] HP when healing",
-            "Unbuildable",
-            "Can transform to [Astraforming Swarm]",
-            "Can transform to [Screenforming Swarm] <after discovering [Engagement Boost]>",
-            "Can transform to [Signalforming Swarm] <after discovering [Artificial Super Intelligence]>",
-            "Cannot move"
-        ]
-    },
-    {
-        "name": "Signalforming Swarm",
-        "unitType": "Civilian",
-        "movement": 0,
-        "uniques": [
-            "[+15]% Strength bonus for [All] units within [0] tiles <when attacking>",
-            "Can see invisible [Stealth Drone] units",
-            "[+3] Sight",
-            "Unbuildable",
-            "Can transform to [Astraforming Swarm]",
-            "Can transform to [Screenforming Swarm] <after discovering [Engagement Boost]>",
-            "Can transform to [Repairforming Swarm] <after discovering [Zero-G Fabrication]>",
-            "Cannot move"
-        ]
-    },
-    {
-        "name": "Spore",
-        "unitType": "Spore",
-        "cost": 5,
-        "movement": 2,
-        "strength": 2,
-        "uniqueTo":"Spore-Borne Parasite",
-        "uniques": [
-            "[+200]% Strength <when attacking>",
-            "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
-            "[-1] Movement <in [High Flux Space] tiles> <hidden from users>"
-        ]
-    },
-    {
-        "name": "Spore II",
-        "unitType": "Spore",
-        "cost": 20,
-        "movement": 3,
-        "strength": 4,
-        "requiredTech": "Neural Parasitology",
-        "uniqueTo":"Spore-Borne Parasite",
-        "uniques": [
-            "[+200]% Strength <when attacking>",
-            "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>"
-        ]
-    },
-    {
-        "name": "Spore III",
-        "unitType": "Spore",
-        "cost": 20,
-        "movement": 4,
-        "strength": 4,
-        "uniques": [
-            "[+400]% Strength <when attacking>"
-        ]
-        "requiredTech": "Hive-Mind Engineering",
-        "uniqueTo":"Spore-Borne Parasite",
-    },
-    {
-        "name": "Ethereal Spore Mother",
-        "unitType": "Spore",
-        "cost": 60,
-        "movement": 4,
-        "strength": 2,
-        "uniqueTo":"Spore-Borne Parasite",
-        "replaces": "Survey Vessel",
-        "uniques": [
-            "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
-            "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
-            "Can build [Land] improvements on tiles",
-            "Can build [Water] improvements on tiles <hidden from users>"
-        ]
-    },
-    {
-        "name": "Astraforming Swarm-Bio",
-        "unitType": "Civilian",
-        "cost": 35,
-        "movement": 2,
-        "requiredTech": "Xeno-Genetics",
-        "uniques": [
-            "Can transform to [Combatforming Swarm-Bio] <after adopting [Bio-Ascendancy]>",
-            "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-            "Can build [Land] improvements on tiles",
-            "Can build [Water] improvements on tiles <hidden from users>"
-        ]
-    },
-    {
-        "name": "Combatforming Swarm-Bio",
-        "unitType": "Civilian",
-        "movement": 3,
-        "strength": 8,
-        "uniques": [
-            "Can transform to [Astraforming Swarm-Bio]",
-            "Unbuildable",
-            "[20] HP when healing",
-            "[+1] Sight",
-            "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-            "Can build [Land] improvements on tiles",
-            "Can build [Water] improvements on tiles <hidden from users>"
-        ]
-    },
-    {
-        "name": "Survey Vessel",
-        "unitType": "Scout",
-        "movement": 3,
-        "strength": 7,
-        "cost": 15,
-        "upgradesTo": "Data Archivist",
-        "obsoleteWith": "Cryogenics",
-        "uniques": [
-            "[-1] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
-            "[-1] Sight <in [High Flux Space] tiles> <hidden from users>",
-            "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
-            "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
-            "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-            "[+1] Sight",
-            "Never appears as a Barbarian unit"
-        ]
-    },
-    {
-        "name": "Data Archivist",
-        "unitType": "Scout",
-        "requiredTech": "Cryogenics",
-        "obsoleteWith": "Quantum Computing",
-        "upgradesTo": "EM Warfare and Command Vessel",
-        "movement": 5,
-        "strength": 10,
-        "cost": 40,
-        "uniques": [
-            "[-1] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
-            "[-1] Sight <in [High Flux Space] tiles> <hidden from users>",
-            "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
-            "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
-            "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-            "[+4] Sight"
-        ]
-    },
-    {
-        "name": "EM Warfare and Command Vessel",
-        "unitType": "Command Ship",
-        "upgradesTo": "Mobile EM Warfare and Command Citadel",
-        "requiredTech": "Quantum Computing",
-        "obsoleteWith": "SL Ping",
-        "movement": 5,
-        "strength": 12,
-        "cost": 65,
-        "uniques": [
-            "[+15]% Strength bonus for [Military] units within [2] tiles",
-            "[+15]% Strength bonus for [Sub] units within [2] tiles",
-            "[+8]% Strength bonus for [Missile] units within [8] tiles",
-            "[-1] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
-            "[-1] Sight <in [High Flux Space] tiles> <hidden from users>",
-            "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
-            "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
-            "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-            "[+5] Sight",
-            "Can see invisible [Stealth Drone] units"
-        ]
-    },
-    {
-        "name": "Mobile EM Warfare and Command Citadel",
-        "unitType": "Command Ship",
-        "requiredTech": "SL Ping",
-        "movement": 6,
-        "strength": 14,
-        "cost": 100,
-        "uniques": [
-            "[+15]% Strength bonus for [Military] units within [2] tiles",
-            "[+15]% Strength bonus for [Sub] units within [2] tiles",
-            "[+12]% Strength bonus for [Missile] units within [10] tiles",
-            "[-1] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
-            "[-1] Sight <in [High Flux Space] tiles> <hidden from users>",
-            "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
-            "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
-            "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-            "[+6] Sight",
-            "Can see invisible [Stealth Drone] units"
-        ]
-    },
-    {
-        "name": "Bio Breach",
-        "unitType": "Bio-Unit",
-        "strength": 6,
-        "movement": 3,
-        "cost": 100,
-        "uniques": [
-            "Self-destructs when attacking",
-            "No damage penalty for wounded units",
-            "[+200]% Strength <when attacking>",
-            "[This Unit] takes [100] damage <upon turn start>",
-            "May capture killed [Military] units",
-            "May capture killed [Bio-Unit] units",
-            "Unbuildable"
-        ]
-    },
-    {
-        "name": "Breach I - Bio",
-        "unitType": "Stored Breach Pod",
-        "movement": 3,
-        "strength": 0,
-        "cost": 50,
-        "requiredTech": "Neural Parasitology",
-        "uniques": [
-            "Can transform to [Bio Breach] <for [0] movement>"
-        ]
-    },
-    {
-        "name": "Mech Breach",
-        "unitType": "Drone",
-        "strength": 5,
-        "movement": 4,
-        "cost": 40,
-        "uniques": [
-            "No damage penalty for wounded units",
-            "Self-destructs when attacking",
-            "[+300]% Strength <when attacking>",
-            "[This Unit] takes [100] damage <upon turn start>",
-            "May capture killed [Military] units",
-            "May capture killed [Civilian] units",
-            "May capture killed [Settler] units",
-            "Unbuildable"
-        ]
-    },
-    {
-        "name": "Breach II - Mech",
-        "unitType": "Stored Breach Pod",
-        "movement": 4,
-        "strength": 0,
-        "cost": 100,
-        "requiredTech": "Expert Systems",
-        "uniques": [
-            "Can transform to [Mech Breach] <for [0] movement>"
-        ]
-    },
-    {
-        "name": "Stealth I",
-        "unitType": "Stealth Drone",
-        "strength": 8,
-        "rangedStrength": 8,
-        "range": 0,
-        "movement": 3,
-        "cost": 80,
-        "upgradesTo": "Stealth II",
-        "obsoleteWith": "Cryogenics",
-        "uniques": [
-            "Invisible to non-adjacent units",
-            "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
-            "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
-            "[+2] Movement <in [Magnetic Acceleration Relay] tiles>"
-        ]
-    },
-    {
-        "name": "Stealth II",
-        "unitType": "Stealth Drone",
-        "strength": 10,
-        "rangedStrength": 10,
-        "range": 0,
-        "movement": 4,
-        "cost": 80,
-        "upgradesTo": "Stealth III",
-        "requiredTech": "Cryogenics",
-        "obsoleteWith": "Photon Computing",
-        "uniques": [
-            "Invisible to non-adjacent units",
-            "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
-            "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
-            "[+2] Movement <in [Magnetic Acceleration Relay] tiles>"
-        ]
-    },
-    {
-        "name": "Stealth III",
-        "unitType": "Stealth Drone",
-        "strength": 12,
-        "rangedStrength": 12,
-        "range": 0,
-        "movement": 5,
-        "cost": 80,
-        "requiredTech": "Photon Computing",
-        "uniques": [
-            "Invisible to non-adjacent units",
-            "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
-            "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
-            "[+2] Movement <in [Magnetic Acceleration Relay] tiles>"
-        ]
-    },
-    {
-        "name": "Laser Drone",
-        "unitType": "Drone",
-        "strength": 4,
-        "rangedStrength": 4,
-        "range": 3,
-        "movement": 3,
-        "cost": 80,
-        "upgradesTo": "Armored Drone",
-        "obsoleteWith": "Expert Systems",
-        "uniques": [
-            "Destroys [in all cities] cities instead of capturing",
-            "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
-            "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
-            "[+2] Movement <in [Magnetic Acceleration Relay] tiles>"
-        ]
-    },
-    {
-        "name": "Armored Drone",
-        "unitType": "Drone",
-        "strength": 4,
-        "rangedStrength": 4,
-        "range": 3,
-        "movement": 2,
-        "cost": 95,
-        "upgradesTo": "Expert Drone",
-        "obsoleteWith": "Expert Systems",
-        "uniques": [
-            "[+50]% Strength <when defending>",
-            "Destroys [in all cities] cities instead of capturing",
-            "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
-            "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
-            "[+2] Movement <in [Magnetic Acceleration Relay] tiles>"
-        ]
-    },
-    {
-        "name": "Expert Drone",
-        "unitType": "Thinking Drone",
-        "strength": 4,
-        "rangedStrength": 5,
-        "range": 4,
-        "movement": 3,
-        "cost": 115,
-        "upgradesTo": "AI Drone",
-        "requiredTech": "Expert Systems",
-        "obsoleteWith": "Artificial Super Intelligence",
-        "uniques": [
-            "[+70]% Strength <when defending>",
-            "Destroys [in all cities] cities instead of capturing",
-            "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
-            "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
-            "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-            "[+1] Sight"
-        ]
-    },
-    {
-        "name": "AI Drone",
-        "unitType": "Thinking Drone",
-        "strength": 4,
-        "rangedStrength": 6,
-        "range": 4,
-        "movement": 4,
-        "cost": 125,
-        "requiredTech":"Artificial Super Intelligence",
-        "uniques": [
-            "[+90]% Strength <when defending>",
-            "Destroys [in all cities] cities instead of capturing",
-            "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
-            "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
-            "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-            "[+1] Sight",
-            "Can carry [2] [Slug] units"
-        ]
-    },
-    {
-        "name": "Laser Corvette",
-        "unitType": "Military",
-        "strength": 6,
-        "rangedStrength": 8,
-        "range": 3,
-        "movement": 3,
-        "cost": 230,
-        "requiredTech": "Micro Particulate Shielding",
-        "upgradesTo": "Laser Frigate",
-        "obsoleteWith": "Athermal Lens",
-        "uniques": [
-            "Destroys [in all cities] cities instead of capturing",
-            "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
-            "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
-            "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-            "[1] additional attacks per turn",
-            "Can carry [2] [Slug] units"
-        ]
-    },
-    {
-        "name": "Laser Frigate",
-        "unitType": "Military",
-        "strength": 8,
-        "rangedStrength": 16,
-        "range": 4,
-        "movement": 3,
-        "cost": 300,
-        "upgradesTo": "EM Destroyer",
-        "obsoleteWith": "High Efficiency Fusion",
-        "requiredTech": "Athermal Lens",
-        "requiredResource": "Exotic Optomaterial",
-        "requiredResourceCost": 1,
-        "requiredResourceCost": 5,
-        "uniques": [
-            "Destroys [in all cities] cities instead of capturing",
-            "[-1] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
-            "[-1] Sight <in [High Flux Space] tiles> <hidden from users>",
-            "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
-            "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
-            "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-            "[+1] Sight",
-            "Can carry [1] [Munition] units"
-        ]
-    },
-    {
-        "name": "EM Destroyer",
-        "unitType": "Military",
-        "strength": 14,
-        "rangedStrength": 20,
-        "range": 5,
-        "movement": 3,
-        "cost": 400,
-        "upgradesTo": "Neutron Destroyer",
-        "obsoleteWith": "Directed Plasma",
-        "requiredTech": "High Efficiency Fusion",
-        "requiredResource": "Exotic Optomaterial",
-        "requiredResourceCost": 1,
-        "uniques": [
-            "Destroys [in all cities] cities instead of capturing",
-            "[-1] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
-            "[-1] Sight <in [High Flux Space] tiles> <hidden from users>",
-            "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-            "[+1] Sight",
-            "Double movement in [Nebula]",
-            "Can carry [1] [Stored Breach Pod] units"
-        ],
-        "obsoleteWith": "Directed Plasma"
-    },
-    {
-        "name": "Neutron Destroyer",
-        "unitType": "Military",
-        "strength": 18,
-        "rangedStrength": 20,
-        "range": 4,
-        "movement": 4,
-        "cost": 460,
-        "upgradesTo": "Annihilation Dreadnaught",
-        "requiredResource": "Uranium",
-        "requiredResourceCost": 5,
-        "requiredTech": "Directed Plasma",
-        "obsoleteWith": "Exotic Matter Condenser",
-        "uniques": [
-            "Destroys [in all cities] cities instead of capturing",
-            "[-1] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
-            "[-1] Sight <in [High Flux Space] tiles> <hidden from users>",
-            "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
-            "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
-            "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-            "[+2] Sight",
-            "Can carry [1] extra [Stored Breach Pod] units",
-            "Can carry [1] [Munition] units",
-            "Can carry [2] extra [Slug] units"
-        ],
-        "obsoleteWith": "Graviton Manipulation"
-    },
-    {
-        "name": "Annihilation Dreadnaught",
-        "unitType": "Military",
-        "strength": 25,
-        "rangedStrength": 25,
-        "range": 3,
-        "movement": 4,
-        "cost": 540,
-        "upgradesTo": "Warp Dreadnaught",
-        "requiredResource": "Antimatter",
-        "requiredResourceCost": 1,
-        "requiredTech": "Exotic Matter Condenser",
-        "obsoleteWith": "Graviton Manipulation",
-        "uniques": [
-            "Destroys [in all cities] cities instead of capturing",
-            "[-2] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
-            "[-2] Sight <in [High Flux Space] tiles> <hidden from users>",
-            "[-1] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
-            "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
-            "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
-            "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-            "[+2] Sight",
-            "Can carry [1] extra [Stored Breach Pod] units",
-            "Can carry [2] [Munition] units",
-            "Can carry [3] extra [Slug] units"
-        ]
-    },
-    {
-        "name": "Warp Dreadnaught",
-        "unitType": "Military",
-        "strength": 25,
-        "rangedStrength": 25,
-        "range": 3,
-        "movement": 5,
-        "cost": 650,
-        "requiredTech": "Graviton Manipulation",
-        "uniques": [
-            "Destroys [in all cities] cities instead of capturing",
-            "[-3] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
-            "[-2] Sight <in [High Flux Space] tiles> <hidden from users>",
-            "[-1] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
-            "[-2] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
-            "[-2] Movement <in [High Flux Space] tiles> <hidden from users>",
-            "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
-            "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-            "[+4] Sight",
-            "[1] additional attacks per turn",
-            "Can carry [1] [Stored Breach Pod] units",
-            "Can carry [1] [Munition] units",
-            "Can carry [2] extra [Slug] units"
-        ]
-    },
-    { // Visible to all civilizations
-        "name": "Incandescent Corvette",
-        "unitType": "Military",
-        "strength": 14,
-        "movement": 4,
-        "cost": 230,
-        "requiredResource": "Uranium",
-        "requiredResourceCost": 1,
-        "requiredTech": "Fluid-State Machinery",
-        //"upgradesTo": "Incandescent Frigate",
-        //"obsoleteWith": "",
-        "uniques": [
-            "[1] additional attacks per turn",
-            "[-1] Sight"
-        ]
-    },
-    { // Visible to all civilizations
-        "name": "Incandescent Frigate",
-        "unitType": "Military",
-        "strength": 18,
-        "movement": 5,
-        "cost": 330,//
-        "requiredResource": "Uranium",
-        "requiredResourceCost": 2,
-        "requiredTech": "Fluid-State Machinery",
-        //"upgradesTo": "Incandescent Destroyer",
-        //"obsoleteWith": "",
-        "uniques": [
-            "[1] additional attacks per turn",
-            "[-1] Sight"
-        ]
-    },
-    { // Visible to all civilizations
-        "name": "Incandescent Destroyer",
-        "unitType": "Military",
-        "strength": 24,
-        "movement": 5,
-        "requiredResource": "Uranium",
-        "requiredResourceCost": 4,
-        "cost": 430,//
-        "requiredTech": "Fluid-State Machinery",
-        "uniques": [
-            "[1] additional attacks per turn",
-            "Can carry [5] [Slug] units"
-        ]
-    },
-    {
-        "name": "Weaponized Mobile Paperclip Conversion Factory-Ship",
-        "unitType": "Drone",
-        "strength": 14,
-        "movement": 3,
-        "cost": 300,
-        "uniqueTo": "Galactic Paperclip Initiative",
-        "requiredTech": "Kaizen - 2",
-        "uniques": [
-            "[3] additional attacks per turn",
-            "Can carry [1] [Munition] units"
-        ]
-    },
-    {
-        "name": "Missile",
-        "unitType": "Missile",
-        "strength": 6,
-        "movement": 4,
-        "cost": 20,
-        "obsoleteWith": "Micro Particulate Shielding",
-        "uniques": [
-            "Blast radius [1]"
-        ],
-        "civilopediaText": [
-            {
-                "text": "Compact tactical ordinance. When deployed from carrier hulls, they take damage over time, simulating strict operational fuel constraints and demanding active tactical positioning compared to standard units."
-            }
-        ]
-    },
-    {
-        "name": "Munition I - Missile",
-        "unitType": "Munition",
-        "movement": 5,
-        "strength": 0,
-        "cost": 20,
-        "requiredTech": "Engagement Boost",
-        "obsoleteWith": "Micro Particulate Shielding",
-        "uniques": [
-            "Can transform to [Missile] <for [0] movement>"
-        ],
-        "civilopediaText": [
-            {
-                "text": "Compact tactical ordinance. When deployed from carrier hulls, they take damage over time, simulating strict operational fuel constraints and demanding active tactical positioning compared to standard units."
-            }
-        ]
-    },
-    {
-        "name": "Shielded Missile",
-        "unitType": "Missile",
-        "strength": 9,
-        "movement": 5,
-        "cost": 25,
-        "obsoleteWith": "Laser Propulsion",
-        "uniques": [
-            "Blast radius [1]"
-        ],
-        "civilopediaText": [
-            {
-                "text": "Compact tactical ordinance. When deployed from carrier hulls, they take damage over time, simulating strict operational fuel constraints and demanding active tactical positioning compared to standard units."
-            }
-        ]
-    },
-    {
-        "name": "Munition II - Shielded Missile",
-        "unitType": "Munition",
-        "movement": 5,
-        "strength": 0,
-        "cost": 25,
-        "requiredTech": "Micro Particulate Shielding",
-        "obsoleteWith": "Laser Propulsion",
-        "uniques": [
-            "Can transform to [Shielded Missile] <for [0] movement>"
-        ],
-        "civilopediaText": [
-            {
-                "text": "Compact tactical ordinance. When deployed from carrier hulls, they take damage over time, simulating strict operational fuel constraints and demanding active tactical positioning compared to standard units."
-            }
-        ]
-    },
-    {
-        "name": "Laser Propelled Missile",
-        "unitType": "Missile",
-        "strength": 12,
-        "movement": 7,
-        "cost": 35,
-        "uniques": [
-            "Blast radius [2]"
-        ],
-        "civilopediaText": [
-            {
-                "text": "Compact tactical ordinance. When deployed from carrier hulls, they take damage over time, simulating strict operational fuel constraints and demanding active tactical positioning compared to standard units."
-            }
-        ]
-    },
-    {
-        "name": "Munition III - Laser Propelled Missile",
-        "unitType": "Munition",
-        "movement": 7,
-        "strength": 0,
-        "cost": 35,
-        "requiredTech": "Laser Propulsion",
-        "uniques": [
-            "Can transform to [Laser Propelled Missile] <for [0] movement>"
-        ],
-        "civilopediaText": [
-            {
-                "text": "Compact tactical ordinance. When deployed from carrier hulls, they take damage over time, simulating strict operational fuel constraints and demanding active tactical positioning compared to standard units."
-            }
-        ]
-    },
-    {
-        "name": "Missile Submarine",
-        "unitType": "Sub",
-        "strength": 6,
-        "movement": 2,
-        "cost": 200,
-        "requiredTech": "Engagement Boost",
-        "upgradesTo": "Missile Cradle",
-        "uniques": [
-            "[-4] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
-            "[-3] Sight <in [High Flux Space] tiles> <hidden from users>",
-            "[-2] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
-            "[+1] Movement <in [Magnetic Acceleration Relay] tiles> <hidden from users>",
-            "[+6] Sight",
-            "Can carry [3] [Munition] units",
-            "Can carry [1] extra [Stored Breach Pod] units",
-            "Can carry [2] extra [Slug] units"
-        ],
-        "obsoleteWith": "Laser Propulsion",
-        "civilopediaText": [
-            {
-                "text": "A specialized capital platform designed to house, service, and launch tactical munitions. Unpacking missiles directly into active sectors introduces dynamic supply line considerations, as munitions must account for simulated fuel depletion during transit."
-            }
-        ]
-    },
-    {
-        "name": "Missile Cradle",
-        "unitType": "Sub",
-        "strength": 7,
-        "movement": 1,
-        "cost": 250,
-        "requiredResource": "Exotic Optomaterial",
-        "requiredResourceCost": 5,
-        "requiredTech": "Laser Propulsion",
-        "upgradesTo": "Strategic Cradle",
-        "uniques": [
-            "[-5] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
-            "[-4] Sight <in [High Flux Space] tiles> <hidden from users>",
-            "[-3] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
-            "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-            "[+8] Sight",
-            "Can move after attacking",
-            "Can carry [4] [Munition] units",
-            "Can carry [2] extra [Stored Breach Pod] units",
-            "Can carry [4] extra [Slug] units"
-        ],
-        "civilopediaText": [
-            {
-                "text": "A specialized capital platform designed to house, service, and launch tactical munitions. Unpacking missiles directly into active sectors introduces dynamic supply line considerations, as munitions must account for simulated fuel depletion during transit."
-            }
-        ]
-    },
-    {
-        "name": "Strategic Cradle",
-        "unitType": "Sub",
-        "strength": 9,
-        "movement": 2,
-        "cost": 300,
-        "requiredTech": "Strange Battery",
-        "uniques": [
-            "[-6] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
-            "[-5] Sight <in [High Flux Space] tiles> <hidden from users>",
-            "[-4] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
-            "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-            "[+10] Sight",
-            "Can carry [5] [Munition] units",
-            "Can carry [2] extra [Stored Breach Pod] units",
-            "Can carry [7] extra [Slug] units"
-        ],
-        "obsoleteWith": "C-Fractional Thrust",
-        "civilopediaText": [
-            {
-                "text": "A specialized capital platform designed to house, service, and launch tactical munitions. Unpacking missiles directly into active sectors introduces dynamic supply line considerations, as munitions must account for simulated fuel depletion during transit."
-            }
-        ]
-    },
-    {
-        "name": "Cannonade Vessel",
-        "unitType": "Artillery",
-        "strength": 7,
-        "rangedStrength": 17,
-        "range": 4,
-        "movement": 4,
-        "cost": 400,
-        "requiredTech": "C-Fractional Thrust",
-        "upgradesTo": "Broadside Hull",
-        "uniques": [
-            "Destroys [in all cities] cities instead of capturing",
-            "[-3] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
-            "[-2] Sight <in [High Flux Space] tiles> <hidden from users>",
-            "[-1] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
-            "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-            "[+3] Sight",
-            "Ranged attacks may be performed over obstacles <hidden from users>",
-            "No damage penalty for wounded units",
-            "Can carry [1] [Stored Breach Pod] units",
-            "Can carry [2] [Munition] units",
-            "Can carry [6] [Slug] units"
-        ]
-    },
-    {
-        "name": "Broadside Hull",
-        "unitType": "Artillery",
-        "strength": 10,
-        "rangedStrength": 20,
-        "range": 4,
-        "movement": 2,
-        "cost": 480,
-        "requiredResource": "Antimatter",
-        "requiredResourceCount": 1,
-        "requiredTech": "C-Fractional Thrust",
-        "uniques": [
-            "Destroys [in all cities] cities instead of capturing",
-            "[-3] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
-            "[-2] Sight <in [High Flux Space] tiles> <hidden from users>",
-            "[-1] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
-            "[-2] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
-            "[-2] Movement <in [High Flux Space] tiles> <hidden from users>",
-            "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
-            "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-            "[+4] Sight",
-            "Ranged attacks may be performed over obstacles <hidden from users>",
-            "No damage penalty for wounded units",
-            "Can carry [1] [Stored Breach Pod] units",
-            "Can carry [10] [Slug] units"
-        ]
-    },
-    {
-        "name": "Swarm Kilde",
-        "unitType": "Bio-Unit",
-        "strength": 7,
-        "movement": 3,
-        "cost": 60,
-        "requiredTech": "Xeno-Genetics",
-        "upgradesTo": "Symbiote Stalker",
-        "obsoleteWith": "Neural Parasitology",
-        "uniques": [
-            "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
-            "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
-            "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-            "[10] HP when healing",
-            "Can carry [3] [Slug] units"
-        ],
-        "civilopediaText": [
-            {
-                "text": "Engineered microbial clouds capable of consuming unshielded hull plating and clogging enemy heat exchangers."
-            }
-        ]
-    },
-    {
-        "name": "Symbiote Stalker",
-        "unitType": "Bio-Unit",
-        "strength": 17,
-        "movement": 4,
-        "cost": 180,
-        "requiredTech": "Neural Parasitology",
-        "upgradesTo": "Apex Bio-Titan",
-        "uniques": [
-            "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
-            "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
-            "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-            "[20] HP when healing",
-            "Can carry [1] [Stored Breach Pod] units",
-            "Can carry [5] [Slug] units"
-        ],
-        "civilopediaText": [
-            {
-                "text": "A chimeric organism fused directly with neural interface strands, tracking targets through shared sensory ganglia."
-            }
-        ]
-    },
-    {
-        "name": "Apex Bio-Titan",
-        "unitType": "Bio-Unit",
-        "strength": 28,
-        "movement": 5,
-        "cost": 640,
-        "requiredTech": "Hive-Mind Engineering",
-        "requiredResource": "Uranium",
-        "requiredResourceCost": 10,
-        "upgradesTo": "Bio-Dreadnaught",
-        "uniques": [
-            "[-2] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
-            "[-2] Sight <in [High Flux Space] tiles> <hidden from users>",
-            "[-1] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
-            "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
-            "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
-            "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-            "[+2] Sight",
-            "[30] HP when healing",
-            "Can carry [1] [Stored Breach Pod] units",
-            "Can carry [7] [Slug] units"
-        ],
-        "civilopediaText": [
-            {
-                "text": "A colossal engineered leviathan capable of surviving hard vacuum conditions via thick chitinous plating and internal fusion-bioreactors."
-            }
-        ]
-    },
-    {
-        "name": "Bio-Dreadnaught",
-        "unitType": "Bio-Unit",
-        "strength": 33,
-        "movement": 5,
-        "cost": 700,
-        "requiredTech": "Bio-Singularity",
-        "requiredResource": "Antimatter",
-        "requiredResourceCost": 1,
-        "uniques": [
-            "[-3] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
-            "[-2] Sight <in [High Flux Space] tiles> <hidden from users>",
-            "[-1] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
-            "[-2] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
-            "[-2] Movement <in [High Flux Space] tiles> <hidden from users>",
-            "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
-            "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-            "[+3] Sight",
-            "[40] HP when healing",
-            "Can carry [2] [Stored Breach Pod] units",
-            "Can carry [6] [Slug] units"
-        ],
-        "civilopediaText": [
-            {
-                "text": "A supreme organic dreadnaught grown in zero-flux nurseries, housing localized singularity cores within its visceral chambers."
-            }
-        ]
-    },
-    {
-        "name": "Slug",
-        "unitType": "Slug",
-        "strength": 3,
-        "range": 3,
-        "rangedStrength": 3,
-        "movement": 1,
-        "cost": 5,
-        "obsoleteWith": "Bio-Hybridization",
-        "uniques": [
-            "[+4] Range <when carried by [Broadside Hull] units>",
-            "[+500]% Strength <when carried by [Broadside Hull] units>",
-            "[+3] Range <when carried by [Cannonade Vessel] units>",
-            "[+480]% Strength <when carried by [Cannonade Vessel] units>",
-            "[+300]% Strength <when carried by [Orbital Fortress] units>"
-        ]
-    },
-    {
-        "name": "Swarm Slug",
-        "unitType": "Slug",
-        "strength": 3,
-        "rangedStrength": 3,
-        "range": 3,
-        "movement": 1,
-        "cost": 5,
-        "obsoleteWith": "Bio-Hybridization",
-        "requiredTech": "Xeno-Genetics",
-        "uniques": [
-            "May capture killed [All] units",
-            "[+4] Range <when carried by [Broadside Hull] units>",
-            "[+500]% Strength <when carried by [Broadside Hull] units>",
-            "[+3] Range <when carried by [Cannonade Vessel] units>",
-            "[+480]% Strength <when carried by [Cannonade Vessel] units>",
-            "[+300]% Strength <when carried by [Orbital Fortress] units>"
-        ]
-    },
-    {
-        "name": "Nano Infester",
-        "unitType": "Slug",
-        "rangedStrength": 5,
-        "strength": 5,
-        "movement": 1,
-        "range": 7,
-        "cost": 7,
-        "requiredTech": "Bio-Hybridization",
-        "uniques": [
-            "May capture killed [All] units",
-            "[+4] Range <when carried by [Broadside Hull] units>",
-            "[+500]% Strength <when carried by [Broadside Hull] units>",
-            "[+3] Range <when carried by [Cannonade Vessel] units>",
-            "[+480]% Strength <when carried by [Cannonade Vessel] units>",
-            "[+300]% Strength <when carried by [Orbital Fortress] units>"
-        ]
-    },
-    {
-        "name": "Modified Dreadnaught Engine",
-        "unitType": "Civilian",
-        "cost": 750,
-        "movement": 2,
-        "requiredTech": "Graviton Manipulation",
-        "uniques": [
-            "Spaceship part",
-            "Cannot be purchased",
-            "Uncapturable",
-            "Can be added to [The Spaceship] in the Capital",
-            "Limited to [2] per Civilization"
-        ]
-    },
-    {
-        "name": "SL Chamber",
-        "unitType": "Civilian",
-        "cost": 500,
-        "movement": 2,
-        "requiredTech": "Graviton Manipulation",
-        "uniques": [
-            "Spaceship part",
-            "Cannot be purchased",
-            "Uncapturable",
-            "Can be added to [The Spaceship] in the Capital",
-            "Limited to [1] per Civilization"
-        ]
-    },
-    {
-        "name": "SL Stabilizer",
-        "unitType": "Civilian",
-        "cost": 600,
-        "movement": 2,
-        "requiredTech": "Graviton Manipulation",
-        "uniques": [
-            "Spaceship part",
-            "Cannot be purchased",
-            "Uncapturable",
-            "Can be added to [The Spaceship] in the Capital",
-            "Limited to [3] per Civilization"
-        ]
-    },
-    {
-        "name": "SL Mass Inverter",
-        "unitType": "Civilian",
-        "cost": 850,
-        "movement": 2,
-        "requiredTech": "Graviton Manipulation",
-        "uniques": [
-            "Spaceship part",
-            "Cannot be purchased",
-            "Uncapturable",
-            "Can be added to [The Spaceship] in the Capital",
-            "Limited to [3] per Civilization"
-        ]
-    }
+  {
+    "name": "Deep Space Radar Array",
+    "unitType": "Drone",
+    "movement": 0,
+    "uniques": [
+      "[10] Sight",
+      "Unbuildable",
+      "Cannot move",
+      "Can see invisible [Stealth Drone] units"
+    ]
+  },
+  {
+    "name": "Orbital Missile Creche",
+    "unitType": "Station",
+    "movement": 1,
+    "strength": 3,
+    "uniques": [
+      "Can carry [4] [Munition] units"
+    ],
+    "RGB": [
+      85,
+      79,
+      69
+    ]
+  },
+  {
+    "name": "Orbital Fortress",
+    "unitType": "Station",
+    "movement": 1,
+    "strength": 7,
+    "uniques": [
+      "[+125]% Strength bonus for [All] units within [1] tiles <when defending>",
+      "Can carry [4] [Slug] units"
+    ]
+  },
+  {
+    "name": "Generational Settler",
+    "unitType": "Settler",
+    "cost": 200,
+    "movement": 2,
+    "uniques": [
+      "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+      "Requires at least [2] population",
+      "Excess Food converted to Production when under construction",
+      "Founds a new city <by consuming this unit> <in [Ringed Terrestrial Planet] tiles>",
+      "Founds a new city <by consuming this unit> <in [All] tiles> <for [AI player] Civilizations>"
+    ],
+    "obsoleteWith": "Cryogenics"
+  },
+  {
+    "name": "Cryosleep Settler",
+    "unitType": "Settler",
+    "cost": 140,
+    "movement": 3,
+    "requiredTech": "Cryogenics",
+    "uniques": [
+      "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+      "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+      "Founds a new city <by consuming this unit> <in [Ringed Terrestrial Planet] tiles>",
+      "Founds a new city <by consuming this unit> <in [All] tiles> <for [AI player] Civilizations>"
+    ],
+    "obsoleteWith": "Artificial Super Intelligence"
+  },
+  {
+    "name": "Incubation Settler",
+    "unitType": "Settler",
+    "cost": 100,
+    "movement": 5,
+    "requiredTech": "Artificial Super Intelligence",
+    "uniques": [
+      "[-2] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-2] Movement <in [High Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
+      "[+2] Movement <in [Magnetic Acceleration Relay] tiles>",
+      "Founds a new city <by consuming this unit> <in [Ringed Terrestrial Planet] tiles>",
+      "Founds a new city <by consuming this unit> <in [All] tiles> <for [AI player] Civilizations>"
+    ]
+  },
+  {
+    "name": "Astraforming Swarm",
+    "unitType": "Civilian",
+    "cost": 85,
+    "movement": 4,
+    "uniques": [
+      "Can transform to [Screenforming Swarm] <after discovering [Engagement Boost]>",
+      "Can transform to [Repairforming Swarm] <after discovering [Zero-G Fabrication]>",
+      "Can transform to [Signalforming Swarm] <after discovering [Artificial Super Intelligence]>",
+      "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+      "[-2] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-2] Movement <in [High Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
+      "Can build [Land] improvements on tiles",
+      "Can build [Water] improvements on tiles <hidden from users>"
+    ]
+  },
+  {
+    "name": "Screenforming Swarm",
+    "unitType": "Civilian",
+    "movement": 0,
+    "uniques": [
+      "[+85]% Strength bonus for [All] units within [0] tiles <when defending>",
+      "Unbuildable",
+      "Can transform to [Repairforming Swarm] <after discovering [Zero-G Fabrication]>",
+      "Can transform to [Signalforming Swarm] <after discovering [Artificial Super Intelligence]>",
+      "Can transform to [Astraforming Swarm]",
+      "Cannot move"
+    ]
+  },
+  {
+    "name": "Repairforming Swarm",
+    "unitType": "Civilian",
+    "movement": 0,
+    "uniques": [
+      "All adjacent units heal [30] HP when healing",
+      "Unbuildable",
+      "Can transform to [Astraforming Swarm]",
+      "Can transform to [Screenforming Swarm] <after discovering [Engagement Boost]>",
+      "Can transform to [Signalforming Swarm] <after discovering [Artificial Super Intelligence]>",
+      "Cannot move"
+    ]
+  },
+  {
+    "name": "Signalforming Swarm",
+    "unitType": "Civilian",
+    "movement": 0,
+    "uniques": [
+      "[+15]% Strength bonus for [All] units within [0] tiles <when attacking>",
+      "Can see invisible [Stealth Drone] units",
+      "[+3] Sight",
+      "Unbuildable",
+      "Can transform to [Astraforming Swarm]",
+      "Can transform to [Screenforming Swarm] <after discovering [Engagement Boost]>",
+      "Can transform to [Repairforming Swarm] <after discovering [Zero-G Fabrication]>",
+      "Cannot move"
+    ]
+  },
+  {
+    "name": "Spore",
+    "unitType": "Spore",
+    "cost": 5,
+    "movement": 2,
+    "strength": 2,
+    "uniqueTo": "Spore-Borne Parasite",
+    "uniques": [
+      "[+200]% Strength <when attacking>",
+      "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [High Flux Space] tiles> <hidden from users>"
+    ]
+  },
+  {
+    "name": "Spore II",
+    "unitType": "Spore",
+    "cost": 20,
+    "movement": 3,
+    "strength": 4,
+    "requiredTech": "Neural Parasitology",
+    "uniqueTo": "Spore-Borne Parasite",
+    "uniques": [
+      "[+200]% Strength <when attacking>",
+      "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>"
+    ]
+  },
+  {
+    "name": "Spore III",
+    "unitType": "Spore",
+    "cost": 20,
+    "movement": 4,
+    "strength": 4,
+    "uniques": [
+      "[+400]% Strength <when attacking>"
+    ],
+    "requiredTech": "Hive-Mind Engineering",
+    "uniqueTo": "Spore-Borne Parasite"
+  },
+  {
+    "name": "Ethereal Spore Mother",
+    "unitType": "Spore",
+    "cost": 60,
+    "movement": 4,
+    "strength": 2,
+    "uniqueTo": "Spore-Borne Parasite",
+    "replaces": "Survey Vessel",
+    "uniques": [
+      "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+      "Can build [Land] improvements on tiles",
+      "Can build [Water] improvements on tiles <hidden from users>"
+    ]
+  },
+  {
+    "name": "Astraforming Swarm-Bio",
+    "unitType": "Civilian",
+    "cost": 35,
+    "movement": 2,
+    "requiredTech": "Xeno-Genetics",
+    "uniques": [
+      "Can transform to [Combatforming Swarm-Bio] <after adopting [Bio-Ascendancy]>",
+      "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+      "Can build [Land] improvements on tiles",
+      "Can build [Water] improvements on tiles <hidden from users>"
+    ]
+  },
+  {
+    "name": "Combatforming Swarm-Bio",
+    "unitType": "Civilian",
+    "movement": 3,
+    "strength": 8,
+    "uniques": [
+      "Can transform to [Astraforming Swarm-Bio]",
+      "Unbuildable",
+      "[20] HP when healing",
+      "[+1] Sight",
+      "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+      "Can build [Land] improvements on tiles",
+      "Can build [Water] improvements on tiles <hidden from users>"
+    ]
+  },
+  {
+    "name": "Survey Vessel",
+    "unitType": "Scout",
+    "movement": 3,
+    "strength": 7,
+    "cost": 15,
+    "upgradesTo": "Data Archivist",
+    "obsoleteWith": "Cryogenics",
+    "uniques": [
+      "[-1] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-1] Sight <in [High Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+      "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+      "[+1] Sight",
+      "Never appears as a Barbarian unit"
+    ]
+  },
+  {
+    "name": "Data Archivist",
+    "unitType": "Scout",
+    "requiredTech": "Cryogenics",
+    "obsoleteWith": "Quantum Computing",
+    "upgradesTo": "EM Warfare and Command Vessel",
+    "movement": 5,
+    "strength": 10,
+    "cost": 40,
+    "uniques": [
+      "[-1] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-1] Sight <in [High Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+      "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+      "[+4] Sight"
+    ]
+  },
+  {
+    "name": "EM Warfare and Command Vessel",
+    "unitType": "Command Ship",
+    "upgradesTo": "Mobile EM Warfare and Command Citadel",
+    "requiredTech": "Quantum Computing",
+    "obsoleteWith": "SL Ping",
+    "movement": 5,
+    "strength": 12,
+    "cost": 65,
+    "uniques": [
+      "[+15]% Strength bonus for [Military] units within [2] tiles",
+      "[+15]% Strength bonus for [Sub] units within [2] tiles",
+      "[+8]% Strength bonus for [Missile] units within [8] tiles",
+      "[-1] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-1] Sight <in [High Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+      "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+      "[+5] Sight",
+      "Can see invisible [Stealth Drone] units"
+    ]
+  },
+  {
+    "name": "Mobile EM Warfare and Command Citadel",
+    "unitType": "Command Ship",
+    "requiredTech": "SL Ping",
+    "movement": 6,
+    "strength": 14,
+    "cost": 100,
+    "uniques": [
+      "[+15]% Strength bonus for [Military] units within [2] tiles",
+      "[+15]% Strength bonus for [Sub] units within [2] tiles",
+      "[+12]% Strength bonus for [Missile] units within [10] tiles",
+      "[-1] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-1] Sight <in [High Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+      "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+      "[+6] Sight",
+      "Can see invisible [Stealth Drone] units"
+    ]
+  },
+  {
+    "name": "Bio Breach",
+    "unitType": "Bio-Unit",
+    "strength": 6,
+    "movement": 3,
+    "cost": 100,
+    "uniques": [
+      "Self-destructs when attacking",
+      "No damage penalty for wounded units",
+      "[+200]% Strength <when attacking>",
+      "[This Unit] takes [100] damage <upon turn start>",
+      "May capture killed [Military] units",
+      "May capture killed [Bio-Unit] units",
+      "Unbuildable"
+    ]
+  },
+  {
+    "name": "Breach I - Bio",
+    "unitType": "Stored Breach Pod",
+    "movement": 3,
+    "strength": 0,
+    "cost": 50,
+    "requiredTech": "Neural Parasitology",
+    "uniques": [
+      "Can transform to [Bio Breach] <for [0] movement>"
+    ]
+  },
+  {
+    "name": "Mech Breach",
+    "unitType": "Drone",
+    "strength": 5,
+    "movement": 4,
+    "cost": 40,
+    "uniques": [
+      "No damage penalty for wounded units",
+      "Self-destructs when attacking",
+      "[+300]% Strength <when attacking>",
+      "[This Unit] takes [100] damage <upon turn start>",
+      "May capture killed [Military] units",
+      "May capture killed [Civilian] units",
+      "May capture killed [Settler] units",
+      "Unbuildable"
+    ]
+  },
+  {
+    "name": "Breach II - Mech",
+    "unitType": "Stored Breach Pod",
+    "movement": 4,
+    "strength": 0,
+    "cost": 100,
+    "requiredTech": "Expert Systems",
+    "uniques": [
+      "Can transform to [Mech Breach] <for [0] movement>"
+    ]
+  },
+  {
+    "name": "Stealth I",
+    "unitType": "Stealth Drone",
+    "strength": 8,
+    "rangedStrength": 8,
+    "range": 0,
+    "movement": 3,
+    "cost": 80,
+    "upgradesTo": "Stealth II",
+    "obsoleteWith": "Cryogenics",
+    "uniques": [
+      "Invisible to non-adjacent units",
+      "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+      "[+2] Movement <in [Magnetic Acceleration Relay] tiles>"
+    ]
+  },
+  {
+    "name": "Stealth II",
+    "unitType": "Stealth Drone",
+    "strength": 10,
+    "rangedStrength": 10,
+    "range": 0,
+    "movement": 4,
+    "cost": 80,
+    "upgradesTo": "Stealth III",
+    "requiredTech": "Cryogenics",
+    "obsoleteWith": "Photon Computing",
+    "uniques": [
+      "Invisible to non-adjacent units",
+      "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+      "[+2] Movement <in [Magnetic Acceleration Relay] tiles>"
+    ]
+  },
+  {
+    "name": "Stealth III",
+    "unitType": "Stealth Drone",
+    "strength": 12,
+    "rangedStrength": 12,
+    "range": 0,
+    "movement": 5,
+    "cost": 80,
+    "requiredTech": "Photon Computing",
+    "uniques": [
+      "Invisible to non-adjacent units",
+      "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+      "[+2] Movement <in [Magnetic Acceleration Relay] tiles>"
+    ]
+  },
+  {
+    "name": "Laser Drone",
+    "unitType": "Drone",
+    "strength": 4,
+    "rangedStrength": 4,
+    "range": 3,
+    "movement": 3,
+    "cost": 80,
+    "upgradesTo": "Armored Drone",
+    "obsoleteWith": "Expert Systems",
+    "uniques": [
+      "Destroys [in all cities] cities instead of capturing",
+      "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+      "[+2] Movement <in [Magnetic Acceleration Relay] tiles>"
+    ]
+  },
+  {
+    "name": "Armored Drone",
+    "unitType": "Drone",
+    "strength": 4,
+    "rangedStrength": 4,
+    "range": 3,
+    "movement": 2,
+    "cost": 95,
+    "upgradesTo": "Expert Drone",
+    "obsoleteWith": "Expert Systems",
+    "uniques": [
+      "[+50]% Strength <when defending>",
+      "Destroys [in all cities] cities instead of capturing",
+      "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+      "[+2] Movement <in [Magnetic Acceleration Relay] tiles>"
+    ]
+  },
+  {
+    "name": "Expert Drone",
+    "unitType": "Thinking Drone",
+    "strength": 4,
+    "rangedStrength": 5,
+    "range": 4,
+    "movement": 3,
+    "cost": 115,
+    "upgradesTo": "AI Drone",
+    "requiredTech": "Expert Systems",
+    "obsoleteWith": "Artificial Super Intelligence",
+    "uniques": [
+      "[+70]% Strength <when defending>",
+      "Destroys [in all cities] cities instead of capturing",
+      "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+      "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+      "[+1] Sight"
+    ]
+  },
+  {
+    "name": "AI Drone",
+    "unitType": "Thinking Drone",
+    "strength": 4,
+    "rangedStrength": 6,
+    "range": 4,
+    "movement": 4,
+    "cost": 125,
+    "requiredTech": "Artificial Super Intelligence",
+    "uniques": [
+      "[+90]% Strength <when defending>",
+      "Destroys [in all cities] cities instead of capturing",
+      "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+      "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+      "[+1] Sight",
+      "Can carry [2] [Slug] units"
+    ]
+  },
+  {
+    "name": "Laser Corvette",
+    "unitType": "Military",
+    "strength": 6,
+    "rangedStrength": 8,
+    "range": 3,
+    "movement": 3,
+    "cost": 230,
+    "requiredTech": "Micro Particulate Shielding",
+    "upgradesTo": "Laser Frigate",
+    "obsoleteWith": "Athermal Lens",
+    "uniques": [
+      "Destroys [in all cities] cities instead of capturing",
+      "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+      "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+      "[1] additional attacks per turn",
+      "Can carry [2] [Slug] units"
+    ]
+  },
+  {
+    "name": "Laser Frigate",
+    "unitType": "Military",
+    "strength": 8,
+    "rangedStrength": 16,
+    "range": 4,
+    "movement": 3,
+    "cost": 300,
+    "upgradesTo": "EM Destroyer",
+    "obsoleteWith": "High Efficiency Fusion",
+    "requiredTech": "Athermal Lens",
+    "requiredResource": "Exotic Optomaterial",
+    "requiredResourceCost": 1,
+    "uniques": [
+      "Destroys [in all cities] cities instead of capturing",
+      "[-1] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-1] Sight <in [High Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+      "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+      "[+1] Sight",
+      "Can carry [1] [Munition] units"
+    ]
+  },
+  {
+    "name": "EM Destroyer",
+    "unitType": "Military",
+    "strength": 14,
+    "rangedStrength": 20,
+    "range": 5,
+    "movement": 3,
+    "cost": 400,
+    "upgradesTo": "Neutron Destroyer",
+    "obsoleteWith": "Directed Plasma",
+    "requiredTech": "High Efficiency Fusion",
+    "requiredResource": "Exotic Optomaterial",
+    "requiredResourceCost": 1,
+    "uniques": [
+      "Destroys [in all cities] cities instead of capturing",
+      "[-1] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-1] Sight <in [High Flux Space] tiles> <hidden from users>",
+      "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+      "[+1] Sight",
+      "Double movement in [Nebula]",
+      "Can carry [1] [Stored Breach Pod] units"
+    ]
+  },
+  {
+    "name": "Neutron Destroyer",
+    "unitType": "Military",
+    "strength": 18,
+    "rangedStrength": 20,
+    "range": 4,
+    "movement": 4,
+    "cost": 460,
+    "upgradesTo": "Annihilation Dreadnaught",
+    "requiredResource": "Uranium",
+    "requiredResourceCost": 5,
+    "requiredTech": "Directed Plasma",
+    "obsoleteWith": "Exotic Matter Condenser",
+    "uniques": [
+      "Destroys [in all cities] cities instead of capturing",
+      "[-1] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-1] Sight <in [High Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+      "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+      "[+2] Sight",
+      "Can carry [1] extra [Stored Breach Pod] units",
+      "Can carry [1] [Munition] units",
+      "Can carry [2] extra [Slug] units"
+    ]
+  },
+  {
+    "name": "Annihilation Dreadnaught",
+    "unitType": "Military",
+    "strength": 25,
+    "rangedStrength": 25,
+    "range": 3,
+    "movement": 4,
+    "cost": 540,
+    "upgradesTo": "Warp Dreadnaught",
+    "requiredResource": "Antimatter",
+    "requiredResourceCost": 1,
+    "requiredTech": "Exotic Matter Condenser",
+    "obsoleteWith": "Graviton Manipulation",
+    "uniques": [
+      "Destroys [in all cities] cities instead of capturing",
+      "[-2] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-2] Sight <in [High Flux Space] tiles> <hidden from users>",
+      "[-1] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+      "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+      "[+2] Sight",
+      "Can carry [1] extra [Stored Breach Pod] units",
+      "Can carry [2] [Munition] units",
+      "Can carry [3] extra [Slug] units"
+    ]
+  },
+  {
+    "name": "Warp Dreadnaught",
+    "unitType": "Military",
+    "strength": 25,
+    "rangedStrength": 25,
+    "range": 3,
+    "movement": 5,
+    "cost": 650,
+    "requiredTech": "Graviton Manipulation",
+    "uniques": [
+      "Destroys [in all cities] cities instead of capturing",
+      "[-3] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-2] Sight <in [High Flux Space] tiles> <hidden from users>",
+      "[-1] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
+      "[-2] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-2] Movement <in [High Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
+      "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+      "[+4] Sight",
+      "[1] additional attacks per turn",
+      "Can carry [1] [Stored Breach Pod] units",
+      "Can carry [1] [Munition] units",
+      "Can carry [2] extra [Slug] units"
+    ]
+  },
+  {
+    "name": "Incandescent Corvette",
+    "unitType": "Military",
+    "strength": 14,
+    "movement": 4,
+    "cost": 230,
+    "requiredResource": "Uranium",
+    "requiredResourceCost": 1,
+    "requiredTech": "Fluid-State Machinery",
+    "uniques": [
+      "[1] additional attacks per turn",
+      "[-1] Sight"
+    ]
+  },
+  {
+    "name": "Incandescent Frigate",
+    "unitType": "Military",
+    "strength": 18,
+    "movement": 5,
+    "cost": 330,
+    "requiredResource": "Uranium",
+    "requiredResourceCost": 2,
+    "requiredTech": "Fluid-State Machinery",
+    "uniques": [
+      "[1] additional attacks per turn",
+      "[-1] Sight"
+    ]
+  },
+  {
+    "name": "Incandescent Destroyer",
+    "unitType": "Military",
+    "strength": 24,
+    "movement": 5,
+    "requiredResource": "Uranium",
+    "requiredResourceCost": 4,
+    "cost": 430,
+    "requiredTech": "Fluid-State Machinery",
+    "uniques": [
+      "[1] additional attacks per turn",
+      "Can carry [5] [Slug] units"
+    ]
+  },
+  {
+    "name": "Weaponized Mobile Paperclip Conversion Factory-Ship",
+    "unitType": "Drone",
+    "strength": 14,
+    "movement": 3,
+    "cost": 300,
+    "uniqueTo": "Galactic Paperclip Initiative",
+    "requiredTech": "Kaizen - 2",
+    "uniques": [
+      "[3] additional attacks per turn",
+      "Can carry [1] [Munition] units"
+    ]
+  },
+  {
+    "name": "Missile",
+    "unitType": "Missile",
+    "strength": 6,
+    "movement": 4,
+    "cost": 20,
+    "obsoleteWith": "Micro Particulate Shielding",
+    "uniques": [
+      "Blast radius [1]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Compact tactical ordinance. When deployed from carrier hulls, they take damage over time, simulating strict operational fuel constraints and demanding active tactical positioning compared to standard units."
+      }
+    ]
+  },
+  {
+    "name": "Munition I - Missile",
+    "unitType": "Munition",
+    "movement": 5,
+    "strength": 0,
+    "cost": 20,
+    "requiredTech": "Engagement Boost",
+    "obsoleteWith": "Micro Particulate Shielding",
+    "uniques": [
+      "Can transform to [Missile] <for [0] movement>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Compact tactical ordinance. When deployed from carrier hulls, they take damage over time, simulating strict operational fuel constraints and demanding active tactical positioning compared to standard units."
+      }
+    ]
+  },
+  {
+    "name": "Shielded Missile",
+    "unitType": "Missile",
+    "strength": 9,
+    "movement": 5,
+    "cost": 25,
+    "obsoleteWith": "Laser Propulsion",
+    "uniques": [
+      "Blast radius [1]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Compact tactical ordinance. When deployed from carrier hulls, they take damage over time, simulating strict operational fuel constraints and demanding active tactical positioning compared to standard units."
+      }
+    ]
+  },
+  {
+    "name": "Munition II - Shielded Missile",
+    "unitType": "Munition",
+    "movement": 5,
+    "strength": 0,
+    "cost": 25,
+    "requiredTech": "Micro Particulate Shielding",
+    "obsoleteWith": "Laser Propulsion",
+    "uniques": [
+      "Can transform to [Shielded Missile] <for [0] movement>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Compact tactical ordinance. When deployed from carrier hulls, they take damage over time, simulating strict operational fuel constraints and demanding active tactical positioning compared to standard units."
+      }
+    ]
+  },
+  {
+    "name": "Laser Propelled Missile",
+    "unitType": "Missile",
+    "strength": 12,
+    "movement": 7,
+    "cost": 35,
+    "uniques": [
+      "Blast radius [2]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Compact tactical ordinance. When deployed from carrier hulls, they take damage over time, simulating strict operational fuel constraints and demanding active tactical positioning compared to standard units."
+      }
+    ]
+  },
+  {
+    "name": "Munition III - Laser Propelled Missile",
+    "unitType": "Munition",
+    "movement": 7,
+    "strength": 0,
+    "cost": 35,
+    "requiredTech": "Laser Propulsion",
+    "uniques": [
+      "Can transform to [Laser Propelled Missile] <for [0] movement>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Compact tactical ordinance. When deployed from carrier hulls, they take damage over time, simulating strict operational fuel constraints and demanding active tactical positioning compared to standard units."
+      }
+    ]
+  },
+  {
+    "name": "Missile Submarine",
+    "unitType": "Sub",
+    "strength": 6,
+    "movement": 2,
+    "cost": 200,
+    "requiredTech": "Engagement Boost",
+    "upgradesTo": "Missile Cradle",
+    "uniques": [
+      "[-4] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-3] Sight <in [High Flux Space] tiles> <hidden from users>",
+      "[-2] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
+      "[+1] Movement <in [Magnetic Acceleration Relay] tiles> <hidden from users>",
+      "[+6] Sight",
+      "Can carry [3] [Munition] units",
+      "Can carry [1] extra [Stored Breach Pod] units",
+      "Can carry [2] extra [Slug] units"
+    ],
+    "obsoleteWith": "Laser Propulsion",
+    "civilopediaText": [
+      {
+        "text": "A specialized capital platform designed to house, service, and launch tactical munitions. Unpacking missiles directly into active sectors introduces dynamic supply line considerations, as munitions must account for simulated fuel depletion during transit."
+      }
+    ]
+  },
+  {
+    "name": "Missile Cradle",
+    "unitType": "Sub",
+    "strength": 7,
+    "movement": 1,
+    "cost": 250,
+    "requiredResource": "Exotic Optomaterial",
+    "requiredResourceCost": 5,
+    "requiredTech": "Laser Propulsion",
+    "upgradesTo": "Strategic Cradle",
+    "uniques": [
+      "[-5] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-4] Sight <in [High Flux Space] tiles> <hidden from users>",
+      "[-3] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
+      "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+      "[+8] Sight",
+      "Can move after attacking",
+      "Can carry [4] [Munition] units",
+      "Can carry [2] extra [Stored Breach Pod] units",
+      "Can carry [4] extra [Slug] units"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A specialized capital platform designed to house, service, and launch tactical munitions. Unpacking missiles directly into active sectors introduces dynamic supply line considerations, as munitions must account for simulated fuel depletion during transit."
+      }
+    ]
+  },
+  {
+    "name": "Strategic Cradle",
+    "unitType": "Sub",
+    "strength": 9,
+    "movement": 2,
+    "cost": 300,
+    "requiredTech": "Strange Battery",
+    "uniques": [
+      "[-6] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-5] Sight <in [High Flux Space] tiles> <hidden from users>",
+      "[-4] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
+      "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+      "[+10] Sight",
+      "Can carry [5] [Munition] units",
+      "Can carry [2] extra [Stored Breach Pod] units",
+      "Can carry [7] extra [Slug] units"
+    ],
+    "obsoleteWith": "C-Fractional Thrust",
+    "civilopediaText": [
+      {
+        "text": "A specialized capital platform designed to house, service, and launch tactical munitions. Unpacking missiles directly into active sectors introduces dynamic supply line considerations, as munitions must account for simulated fuel depletion during transit."
+      }
+    ]
+  },
+  {
+    "name": "Cannonade Vessel",
+    "unitType": "Artillery",
+    "strength": 7,
+    "rangedStrength": 17,
+    "range": 4,
+    "movement": 4,
+    "cost": 400,
+    "requiredTech": "C-Fractional Thrust",
+    "upgradesTo": "Broadside Hull",
+    "uniques": [
+      "Destroys [in all cities] cities instead of capturing",
+      "[-3] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-2] Sight <in [High Flux Space] tiles> <hidden from users>",
+      "[-1] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
+      "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+      "[+3] Sight",
+      "Ranged attacks may be performed over obstacles <hidden from users>",
+      "No damage penalty for wounded units",
+      "Can carry [1] [Stored Breach Pod] units",
+      "Can carry [2] [Munition] units",
+      "Can carry [6] [Slug] units"
+    ]
+  },
+  {
+    "name": "Broadside Hull",
+    "unitType": "Artillery",
+    "strength": 10,
+    "rangedStrength": 20,
+    "range": 4,
+    "movement": 2,
+    "cost": 480,
+    "requiredResource": "Antimatter",
+    "requiredResourceCount": 1,
+    "requiredTech": "C-Fractional Thrust",
+    "uniques": [
+      "Destroys [in all cities] cities instead of capturing",
+      "[-3] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-2] Sight <in [High Flux Space] tiles> <hidden from users>",
+      "[-1] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
+      "[-2] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-2] Movement <in [High Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
+      "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+      "[+4] Sight",
+      "Ranged attacks may be performed over obstacles <hidden from users>",
+      "No damage penalty for wounded units",
+      "Can carry [1] [Stored Breach Pod] units",
+      "Can carry [10] [Slug] units"
+    ]
+  },
+  {
+    "name": "Swarm Kilde",
+    "unitType": "Bio-Unit",
+    "strength": 7,
+    "movement": 3,
+    "cost": 60,
+    "requiredTech": "Xeno-Genetics",
+    "upgradesTo": "Symbiote Stalker",
+    "obsoleteWith": "Neural Parasitology",
+    "uniques": [
+      "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+      "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+      "[10] HP when healing",
+      "Can carry [3] [Slug] units"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Engineered microbial clouds capable of consuming unshielded hull plating and clogging enemy heat exchangers."
+      }
+    ]
+  },
+  {
+    "name": "Symbiote Stalker",
+    "unitType": "Bio-Unit",
+    "strength": 17,
+    "movement": 4,
+    "cost": 180,
+    "requiredTech": "Neural Parasitology",
+    "upgradesTo": "Apex Bio-Titan",
+    "uniques": [
+      "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+      "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+      "[20] HP when healing",
+      "Can carry [1] [Stored Breach Pod] units",
+      "Can carry [5] [Slug] units"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A chimeric organism fused directly with neural interface strands, tracking targets through shared sensory ganglia."
+      }
+    ]
+  },
+  {
+    "name": "Apex Bio-Titan",
+    "unitType": "Bio-Unit",
+    "strength": 28,
+    "movement": 5,
+    "cost": 640,
+    "requiredTech": "Hive-Mind Engineering",
+    "requiredResource": "Uranium",
+    "requiredResourceCost": 10,
+    "upgradesTo": "Bio-Dreadnaught",
+    "uniques": [
+      "[-2] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-2] Sight <in [High Flux Space] tiles> <hidden from users>",
+      "[-1] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+      "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+      "[+2] Sight",
+      "[30] HP when healing",
+      "Can carry [1] [Stored Breach Pod] units",
+      "Can carry [7] [Slug] units"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A colossal engineered leviathan capable of surviving hard vacuum conditions via thick chitinous plating and internal fusion-bioreactors."
+      }
+    ]
+  },
+  {
+    "name": "Bio-Dreadnaught",
+    "unitType": "Bio-Unit",
+    "strength": 33,
+    "movement": 5,
+    "cost": 700,
+    "requiredTech": "Bio-Singularity",
+    "requiredResource": "Antimatter",
+    "requiredResourceCost": 1,
+    "uniques": [
+      "[-3] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-2] Sight <in [High Flux Space] tiles> <hidden from users>",
+      "[-1] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
+      "[-2] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-2] Movement <in [High Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
+      "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+      "[+3] Sight",
+      "[40] HP when healing",
+      "Can carry [2] [Stored Breach Pod] units",
+      "Can carry [6] [Slug] units"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A supreme organic dreadnaught grown in zero-flux nurseries, housing localized singularity cores within its visceral chambers."
+      }
+    ]
+  },
+  {
+    "name": "Slug",
+    "unitType": "Slug",
+    "strength": 3,
+    "range": 3,
+    "rangedStrength": 3,
+    "movement": 1,
+    "cost": 5,
+    "obsoleteWith": "Bio-Hybridization",
+    "uniques": [
+      "[+4] Range <when carried by [Broadside Hull] units>",
+      "[+500]% Strength <when carried by [Broadside Hull] units>",
+      "[+3] Range <when carried by [Cannonade Vessel] units>",
+      "[+480]% Strength <when carried by [Cannonade Vessel] units>",
+      "[+300]% Strength <when carried by [Orbital Fortress] units>"
+    ]
+  },
+  {
+    "name": "Swarm Slug",
+    "unitType": "Slug",
+    "strength": 3,
+    "rangedStrength": 3,
+    "range": 3,
+    "movement": 1,
+    "cost": 5,
+    "obsoleteWith": "Bio-Hybridization",
+    "requiredTech": "Xeno-Genetics",
+    "uniques": [
+      "May capture killed [All] units",
+      "[+4] Range <when carried by [Broadside Hull] units>",
+      "[+500]% Strength <when carried by [Broadside Hull] units>",
+      "[+3] Range <when carried by [Cannonade Vessel] units>",
+      "[+480]% Strength <when carried by [Cannonade Vessel] units>",
+      "[+300]% Strength <when carried by [Orbital Fortress] units>"
+    ]
+  },
+  {
+    "name": "Nano Infester",
+    "unitType": "Slug",
+    "rangedStrength": 5,
+    "strength": 5,
+    "movement": 1,
+    "range": 7,
+    "cost": 7,
+    "requiredTech": "Bio-Hybridization",
+    "uniques": [
+      "May capture killed [All] units",
+      "[+4] Range <when carried by [Broadside Hull] units>",
+      "[+500]% Strength <when carried by [Broadside Hull] units>",
+      "[+3] Range <when carried by [Cannonade Vessel] units>",
+      "[+480]% Strength <when carried by [Cannonade Vessel] units>",
+      "[+300]% Strength <when carried by [Orbital Fortress] units>"
+    ]
+  },
+  {
+    "name": "Modified Dreadnaught Engine",
+    "unitType": "Civilian",
+    "cost": 750,
+    "movement": 2,
+    "requiredTech": "Graviton Manipulation",
+    "uniques": [
+      "Spaceship part",
+      "Cannot be purchased",
+      "Uncapturable",
+      "Can be added to [The Spaceship] in the Capital",
+      "Limited to [2] per Civilization"
+    ]
+  },
+  {
+    "name": "SL Chamber",
+    "unitType": "Civilian",
+    "cost": 500,
+    "movement": 2,
+    "requiredTech": "Graviton Manipulation",
+    "uniques": [
+      "Spaceship part",
+      "Cannot be purchased",
+      "Uncapturable",
+      "Can be added to [The Spaceship] in the Capital",
+      "Limited to [1] per Civilization"
+    ]
+  },
+  {
+    "name": "SL Stabilizer",
+    "unitType": "Civilian",
+    "cost": 600,
+    "movement": 2,
+    "requiredTech": "Graviton Manipulation",
+    "uniques": [
+      "Spaceship part",
+      "Cannot be purchased",
+      "Uncapturable",
+      "Can be added to [The Spaceship] in the Capital",
+      "Limited to [3] per Civilization"
+    ]
+  },
+  {
+    "name": "SL Mass Inverter",
+    "unitType": "Civilian",
+    "cost": 850,
+    "movement": 2,
+    "requiredTech": "Graviton Manipulation",
+    "uniques": [
+      "Spaceship part",
+      "Cannot be purchased",
+      "Uncapturable",
+      "Can be added to [The Spaceship] in the Capital",
+      "Limited to [3] per Civilization"
+    ]
+  }
 ]
