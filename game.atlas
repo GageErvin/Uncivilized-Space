@@ -80,14 +80,14 @@ UnitIcons/Nano Infester
   orig: 260, 157
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Tiles/Orbital Missile Creche
+TileSets/UncivilizedSpace/Units/Orbital Missile Creche
   rotate: false
   xy: 1487, 2
   size: 258, 153
   orig: 258, 153
   offset: 0, 0
   index: -1
-ImprovementIcons/Orbital Missile Creche
+UnitIcons/Orbital Missile Creche
   rotate: false
   xy: 1487, 2
   size: 258, 153
