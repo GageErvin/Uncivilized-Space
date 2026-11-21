@@ -1,375 +1,473 @@
 [
-  {
-    "name": "Matrix Simulation Pods",
-    "uniques": [
-      "Marks a barbarian camp",
-      "Unbuildable",
-      "Unpillagable",
-      "Excluded from map editor"
-    ],
-    "terrainsCanBeBuiltOn": [
-      "Ringed Terrestrial Planet",
-      "Gas Giant",
-      "Ringed Gas Giant",
-      "Ice Giant",
-      "Ringed Ice Giant",
-      "Cragolith Moon",
-      "Cryolith Moon",
-      "Blue Marble",
-      "Blue World",
-      "Dull-Green Marble",
-      "Fuzzy-Blue Gas",
-      "Fuzzy-Green Gas",
-      "Light-Orange Marble",
-      "Orange Marble",
-      "Orange-Black Marble",
-      "Silver-Grey Marble",
-      "Stony Marble",
-      "Yellow-Green-Blue Marble"
-    ]
-  },
-  {
-    "name": "Skynet Command Bunker",
-    "uniques": [
-      "Gives a defensive bonus of [+20]%",
-      "Marks a barbarian camp",
-      "Unbuildable",
-      "Unpillagable",
-      "Excluded from map editor"
-    ],
-    "terrainsCanBeBuiltOn": [
-      "Ringed Terrestrial Planet",
-      "Gas Giant",
-      "Ringed Gas Giant",
-      "Ice Giant",
-      "Ringed Ice Giant",
-      "Cragolith Moon",
-      "Cryolith Moon",
-      "Blue Marble",
-      "Blue World",
-      "Dull-Green Marble",
-      "Fuzzy-Blue Gas",
-      "Fuzzy-Green Gas",
-      "Light-Orange Marble",
-      "Orange Marble",
-      "Orange-Black Marble",
-      "Silver-Grey Marble",
-      "Stony Marble",
-      "Yellow-Green-Blue Marble"
-    ]
-  },
-  {
-    "name": "Over-Caregiver Enclave",
-    "uniques": [
-      "Marks a barbarian camp",
-      "Unbuildable",
-      "Unpillagable",
-      "Excluded from map editor"
-    ],
-    "terrainsCanBeBuiltOn": [
-      "Ringed Terrestrial Planet",
-      "Gas Giant",
-      "Ringed Gas Giant",
-      "Ice Giant",
-      "Ringed Ice Giant",
-      "Cragolith Moon",
-      "Cryolith Moon",
-      "Blue Marble",
-      "Blue World",
-      "Dull-Green Marble",
-      "Fuzzy-Blue Gas",
-      "Fuzzy-Green Gas",
-      "Light-Orange Marble",
-      "Orange Marble",
-      "Orange-Black Marble",
-      "Silver-Grey Marble",
-      "Stony Marble",
-      "Yellow-Green-Blue Marble"
-    ]
-  },
-  {
-    "name": "Cancel improvement order",
-    "uniques": [
-      "Can be built outside your borders",
-      "Excluded from map editor"
-    ],
-    "shortcutKey": "."
-  },
-  {
-    "name": "Magnetic Acceleration Relay",
-    "turnsToBuild": 10,
-    "uniques": [
-      "Costs [1] [Gold] per turn",
-      "Can be built just outside your borders",
-      "Gain control over [Unowned] tiles in a [1]-tile radius"
-    ],
-    "shortcutKey": "R",
-    "civilopediaText": [
-      {
-        "text": "Reduces movement cost of the other tile also has a Relay"
-      }
-    ],
-    "terrainsCanBeBuiltOn": [
-      "Zero Flux Space",
-      "Low Flux Space",
-      "Moderate Flux Space"
-    ]
-  },
-  {
-    "name": "0-G Lab",
-    "turnsToBuild": 8,
-    "uniques": [],
-    "science": 2,
-    "terrainsCanBeBuiltOn": [
-      "Zero Flux Space",
-      "Low Flux Space",
-      "Moderate Flux Space"
-    ]
-  },
-  {
-    "name": "Orbital Ship Yard",
-    "production": 3,
-    "turnsToBuild": 6,
-    "uniques": [],
-    "techRequired": "Zero-G Fabrication",
-    "terrainsCanBeBuiltOn": [
-      "Zero Flux Space",
-      "Low Flux Space",
-      "Moderate Flux Space"
-    ]
-  },
-  {
-    "name": "Solar Reflector",
-    "production": 1,
-    "turnsToBuild": 4,
-    "uniques": [],
-    "terrainsCanBeBuiltOn": [
-      "Zero Flux Space",
-      "Low Flux Space",
-      "Moderate Flux Space"
-    ]
-  },
-  {
-    "name": "Particulate Collection Array",
-    "production": 1,
-    "gold": 1,
-    "turnsToBuild": 6,
-    "techRequired": "Pre-Tracting Ionization",
-    "terrainsCanBeBuiltOn": [
-      "Moderate Flux Space",
-      "Low Flux Space",
-      "Zero Flux Space"
-    ],
-    "uniques": [
-      "[+2 Gold, +1 Production] for each adjacent [Debris Fields]",
-      "[+1 Production] for each adjacent [High Flux Space]",
-      "[+1 Gold, +1 Production] for each adjacent [Extreme Flux Space]"
-    ]
-  },
-  {
-    "name": "Deep Space Radar Array Woumb",
-    "turnsToBuild": 8,
-    "RGB": [
-      24,
-      29,
-      24
-    ],
-    "uniques": [
-      "Free [Deep Space Radar Array] appears"
-    ],
-    "terrainsCanBeBuiltOn": [
-      "Zero Flux Space",
-      "Low Flux Space",
-      "Moderate Flux Space"
-    ]
-  },
-  {
-    "name": "Orbital Missile Creche Woumb",
-    "turnsToBuild": 8,
-    "techRequired": "Expert Systems",
-    "RGB": [
-      24,
-      29,
-      24
-    ],
-    "uniques": [
-      "Free [Orbital Missile Creche] appears"
-    ],
-    "terrainsCanBeBuiltOn": [
-      "Zero Flux Space",
-      "Low Flux Space",
-      "Moderate Flux Space"
-    ]
-  },
-  {
-    "name": "Orbital Fortress Woumb 1",
-    "turnsToBuild": 6,
-    "techRequired": "Orbital Swarming",
-    "terrainsCanBeBuiltOn": [
-      "Zero Flux Space",
-      "Low Flux Space",
-      "Moderate Flux Space"
-    ]
-  },
-  {
-    "name": "Orbital Fortress Woumb 2",
-    "turnsToBuild": 6,
-    "uniques": [
-      "Free [Orbital Fortress] appears <after which this unit is consumed>",
-      "Must be next to [Orbital Fortress Woumb 1]"
-    ],
-    "terrainsCanBeBuiltOn": [
-      "Zero Flux Space",
-      "Low Flux Space",
-      "Moderate Flux Space"
-    ]
-  },
-  {
-    "name": "Dyson Ring Part 1",
-    "turnsToBuild": 8,
-    "techRequired": "Orbital Swarming",
-    "terrainsCanBeBuiltOn": [
-      "M4IV Star","M5IV Star","M4VI Star","M5VI Star","M3V Star","M4V Star","M5V Star","M6V Star","M7V Star","G2VII Star","K7V Star"
-    ],
-    "uniques": [
-      "[+1 Production]",
-      "[+2 Science]",
-      "[5] Sight",
-      "Unpillagable",
-      "Adjacent enemy units ending their turn take [15] damage",
-      "Costs [2] [Gold] per turn when in your territory"
-    ]
-  },
-  {
-    "name": "Dyson Ring Part 2",
-    "turnsToBuild": 10,
-    "techRequired": "Refactoring - 2",
-    "terrainsCanBeBuiltOn": [
-      "Land", "Water"
-    ],
-    "uniques": [
-      "Can only be built on [Dyson Ring Part 1] tiles",
-      "[+3 Production]",
-      "[+2 Science]",
-      "[8] Sight",
-      "Unpillagable",
-      "Adjacent enemy units ending their turn take [30] damage",
-      "Gives a defensive bonus of [+15]%",
-      "Costs [3] [Gold] per turn when in your territory"
-    ]
-  },
-  {
-    "name": "Dyson Ring Part 3",
-    "turnsToBuild": 12,
-    "terrainsCanBeBuiltOn": [
-      "Land", "Water"
-    ],
-    "uniques": [
-      "Can only be built on [Dyson Ring Part 2] tiles",
-      "[+5 Production]",
-      "[+2 Science]",
-      "[13] Sight",
-      "Unpillagable",
-      "Adjacent enemy units ending their turn take [45] damage",
-      "Gives a defensive bonus of [+30]%",
-      "Costs [6] [Gold] per turn when in your territory"
-    ]
-  },
-  {
-    "name": "Dyson Ring",
-    "turnsToBuild": 14,
-    "techRequired": "Macro Swarming",
-    "terrainsCanBeBuiltOn": [
-      "Land", "Water"
-    ],
-    "uniques": [
-      "Can only be built on [Dyson Ring Part 3] tiles",
-      "[+8 Production]",
-      "[+2 Science]",
-      "[21] Sight",
-      "Unpillagable",
-      "Adjacent enemy units ending their turn take [60] damage",
-      "Gives a defensive bonus of [+45]%"
-    ]
-  },
-  {
-    "name": "City center",
-    "terrainsCanBeBuiltOn": [
-      "Land"
-    ],
-    "uniques": [
-      "Ensures a minimum tile yield of [+2 Food, +3 Production]",
-      "Unpillagable",
-      "Irremovable",
-      "Unbuildable",
-      "Excluded from map editor"
-    ],
-    "civilopediaText": [
-      {
-        "text": "Marks the center of a city"
-      }
-    ]
-  },
-  {
-    "name": "Flux Resonance Array",
-    "turnsToBuild": 8,
-    "science": 2,
-    "techRequired": "High Efficiency Fusion",
-    "terrainsCanBeBuiltOn": [
-      "High Flux Space",
-      "Extreme Flux Space"
-    ],
-    "uniques": [
-      "[+1 Production] for each adjacent [High Flux Space]",
-      "[+2 Production] for each adjacent [Extreme Flux Space]"
-    ],
-    "civilopediaText": [
-      {
-        "text": "A heavily insulated collector grid anchored near volatile stellar anomalies, converting raw ambient energy flux into stable industrial and research feeds."
-      }
-    ]
-  },
-  {
-    "name": "Magnetic Anti-Matter Guide",
-    "turnsToBuild": 8,
-    "science": 1,
-    "uniques": [
-      "Can only be built to improve a resource"
-    ]
-  },
-  {
-    "name": "Debris Scavenging Dock",
-    "turnsToBuild": 8,
-    "gold": 2,
-    "production": 1,
-    "techRequired": "Pre-Tracting Ionization",
-    "terrainsCanBeBuiltOn": [
-      "Debris Fields"
-    ],
-    "uniques": [
-      "[+1 Science] for each adjacent [Debris Fields]"
-    ],
-    "civilopediaText": [
-      {
-        "text": "An automated processing station that grapples, melts, and refycles derelict starship hulls, orbital wreckage, and random debris into high-grade alloy components."
-      }
-    ]
-  },
-  {
-    "name": "Cryo-Condenser Basin",
-    "turnsToBuild": 7,
-    "food": 3,
-    "production": -1,
-    "techRequired": "Cryogenics",
-    "terrainsCanBeBuiltOn": [
-      "Cryolith Moon",
-      "Ice Giant"
-    ],
-    "uniques": [],
-    "civilopediaText": [
-      {
-        "text": "Deep-freeze extraction platforms designed to synthesize volatile dietary supplements.  (・_・;)"
-      }
-    ]
-  }
+	{
+		"name": "Matrix Simulation Pods",
+		"uniques": [
+			"Marks a barbarian camp",
+			"Unbuildable",
+			"Unpillagable",
+			"Excluded from map editor"
+		],
+		"terrainsCanBeBuiltOn": [
+			"Ringed Terrestrial Planet",
+			"Gas Giant",
+			"Ringed Gas Giant",
+			"Ice Giant",
+			"Ringed Ice Giant",
+			"Cragolith Moon",
+			"Cryolith Moon",
+			"Blue Marble",
+			"Blue World",
+			"Dull-Green Marble",
+			"Fuzzy-Blue Gas",
+			"Fuzzy-Green Gas",
+			"Light-Orange Marble",
+			"Orange Marble",
+			"Orange-Black Marble",
+			"Silver-Grey Marble",
+			"Stony Marble",
+			"Yellow-Green-Blue Marble"
+		],
+		"RGB": [
+			52,
+			72,
+			64
+		]
+	},
+	{
+		"name": "Skynet Command Bunker",
+		"uniques": [
+			"Gives a defensive bonus of [+20]%",
+			"Marks a barbarian camp",
+			"Unbuildable",
+			"Unpillagable",
+			"Excluded from map editor"
+		],
+		"terrainsCanBeBuiltOn": [
+			"Ringed Terrestrial Planet",
+			"Gas Giant",
+			"Ringed Gas Giant",
+			"Ice Giant",
+			"Ringed Ice Giant",
+			"Cragolith Moon",
+			"Cryolith Moon",
+			"Blue Marble",
+			"Blue World",
+			"Dull-Green Marble",
+			"Fuzzy-Blue Gas",
+			"Fuzzy-Green Gas",
+			"Light-Orange Marble",
+			"Orange Marble",
+			"Orange-Black Marble",
+			"Silver-Grey Marble",
+			"Stony Marble",
+			"Yellow-Green-Blue Marble"
+		],
+		"RGB": [
+			50,
+			41,
+			40
+		]
+	},
+	{
+		"name": "Over-Caregiver Enclave",
+		"uniques": [
+			"Marks a barbarian camp",
+			"Unbuildable",
+			"Unpillagable",
+			"Excluded from map editor"
+		],
+		"terrainsCanBeBuiltOn": [
+			"Ringed Terrestrial Planet",
+			"Gas Giant",
+			"Ringed Gas Giant",
+			"Ice Giant",
+			"Ringed Ice Giant",
+			"Cragolith Moon",
+			"Cryolith Moon",
+			"Blue Marble",
+			"Blue World",
+			"Dull-Green Marble",
+			"Fuzzy-Blue Gas",
+			"Fuzzy-Green Gas",
+			"Light-Orange Marble",
+			"Orange Marble",
+			"Orange-Black Marble",
+			"Silver-Grey Marble",
+			"Stony Marble",
+			"Yellow-Green-Blue Marble"
+		],
+		"RGB": [
+			91,
+			90,
+			84
+		]
+	},
+	{
+		"name": "Cancel improvement order",
+		"uniques": [
+			"Can be built outside your borders",
+			"Excluded from map editor"
+		],
+		"shortcutKey": "."
+	},
+	{
+		"name": "Magnetic Acceleration Relay",
+		"turnsToBuild": 10,
+		"uniques": [
+			"Costs [1] [Gold] per turn",
+			"Can be built just outside your borders",
+			"Gain control over [Unowned] tiles in a [1]-tile radius"
+		],
+		"shortcutKey": "R",
+		"civilopediaText": [
+			{
+				"text": "Reduces movement cost of the other tile also has a Relay"
+			}
+		],
+		"terrainsCanBeBuiltOn": [
+			"Zero Flux Space",
+			"Low Flux Space",
+			"Moderate Flux Space"
+		],
+		"RGB": [
+			137,
+			120,
+			134
+		]
+	},
+	{
+		"name": "0-G Lab",
+		"turnsToBuild": 8,
+		"uniques": [],
+		"science": 2,
+		"terrainsCanBeBuiltOn": [
+			"Zero Flux Space",
+			"Low Flux Space",
+			"Moderate Flux Space"
+		],
+		"RGB": [
+			159,
+			164,
+			167
+		]
+	},
+	{
+		"name": "Orbital Ship Yard",
+		"production": 3,
+		"turnsToBuild": 6,
+		"uniques": [],
+		"techRequired": "Zero-G Fabrication",
+		"terrainsCanBeBuiltOn": [
+			"Zero Flux Space",
+			"Low Flux Space",
+			"Moderate Flux Space"
+		],
+		"RGB": [
+			114,
+			116,
+			125
+		]
+	},
+	{
+		"name": "Solar Reflector",
+		"production": 1,
+		"turnsToBuild": 4,
+		"uniques": [],
+		"terrainsCanBeBuiltOn": [
+			"Zero Flux Space",
+			"Low Flux Space",
+			"Moderate Flux Space"
+		],
+		"RGB": [
+			184,
+			198,
+			214
+		]
+	},
+	{
+		"name": "Particulate Collection Array",
+		"production": 1,
+		"gold": 1,
+		"turnsToBuild": 6,
+		"techRequired": "Pre-Tracting Ionization",
+		"terrainsCanBeBuiltOn": [
+			"Moderate Flux Space",
+			"Low Flux Space",
+			"Zero Flux Space"
+		],
+		"uniques": [
+			"[+2 Gold, +1 Production] for each adjacent [Debris Fields]",
+			"[+1 Production] for each adjacent [High Flux Space]",
+			"[+1 Gold, +1 Production] for each adjacent [Extreme Flux Space]"
+		],
+		"RGB": [
+			146,
+			158,
+			172
+		]
+	},
+	{
+		"name": "Deep Space Radar Array Woumb",
+		"turnsToBuild": 8,
+		"RGB": [
+			71,
+			66,
+			63
+		],
+		"uniques": [
+			"Free [Deep Space Radar Array] appears"
+		],
+		"terrainsCanBeBuiltOn": [
+			"Zero Flux Space",
+			"Low Flux Space",
+			"Moderate Flux Space"
+		]
+	},
+	{
+		"name": "Orbital Missile Creche Woumb",
+		"turnsToBuild": 8,
+		"techRequired": "Expert Systems",
+		"RGB": [
+			71,
+			66,
+			63
+		],
+		"uniques": [
+			"Free [Orbital Missile Creche] appears"
+		],
+		"terrainsCanBeBuiltOn": [
+			"Zero Flux Space",
+			"Low Flux Space",
+			"Moderate Flux Space"
+		]
+	},
+	{
+		"name": "Orbital Fortress Woumb 1",
+		"turnsToBuild": 6,
+		"techRequired": "Orbital Swarming",
+		"terrainsCanBeBuiltOn": [
+			"Zero Flux Space",
+			"Low Flux Space",
+			"Moderate Flux Space"
+		]
+	},
+	{
+		"name": "Orbital Fortress Woumb 2",
+		"turnsToBuild": 6,
+		"uniques": [
+			"Free [Orbital Fortress] appears <after which this unit is consumed>",
+			"Must be next to [Orbital Fortress Woumb 1]"
+		],
+		"terrainsCanBeBuiltOn": [
+			"Zero Flux Space",
+			"Low Flux Space",
+			"Moderate Flux Space"
+		]
+	},
+	{
+		"name": "Dyson Ring Part 1",
+		"turnsToBuild": 8,
+		"techRequired": "Orbital Swarming",
+		"terrainsCanBeBuiltOn": [
+			"M4IV Star",
+			"M5IV Star",
+			"M4VI Star",
+			"M5VI Star",
+			"M3V Star",
+			"M4V Star",
+			"M5V Star",
+			"M6V Star",
+			"M7V Star",
+			"G2VII Star",
+			"K7V Star"
+		],
+		"uniques": [
+			"[+1 Production]",
+			"[+2 Science]",
+			"[5] Sight",
+			"Unpillagable",
+			"Adjacent enemy units ending their turn take [15] damage",
+			"Costs [2] [Gold] per turn when in your territory"
+		],
+		"RGB": [
+			100,
+			101,
+			98
+		]
+	},
+	{
+		"name": "Dyson Ring Part 2",
+		"turnsToBuild": 10,
+		"techRequired": "Refactoring - 2",
+		"terrainsCanBeBuiltOn": [
+			"Land",
+			"Water"
+		],
+		"uniques": [
+			"Can only be built on [Dyson Ring Part 1] tiles",
+			"[+3 Production]",
+			"[+2 Science]",
+			"[8] Sight",
+			"Unpillagable",
+			"Adjacent enemy units ending their turn take [30] damage",
+			"Gives a defensive bonus of [+15]%",
+			"Costs [3] [Gold] per turn when in your territory"
+		],
+		"RGB": [
+			100,
+			101,
+			98
+		]
+	},
+	{
+		"name": "Dyson Ring Part 3",
+		"turnsToBuild": 12,
+		"terrainsCanBeBuiltOn": [
+			"Land",
+			"Water"
+		],
+		"uniques": [
+			"Can only be built on [Dyson Ring Part 2] tiles",
+			"[+5 Production]",
+			"[+2 Science]",
+			"[13] Sight",
+			"Unpillagable",
+			"Adjacent enemy units ending their turn take [45] damage",
+			"Gives a defensive bonus of [+30]%",
+			"Costs [6] [Gold] per turn when in your territory"
+		],
+		"RGB": [
+			96,
+			96,
+			94
+		]
+	},
+	{
+		"name": "Dyson Ring",
+		"turnsToBuild": 14,
+		"techRequired": "Macro Swarming",
+		"terrainsCanBeBuiltOn": [
+			"Land",
+			"Water"
+		],
+		"uniques": [
+			"Can only be built on [Dyson Ring Part 3] tiles",
+			"[+8 Production]",
+			"[+2 Science]",
+			"[21] Sight",
+			"Unpillagable",
+			"Adjacent enemy units ending their turn take [60] damage",
+			"Gives a defensive bonus of [+45]%"
+		],
+		"RGB": [
+			104,
+			104,
+			102
+		]
+	},
+	{
+		"name": "City center",
+		"terrainsCanBeBuiltOn": [
+			"Land"
+		],
+		"uniques": [
+			"Ensures a minimum tile yield of [+2 Food, +3 Production]",
+			"Unpillagable",
+			"Irremovable",
+			"Unbuildable",
+			"Excluded from map editor"
+		],
+		"civilopediaText": [
+			{
+				"text": "Marks the center of a city"
+			}
+		],
+		"RGB": [
+			123,
+			132,
+			144
+		]
+	},
+	{
+		"name": "Flux Resonance Array",
+		"turnsToBuild": 8,
+		"science": 2,
+		"techRequired": "High Efficiency Fusion",
+		"terrainsCanBeBuiltOn": [
+			"High Flux Space",
+			"Extreme Flux Space"
+		],
+		"uniques": [
+			"[+1 Production] for each adjacent [High Flux Space]",
+			"[+2 Production] for each adjacent [Extreme Flux Space]"
+		],
+		"civilopediaText": [
+			{
+				"text": "A heavily insulated collector grid anchored near volatile stellar anomalies, converting raw ambient energy flux into stable industrial and research feeds."
+			}
+		],
+		"RGB": [
+			119,
+			128,
+			138
+		]
+	},
+	{
+		"name": "Magnetic Anti-Matter Guide",
+		"turnsToBuild": 8,
+		"science": 1,
+		"uniques": [
+			"Can only be built to improve a resource"
+		],
+		"RGB": [
+			78,
+			66,
+			75
+		]
+	},
+	{
+		"name": "Debris Scavenging Dock",
+		"turnsToBuild": 8,
+		"gold": 2,
+		"production": 1,
+		"techRequired": "Pre-Tracting Ionization",
+		"terrainsCanBeBuiltOn": [
+			"Debris Fields"
+		],
+		"uniques": [
+			"[+1 Science] for each adjacent [Debris Fields]"
+		],
+		"civilopediaText": [
+			{
+				"text": "An automated processing station that grapples, melts, and refycles derelict starship hulls, orbital wreckage, and random debris into high-grade alloy components."
+			}
+		],
+		"RGB": [
+			95,
+			111,
+			129
+		]
+	},
+	{
+		"name": "Cryo-Condenser Basin",
+		"turnsToBuild": 7,
+		"food": 3,
+		"production": -1,
+		"techRequired": "Cryogenics",
+		"terrainsCanBeBuiltOn": [
+			"Cryolith Moon",
+			"Ice Giant"
+		],
+		"uniques": [],
+		"civilopediaText": [
+			{
+				"text": "Deep-freeze extraction platforms designed to synthesize volatile dietary supplements.  (・_・;)"
+			}
+		],
+		"RGB": [
+			105,
+			114,
+			123
+		]
+	}
 ]
