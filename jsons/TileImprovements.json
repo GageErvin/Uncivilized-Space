@@ -203,6 +203,38 @@
     ]
   },
   {
+    "name": "Dyson Ring Part 1",
+    "turnsToBuild": 10,
+    "techRequired": "Orbital Swarming",
+    "terrainsCanBeBuiltOn": [],
+    "uniques": [
+      "[+1 Production]",
+      "[+2 Science]",
+      "[5] Sight",
+      "Unpillagable",
+      "Irremovable",
+      "Adjacent enemy units ending their turn take [15] damage",
+      "Costs [2] [Gold] per turn when in your territory"
+    ]
+  },
+  {
+    "name": "Dyson Ring Part 2",
+    "turnsToBuild": 10,
+    "techRequired": "Refactoring - 2",
+    "terrainsCanBeBuiltOn": [],
+    "uniques": [
+      "Can only be built on [Dyson Ring Part 1] tiles",
+      "[+3 Production]",
+      "[+2 Science]",
+      "[7] Sight",
+      "Unpillagable",
+      "Irremovable",
+      "Adjacent enemy units ending their turn take [30] damage",
+      "Gives a defensive bonus of [+15]%",
+      "Costs [3] [Gold] per turn when in your territory"
+    ]
+  },
+  {
     "name": "City center",
     "terrainsCanBeBuiltOn": [
       "Land"
