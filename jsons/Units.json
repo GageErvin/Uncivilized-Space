@@ -15,11 +15,20 @@
         "unitType": "Drone",
         "movement": 0,
         "uniques": [
-            "Can carry [8] [Munition] units",
-            "[1] Movement",
-            "Transfer Movement to [Munition]",
+            "Can carry [4] [Munition] units",
             "Unbuildable",
             "Cannot move"
+        ]
+    },
+    {
+        "name": "Orbital Fortress",
+        "unitType": "Military",
+        "movement": 1,
+        "uniques": [
+            "[+125]% Strength bonus for [All] units within [1] tiles <when defending>",
+            "Can carry [8] [Slug] units",
+            "Unbuildable",
+            "Cannot move <in tiles adjacent to [City center] tiles>"
         ]
     },
     {
@@ -1007,11 +1016,12 @@
             "[+4] Range <when carried by [Broadside Hull] units>",
             "[+500]% Strength <when carried by [Broadside Hull] units>",
             "[+3] Range <when carried by [Cannonade Vessel] units>",
-            "[+480]% Strength <when carried by [Cannonade Vessel] units>"
+            "[+480]% Strength <when carried by [Cannonade Vessel] units>",
+            "[+300]% Strength <when carried by [Orbital Fortress] units>"
         ]
     },
     {
-        "name": "Spore Slug",
+        "name": "Swarm Slug",
         "unitType": "Slug",
         "strength": 3,
         "rangedStrength": 3,
@@ -1025,7 +1035,8 @@
             "[+4] Range <when carried by [Broadside Hull] units>",
             "[+500]% Strength <when carried by [Broadside Hull] units>",
             "[+3] Range <when carried by [Cannonade Vessel] units>",
-            "[+480]% Strength <when carried by [Cannonade Vessel] units>"
+            "[+480]% Strength <when carried by [Cannonade Vessel] units>",
+            "[+300]% Strength <when carried by [Orbital Fortress] units>"
         ]
     },
     {
@@ -1042,7 +1053,8 @@
             "[+4] Range <when carried by [Broadside Hull] units>",
             "[+500]% Strength <when carried by [Broadside Hull] units>",
             "[+3] Range <when carried by [Cannonade Vessel] units>",
-            "[+480]% Strength <when carried by [Cannonade Vessel] units>"
+            "[+480]% Strength <when carried by [Cannonade Vessel] units>",
+            "[+300]% Strength <when carried by [Orbital Fortress] units>"
         ]
     },
     {
