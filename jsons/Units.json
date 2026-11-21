@@ -28,8 +28,8 @@
         "uniques": [
             "[+125]% Strength bonus for [All] units within [1] tiles <when defending>",
             "Can carry [8] [Slug] units",
-            "Unbuildable",
-            "Cannot move <in tiles adjacent to [City center] tiles>"
+            "Unbuildable"
+            //"Cannot move <in tiles adjacent to [City center] tiles>"
         ]
     },
     {
