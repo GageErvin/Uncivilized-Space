@@ -214,7 +214,7 @@
       "[+2 Science]",
       "[5] Sight",
       "Unpillagable",
-      "Irremovable",
+      //"Irremovable",
       "Adjacent enemy units ending their turn take [15] damage",
       "Costs [2] [Gold] per turn when in your territory"
     ]
@@ -226,13 +226,14 @@
     "terrainsCanBeBuiltOn": [
       "M4IV Star","M5IV Star","M4VI Star","M5VI Star","M3V Star","M4V Star","M5V Star","M6V Star","M7V Star","G2VII Star","K7V Star"
     ],
+    "replaces": "Dyson Ring Part 1",
     "uniques": [
       "Can only be built on [Dyson Ring Part 1] tiles",
       "[+3 Production]",
       "[+2 Science]",
       "[7] Sight",
       "Unpillagable",
-      "Irremovable",
+      //"Irremovable",
       "Adjacent enemy units ending their turn take [30] damage",
       "Gives a defensive bonus of [+15]%",
       "Costs [3] [Gold] per turn when in your territory"
