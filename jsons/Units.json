@@ -15,11 +15,20 @@
         "unitType": "Drone",
         "movement": 0,
         "uniques": [
-            "Can carry [8] [Munition] units",
-            "[1] Movement",
-            "Transfer Movement to [Munition]",
+            "Can carry [4] [Munition] units",
             "Unbuildable",
             "Cannot move"
+        ]
+    },
+    {
+        "name": "Orbital Fortress",
+        "unitType": "Military",
+        "movement": 1,
+        "uniques": [
+            "[+125]% Strength bonus for [All] units within [1] tiles <when defending>",
+            "Can carry [8] [Slug] units",
+            "Unbuildable",
+            "Cannot move <in tiles not adjacent to [cityCenter] tiles>"
         ]
     },
     {
