@@ -119,11 +119,6 @@
       "Gain control over [Unowned] tiles in a [1]-tile radius"
     ],
     "shortcutKey": "R",
-    "civilopediaText": [
-      {
-        "text": "Reduces movement cost of the other tile also has a Relay"
-      }
-    ],
     "terrainsCanBeBuiltOn": [
       "Zero Flux Space",
       "Low Flux Space",
@@ -155,7 +150,6 @@
     "name": "Orbital Ship Yard",
     "production": 3,
     "turnsToBuild": 6,
-    "uniques": [],
     "techRequired": "Zero-G Fabrication",
     "terrainsCanBeBuiltOn": [
       "Zero Flux Space",
@@ -166,6 +160,31 @@
       114,
       116,
       125
+    ]
+  },
+  {
+    "name": "Mine",
+    "production": 3,
+    "turnsToBuild":11,
+    "terrainsCanBeBuiltOn": [
+      "Dull-Green Marble",
+      "Light-Orange Marble",
+      "Orange Marble",
+      "Orange-Black Marble",
+      "Silver-Grey Marble",
+      "Stony Marble",
+      "Yellow-Green-Blue Marble"
+    ]
+  },
+  {
+    "name": "Gas Harvester",
+    "production": 2,
+    "turnsToBuild":9,
+    "terrainsCanBeBuiltOn": [
+      "Gas Giant",
+      "Ringed Gas Giant",
+      "Fuzzy-Blue Gas",
+      "Fuzzy-Green Gas"
     ]
   },
   {
@@ -275,6 +294,39 @@
     ]
   },
   {
+    "name": "Resort",
+    "happiness": 1,
+    "culture": 1,
+    "gold":1,
+    "production":-1,
+    "turnsToBuild":8,
+    "uniques": [
+      "Cannot be built on [Grand Resort] tiles"
+    ],
+    "terrainsCanBeBuiltOn": [
+      "Blue Marble",
+      "Blue World",
+      "Dull-Green Marble",
+      "Silver-Grey Marble",
+      "Yellow-Green-Blue Marble"
+    ]
+  },
+  {
+    "name": "Grand Resort",
+    "happiness": 2,
+    "culture": 1,
+    "gold":3,
+    "production":-1,
+    "turnsToBuild":8,
+    "terrainsCanBeBuiltOn": [
+      "Land",
+      "Water"
+    ],
+    "uniques": [
+      "Can only be built on [Resort] tiles"
+    ]
+  },
+  {
     "name": "Dyson Ring Part 1",
     "turnsToBuild": 8,
     "techRequired": "Orbital Swarming",
@@ -292,6 +344,10 @@
       "K7V Star"
     ],
     "uniques": [
+      "Cannot be built on [Dyson Ring Part 1] tiles",
+      "Cannot be built on [Dyson Ring Part 2] tiles",
+      "Cannot be built on [Dyson Ring Part 3] tiles",
+      "Cannot be built on [Dyson Ring] tiles",
       "[+1 Production]",
       "[+2 Science]",
       "[5] Sight",
