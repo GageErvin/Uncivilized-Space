@@ -477,6 +477,80 @@
     ]
   },
   {
+    "name": "Barbarian Fighter",
+    "unitType": "Barbarian",
+    "strength": 2,
+    "rangedStrength": 5,
+    "range": 4,
+    "movement": 2,
+    "cost": 85,
+    "uniques": [
+      "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [High Flux Space] tiles> <hidden from users>"
+    ]
+  },
+  {
+    "name": "Barbarian Enforcer",
+    "unitType": "Barbarian",
+    "strength": 2,
+    "rangedStrength": 5,
+    "range": 4,
+    "movement": 2,
+    "cost": 100,
+    "requiredTech": "Kaizen I",
+    "uniques": [
+      "[+35]% Strength <when attaching>",
+      "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [High Flux Space] tiles> <hidden from users>"
+    ]
+  },
+  {
+    "name": "Barbarian Corvette",
+    "unitType": "Barbarian",
+    "strength": 5,
+    "rangedStrength": 7,
+    "range": 4,
+    "movement": 3,
+    "cost": 145,
+    "requiredTech": "Kaizen II",
+    "uniques": [
+      "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+      "[+1] Sight",
+      "[+45]% Strength <when attaching>"
+    ]
+  },
+  {
+    "name": "Barbarian Destroyer",
+    "unitType": "Barbarian",
+    "strength": 6,
+    "rangedStrength": 12,
+    "range": 3,
+    "movement": 3,
+    "cost": 230,
+    "requiredTech": "Kaizen IV",
+    "uniques": [
+      "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+      "[+2] Sight",
+      "[+15]% Strength <when attaching>"
+    ]
+  },
+  {
+    "name": "Barbarian Stealth Ship",
+    "unitType": "Barbarian",
+    "strength": 2,
+    "movement": 4,
+    "cost": 160,
+    "requiredTech": "Kaizen III",
+    "uniques": [
+      "Invisible to non-adjacent units",
+      "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+      "[+2] Movement <in [Magnetic Acceleration Relay] tiles>"
+    ]
+  },
+  {
     "name": "Laser Corvette",
     "unitType": "Military",
     "strength": 6,
