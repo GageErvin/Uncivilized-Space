@@ -23,9 +23,6 @@ Launch missiles, Conquer space. Enable 'permanent audio-visual mod.'
 ## TODO
 
 - add another culture mechanic
-- ensure ring 1 cannot be built on 2,3,4
-- check tech for hard sci-fi
-- added Resort, Grand Resort, Mine, Gas Harvester, Barbarian Fighter, Barbarian Enforcer, Barbarian Corvette, Barbarian Destroyer, Barbarian Stealth Ship
 - spread sublight debris (instant improvement when not having cooldown promotion <not on improvement>, Remove [improvementFilter] improvements from this tile <>)
 
 ## Test
