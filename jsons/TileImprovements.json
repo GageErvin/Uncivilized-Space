@@ -165,7 +165,7 @@
   {
     "name": "Mine",
     "production": 3,
-    "turnsToBuild":11,
+    "turnsToBuild": 11,
     "terrainsCanBeBuiltOn": [
       "Dull-Green Marble",
       "Light-Orange Marble",
@@ -174,17 +174,27 @@
       "Silver-Grey Marble",
       "Stony Marble",
       "Yellow-Green-Blue Marble"
+    ],
+    "RGB": [
+      76,
+      72,
+      77
     ]
   },
   {
     "name": "Gas Harvester",
     "production": 2,
-    "turnsToBuild":9,
+    "turnsToBuild": 9,
     "terrainsCanBeBuiltOn": [
       "Gas Giant",
       "Ringed Gas Giant",
       "Fuzzy-Blue Gas",
       "Fuzzy-Green Gas"
+    ],
+    "RGB": [
+      90,
+      95,
+      104
     ]
   },
   {
@@ -297,9 +307,9 @@
     "name": "Resort",
     "happiness": 1,
     "culture": 1,
-    "gold":1,
-    "production":-1,
-    "turnsToBuild":8,
+    "gold": 1,
+    "production": -1,
+    "turnsToBuild": 8,
     "uniques": [
       "Cannot be built on [Grand Resort] tiles"
     ],
@@ -309,21 +319,31 @@
       "Dull-Green Marble",
       "Silver-Grey Marble",
       "Yellow-Green-Blue Marble"
+    ],
+    "RGB": [
+      117,
+      129,
+      112
     ]
   },
   {
     "name": "Grand Resort",
     "happiness": 2,
     "culture": 1,
-    "gold":3,
-    "production":-1,
-    "turnsToBuild":8,
+    "gold": 3,
+    "production": -1,
+    "turnsToBuild": 8,
     "terrainsCanBeBuiltOn": [
       "Land",
       "Water"
     ],
     "uniques": [
       "Can only be built on [Resort] tiles"
+    ],
+    "RGB": [
+      112,
+      127,
+      118
     ]
   },
   {
