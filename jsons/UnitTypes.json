@@ -248,6 +248,19 @@
         ]
     },
     {
+        "name": "Barbarian",
+        "movementType": "Land",
+        "uniques": [
+            "Unbuildable <for [Any] Civilizations> <hidden from users>",
+            "May travel on Water tiles without embarking <hidden from users>",
+            "Ignores terrain cost <hidden from users>",
+            "Eliminates combat penalty for attacking over a river <hidden from users>",
+            "Eliminates combat penalty for attacking across a coast <hidden from users>",
+            "May heal outside of friendly territory",
+            "Gain [5] [Culture]"
+        ]
+    },
+    {
         "name": "Spore",
         "movementType": "Land",
         "uniques": [
