@@ -484,6 +484,7 @@
     "range": 4,
     "movement": 2,
     "cost": 85,
+    "uniqueTo": "Barbarians",
     "uniques": [
       "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
       "[-1] Movement <in [High Flux Space] tiles> <hidden from users>"
@@ -498,6 +499,7 @@
     "movement": 2,
     "cost": 100,
     "requiredTech": "Kaizen I",
+    "uniqueTo": "Barbarians",
     "uniques": [
       "[+35]% Strength <when attaching>",
       "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
@@ -513,6 +515,7 @@
     "movement": 3,
     "cost": 145,
     "requiredTech": "Kaizen II",
+    "uniqueTo": "Barbarians",
     "uniques": [
       "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
       "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
@@ -529,6 +532,7 @@
     "movement": 3,
     "cost": 230,
     "requiredTech": "Kaizen IV",
+    "uniqueTo": "Barbarians",
     "uniques": [
       "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
       "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
@@ -543,6 +547,7 @@
     "movement": 4,
     "cost": 160,
     "requiredTech": "Kaizen III",
+    "uniqueTo": "Barbarians",
     "uniques": [
       "Invisible to non-adjacent units",
       "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
