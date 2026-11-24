@@ -256,11 +256,6 @@
         "name": "Barbarian",
         "movementType": "Land",
         "uniques": [
-            "Unbuildable <for [Spore-Borne Parasite] Civilizations> <hidden from users>",
-            "Unbuildable <for [Carnonforms] Civilizations> <hidden from users>",
-            "Unbuildable <for [Macroforms] Civilizations> <hidden from users>",
-            "Unbuildable <for [Siliconforms] Civilizations> <hidden from users>",
-            "Unbuildable <for [Synths] Civilizations> <hidden from users>",
             "May travel on Water tiles without embarking <hidden from users>",
             "Ignores terrain cost <hidden from users>",
             "Eliminates combat penalty for attacking over a river <hidden from users>",
