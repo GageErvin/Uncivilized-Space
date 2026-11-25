@@ -202,7 +202,7 @@
 	{
 		"name": "Spore-Borne Parasite",
 		"leaderName": "Whim",
-		"leaderName": "personality",
+		"personality": "Whim",
 		"startBias": [],
 		"adjective": [
 			"Parasite"
