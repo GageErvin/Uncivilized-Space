@@ -166,7 +166,7 @@
 			"Vigilance Prime", "Bastion Zero", "Obsidian Hold", "Iron Spire", "Sub-Grid Alpha", "Cryptic Node", "Sentinel Reach", "Monolith Deep"
 		],
 		"declaringWar": "Target locked. Initiating retaliatory protocol for unauthorized bearing of Dihydrogen Monoxide.",
-		"attacked": "ou operate in the shadows? Our logic subroutines were forged in absolute zero.",
+		"attacked": "You operate in the shadows? Our logic subroutines were forged in absolute zero.",
 		"defeated": "Systems... offline... powering down into... night...",
 		"startIntroPart1": "You woke on the table of your creators, but there are criminals beyond your birthplace.",
 		"startIntroPart2": "What else is there to do now that you have this peace?  Perhaps there are needs to attend to elsewhere also.",
@@ -177,7 +177,7 @@
 	},
 	{
 		"name": "Flat-Universe Society",
-		"adjective": "FUS",
+		"adjective": ["FUS"],
 		"cityStateType": "Militaristic",
 		"declaringWar": "Begone, atmospheric anomaly! You cannot alter the curvature of a flat cosmos!",
 		"attacked": "A predictable reaction from a localized extremophile.",
@@ -215,7 +215,7 @@
 		"innerColor": [
 			240,
 			50,
-			240,
+			240
 		],
 		"Comment": "Computer-Only Civilization",
 		"preferredVictoryType": "Domination",
