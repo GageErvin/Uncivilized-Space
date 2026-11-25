@@ -761,9 +761,8 @@
     "strength": 6,
     "movement": 4,
     "cost": 20,
-    "obsoleteWith": "Micro Particulate Shielding",
     "uniques": [
-      "Blast radius [1]"
+      "Blast radius [2]"
     ],
     "civilopediaText": [
       {
@@ -794,9 +793,8 @@
     "strength": 9,
     "movement": 5,
     "cost": 25,
-    "obsoleteWith": "Laser Propulsion",
     "uniques": [
-      "Blast radius [1]"
+      "Blast radius [2]"
     ],
     "civilopediaText": [
       {
@@ -828,7 +826,7 @@
     "movement": 7,
     "cost": 35,
     "uniques": [
-      "Blast radius [2]"
+      "Blast radius [3]"
     ],
     "civilopediaText": [
       {
