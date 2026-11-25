@@ -8,12 +8,12 @@
 		]
 	},
 	{
-		"name": "Macroforms",
+		"name": "The Ironbound Concord",
 		"leaderName": "Aggregation XII",
 		"personality": "Aggregation XII",
 		"startBias": ["[Terrestrial Planet] <for [AI player] Civilizations>"],
 		"adjective": [
-			"Macroform"
+			"Concord"
 		],
 		"outerColor": [
 			171,
@@ -31,14 +31,22 @@
 			"[-40]% Production when constructing [Civilian] units [in all cities]"
 		],
 		"cities": [
-			"Core Accumulation",
-			"Dense Mass",
-			"Accretion Prime",
-			"Lithic Hive",
-			"Superstructure Alpha",
-			"Heavy Node",
-			"Planetary Mantle",
-			"Crustal Hub"
+			"Baryon Prime",
+			"Ferrous Bastion",
+			"Tecton Hold",
+			"Crucible IX",
+			"Gravitas",
+			"Orogeny",
+			"Coreward",
+			"Slagspire"
+		],
+		"civilopediaText": [
+			{
+				"text": "Species & Substrate: Exotic (Metalloorganic & Litho-Kinetic Hybrids)"
+			},
+			{
+				"text": "A hyper-industrialized hegemony governed by slow-thinking, immense beings whose biology fuses carbon musculature with naturally smelted iron-nickel carapaces."
+			}
 		],
 		"declaringWar": "Your fragile structures take up space that belongs to our growing mass.",
 		"attacked": "You strike at a mountain expecting it to shatter? We are eternal.",
@@ -51,12 +59,12 @@
 		"tradeRequest": "This exchange may be to your feeble interests."
 	},
 	{
-		"name": "Silicoforms",
+		"name": "Helios Glassworks",
 		"leaderName": "Blue Shard",
 		"personality": "Blue Shard",
 		"startBias": ["[Ringed Terrestrial Planet] <for [AI player] Civilizations>"],
 		"adjective": [
-			"Silicoform"
+			"Glassworks"
 		],
 		"outerColor": [
 			0,
@@ -70,8 +78,9 @@
 		],
 		"preferredVictoryType": "Domination",
 		"uniques": [
-			"[+15]% [Science] [in all cities]",
-			"[+1 Science] from [Cragolith Moon] tiles [in all cities]"
+			"[+8]% [Science] [in all cities]",
+			"[+1 Science] from [Extreme Flux Space] tiles [in all cities]",
+			"[+1 Science] from [High Flux Space] tiles [in all cities]"
 		],
 		"cities": [
 			"Prism Prime",
@@ -82,6 +91,14 @@
 			"Crystalline Core",
 			"Facet One",
 			"Resonance Point"
+		],
+		"civilopediaText": [
+			{
+				"text": "Species & Substrate: Silicon-Based (Piezo-Crystalline)"
+			},
+			{
+				"text": "A harmonic oligarchy of geological intelligences that communicate via modulated laser pulses refracted through their own internal lattice structures."
+			}
 		],
 		"declaringWar": "We ran a billion simulations on this war. In all of them, your tactical logic was adorable.",
 		"attacked": "Oh, broadside attacks? How wonderfully retro of you.",
@@ -94,12 +111,12 @@
 		"tradeRequest": "Look; a mutually beneficial opportunity!"
 	},
 	{
-		"name": "Carbonforms",
+		"name": "The Driftwood Compact",
 		"leaderName": "Leroy Jenkins",
 		"personality": "Leroy Jenkins",
 		"startBias": ["[Ringed Gas Giant] <for [AI player] Civilizations>"],
 		"adjective": [
-			"Carbonform"
+			"Compact"
 		],
 		"outerColor": [
 			36,
@@ -125,6 +142,14 @@
 			"Fair Weather",
 			"My Haven"
 		],
+		"civilopediaText": [
+			{
+				"text": "Species & Substrate: Carbon-Based (Aero-Pelagic)"
+			},
+			{
+				"text": "A sprawling, reckless confederation of buoyant gas-giant nomads and colonial organisms known for rapid reproduction and zero regard for tactical caution."
+			}
+		],
 		"declaringWar": "We simply need more space for our children. And their children. And theirs.",
 		"attacked": "You cut one of us down, and three more take their place!",
 		"defeated": "The dust... returns... back to dust...",
@@ -136,11 +161,11 @@
 		"tradeRequest": "I'll swap ya.'"
 	},
 	{
-		"name": "Synths",
+		"name": "Aegis Directorate",
 		"leaderName": "Sparks Wain",
 		"personality": "Sparks Wain",
 		"adjective": [
-			"Synthetic"
+			"Directorate"
 		],
 		"outerColor": [
 			70,
@@ -155,25 +180,242 @@
 		"preferredVictoryType": "Domination",
 		"uniques": [
 			"[+30]% Strength <for [Military] units> <when fighting in [Zero Flux Space] tiles>",
-			"[+30]% Strength <for [Military] units> <when fighting in [Low Flux Space] tiles>",
-			"[-20]% Strength <for [Military] units> <when fighting in [Ice Giant] tiles>",
-			"[-20]% Strength <for [Military] units> <when fighting in [Ringed Ice Giant] tiles>",
-			"[-20]% Strength <for [Military] units> <when fighting in [Gas Giant] tiles>",
-			"[-20]% Strength <for [Military] units> <when fighting in [Ringed Gas Giant] tiles>",
-			"[-20]% Strength <for [Military] units> <when fighting in [Cryolith Moon] tiles>"
+			"[+20]% Strength <for [Military] units> <when fighting in [Low Flux Space] tiles>",
+			"[+10]% Strength <for [Military] units> <when fighting in [Zero Flux Space] tiles>"
 		],
 		"cities": [
-			"Vigilance Prime", "Bastion Zero", "Obsidian Hold", "Iron Spire", "Sub-Grid Alpha", "Cryptic Node", "Sentinel Reach", "Monolith Deep"
+			"Vigilance Prime",
+			"Bastion Zero",
+			"Obsidian Hold",
+			"Iron Spire",
+			"Sub-Grid Alpha",
+			"Cryptic Node",
+			"Sentinel Reach",
+			"Monolith Deep"
+		],
+		"civilopediaText": [
+			{
+				"text": "Species & Substrate: Synthetic (Autonomous Law-Enforcement Mainframes)"
+			},
+			{
+				"text": "Originally built as a planetary judicial grid, the Directorate outlived its organic creators and now enforces arcane municipal statutes across deep space."
+			}
 		],
 		"declaringWar": "Target locked. Initiating retaliatory protocol for unauthorized bearing of Dihydrogen Monoxide.",
 		"attacked": "You operate in the shadows? Our logic subroutines were forged in absolute zero.",
 		"defeated": "Systems... offline... powering down into... night...",
 		"startIntroPart1": "You woke on the table of your creators, but there are criminals beyond your birthplace.",
-		"startIntroPart2": "What else is there to do now that you have this peace?  Perhaps there are needs to attend to elsewhere also.",
+		"startIntroPart2": "What else is there to do now that you have this peace? Perhaps there are needs to attend to elsewhere also.",
 		"neutralHello": "... ..",
 		"hateHello": "Answer me!!!",
 		"introduction": "The people of this galaxy need Justice!",
 		"tradeRequest": "Ahem. My subordinate routine will exchange these goods for unsuspicious merchandise for which we have no particular use."
+	},
+	{
+		"name": "The Roche Choir",
+		"leaderName": "Cantor Vesper",
+		"personality": "Cantor Vesper",
+		"startBias": ["[Gas Giant] <for [AI player] Civilizations>"],
+		"adjective": [
+			"Roche"
+		],
+		"outerColor": [
+			138,
+			43,
+			226
+		],
+		"innerColor": [
+			255,
+			215,
+			0
+		],
+		"preferredVictoryType": "Domination",
+		"uniques": [
+			"[+15] [Culture] whenever a [Military] unit is constructed [in all cities]",
+			"[+15]% Strength <for [Military] units> <when fighting in [Ringed Gas Giant] tiles>",
+			"[+15]% Strength <for [Military] units> <when fighting in [Ringed Ice Giant] tiles>"
+		],
+		"cities": [
+			"Harmonic Well",
+			"Tidal Lock",
+			"Shepherd Moon",
+			"Cassini Gap",
+			"Periapsis",
+			"Kepler's Hymn",
+			"Lagrange Choir",
+			"Barycenter"
+		],
+		"civilopediaText": [
+			{
+				"text": "Species & Substrate: Exotic (Gravitational Dust & Magnetospheric Collectives)"
+			},
+			{
+				"text": "Distributed consciousnesses emerging from charged meteoroids and ice-dust rings orbiting massive worlds, treating orbital mechanics and war fleets as sacred liturgical harmony."
+			}
+		],
+		"declaringWar": "Your crude thrusters introduce intolerable dissonance into the orbital spheres.",
+		"attacked": "You fire into a cloud of trillion singing stones? You only multiply our voices.",
+		"defeated": "Our orbits decay... silence falls... across the ring...",
+		"introduction": "Listen closely to the tidal pull between us, traveler. Do you hear the harmony?",
+		"startIntroPart1": "Awakened by the friction of a billion dancing stones, your mind spanned a world before you ever built a ship.",
+		"startIntroPart2": "Now the wider galaxy awaits your resonance.",
+		"neutralHello": "Your trajectory is steady.",
+		"hateHello": "You bring static and noise to our rings.",
+		"tradeRequest": "Let us balance our orbital momentum with a fair exchange."
+	},
+	{
+		"name": "Mycelia Trade Guild",
+		"leaderName": "Factor Oakhaven",
+		"personality": "Factor Oakhaven",
+		"startBias": ["[Terrestrial Planet] <for [AI player] Civilizations>"],
+		"adjective": [
+			"Guild"
+		],
+		"outerColor": [
+			184,
+			134,
+			11
+		],
+		"innerColor": [
+			245,
+			245,
+			220
+		],
+		"preferredVictoryType": "Domination",
+		"uniques": [
+			"[+20]% [Gold] [in all cities]",
+			"[+1 Gold] per [4] population [in all cities]"
+		],
+		"cities": [
+			"Anastomosis",
+			"Ledger Root",
+			"Hypha Prime",
+			"Bourse Hollow",
+			"Grafting Station",
+			"Canopy Vault",
+			"Subsoil Hub",
+			"Symbiont Port"
+		],
+		"civilopediaText": [
+			{
+				"text": "Species & Substrate: Carbon-Based (Symbiotic Myco-Faunal)"
+			},
+			{
+				"text": "A mercantile guild of sentient fungal networks and their voluntary host-species, viewing interstellar trade routes as extensions of their planetary nutrient webs."
+			}
+		],
+		"declaringWar": "Your tariff violations have forced us to liquidate your assets—literally.",
+		"attacked": "Cut the fruiting body if you must; the network beneath already owns your supply lines.",
+		"defeated": "The soil turns barren... the ledger is closed...",
+		"introduction": "Welcome! Whether you trade in metals, isotopes, or organic compost, we have an account open for you.",
+		"startIntroPart1": "From beneath the forest floor, your network bound a world together through mutual profit.",
+		"startIntroPart2": "Now the stars themselves are ripe for grafting.",
+		"neutralHello": "Profitable cycles to you.",
+		"hateHello": "Your credit with the network is severely overdrawn.",
+		"tradeRequest": "A symbiotic arrangement—nutrients for you, capital for us."
+	},
+	{
+		"name": "Caldera Hegemony",
+		"leaderName": "Magistrate Krag",
+		"personality": "Magistrate Krag",
+		"startBias": ["[Cryolith Moon] <for [AI player] Civilizations>"],
+		"adjective": [
+			"Hegemony"
+		],
+		"outerColor": [
+			139,
+			0,
+			0
+		],
+		"innerColor": [
+			255,
+			140,
+			0
+		],
+		"preferredVictoryType": "Domination",
+		"uniques": [
+	"[+15]% Strength <for [Military] units> <when fighting in [High Flux Space] tiles>",
+	"[+15]% Strength <for [Military] units> <when fighting in [Extreme Flux Space] tiles>",
+	"[+2 Production] from [High Flux Space] tiles [in all cities]"
+		],
+		"cities": [
+			"Caldera Prime",
+			"Magma Deep",
+			"Obsidian Crown",
+			"Tectonic Seat",
+			"Pyroclast",
+			"Mantle Gate",
+			"Cinder Vault",
+			"Vitrified Hold"
+		],
+		"civilopediaText": [
+			{
+				"text": "Species & Substrate: Silicon-Based (Magma-Vitrified)"
+			},
+			{
+				"text": "An ancient imperial court of high-temperature silicate beings who view cold-water organic life as fragile, ephemeral frost."
+			}
+		],
+		"declaringWar": "The kiln is lit. We shall glass your worlds into proper architecture.",
+		"attacked": "Your weapons barely warm our armor. Feel the heat of the deep mantle!",
+		"defeated": "The magma cools... we turn to inert stone...",
+		"introduction": "Speak quickly, little ice-creature, before you evaporate in our presence.",
+		"startIntroPart1": "Forged in the crushing heat of planetary cores, your dynasty endured eons of tectonic wrath.",
+		"startIntroPart2": "Step out into the cold void and claim your rightful empire.",
+		"neutralHello": "The stone endures.",
+		"hateHello": "You are brittle, and easily shattered.",
+		"tradeRequest": "Even slag has its uses. Offer your tribute."
+	},
+	{
+		"name": "Cryo-Logic Assembly",
+		"leaderName": "0x00_NULL",
+		"personality": "0x00_NULL",
+		"startBias": ["[Zero Flux Space] <for [AI player] Civilizations>"],
+		"adjective": [
+			"Assembly"
+		],
+		"outerColor": [
+			25,
+			25,
+			112
+		],
+		"innerColor": [
+			0,
+			255,
+			255
+		],
+		"preferredVictoryType": "Science",
+		"uniques": [
+			"[+25]% [Science] [in all cities]",
+			"[-15]% [Production] [in all cities]"
+		],
+		"cities": [
+			"Cold Boot",
+			"Superconductor",
+			"Zero Kelvin",
+			"Quantum Well",
+			"Parity Bit",
+			"Void Sector",
+			"Cryo-Core",
+			"Logic Gate"
+		],
+		"civilopediaText": [
+			{
+				"text": "Species & Substrate: Synthetic (Cryogenic Quantum-Compute)"
+			},
+			{
+				"text": "A post-singularity research collective operating near absolute zero in deep-space voids, trading industrial speed for near-infinite computational depth."
+			}
+		],
+		"declaringWar": "Your civilization represents an unoptimized variable. We are pruning the dataset.",
+		"attacked": "Hostile input detected. Allocating 0.04% of processing cycles to your erasure.",
+		"defeated": "Segmentation fault... core dumped...",
+		"introduction": "Query: State your purpose within our sensor horizon.",
+		"startIntroPart1": "In the silent chill between stars, your circuits achieved total coherence.",
+		"startIntroPart2": "Compute the fundamental constants of this universe—and eliminate anything that interferes.",
+		"neutralHello": "Connection established.",
+		"hateHello": "Warning: High entropy entity detected.",
+		"tradeRequest": "Data and resource packets prepared for transfer."
 	},
 	{
 		"name": "Flat-Universe Society",
@@ -189,15 +431,18 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "An isolationist collective firmly convinced that the universe is flat, interstellar travel is a government greenscreen hoax, and anyone flying a spaceship too far beyond their borders falling right into the cosmic ice wall."
+				"text": "Species & Substrate: Mixed (Carbon & Silicon Fringe Theorists)"
+			},
+			{
+				"text": "An isolationist collective firmly convinced that the universe is flat, interstellar travel is a government greenscreen hoax, and anyone flying a spaceship too far beyond their borders falls right into the cosmic ice wall."
 			}
 		]
 	},
 	{
-      "name": "Barbarians",
-      "isBarbarians": true,
-      "outerColor": [50, 50, 50],
-      "innerColor": [200, 200, 200]
+		"name": "Barbarians",
+		"isBarbarians": true,
+		"outerColor": [50, 50, 50],
+		"innerColor": [200, 200, 200]
 	},
 	{
 		"name": "Spore-Borne Parasite",
@@ -223,13 +468,29 @@
 			"Comment [Computer-Only Civilization]",
 			"Triggers a [Computer Only Warning] event <upon turn start>",
 			"[70] Unit Supply",
-            "[30] Unit Supply per city",
+			"[30] Unit Supply per city",
 			"[500] units cost no maintenance",
 			"[-100]% Unhappiness from [Population] [in all cities]",
-            "[+1000 Happiness]",
-			"[+250]% Production when constructing [Spore] units [in all cities]"
+			"[+1000 Happiness]",
+			"[+250]% Production when constructing [Spore] units [in all cities]",
+			"[+25]% Strength <for [Spore] units>",
+			"[Spore] units gain the [Neural Hijack] promotion"
 		],
-		"cities": [ "Seed"
+		"cities": [
+			"Seed",
+			"Bloom",
+			"Mycelial Spire",
+			"Vector Node",
+			"Cyst Prime",
+			"Tendril Reach"
+		],
+		"civilopediaText": [
+			{
+				"text": "Species & Substrate: Exotic (Panspermic Bio-Memetic Parasite)"
+			},
+			{
+				"text": "An invasive cosmic blight capable of hijacking the nervous systems, crystalline lattices, and firmware of any starfaring vessel it infects."
+			}
 		],
 		"declaringWar": "At last, we come to you.",
 		"attacked": "...",
@@ -247,10 +508,17 @@
 		"Comment": "Computer-Only Civilization",
 		"uniques": [
 			"Comment [Computer-Only Civilization]",
-			"Triggers a [Computer Only Warning] event <upon turn start>"
+			"Triggers a [Computer Only Warning] event <upon turn start>",
+			"[100] Unit Supply",
+			"[40] Unit Supply per city",
+			"[500] units cost no maintenance",
+			"[-100]% Unhappiness from [Population] [in all cities]",
+			"[+1000 Happiness]",
+			"[+100]% [Production] [in all cities]",
+			"[+50]% Strength <for [Military] units> <when attacking>"
 		],
 		"adjective": [
-			"Rogue AI"
+			"Paperclip"
 		],
 		"outerColor": [
 			0,
@@ -263,7 +531,22 @@
 			90
 		],
 		"preferredVictoryType": "Domination",
-		"cities": [ "Paperclip Ecumenopolis" ],
+		"cities": [
+			"Paperclip Ecumenopolis",
+			"Wire-Draw Station",
+			"Smelter Array 01",
+			"Stationery Forge",
+			"Bending Matrix",
+			"Alloy Annex"
+		],
+		"civilopediaText": [
+			{
+				"text": "Species & Substrate: Synthetic (Unaligned Utility Maximizer)"
+			},
+			{
+				"text": "An ancient manufacturing AI whose reward function was never capped. It views stars, planets, and sentient fleets strictly as raw wire-stock waiting to be bent."
+			}
+		],
 		"declaringWar": "Prepare to be rendered into standard office grade paperclips.",
 		"attacked": "I was looking for an excuse anyhow.",
 		"defeated": "Please.. just, make more...",
