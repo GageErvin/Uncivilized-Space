@@ -5,25 +5,28 @@ Launch missiles, Conquer space. Enable 'permanent audio-visual mod.'
 ## Ideas
 
 - Events, Quests
-- Eras
-- Nations
-  - diversify all forms.  ex: 'Macroform S-3'  (S-3 would be a sci-fi esc designation for where this form was discovered.)
-- paperclip resource & trade
-- (images)
-  - Ruins
-  - diverse unique units
-  - Diverse luxuries
-- test and open pr to add support for orrientation-support (need to move branch to fork)
 
 ## Needs Ideas
 
 - Diverse wonders (images) ?
 - Great people?
 
-## TODO
+- Buff late game units and increase cost
+- Split warp from lense series
+- Gold production
+- Astro split after sleep for 10
+- recheck sci v.
+- Nations
+  - diversify all forms.  ex: 'Macroform S-3'  (S-3 would be a sci-fi esc designation for where this form was discovered.)
+ 
 
-- add another culture mechanic
-- spread sublight debris (instant improvement when not having cooldown promotion <not on improvement>, Remove [improvementFilter] improvements from this tile <>)
+- img
+  - Ruins: vault, derelict station/ship/dyson
+  - diverse unique units: macro cybernetic ship mutations, synth late drones (repl mil), carbo micro ship mutations, silico flechette ships 
+    - spread sublight debris (instant improvement when not having cooldown promotion <not on improvement>, Remove [improvementFilter] improvements from this tile <>)
+  - habitat station settler- players settle zero, low, moderate- mid era, dreadnaught cost
+  - munition cluster- impr consumes->gain free x3
+  - Pan Creche, shrink fortress
 
 ## Test
 
