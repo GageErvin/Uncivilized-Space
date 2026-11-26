@@ -705,7 +705,7 @@
 		"production": 2,
 		"defenseBonus": -1,
 		"RGB": [
-			74,
+			76,
 			76,
 			146
 		],
@@ -715,6 +715,117 @@
 			"Units ending their turn on this terrain take [70] damage"
 		],
 		"impassable": true,
+		"unbuildable": true
+	},
+	{
+		"name": "Supernova",
+		"type": "NaturalWonder",
+		"overrideStats": false,
+		"occursOn": [
+			"Moderate Flux Space",
+			"High Flux Space",
+			"Extreme Flux Space"
+		],
+		"science": 4,
+		"production": 3,
+		"gold": 3,
+		"defenseBonus": 1,
+		"RGB": [
+			74,
+			76,
+			76
+		],
+		"uniques": [
+			"Blocks line-of-sight from tiles at same elevation",
+			"Rare feature"
+		],
+		"unbuildable": true
+	},
+	{
+		"name": "Quark Star",
+		"type": "NaturalWonder",
+		"overrideStats": false,
+		"occursOn": [
+			"Zero Flux Space",
+			"Low Flux Space",
+			"Moderate Flux Space"
+		],
+		"science": 7,
+		"RGB": [
+			74,
+			76,
+			76
+		],
+		"uniques": [
+			"Blocks line-of-sight from tiles at same elevation",
+			"Rare feature"
+		],
+		"unbuildable": true
+	},
+	{
+		"name": "Binary Star",
+		"type": "NaturalWonder",
+		"overrideStats": false,
+		"occursOn": [
+			"High Flux Space",
+			"Extreme Flux Space"
+		],
+		"science": 1,
+		"production": 3,
+		"gold": 3,
+		"defenseBonus": 2,
+		"RGB": [
+			74,
+			76,
+			76
+		],
+		"uniques": [
+			"Blocks line-of-sight from tiles at same elevation",
+			"Rare feature"
+		],
+		"unbuildable": true
+	},
+	{
+		"name": "Mega-Cragolith",
+		"type": "NaturalWonder",
+		"overrideStats": false,
+		"occursOn": [
+			"Land", "Water"
+		],
+		"science": 1,
+		"production": 5,
+		"food": 3,
+		"defenseBonus": -3,
+		"RGB": [
+			74,
+			76,
+			76
+		],
+		"uniques": [
+			"Blocks line-of-sight from tiles at same elevation",
+			"Rare feature"
+		],
+		"unbuildable": true
+	},
+	{
+		"name": "Mega-Blue",
+		"type": "NaturalWonder",
+		"overrideStats": false,
+		"occursOn": [
+			"Land", "Water"
+		],
+		"science": 2,
+		"production": 2,
+		"food": 5,
+		"RGB": [
+			74,
+			76,
+			76
+		],
+		"uniques": [
+			"Blocks line-of-sight from tiles at same elevation",
+			"Rare feature"
+		],
 		"unbuildable": true
 	},
 	{
