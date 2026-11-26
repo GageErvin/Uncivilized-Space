@@ -143,9 +143,10 @@
     "cost": 5,
     "movement": 2,
     "strength": 2,
-    "uniqueTo": "Spore-Borne Parasite",
+    "uniqueTo": "z_ Spore-Borne Parasite",
     "uniques": [
-      "[+200]% Strength <when attacking>",
+      "[+300]% Strength <when attacking>",
+      "Self-destructs when attacking",
       "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
       "[-1] Movement <in [High Flux Space] tiles> <hidden from users>"
     ]
@@ -157,9 +158,10 @@
     "movement": 3,
     "strength": 4,
     "requiredTech": "Neural Parasitology",
-    "uniqueTo": "Spore-Borne Parasite",
+    "uniqueTo": "z_ Spore-Borne Parasite",
     "uniques": [
-      "[+200]% Strength <when attacking>",
+      "[+300]% Strength <when attacking>",
+      "Self-destructs when attacking",
       "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>"
     ]
   },
@@ -170,10 +172,11 @@
     "movement": 4,
     "strength": 4,
     "uniques": [
-      "[+400]% Strength <when attacking>"
+      "[+500]% Strength <when attacking>",
+      "Self-destructs when attacking",
     ],
     "requiredTech": "Hive-Mind Engineering",
-    "uniqueTo": "Spore-Borne Parasite"
+    "uniqueTo": "z_ Spore-Borne Parasite"
   },
   {
     "name": "Ethereal Spore Mother",
@@ -181,7 +184,7 @@
     "cost": 60,
     "movement": 4,
     "strength": 2,
-    "uniqueTo": "Spore-Borne Parasite",
+    "uniqueTo": "z_ Spore-Borne Parasite",
     "replaces": "Survey Vessel",
     "uniques": [
       "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
@@ -746,7 +749,7 @@
     "strength": 14,
     "movement": 3,
     "cost": 300,
-    "uniqueTo": "Galactic Paperclip Initiative",
+    "uniqueTo": "z_ Galactic Paperclip Initiative",
     "requiredTech": "Kaizen - 2",
     "uniques": [
       "[3] additional attacks per turn",
