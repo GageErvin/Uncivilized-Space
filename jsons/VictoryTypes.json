@@ -10,12 +10,19 @@
         "name": "Scientific",
         "victoryScreenHeader": "This Galaxy is full of conflict; let's get out of here!",
         "milestones": [
-            "Have at least [2] [[Modified Dreadnaught Engine] Units]",
-            "Have at least [1] [[SL Chamber] Units]",
-            "Have at least [3] [[SL Stabilizer] Units]",
-            "Have at least [3] [[SL Mass Inverter] Units]"
+            "Build [Interstellar Initiative]", "Add all [spaceship parts] in capital"
+        ],
+        "requiredSpaceshipParts": [
+            "Modified Dreadnaught Engine","Modified Dreadnaught Engine","SL Chamber","SL Stabilizer","SL Stabilizer","SL Stabilizer","SL Mass Inverter","SL Mass Inverter","SL Mass Inverter"
         ],
         "victoryString": "You have achieved victory through mastery of Science! You have conquered the galactic limit and launched your people toward a new stellar dawn!",
         "defeatString": "You have been defeated. Another civilization reached beyond the stars before you."
+    },
+    {
+        "name": "Time",
+        "hiddenInVictoryScreen": true,
+        "milestones": ["Have highest score after max turns"],
+        "victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     }
 ]
