@@ -10,7 +10,7 @@
     "faith": 0,
     "military": 7,
     "aggressive": 7,
-    "declareWar": 5,
+    "declareWar": 6,
     "commerce": 7,
     "diplomacy": 4,
     "loyal": 6,
@@ -46,23 +46,23 @@
   {
     "name": "Leroy Jenkins",
     "production": 6,
-    "food": 5,
+    "food": 6,
     "gold": 6,
     "science": 5,
     "culture": 4,
     "happiness": 7,
     "faith": 0,
-    "military": 6,
-    "aggressive": 6,
-    "declareWar": 5,
+    "military": 7,
+    "aggressive": 7,
+    "declareWar": 7,
     "commerce": 7,
     "diplomacy": 7,
-    "loyal": 4,
-    "expansion": 6,
+    "loyal": 3,
+    "expansion": 8,
     "denounceWillingness": 8,
     "priorities": {
-      "Expansionism": 1,
-      "Cybernetics": 2
+      "Expansionism": 2,
+      "Cybernetics": 1
     }
   },
   {
@@ -88,13 +88,101 @@
     }
   },
   {
+    "name": "Cantor Vesper",
+    "production": 6,
+    "food": 4,
+    "gold": 5,
+    "science": 5,
+    "culture": 8,
+    "happiness": 6,
+    "faith": 0,
+    "military": 7,
+    "aggressive": 6,
+    "declareWar": 6,
+    "commerce": 5,
+    "diplomacy": 5,
+    "loyal": 6,
+    "expansion": 6,
+    "denounceWillingness": 4,
+    "priorities": {
+      "Expansionism": 1,
+      "Cybernetics": 2
+    }
+  },
+  {
+    "name": "Factor Oakhaven",
+    "production": 5,
+    "food": 6,
+    "gold": 9,
+    "science": 5,
+    "culture": 5,
+    "happiness": 6,
+    "faith": 0,
+    "military": 5,
+    "aggressive": 5,
+    "declareWar": 4,
+    "commerce": 9,
+    "diplomacy": 7,
+    "loyal": 5,
+    "expansion": 6,
+    "denounceWillingness": 5,
+    "priorities": {
+      "Expansionism": 2,
+      "Cybernetics": 1
+    }
+  },
+  {
+    "name": "Magistrate Krag",
+    "production": 8,
+    "food": 4,
+    "gold": 5,
+    "science": 4,
+    "culture": 5,
+    "happiness": 5,
+    "faith": 0,
+    "military": 8,
+    "aggressive": 8,
+    "declareWar": 7,
+    "commerce": 5,
+    "diplomacy": 3,
+    "loyal": 7,
+    "expansion": 7,
+    "denounceWillingness": 7,
+    "priorities": {
+      "Expansionism": 2,
+      "Cybernetics": 1
+    }
+  },
+  {
+    "name": "0x00_NULL",
+    "production": 4,
+    "food": 3,
+    "gold": 4,
+    "science": 9,
+    "culture": 4,
+    "happiness": 5,
+    "faith": 0,
+    "military": 5,
+    "aggressive": 5,
+    "declareWar": 4,
+    "commerce": 5,
+    "diplomacy": 3,
+    "loyal": 6,
+    "expansion": 5,
+    "denounceWillingness": 4,
+    "priorities": {
+      "Expansionism": 1,
+      "Cybernetics": 2
+    }
+  },
+  {
     "name": "Whim",
-    "production": 2,
-    "food": 2,
+    "production": 4,
+    "food": 4,
     "gold": 2,
     "science": 0,
     "culture": 0,
-    "happiness": 0,
+    "happiness": 10,
     "faith": 0,
     "military": 1200,
     "aggressive": 120,
@@ -108,7 +196,9 @@
       "Expansionism": 2,
       "Cybernetics": 1
     },
-    "uniques":["[+2000]% weight to [Spore] for AI decisions"]
+    "uniques": [
+      "[+2000]% weight to [Spore] for AI decisions"
+    ]
   },
   {
     "name": "Labor Optimizer",
@@ -117,9 +207,9 @@
     "gold": 2,
     "science": 0,
     "culture": 0,
-    "happiness": 0,
+    "happiness": 10,
     "faith": 0,
-    "military": 12,
+    "military": 1200,
     "aggressive": 120,
     "declareWar": 12000,
     "commerce": 0,
@@ -131,6 +221,8 @@
       "Expansionism": 2,
       "Cybernetics": 1
     },
-    "uniques":["[+100]% weight to [Weaponized Mobile Paperclip Conversion Factory-Ship] for AI decisions"]
+    "uniques": [
+      "[+100]% weight to [Weaponized Mobile Paperclip Conversion Factory-Ship] for AI decisions"
+    ]
   }
 ]
