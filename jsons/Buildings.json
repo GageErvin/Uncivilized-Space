@@ -302,11 +302,10 @@
 		]
 	},
 	{
-	"name": "Spore Biomass Conversion",
-	"cost": 1,
+	"name": "Energy Converter",
+	"cost": 130,
 	"uniques": [
-		"Enables conversion of city production to [Gold]",
-		"Only available <for [Spore-Borne Parasite] Civilizations>"
+		"Enables conversion of city production to [Gold]"
 	]
 	}
 ]
