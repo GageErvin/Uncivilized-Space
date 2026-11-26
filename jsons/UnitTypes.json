@@ -6,6 +6,7 @@
             "Unbuildable <for [Barbarians] Civilizations> <hidden from users>",
             "Triggers a [Unit Defeated Grief] event <upon being defeated>",
             "Unbuildable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
+            "Free [Spore] appears <upon being defeated> <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
             "Ignores terrain cost <hidden from users>",
             "May travel on Water tiles without embarking <hidden from users>",
             "Gain [6] [Culture]"
@@ -19,6 +20,7 @@
             "Triggers a [Unit Defeated Grief] event <upon being defeated>",
             "Unbuildable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
             "Ignores terrain cost <hidden from users>",
+            "Free [Spore] appears <upon being defeated> <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
             "May travel on Water tiles without embarking <hidden from users>",
             "Gain [10] [Culture]",
             "Founds a new city <by consuming this unit> <in [Gas Giant] tiles>",
@@ -48,6 +50,7 @@
         "name": "Scout",
         "movementType": "Land",
         "uniques": [
+            "Free [Spore] appears <upon being defeated> <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
             "Unbuildable <for [Barbarians] Civilizations> <hidden from users>",
             "Unbuildable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
             "May travel on Water tiles without embarking <hidden from users>",
@@ -61,6 +64,7 @@
         "name": "Command Ship",
         "movementType": "Land",
         "uniques": [
+            "Free [Spore] appears <upon being defeated> <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
             "Unbuildable <for [Barbarians] Civilizations> <hidden from users>",
             "Unbuildable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
             "Triggers a [Unit Defeated Grief] event <upon being defeated>",
@@ -75,6 +79,7 @@
         "name": "Station",
         "movementType": "Land",
         "uniques": [
+            "Free [Spore] appears <upon being defeated> <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
             "May travel on Water tiles without embarking <hidden from users>",
             "Ignores terrain cost <hidden from users>",
             "Eliminates combat penalty for attacking over a river <hidden from users>",
@@ -88,6 +93,7 @@
         "name": "Drone",
         "movementType": "Land",
         "uniques": [
+            "Free [Spore] appears <upon being defeated> <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
             "Unbuildable <for [Barbarians] Civilizations> <hidden from users>",
             "Unbuildable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
             "May travel on Water tiles without embarking <hidden from users>",
@@ -101,6 +107,7 @@
         "name": "Stealth Drone",
         "movementType": "Land",
         "uniques": [
+            "Free [Spore] appears <upon being defeated> <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
             "Unbuildable <for [Barbarians] Civilizations> <hidden from users>",
             "Unbuildable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
             "May travel on Water tiles without embarking <hidden from users>",
@@ -113,6 +120,7 @@
         "name": "Thinking Drone",
         "movementType": "Land",
         "uniques": [
+            "Free [Spore] appears <upon being defeated> <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
             "Unbuildable <for [Barbarians] Civilizations> <hidden from users>",
             "Unbuildable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
             "May travel on Water tiles without embarking <hidden from users>",
@@ -126,6 +134,7 @@
         "name": "Military",
         "movementType": "Land",
         "uniques": [
+            "Free [Spore] appears <upon being defeated> <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
             "Unbuildable <for [Barbarians] Civilizations> <hidden from users>",
             "Triggers a [Unit Defeated Grief] event <upon being defeated>",
             "Unbuildable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
@@ -140,6 +149,7 @@
         "name": "Artillery",
         "movementType": "Land",
         "uniques": [
+            "Free [Spore] appears <upon being defeated> <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
             "Unbuildable <for [Barbarians] Civilizations> <hidden from users>",
             "Triggers a [Unit Defeated Grief] event <upon being defeated>",
             "Unbuildable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
@@ -154,6 +164,7 @@
         "name": "Missile",
         "movementType": "Land",
         "uniques": [
+            "Free [Spore] appears <upon being defeated> <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
             "May travel on Water tiles without embarking <hidden from users>",
             "Ignores terrain cost <hidden from users>",
             "Eliminates combat penalty for attacking over a river <hidden from users>",
@@ -178,6 +189,7 @@
         "name": "Stored Breach Pod",
         "movementType": "Air",
         "uniques": [
+            "Free [Spore] appears <upon being defeated> <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
             "Unbuildable <for [Barbarians] Civilizations> <hidden from users>",
             "Unbuildable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
             "Cannot attack"
@@ -187,6 +199,7 @@
         "name": "Munition",
         "movementType": "Air",
         "uniques": [
+            "Free [Spore] appears <upon being defeated> <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
             "Unbuildable <for [Barbarians] Civilizations> <hidden from users>",
             "Unbuildable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
             "Cannot attack"
@@ -201,6 +214,7 @@
         "name": "Slug",
         "movementType": "Air",
         "uniques": [
+            "Free [Spore] appears <upon being defeated> <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
             "Unbuildable <for [Barbarians] Civilizations> <hidden from users>",
             "Unbuildable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
             "May travel on Water tiles without embarking <hidden from users>",
@@ -221,6 +235,7 @@
         "name": "Sub",
         "movementType": "Land",
         "uniques": [
+            "Free [Spore] appears <upon being defeated> <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
             "Unbuildable <for [Barbarians] Civilizations> <hidden from users>",
             "Triggers a [Unit Defeated Grief] event <upon being defeated>",
             "Unbuildable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
@@ -242,6 +257,7 @@
         "name": "Bio-Unit",
         "movementType": "Land",
         "uniques": [
+            "Free [Spore] appears <upon being defeated> <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
             "Unbuildable <for [Barbarians] Civilizations> <hidden from users>",
             "Unbuildable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
             "May travel on Water tiles without embarking <hidden from users>",
@@ -256,6 +272,7 @@
         "name": "Barbarian",
         "movementType": "Land",
         "uniques": [
+            "Free [Spore] appears <upon being defeated> <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
             "May travel on Water tiles without embarking <hidden from users>",
             "Ignores terrain cost <hidden from users>",
             "Eliminates combat penalty for attacking over a river <hidden from users>",
