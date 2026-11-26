@@ -231,7 +231,7 @@
 		],
 		"preferredVictoryType": "Domination",
 		"uniques": [
-			"[+4] [Culture] <upon turn start>",
+			"[+4 Culture] <upon turn start>",
 			"[+15]% Strength <for [Military] units> <when fighting in [Ringed Gas Giant] tiles>",
 			"[+15]% Strength <for [Military] units> <when fighting in [Ringed Ice Giant] tiles>"
 		],
@@ -272,14 +272,14 @@
 			"Guild"
 		],
 		"outerColor": [
-			184,
-			134,
+			175,
+			128,
 			11
 		],
 		"innerColor": [
 			245,
 			245,
-			220
+			221
 		],
 		"preferredVictoryType": "Domination",
 		"uniques": [
