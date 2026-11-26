@@ -1,5 +1,29 @@
 [
   {
+  "name": "Derelict Ship",
+  "terrainsCanBeBuiltOn": ["Water"],
+  "uniques": [
+    "Provides a random bonus when entered",
+    "Unpillagable"
+  ]
+  },
+  {
+  "name": "Vault",
+  "terrainsCanBeBuiltOn": ["Water"],
+  "uniques": [
+    "Provides a random bonus when entered",
+    "Unpillagable"
+  ]
+  },
+  {
+  "name": "Derelict Station",
+  "terrainsCanBeBuiltOn": ["Water"],
+  "uniques": [
+    "Provides a random bonus when entered",
+    "Unpillagable"
+  ]
+  },
+  {
     "name": "Matrix Simulation Pods",
     "uniques": [
       "Marks a barbarian camp",
