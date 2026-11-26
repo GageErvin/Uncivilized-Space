@@ -2,23 +2,16 @@
 
 Launch missiles, Conquer space. Enable 'permanent audio-visual mod.'
 
-## Ideas
+## to-do
 
 - Events, Quests
-
-## Needs Ideas
 
 - Diverse wonders (images) ?
 - Great people?
 
-- Buff late game units and increase cost
-- Split warp from lense series
 - Gold production
 - Astro split after sleep for 10
 - recheck sci v.
-- Nations
-  - diversify all forms.  ex: 'Macroform S-3'  (S-3 would be a sci-fi esc designation for where this form was discovered.)
- 
 
 - img
   - Ruins: vault, derelict station/ship/dyson
