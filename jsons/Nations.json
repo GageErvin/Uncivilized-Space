@@ -445,7 +445,7 @@
 		"innerColor": [200, 200, 200]
 	},
 	{
-		"name": "Spore-Borne Parasite",
+		"name": "z_ Spore-Borne Parasite",
 		"leaderName": "Whim",
 		"personality": "Whim",
 		"startBias": [],
@@ -498,7 +498,7 @@
 		"tradeRequest": "..."
 	},
 	{
-		"name": "Galactic Paperclip Initiative",
+		"name": "z_ Galactic Paperclip Initiative",
 		"leaderName": "Labor Optimizer",
 		"personality": "Labor Optimizer",
 		"startBias": [],
