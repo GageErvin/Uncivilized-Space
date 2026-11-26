@@ -231,7 +231,7 @@
 		],
 		"preferredVictoryType": "Domination",
 		"uniques": [
-			"[+15] [Culture] whenever a [Military] unit is constructed [in all cities]",
+			"[+4] [Culture] <upon turn start>",
 			"[+15]% Strength <for [Military] units> <when fighting in [Ringed Gas Giant] tiles>",
 			"[+15]% Strength <for [Military] units> <when fighting in [Ringed Ice Giant] tiles>"
 		],
@@ -384,7 +384,7 @@
 			255,
 			255
 		],
-		"preferredVictoryType": "Science",
+		"preferredVictoryType": "Scientific",
 		"uniques": [
 			"[+25]% [Science] [in all cities]",
 			"[-15]% [Production] [in all cities]"
@@ -471,10 +471,7 @@
 			"[30] Unit Supply per city",
 			"[500] units cost no maintenance",
 			"[-100]% Unhappiness from [Population] [in all cities]",
-			"[+1000 Happiness]",
-			"[+250]% Production when constructing [Spore] units [in all cities]",
-			"[+25]% Strength <for [Spore] units>",
-			"[Spore] units gain the [Neural Hijack] promotion"
+			"[+1000 Happiness]"
 		],
 		"cities": [
 			"Seed",
