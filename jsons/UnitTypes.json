@@ -5,7 +5,7 @@
         "uniques": [
             "Unbuildable <for [Barbarians] Civilizations> <hidden from users>",
             "Triggers a [Unit Defeated Grief] event <upon being defeated>",
-            "Unbuildable <for [Spore-Borne Parasite] Civilizations> <hidden from users>",
+            "Unbuildable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
             "Ignores terrain cost <hidden from users>",
             "May travel on Water tiles without embarking <hidden from users>",
             "Gain [6] [Culture]"
@@ -17,7 +17,7 @@
         "uniques": [
             "Unbuildable <for [Barbarians] Civilizations> <hidden from users>",
             "Triggers a [Unit Defeated Grief] event <upon being defeated>",
-            "Unbuildable <for [Spore-Borne Parasite] Civilizations> <hidden from users>",
+            "Unbuildable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
             "Ignores terrain cost <hidden from users>",
             "May travel on Water tiles without embarking <hidden from users>",
             "Gain [10] [Culture]",
@@ -49,7 +49,7 @@
         "movementType": "Land",
         "uniques": [
             "Unbuildable <for [Barbarians] Civilizations> <hidden from users>",
-            "Unbuildable <for [Spore-Borne Parasite] Civilizations> <hidden from users>",
+            "Unbuildable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
             "May travel on Water tiles without embarking <hidden from users>",
             "Ignores terrain cost <hidden from users>",
             "Eliminates combat penalty for attacking over a river <hidden from users>",
@@ -62,7 +62,7 @@
         "movementType": "Land",
         "uniques": [
             "Unbuildable <for [Barbarians] Civilizations> <hidden from users>",
-            "Unbuildable <for [Spore-Borne Parasite] Civilizations> <hidden from users>",
+            "Unbuildable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
             "Triggers a [Unit Defeated Grief] event <upon being defeated>",
             "May travel on Water tiles without embarking <hidden from users>",
             "Ignores terrain cost <hidden from users>",
@@ -89,7 +89,7 @@
         "movementType": "Land",
         "uniques": [
             "Unbuildable <for [Barbarians] Civilizations> <hidden from users>",
-            "Unbuildable <for [Spore-Borne Parasite] Civilizations> <hidden from users>",
+            "Unbuildable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
             "May travel on Water tiles without embarking <hidden from users>",
             "Ignores terrain cost <hidden from users>",
             "Eliminates combat penalty for attacking over a river <hidden from users>",
@@ -102,7 +102,7 @@
         "movementType": "Land",
         "uniques": [
             "Unbuildable <for [Barbarians] Civilizations> <hidden from users>",
-            "Unbuildable <for [Spore-Borne Parasite] Civilizations> <hidden from users>",
+            "Unbuildable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
             "May travel on Water tiles without embarking <hidden from users>",
             "Ignores terrain cost <hidden from users>",
             "Eliminates combat penalty for attacking over a river <hidden from users>",
@@ -114,7 +114,7 @@
         "movementType": "Land",
         "uniques": [
             "Unbuildable <for [Barbarians] Civilizations> <hidden from users>",
-            "Unbuildable <for [Spore-Borne Parasite] Civilizations> <hidden from users>",
+            "Unbuildable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
             "May travel on Water tiles without embarking <hidden from users>",
             "Ignores terrain cost <hidden from users>",
             "Eliminates combat penalty for attacking over a river <hidden from users>",
@@ -128,7 +128,7 @@
         "uniques": [
             "Unbuildable <for [Barbarians] Civilizations> <hidden from users>",
             "Triggers a [Unit Defeated Grief] event <upon being defeated>",
-            "Unbuildable <for [Spore-Borne Parasite] Civilizations> <hidden from users>",
+            "Unbuildable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
             "May travel on Water tiles without embarking <hidden from users>",
             "Ignores terrain cost <hidden from users>",
             "Eliminates combat penalty for attacking over a river <hidden from users>",
@@ -142,7 +142,7 @@
         "uniques": [
             "Unbuildable <for [Barbarians] Civilizations> <hidden from users>",
             "Triggers a [Unit Defeated Grief] event <upon being defeated>",
-            "Unbuildable <for [Spore-Borne Parasite] Civilizations> <hidden from users>",
+            "Unbuildable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
             "May travel on Water tiles without embarking <hidden from users>",
             "Ignores terrain cost <hidden from users>",
             "Eliminates combat penalty for attacking over a river <hidden from users>",
@@ -179,7 +179,7 @@
         "movementType": "Air",
         "uniques": [
             "Unbuildable <for [Barbarians] Civilizations> <hidden from users>",
-            "Unbuildable <for [Spore-Borne Parasite] Civilizations> <hidden from users>",
+            "Unbuildable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
             "Cannot attack"
         ]
     },
@@ -188,7 +188,7 @@
         "movementType": "Air",
         "uniques": [
             "Unbuildable <for [Barbarians] Civilizations> <hidden from users>",
-            "Unbuildable <for [Spore-Borne Parasite] Civilizations> <hidden from users>",
+            "Unbuildable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
             "Cannot attack"
         ],
         "civilopediaText": [
@@ -202,7 +202,7 @@
         "movementType": "Air",
         "uniques": [
             "Unbuildable <for [Barbarians] Civilizations> <hidden from users>",
-            "Unbuildable <for [Spore-Borne Parasite] Civilizations> <hidden from users>",
+            "Unbuildable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
             "May travel on Water tiles without embarking <hidden from users>",
             "Ignores terrain cost <hidden from users>",
             "Eliminates combat penalty for attacking over a river <hidden from users>",
@@ -223,7 +223,7 @@
         "uniques": [
             "Unbuildable <for [Barbarians] Civilizations> <hidden from users>",
             "Triggers a [Unit Defeated Grief] event <upon being defeated>",
-            "Unbuildable <for [Spore-Borne Parasite] Civilizations> <hidden from users>",
+            "Unbuildable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
             "May travel on Water tiles without embarking <hidden from users>",
             "Ignores terrain cost <hidden from users>",
             "Eliminates combat penalty for attacking over a river <hidden from users>",
@@ -243,7 +243,7 @@
         "movementType": "Land",
         "uniques": [
             "Unbuildable <for [Barbarians] Civilizations> <hidden from users>",
-            "Unbuildable <for [Spore-Borne Parasite] Civilizations> <hidden from users>",
+            "Unbuildable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
             "May travel on Water tiles without embarking <hidden from users>",
             "Ignores terrain cost <hidden from users>",
             "Eliminates combat penalty for attacking over a river <hidden from users>",
