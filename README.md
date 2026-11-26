@@ -12,6 +12,7 @@ Launch missiles, Conquer space. Enable 'permanent audio-visual mod.'
 - Silico start with cybernetics
 - Paperclip limit to drones ; simplify tree
 
+- added: feature wonders: supernova, quark star, binary star, mega-blue, mega-cragolith, improvements(ruins): derelict ship, derelict station, vault, units: bio-mechanical weaponship, cybernetic frigate, cybernetic threader, flechette humbler, flechette leviathan, flechette spreader, hab station settler, little blue, little green, little red, missile bundle, quarrel drone-swarm, sintenel drone-fleet, sentinal drone-swarm 
 - img
   - binary system wonder
   - supernova wonder
