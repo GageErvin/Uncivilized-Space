@@ -6,9 +6,7 @@ Launch missiles, Conquer space. Enable 'permanent audio-visual mod.'
 
 - Events, Quests, Great people
 
-- Gold production
 - Astro split after sleep for 10
-- recheck sci v.
 - Bio tree split vs fluid mechanics tree
 - macro, synth and silico get fluid
 - Silico start with cybernetics
