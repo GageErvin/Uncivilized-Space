@@ -790,8 +790,11 @@
     "type": "NaturalWonder",
     "overrideStats": false,
     "occursOn": [
-      "Land",
-      "Water"
+      "Zero Flux Space",
+      "Low Flux Space",
+      "Moderate Flux Space",
+      "High Flux Space",
+      "Extreme Flux Space"
     ],
     "science": 1,
     "production": 5,
@@ -813,8 +816,11 @@
     "type": "NaturalWonder",
     "overrideStats": false,
     "occursOn": [
-      "Land",
-      "Water"
+      "Zero Flux Space",
+      "Low Flux Space",
+      "Moderate Flux Space",
+      "High Flux Space",
+      "Extreme Flux Space"
     ],
     "science": 2,
     "production": 2,
