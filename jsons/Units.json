@@ -1169,7 +1169,7 @@
     "cost": 540,
     "requiredResource": "Uranium",
     "requiredResourceCost": 5,
-    "upgradesTo": "Cybernetic Weaponship",
+    "upgradesTo": "Bio-Mechanical Weaponship",
     "uniques": [
       "[-2] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
       "[-2] Sight <in [High Flux Space] tiles> <hidden from users>",
