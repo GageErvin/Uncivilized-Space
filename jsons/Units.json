@@ -1000,7 +1000,7 @@
     "cost": 100,
     "requiredTech": "Laser Propulsion",
     "uniques": [
-      "Can instantly construct a [Deployed Bundle] improvement <on [unimproved] tiles> <by consuming this unit>"
+      "Can instantly construct a [Deployed Bundle] improvement <in [unimproved] tiles> <by consuming this unit>"
     ]
   },
   {
@@ -1237,6 +1237,7 @@
     "requiredTech": "Hive-Mind Engineering",
     "cost": 85,
     "rangedStrength": 8,
+    "strength": 2,
     "range": 2,
     "movement": 3,
     "uniques":[
