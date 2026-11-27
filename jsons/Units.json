@@ -33,6 +33,20 @@
     ]
   },
   {
+    "name": "Hab Station Settler",
+    "unitType": "Settler",
+    "cost": 500,
+    "movement": 2,
+    "uniques": [
+      "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+      "Requires at least [2] population",
+      "Excess Food converted to Production when under construction",
+      "Founds a new city <by consuming this unit> <in [All] tiles>",
+      "[-60]% production cost <for [AI player] Civilizations>",
+      "[+60]% production cost <for [AI player] Civilizations> <for [{The Ironbound Concord} {The Roche Choir}] Civilizations>"
+    ]
+  },
+  {
     "name": "Generational Settler",
     "unitType": "Settler",
     "cost": 200,
@@ -43,7 +57,8 @@
       "Excess Food converted to Production when under construction",
       "Founds a new city <by consuming this unit> <in [Ringed Terrestrial Planet] tiles>",
       "Comment [(or other planets)]",
-      "Founds a new city <by consuming this unit> <in [All] tiles> <for [AI player] Civilizations>"
+      "Founds a new city <by consuming this unit> <in [All] tiles> <for [AI player] Civilizations>",
+      "Unbuildable <for [{AI player} {The Ironbound Concord} {The Roche Choir}] Civilizations>"
     ],
     "obsoleteWith": "Cryogenics"
   },
@@ -59,7 +74,8 @@
       "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
       "Founds a new city <by consuming this unit> <in [Ringed Terrestrial Planet] tiles>",
       "Comment [(or other planets)]",
-      "Founds a new city <by consuming this unit> <in [All] tiles> <for [AI player] Civilizations>"
+      "Founds a new city <by consuming this unit> <in [All] tiles> <for [AI player] Civilizations>",
+      "Unbuildable <for [{AI player} {The Ironbound Concord} {The Roche Choir}] Civilizations>"
     ],
     "obsoleteWith": "Artificial Super Intelligence"
   },
@@ -76,7 +92,8 @@
       "[+2] Movement <in [Magnetic Acceleration Relay] tiles>",
       "Founds a new city <by consuming this unit> <in [Ringed Terrestrial Planet] tiles>",
       "Comment [(or other planets)]",
-      "Founds a new city <by consuming this unit> <in [All] tiles> <for [AI player] Civilizations>"
+      "Founds a new city <by consuming this unit> <in [All] tiles> <for [AI player] Civilizations>",
+      "Unbuildable <for [{AI player} {The Ironbound Concord} {The Roche Choir}] Civilizations>"
     ]
   },
   {
@@ -173,7 +190,7 @@
     "strength": 4,
     "uniques": [
       "[+500]% Strength <when attacking>",
-      "Self-destructs when attacking",
+      "Self-destructs when attacking"
     ],
     "requiredTech": "Hive-Mind Engineering",
     "uniqueTo": "z_ Spore-Borne Parasite"
@@ -476,6 +493,100 @@
       "[+1] Sight",
       "Can carry [2] [Slug] units"
     ]
+  },
+  {
+    "name": "Flechette Spreader",
+    "replaces": "Neutron Destroyer",
+    "uniques": [
+        "Only available <for [{Helios Glassworks} {Caldera Hegemony}] Civilizations>",
+        "Can instantly construct a [Deployed Flechettes] improvement",
+        "Destroys [in all cities] cities instead of capturing",
+        "[-1] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
+        "[-1] Sight <in [High Flux Space] tiles> <hidden from users>",
+        "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+        "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+        "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+        "[+2] Sight"
+    ],
+    "strength": 12,
+    "rangedStrength": 20,
+    "range": 6,
+    "movement": 4,
+    "cost": 500,
+    "upgradesTo": "Flechette Humbler",
+    "requiredResource": "Uranium",
+    "requiredResourceCost": 5,
+    "requiredTech": "Directed Plasma",
+    "obsoleteWith": "Exotic Matter Condenser"
+  },
+  {
+    "name": "Flechette Humbler",
+    "replaces": "Annihilation Dreadnaught",
+    "uniques": [
+      "Only available <for [{Helios Glassworks} {Caldera Hegemony}] Civilizations>",
+      "Can instantly construct a [Deployed Flechettes] improvement",
+      "Destroys [in all cities] cities instead of capturing",
+      "[-2] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-2] Sight <in [High Flux Space] tiles> <hidden from users>",
+      "[-1] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+      "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+      "[+2] Sight"
+    ],
+    "strength": 18,
+    "rangedStrength": 25,
+    "range": 5,
+    "movement": 4,
+    "cost": 640,
+    "upgradesTo": "Flechette Leviathan",
+    "requiredResource": "Antimatter",
+    "requiredResourceCost": 1,
+    "requiredTech": "Exotic Matter Condenser",
+    "obsoleteWith": "Graviton Manipulation"
+  },
+  {
+    "name": "Flechette Leviathan",
+    "replaces": "Warp Dreadnaught",
+    "uniques": [
+      "Only available <for [{Helios Glassworks} {Caldera Hegemony}] Civilizations>",
+      "Can instantly construct a [Deployed Flechettes] improvement",
+      "Destroys [in all cities] cities instead of capturing",
+      "[-3] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-2] Sight <in [High Flux Space] tiles> <hidden from users>",
+      "[-1] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
+      "[-2] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-2] Movement <in [High Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
+      "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+      "[+4] Sight",
+      "[1] additional attacks per turn"
+    ],
+    "strength": 20,
+    "rangedStrength": 25,
+    "range": 5,
+    "movement": 7,
+    "cost": 750,
+    "requiredTech": "Graviton Manipulation"
+  },
+  {//
+    "name": "Quarrel Drone-Swarm",
+    "unitType": "Thinking Drone",
+    "upgradesTo": "Sentinel Drone-Swarm",
+    "requiredTech": "Athermal Lens"
+  },
+  {//
+    "name": "Sentinel Drone-Swarm",
+    "unitType": "Thinking Drone",
+    "upgradesTo": "Sentinel Drone-Fleet",
+    "requiredTech": "Macro Swarming",
+    "uniques": ["Unbuildable", "Cannot be purchased"]
+  },
+  {//
+    "name": "Sentinel Drone-Fleet",
+    "unitType": "Thinking Drone",
+    "requiredTech": "Graviton Manipulation",
+    "uniques": ["Unbuildable", "Cannot be purchased"]
   },
   {
     "name": "Barbarian Fighter",
@@ -836,6 +947,17 @@
     ]
   },
   {
+    "name": "Missile Bundle",
+    "unitType": "Civilian",
+    "movement": 2,
+    "strength": 2,
+    "cost": 100,
+    "requiredTech": "Laser Propulsion",
+    "uniques": [
+      "Can instantly construct a [Deployed Bundle] improvement <on [unimproved] tiles> <by consuming this unit>"
+    ]
+  },
+  {
     "name": "Munition III - Laser Propelled Missile",
     "unitType": "Munition",
     "movement": 7,
@@ -977,6 +1099,30 @@
       "Can carry [1] [Stored Breach Pod] units",
       "Can carry [8] [Slug] units"
     ]
+  },
+  {//
+    "name": "Cybernetic Threader",
+    "unitType": "Cybernetic-Unit"
+  },//
+  {
+    "name": "Cybernetic Frigate",
+    "unitType": "Cybernetic-Unit"
+  },//
+  {
+    "name": "Cybernetic Weaponship",
+    "unitType": "Cybernetic-Unit"
+  },//
+  {
+    "name": "Little Blue",
+    "unitType": "Cybernetic-Unit"
+  },//
+  {
+    "name": "Little Green",
+    "unitType": "Cybernetic-Unit"
+  },//
+  {
+    "name": "Little Red",
+    "unitType": "Cybernetic-Unit"
   },
   {
     "name": "Swarm Kilde",

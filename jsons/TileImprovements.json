@@ -1,27 +1,48 @@
 [
   {
-  "name": "Derelict Ship",
-  "terrainsCanBeBuiltOn": ["Water"],
-  "uniques": [
-    "Provides a random bonus when entered",
-    "Unpillagable"
-  ]
+    "name": "Derelict Ship",
+    "terrainsCanBeBuiltOn": [
+      "Water"
+    ],
+    "uniques": [
+      "Provides a random bonus when entered",
+      "Unpillagable"
+    ],
+    "RGB": [
+      59,
+      57,
+      55
+    ]
   },
   {
-  "name": "Vault",
-  "terrainsCanBeBuiltOn": ["Water"],
-  "uniques": [
-    "Provides a random bonus when entered",
-    "Unpillagable"
-  ]
+    "name": "Vault",
+    "terrainsCanBeBuiltOn": [
+      "Water"
+    ],
+    "uniques": [
+      "Provides a random bonus when entered",
+      "Unpillagable"
+    ],
+    "RGB": [
+      77,
+      81,
+      69
+    ]
   },
   {
-  "name": "Derelict Station",
-  "terrainsCanBeBuiltOn": ["Water"],
-  "uniques": [
-    "Provides a random bonus when entered",
-    "Unpillagable"
-  ]
+    "name": "Derelict Station",
+    "terrainsCanBeBuiltOn": [
+      "Water"
+    ],
+    "uniques": [
+      "Provides a random bonus when entered",
+      "Unpillagable"
+    ],
+    "RGB": [
+      72,
+      77,
+      79
+    ]
   },
   {
     "name": "Matrix Simulation Pods",
@@ -184,6 +205,33 @@
       114,
       116,
       125
+    ]
+  },
+  {
+    "name": "Deployed Flechettes",
+    "turnsToBuild": 8,
+    "terrainsCanBeBuiltOn": [
+      "Land", "Water"
+    ],
+    "uniques": [
+      "Unpillagable",
+      "Adjacent enemy units ending their turn take [130] damage",
+      "Gives a defensive bonus of [+35]%",
+      "Remove [Deployed Flechettes] improvements from this tile <upon turn start>"
+    ]
+  },
+  {
+    "name": "Deployed Bundle",
+    "turnsToBuild": 8,
+    "terrainsCanBeBuiltOn": [
+      "Land",
+      "Water"
+    ],
+    "uniques": [
+      "Can only be built on [unimproved] tiles",
+      "Free [Munition III - Laser Propelled Missile] appears",
+      "Free [Munition III - Laser Propelled Missile] appears",
+      "Free [Munition III - Laser Propelled Missile] appears"
     ]
   },
   {
