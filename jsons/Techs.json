@@ -92,7 +92,6 @@
 			},
 			{
 				"name": "Engagement Boost",
-				"uniques": ["Unavailable <for [Aegis Directorate] Civilizations>", "Unavailable <for [Cryo-Logic Assembly] Civilizations>"]
 				"prerequisites": [
 					"Generational Ships"
 				],
@@ -158,7 +157,6 @@
 				"prerequisites": [
 					"Engagement Boost"
 				],
-				"uniques": ["Unavailable <for [Aegis Directorate] Civilizations>", "Unavailable <for [Cryo-Logic Assembly] Civilizations>"]
 				"row": 6,
 				"quote": "Because getting hit by a speck of dust at a million miles per hour is surprisingly painful."
 			},
