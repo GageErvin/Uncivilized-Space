@@ -2362,14 +2362,14 @@ StatIcons/Science
   orig: 27, 28
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Units/Sentinel Drone-Swam
+TileSets/UncivilizedSpace/Units/Sentinel Drone-Swarm
   rotate: false
   xy: 862, 843
   size: 44, 28
   orig: 44, 28
   offset: 0, 0
   index: -1
-UnitIcons/Sentinel Drone-Swam
+UnitIcons/Sentinel Drone-Swarm
   rotate: false
   xy: 862, 843
   size: 44, 28
