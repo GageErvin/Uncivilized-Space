@@ -249,8 +249,7 @@
         "movementType": "Land",
         "uniques": [
             "Free [Spore] appears <upon being defeated> <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
-            "Unbuildable <for [All] Civilizations> <hidden from users>",
-            "Buildable <for [{The Ironbound Concord} {The Roche Choir}] Civilizations> <hidden from users>",
+            "Only available <for [{The Ironbound Concord} {The Roche Choir}] Civilizations> <hidden from users>",
             "May travel on Water tiles without embarking <hidden from users>",
             "Ignores terrain cost <hidden from users>",
             "Eliminates combat penalty for attacking over a river <hidden from users>",
