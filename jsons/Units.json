@@ -496,6 +496,7 @@
   },
   {
     "name": "Flechette Spreader",
+    "unitType": "Thinking Drone",
     "replaces": "Neutron Destroyer",
     "uniques": [
         "Only available <for [{Helios Glassworks} {Caldera Hegemony}] Civilizations>",
@@ -521,6 +522,7 @@
   },
   {
     "name": "Flechette Humbler",
+    "unitType": "Thinking Drone",
     "replaces": "Annihilation Dreadnaught",
     "uniques": [
       "Only available <for [{Helios Glassworks} {Caldera Hegemony}] Civilizations>",
@@ -547,6 +549,7 @@
   },
   {
     "name": "Flechette Leviathan",
+    "unitType": "Thinking Drone",
     "replaces": "Warp Dreadnaught",
     "uniques": [
       "Only available <for [{Helios Glassworks} {Caldera Hegemony}] Civilizations>",
@@ -569,20 +572,62 @@
     "cost": 750,
     "requiredTech": "Graviton Manipulation"
   },
-  {//
+  {
+    "strength": 4,
+    "rangedStrength": 10,
+    "range": 5,
+    "movement": 4,
+    "cost": 125,
+    "uniques": [
+      "[1] additional attacks per turn",
+      "[+90]% Strength <when defending>",
+      "Destroys [in all cities] cities instead of capturing",
+      "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+      "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+      "[+1] Sight"
+    ],
     "name": "Quarrel Drone-Swarm",
     "unitType": "Thinking Drone",
     "upgradesTo": "Sentinel Drone-Swarm",
     "requiredTech": "Athermal Lens"
   },
-  {//
+  {
+    "strength": 6,
+    "rangedStrength": 14,
+    "range": 5,
+    "movement": 4,
+    "cost": 125,
+    "uniques": [
+      "[1] additional attacks per turn",
+      "[+90]% Strength <when defending>",
+      "Destroys [in all cities] cities instead of capturing",
+      "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+      "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+      "[+1] Sight"
+    ],
     "name": "Sentinel Drone-Swarm",
     "unitType": "Thinking Drone",
     "upgradesTo": "Sentinel Drone-Fleet",
     "requiredTech": "Macro Swarming",
     "uniques": ["Unbuildable", "Cannot be purchased"]
   },
-  {//
+  {
+    "strength": 8,
+    "rangedStrength": 18,
+    "range": 5,
+    "movement": 4,
+    "cost": 125,
+    "uniques": [
+      "[1] additional attacks per turn",
+      "[+90]% Strength <when defending>",
+      "Destroys [in all cities] cities instead of capturing",
+      "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+      "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+      "[+1] Sight"
+    ],
     "name": "Sentinel Drone-Fleet",
     "unitType": "Thinking Drone",
     "requiredTech": "Graviton Manipulation",
