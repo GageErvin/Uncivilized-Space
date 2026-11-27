@@ -727,7 +727,8 @@
       "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
       "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
       "[1] additional attacks per turn",
-      "Can carry [2] [Slug] units"
+      "Can carry [2] [Slug] units",
+      "Unavailable <for [{Aegis Directorate} {Cryo-Logic Assembly}] Civilizations>"
     ]
   },
   {
