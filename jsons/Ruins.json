@@ -27,7 +27,7 @@
 	{
 		"name": "Unit Upgrade",
 		"notification": "Your unit has found advanced combat data in the ruins!",
-		"uniques": ["Upgrades the unit that entered the ruins"]
+		"uniques": ["[This Unit] gains [10] XP"]
 	}
 ]
 
