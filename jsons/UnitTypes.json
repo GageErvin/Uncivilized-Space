@@ -3,7 +3,8 @@
         "name": "Civilian",
         "movementType": "Land",
         "uniques": [
-            "Unbuildable <for [{Barbarians} {z_ Spore-Borne Parasite}] Civilizations> <hidden from users>",
+            "Unbuildable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
+            "Unbuildable <for [Barbarians] Civilizations> <hidden from users>",
             "Triggers a [Unit Defeated Grief] event <upon being defeated>",
             "Free [Spore] appears <upon being defeated> <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
             "Ignores terrain cost <hidden from users>",
@@ -15,7 +16,8 @@
         "name": "Settler",
         "movementType": "Land",
         "uniques": [
-            "Unbuildable <for [{Barbarians} {z_ Spore-Borne Parasite}] Civilizations> <hidden from users>",
+            "Unbuildable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
+            "Unbuildable <for [Barbarians] Civilizations> <hidden from users>",
             "Triggers a [Unit Defeated Grief] event <upon being defeated>",
             "Ignores terrain cost <hidden from users>",
             "Free [Spore] appears <upon being defeated> <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
@@ -49,7 +51,8 @@
         "movementType": "Land",
         "uniques": [
             "Free [Spore] appears <upon being defeated> <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
-            "Unbuildable <for [{Barbarians} {z_ Spore-Borne Parasite}] Civilizations> <hidden from users>",
+            "Unbuildable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
+            "Unbuildable <for [Barbarians] Civilizations> <hidden from users>",
             "May travel on Water tiles without embarking <hidden from users>",
             "Ignores terrain cost <hidden from users>",
             "Eliminates combat penalty for attacking over a river <hidden from users>",
@@ -68,8 +71,10 @@
             "Eliminates combat penalty for attacking over a river <hidden from users>",
             "Eliminates combat penalty for attacking across a coast <hidden from users>",
             "Gain [5] [Culture]",
-            "Unbuildable <for [{Barbarians} {z_ Spore-Borne Parasite}] Civilizations> <hidden from users>",
-            "Unavailable <for [{Aegis Directorate} {Cryo-Logic Assembly}] Civilizations>"
+            "Unbuildable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
+            "Unbuildable <for [Barbarians] Civilizations> <hidden from users>",
+            "Unbuildable <for [Aegis Directorate] Civilizations> <hidden from users>",
+            "Unbuildable <for [Cryo-Logic Assembly] Civilizations> <hidden from users>"
         ]
     },
     {
@@ -91,7 +96,8 @@
         "movementType": "Land",
         "uniques": [
             "Free [Spore] appears <upon being defeated> <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
-            "Unbuildable <for [{Barbarians} {z_ Spore-Borne Parasite}] Civilizations> <hidden from users>",
+            "Unbuildable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
+            "Unbuildable <for [Barbarians] Civilizations> <hidden from users>",
             "May travel on Water tiles without embarking <hidden from users>",
             "Ignores terrain cost <hidden from users>",
             "Eliminates combat penalty for attacking over a river <hidden from users>",
@@ -104,7 +110,8 @@
         "movementType": "Land",
         "uniques": [
             "Free [Spore] appears <upon being defeated> <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
-            "Unbuildable <for [{Barbarians} {z_ Spore-Borne Parasite}] Civilizations> <hidden from users>",
+            "Unbuildable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
+            "Unbuildable <for [Barbarians] Civilizations> <hidden from users>",
             "May travel on Water tiles without embarking <hidden from users>",
             "Ignores terrain cost <hidden from users>",
             "Eliminates combat penalty for attacking over a river <hidden from users>",
@@ -116,7 +123,8 @@
         "movementType": "Land",
         "uniques": [
             "Free [Spore] appears <upon being defeated> <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
-            "Unbuildable <for [{Barbarians} {z_ Spore-Borne Parasite}] Civilizations> <hidden from users>",
+            "Unbuildable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
+            "Unbuildable <for [Barbarians] Civilizations> <hidden from users>",
             "May travel on Water tiles without embarking <hidden from users>",
             "Ignores terrain cost <hidden from users>",
             "Eliminates combat penalty for attacking over a river <hidden from users>",
@@ -135,8 +143,10 @@
             "Eliminates combat penalty for attacking over a river <hidden from users>",
             "Eliminates combat penalty for attacking across a coast <hidden from users>",
             "Gain [4] [Culture]",
-            "Unbuildable <for [{Barbarians} {z_ Spore-Borne Parasite}] Civilizations> <hidden from users>",
-            "Unavailable <for [{Aegis Directorate} {Cryo-Logic Assembly}] Civilizations>"
+            "Unbuildable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
+            "Unbuildable <for [Barbarians] Civilizations> <hidden from users>",
+            "Unbuildable <for [Aegis Directorate] Civilizations> <hidden from users>",
+            "Unbuildable <for [Cryo-Logic Assembly] Civilizations> <hidden from users>"
         ]
     },
     {
@@ -150,8 +160,10 @@
             "Eliminates combat penalty for attacking over a river <hidden from users>",
             "Eliminates combat penalty for attacking across a coast <hidden from users>",
             "Gain [2] [Culture]",
-            "Unbuildable <for [{Barbarians} {z_ Spore-Borne Parasite}] Civilizations> <hidden from users>",
-            "Unavailable <for [{Aegis Directorate} {Cryo-Logic Assembly}] Civilizations>"
+            "Unbuildable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
+            "Unbuildable <for [Barbarians] Civilizations> <hidden from users>",
+            "Unbuildable <for [Aegis Directorate] Civilizations> <hidden from users>",
+            "Unbuildable <for [Cryo-Logic Assembly] Civilizations> <hidden from users>"
         ]
     },
     {
@@ -184,7 +196,8 @@
         "movementType": "Air",
         "uniques": [
             "Free [Spore] appears <upon being defeated> <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
-            "Unbuildable <for [{Barbarians} {z_ Spore-Borne Parasite}] Civilizations> <hidden from users>",
+            "Unbuildable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
+            "Unbuildable <for [Barbarians] Civilizations> <hidden from users>",
             "Cannot attack"
         ]
     },
@@ -193,7 +206,8 @@
         "movementType": "Air",
         "uniques": [
             "Free [Spore] appears <upon being defeated> <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
-            "Unbuildable <for [{Barbarians} {z_ Spore-Borne Parasite}] Civilizations> <hidden from users>",
+            "Unbuildable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
+            "Unbuildable <for [Barbarians] Civilizations> <hidden from users>",
             "Cannot attack"
         ],
         "civilopediaText": [
@@ -207,7 +221,8 @@
         "movementType": "Air",
         "uniques": [
             "Free [Spore] appears <upon being defeated> <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
-            "Unbuildable <for [{Barbarians} {z_ Spore-Borne Parasite}] Civilizations> <hidden from users>",
+            "Unbuildable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
+            "Unbuildable <for [Barbarians] Civilizations> <hidden from users>",
             "May travel on Water tiles without embarking <hidden from users>",
             "Ignores terrain cost <hidden from users>",
             "Eliminates combat penalty for attacking over a river <hidden from users>",
@@ -235,8 +250,10 @@
             "Cannot attack",
             "Gain [5] [Culture]",
             "[This Unit] gains [60] XP",
-            "Unbuildable <for [{Barbarians} {z_ Spore-Borne Parasite}] Civilizations> <hidden from users>",
-            "Unavailable <for [{Aegis Directorate} {Cryo-Logic Assembly}] Civilizations>"
+            "Unbuildable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
+            "Unbuildable <for [Barbarians] Civilizations> <hidden from users>",
+            "Unbuildable <for [Aegis Directorate] Civilizations> <hidden from users>",
+            "Unbuildable <for [Cryo-Logic Assembly] Civilizations> <hidden from users>"
         ],
         "civilopediaText": [
             {
@@ -269,7 +286,8 @@
             "Eliminates combat penalty for attacking across a coast <hidden from users>",
             "May heal outside of friendly territory",
             "Gain [3] [Culture]",
-            "Unbuildable <for [{Barbarians} {z_ Spore-Borne Parasite}] Civilizations> <hidden from users>",
+            "Unbuildable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
+            "Unbuildable <for [Barbarians] Civilizations> <hidden from users>",
             "Unavailable <for [Aegis Directorate] Civilizations>",
             "Unavailable <for [Cryo-Logic Assembly] Civilizations>",
             "Unavailable <for [The Ironbound Concord] Civilizations>",
