@@ -8,6 +8,7 @@ Launch missiles, Conquer space. Enable 'permanent audio-visual mod.'
 - quotes and text
 - deviations of couplings
 - comments to clarify confusing mechanics, or nation differences if not automatically caught by unciv (forbidden units, tech trees, extra units)
+- ensure units and techs split properly
 
 ## Discarded Ideas (Mod Limitations) 
 - em phantom units
