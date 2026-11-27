@@ -483,6 +483,7 @@
     "range": 4,
     "movement": 4,
     "cost": 125,
+    "upgradesTo": "Quarrel Drone-Swarm",
     "requiredTech": "Artificial Super Intelligence",
     "uniques": [
       "[+90]% Strength <when defending>",
@@ -605,13 +606,13 @@
       "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
       "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
       "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-      "[+1] Sight"
+      "[+1] Sight",
+      "Unbuildable", "Cannot be purchased"
     ],
     "name": "Sentinel Drone-Swarm",
     "unitType": "Thinking Drone",
     "upgradesTo": "Sentinel Drone-Fleet",
-    "requiredTech": "Macro Swarming",
-    "uniques": ["Unbuildable", "Cannot be purchased"]
+    "requiredTech": "Macro Swarming"
   },
   {
     "strength": 8,
@@ -626,12 +627,12 @@
       "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
       "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
       "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-      "[+1] Sight"
+      "[+1] Sight",
+      "Unbuildable", "Cannot be purchased"
     ],
     "name": "Sentinel Drone-Fleet",
     "unitType": "Thinking Drone",
-    "requiredTech": "Graviton Manipulation",
-    "uniques": ["Unbuildable", "Cannot be purchased"]
+    "requiredTech": "Graviton Manipulation"
   },
   {
     "name": "Barbarian Fighter",
