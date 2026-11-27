@@ -1102,70 +1102,70 @@ UnitIcons/Barbarian Fighter
   orig: 85, 57
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Tiles/Quark Star
+TileSets/UncivilizedSpace/Tiles/Mega-Blue
   rotate: false
   xy: 1943, 608
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TerrainIcons/Quark Star
+TerrainIcons/Mega-Blue
   rotate: false
   xy: 1943, 608
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/UncivilizedSpace/Tiles/Supernova
-  rotate: false
-  xy: 2, 677
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TerrainIcons/Supernova
-  rotate: false
-  xy: 2, 677
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/UncivilizedSpace/Tiles/Binary Star
-  rotate: false
-  xy: 68, 677
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TerrainIcons/Binary Star
-  rotate: false
-  xy: 68, 677
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/UncivilizedSpace/Tiles/Mega-Cragolith
   rotate: false
-  xy: 134, 677
+  xy: 2, 677
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TerrainIcons/Mega-Cragolith
   rotate: false
+  xy: 2, 677
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Tiles/Quark Star
+  rotate: false
+  xy: 68, 677
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TerrainIcons/Quark Star
+  rotate: false
+  xy: 68, 677
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Tiles/Supernova
+  rotate: false
   xy: 134, 677
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Tiles/Mega-Blue
+TerrainIcons/Supernova
+  rotate: false
+  xy: 134, 677
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Tiles/Binary Star
   rotate: false
   xy: 200, 677
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TerrainIcons/Mega-Blue
+TerrainIcons/Binary Star
   rotate: false
   xy: 200, 677
   size: 64, 56

@@ -5,7 +5,8 @@
     "movement": 1,
     "uniques": [
       "[10] Sight",
-      "Can see invisible [Stealth Drone] units"
+      "Can see invisible [Stealth Drone] units",
+      "Comment [Cannot be built by any nation.]"
     ]
   },
   {
@@ -14,7 +15,8 @@
     "movement": 1,
     "strength": 3,
     "uniques": [
-      "Can carry [4] [Munition] units"
+      "Can carry [4] [Munition] units",
+      "Comment [Cannot be built by any nation.]"
     ],
     "RGB": [
       85,
@@ -29,7 +31,8 @@
     "strength": 7,
     "uniques": [
       "[+125]% Strength bonus for [All] units within [1] tiles <when defending>",
-      "Can carry [4] [Slug] units"
+      "Can carry [4] [Slug] units",
+      "Comment [Cannot be built by any nation.]"
     ]
   },
   {
@@ -43,7 +46,9 @@
       "Excess Food converted to Production when under construction",
       "Founds a new city <by consuming this unit> <in [All] tiles>",
       "[-60]% production cost <for [AI player] Civilizations>",
-      "[+60]% production cost <for [AI player] Civilizations> <for [{The Ironbound Concord} {The Roche Choir}] Civilizations>"
+      "[+60]% production cost <for [AI player] Civilizations> <for [The Ironbound Concord] Civilizations>",
+      "[+60]% production cost <for [AI player] Civilizations> <for [The Roche Choir] Civilizations>",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite and Barbarians.]"
     ]
   },
   {
@@ -56,9 +61,11 @@
       "Requires at least [2] population",
       "Excess Food converted to Production when under construction",
       "Founds a new city <by consuming this unit> <in [Ringed Terrestrial Planet] tiles>",
-      "Comment [(or other planets)]",
+      "Comment [(or other planets) ..Cannot be built for z_ Spore-Borne Parasite and Barbarians.]",
       "Founds a new city <by consuming this unit> <in [All] tiles> <for [AI player] Civilizations>",
-      "Unbuildable <for [{AI player} {The Ironbound Concord} {The Roche Choir}] Civilizations>"
+      "Unbuildable <for [AI player] Civilizations>",
+      "Unbuildable <for [The Ironbound Concord] Civilizations>",
+      "Unbuildable <for [The Roche Choir] Civilizations>"
     ],
     "obsoleteWith": "Cryogenics"
   },
@@ -73,9 +80,11 @@
       "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
       "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
       "Founds a new city <by consuming this unit> <in [Ringed Terrestrial Planet] tiles>",
-      "Comment [(or other planets)]",
+      "Comment [(or other planets) ..Cannot be built for z_ Spore-Borne Parasite and Barbarians.]",
       "Founds a new city <by consuming this unit> <in [All] tiles> <for [AI player] Civilizations>",
-      "Unbuildable <for [{AI player} {The Ironbound Concord} {The Roche Choir}] Civilizations>"
+      "Unbuildable <for [The Roche Choir] Civilizations>",
+      "Unbuildable <for [The Ironbound Concord] Civilizations>",
+      "Unbuildable <for [AI player] Civilizations>"
     ],
     "obsoleteWith": "Artificial Super Intelligence"
   },
@@ -91,9 +100,11 @@
       "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
       "[+2] Movement <in [Magnetic Acceleration Relay] tiles>",
       "Founds a new city <by consuming this unit> <in [Ringed Terrestrial Planet] tiles>",
-      "Comment [(or other planets)]",
+      "Comment [(or other planets) ..Cannot be built for z_ Spore-Borne Parasite and Barbarians.]",
       "Founds a new city <by consuming this unit> <in [All] tiles> <for [AI player] Civilizations>",
-      "Unbuildable <for [{AI player} {The Ironbound Concord} {The Roche Choir}] Civilizations>"
+      "Unbuildable <for [The Roche Choir] Civilizations>",
+      "Unbuildable <for [The Ironbound Concord] Civilizations>",
+      "Unbuildable <for [AI player] Civilizations>"
     ]
   },
   {
@@ -110,7 +121,8 @@
       "[-2] Movement <in [High Flux Space] tiles> <hidden from users>",
       "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
       "Can build [Land] improvements on tiles",
-      "Can build [Water] improvements on tiles <hidden from users>"
+      "Can build [Water] improvements on tiles <hidden from users>",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite and Barbarians.]"
     ]
   },
   {
@@ -123,7 +135,8 @@
       "Can transform to [Repairforming Swarm] <after discovering [Zero-G Fabrication]>",
       "Can transform to [Signalforming Swarm] <after discovering [Artificial Super Intelligence]>",
       "Can transform to [Astraforming Swarm]",
-      "Cannot move"
+      "Cannot move",
+      "Comment [Cannot be built by any nation.]"
     ]
   },
   {
@@ -136,7 +149,8 @@
       "Can transform to [Astraforming Swarm]",
       "Can transform to [Screenforming Swarm] <after discovering [Engagement Boost]>",
       "Can transform to [Signalforming Swarm] <after discovering [Artificial Super Intelligence]>",
-      "Cannot move"
+      "Cannot move",
+      "Comment [Cannot be built by any nation.]"
     ]
   },
   {
@@ -151,7 +165,8 @@
       "Can transform to [Astraforming Swarm]",
       "Can transform to [Screenforming Swarm] <after discovering [Engagement Boost]>",
       "Can transform to [Repairforming Swarm] <after discovering [Zero-G Fabrication]>",
-      "Cannot move"
+      "Cannot move",
+      "Comment [Cannot be built by any nation.]"
     ]
   },
   {
@@ -220,7 +235,8 @@
       "Can transform to [Combatforming Swarm-Bio] <after adopting [Bio-Ascendancy]>",
       "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
       "Can build [Land] improvements on tiles",
-      "Can build [Water] improvements on tiles <hidden from users>"
+      "Can build [Water] improvements on tiles <hidden from users>",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite and Barbarians.]"
     ]
   },
   {
@@ -235,7 +251,8 @@
       "[+1] Sight",
       "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
       "Can build [Land] improvements on tiles",
-      "Can build [Water] improvements on tiles <hidden from users>"
+      "Can build [Water] improvements on tiles <hidden from users>",
+      "Comment [Cannot be built by any nation.]"
     ]
   },
   {
@@ -253,7 +270,8 @@
       "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
       "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
       "[+1] Sight",
-      "Never appears as a Barbarian unit"
+      "Never appears as a Barbarian unit",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite and Barbarians.]"
     ]
   },
   {
@@ -271,7 +289,8 @@
       "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
       "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
       "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-      "[+4] Sight"
+      "[+4] Sight",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite and Barbarians.]"
     ]
   },
   {
@@ -292,7 +311,8 @@
       "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
       "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
       "[+5] Sight",
-      "Can see invisible [Stealth Drone] units"
+      "Can see invisible [Stealth Drone] units",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite, Barbarians, Aegis Directorate, and Cryo-Logic Assembly.]"
     ]
   },
   {
@@ -311,7 +331,8 @@
       "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
       "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
       "[+6] Sight",
-      "Can see invisible [Stealth Drone] units"
+      "Can see invisible [Stealth Drone] units",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite, Barbarians, Aegis Directorate, and Cryo-Logic Assembly.]"
     ]
   },
   {
@@ -327,7 +348,8 @@
       "[This Unit] takes [100] damage <upon turn start>",
       "May capture killed [Military] units",
       "May capture killed [Bio-Unit] units",
-      "Unbuildable"
+      "Unbuildable",
+      "Comment [Cannot be built by any nation.]"
     ]
   },
   {
@@ -338,7 +360,8 @@
     "cost": 50,
     "requiredTech": "Neural Parasitology",
     "uniques": [
-      "Can transform to [Bio Breach] <for [0] movement>"
+      "Can transform to [Bio Breach] <for [0] movement>",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite and Barbarians.]"
     ]
   },
   {
@@ -355,7 +378,8 @@
       "May capture killed [Military] units",
       "May capture killed [Civilian] units",
       "May capture killed [Settler] units",
-      "Unbuildable"
+      "Unbuildable",
+      "Comment [Cannot be built by any nation.]"
     ]
   },
   {
@@ -366,7 +390,8 @@
     "cost": 100,
     "requiredTech": "Expert Systems",
     "uniques": [
-      "Can transform to [Mech Breach] <for [0] movement>"
+      "Can transform to [Mech Breach] <for [0] movement>",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite and Barbarians.]"
     ]
   },
   {
@@ -383,7 +408,8 @@
       "Invisible to non-adjacent units",
       "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
       "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
-      "[+2] Movement <in [Magnetic Acceleration Relay] tiles>"
+      "[+2] Movement <in [Magnetic Acceleration Relay] tiles>",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite and Barbarians.]"
     ]
   },
   {
@@ -401,7 +427,8 @@
       "Invisible to non-adjacent units",
       "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
       "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
-      "[+2] Movement <in [Magnetic Acceleration Relay] tiles>"
+      "[+2] Movement <in [Magnetic Acceleration Relay] tiles>",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite and Barbarians.]"
     ]
   },
   {
@@ -417,7 +444,8 @@
       "Invisible to non-adjacent units",
       "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
       "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
-      "[+2] Movement <in [Magnetic Acceleration Relay] tiles>"
+      "[+2] Movement <in [Magnetic Acceleration Relay] tiles>",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite and Barbarians.]"
     ]
   },
   {
@@ -434,7 +462,8 @@
       "Destroys [in all cities] cities instead of capturing",
       "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
       "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
-      "[+2] Movement <in [Magnetic Acceleration Relay] tiles>"
+      "[+2] Movement <in [Magnetic Acceleration Relay] tiles>",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite and Barbarians.]"
     ]
   },
   {
@@ -452,7 +481,8 @@
       "Destroys [in all cities] cities instead of capturing",
       "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
       "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
-      "[+2] Movement <in [Magnetic Acceleration Relay] tiles>"
+      "[+2] Movement <in [Magnetic Acceleration Relay] tiles>",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite and Barbarians.]"
     ]
   },
   {
@@ -472,7 +502,8 @@
       "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
       "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
       "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-      "[+1] Sight"
+      "[+1] Sight",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite and Barbarians.]"
     ]
   },
   {
@@ -492,22 +523,25 @@
       "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
       "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
       "[+1] Sight",
-      "Can carry [2] [Slug] units"
+      "Can carry [2] [Slug] units",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite and Barbarians.]"
     ]
   },
   {
     "name": "Flechette Spreader",
     "unitType": "Thinking Drone",
     "uniques": [
-        "Only available <for [{Helios Glassworks} {Caldera Hegemony}] Civilizations>",
-        "Can instantly construct a [Deployed Flechettes] improvement",
-        "Destroys [in all cities] cities instead of capturing",
-        "[-1] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
-        "[-1] Sight <in [High Flux Space] tiles> <hidden from users>",
-        "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
-        "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
-        "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-        "[+2] Sight"
+      "Only available <for [Caldera Hegemony] Civilizations>",
+      "Only available <for [Helios Glassworks] Civilizations>",
+      "Can instantly construct a [Deployed Flechettes] improvement",
+      "Destroys [in all cities] cities instead of capturing",
+      "[-1] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-1] Sight <in [High Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+      "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+      "[+2] Sight",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite, Barbarians, Cryo-Logic Assembly, Flat-Universe Society, z_ Galactic Paperclip Initiative, Mycelia Trade Guild, The Ironbound Concord, Caldera Hegemony, Spectator, The Roche Choir, Aegis Directorate, Helios Glassworks, and The Driftwood Compact.]"
     ],
     "strength": 12,
     "rangedStrength": 20,
@@ -524,7 +558,8 @@
     "name": "Flechette Humbler",
     "unitType": "Thinking Drone",
     "uniques": [
-      "Only available <for [{Helios Glassworks} {Caldera Hegemony}] Civilizations>",
+      "Only available <for [Helios Glassworks] Civilizations>",
+      "Only available <for [Caldera Hegemony] Civilizations>",
       "Can instantly construct a [Deployed Flechettes] improvement",
       "Destroys [in all cities] cities instead of capturing",
       "[-2] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
@@ -533,7 +568,8 @@
       "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
       "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
       "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-      "[+2] Sight"
+      "[+2] Sight",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite, Barbarians, Cryo-Logic Assembly, Flat-Universe Society, z_ Galactic Paperclip Initiative, Mycelia Trade Guild, The Ironbound Concord, Spectator, The Roche Choir, Aegis Directorate, and The Driftwood Compact.]"
     ],
     "strength": 18,
     "rangedStrength": 25,
@@ -550,7 +586,8 @@
     "name": "Flechette Leviathan",
     "unitType": "Thinking Drone",
     "uniques": [
-      "Only available <for [{Helios Glassworks} {Caldera Hegemony}] Civilizations>",
+      "Only available <for [Helios Glassworks] Civilizations>",
+      "Only available <for [Caldera Hegemony] Civilizations>",
       "Can instantly construct a [Deployed Flechettes] improvement",
       "Destroys [in all cities] cities instead of capturing",
       "[-3] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
@@ -561,7 +598,8 @@
       "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
       "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
       "[+4] Sight",
-      "[1] additional attacks per turn"
+      "[1] additional attacks per turn",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite, Barbarians, Cryo-Logic Assembly, Flat-Universe Society, z_ Galactic Paperclip Initiative, Mycelia Trade Guild, The Ironbound Concord, Spectator, The Roche Choir, Aegis Directorate, and The Driftwood Compact.]"
     ],
     "strength": 20,
     "rangedStrength": 25,
@@ -583,7 +621,8 @@
       "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
       "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
       "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-      "[+1] Sight"
+      "[+1] Sight",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite and Barbarians.]"
     ],
     "name": "Quarrel Drone-Swarm",
     "unitType": "Thinking Drone",
@@ -604,7 +643,9 @@
       "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
       "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
       "[+1] Sight",
-      "Unbuildable", "Cannot be purchased"
+      "Unbuildable",
+      "Cannot be purchased",
+      "Comment [Cannot be built by any nation.]"
     ],
     "name": "Sentinel Drone-Swarm",
     "unitType": "Thinking Drone",
@@ -625,7 +666,9 @@
       "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
       "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
       "[+1] Sight",
-      "Unbuildable", "Cannot be purchased"
+      "Unbuildable",
+      "Cannot be purchased",
+      "Comment [Cannot be built by any nation.]"
     ],
     "name": "Sentinel Drone-Fleet",
     "unitType": "Thinking Drone",
@@ -727,7 +770,8 @@
       "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
       "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
       "[1] additional attacks per turn",
-      "Can carry [2] [Slug] units"
+      "Can carry [2] [Slug] units",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite, Barbarians, Aegis Directorate, and Cryo-Logic Assembly.]"
     ]
   },
   {
@@ -751,7 +795,8 @@
       "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
       "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
       "[+1] Sight",
-      "Can carry [1] [Munition] units"
+      "Can carry [1] [Munition] units",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite, Barbarians, Aegis Directorate, and Cryo-Logic Assembly.]"
     ]
   },
   {
@@ -774,7 +819,8 @@
       "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
       "[+1] Sight",
       "Double movement in [Nebula]",
-      "Can carry [1] [Stored Breach Pod] units"
+      "Can carry [1] [Stored Breach Pod] units",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite, Barbarians, Aegis Directorate, and Cryo-Logic Assembly.]"
     ]
   },
   {
@@ -791,7 +837,8 @@
     "requiredTech": "Directed Plasma",
     "obsoleteWith": "Exotic Matter Condenser",
     "uniques": [
-      "Unavailable <for [{Helios Glassworks} {Caldera Hegemony}] Civilizations>",
+      "Unavailable <for [Helios Glassworks] Civilizations>",
+      "Unavailable <for [Caldera Hegemony] Civilizations>",
       "Destroys [in all cities] cities instead of capturing",
       "[-1] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
       "[-1] Sight <in [High Flux Space] tiles> <hidden from users>",
@@ -801,7 +848,8 @@
       "[+2] Sight",
       "Can carry [1] extra [Stored Breach Pod] units",
       "Can carry [1] [Munition] units",
-      "Can carry [2] extra [Slug] units"
+      "Can carry [2] extra [Slug] units",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite, Barbarians, Aegis Directorate, Helios Glassworks, Caldera Hegemony, and Cryo-Logic Assembly.]"
     ]
   },
   {
@@ -818,7 +866,8 @@
     "requiredTech": "Exotic Matter Condenser",
     "obsoleteWith": "Graviton Manipulation",
     "uniques": [
-      "Unavailable <for [{Helios Glassworks} {Caldera Hegemony}] Civilizations>",
+      "Unavailable <for [Helios Glassworks] Civilizations>",
+      "Unavailable <for [Caldera Hegemony] Civilizations>",
       "Destroys [in all cities] cities instead of capturing",
       "[-2] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
       "[-2] Sight <in [High Flux Space] tiles> <hidden from users>",
@@ -829,7 +878,8 @@
       "[+2] Sight",
       "Can carry [1] extra [Stored Breach Pod] units",
       "Can carry [2] [Munition] units",
-      "Can carry [3] extra [Slug] units"
+      "Can carry [3] extra [Slug] units",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite, Barbarians, Aegis Directorate, Helios Glassworks, Caldera Hegemony, and Cryo-Logic Assembly.]"
     ]
   },
   {
@@ -842,7 +892,8 @@
     "cost": 750,
     "requiredTech": "Graviton Manipulation",
     "uniques": [
-      "Unavailable <for [{Helios Glassworks} {Caldera Hegemony}] Civilizations>",
+      "Unavailable <for [Helios Glassworks] Civilizations>",
+      "Unavailable <for [Caldera Hegemony] Civilizations>",
       "Destroys [in all cities] cities instead of capturing",
       "[-3] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
       "[-2] Sight <in [High Flux Space] tiles> <hidden from users>",
@@ -855,7 +906,8 @@
       "[1] additional attacks per turn",
       "Can carry [1] [Stored Breach Pod] units",
       "Can carry [1] [Munition] units",
-      "Can carry [2] extra [Slug] units"
+      "Can carry [2] extra [Slug] units",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite, Barbarians, Aegis Directorate, and Cryo-Logic Assembly.]"
     ]
   },
   {
@@ -869,7 +921,8 @@
     "requiredTech": "Fluid-State Machinery",
     "uniques": [
       "[1] additional attacks per turn",
-      "[-1] Sight"
+      "[-1] Sight",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite, Barbarians, Aegis Directorate, and Cryo-Logic Assembly.]"
     ]
   },
   {
@@ -883,7 +936,8 @@
     "requiredTech": "Fluid-State Machinery",
     "uniques": [
       "[1] additional attacks per turn",
-      "[-1] Sight"
+      "[-1] Sight",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite, Barbarians, Aegis Directorate, and Cryo-Logic Assembly.]"
     ]
   },
   {
@@ -897,7 +951,8 @@
     "requiredTech": "Fluid-State Machinery",
     "uniques": [
       "[1] additional attacks per turn",
-      "Can carry [5] [Slug] units"
+      "Can carry [5] [Slug] units",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite, Barbarians, Aegis Directorate, and Cryo-Logic Assembly.]"
     ]
   },
   {
@@ -910,7 +965,8 @@
     "requiredTech": "Kaizen - 2",
     "uniques": [
       "[3] additional attacks per turn",
-      "Can carry [1] [Munition] units"
+      "Can carry [1] [Munition] units",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite and Barbarians.]"
     ]
   },
   {
@@ -920,7 +976,8 @@
     "movement": 4,
     "cost": 20,
     "uniques": [
-      "Blast radius [2]"
+      "Blast radius [2]",
+      "Comment [Cannot be built by any nation.]"
     ],
     "civilopediaText": [
       {
@@ -937,7 +994,8 @@
     "requiredTech": "Engagement Boost",
     "obsoleteWith": "Micro Particulate Shielding",
     "uniques": [
-      "Can transform to [Missile] <for [0] movement>"
+      "Can transform to [Missile] <for [0] movement>",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite and Barbarians.]"
     ],
     "civilopediaText": [
       {
@@ -952,7 +1010,8 @@
     "movement": 5,
     "cost": 25,
     "uniques": [
-      "Blast radius [2]"
+      "Blast radius [2]",
+      "Comment [Cannot be built by any nation.]"
     ],
     "civilopediaText": [
       {
@@ -969,7 +1028,8 @@
     "requiredTech": "Micro Particulate Shielding",
     "obsoleteWith": "Laser Propulsion",
     "uniques": [
-      "Can transform to [Shielded Missile] <for [0] movement>"
+      "Can transform to [Shielded Missile] <for [0] movement>",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite and Barbarians.]"
     ],
     "civilopediaText": [
       {
@@ -984,7 +1044,8 @@
     "movement": 7,
     "cost": 35,
     "uniques": [
-      "Blast radius [3]"
+      "Blast radius [3]",
+      "Comment [Cannot be built by any nation.]"
     ],
     "civilopediaText": [
       {
@@ -1000,7 +1061,8 @@
     "cost": 100,
     "requiredTech": "Laser Propulsion",
     "uniques": [
-      "Can instantly construct a [Deployed Bundle] improvement <in [unimproved] tiles> <by consuming this unit>"
+      "Can instantly construct a [Deployed Bundle] improvement <in [unimproved] tiles> <by consuming this unit>",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite and Barbarians.]"
     ]
   },
   {
@@ -1011,7 +1073,8 @@
     "cost": 35,
     "requiredTech": "Laser Propulsion",
     "uniques": [
-      "Can transform to [Laser Propelled Missile] <for [0] movement>"
+      "Can transform to [Laser Propelled Missile] <for [0] movement>",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite and Barbarians.]"
     ],
     "civilopediaText": [
       {
@@ -1035,7 +1098,8 @@
       "[+6] Sight",
       "Can carry [3] [Munition] units",
       "Can carry [1] extra [Stored Breach Pod] units",
-      "Can carry [2] extra [Slug] units"
+      "Can carry [2] extra [Slug] units",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite, Barbarians, Aegis Directorate, and Cryo-Logic Assembly.]"
     ],
     "obsoleteWith": "Laser Propulsion",
     "civilopediaText": [
@@ -1063,7 +1127,8 @@
       "Can move after attacking",
       "Can carry [4] [Munition] units",
       "Can carry [2] extra [Stored Breach Pod] units",
-      "Can carry [4] extra [Slug] units"
+      "Can carry [4] extra [Slug] units",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite, Barbarians, Aegis Directorate, and Cryo-Logic Assembly.]"
     ],
     "civilopediaText": [
       {
@@ -1086,7 +1151,8 @@
       "[+10] Sight",
       "Can carry [5] [Munition] units",
       "Can carry [2] extra [Stored Breach Pod] units",
-      "Can carry [7] extra [Slug] units"
+      "Can carry [7] extra [Slug] units",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite, Barbarians, Aegis Directorate, and Cryo-Logic Assembly.]"
     ],
     "obsoleteWith": "C-Fractional Thrust",
     "civilopediaText": [
@@ -1116,7 +1182,8 @@
       "No damage penalty for wounded units",
       "Can carry [1] [Stored Breach Pod] units",
       "Can carry [2] [Munition] units",
-      "Can carry [4] [Slug] units"
+      "Can carry [4] [Slug] units",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite, Barbarians, Aegis Directorate, and Cryo-Logic Assembly.]"
     ]
   },
   {
@@ -1143,7 +1210,8 @@
       "Ranged attacks may be performed over obstacles <hidden from users>",
       "No damage penalty for wounded units",
       "Can carry [1] [Stored Breach Pod] units",
-      "Can carry [8] [Slug] units"
+      "Can carry [8] [Slug] units",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite, Barbarians, Aegis Directorate, and Cryo-Logic Assembly.]"
     ]
   },
   {
@@ -1157,7 +1225,8 @@
     "uniques": [
       "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
       "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
-      "[+1] Movement <in [Magnetic Acceleration Relay] tiles>"
+      "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+      "Comment [Cannot be built for Cryo-Logic Assembly, Flat-Universe Society, z_ Galactic Paperclip Initiative, Mycelia Trade Guild, The Ironbound Concord, z_ Spore-Borne Parasite, Barbarians, Caldera Hegemony, Spectator, The Roche Choir, Aegis Directorate, Helios Glassworks, and The Driftwood Compact.]"
     ]
   },
   {
@@ -1177,7 +1246,8 @@
       "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
       "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
       "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-      "[+2] Sight"
+      "[+2] Sight",
+      "Comment [Cannot be built for Cryo-Logic Assembly, Flat-Universe Society, z_ Galactic Paperclip Initiative, Mycelia Trade Guild, The Ironbound Concord, z_ Spore-Borne Parasite, Barbarians, Caldera Hegemony, Spectator, The Roche Choir, Aegis Directorate, Helios Glassworks, and The Driftwood Compact.]"
     ]
   },
   {
@@ -1197,7 +1267,8 @@
       "[-2] Movement <in [High Flux Space] tiles> <hidden from users>",
       "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
       "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-      "[+3] Sight"
+      "[+3] Sight",
+      "Comment [Cannot be built for Cryo-Logic Assembly, Flat-Universe Society, z_ Galactic Paperclip Initiative, Mycelia Trade Guild, The Ironbound Concord, z_ Spore-Borne Parasite, Barbarians, Caldera Hegemony, Spectator, The Roche Choir, Aegis Directorate, Helios Glassworks, and The Driftwood Compact.]"
     ]
   },
   {
@@ -1206,14 +1277,15 @@
     "requiredTech": "Xeno-Genetics",
     "cost": 85,
     "movement": 3,
-    "uniques":[
+    "uniques": [
       "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
       "[-2] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
       "[-2] Movement <in [High Flux Space] tiles> <hidden from users>",
       "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
       "Can build [Land] improvements on tiles",
       "Can build [Water] improvements on tiles <hidden from users>",
-      "Invisible to non-adjacent units"
+      "Invisible to non-adjacent units",
+      "Comment [Cannot be built for Cryo-Logic Assembly, Flat-Universe Society, z_ Galactic Paperclip Initiative, Mycelia Trade Guild, The Ironbound Concord, z_ Spore-Borne Parasite, Barbarians, Caldera Hegemony, Spectator, The Roche Choir, Aegis Directorate, Helios Glassworks, and The Driftwood Compact.]"
     ]
   },
   {
@@ -1222,13 +1294,14 @@
     "requiredTech": "Neural Parasitology",
     "cost": 55,
     "movement": 3,
-    "uniques":[
+    "uniques": [
       "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
       "[-2] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
       "[-2] Movement <in [High Flux Space] tiles> <hidden from users>",
       "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
       "Can build [Land] improvements on tiles",
-      "Can build [Water] improvements on tiles <hidden from users>"
+      "Can build [Water] improvements on tiles <hidden from users>",
+      "Comment [Cannot be built for Cryo-Logic Assembly, Flat-Universe Society, z_ Galactic Paperclip Initiative, Mycelia Trade Guild, The Ironbound Concord, z_ Spore-Borne Parasite, Barbarians, Caldera Hegemony, Spectator, The Roche Choir, Aegis Directorate, Helios Glassworks, and The Driftwood Compact.]"
     ]
   },
   {
@@ -1240,13 +1313,14 @@
     "strength": 2,
     "range": 2,
     "movement": 3,
-    "uniques":[
+    "uniques": [
       "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
       "[-2] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
       "[-2] Movement <in [High Flux Space] tiles> <hidden from users>",
       "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
       "Can build [Land] improvements on tiles",
-      "Can build [Water] improvements on tiles <hidden from users>"
+      "Can build [Water] improvements on tiles <hidden from users>",
+      "Comment [Cannot be built for Cryo-Logic Assembly, Flat-Universe Society, z_ Galactic Paperclip Initiative, Mycelia Trade Guild, The Ironbound Concord, z_ Spore-Borne Parasite, Barbarians, Caldera Hegemony, Spectator, The Roche Choir, Aegis Directorate, Helios Glassworks, and The Driftwood Compact.]"
     ]
   },
   {
@@ -1263,7 +1337,8 @@
       "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
       "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
       "[10] HP when healing",
-      "Can carry [3] [Slug] units"
+      "Can carry [3] [Slug] units",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite, Barbarians, Aegis Directorate, Cryo-Logic Assembly, The Ironbound Concord, and The Roche Choir.]"
     ],
     "civilopediaText": [
       {
@@ -1285,7 +1360,8 @@
       "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
       "[20] HP when healing",
       "Can carry [1] [Stored Breach Pod] units",
-      "Can carry [5] [Slug] units"
+      "Can carry [5] [Slug] units",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite, Barbarians, Aegis Directorate, Cryo-Logic Assembly, The Ironbound Concord, and The Roche Choir.]"
     ],
     "civilopediaText": [
       {
@@ -1313,7 +1389,8 @@
       "[+2] Sight",
       "[30] HP when healing",
       "Can carry [1] [Stored Breach Pod] units",
-      "Can carry [7] [Slug] units"
+      "Can carry [7] [Slug] units",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite, Barbarians, Aegis Directorate, Cryo-Logic Assembly, The Ironbound Concord, and The Roche Choir.]"
     ],
     "civilopediaText": [
       {
@@ -1341,7 +1418,8 @@
       "[+3] Sight",
       "[40] HP when healing",
       "Can carry [2] [Stored Breach Pod] units",
-      "Can carry [6] [Slug] units"
+      "Can carry [6] [Slug] units",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite, Barbarians, Aegis Directorate, Cryo-Logic Assembly, The Ironbound Concord, and The Roche Choir.]"
     ],
     "civilopediaText": [
       {
@@ -1363,7 +1441,8 @@
       "[+500]% Strength <when carried by [Broadside Hull] units>",
       "[+3] Range <when carried by [Cannonade Vessel] units>",
       "[+480]% Strength <when carried by [Cannonade Vessel] units>",
-      "[+300]% Strength <when carried by [Orbital Fortress] units>"
+      "[+300]% Strength <when carried by [Orbital Fortress] units>",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite and Barbarians.]"
     ]
   },
   {
@@ -1382,7 +1461,8 @@
       "[+500]% Strength <when carried by [Broadside Hull] units>",
       "[+3] Range <when carried by [Cannonade Vessel] units>",
       "[+480]% Strength <when carried by [Cannonade Vessel] units>",
-      "[+300]% Strength <when carried by [Orbital Fortress] units>"
+      "[+300]% Strength <when carried by [Orbital Fortress] units>",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite and Barbarians.]"
     ]
   },
   {
@@ -1400,7 +1480,8 @@
       "[+500]% Strength <when carried by [Broadside Hull] units>",
       "[+3] Range <when carried by [Cannonade Vessel] units>",
       "[+480]% Strength <when carried by [Cannonade Vessel] units>",
-      "[+300]% Strength <when carried by [Orbital Fortress] units>"
+      "[+300]% Strength <when carried by [Orbital Fortress] units>",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite and Barbarians.]"
     ]
   },
   {
@@ -1414,7 +1495,8 @@
       "Cannot be purchased",
       "Uncapturable",
       "Can be added to [The Spaceship] in the Capital",
-      "Limited to [2] per Civilization"
+      "Limited to [2] per Civilization",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite and Barbarians.]"
     ]
   },
   {
@@ -1428,7 +1510,8 @@
       "Cannot be purchased",
       "Uncapturable",
       "Can be added to [The Spaceship] in the Capital",
-      "Limited to [1] per Civilization"
+      "Limited to [1] per Civilization",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite and Barbarians.]"
     ]
   },
   {
@@ -1442,7 +1525,8 @@
       "Cannot be purchased",
       "Uncapturable",
       "Can be added to [The Spaceship] in the Capital",
-      "Limited to [3] per Civilization"
+      "Limited to [3] per Civilization",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite and Barbarians.]"
     ]
   },
   {
@@ -1456,7 +1540,8 @@
       "Cannot be purchased",
       "Uncapturable",
       "Can be added to [The Spaceship] in the Capital",
-      "Limited to [3] per Civilization"
+      "Limited to [3] per Civilization",
+      "Comment [Cannot be built for z_ Spore-Borne Parasite and Barbarians.]"
     ]
   }
 ]
