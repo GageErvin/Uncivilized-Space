@@ -1146,29 +1146,105 @@
       "Can carry [8] [Slug] units"
     ]
   },
-  {//
+  {
     "name": "Cybernetic Threader",
-    "unitType": "Cybernetic-Unit"
-  },//
+    "requiredTech": "Neural Parasitology",
+    "unitType": "Cybernetic-Unit",
+    "strength": 13,
+    "movement": 6,
+    "cost": 180,
+    "upgradesTo": "Cybernetic Frigate",
+    "uniques": [
+      "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+      "[+1] Movement <in [Magnetic Acceleration Relay] tiles>"
+    ]
+  },
   {
     "name": "Cybernetic Frigate",
-    "unitType": "Cybernetic-Unit"
-  },//
+    "requiredTech": "Hive-Mind Engineering",
+    "unitType": "Cybernetic-Unit",
+    "strength": 22,
+    "movement": 5,
+    "cost": 540,
+    "requiredResource": "Uranium",
+    "requiredResourceCost": 5,
+    "upgradesTo": "Cybernetic Weaponship",
+    "uniques": [
+      "[-2] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-2] Sight <in [High Flux Space] tiles> <hidden from users>",
+      "[-1] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
+      "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+      "[+2] Sight"
+    ]
+  },
   {
     "name": "Cybernetic Weaponship",
-    "unitType": "Cybernetic-Unit"
-  },//
+    "requiredTech": "Bio-Singularity",
+    "unitType": "Cybernetic-Unit",
+    "strength": 28,
+    "movement": 5,
+    "cost": 650,
+    "requiredResource": "Antimatter",
+    "requiredResourceCost": 1,
+    "uniques": [
+      "[-3] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-2] Sight <in [High Flux Space] tiles> <hidden from users>",
+      "[-1] Sight <in [Moderate Flux Space] tiles> <hidden from users>",
+      "[-2] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-2] Movement <in [High Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
+      "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+      "[+3] Sight"
+    ]
+  },
   {
     "name": "Little Blue",
-    "unitType": "Cybernetic-Unit"
-  },//
+    "unitType": "Cybernetic-Unit",
+    "requiredTech": "Xeno-Genetics",
+    "cost": 15,
+    "movement": 4,
+    "uniques":[
+      "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+      "[-2] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-2] Movement <in [High Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
+      "Can build [Land] improvements on tiles <by consuming this unit>",
+      "Can build [Water] improvements on tiles <hidden from users> <by consuming this unit>"
+    ]
+  },
   {
     "name": "Little Green",
-    "unitType": "Cybernetic-Unit"
-  },//
+    "unitType": "Cybernetic-Unit",
+    "requiredTech": "Neural Parasitology",
+    "cost": 55,
+    "movement": 3,
+    "uniques":[
+      "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+      "[-2] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-2] Movement <in [High Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
+      "Can build [Land] improvements on tiles",
+      "Can build [Water] improvements on tiles <hidden from users>"
+    ]
+  },
   {
     "name": "Little Red",
-    "unitType": "Cybernetic-Unit"
+    "unitType": "Cybernetic-Unit",
+    "requiredTech": "Hive-Mind Engineering",
+    "cost": 85,
+    "movement": 3,
+    "uniques":[
+      "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
+      "[-2] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
+      "[-2] Movement <in [High Flux Space] tiles> <hidden from users>",
+      "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
+      "Can build [Land] improvements on tiles",
+      "Can build [Water] improvements on tiles <hidden from users>",
+      "Invisible to non-adjacent units"
+    ]
   },
   {
     "name": "Swarm Kilde",
