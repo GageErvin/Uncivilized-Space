@@ -498,7 +498,6 @@
   {
     "name": "Flechette Spreader",
     "unitType": "Thinking Drone",
-    "replaces": "Neutron Destroyer",
     "uniques": [
         "Only available <for [{Helios Glassworks} {Caldera Hegemony}] Civilizations>",
         "Can instantly construct a [Deployed Flechettes] improvement",
@@ -524,7 +523,6 @@
   {
     "name": "Flechette Humbler",
     "unitType": "Thinking Drone",
-    "replaces": "Annihilation Dreadnaught",
     "uniques": [
       "Only available <for [{Helios Glassworks} {Caldera Hegemony}] Civilizations>",
       "Can instantly construct a [Deployed Flechettes] improvement",
@@ -551,7 +549,6 @@
   {
     "name": "Flechette Leviathan",
     "unitType": "Thinking Drone",
-    "replaces": "Warp Dreadnaught",
     "uniques": [
       "Only available <for [{Helios Glassworks} {Caldera Hegemony}] Civilizations>",
       "Can instantly construct a [Deployed Flechettes] improvement",
@@ -794,6 +791,7 @@
     "requiredTech": "Directed Plasma",
     "obsoleteWith": "Exotic Matter Condenser",
     "uniques": [
+      "Unavailable <for [{Helios Glassworks} {Caldera Hegemony}] Civilizations>",
       "Destroys [in all cities] cities instead of capturing",
       "[-1] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
       "[-1] Sight <in [High Flux Space] tiles> <hidden from users>",
@@ -820,6 +818,7 @@
     "requiredTech": "Exotic Matter Condenser",
     "obsoleteWith": "Graviton Manipulation",
     "uniques": [
+      "Unavailable <for [{Helios Glassworks} {Caldera Hegemony}] Civilizations>",
       "Destroys [in all cities] cities instead of capturing",
       "[-2] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
       "[-2] Sight <in [High Flux Space] tiles> <hidden from users>",
@@ -843,6 +842,7 @@
     "cost": 750,
     "requiredTech": "Graviton Manipulation",
     "uniques": [
+      "Unavailable <for [{Helios Glassworks} {Caldera Hegemony}] Civilizations>",
       "Destroys [in all cities] cities instead of capturing",
       "[-3] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
       "[-2] Sight <in [High Flux Space] tiles> <hidden from users>",
