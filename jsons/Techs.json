@@ -15,10 +15,7 @@
 				"name": "Xeno-Genetics",
 				"row": 2,
 				"quote": "Splice carefully; you wouldn't want your lab assistant growing an extra pair of arms before lunch.",
-				"uniques": [
-    "Unavailable <for [Aegis Directorate] Civilizations>",
-    "Unavailable <for [Cryo-Logic Assembly] Civilizations>"
-				]
+				"uniques": ["Unavailable <for [Aegis Directorate] Civilizations>", "Unavailable <for [Cryo-Logic Assembly] Civilizations>"]
 			},
 			{
 				"name": "Refactoring - 1",
@@ -58,7 +55,7 @@
 				],
 				"row": 2,
 				"quote": "Why negotiate when you can just rewrite their neural pathways directly?",
-				"uniques": ["Unavailable <for [{Aegis Directorate} {Cryo-Logic Assembly} {Helios Glassworks} {Caldera Hegemony}] Civilizations>"]
+				"uniques": ["Unavailable <for [Aegis Directorate] Civilizations>", "Unavailable <for [Cryo-Logic Assembly] Civilizations>"]
 			},
 			{
 				"name": "Refactoring - 2",
@@ -95,7 +92,7 @@
 			},
 			{
 				"name": "Engagement Boost",
-				"uniques": ["Unavailable <for [{Aegis Directorate} {Cryo-Logic Assembly} {Helios Glassworks} {Caldera Hegemony}] Civilizations>"],
+				"uniques": ["Unavailable <for [Aegis Directorate] Civilizations>", "Unavailable <for [Cryo-Logic Assembly] Civilizations>"]
 				"prerequisites": [
 					"Generational Ships"
 				],
@@ -128,7 +125,7 @@
 				],
 				"row": 2,
 				"quote": "Why individuality when you can share a headache with ten trillion of your closest friends?",
-				"uniques": ["Unavailable <for [{Aegis Directorate} {Cryo-Logic Assembly} {Helios Glassworks} {Caldera Hegemony}] Civilizations>"]
+				"uniques": ["Unavailable <for [Aegis Directorate] Civilizations>", "Unavailable <for [Cryo-Logic Assembly] Civilizations>"]
 			},
 			{
 				"name": "Refactoring - 3",
@@ -161,7 +158,7 @@
 				"prerequisites": [
 					"Engagement Boost"
 				],
-				"uniques": ["Unavailable <for [{Aegis Directorate} {Cryo-Logic Assembly} {Helios Glassworks} {Caldera Hegemony}] Civilizations>"],
+				"uniques": ["Unavailable <for [Aegis Directorate] Civilizations>", "Unavailable <for [Cryo-Logic Assembly] Civilizations>"]
 				"row": 6,
 				"quote": "Because getting hit by a speck of dust at a million miles per hour is surprisingly painful."
 			},
@@ -205,18 +202,19 @@
 				],
 				"row": 2,
 				"quote": "When flesh becomes code, every heartbeat computes a universe.",
-				"uniques": ["Unavailable <for [{Aegis Directorate} {Cryo-Logic Assembly} {Helios Glassworks} {Caldera Hegemony}] Civilizations>"]
+				"uniques": ["Unavailable <for [Aegis Directorate] Civilizations>", "Unavailable <for [Cryo-Logic Assembly] Civilizations>"]
 			},
 			{
 				"name": "Bio-Hybridization",
 				"row": 3,
 				"cost": 1,
-				"prerequisites": ["Orbital Swarming", "Hive-Mind Engineering"]
+				"prerequisites": ["Orbital Swarming", "Hive-Mind Engineering"],
+				"uniques": ["Unavailable <for [Aegis Directorate] Civilizations>", "Unavailable <for [Cryo-Logic Assembly] Civilizations>"]
 			},
 			{
 				"name": "Fluid-State Machinery",
 				"row": 4,
-				"uniques": ["Unavailable <for [{Aegis Directorate} {Cryo-Logic Assembly}] Civilizations>"],
+				"uniques": ["Unavailable <for [Aegis Directorate] Civilizations>", "Unavailable <for [Cryo-Logic Assembly] Civilizations>"],
 				"prerequisites": ["Orbital Swarming", "Pre-Tracting Ionization"]
 			},
 			{
@@ -260,7 +258,7 @@
 				"prerequisites": [
 					"Artificial Super Intelligence"
 				],
-				"uniques": ["Unavailable <for [{Aegis Directorate} {Cryo-Logic Assembly}] Civilizations>"],
+				"uniques": ["Unavailable <for [Aegis Directorate] Civilizations>", "Unavailable <for [Cryo-Logic Assembly] Civilizations>"]
 				"row": 9,
 				"quote": "We call it 'strange' because it defies all known science. Also, it hums show tunes."
 			},
@@ -294,7 +292,7 @@
 				"prerequisites": [
 					"High Efficiency Fusion"
 				],
-				"uniques": ["Unavailable <for [{Aegis Directorate} {Cryo-Logic Assembly}] Civilizations>"],
+				"uniques": ["Unavailable <for [Aegis Directorate] Civilizations>", "Unavailable <for [Cryo-Logic Assembly] Civilizations>"]
 				"row": 5,
 				"quote": "It's like a garden hose, but for melting things."
 			},
@@ -313,7 +311,7 @@
 					"Laser Propulsion",
 					"Quantum Computing"
 				],
-				"uniques": ["Unavailable <for [{Aegis Directorate} {Cryo-Logic Assembly}] Civilizations>"],
+				"uniques": ["Unavailable <for [Aegis Directorate] Civilizations>", "Unavailable <for [Cryo-Logic Assembly] Civilizations>"]
 				"cost": 35,
 				"row": 7
 			}
@@ -331,7 +329,7 @@
 				"prerequisites": [
 					"Directed Plasma"
 				],
-				"uniques": ["Unavailable <for [{Aegis Directorate} {Cryo-Logic Assembly}] Civilizations>"],
+				"uniques": ["Unavailable <for [Aegis Directorate] Civilizations>", "Unavailable <for [Cryo-Logic Assembly] Civilizations>"]
 				"row": 5,
 				"quote": "Why did the tachyon cross the road? Because it was already on the other side yesterday, and frankly, laughing at it violates causality."
 			}
