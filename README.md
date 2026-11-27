@@ -4,6 +4,7 @@ Launch missiles, Conquer space. Enable 'permanent audio-visual mod.'
 
 ## to-do
 
+- new wonders look wrong
 - drop extra unavailable from Lazer.  update ea in units for per civ. comment for units where your may be constrained for player civs 
 - Events, Quests, Great people
 - quotes and text
