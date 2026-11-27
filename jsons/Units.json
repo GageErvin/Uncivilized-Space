@@ -1181,7 +1181,7 @@
     ]
   },
   {
-    "name": "Cybernetic Weaponship",
+    "name": "Bio-Mechanical Weaponship",
     "requiredTech": "Bio-Singularity",
     "unitType": "Cybernetic-Unit",
     "strength": 28,
