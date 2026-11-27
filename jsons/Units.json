@@ -1204,15 +1204,16 @@
     "name": "Little Blue",
     "unitType": "Cybernetic-Unit",
     "requiredTech": "Xeno-Genetics",
-    "cost": 15,
-    "movement": 4,
+    "cost": 85,
+    "movement": 3,
     "uniques":[
       "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
       "[-2] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
       "[-2] Movement <in [High Flux Space] tiles> <hidden from users>",
       "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
-      "Can build [Land] improvements on tiles <by consuming this unit>",
-      "Can build [Water] improvements on tiles <hidden from users> <by consuming this unit>"
+      "Can build [Land] improvements on tiles",
+      "Can build [Water] improvements on tiles <hidden from users>",
+      "Invisible to non-adjacent units"
     ]
   },
   {
@@ -1235,6 +1236,8 @@
     "unitType": "Cybernetic-Unit",
     "requiredTech": "Hive-Mind Engineering",
     "cost": 85,
+    "rangedStrength": 8,
+    "range": 2,
     "movement": 3,
     "uniques":[
       "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
@@ -1242,8 +1245,7 @@
       "[-2] Movement <in [High Flux Space] tiles> <hidden from users>",
       "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
       "Can build [Land] improvements on tiles",
-      "Can build [Water] improvements on tiles <hidden from users>",
-      "Invisible to non-adjacent units"
+      "Can build [Water] improvements on tiles <hidden from users>"
     ]
   },
   {
