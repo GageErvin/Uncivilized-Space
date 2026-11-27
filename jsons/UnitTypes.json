@@ -270,7 +270,10 @@
             "May heal outside of friendly territory",
             "Gain [3] [Culture]",
             "Unbuildable <for [{Barbarians} {z_ Spore-Borne Parasite}] Civilizations> <hidden from users>",
-            "Unavailable <for [{Aegis Directorate} {Cryo-Logic Assembly} {The Ironbound Concord} {The Roche Choir}] Civilizations>"
+            "Unavailable <for [Aegis Directorate] Civilizations>",
+            "Unavailable <for [Cryo-Logic Assembly] Civilizations>",
+            "Unavailable <for [The Ironbound Concord] Civilizations>",
+            "Unavailable <for [The Roche Choir] Civilizations>"
         ]
     },
     {
