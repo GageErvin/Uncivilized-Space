@@ -531,8 +531,7 @@
     "name": "Flechette Spreader",
     "unitType": "Thinking Drone",
     "uniques": [
-      "Only available <for [Caldera Hegemony] Civilizations>",
-      "Only available <for [Helios Glassworks] Civilizations>",
+      "Only available <for [{Caldera Hegemony} {Helios Glassworks}] Civilizations>",
       "Can instantly construct a [Deployed Flechettes] improvement",
       "Destroys [in all cities] cities instead of capturing",
       "[-1] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
@@ -558,8 +557,7 @@
     "name": "Flechette Humbler",
     "unitType": "Thinking Drone",
     "uniques": [
-      "Only available <for [Helios Glassworks] Civilizations>",
-      "Only available <for [Caldera Hegemony] Civilizations>",
+      "Only available <for [{Caldera Hegemony} {Helios Glassworks}] Civilizations>",
       "Can instantly construct a [Deployed Flechettes] improvement",
       "Destroys [in all cities] cities instead of capturing",
       "[-2] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
@@ -586,8 +584,7 @@
     "name": "Flechette Leviathan",
     "unitType": "Thinking Drone",
     "uniques": [
-      "Only available <for [Helios Glassworks] Civilizations>",
-      "Only available <for [Caldera Hegemony] Civilizations>",
+      "Only available <for [{Caldera Hegemony} {Helios Glassworks}] Civilizations>",
       "Can instantly construct a [Deployed Flechettes] improvement",
       "Destroys [in all cities] cities instead of capturing",
       "[-3] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
