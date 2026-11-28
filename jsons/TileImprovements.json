@@ -209,7 +209,6 @@
   },
   {
     "name": "Deployed Flechettes",
-    "turnsToBuild": 8,
     "terrainsCanBeBuiltOn": [
       "Land", "Water"
     ],
@@ -222,7 +221,6 @@
   },
   {
     "name": "Deployed Bundle",
-    "turnsToBuild": 8,
     "terrainsCanBeBuiltOn": [
       "Land",
       "Water"
