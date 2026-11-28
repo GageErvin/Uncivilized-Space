@@ -531,7 +531,6 @@
     "name": "Flechette Spreader",
     "unitType": "Thinking Drone",
     "uniques": [
-      //"Only available <for [{Caldera Hegemony} {Helios Glassworks}] Civilizations>",
       "Can instantly construct a [Deployed Flechettes] improvement",
       "Destroys [in all cities] cities instead of capturing",
       "[-1] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
@@ -540,7 +539,17 @@
       "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
       "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
       "[+2] Sight",
-      "Comment [Cannot be built for z_ Spore-Borne Parasite, Barbarians, Cryo-Logic Assembly, Flat-Universe Society, z_ Galactic Paperclip Initiative, Mycelia Trade Guild, The Ironbound Concord, The Roche Choir, Aegis Directorate, and The Driftwood Compact.]"
+      "Comment [Can be built by Caldera Hegemony, Helios Glassworks]",
+      "Unavailable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
+      "Unavailable <for [z_ Galactic Paperclip Initiative] Civilizations> <hidden from users>",
+      "Unavailable <for [Barbarians] Civilizations> <hidden from users>",
+      "Unavailable <for [Flat-Universe Society] Civilizations> <hidden from users>",
+      "Unavailable <for [Cryo-Logic Assembly] Civilizations> <hidden from users>",
+      "Unavailable <for [Aegis Directorate] Civilizations> <hidden from users>",
+      "Unavailable <for [Mycelia Trade Guild] Civilizations> <hidden from users>",
+      "Unavailable <for [The Driftwood Compact] Civilizations> <hidden from users>",
+      "Unavailable <for [The Ironbound Concord] Civilizations> <hidden from users>",
+      "Unavailable <for [The Roche Choir] Civilizations> <hidden from users>"
     ],
     "strength": 12,
     "rangedStrength": 20,
@@ -557,7 +566,6 @@
     "name": "Flechette Humbler",
     "unitType": "Thinking Drone",
     "uniques": [
-      "Only available <for [{Caldera Hegemony} {Helios Glassworks}] Civilizations>",
       "Can instantly construct a [Deployed Flechettes] improvement",
       "Destroys [in all cities] cities instead of capturing",
       "[-2] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
@@ -567,7 +575,17 @@
       "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
       "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
       "[+2] Sight",
-      "Comment [Cannot be built for z_ Spore-Borne Parasite, Barbarians, Cryo-Logic Assembly, Flat-Universe Society, z_ Galactic Paperclip Initiative, Mycelia Trade Guild, The Ironbound Concord, The Roche Choir, Aegis Directorate, and The Driftwood Compact.]"
+      "Comment [Can be built by Caldera Hegemony, Helios Glassworks]",
+      "Unavailable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
+      "Unavailable <for [z_ Galactic Paperclip Initiative] Civilizations> <hidden from users>",
+      "Unavailable <for [Barbarians] Civilizations> <hidden from users>",
+      "Unavailable <for [Flat-Universe Society] Civilizations> <hidden from users>",
+      "Unavailable <for [Cryo-Logic Assembly] Civilizations> <hidden from users>",
+      "Unavailable <for [Aegis Directorate] Civilizations> <hidden from users>",
+      "Unavailable <for [Mycelia Trade Guild] Civilizations> <hidden from users>",
+      "Unavailable <for [The Driftwood Compact] Civilizations> <hidden from users>",
+      "Unavailable <for [The Ironbound Concord] Civilizations> <hidden from users>",
+      "Unavailable <for [The Roche Choir] Civilizations> <hidden from users>"
     ],
     "strength": 18,
     "rangedStrength": 25,
@@ -584,7 +602,6 @@
     "name": "Flechette Leviathan",
     "unitType": "Thinking Drone",
     "uniques": [
-      "Only available <for [{Caldera Hegemony} {Helios Glassworks}] Civilizations>",
       "Can instantly construct a [Deployed Flechettes] improvement",
       "Destroys [in all cities] cities instead of capturing",
       "[-3] Sight <in [Extreme Flux Space] tiles> <hidden from users>",
@@ -596,7 +613,17 @@
       "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
       "[+4] Sight",
       "[1] additional attacks per turn",
-      "Comment [Cannot be built for z_ Spore-Borne Parasite, Barbarians, Cryo-Logic Assembly, Flat-Universe Society, z_ Galactic Paperclip Initiative, Mycelia Trade Guild, The Ironbound Concord, The Roche Choir, Aegis Directorate, and The Driftwood Compact.]"
+      "Comment [Can be built by Caldera Hegemony, Helios Glassworks]",
+      "Unavailable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
+      "Unavailable <for [z_ Galactic Paperclip Initiative] Civilizations> <hidden from users>",
+      "Unavailable <for [Barbarians] Civilizations> <hidden from users>",
+      "Unavailable <for [Flat-Universe Society] Civilizations> <hidden from users>",
+      "Unavailable <for [Cryo-Logic Assembly] Civilizations> <hidden from users>",
+      "Unavailable <for [Aegis Directorate] Civilizations> <hidden from users>",
+      "Unavailable <for [Mycelia Trade Guild] Civilizations> <hidden from users>",
+      "Unavailable <for [The Driftwood Compact] Civilizations> <hidden from users>",
+      "Unavailable <for [The Ironbound Concord] Civilizations> <hidden from users>",
+      "Unavailable <for [The Roche Choir] Civilizations> <hidden from users>"
     ],
     "strength": 20,
     "rangedStrength": 25,
@@ -619,8 +646,17 @@
       "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
       "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
       "[+1] Sight",
-      "Only available <for [{Aegis Directorate} {Cryo-Logic Assembly}] Civilizations>",
-      "Comment [Cannot be built for z_ Spore-Borne Parasite, Barbarians, Caldera Hegemony, Helios Glassworks, Flat-Universe Society, z_ Galactic Paperclip Initiative, Mycelia Trade Guild, The Ironbound Concord, The Roche Choir, and The Driftwood Compact.]"
+      "Comment [Can be built by Aegis Directorate, Cryo-Logic Assembly]",
+      "Unavailable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
+      "Unavailable <for [z_ Galactic Paperclip Initiative] Civilizations> <hidden from users>",
+      "Unavailable <for [Barbarians] Civilizations> <hidden from users>",
+      "Unavailable <for [Flat-Universe Society] Civilizations> <hidden from users>",
+      "Unavailable <for [Caldera Hegemony] Civilizations> <hidden from users>",
+      "Unavailable <for [Helios Glassworks] Civilizations> <hidden from users>",
+      "Unavailable <for [Mycelia Trade Guild] Civilizations> <hidden from users>",
+      "Unavailable <for [The Driftwood Compact] Civilizations> <hidden from users>",
+      "Unavailable <for [The Ironbound Concord] Civilizations> <hidden from users>",
+      "Unavailable <for [The Roche Choir] Civilizations> <hidden from users>"
     ],
     "name": "Quarrel Drone-Swarm",
     "unitType": "Thinking Drone",
@@ -643,7 +679,7 @@
       "[+1] Sight",
       "Unbuildable",
       "Cannot be purchased",
-      "Comment [Cannot be built by any nation.]"
+      "Comment [Can only be built via upgrade.]"
     ],
     "name": "Sentinel Drone-Swarm",
     "unitType": "Thinking Drone",
@@ -666,7 +702,7 @@
       "[+1] Sight",
       "Unbuildable",
       "Cannot be purchased",
-      "Comment [Cannot be built by any nation.]"
+      "Comment [Can only be built via upgrade.]"
     ],
     "name": "Sentinel Drone-Fleet",
     "unitType": "Thinking Drone",
