@@ -1260,7 +1260,7 @@
       "[-1] Movement <in [Extreme Flux Space] tiles> <hidden from users>",
       "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
       "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
-      "Comment [Cannot be built for Cryo-Logic Assembly, Flat-Universe Society, z_ Galactic Paperclip Initiative, Mycelia Trade Guild, The Ironbound Concord, z_ Spore-Borne Parasite, Barbarians, Caldera Hegemony, Spectator, The Roche Choir, Aegis Directorate, Helios Glassworks, and The Driftwood Compact.]"
+      "Comment [Can be built by The Ironbound Concord, The Roche Choir]"
     ]
   },
   {
@@ -1281,7 +1281,7 @@
       "[-1] Movement <in [High Flux Space] tiles> <hidden from users>",
       "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
       "[+2] Sight",
-      "Comment [Cannot be built for Cryo-Logic Assembly, Flat-Universe Society, z_ Galactic Paperclip Initiative, Mycelia Trade Guild, The Ironbound Concord, z_ Spore-Borne Parasite, Barbarians, Caldera Hegemony, Spectator, The Roche Choir, Aegis Directorate, Helios Glassworks, and The Driftwood Compact.]"
+      "Comment [Can be built by The Ironbound Concord, The Roche Choir]"
     ]
   },
   {
@@ -1302,7 +1302,7 @@
       "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
       "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
       "[+3] Sight",
-      "Comment [Cannot be built for Cryo-Logic Assembly, Flat-Universe Society, z_ Galactic Paperclip Initiative, Mycelia Trade Guild, The Ironbound Concord, z_ Spore-Borne Parasite, Barbarians, Caldera Hegemony, Spectator, The Roche Choir, Aegis Directorate, Helios Glassworks, and The Driftwood Compact.]"
+      "Comment [Can be built by The Ironbound Concord, The Roche Choir.]"
     ]
   },
   {
@@ -1319,7 +1319,7 @@
       "Can build [Land] improvements on tiles",
       "Can build [Water] improvements on tiles <hidden from users>",
       "Invisible to non-adjacent units",
-      "Comment [Cannot be built for Cryo-Logic Assembly, Flat-Universe Society, z_ Galactic Paperclip Initiative, Mycelia Trade Guild, The Ironbound Concord, z_ Spore-Borne Parasite, Barbarians, Caldera Hegemony, Spectator, The Roche Choir, Aegis Directorate, Helios Glassworks, and The Driftwood Compact.]"
+      "Comment [Can be built by The Ironbound Concord, The Roche Choir.]"
     ]
   },
   {
@@ -1335,7 +1335,7 @@
       "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
       "Can build [Land] improvements on tiles",
       "Can build [Water] improvements on tiles <hidden from users>",
-      "Comment [Cannot be built for Cryo-Logic Assembly, Flat-Universe Society, z_ Galactic Paperclip Initiative, Mycelia Trade Guild, The Ironbound Concord, z_ Spore-Borne Parasite, Barbarians, Caldera Hegemony, Spectator, The Roche Choir, Aegis Directorate, Helios Glassworks, and The Driftwood Compact.]"
+      "Comment [Can be built by The Ironbound Concord, The Roche Choir.]"
     ]
   },
   {
@@ -1354,7 +1354,7 @@
       "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
       "Can build [Land] improvements on tiles",
       "Can build [Water] improvements on tiles <hidden from users>",
-      "Comment [Cannot be built for Cryo-Logic Assembly, Flat-Universe Society, z_ Galactic Paperclip Initiative, Mycelia Trade Guild, The Ironbound Concord, z_ Spore-Borne Parasite, Barbarians, Caldera Hegemony, Spectator, The Roche Choir, Aegis Directorate, Helios Glassworks, and The Driftwood Compact.]"
+      "Comment [Can be built by The Ironbound Concord, The Roche Choir.]"
     ]
   },
   {
