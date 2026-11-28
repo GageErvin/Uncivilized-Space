@@ -122,7 +122,8 @@
       "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
       "Can build [Land] improvements on tiles",
       "Can build [Water] improvements on tiles <hidden from users>",
-      "Comment [Cannot be built for z_ Spore-Borne Parasite and Barbarians.]"
+      "Comment [Cannot be built for z_ Spore-Borne Parasite and Barbarians.]",
+      "May create improvements on water resources <hidden from users>"
     ]
   },
   {
@@ -236,7 +237,8 @@
       "[+1] Movement <in [Magnetic Acceleration Relay] tiles>",
       "Can build [Land] improvements on tiles",
       "Can build [Water] improvements on tiles <hidden from users>",
-      "Comment [Cannot be built for z_ Spore-Borne Parasite and Barbarians.]"
+      "Comment [Cannot be built for z_ Spore-Borne Parasite and Barbarians.]",
+      "May create improvements on water resources <hidden from users>"
     ]
   },
   {
@@ -549,7 +551,8 @@
       "Unavailable <for [Mycelia Trade Guild] Civilizations> <hidden from users>",
       "Unavailable <for [The Driftwood Compact] Civilizations> <hidden from users>",
       "Unavailable <for [The Ironbound Concord] Civilizations> <hidden from users>",
-      "Unavailable <for [The Roche Choir] Civilizations> <hidden from users>"
+      "Unavailable <for [The Roche Choir] Civilizations> <hidden from users>",
+      "May create improvements on water resources <hidden from users>"
     ],
     "strength": 12,
     "rangedStrength": 20,
@@ -585,7 +588,8 @@
       "Unavailable <for [Mycelia Trade Guild] Civilizations> <hidden from users>",
       "Unavailable <for [The Driftwood Compact] Civilizations> <hidden from users>",
       "Unavailable <for [The Ironbound Concord] Civilizations> <hidden from users>",
-      "Unavailable <for [The Roche Choir] Civilizations> <hidden from users>"
+      "Unavailable <for [The Roche Choir] Civilizations> <hidden from users>",
+      "May create improvements on water resources <hidden from users>"
     ],
     "strength": 18,
     "rangedStrength": 25,
@@ -623,7 +627,8 @@
       "Unavailable <for [Mycelia Trade Guild] Civilizations> <hidden from users>",
       "Unavailable <for [The Driftwood Compact] Civilizations> <hidden from users>",
       "Unavailable <for [The Ironbound Concord] Civilizations> <hidden from users>",
-      "Unavailable <for [The Roche Choir] Civilizations> <hidden from users>"
+      "Unavailable <for [The Roche Choir] Civilizations> <hidden from users>",
+      "May create improvements on water resources <hidden from users>"
     ],
     "strength": 20,
     "rangedStrength": 25,
@@ -1319,7 +1324,8 @@
       "Can build [Land] improvements on tiles",
       "Can build [Water] improvements on tiles <hidden from users>",
       "Invisible to non-adjacent units",
-      "Comment [Can be built by The Ironbound Concord, The Roche Choir.]"
+      "Comment [Can be built by The Ironbound Concord, The Roche Choir.]",
+      "May create improvements on water resources <hidden from users>"
     ]
   },
   {
@@ -1335,7 +1341,8 @@
       "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
       "Can build [Land] improvements on tiles",
       "Can build [Water] improvements on tiles <hidden from users>",
-      "Comment [Can be built by The Ironbound Concord, The Roche Choir.]"
+      "Comment [Can be built by The Ironbound Concord, The Roche Choir.]",
+      "May create improvements on water resources <hidden from users>"
     ]
   },
   {
@@ -1354,7 +1361,8 @@
       "[-1] Movement <in [Moderate Flux Space] tiles> <hidden from users>",
       "Can build [Land] improvements on tiles",
       "Can build [Water] improvements on tiles <hidden from users>",
-      "Comment [Can be built by The Ironbound Concord, The Roche Choir.]"
+      "Comment [Can be built by The Ironbound Concord, The Roche Choir.]",
+      "May create improvements on water resources <hidden from users>"
     ]
   },
   {
