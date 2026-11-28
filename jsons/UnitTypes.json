@@ -266,13 +266,22 @@
         "movementType": "Land",
         "uniques": [
             "Free [Spore] appears <upon being defeated> <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
-            "Only available <for [{The Ironbound Concord} {The Roche Choir}] Civilizations> <hidden from users>",
             "May travel on Water tiles without embarking <hidden from users>",
             "Ignores terrain cost <hidden from users>",
             "Eliminates combat penalty for attacking over a river <hidden from users>",
             "Eliminates combat penalty for attacking across a coast <hidden from users>",
             "May heal outside of friendly territory",
-            "Gain [4] [Culture]"
+            "Gain [4] [Culture]",
+            "Unavailable <for [z_ Spore-Borne Parasite] Civilizations> <hidden from users>",
+            "Unavailable <for [z_ Galactic Paperclip Initiative] Civilizations> <hidden from users>",
+            "Unavailable <for [Barbarians] Civilizations> <hidden from users>",
+            "Unavailable <for [Flat-Universe Society] Civilizations> <hidden from users>",
+            "Unavailable <for [Caldera Hegemony] Civilizations> <hidden from users>",
+            "Unavailable <for [Helios Glassworks] Civilizations> <hidden from users>",
+            "Unavailable <for [Mycelia Trade Guild] Civilizations> <hidden from users>",
+            "Unavailable <for [The Driftwood Compact] Civilizations> <hidden from users>",
+            "Unavailable <for [Aegis Directorate] Civilizations> <hidden from users>",
+            "Unavailable <for [Cryo-Logic Assembly] Civilizations> <hidden from users>"
         ]
     },
     {
