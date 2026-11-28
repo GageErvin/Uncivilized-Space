@@ -256,7 +256,7 @@
 				"prerequisites": [
 					"Artificial Super Intelligence"
 				],
-				"uniques": ["Unavailable <for [Aegis Directorate] Civilizations>", "Unavailable <for [Cryo-Logic Assembly] Civilizations>"]
+				"uniques": ["Unavailable <for [Aegis Directorate] Civilizations>", "Unavailable <for [Cryo-Logic Assembly] Civilizations>"],
 				"row": 9,
 				"quote": "We call it 'strange' because it defies all known science. Also, it hums show tunes."
 			},
@@ -290,7 +290,7 @@
 				"prerequisites": [
 					"High Efficiency Fusion"
 				],
-				"uniques": ["Unavailable <for [Aegis Directorate] Civilizations>", "Unavailable <for [Cryo-Logic Assembly] Civilizations>"]
+				"uniques": ["Unavailable <for [Aegis Directorate] Civilizations>", "Unavailable <for [Cryo-Logic Assembly] Civilizations>"],
 				"row": 5,
 				"quote": "It's like a garden hose, but for melting things."
 			},
@@ -309,7 +309,7 @@
 					"Laser Propulsion",
 					"Quantum Computing"
 				],
-				"uniques": ["Unavailable <for [Aegis Directorate] Civilizations>", "Unavailable <for [Cryo-Logic Assembly] Civilizations>"]
+				"uniques": ["Unavailable <for [Aegis Directorate] Civilizations>", "Unavailable <for [Cryo-Logic Assembly] Civilizations>"],
 				"cost": 35,
 				"row": 7
 			}
@@ -327,7 +327,7 @@
 				"prerequisites": [
 					"Directed Plasma"
 				],
-				"uniques": ["Unavailable <for [Aegis Directorate] Civilizations>", "Unavailable <for [Cryo-Logic Assembly] Civilizations>"]
+				"uniques": ["Unavailable <for [Aegis Directorate] Civilizations>", "Unavailable <for [Cryo-Logic Assembly] Civilizations>"],
 				"row": 5,
 				"quote": "Why did the tachyon cross the road? Because it was already on the other side yesterday, and frankly, laughing at it violates causality."
 			}
